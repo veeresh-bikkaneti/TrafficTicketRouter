@@ -203,6 +203,7 @@ cards:
   - id: dmv-record
     verification: keys_documented
     source_url: "https://dmv.nebraska.gov/dvr/obtaining-driving-record"
+    verification_note: "Resolves with a redirect to /dvr/obtaining-driver-record; check-links.mjs follows redirects."
     last_verified: "2026-09-20"
     kind: dmv
     agency: "Nebraska DMV — copy of your own driving record"
