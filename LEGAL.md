@@ -1,5 +1,9 @@
 # LEGAL.md — what this project is and is not, legally
 
+TicketRouter is a free static website that, given *where a stop happened*,
+points a person at the official Nebraska court or DMV page they must use
+themselves. It does not search, store, or interpret anyone's tickets.
+
 ## Not legal advice
 
 TicketRouter is a directory of official Nebraska court and DMV pages. It does

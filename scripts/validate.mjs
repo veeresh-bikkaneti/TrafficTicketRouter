@@ -4,11 +4,33 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename } from 'node:path';
 import { parseYAML } from './yaml.mjs';
 
+// Cards must never be tagged vin_only: no court URL may present itself as a
+// VIN lookup, so the router's intent set (which includes vin_only) is wider
+// than this list on purpose. See router.js for the router side.
 const INTENTS = ['lost_paper', 'history', 'handle_it'];
 const VERIFICATIONS = ['unverified', 'link_ok', 'keys_documented', 'handoff_tested', 'disabled'];
 const KINDS = ['statewide_cms', 'pay_portal', 'county_court', 'dmv', 'self_help', 'guidance'];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const JUSTICE_COST_NOTES = 'confirm fee on the terms page; $17 as of 2026-09-20';
+
+// M1: defense-in-depth — every URL a contributor adds must live on an official
+// host. Human review stays the real gate; this is the automated one.
+const OFFICIAL_HOSTS = ['nebraskajudicial.gov', 'nebraska.gov', 'nefindalawyer.com'];
+
+function hostIsOfficial(url) {
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return OFFICIAL_HOSTS.some((h) => host === h || host.endsWith('.' + h));
+  } catch {
+    return false;
+  }
+}
+
+function isRealDate(s) {
+  if (!DATE_RE.test(s)) return false;
+  const d = new Date(s + 'T00:00:00Z');
+  return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s;
+}
 
 const errors = [];
 const err = (file, msg) => errors.push(`${file}: ${msg}`);
@@ -30,7 +52,7 @@ function validateFile(path) {
   const code = file.replace(/\.ya?ml$/, '');
   check(data.state === code, file, `state "${data.state}" must match file name "${code}"`);
   check(typeof data.state_name === 'string' && data.state_name.length > 0, file, 'state_name required');
-  check(DATE_RE.test(data.last_verified || ''), file, 'last_verified must be YYYY-MM-DD');
+  check(isRealDate(data.last_verified || ''), file, 'last_verified must be a real YYYY-MM-DD date');
 
   const counties = data.counties;
   check(Array.isArray(counties) && counties.length > 0, file, 'counties must be a non-empty list');
@@ -50,6 +72,7 @@ function validateFile(path) {
     const id = card && card.id ? String(card.id) : '(missing id)';
     const where = `${file} card "${id}"`;
     if (!card || typeof card !== 'object') { err(file, 'card must be a mapping'); continue; }
+    check(/^[a-z0-9-]+$/.test(card.id || ''), file, `card id "${card.id}" must be lowercase letters, digits, hyphens`);
     check(!ids.has(card.id), file, `duplicate card id "${card.id}"`);
     ids.add(card.id);
     for (const f of ['agency', 'accepted_keys', 'cost']) {
@@ -60,13 +83,18 @@ function validateFile(path) {
     check(typeof card.cost_free === 'boolean', file, `${where}: cost_free must be boolean`);
     check(Array.isArray(card.limitations) && card.limitations.length > 0 &&
       card.limitations.every(l => typeof l === 'string'), file, `${where}: limitations must be a non-empty string list`);
-    check(DATE_RE.test(card.last_verified || ''), file, `${where}: last_verified must be YYYY-MM-DD`);
+    check(isRealDate(card.last_verified || ''), file, `${where}: last_verified must be a real YYYY-MM-DD date`);
     check(Number.isInteger(card.weight), file, `${where}: weight must be an integer`);
     check(Array.isArray(card.for_intents) && card.for_intents.length > 0 &&
       card.for_intents.every(i => INTENTS.includes(i)), file, `${where}: bad for_intents`);
     check(Array.isArray(card.for_counties) && card.for_counties.length > 0, file, `${where}: for_counties required`);
     for (const co of card.for_counties || []) {
       check(co === '*' || countyNames.has(co), file, `${where}: unknown county "${co}"`);
+    }
+    // The router only honors exclude_counties when for_counties is ['*'].
+    if ((card.exclude_counties || []).length > 0) {
+      check((card.for_counties || []).includes('*'),
+        file, `${where}: exclude_counties is ignored unless for_counties is ["*"]`);
     }
     for (const co of card.exclude_counties || []) {
       check(countyNames.has(co), file, `${where}: unknown exclude_county "${co}"`);
@@ -76,6 +104,8 @@ function validateFile(path) {
     } else {
       check(typeof card.source_url === 'string' && card.source_url.startsWith('https://'),
         file, `${where}: source_url must be https`);
+      check(hostIsOfficial(card.source_url),
+        file, `${where}: source_url host is not on the official allowlist ${OFFICIAL_HOSTS.join(', ')}`);
     }
     if (card.link_check != null) {
       check(['auto', 'manual'].includes(card.link_check), file, `${where}: bad link_check`);
@@ -83,10 +113,15 @@ function validateFile(path) {
     for (const l of card.extra_links || []) {
       check(l && typeof l.label === 'string' && typeof l.source_url === 'string' &&
         l.source_url.startsWith('https://'), file, `${where}: bad extra_link`);
+      check(hostIsOfficial(l.source_url),
+        file, `${where}: extra_link host is not on the official allowlist`);
     }
-    // Policy: JUSTICE-style paid cards must never claim to be free.
+    // Policy: fee honesty in both directions.
     if (card.cost_free === false) {
       check(!/\bfree\b/i.test(card.cost), file, `${where}: cost_free=false but cost text says "free"`);
+    } else {
+      check(!/fee|\bcharge\b|\$[\d]/.test(card.cost),
+        file, `${where}: cost_free=true but cost text mentions a fee or charge`);
     }
     // Policy (locked scope): the JUSTICE card must carry the exact confirm-fee note.
     if (card.id === 'justice-search') {

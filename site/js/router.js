@@ -4,6 +4,9 @@
 // Output: { type: 'cards', cards: [...] }
 //         { type: 'explainer', page: 'vin.html', cards: [] }   (vin_only)
 //         { type: 'cannot-route', reason, cards: [] }
+// Note: 'vin_only' is handled here but must never appear as a card's for_intent
+// in data — validate.mjs enforces that on purpose, because no court URL may
+// present itself as a VIN lookup.
 const ALLOWED_VERIFICATION = new Set(['link_ok', 'keys_documented', 'handoff_tested']);
 
 export function route(data, query) {

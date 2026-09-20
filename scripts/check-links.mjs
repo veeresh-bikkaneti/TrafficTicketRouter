@@ -26,6 +26,11 @@ async function check(url) {
         headers: { 'user-agent': UA },
       });
     }
+    if (res.status === 429) {
+      // The host asked us to slow down. Do not fall back to GET (that doubles
+      // the load); report it and let the operator decide.
+      return { ok: false, status: 429, final: res.url, error: 'rate-limited' };
+    }
     // Drain small bodies so sockets close cleanly.
     if (res.body) { try { await res.arrayBuffer(); } catch { /* ignore */ } }
     return { ok: res.status >= 200 && res.status < 400, status: res.status, final: res.url };

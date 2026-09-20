@@ -15,7 +15,12 @@ if (files.length === 0) {
   process.exit(1);
 }
 for (const f of files) {
-  const data = parseYAML(readFileSync(join(inDir, f), 'utf8'));
+  let data;
+  try {
+    data = parseYAML(readFileSync(join(inDir, f), 'utf8'));
+  } catch (e) {
+    throw new Error(`build-data: ${f}: ${e.message}`);
+  }
   const code = String(data.state).toLowerCase();
   const out = join(outDir, `${code}.json`);
   writeFileSync(out, JSON.stringify(data, null, 2) + '\n');

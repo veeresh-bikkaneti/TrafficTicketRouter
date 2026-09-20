@@ -109,7 +109,16 @@ $('to-step-3').addEventListener('click', async () => {
     document.querySelector('input[name="have"]').focus();
     return;
   }
-  const data = await loadData();
+  let data;
+  try {
+    data = await loadData();
+  } catch {
+    $('empty-notice').textContent =
+      'The check could not load its data just now. Check your connection and try again — ' +
+      'nothing was sent anywhere.';
+    show('step-empty');
+    return;
+  }
   const result = route(data, {
     intent,
     state: $('state').value,

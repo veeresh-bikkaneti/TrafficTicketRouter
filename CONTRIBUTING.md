@@ -1,5 +1,9 @@
 # CONTRIBUTING.md
 
+TicketRouter is a free static website that, given *where a stop happened*,
+points a person at the official Nebraska court or DMV page they must use
+themselves. It does not search, store, or interpret anyone's tickets.
+
 ## One rule
 
 **Only add official sources.** If the URL is not on a `.gov`, state judicial
@@ -11,6 +15,8 @@ source table.
 
 1. Read `schema/jurisdiction.schema.json` and `docs/TICKETROUTER-SCOPE.md`.
 2. Edit `data/states/<ST>.yaml` (two-letter code; must match the file name).
+   Values are single-line scalars (plain or quoted) — the vendored parser does
+   not support multi-line values. Wrap long copy in quotes on one line.
 3. Every card needs: `id`, `verification`, `source_url`, `last_verified`,
    `kind`, `agency`, `accepted_keys`, `cost`, `cost_free`, `limitations`,
    `for_intents`, `for_counties`, `weight`.

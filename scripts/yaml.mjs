@@ -41,7 +41,9 @@ export function parseYAML(text) {
   for (const raw of rawLines) {
     const noComment = stripComment(raw);
     if (noComment.trim() === '') continue;
-    const indent = noComment.match(/^ */)[0].length;
+    const lead = noComment.match(/^\s*/)[0];
+    if (lead.includes('\t')) throw new Error(`tab indentation is not allowed near: ${noComment.trim()}`);
+    const indent = lead.length;
     if (indent % 2 !== 0) throw new Error(`odd indentation (${indent}) near: ${noComment.trim()}`);
     lines.push({ indent, text: noComment.trim() });
   }
@@ -67,6 +69,7 @@ export function parseYAML(text) {
       const key = m[1].trim();
       const rest = m[2].trim();
       if (key === '') throw new Error(`empty key near: ${line}`);
+      if (key in obj) throw new Error(`duplicate key "${key}" near: ${line}`);
       if (rest !== '') {
         obj[key] = parseScalar(rest);
       } else {
@@ -95,10 +98,15 @@ export function parseYAML(text) {
       } else if (/^[^:]+:(\s|$)/.test(rest)) {
         // inline map entry: "- key: value" possibly followed by more indented keys
         const m = rest.match(/^([^:]+):(.*)$/);
-        const obj = { [m[1].trim()]: parseScalar(m[2].trim()) };
+        const firstKey = m[1].trim();
+        const obj = { [firstKey]: parseScalar(m[2].trim()) };
         const child = peek();
         if (child && child.indent > indent) {
-          Object.assign(obj, parseMap(child.indent));
+          const more = parseMap(child.indent);
+          for (const k of Object.keys(more)) {
+            if (k in obj) throw new Error(`duplicate key "${k}" near: ${line}`);
+          }
+          Object.assign(obj, more);
         }
         arr.push(obj);
       } else {

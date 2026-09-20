@@ -1,8 +1,8 @@
 # TicketRouter
 
-An open-source, static **router of official U.S. court and DMV pages** for moving
-violations (speeding, DUI, other traffic infractions). We do not search tickets.
-We show you the official page.
+TicketRouter is a free static website that, given *where a stop happened*,
+points a person at the official Nebraska court or DMV page they must use
+themselves. It does not search, store, or interpret anyone's tickets.
 
 **v1 covers Nebraska only.** One state file: `data/states/NE.yaml`.
 
@@ -10,7 +10,7 @@ We show you the official page.
 
 - A directory of verified official URLs: statewide court case search, citation
   payment, county courts, DMV driving-record requests, legal self-help.
-- A 3-step wizard: *what do you need?* → *where?* → destination cards with the
+- A 3-step wizard: *state* → *county* → *what you still have* (choice buttons only — no identity inputs, nothing stored) → destination cards with the
   official links, fees, lags, and limitations.
 - A VIN / plate / title explainer that says plainly what those identifiers can
   and cannot find.
@@ -33,8 +33,8 @@ We show you the official page.
 | What you have | Can it find a speeding ticket? |
 |---|---|
 | Citation number | Yes — on the court's official site for that county |
-| Driver's license | Sometimes — on portals that accept DL search |
-| Name | Sometimes — where the portal supports name search |
+| Driver's license | Only on portals that explicitly offer DL search — Nebraska's JUSTICE searches by name, not DL |
+| Name | Sometimes — where the portal supports name search (Nebraska's JUSTICE does, $17/search) |
 | Plate number | Only camera / parking / toll violations, in some cities |
 | VIN / title / registration | **No.** These identify the vehicle, not the driver. A speeding ticket is issued to a person. |
 

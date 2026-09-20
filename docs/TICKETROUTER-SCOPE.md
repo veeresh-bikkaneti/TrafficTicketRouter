@@ -1,91 +1,90 @@
-# TicketRouter — Scope (v1, Nebraska)
+# TicketRouter — Locked Scope (agent contract)
 
-**Status: PROVISIONAL.** Reconstructed 2026-09-20 from official sources. The locked
-`TICKETROUTER-SCOPE.md` was not in the upload set, so every URL below was individually
-verified against an official `.gov` / judicial-branch / county source on 2026-09-20.
-If Veeresh uploads the locked SCOPE, it supersedes this file. If any instruction
-conflicts with this file, follow this file.
+Date: 2026-09-20. Status: locked for v1 implementation.
+This file wins over the old PBR, Plan v1 prose, and any agent improvisation.
 
-## Locked scope
+## One-sentence product
 
-- v1 covers **Nebraska only**. Exactly one state file: `data/states/NE.yaml`.
-- Do **not** generate 49 empty state files.
-- Moving violations only: speeding, DUI, other traffic infractions/misdemeanors.
-- Router emits only rows with `verification` ∈ `link_ok | keys_documented | handoff_tested`.
-- No identity inputs anywhere in the DOM (see hard refusals in the agent prompt).
-- Parking / toll / red-light-camera: not a v1 job. May appear later as labeled side cards.
+A free static website that, given *where a stop happened*, points a person at the official Nebraska court or DMV page they must use themselves. It does not search, store, or interpret anyone’s tickets.
 
-## Verified Nebraska URL allowlist
+## In scope for v1 (build only this)
 
-Use **only** these URLs in v1, plus the two conditional additions in §3.
+1. Repo + Apache-2.0 + README/LEGAL/CONTRIBUTING that state the sentence above.
+2. JSON Schema + YAML for jurisdictions.
+3. Seed data for **Nebraska only**, with live official URLs:
+   - Statewide court case search (JUSTICE, paid, name/case, lag).
+   - County courts that hear traffic: Lancaster, Douglas, Sarpy (directory rows; traffic venue is county court in all 93 counties).
+   - Official pay/waiver path.
+   - Official judicial-branch traffic self-help.
+   - Official DMV own-record request (the “ever received” path).
+   - Official “lost my ticket” instruction: contact the county court or use the payment site’s help — we do not invent a lookup.
+4. Static wizard: State → County → What you still have (none / citation # fragment as *label only*, not an input we store) → destination cards.
+5. Destination cards: agency name, official URL (new tab, `rel="noopener"`), accepted keys **as text**, fee, lag, last verified, limitations.
+6. VIN/title page: explicit “not a ticket search.”
+7. Validators: schema + URL HEAD/GET check in CI.
+8. Router fixtures that fail if we claim JUSTICE is free or accepts VIN.
 
-### 1. JUSTICE one-time court case search (statewide)
-- URL: `https://www.nebraska.gov/justicecc/ccname.cgi`
-- Terms: `https://www.nebraska.gov/justicecc/terms_and_conditions.html`
-- **$17.00 per search** — charged even when no records are found. Name-based search
-  (party name, not a witness), up to 30 cases, results accessible for 3 days.
-- Covers criminal, civil, **traffic**, juvenile, probate in **all 93 county and district courts**.
-- **24-hour lag** between case entry and appearance in search.
-- Card must **NOT** say free. Limitation line must mention the lag and the no-results-still-charged rule.
+## Out of scope (refuse these tasks)
 
-### 2. Nebraska Judicial Branch Internet Payment System — ePayments (statewide)
-- URL: `https://www.nebraska.gov/apps-courts-epayments/public/index`
-- Pay ticket/citation online. Paying online = waiver of appearance + plea of guilty.
-- Minimum **$1.25 additional charge per case/ticket**. Visa, MasterCard, Discover, eCheck.
-  Payments must total less than $5,000.
-- **Excludes Douglas County.**
-- Lost ticket + no citation number: the official page says to use the "let's chat" option
-  or contact the court office of the county where ticketed.
-- Waiver info (referenced on official waiver forms; verify reachability in check-links,
-  drop if unreachable): `https://nebraska.gov/courts/citations/`
-- Limitation: if the citation is marked "court appearance required" (DUI, driving on
-  suspended license, no insurance, etc.), do **not** pay online before appearing.
+- All other states in v1 (no 50 empty YAML files).
+- DL, name, DOB, plate, VIN, title **input fields** in our HTML.
+- Submitting a search to JUSTICE, DMV, or any court on the user’s behalf.
+- Scrapers, puppeteer, CAPTCHA, credential capture, browser extensions.
+- Accounts, databases, analytics of lookups, Stripe, paid concierge.
+- Case-specific advice (“you should fight this,” “this won’t hit insurance”).
+- People-search, employer/landlord/insurer modes.
+- Paying a fine as a proxy.
+- Claiming “search all US tickets” or “VIN ticket history.”
 
-### 3. Nebraska DMV — copy of OWN driving record (history path)
-- URL: `https://dmv.nebraska.gov/faq/how-do-i-get-copy-my-driving-record`
-- **$15.00 per record.** Online service linked from that page; viewable immediately
-  upon purchase (credit card or e-check).
-- This is the **"have I ever received a violation"** path. Card must label it:
-  **convictions / points / suspensions — not pending tickets.**
-- Do **not** route to anyone-else's record lookup. Self-check only.
+## Official Nebraska sources (use these URLs; do not invent)
 
-### 4. Douglas County Court (Judicial Branch page)
-- URL: `https://supremecourt.nebraska.gov/douglas-county-court`
-- Criminal/Traffic Division, Hall of Justice, 1701 Farnam Street, 2nd Floor,
-  Omaha, NE 68183. Main phone (402) 444-5387.
-- Note on card: Douglas County is **excluded** from the state ePayments system.
+| Role | Official URL | Verified fact |
+|---|---|---|
+| Traffic self-help | https://nebraskajudicial.gov/self-help/traffic | Traffic offenses are heard in **county court**. |
+| Traffic extra info | https://nebraskajudicial.gov/self-help/traffic/additional-information-traffic-cases-nebraska | Waiver allowed only if the citation is marked; statewide waiver/fine schedule exists. |
+| JUSTICE one-time case search | https://www.nebraska.gov/justicecc/ccname.cgi | Covers all 93 county + district courts including traffic. Search is by **party name** (and related filters), **not DL/VIN**. Terms: **$17/search**, no-hit still charged, 24h lag, results ~3 days, max 30 cases. FAQ pages still mention $15 — YAML `cost_notes` must say “confirm fee on the terms page; $17 as of 2026-09-20.” |
+| JUSTICE terms | https://www.nebraska.gov/justicecc/terms_and_conditions.html | $17 fee language. |
+| Court calendars | https://nebraskajudicial.gov/e-services/court-calendars | Hearing dates by date or last name. Not a ticket warehouse. |
+| Pay ticket / citation | https://www.nebraska.gov/apps-courts-epayments/ | Official Judicial Branch Internet Payment System. Processing fee on top of fine. Lost ticket → chat or **county court where issued**. Do not pay online if waiver is not allowed / appearance required. |
+| ePayments explainer | https://nebraskajudicial.gov/e-services/epayments | Same system; court info line (888) 342-6395. |
+| DMV own record | https://dmv.nebraska.gov/dvr/obtaining-driving-record | **$15**/record. Online, mail, in person. Identity + permitted-use rules (Nebraska Uniform MVR Disclosure Act / DPPA analog). Convictions history — not a pending-ticket portal. |
+| DMV online record app | https://www.nebraska.gov/dmv/dlrcc/index.cgi | Immediate view on purchase. |
+| DMV “how do I pay a ticket” | https://dmv.nebraska.gov/faq/how-can-i-pay-my-traffic-or-parking-ticket | Points at the Judicial Branch payment system, not a DMV ticket file. |
+| Title inquiry | DMV online services list (title inquiry ≠ tickets) | Do not route VIN/title here as a ticket search. |
 
-### 5. Lancaster County (county path = statewide cards + court contact)
-- County Court of Lancaster County, Criminal/Traffic: (402) 441-8959.
-  Justice and Law Enforcement Center, 575 South 10th Street, Lincoln, NE 68508.
-- County traffic info (County Attorney, traffic division; STOP program):
-  `https://www.lancaster.ne.gov/Faq.aspx?QID=726`
+## Journeys v1 must implement
 
-### 6. Self-help (official)
-- `https://www.supremecourt.nebraska.gov/selfhelp` — referenced in the official
-  Judicial Branch legal-resources brochure. **Verify in check-links; drop if unreachable.**
-- `https://lawhelpne.legalaidofnebraska.org/` — Legal Aid of Nebraska self-help
-  (information, forms, and links for self-represented persons).
+**J1 — Lost paper, I know the county.**  
+Pick Nebraska → pick county → show: (a) that county court + clerk path, (b) ePayments “lost ticket” note, (c) JUSTICE paid name search with fee/lag warnings, (d) self-help traffic page. User leaves our site.
 
-### 7. Sarpy County
-- No separately verified portal URL. Sarpy card = statewide JUSTICE + ePayments +
-  self-help + DMV inheritance, plus Sarpy County Court contact via the Judicial
-  Branch court directory (text only, no URL unless verified).
-- The agent **may** add the official `supremecourt.nebraska.gov` Sarpy county-court
-  page **only** if it returns HTTP 200 and is verifiably the official Judicial
-  Branch page for Sarpy County Court; document the verification date in the YAML.
-  No other invented URLs.
+**J2 — Have I ever gotten a ticket?**  
+Explain court portals ≠ lifetime history. Card: DMV driving-record request, $15, what it usually shows (reported convictions / points / actions), what it usually does not (brand-new unpaid citations).
 
-## Corrections to earlier research
-- The 50-state outline listed the NE DMV record at $7.50. The official DMV FAQ
-  (verified 2026-09-20) says **$15.00**. Use $15.00.
-- The outline's Nebraska deep URLs were marked "unverified". Every URL above
-  replaces them.
+**J3 — How do I handle it (general)?**  
+Link official pages only: pay/waiver, appearance if required, self-help traffic, state bar lawyer referral. Banner: not legal advice.
 
-## v1 done checklist (from agent prompt)
-Repo skeleton + Apache-2.0 LICENSE + README (non-goals + VIN table) → JSON Schema +
-`data/states/NE.yaml` (URLs above only) → `scripts/validate.mjs` → `scripts/build-data.mjs`
-→ pure `router.js` + fixtures (Lancaster lost-paper; history→DMV $15; VIN-only explainer;
-JUSTICE card not free) → static pages per design bar → `scripts/check-links.mjs` →
-GitHub Action (validate + router tests + link check) → LEGAL.md. Done when the SCOPE
-checklist is green and `grep -E 'name="(dl|vin|license|plate|dob|ssn)'` returns nothing.
+**J4 — I only have a VIN / title / plate.**  
+Dead-end explanation. Offer J1/J2. No search.
+
+## Data rules
+
+- Every YAML row: `source_url`, `last_verified` (ISO date), `verification` ∈ `unverified | link_ok | keys_documented | handoff_tested | disabled`.
+- Router emits only `link_ok` or better.
+- Never copy unverified “22/14/14 statewide portal” scorecards into README.
+- Fee fields are “as printed on source_url that day,” not market claims.
+
+## v1 definition of done
+
+An agent is done when all of these are true:
+
+- [ ] `ticketrouter/` exists with LICENSE Apache-2.0
+- [ ] Homepage first screen: “We do not search tickets”
+- [ ] Zero identity `<input>` names (`dl`, `vin`, `license`, `plate`, `dob`, `ssn`)
+- [ ] `data/states/NE.yaml` uses the URLs in the table above
+- [ ] JUSTICE card states paid + name search + 24h lag
+- [ ] DMV card is separate from court cards
+- [ ] VIN path cannot return a court search URL labeled as VIN lookup
+- [ ] `scripts/validate.mjs` and link check pass on seeded URLs
+- [ ] Tests cover Lancaster vs “I only have a VIN”
+
+Anything else is a later phase. Do not start CA, KS, MO, or a 50-state map until this checklist is green.
