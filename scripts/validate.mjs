@@ -5,9 +5,10 @@ import { join, basename } from 'node:path';
 import { parseYAML } from './yaml.mjs';
 
 const INTENTS = ['lost_paper', 'history', 'handle_it'];
-const VERIFICATIONS = ['link_ok', 'keys_documented', 'handoff_tested'];
+const VERIFICATIONS = ['unverified', 'link_ok', 'keys_documented', 'handoff_tested', 'disabled'];
 const KINDS = ['statewide_cms', 'pay_portal', 'county_court', 'dmv', 'self_help', 'guidance'];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const JUSTICE_COST_NOTES = 'confirm fee on the terms page; $17 as of 2026-09-20';
 
 const errors = [];
 const err = (file, msg) => errors.push(`${file}: ${msg}`);
@@ -70,21 +71,27 @@ function validateFile(path) {
     for (const co of card.exclude_counties || []) {
       check(countyNames.has(co), file, `${where}: unknown exclude_county "${co}"`);
     }
-    if (card.url == null) {
-      check(card.kind === 'guidance', file, `${where}: url may be null only for kind=guidance`);
+    if (card.source_url == null) {
+      check(card.kind === 'guidance', file, `${where}: source_url may be null only for kind=guidance`);
     } else {
-      check(typeof card.url === 'string' && card.url.startsWith('https://'), file, `${where}: url must be https`);
+      check(typeof card.source_url === 'string' && card.source_url.startsWith('https://'),
+        file, `${where}: source_url must be https`);
     }
     if (card.link_check != null) {
       check(['auto', 'manual'].includes(card.link_check), file, `${where}: bad link_check`);
     }
     for (const l of card.extra_links || []) {
-      check(l && typeof l.label === 'string' && typeof l.url === 'string' && l.url.startsWith('https://'),
-        file, `${where}: bad extra_link`);
+      check(l && typeof l.label === 'string' && typeof l.source_url === 'string' &&
+        l.source_url.startsWith('https://'), file, `${where}: bad extra_link`);
     }
     // Policy: JUSTICE-style paid cards must never claim to be free.
     if (card.cost_free === false) {
       check(!/\bfree\b/i.test(card.cost), file, `${where}: cost_free=false but cost text says "free"`);
+    }
+    // Policy (locked scope): the JUSTICE card must carry the exact confirm-fee note.
+    if (card.id === 'justice-search') {
+      check(card.cost_notes === JUSTICE_COST_NOTES,
+        file, `${where}: cost_notes must read exactly "${JUSTICE_COST_NOTES}"`);
     }
   }
 }

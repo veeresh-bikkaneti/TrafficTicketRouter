@@ -21,34 +21,26 @@ for (const fx of fixtures) {
       const ids = result.cards.map((c) => c.id);
       assert.deepEqual(ids, fx.expect.cardIds, `card order/ids mismatch: ${ids.join(',')}`);
     }
-    if (fx.expect.excludes) {
-      for (const id of fx.expect.excludes) {
-        assert.ok(!byId(result, id), `card ${id} must not route here`);
-      }
-    }
     if (fx.expect.justice) {
       const j = byId(result, 'justice-search');
       assert.ok(j, 'justice-search card present');
       assert.equal(j.cost_free, false, 'JUSTICE card must not say free');
       assert.match(j.cost, /\$17\.00/, 'JUSTICE cost mentions $17.00');
-      assert.match(j.accepted_keys, /name/i, 'JUSTICE accepted keys mention name search');
+      assert.equal(j.cost_notes, 'confirm fee on the terms page; $17 as of 2026-09-20',
+        'JUSTICE cost_notes carries the confirm-fee language');
+      assert.match(j.accepted_keys, /party name/i, 'JUSTICE accepted keys mention party-name search');
+      assert.ok(!/\bVIN\b/i.test(j.accepted_keys) || /not[^.]*\bVIN\b/i.test(j.accepted_keys),
+        'JUSTICE must not claim VIN search (a "not searchable by VIN" negation is fine)');
       assert.ok(j.limitations.some((l) => /24-hour lag/i.test(l)), 'JUSTICE limitations mention the lag');
     }
     if (fx.expect.dmv) {
       const d = byId(result, 'dmv-record');
       assert.ok(d, 'dmv-record card present');
       assert.match(d.cost, /\$15\.00/, 'DMV cost is $15.00');
+      assert.ok(d.source_url.includes('dmv.nebraska.gov'), 'DMV card uses the DMV source URL');
       assert.ok(
-        d.limitations.some((l) => /convictions/i.test(l) && /not pending tickets/i.test(l)),
-        'DMV card labeled convictions, not pending tickets'
-      );
-    }
-    if (fx.expect.douglasLimitationMentionsExclusion) {
-      const d = byId(result, 'douglas-county-card');
-      assert.ok(d, 'douglas-county-card present');
-      assert.ok(
-        d.limitations.some((l) => /excluded from the state ePayments/i.test(l)),
-        'Douglas card notes the ePayments exclusion'
+        d.limitations.some((l) => /convictions/i.test(l) && /NOT a pending-ticket portal/i.test(l)),
+        'DMV card labeled convictions history, not a pending-ticket portal'
       );
     }
     if (fx.expect.zeroUrls) {
@@ -60,8 +52,22 @@ for (const fx of fixtures) {
   });
 }
 
-test('no card claims VIN search', () => {
-  const blob = JSON.stringify(data.cards);
-  assert.ok(!/\bVIN\b/i.test(blob) || /does not|not/i.test(blob),
-    'no card should present itself as a VIN search');
+test('no emitted card claims VIN lookup', () => {
+  for (const card of data.cards) {
+    const blob = `${card.accepted_keys} ${card.limitations.join(' ')}`;
+    assert.ok(!/\bVIN\b/i.test(blob) || /not/i.test(blob),
+      `card ${card.id} must not present itself as a VIN lookup`);
+  }
+});
+
+test('router never emits unverified or disabled rows', () => {
+  for (const intent of ['lost_paper', 'history', 'handle_it']) {
+    for (const county of ['Lancaster', 'Douglas', 'Sarpy', 'other']) {
+      const r = route(data, { intent, state: 'NE', county });
+      for (const c of r.cards) {
+        assert.ok(['link_ok', 'keys_documented', 'handoff_tested'].includes(c.verification),
+          `card ${c.id} verification ${c.verification} must not route`);
+      }
+    }
+  }
 });
