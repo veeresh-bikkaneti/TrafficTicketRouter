@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TicketRouter — the official page for your traffic ticket</title>
+<meta name="description" content="TicketRouter routes you to the official court and DMV pages for moving violations. We do not search tickets.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap-wide">
+    <a class="wordmark" href="index.html">TicketRouter</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="check.html">Start a check</a>
+      <a href="vin.html">VIN &amp; plate</a>
+      <a href="learn.html">How to handle it</a>
+      <a href="legal.html">Legal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="kicker">Open source · Nebraska · v1</p>
+    <h1>We do not search tickets.<br>We show you the official page.</h1>
+    <p class="lede">There is no national ticket database. Every state keeps moving-violation
+    records in its own courts and DMV. TicketRouter is a maintained directory of the
+    <strong>official</strong> pages — court case search, citation payment, county courts,
+    driving records, self-help — so you knock on the right door.</p>
+    <div class="btn-row">
+      <a class="btn" href="check.html">Start a check</a>
+      <a class="btn btn-secondary" href="vin.html">I only have a VIN or plate</a>
+    </div>
+
+    <hr class="rule">
+
+    <h2>What this is not</h2>
+    <ul>
+      <li><strong>Not a ticket search.</strong> We never query a court or DMV. You type your own information on the official site.</li>
+      <li><strong>Not a record warehouse.</strong> No scraping, no stored records, no database of people.</li>
+      <li><strong>Not legal advice.</strong> General information plus official links. Nothing here tells you what to do about your ticket.</li>
+      <li><strong>Not people-search.</strong> There is nowhere on this site to type someone else's name. Self-check only.</li>
+    </ul>
+
+    <h2>Can a VIN, plate, or title find a speeding ticket?</h2>
+    <table>
+      <thead><tr><th>What you have</th><th>Can it find a speeding ticket?</th></tr></thead>
+      <tbody>
+        <tr><td>Citation number</td><td>Yes — on the court's official site for that county.</td></tr>
+        <tr><td>Driver's license</td><td>Sometimes — on portals that accept DL search.</td></tr>
+        <tr><td>Name</td><td>Sometimes — where the portal supports name search.</td></tr>
+        <tr><td>Plate number</td><td>Only camera, parking, or toll violations, in some cities.</td></tr>
+        <tr><td>VIN / title / registration</td><td><strong>No.</strong> These identify the vehicle, not the driver. A speeding ticket is issued to a person.</td></tr>
+      </tbody>
+    </table>
+    <p><a href="vin.html">Why tickets follow the driver, not the car →</a></p>
+
+    <h2>How it works</h2>
+    <ol>
+      <li><strong>Tell us what you need</strong> — lost paper, your driving history, general how-to-handle-it info, or VIN/plate questions.</li>
+      <li><strong>Tell us where</strong> — state, then county. (Nebraska only in v1.)</li>
+      <li><strong>Get destination cards</strong> — the official pages, with fees, lags, and limitations spelled out. You finish the lookup there.</li>
+    </ol>
+
+    <h2>Coverage</h2>
+    <p>v1 covers <strong>Nebraska</strong>: statewide court case search, citation payment,
+    DMV driving records, and county cards for <strong>Lancaster</strong>,
+    <strong>Douglas</strong>, and <strong>Sarpy</strong> counties. Every routed URL is
+    verified against an official source. New states are added one verified file at a time.</p>
+    <div class="btn-row">
+      <a class="btn" href="check.html">Start a check</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>TicketRouter is a directory of official links. We did not search any database.
+    You will type your information on the official site. General information only —
+    not legal advice. <a href="legal.html">Legal details</a>.</p>
+    <p>Open source under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

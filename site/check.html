@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start a check — TicketRouter</title>
+<meta name="description" content="Three steps: where it happened, what you still have, then the official pages.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap-wide">
+    <a class="wordmark" href="index.html">TicketRouter</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="check.html">Start a check</a>
+      <a href="vin.html">VIN &amp; plate</a>
+      <a href="learn.html">How to handle it</a>
+      <a href="legal.html">Legal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="kicker">Three steps. No accounts. Nothing typed here leaves your browser.</p>
+    <h1>Start a check</h1>
+
+    <section class="step" id="step-1" aria-labelledby="step-1-h">
+      <div class="step-head"><span class="step-num" aria-hidden="true">1</span>
+        <h2 id="step-1-h">Where did it happen?</h2></div>
+      <div class="field">
+        <label for="state">State</label>
+        <select id="state">
+          <option value="NE" selected>Nebraska</option>
+        </select>
+        <p class="hint">Nebraska only in v1. More states come one verified file at a time.</p>
+      </div>
+      <div class="field">
+        <label for="county">County</label>
+        <select id="county">
+          <option value="" selected>Choose a county…</option>
+          <option value="Lancaster">Lancaster</option>
+          <option value="Douglas">Douglas</option>
+          <option value="Sarpy">Sarpy</option>
+          <option value="other">Not sure / another county</option>
+        </select>
+        <p class="hint">Traffic cases live in the county court where the stop happened.</p>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="to-step-2" type="button">Continue</button>
+      </div>
+    </section>
+
+    <section class="step" id="step-2" aria-labelledby="step-2-h" hidden>
+      <div class="step-head"><span class="step-num" aria-hidden="true">2</span>
+        <h2 id="step-2-h">What do you still have?</h2></div>
+      <p>Pick the closest match. These are labels only — you type nothing here,
+      and nothing is stored or sent anywhere. You'll type your information on the official site.</p>
+      <div class="intent-options" role="radiogroup" aria-label="What do you still have?">
+        <div>
+          <input type="radio" name="have" id="have-nothing" value="lost_paper">
+          <label class="intent-card" for="have-nothing">
+            <strong>Lost the paper — I have nothing</strong>
+            <span>The ticket is gone. Show me the official pages for my county.</span>
+          </label>
+        </div>
+        <div>
+          <input type="radio" name="have" id="have-fragment" value="lost_paper">
+          <label class="intent-card" for="have-fragment">
+            <strong>I have a citation number (or part of one)</strong>
+            <span>You don't type it here — you'll type it on the official payment or court site.</span>
+          </label>
+        </div>
+        <div>
+          <input type="radio" name="have" id="have-history" value="history">
+          <label class="intent-card" for="have-history">
+            <strong>I want my driving history</strong>
+            <span>Have I ever had a moving violation on my record? (DMV abstract.)</span>
+          </label>
+        </div>
+        <div>
+          <input type="radio" name="have" id="have-handle" value="handle_it">
+          <label class="intent-card" for="have-handle">
+            <strong>General how-to-handle-it info</strong>
+            <span>Paying, appearing, traffic school, official help. General information only.</span>
+          </label>
+        </div>
+        <div>
+          <input type="radio" name="have" id="have-vin" value="vin_only">
+          <label class="intent-card" for="have-vin">
+            <strong>I only have a VIN, title, or plate</strong>
+            <span>What those identifiers can and cannot find. (Short answer: not a speeding ticket.)</span>
+          </label>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="to-step-3" type="button">Show official pages</button>
+      </div>
+      <a class="back-link" href="#step-1" id="back-to-1">← Back to step 1</a>
+    </section>
+
+    <section class="step" id="step-3" aria-labelledby="step-3-h" hidden>
+      <div class="step-head"><span class="step-num" aria-hidden="true">3</span>
+        <h2 id="step-3-h">Official pages</h2></div>
+      <div id="results" aria-live="polite"></div>
+      <a class="back-link" href="#step-2" id="back-to-2">← Back to step 2</a>
+    </section>
+
+    <section class="step" id="step-empty" aria-labelledby="step-empty-h" hidden>
+      <h2 id="step-empty-h">We can't route this yet</h2>
+      <div class="notice" id="empty-notice"></div>
+      <div class="btn-row">
+        <a class="btn btn-secondary" href="learn.html">General how-to-handle-it info</a>
+      </div>
+      <a class="back-link" href="#step-1" id="back-to-1b">← Start over</a>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>We did not search any database. You will type your information on the official site.
+    General information only — not legal advice. <a href="legal.html">Legal details</a>.</p>
+  </div>
+</footer>
+
+<script type="module" src="js/ui.js"></script>
+</body>
+</html>
