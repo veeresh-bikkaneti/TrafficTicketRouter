@@ -1,0 +1,163 @@
+# Nebraska — the only state file in v1.
+# Every URL below is from docs/TICKETROUTER-SCOPE.md (verified 2026-09-20).
+# Do not add URLs from memory. Unverified rows never route.
+state: NE
+state_name: Nebraska
+last_verified: "2026-09-20"
+counties:
+  - name: Lancaster
+    note: "County Court of Lancaster County, Criminal/Traffic: (402) 441-8959."
+  - name: Douglas
+    note: "Excluded from the state ePayments system."
+  - name: Sarpy
+    note: "County court page verified 2026-09-20 via official redirect."
+cards:
+  - id: lancaster-county-card
+    verification: keys_documented
+    kind: county_court
+    agency: "County Court of Lancaster County — Criminal/Traffic"
+    url: "https://www.lancaster.ne.gov/Faq.aspx?QID=726"
+    link_check: manual
+    verification_note: "Bot-blocked (403 to automated checks) but renders for real users; human-verified 2026-09-20. check-links.mjs skips manual rows."
+    contact: "Criminal/Traffic: (402) 441-8959. Justice and Law Enforcement Center, 575 South 10th Street, Lincoln, NE 68508."
+    accepted_keys: "Call with your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-20 on lancaster.ne.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic prosecutors cannot discuss a case before the initial court appearance."
+      - "To contest a speeding ticket you must contact the county court to schedule a trial."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lancaster
+    weight: 10
+
+  - id: douglas-county-card
+    verification: link_ok
+    kind: county_court
+    agency: "Douglas County Court — Criminal/Traffic Division"
+    url: "https://supremecourt.nebraska.gov/douglas-county-court"
+    contact: "Hall of Justice, 1701 Farnam Street, 2nd Floor, Omaha, NE 68183. Main phone (402) 444-5387."
+    accepted_keys: "See the official court page for division hours and contact options."
+    cost: "No cost to look up — as of 2026-09-20 on supremecourt.nebraska.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Douglas County is excluded from the state ePayments system — do not try to pay a Douglas County ticket there."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: sarpy-county-card
+    verification: link_ok
+    kind: county_court
+    agency: "Sarpy County Court"
+    url: "https://nebraskajudicial.gov/courts/sarpy-county-court"
+    verification_note: "Verified 2026-09-20: supremecourt.nebraska.gov/sarpy-county-court redirects here; page title is 'Sarpy County Court | Nebraska Judicial Branch'."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-20 on nebraskajudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "For case search or payment, use the statewide cards below."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sarpy
+    weight: 10
+
+  - id: justice-search
+    verification: keys_documented
+    kind: statewide_cms
+    agency: "Nebraska Judicial Branch — JUSTICE one-time court case search"
+    url: "https://www.nebraska.gov/justicecc/ccname.cgi"
+    extra_links:
+      - label: "Terms and conditions"
+        url: "https://www.nebraska.gov/justicecc/terms_and_conditions.html"
+    accepted_keys: "Party name (searches as a party, not a witness). Up to 30 cases per search."
+    cost: "$17.00 per search, charged even when no records are found — as of 2026-09-20 on nebraska.gov."
+    cost_free: false
+    lag: "Cases appear about 24 hours after entry."
+    limitations:
+      - "Paid: $17.00 per search, charged even when no records are found."
+      - "24-hour lag between case entry and appearance in results."
+      - "Covers criminal, civil, traffic, juvenile, and probate cases in all 93 county and district courts."
+      - "Results are accessible for 3 days after purchase."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: epayments
+    verification: keys_documented
+    kind: pay_portal
+    agency: "Nebraska Judicial Branch — Internet Payment System (ePayments)"
+    url: "https://www.nebraska.gov/apps-courts-epayments/public/index"
+    extra_links:
+      - label: "Citation waiver information"
+        url: "https://nebraska.gov/courts/citations/"
+    accepted_keys: "Citation or case number on the official payment form."
+    cost: "Minimum $1.25 additional charge per case/ticket — as of 2026-09-20 on nebraska.gov. Visa, MasterCard, Discover, eCheck. Payments must total less than $5,000."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Paying online is a waiver of appearance and a plea of guilty."
+      - "Excludes Douglas County."
+      - "If the citation is marked court appearance required (DUI, driving on suspended license, no insurance, and others), do not pay online before appearing."
+      - "Lost ticket with no citation number: use the let's-chat option on the official page or contact the county court where ticketed."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    exclude_counties:
+      - Douglas
+    weight: 30
+
+  - id: dmv-record
+    verification: keys_documented
+    kind: dmv
+    agency: "Nebraska DMV — copy of your own driving record"
+    url: "https://dmv.nebraska.gov/faq/how-do-i-get-copy-my-driving-record"
+    accepted_keys: "Request your own record through the official DMV page. The online service is linked there."
+    cost: "$15.00 per record — as of 2026-09-20 on dmv.nebraska.gov. Viewable immediately upon purchase (credit card or e-check)."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows convictions, points, and suspensions — not pending tickets."
+      - "Self-check only: request your own record, not someone else's."
+    last_verified: "2026-09-20"
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: legalaid-selfhelp
+    verification: link_ok
+    kind: self_help
+    agency: "Legal Aid of Nebraska — self-help"
+    url: "https://lawhelpne.legalaidofnebraska.org/"
+    accepted_keys: "Browse information, forms, and links for self-represented persons. No account needed."
+    cost: "Free — as of 2026-09-20."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+      - "For your own situation, contact the court or a licensed attorney."
+    last_verified: "2026-09-20"
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40
