@@ -89,7 +89,10 @@ export function parseYAML(text) {
       if (rest === '') {
         const child = peek();
         arr.push(child && child.indent > indent ? parseBlock(child.indent) : null);
-      } else if (/^[^:]+:(\s|$)/.test(rest) && !/^(['"]).*\1\s*:\s/.test(rest)) {
+      } else if (rest.length > 1 && /^(['"])/.test(rest) && rest.endsWith(rest[0])) {
+        // fully quoted scalar, even if it contains ": " inside
+        arr.push(parseScalar(rest));
+      } else if (/^[^:]+:(\s|$)/.test(rest)) {
         // inline map entry: "- key: value" possibly followed by more indented keys
         const m = rest.match(/^([^:]+):(.*)$/);
         const obj = { [m[1].trim()]: parseScalar(m[2].trim()) };
