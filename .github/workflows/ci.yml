@@ -1,0 +1,24 @@
+# CI: validate data, build compiled JSON, run router tests, check official links.
+# No deployment — this repo builds a static site; hosting is a separate decision.
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate jurisdiction data
+        run: node scripts/validate.mjs
+      - name: Build compiled data
+        run: node scripts/build-data.mjs
+      - name: Router tests
+        run: node --test tests/router.test.mjs
+      - name: Check official links
+        run: node scripts/check-links.mjs
