@@ -1,4 +1,4 @@
-// validate.mjs — schema + policy checks for data/states/*.yaml
+// validate.mjs — schema + policy checks for data/states/*.yaml and data/pins/*.yaml
 // Uses the vendored YAML-subset parser. Exits non-zero on any failure.
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename } from 'node:path';
@@ -142,9 +142,87 @@ try {
 if (files.length === 0) err('data/states', 'no state files found');
 for (const f of files) validateFile(join(dir, f));
 
+// ---- pins (phase P5): county courthouse pins for the MapLibre map page ----
+// Same defense-in-depth as cards: every pin URL must live on an official host,
+// and coordinates must fall inside the state's bounding box so a bad geocode
+// can never drop a pin in the wrong state.
+const PIN_KINDS = ['courthouse'];
+const STATE_BOUNDS = {
+  NE: { lat: [40.0, 43.0], lng: [-104.1, -95.3] },
+};
+
+function countyNamesFor(stateCode) {
+  try {
+    const data = parseYAML(readFileSync(join(process.cwd(), 'data', 'states', `${stateCode}.yaml`), 'utf8'));
+    return new Set((data.counties || []).map((c) => c && c.name));
+  } catch {
+    return null;
+  }
+}
+
+function validatePinsFile(path) {
+  const file = basename(path);
+  let data;
+  try {
+    data = parseYAML(readFileSync(path, 'utf8'));
+  } catch (e) {
+    err(file, `YAML parse error: ${e.message}`);
+    return;
+  }
+  if (!data || typeof data !== 'object' || Array.isArray(data)) {
+    err(file, 'top level must be a mapping'); return;
+  }
+  const code = file.replace(/\.ya?ml$/, '');
+  const pins = data.pins;
+  check(Array.isArray(pins) && pins.length > 0, file, 'pins must be a non-empty list');
+  const bounds = STATE_BOUNDS[code];
+  check(!!bounds, file, `no coordinate bounds defined for state "${code}" — add them to STATE_BOUNDS`);
+  const counties = countyNamesFor(code);
+  check(!!counties, file, `state file data/states/${code}.yaml is missing or unreadable`);
+  const ids = new Set();
+  for (const pin of pins || []) {
+    const id = pin && pin.id ? String(pin.id) : '(missing id)';
+    const where = `${file} pin "${id}"`;
+    if (!pin || typeof pin !== 'object') { err(file, 'pin must be a mapping'); continue; }
+    check(/^[a-z0-9-]+$/.test(pin.id || ''), file, `pin id "${pin.id}" must be lowercase letters, digits, hyphens`);
+    check(!ids.has(pin.id), file, `duplicate pin id "${pin.id}"`);
+    ids.add(pin.id);
+    check(pin.state === code, file, `${where}: state "${pin.state}" must match file name "${code}"`);
+    check(PIN_KINDS.includes(pin.kind), file, `${where}: bad kind "${pin.kind}"`);
+    for (const f of ['name', 'address', 'county']) {
+      check(typeof pin[f] === 'string' && pin[f].length > 0, file, `${where}: ${f} required`);
+    }
+    if (counties) {
+      check(counties.has(pin.county), file, `${where}: unknown county "${pin.county}"`);
+    }
+    check(typeof pin.lat === 'number' && isFinite(pin.lat), file, `${where}: lat must be a number`);
+    check(typeof pin.lng === 'number' && isFinite(pin.lng), file, `${where}: lng must be a number`);
+    if (bounds && isFinite(pin.lat) && isFinite(pin.lng)) {
+      check(pin.lat >= bounds.lat[0] && pin.lat <= bounds.lat[1] &&
+        pin.lng >= bounds.lng[0] && pin.lng <= bounds.lng[1],
+        file, `${where}: (${pin.lat}, ${pin.lng}) falls outside ${code} bounds — bad geocode?`);
+    }
+    check(typeof pin.url === 'string' && pin.url.startsWith('https://'),
+      file, `${where}: url must be https`);
+    check(hostIsOfficial(pin.url),
+      file, `${where}: url host is not on the official allowlist ${OFFICIAL_HOSTS.join(', ')}`);
+  }
+}
+
+const pinsDir = join(process.cwd(), 'data', 'pins');
+let pinFiles;
+try {
+  pinFiles = readdirSync(pinsDir).filter(f => /\.ya?ml$/.test(f));
+} catch {
+  err('data/pins', 'directory missing');
+  pinFiles = [];
+}
+if (pinFiles.length === 0) err('data/pins', 'no pin files found');
+for (const f of pinFiles) validatePinsFile(join(pinsDir, f));
+
 if (errors.length > 0) {
   console.error(`validate: ${errors.length} error(s)`);
   for (const e of errors) console.error('  - ' + e);
   process.exit(1);
 }
-console.log(`validate: OK (${files.length} state file(s))`);
+console.log(`validate: OK (${files.length} state file(s), ${pinFiles.length} pin file(s))`);

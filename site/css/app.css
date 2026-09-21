@@ -391,6 +391,84 @@ th {
   font-size: 0.95rem;
 }
 
+/* ---------- map ---------- */
+
+.map-wrap {
+  margin: 1.5rem 0 1rem;
+}
+
+#map {
+  height: min(70vh, 34rem);
+  min-height: 20rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+}
+
+.map-pin {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  position: relative;
+}
+
+.map-pin::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.map-pin:hover { filter: brightness(1.1); }
+
+.map-pin:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.maplibregl-popup-content {
+  font-family: var(--font-ui);
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.maplibregl-popup-close-button {
+  width: 44px !important;
+  height: 44px !important;
+  font-size: 1.4rem !important;
+  line-height: 1 !important;
+  color: var(--ink-soft);
+  border-radius: var(--radius);
+}
+
+.map-popup h3 {
+  margin: 0 0 0.25rem;
+  padding-right: 2.25rem;
+  font-size: 1.1rem;
+}
+
+.map-popup p {
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.map-popup .btn {
+  margin-top: 0.75rem;
+}
+
 /* ---------- motion preferences ---------- */
 
 @media (prefers-reduced-motion: reduce) {

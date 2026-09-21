@@ -4,7 +4,7 @@
 //   - nested mappings via 2-space indentation
 //   - sequences with `- ` items (scalars or inline `- key: value` maps)
 //   - plain, single-quoted, and double-quoted scalars
-//   - null via empty value, `null`, or `~`; booleans true/false; integers
+//   - null via empty value, `null`, or `~`; booleans true/false; integers and decimals
 // Anything fancier (anchors, flow syntax, block scalars) is a parse error —
 // keep data files simple. validate.mjs uses this same parser.
 
@@ -26,7 +26,7 @@ function parseScalar(raw) {
   if (s === '' || s === 'null' || s === '~') return null;
   if (s === 'true') return true;
   if (s === 'false') return false;
-  if (/^-?\d+$/.test(s)) return Number(s);
+  if (/^-?\d+(\.\d+)?$/.test(s)) return Number(s);
   if ((s.startsWith('"') && s.endsWith('"')) || (s.startsWith("'") && s.endsWith("'"))) {
     const inner = s.slice(1, -1);
     return s[0] === '"' ? inner.replace(/\\"/g, '"').replace(/\\\\/g, '\\') : inner;

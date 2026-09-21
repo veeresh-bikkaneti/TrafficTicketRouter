@@ -1,0 +1,36 @@
+# Nebraska map pins — county courthouses (phase P5, MapLibre).
+# Addresses verified against official sources 2026-09-20; coordinates cross-checked
+# against OpenStreetMap/Nominatim (second source). URLs reused verbatim from
+# data/states/NE.yaml — never invented. Do not commit without review.
+# NOTE: Douglas pin — the court's official mailing ZIP is 68183; Nominatim's
+# address record for the same building shows 68102. Coordinates place the pin.
+pins:
+  - id: ne-lancaster-courthouse
+    state: NE
+    county: Lancaster
+    name: Lancaster County Court
+    address: 575 S 10th Street, Lincoln, NE 68508
+    lat: 40.8080640
+    lng: -96.7077280
+    url: https://nebraskajudicial.gov/courts/lancaster-county-court
+    kind: courthouse
+
+  - id: ne-douglas-courthouse
+    state: NE
+    county: Douglas
+    name: Douglas County Court
+    address: 1701 Farnam Street, Omaha, NE 68183
+    lat: 41.2568307
+    lng: -95.9391716
+    url: https://nebraskajudicial.gov/courts/douglas-county-court
+    kind: courthouse
+
+  - id: ne-sarpy-courthouse
+    state: NE
+    county: Sarpy
+    name: Sarpy County Court
+    address: 1210 Golden Gate Drive, Papillion, NE 68046
+    lat: 41.1410305
+    lng: -96.0401984
+    url: https://nebraskajudicial.gov/courts/sarpy-county-court
+    kind: courthouse

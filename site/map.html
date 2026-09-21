@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Court map — TicketRouter</title>
+<meta name="description" content="A map of Nebraska county courthouses, each pin pointing at the official court page.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css" integrity="sha384-cy72LeqRhBcptH+f75cB3vrpLw/jxRh/JFcONF8ojDGHnPbPW8ms9mFfeRcjatlf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css" integrity="sha384-+yaCg0e7ycPGPQXb75FA+X65pLlc36UEZiIaA8ph5o9epSIlfAq9gNVjLkSyyLta" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css" integrity="sha384-g8Ghv3t8mtnVyQ++/+3xr5ZCA7QFf/qX8qpW+pwIVTqNiMqruf5kT95EMlXwYP95" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css" integrity="sha384-c7ux4hHV7MdAKXXDAhU2bPkJQg3DetUGraPyvlzZ3pu6s3uU7p4HkkOyITXWRmWh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" integrity="sha384-uTttxo/aOKbdE5RlD/SPzSDoDmNvGlUYPjONi2MN/b7c9HPSvW07OIuyP7uL6jxK" crossorigin="anonymous">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap-wide">
+    <a class="wordmark" href="index.html">TicketRouter</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="check.html">Start a check</a>
+      <a href="map.html" aria-current="page">Map</a>
+      <a href="vin.html">VIN &amp; plate</a>
+      <a href="learn.html">How to handle it</a>
+      <a href="legal.html">Legal</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="kicker">County courthouses, on a map. No accounts. Nothing typed here leaves your browser.</p>
+    <h1>Court map</h1>
+    <p>Pins mark the county courthouse buildings for the counties we cover.
+    A pin is a location, not a lookup — to pay, appear, or look up a case,
+    open the official court page. You will type your information on the
+    official site, never here.</p>
+
+    <div class="map-wrap">
+      <div id="map" role="region" aria-label="Map of Nebraska county courthouses"></div>
+      <div id="map-fallback" class="notice" hidden></div>
+      <noscript>
+        <div class="notice">The map needs JavaScript.
+        <a href="check.html">Start a check</a> instead — it lists the same official pages.</div>
+      </noscript>
+    </div>
+    <p class="hint">Map data: OpenStreetMap contributors, CARTO. Pins verified 2026-09-20.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>We did not search any database. You will type your information on the official site.
+    General information only — not legal advice. <a href="legal.html">Legal details</a>.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js" integrity="sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp" crossorigin="anonymous"></script>
+<script type="module" src="js/map.js"></script>
+</body>
+</html>

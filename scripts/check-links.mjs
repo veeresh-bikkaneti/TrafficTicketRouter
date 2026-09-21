@@ -1,5 +1,6 @@
 // check-links.mjs — reachability check for every official URL in the built data.
-// Reads site/data/*.json (run build-data.mjs first). Follows redirects.
+// Reads site/data/*.json (run build-data.mjs and build-pins.mjs first).
+// Covers state cards AND map pins. Follows redirects.
 // Rows with link_check=manual are reported as skipped (bot-blocked, human-verified).
 // Exits non-zero if any auto-checked URL is unreachable.
 import { readFileSync, readdirSync } from 'node:fs';
@@ -64,6 +65,14 @@ for (const f of files) {
       console.log(`${tag} [${r.status}] ${basename(f)} ${id} ${role}: ${url}${r.final !== url ? ` -> ${r.final}` : ''}`);
       if (!r.ok) failures.push(`${basename(f)} ${id} ${role}: ${url} [${r.status}]`);
     }
+  }
+  for (const pin of data.pins || []) {
+    if (!pin.url) continue;
+    const r = await check(pin.url);
+    checked++;
+    const tag = r.ok ? 'OK  ' : 'FAIL';
+    console.log(`${tag} [${r.status}] ${basename(f)} ${pin.id} pin: ${pin.url}${r.final !== pin.url ? ` -> ${r.final}` : ''}`);
+    if (!r.ok) failures.push(`${basename(f)} ${pin.id} pin: ${pin.url} [${r.status}]`);
   }
 }
 

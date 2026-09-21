@@ -1,4 +1,4 @@
-# CI: validate data, build compiled JSON, run router tests, check official links.
+# CI: validate data (states + pins), build compiled JSON, run tests, check official links.
 # No deployment — this repo builds a static site; hosting is a separate decision.
 name: ci
 
@@ -18,7 +18,11 @@ jobs:
         run: node scripts/validate.mjs
       - name: Build compiled data
         run: node scripts/build-data.mjs
+      - name: Build pin data
+        run: node scripts/build-pins.mjs
       - name: Router tests
         run: node --test tests/router.test.mjs
+      - name: Pin tests
+        run: node --test tests/pins.test.mjs
       - name: Check official links
         run: node scripts/check-links.mjs
