@@ -1607,13 +1607,18 @@ main .answer:first-child { margin-top: 1.75rem; }
 .map-layer-btn[aria-checked="true"] { background: var(--action); color: var(--action-ink); }
 .map-layer-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 
-/* Courthouse search box, top-left. */
-.map-search {
+/* Top-left panel: courthouse search, then the jump-to-state/county control
+   stacked below it. One positioned wrapper so the two controls stack by
+   normal flow instead of guessing pixel offsets between them. */
+.map-panel {
   position: absolute;
   top: 12px;
   left: 12px;
   z-index: 2;
   width: min(19rem, calc(100% - 24px));
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .map-search-input {
   width: 100%;
@@ -1650,6 +1655,31 @@ main .answer:first-child { margin-top: 1.75rem; }
 }
 .map-search-option strong { color: var(--ink); font-weight: 600; }
 .map-search-option.active, .map-search-option:hover { background: var(--paper-sunken); }
+
+/* Jump-to-state/county: two native selects stacked below the search box in
+   the same top-left panel. Native <select> so a state with 100+ counties
+   still gets free scrolling and type-ahead-to-jump from the browser. */
+.map-jump {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.map-jump-select {
+  width: 100%;
+  min-height: 44px;
+  font: 500 0.9rem/1.2 var(--font-ui);
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.7rem;
+  box-shadow: var(--shadow);
+}
+.map-jump-select:disabled { color: var(--ink-faint); cursor: not-allowed; }
+.map-jump-select:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
 
 .maplibregl-popup-content {
   font-family: var(--font-ui);
