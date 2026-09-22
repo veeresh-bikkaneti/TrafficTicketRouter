@@ -366,6 +366,26 @@ img, svg { max-width: 100%; }
   flex: none;
 }
 
+/* "Tear open" on reveal: the container keeps the generic [data-reveal] fade
+   from opacity 0 (higher specificity below wins), and its own children carry
+   the actual tear — the line splits open from the center, then the punches
+   pop through right after, like perforation giving way. JS-gated to match
+   the no-JS-always-visible fallback the generic [data-reveal] rule uses. */
+.stub[data-reveal] { opacity: 1; transform: none; }
+html.js .stub .stub-line {
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 560ms var(--ease-entrance);
+  transition-delay: var(--d, 0ms);
+}
+html.js .stub.in .stub-line { transform: scaleX(1); }
+html.js .stub .stub-punch {
+  transform: scale(0);
+  transition: transform 320ms var(--ease-entrance);
+  transition-delay: calc(var(--d, 0ms) + 440ms);
+}
+html.js .stub.in .stub-punch { transform: scale(1); }
+
 /* ---------- buttons ---------- */
 
 .btn {
@@ -1008,6 +1028,60 @@ table.spec-table {
   border-color: var(--ink-faint);
 }
 
+/* Stub-card top edge: a row of punched perforation dots, like the card was
+   torn from a ticket stub. Add class="card stub-card" for it — plain .card
+   (extra-links list on vin.html/learn.html, etc.) is unaffected. */
+.stub-card {
+  padding-top: 1.9rem;
+  position: relative;
+  overflow: hidden;
+}
+.stub-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background-image: radial-gradient(circle, var(--paper) 3.5px, transparent 3.6px);
+  background-size: 18px 14px;
+  background-position: 9px 0;
+  background-repeat: repeat-x;
+  border-bottom: 1px dashed var(--hairline);
+}
+
+/* ROUTED rubber-stamp: a quick, slightly overshot "thump" — a stamp hitting
+   paper, not a gentle fade-in. Interactions easing (fast, snappy), not the
+   entrance easing used elsewhere, because a stamp impact is fast/physical. */
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--action);
+  border: 2.5px solid var(--action);
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  transform: rotate(-4deg);
+  opacity: 0.92;
+  mix-blend-mode: multiply;
+}
+@media (prefers-color-scheme: dark) { .stamp { mix-blend-mode: normal; } }
+@keyframes stamp-in {
+  0% { opacity: 0; transform: rotate(-4deg) scale(2.6); }
+  55% { opacity: 0.92; transform: rotate(-4deg) scale(0.92); }
+  75% { transform: rotate(-4deg) scale(1.06); }
+  100% { opacity: 0.92; transform: rotate(-4deg) scale(1); }
+}
+.stamp.stamp-in { animation: stamp-in 420ms var(--ease) both; }
+@media (prefers-reduced-motion: reduce) {
+  .stamp.stamp-in { animation: none; }
+}
+
 /* staggered entrance for wizard results */
 #results .card {
   animation: card-in 0.55s var(--ease) both;
@@ -1372,6 +1446,7 @@ html.js [data-reveal].in {
     transition-duration: 1ms !important;
   }
   html.js [data-reveal] { opacity: 1; transform: none; }
+  html.js .stub .stub-line, html.js .stub .stub-punch { transform: none; }
   .line-in, .hero-el { animation: none; }
 }
 
