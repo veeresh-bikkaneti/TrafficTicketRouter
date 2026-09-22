@@ -6,19 +6,17 @@
 <title>Start a check — TicketRouter</title>
 <meta name="description" content="Three steps: where it happened, what you still have, then the official pages.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap-wide">
-    <a class="wordmark" href="index.html">TicketRouter</a>
+    <a class="wordmark" href="index.html"><span class="brand-mark" aria-hidden="true"></span>TicketRouter</a>
     <nav class="site-nav" aria-label="Main">
-      <a href="check.html">Start a check</a>
+      <a href="check.html" aria-current="page">Start a check</a>
       <a href="map.html">Map</a>
       <a href="vin.html">VIN &amp; plate</a>
       <a href="learn.html">How to handle it</a>
@@ -29,8 +27,16 @@
 
 <main id="main">
   <div class="wrap">
-    <p class="kicker">Three steps. No accounts. Nothing typed here leaves your browser.</p>
-    <h1>Start a check</h1>
+    <div class="page-head">
+      <p class="kicker hero-el" style="--d:0ms">Three steps. No accounts. Nothing typed here leaves your browser.</p>
+      <h1 class="display hero-el" style="--d:90ms">Start a check</h1>
+    </div>
+
+    <ol class="progress-rail" aria-hidden="true" data-reveal>
+      <li class="current"><span class="rail-dot">1</span><span class="rail-label">Where</span></li>
+      <li><span class="rail-dot">2</span><span class="rail-label">What you have</span></li>
+      <li><span class="rail-dot">3</span><span class="rail-label">Official pages</span></li>
+    </ol>
 
     <section class="step" id="step-1" aria-labelledby="step-1-h">
       <div class="step-head"><span class="step-num" aria-hidden="true">1</span>
@@ -54,7 +60,7 @@
         <p class="hint">Traffic cases live in the county court where the stop happened.</p>
       </div>
       <div class="btn-row">
-        <button class="btn" id="to-step-2" type="button">Continue</button>
+        <button class="btn" id="to-step-2" type="button">Continue <span class="ext arr-right" aria-hidden="true">→</span></button>
       </div>
     </section>
 
@@ -101,7 +107,7 @@
         </div>
       </div>
       <div class="btn-row">
-        <button class="btn" id="to-step-3" type="button">Show official pages</button>
+        <button class="btn" id="to-step-3" type="button">Show official pages <span class="ext arr-right" aria-hidden="true">→</span></button>
       </div>
       <a class="back-link" href="#step-1" id="back-to-1">← Back to step 1</a>
     </section>
@@ -128,9 +134,11 @@
   <div class="wrap">
     <p>We did not search any database. You will type your information on the official site.
     General information only — not legal advice. <a href="legal.html">Legal details</a>.</p>
+    <p class="built-line">Built in the open · Apache-2.0.</p>
   </div>
 </footer>
 
+<script src="js/site.js" defer></script>
 <script type="module" src="js/ui.js"></script>
 </body>
 </html>
