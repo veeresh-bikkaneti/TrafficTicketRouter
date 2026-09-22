@@ -1,5 +1,6 @@
 // ui.js — wizard wiring for check.html. DOM only; routing stays in router.js.
 import { route } from './router.js';
+import { enhanceSelect } from './combo.js';
 
 const KIND_LABELS = {
   statewide_cms: 'Statewide court search',
@@ -93,6 +94,10 @@ function renderResults(result, countyLabel) {
 
 const stateSel = $('state');
 const countySel = $('county');
+// Typeahead comboboxes mirror the selects above: the selects stay the source
+// of truth (value, options, 'change'), the inputs are the visible controls.
+const stateCombo = enhanceSelect(stateSel);
+const countyCombo = enhanceSelect(countySel);
 const DATA_BY_STATE = {};
 
 async function loadStatesManifest() {
@@ -190,7 +195,7 @@ function selectedIntent() {
 
 $('to-step-2').addEventListener('click', () => {
   if (!$('county').value) {
-    $('county').focus();
+    countyCombo.input.focus();
     return;
   }
   show('step-2');
@@ -205,7 +210,7 @@ $('to-step-3').addEventListener('click', async () => {
   const stateCode = stateSel.value;
   if (!stateCode) {
     show('step-1');
-    stateSel.focus();
+    stateCombo.input.focus();
     return;
   }
   let data;

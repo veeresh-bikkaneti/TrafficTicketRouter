@@ -1237,3 +1237,78 @@ html.js [data-reveal].in {
   body::before, .hero::before { display: none; }
   .card, .topic, .trust, .step { box-shadow: none; break-inside: avoid; }
 }
+
+/* ---------- typeahead combobox (check.html) ---------- */
+/* Mirrors .field select styling; the dropdown list uses the warm-paper theme. */
+
+.combo { position: relative; }
+
+.combo-input {
+  width: 100%;
+  min-height: 48px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 0.6rem 2.4rem 0.6rem 0.85rem;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+  cursor: text;
+}
+.combo-input::placeholder { color: var(--ink-faint); opacity: 1; }
+.combo-input:hover { border-color: var(--ink-faint); }
+.combo-input:focus-visible {
+  outline: 3px solid var(--action);
+  outline-offset: 2px;
+  border-color: var(--action);
+}
+
+/* chevron, mirrors the native select affordance */
+.combo::after {
+  content: "";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid var(--ink-soft);
+  border-bottom: 2px solid var(--ink-soft);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.combo-list {
+  position: absolute;
+  z-index: 60;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: var(--paper-raised);
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lift);
+  max-height: 17rem;
+  overflow-y: auto;
+}
+
+.combo-option {
+  padding: 0.55rem 0.7rem;
+  border-radius: calc(var(--radius) - 5px);
+  color: var(--ink);
+  cursor: pointer;
+}
+.combo-option:hover { background: var(--paper-sunken); }
+.combo-option.active {
+  background: var(--action);
+  color: var(--action-ink);
+}
+.combo-option[aria-selected="true"] { font-weight: 650; }
+
+.combo-empty {
+  padding: 0.55rem 0.7rem;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
