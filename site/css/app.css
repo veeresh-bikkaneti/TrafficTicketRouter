@@ -822,6 +822,12 @@ table.spec-table {
   to { opacity: 1; transform: none; }
 }
 
+/* Step 3 (results) lives in .wrap-wide so the card grid has the full grid
+   measure to work with; the form steps stay at the reading measure.
+   Keep the wizard's top margin — as a :first-child it would otherwise
+   collapse to 0 under `main section:first-child`. */
+#step-3 { margin-top: 1.75rem; }
+
 .step-head {
   display: flex;
   align-items: center;
