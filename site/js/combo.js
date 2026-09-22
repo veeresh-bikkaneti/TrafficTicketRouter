@@ -39,6 +39,10 @@ export function enhanceSelect(select) {
   list.id = listId;
   list.className = 'combo-list';
   list.setAttribute('role', 'listbox');
+  // Not a Tab stop: browsers make scrollable boxes keyboard-focusable, and
+  // Tab would land in the list just as blur hides it, dropping focus to
+  // <body>. Options are reached with the arrow keys from the input.
+  list.tabIndex = -1;
   list.hidden = true;
   wrap.appendChild(list);
 
@@ -214,5 +218,7 @@ export function enhanceSelect(select) {
   mo.observe(select, { childList: true });
 
   syncInputToSelect();
-  return { input, select };
+  // sync(): re-read the select after page code sets select.value directly
+  // (e.g. a preselected ?state=), so the visible input shows that choice.
+  return { input, select, sync: syncInputToSelect };
 }

@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: blob: https://server.arcgisonline.com https://a.basemaps.cartocdn.com; font-src https://cdn.jsdelivr.net; connect-src 'self' https://server.arcgisonline.com https://a.basemaps.cartocdn.com; worker-src blob:; object-src 'none'; base-uri 'self'; form-action 'self';">
+<meta name="referrer" content="no-referrer">
 <title>Court map — TicketRouter</title>
 <meta name="description" content="A map of US county courthouses across all 50 states, each pin pointing at the official court page.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -33,11 +35,13 @@
       <h1 class="display hero-el" style="--d:90ms">Court map</h1>
     </div>
     <p class="lede hero-el" style="--d:180ms">Pins mark the county courthouse buildings for the counties we cover,
-    across all 50 states.
+    across all 50 states — panning and zooming stay within the US.
     A pin is a location, not a lookup — to pay, appear, or look up a case,
     open the official court page. You will type your information on the
     official site, never here.</p>
+  </div>
 
+  <div class="wrap-wide">
     <div class="map-wrap" data-reveal>
       <div id="map" role="region" aria-label="Map of US county courthouses"></div>
       <div id="map-count" class="hint" role="status"></div>
@@ -47,7 +51,8 @@
         <a href="check.html">Start a check</a> instead — it lists the same official pages.</div>
       </noscript>
     </div>
-    <p class="hint">Map data: OpenStreetMap contributors, CARTO. Pins verified against official sources in 2026.</p>
+    <p class="hint">Map tiles: Esri (Street, Satellite, Terrain), CARTO and OpenStreetMap contributors (Night).
+    Pins verified against official sources in 2026.</p>
   </div>
 </main>
 

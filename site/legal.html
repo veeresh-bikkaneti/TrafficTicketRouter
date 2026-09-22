@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: blob: https://server.arcgisonline.com https://a.basemaps.cartocdn.com; font-src https://cdn.jsdelivr.net; connect-src 'self' https://server.arcgisonline.com https://a.basemaps.cartocdn.com; worker-src blob:; object-src 'none'; base-uri 'self'; form-action 'self';">
+<meta name="referrer" content="no-referrer">
 <title>Legal — TicketRouter</title>
 <meta name="description" content="What TicketRouter is and is not, in legal terms.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -64,6 +66,28 @@
       <p>Court and DMV pages move. Every routed link carries a last-verified date,
       and automated checks run on every change. If a link is wrong, the entry is
       flagged, then disabled — a wrong confident link is worse than no link.</p>
+
+      <h2>Third-party hosts this site contacts</h2>
+      <p>This site sets no cookies, uses no <code>localStorage</code>, and runs no
+      analytics — nothing you type here is sent anywhere. Loading the page does
+      contact a short, fixed list of hosts to fetch static assets and, on the
+      map, map tiles. Each request carries only ordinary browser request
+      metadata (such as IP address and user agent), which is standard web
+      behavior and outside our control once the request leaves your browser:</p>
+      <ul>
+        <li><strong>cdn.jsdelivr.net</strong> — fonts (Fraunces, Inter) and the
+        MapLibre GL JS map library. Every file is pinned to an exact version
+        with Subresource Integrity (SRI), so the file served cannot silently
+        change.</li>
+        <li><strong>server.arcgisonline.com</strong> (Esri) — Street, Satellite,
+        and Terrain map tiles, and place-name/boundary labels, on the
+        <a href="map.html">court map</a>. No API key is used or required.</li>
+        <li><strong>a.basemaps.cartocdn.com</strong> (CARTO, using OpenStreetMap
+        data) — the Night map tiles on the court map.</li>
+      </ul>
+      <p>A strict Content-Security-Policy on every page limits script, style,
+      font, image, and network access to exactly this list — nothing else can
+      load, even if a bug tried to reach somewhere else.</p>
     </div>
   </div>
 </main>
