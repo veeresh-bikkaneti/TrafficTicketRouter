@@ -1,0 +1,1331 @@
+# South Dakota — Circuit Court / Magistrate Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: SD
+state_name: South Dakota
+last_verified: "2026-09-21"
+official_hosts:
+  - ujs.sd.gov
+counties:
+  - name: Aurora
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Beadle
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Bennett
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Bon Homme
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Brookings
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Brown
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Brule
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Buffalo
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Butte
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Campbell
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Charles Mix
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Clark
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Clay
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Codington
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Corson
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Custer
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Davison
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Day
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Deuel
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Dewey
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Douglas
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Edmunds
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Fall River
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Faulk
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Grant
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Gregory
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Haakon
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hamlin
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hand
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hanson
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Harding
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hughes
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hutchinson
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Hyde
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Jackson
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Jerauld
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Jones
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Kingsbury
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Lake
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Lawrence
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Lincoln
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Lyman
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: McCook
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: McPherson
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Marshall
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Meade
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Mellette
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Miner
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Minnehaha
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Moody
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Oglala Lakota
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Pennington
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Perkins
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Potter
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Roberts
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Sanborn
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Spink
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Stanley
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Sully
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Todd
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Tripp
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Turner
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Union
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Walworth
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Yankton
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+  - name: Ziebach
+    note: "Traffic venue is the Circuit Court / Magistrate Court."
+cards:
+  - id: sd-aurora-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/aurora-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Aurora County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Aurora
+    weight: 10
+
+  - id: sd-beadle-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/beadle-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beadle County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beadle
+    weight: 10
+
+  - id: sd-bennett-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/bennett-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bennett County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bennett
+    weight: 10
+
+  - id: sd-bon-homme-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/bon-homme-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bon Homme County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bon Homme
+    weight: 10
+
+  - id: sd-brookings-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/brookings-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brookings County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brookings
+    weight: 10
+
+  - id: sd-brown-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/brown-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brown County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 10
+
+  - id: sd-brule-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/brule-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brule County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brule
+    weight: 10
+
+  - id: sd-buffalo-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/buffalo-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Buffalo County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+      - "Clerk services for Buffalo County are handled through Brule County (see official page)."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buffalo
+    weight: 10
+
+  - id: sd-butte-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/butte-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Butte County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butte
+    weight: 10
+
+  - id: sd-campbell-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/campbell-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Campbell County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Campbell
+    weight: 10
+
+  - id: sd-charles-mix-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/charles-mix-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Charles Mix County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charles Mix
+    weight: 10
+
+  - id: sd-clark-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/clark-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: sd-clay-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/clay-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: sd-codington-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/codington-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Codington County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Codington
+    weight: 10
+
+  - id: sd-corson-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/corson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Corson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Corson
+    weight: 10
+
+  - id: sd-custer-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/custer-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Custer County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Custer
+    weight: 10
+
+  - id: sd-davison-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/davison-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Davison County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davison
+    weight: 10
+
+  - id: sd-day-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/day-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Day County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Day
+    weight: 10
+
+  - id: sd-deuel-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/deuel-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Deuel County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Deuel
+    weight: 10
+
+  - id: sd-dewey-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/dewey-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dewey County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dewey
+    weight: 10
+
+  - id: sd-douglas-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/douglas-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Douglas County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: sd-edmunds-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/edmunds-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edmunds County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edmunds
+    weight: 10
+
+  - id: sd-fall-river-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/fall-river-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fall River County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fall River
+    weight: 10
+
+  - id: sd-faulk-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/faulk-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Faulk County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Faulk
+    weight: 10
+
+  - id: sd-grant-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/grant-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: sd-gregory-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/gregory-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gregory County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gregory
+    weight: 10
+
+  - id: sd-haakon-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/haakon-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Haakon County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Haakon
+    weight: 10
+
+  - id: sd-hamlin-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/hamlin-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamlin County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamlin
+    weight: 10
+
+  - id: sd-hand-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/hand-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hand County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hand
+    weight: 10
+
+  - id: sd-hanson-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/hanson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hanson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hanson
+    weight: 10
+
+  - id: sd-harding-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/harding-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harding County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harding
+    weight: 10
+
+  - id: sd-hughes-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/hughes-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hughes County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hughes
+    weight: 10
+
+  - id: sd-hutchinson-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/hutchinson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hutchinson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hutchinson
+    weight: 10
+
+  - id: sd-hyde-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/hyde-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hyde County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hyde
+    weight: 10
+
+  - id: sd-jackson-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/jackson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: sd-jerauld-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/jerauld-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jerauld County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jerauld
+    weight: 10
+
+  - id: sd-jones-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/jones-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jones County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jones
+    weight: 10
+
+  - id: sd-kingsbury-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/kingsbury-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kingsbury County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kingsbury
+    weight: 10
+
+  - id: sd-lake-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/lake-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: sd-lawrence-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/lawrence-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lawrence County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: sd-lincoln-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/second-judicial-circuit/lincoln-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: sd-lyman-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/lyman-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lyman County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lyman
+    weight: 10
+
+  - id: sd-mccook-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/mccook-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCook County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCook
+    weight: 10
+
+  - id: sd-mcpherson-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/mcpherson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McPherson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McPherson
+    weight: 10
+
+  - id: sd-marshall-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/marshall-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marshall County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: sd-meade-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/meade-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Meade County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meade
+    weight: 10
+
+  - id: sd-mellette-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/mellette-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mellette County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mellette
+    weight: 10
+
+  - id: sd-miner-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/miner-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Miner County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miner
+    weight: 10
+
+  - id: sd-minnehaha-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/second-judicial-circuit/minnehaha-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Minnehaha County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Minnehaha
+    weight: 10
+
+  - id: sd-moody-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/moody-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Moody County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moody
+    weight: 10
+
+  - id: sd-oglala-lakota-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/oglala-lakota-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oglala Lakota County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+      - "Clerk services for Oglala Lakota County are handled through Fall River County (see official page)."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oglala Lakota
+    weight: 10
+
+  - id: sd-pennington-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/pennington-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pennington County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pennington
+    weight: 10
+
+  - id: sd-perkins-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/perkins-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perkins County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perkins
+    weight: 10
+
+  - id: sd-potter-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/potter-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Potter County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Potter
+    weight: 10
+
+  - id: sd-roberts-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/roberts-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Roberts County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roberts
+    weight: 10
+
+  - id: sd-sanborn-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/sanborn-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sanborn County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sanborn
+    weight: 10
+
+  - id: sd-spink-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/spink-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Spink County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spink
+    weight: 10
+
+  - id: sd-stanley-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/stanley-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stanley County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stanley
+    weight: 10
+
+  - id: sd-sully-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/sully-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sully County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sully
+    weight: 10
+
+  - id: sd-todd-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/todd-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Todd County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+      - "Clerk services for Todd County are handled through Tripp County (see official page)."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Todd
+    weight: 10
+
+  - id: sd-tripp-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/tripp-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tripp County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tripp
+    weight: 10
+
+  - id: sd-turner-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/turner-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Turner County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Turner
+    weight: 10
+
+  - id: sd-union-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/union-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: sd-walworth-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/walworth-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Walworth County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walworth
+    weight: 10
+
+  - id: sd-yankton-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/yankton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yankton County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yankton
+    weight: 10
+
+  - id: sd-ziebach-court
+    verification: link_ok
+    source_url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/ziebach-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ziebach County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ujs.sd.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court / Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ziebach
+    weight: 10

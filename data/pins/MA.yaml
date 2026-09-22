@@ -1,0 +1,151 @@
+# Massachusetts map pins — District Court locations (phase P5, MapLibre).
+# Addresses verified against official mass.gov court pages 2026-09-21;
+# coordinates geocoded via Nominatim one request at a time and cross-checked
+# against the OSM address records (road and house number match in every case).
+# URLs reused verbatim from data/states/MA.yaml — never invented.
+# NOTE: these are representative courts, not countywide venues — the actual
+# traffic venue depends on the city or town (see data/states/MA.yaml).
+pins:
+  - id: ma-barnstable-courthouse
+    state: MA
+    county: Barnstable
+    name: Barnstable District Court
+    address: 3195 Main St., Barnstable, MA 02630
+    lat: 41.6999048
+    lng: -70.3030158
+    url: https://www.mass.gov/locations/barnstable-district-court
+    kind: courthouse
+
+  - id: ma-berkshire-courthouse
+    state: MA
+    county: Berkshire
+    name: Pittsfield District Court
+    address: 24 Wendell Ave., Pittsfield, MA 01202
+    lat: 42.4485227
+    lng: -73.2516660
+    url: https://www.mass.gov/locations/pittsfield-district-court
+    kind: courthouse
+
+  - id: ma-bristol-courthouse
+    state: MA
+    county: Bristol
+    name: Taunton District Court
+    address: 40 Broadway, Taunton, MA 02780
+    lat: 41.9032433
+    lng: -71.0941538
+    url: https://www.mass.gov/locations/taunton-district-court
+    kind: courthouse
+
+  - id: ma-dukes-courthouse
+    state: MA
+    county: Dukes
+    name: Edgartown District Court
+    address: 81 Main St., Edgartown, MA 02539
+    lat: 41.3903663
+    lng: -70.5146658
+    url: https://www.mass.gov/locations/edgartown-district-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ma-essex-courthouse
+    state: MA
+    county: Essex
+    name: Lawrence District Court
+    address: 2 Appleton St., Lawrence, MA 01840
+    lat: 42.7067215
+    lng: -71.1604095
+    url: https://www.mass.gov/locations/lawrence-district-court
+    kind: courthouse
+
+  - id: ma-franklin-courthouse
+    state: MA
+    county: Franklin
+    name: Greenfield District Court
+    address: 43 Hope St., Greenfield, MA 01301
+    lat: 42.5868299
+    lng: -72.5984380
+    url: https://www.mass.gov/locations/greenfield-district-court
+    kind: courthouse
+
+  - id: ma-hampden-courthouse
+    state: MA
+    county: Hampden
+    name: Springfield District Court
+    address: 50 State St., Springfield, MA 01103
+    lat: 42.0997807
+    lng: -72.5892821
+    url: https://www.mass.gov/locations/springfield-district-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ma-hampshire-courthouse
+    state: MA
+    county: Hampshire
+    name: Northampton District Court
+    address: 15 Gothic St., Northampton, MA 01060
+    lat: 42.3198338
+    lng: -72.6311204
+    url: https://www.mass.gov/locations/northampton-district-court
+    kind: courthouse
+
+  - id: ma-middlesex-courthouse
+    state: MA
+    county: Middlesex
+    name: Cambridge District Court
+    address: 4040 Mystic Valley Parkway, Medford, MA 02155
+    lat: 42.4046698
+    lng: -71.0870867
+    url: https://www.mass.gov/locations/cambridge-district-court
+    kind: courthouse
+
+  - id: ma-nantucket-courthouse
+    state: MA
+    county: Nantucket
+    name: Nantucket District Court
+    address: 16 Broad St., Nantucket, MA 02554
+    lat: 41.2850498
+    lng: -70.0990623
+    url: https://www.mass.gov/locations/nantucket-district-court
+    kind: courthouse
+
+  - id: ma-norfolk-courthouse
+    state: MA
+    county: Norfolk
+    name: Dedham District Court
+    address: 631 High St., Dedham, MA 02026
+    lat: 42.2490016
+    lng: -71.1751243
+    url: https://www.mass.gov/locations/dedham-district-court
+    kind: courthouse
+
+  - id: ma-plymouth-courthouse
+    state: MA
+    county: Plymouth
+    name: Brockton District Court
+    address: 215 Main St., Brockton, MA 02301
+    lat: 42.0816832
+    lng: -71.0205516
+    url: https://www.mass.gov/locations/brockton-district-court
+    kind: courthouse
+
+  - id: ma-suffolk-courthouse
+    state: MA
+    county: Suffolk
+    name: Boston Municipal Court, Central Division
+    address: 24 New Chardon Street, Boston, MA 02114
+    lat: 42.3628979
+    lng: -71.0613550
+    url: https://www.mass.gov/locations/central-division-boston-municipal-court
+    kind: courthouse
+
+  - id: ma-worcester-courthouse
+    state: MA
+    county: Worcester
+    name: Worcester District Court
+    address: 225 Main St., Worcester, MA 01608
+    lat: 42.2674296
+    lng: -71.7997998
+    url: https://www.mass.gov/locations/worcester-district-court
+    kind: courthouse

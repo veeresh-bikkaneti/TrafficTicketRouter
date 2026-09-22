@@ -1,0 +1,1432 @@
+# New York.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# Outside New York City, traffic matters go to city, town, or village courts; the
+# county cards point at the official NY Courts court-locator pages. The five NYC
+# counties use the official NY DMV Traffic Violations Bureau pages.
+# TicketRouter routes to official pages only; it does not search or store tickets.
+state: NY
+state_name: New York
+last_verified: "2026-09-21"
+official_hosts:
+  - nycourts.gov
+  - dmv.ny.gov
+  - askalawlibrarian.nycourts.gov
+  - portal.311.nyc.gov
+counties:
+  - name: Albany
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Allegany
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Bronx
+    note: "Traffic tickets go to the NY DMV Traffic Violations Bureau (TVB)."
+  - name: Broome
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Cattaraugus
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Cayuga
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Chautauqua
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Chemung
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Chenango
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Clinton
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Columbia
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Cortland
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Delaware
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Dutchess
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Erie
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Essex
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Franklin
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Fulton
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Genesee
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Greene
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Hamilton
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Herkimer
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Jefferson
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Kings
+    note: "Traffic tickets go to the NY DMV Traffic Violations Bureau (TVB)."
+  - name: Lewis
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Livingston
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Madison
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Monroe
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Montgomery
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Nassau
+    note: "Traffic matters go to city, town, or village courts."
+  - name: New York
+    note: "Traffic tickets go to the NY DMV Traffic Violations Bureau (TVB)."
+  - name: Niagara
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Oneida
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Onondaga
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Ontario
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Orange
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Orleans
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Oswego
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Otsego
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Putnam
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Queens
+    note: "Traffic tickets go to the NY DMV Traffic Violations Bureau (TVB)."
+  - name: Rensselaer
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Richmond
+    note: "Traffic tickets go to the NY DMV Traffic Violations Bureau (TVB)."
+  - name: Rockland
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Saratoga
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Schenectady
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Schoharie
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Schuyler
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Seneca
+    note: "Traffic matters go to city, town, or village courts."
+  - name: St. Lawrence
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Steuben
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Suffolk
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Sullivan
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Tioga
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Tompkins
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Ulster
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Warren
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Washington
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Wayne
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Westchester
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Wyoming
+    note: "Traffic matters go to city, town, or village courts."
+  - name: Yates
+    note: "Traffic matters go to city, town, or village courts."
+cards:
+  - id: ny-albany-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=albany&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Albany County — NY Courts court locator"
+    contact: "Albany County Supreme Court, 16 Eagle Street, Room 102, Albany, NY 12207."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Albany
+    weight: 10
+
+  - id: ny-allegany-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Allegany&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allegany County — NY Courts court locator"
+    contact: "Allegany County Supreme Court (M-B), 7 Court Street, Belmont, NY 14813."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allegany
+    weight: 10
+
+  - id: ny-broome-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=broome&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Broome County — NY Courts court locator"
+    contact: "Broome County Court, 65 Hawley Street, Binghamton, NY 13901."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Broome
+    weight: 10
+
+  - id: ny-cattaraugus-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Cattaraugus&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cattaraugus County — NY Courts court locator"
+    contact: "Cattaraugus County Supreme Court (M-B), 303 Court Street, Little Valley, NY 14755."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cattaraugus
+    weight: 10
+
+  - id: ny-cayuga-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=cayuga&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cayuga County — NY Courts court locator"
+    contact: "Cayuga County Court (M-B), 152 Genesee Street, Auburn, NY 13021."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cayuga
+    weight: 10
+
+  - id: ny-chautauqua-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Chautauqua&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chautauqua County — NY Courts court locator"
+    contact: "Chautauqua County Supreme Court, 3 North Erie Street, Mayville, NY 14757."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chautauqua
+    weight: 10
+
+  - id: ny-chemung-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=chemung&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chemung County — NY Courts court locator"
+    contact: "Chemung County Court (M-B), 203-205 Lake Street, Elmira, NY 14901."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chemung
+    weight: 10
+
+  - id: ny-chenango-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Chenango&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chenango County — NY Courts court locator"
+    contact: "Chenango County Supreme Court (M-B), 13 Eaton Avenue, Norwich, NY 13815."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chenango
+    weight: 10
+
+  - id: ny-clinton-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=clinton&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clinton County — NY Courts court locator"
+    contact: "Clinton County Supreme & County Court, 137 Margaret Street, Plattsburgh, NY 12901."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: ny-columbia-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=columbia&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County — NY Courts court locator"
+    contact: "Columbia County Court, 401 Union Street, Hudson, NY 12534."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: ny-cortland-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Cortland&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cortland County — NY Courts court locator"
+    contact: "Cortland County Supreme Court (M-B), 46 Greenbush Street, Cortland, NY 13045."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cortland
+    weight: 10
+
+  - id: ny-delaware-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Delaware&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Delaware County — NY Courts court locator"
+    contact: "Delaware County Supreme Court (M-B), 3 Court Street, Delhi, NY 13753."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delaware
+    weight: 10
+
+  - id: ny-dutchess-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Dutchess&topic=351&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dutchess County — NY Courts court locator"
+    contact: "Dutchess Supreme and County Court, 10 Market Street, Poughkeepsie, NY 12601."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dutchess
+    weight: 10
+
+  - id: ny-erie-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Erie&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Erie County — NY Courts court locator"
+    contact: "Erie County Supreme Court, 25 Delaware Avenue, Buffalo, NY 14202."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Erie
+    weight: 10
+
+  - id: ny-essex-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Essex&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Essex County — NY Courts court locator"
+    contact: "Essex County Supreme & County Court, 7559 Court Street, Elizabethtown, NY 12932."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Essex
+    weight: 10
+
+  - id: ny-franklin-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Franklin&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County — NY Courts court locator"
+    contact: "Franklin County Supreme & County Court, 355 West Main Street, Malone, NY 12953."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ny-fulton-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Fulton&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fulton County — NY Courts court locator"
+    contact: "Fulton County Supreme & County Court, 223 West Main Street, Johnstown, NY 12095."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 10
+
+  - id: ny-genesee-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Genesee&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Genesee County — NY Courts court locator"
+    contact: "Genesee County Supreme Court (M-B), 1 West Main Street, Batavia, NY 14020."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Genesee
+    weight: 10
+
+  - id: ny-greene-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=greene&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greene County — NY Courts court locator"
+    contact: "Greene County Court (M-B), 320 Main Street, Catskill, NY 12414."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: ny-hamilton-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Hamilton&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamilton County — NY Courts court locator"
+    contact: "Hamilton County Court, 102 County View Drive, Lake Pleasant, NY 12108."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: ny-herkimer-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Herkimer&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Herkimer County — NY Courts court locator"
+    contact: "Herkimer Supreme & County Courts, 301 N. Washington Street, Suite 5550, Herkimer, NY 13350."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Herkimer
+    weight: 10
+
+  - id: ny-jefferson-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Jefferson&topic=331&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County — NY Courts court locator"
+    contact: "Jefferson Supreme & County Court, 163 Arsenal Street, 2nd Floor, Watertown, NY 13601."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ny-lewis-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Lewis&topic=331&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis County — NY Courts court locator"
+    contact: "Lewis County Supreme Court, 7660 N. State Street, Lowville, NY 13367."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: ny-livingston-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Livingston&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Livingston County — NY Courts court locator"
+    contact: "Livingston County Supreme Court (M-B), 2 Court Street, Geneseo, NY 14454."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 10
+
+  - id: ny-madison-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Madison&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County — NY Courts court locator"
+    contact: "Madison County Supreme Court (M-B), 138 North Court Street, Wampsville, NY 13163."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: ny-monroe-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Monroe&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County — NY Courts court locator"
+    contact: "Monroe County Supreme & County Court, 99 Exchange Blvd., Rochester, NY 14614."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: ny-montgomery-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Montgomery&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County — NY Courts court locator"
+    contact: "Montgomery County Supreme & County Court, 58 Broadway, Fonda, NY 12068."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: ny-nassau-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Nassau&topic=8276&wrapped=true&district=8276"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nassau County — NY Courts court locator"
+    contact: "Nassau County Supreme Court, 100 Supreme Court Drive, Mineola, NY 11501."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nassau
+    weight: 10
+
+  - id: ny-niagara-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Niagara&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Niagara County — NY Courts court locator"
+    contact: "Niagara County Supreme Court, 775 Third Street, Niagara Falls, NY 14301."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Niagara
+    weight: 10
+
+  - id: ny-oneida-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Oneida&topic=331&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oneida County — NY Courts court locator"
+    contact: "Oneida Supreme & County Court, 200 Elizabeth Street, Utica, NY 13501."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oneida
+    weight: 10
+
+  - id: ny-onondaga-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Onondaga&topic=331&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Onondaga County — NY Courts court locator"
+    contact: "Onondaga Supreme & County Courts, 505 South State St., Syracuse, NY 13202."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Onondaga
+    weight: 10
+
+  - id: ny-ontario-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Ontario&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ontario County — NY Courts court locator"
+    contact: "Ontario Supreme & County Court, 27 North Main Street, Canandaigua, NY 14424."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ontario
+    weight: 10
+
+  - id: ny-orange-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Orange&topic=351&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orange County — NY Courts court locator"
+    contact: "Orange Supreme & County Court, 285 Main Street, Goshen, NY 10924."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: ny-orleans-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Orleans&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orleans County — NY Courts court locator"
+    contact: "Orleans County Supreme Court (M-B), 1 South Main Street, Albion, NY 14411."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orleans
+    weight: 10
+
+  - id: ny-oswego-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Oswego&topic=331&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oswego County — NY Courts court locator"
+    contact: "Oswego Supreme & County Court, 25 East Oneida Street, Oswego, NY 13126."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oswego
+    weight: 10
+
+  - id: ny-otsego-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Otsego&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Otsego County — NY Courts court locator"
+    contact: "Otsego County Supreme Court (M-B), 197 Main Street, Cooperstown, NY 13326."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Otsego
+    weight: 10
+
+  - id: ny-putnam-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Putnam&topic=351&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Putnam County — NY Courts court locator"
+    contact: "Putnam Supreme and County Court, 20 County Center, Carmel, NY 10512."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: ny-rensselaer-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Rensselaer&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rensselaer County — NY Courts court locator"
+    contact: "Rensselaer Supreme and County Court, 80 Second Street, Troy, NY 12180."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rensselaer
+    weight: 10
+
+  - id: ny-rockland-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Rockland+&topic=351&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rockland County — NY Courts court locator"
+    contact: "Rockland Supreme and County Court, 1 South Main Street, New City, NY 10956."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rockland
+    weight: 10
+
+  - id: ny-saratoga-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Saratoga&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saratoga County — NY Courts court locator"
+    contact: "Saratoga County Supreme & County Court, 30 McMaster Street, Ballston Spa, NY 12020."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saratoga
+    weight: 10
+
+  - id: ny-schenectady-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schenectady&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Schenectady County — NY Courts court locator"
+    contact: "Schenectady County Supreme & County Court, 612 State Street, Schenectady, NY 12305."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schenectady
+    weight: 10
+
+  - id: ny-schoharie-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schoharie&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Schoharie County — NY Courts court locator"
+    contact: "Schoharie County Courts, 290 Main Street, Schoharie, NY 12157."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schoharie
+    weight: 10
+
+  - id: ny-schuyler-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schuyler&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Schuyler County — NY Courts court locator"
+    contact: "Schuyler County Supreme Court (M-B), 105 Ninth Street, Watkins Glen, NY 14891."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schuyler
+    weight: 10
+
+  - id: ny-seneca-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Seneca&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Seneca County — NY Courts court locator"
+    contact: "Seneca County Supreme & County Court, 48 West Williams Street, Waterloo, NY 13165."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Seneca
+    weight: 10
+
+  - id: ny-st-lawrence-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=St.+Lawrence&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Lawrence County — NY Courts court locator"
+    contact: "St. Lawrence County Supreme Court, 48 Court Street, Canton, NY 13617."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Lawrence
+    weight: 10
+
+  - id: ny-steuben-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Steuben&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Steuben County — NY Courts court locator"
+    contact: "Steuben County Supreme & County Courts, 3 East Pulteney Square, Bath, NY 14810."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Steuben
+    weight: 10
+
+  - id: ny-suffolk-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Suffolk&topic=8271&wrapped=true&district=8271"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Suffolk County — NY Courts court locator"
+    contact: "Suffolk County Court, 210 Center Drive, Riverhead, NY 11901."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Suffolk
+    weight: 10
+
+  - id: ny-sullivan-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Sullivan&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sullivan County — NY Courts court locator"
+    contact: "Sullivan Supreme and County Court, 414 Broadway, Monticello, NY 12701."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sullivan
+    weight: 10
+
+  - id: ny-tioga-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Tioga&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tioga County — NY Courts court locator"
+    contact: "Tioga County Supreme & County Courts, 20 Court St., Owego, NY 13827."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tioga
+    weight: 10
+
+  - id: ny-tompkins-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Tompkins&topic=336&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tompkins County — NY Courts court locator"
+    contact: "Tompkins County Supreme Court (M-B), 320 N Tioga Street, Ithaca, NY 14850."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tompkins
+    weight: 10
+
+  - id: ny-ulster-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Ulster&topic=6&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ulster County — NY Courts court locator"
+    contact: "Ulster County Supreme & County Courts, 285 Wall Street, Kingston, NY 12401."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ulster
+    weight: 10
+
+  - id: ny-warren-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Warren&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County — NY Courts court locator"
+    contact: "Warren County Supreme & County Court, 1340 State Route 9, Lake George, NY 12845."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: ny-washington-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Washington&topic=326&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County — NY Courts court locator"
+    contact: "Washington County Supreme & County Court, 383 Broadway, Fort Edward, NY 12828."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ny-wayne-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Wayne&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County — NY Courts court locator"
+    contact: "Wayne County Supreme & County Courts, 54 Broad Street, Lyons, NY 14489."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: ny-westchester-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Westchester&topic=351&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Westchester County — NY Courts court locator"
+    contact: "Supreme & County Court of Westchester County, 111 Dr.Martin Luther King Jr Blvd, White Plains, NY 10601."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Westchester
+    weight: 10
+
+  - id: ny-wyoming-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Wyoming&topic=346&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wyoming County — NY Courts court locator"
+    contact: "Wyoming County Supreme Court (M-B), 147 North Main Street, Warsaw, NY 14569."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wyoming
+    weight: 10
+
+  - id: ny-yates-county-card
+    verification: link_ok
+    source_url: "https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Yates&topic=8256&wrapped=true"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yates County — NY Courts court locator"
+    contact: "Yates County Court (M-B), 415 Liberty Street, Penn Yan, NY 14527."
+    accepted_keys: "Use the official court locator to find the specific city, town, or village court."
+    cost: "No cost to look up — as of 2026-09-21 on nycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Outside New York City, traffic tickets are handled by city courts, district courts, and town and village courts — not the county courthouse."
+      - "The ticket itself names the court where you must appear or respond."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yates
+    weight: 10
+
+  - id: ny-bronx-county-card
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/find-tvb-office-locations"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV Traffic Violations Bureau — Bronx County"
+    accepted_keys: "See the official TVB locations page for offices and hours."
+    cost: "No cost to look up — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Non-criminal moving violations issued in New York City are adjudicated by the DMV Traffic Violations Bureau."
+      - "Tickets issued outside New York City go to local courts, not TVB."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bronx
+    weight: 10
+
+  - id: ny-kings-county-card
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/find-tvb-office-locations"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV Traffic Violations Bureau — Kings County"
+    accepted_keys: "See the official TVB locations page for offices and hours."
+    cost: "No cost to look up — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Non-criminal moving violations issued in New York City are adjudicated by the DMV Traffic Violations Bureau."
+      - "Tickets issued outside New York City go to local courts, not TVB."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kings
+    weight: 10
+
+  - id: ny-new-york-county-card
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/find-tvb-office-locations"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV Traffic Violations Bureau — New York County"
+    accepted_keys: "See the official TVB locations page for offices and hours."
+    cost: "No cost to look up — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Non-criminal moving violations issued in New York City are adjudicated by the DMV Traffic Violations Bureau."
+      - "Tickets issued outside New York City go to local courts, not TVB."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - New York
+    weight: 10
+
+  - id: ny-queens-county-card
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/find-tvb-office-locations"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV Traffic Violations Bureau — Queens County"
+    accepted_keys: "See the official TVB locations page for offices and hours."
+    cost: "No cost to look up — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Non-criminal moving violations issued in New York City are adjudicated by the DMV Traffic Violations Bureau."
+      - "Tickets issued outside New York City go to local courts, not TVB."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Queens
+    weight: 10
+
+  - id: ny-richmond-county-card
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/find-tvb-office-locations"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV Traffic Violations Bureau — Richmond County"
+    accepted_keys: "See the official TVB locations page for offices and hours."
+    cost: "No cost to look up — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Non-criminal moving violations issued in New York City are adjudicated by the DMV Traffic Violations Bureau."
+      - "Tickets issued outside New York City go to local courts, not TVB."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richmond
+    weight: 10
+
+  - id: ny-tvb-plead-pay
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/tickets/plead-or-pay-tvb-tickets"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV — plead or pay a TVB ticket"
+    accepted_keys: "On the official DMV site: your TVB ticket number and driver license details."
+    cost: "Fine and surcharge amounts are shown for your ticket on the official DMV site."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Only for non-criminal moving violations issued in New York City (all five boroughs)."
+      - "Tickets issued outside NYC are handled by local city, town, or village courts."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 30
+
+  - id: ny-driving-record
+    verification: link_ok
+    source_url: "https://dmv.ny.gov/records/get-my-own-driving-record-abstract"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NY DMV — get your driving record (abstract)"
+    accepted_keys: "On the official DMV site: NY.gov ID or your license document details."
+    cost: "Online abstract $7 through MyDMV — as of 2026-09-21 on dmv.ny.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows convictions, points, and suspensions history — not a pending-ticket portal."
+      - "Self-check only: request your own abstract, not someone else's."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: ny-traffic-ticket-help
+    verification: link_ok
+    source_url: "https://askalawlibrarian.nycourts.gov/legalresearch/faq/395331"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "NY Courts — traffic ticket questions (Ask a Law Librarian)"
+    accepted_keys: "Read the official guidance; no account needed."
+    cost: "No cost to read — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "If you lost your ticket, the guidance says to contact the issuing court or the DMV call center."
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40

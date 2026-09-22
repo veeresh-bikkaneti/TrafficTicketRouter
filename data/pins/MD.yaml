@@ -1,0 +1,208 @@
+# Maryland map pins — District Court locations.
+# Addresses verified against official mdcourts.gov pages 2026-09-21;
+# coordinates from Nominatim, cross-checked by reverse geocode. URLs reused
+# verbatim from data/states/MD.yaml — never invented. Do not commit without review.
+# NOTE: Baltimore County (Catonsville) and Garrett County pins omitted —
+# Nominatim has no record of those street addresses; county cards still list
+# the official addresses. St. Mary's pin is street-level on Leonard Hall Drive
+# at the county government complex (OSM has no building-level record; reverse
+# names the adjacent Emergency Management building).
+pins:
+  - id: md-allegany-courthouse
+    state: MD
+    county: Allegany
+    name: District Court of Maryland — Allegany
+    address: 123 South Liberty Street, Cumberland, MD 21502
+    lat: 39.6504810
+    lng: -78.7612641
+    url: https://www.mdcourts.gov/district/directories/allegany
+    kind: courthouse
+  - id: md-anne-arundel-courthouse
+    state: MD
+    county: Anne Arundel
+    name: District Court of Maryland — Anne Arundel
+    address: 251 Rowe Boulevard, Annapolis, MD 21401
+    lat: 38.9890955
+    lng: -76.5065343
+    url: https://www.mdcourts.gov/district/directories/annearundelANNAPOLIS
+    kind: courthouse
+  - id: md-baltimore-city-courthouse
+    state: MD
+    county: Baltimore City
+    name: District Court of Maryland — Baltimore City
+    address: 5800 Wabash Avenue, Baltimore, MD 21215
+    lat: 39.3483698
+    lng: -76.7017252
+    url: https://www.mdcourts.gov/district/directories/baltimorecityWABASH
+    kind: courthouse
+  - id: md-calvert-courthouse
+    state: MD
+    county: Calvert
+    name: District Court of Maryland — Calvert
+    address: 200 Duke Street, Prince Frederick, MD 20678
+    lat: 38.5397691
+    lng: -76.5810337
+    url: https://www.mdcourts.gov/district/directories/calvert
+    kind: courthouse
+  - id: md-caroline-courthouse
+    state: MD
+    county: Caroline
+    name: District Court of Maryland — Caroline
+    address: 207 S. Third Street, Denton, MD 21629
+    lat: 38.8834916
+    lng: -75.8317610
+    url: https://www.mdcourts.gov/district/directories/caroline
+    kind: courthouse
+  - id: md-carroll-courthouse
+    state: MD
+    county: Carroll
+    name: District Court of Maryland — Carroll
+    address: 101 North Court Street, Westminster, MD 21157
+    lat: 39.5714929
+    lng: -76.9869078
+    url: https://www.mdcourts.gov/district/directories/carroll
+    kind: courthouse
+  - id: md-cecil-courthouse
+    state: MD
+    county: Cecil
+    name: District Court of Maryland — Cecil
+    address: 170 E. Main Street, Elkton, MD 21921
+    lat: 39.6085216
+    lng: -75.8270949
+    url: https://www.mdcourts.gov/district/directories/cecil
+    kind: courthouse
+  - id: md-charles-courthouse
+    state: MD
+    county: Charles
+    name: District Court of Maryland — Charles
+    address: 11 Washington Avenue, La Plata, MD 20646
+    lat: 38.5298459
+    lng: -76.9779644
+    url: https://www.mdcourts.gov/district/directories/charles
+    kind: courthouse
+  - id: md-dorchester-courthouse
+    state: MD
+    county: Dorchester
+    name: District Court of Maryland — Dorchester
+    address: 310 Gay Street, Cambridge, MD 21613
+    lat: 38.5705720
+    lng: -76.0762410
+    url: https://www.mdcourts.gov/district/directories/dorchester
+    kind: courthouse
+  - id: md-frederick-courthouse
+    state: MD
+    county: Frederick
+    name: District Court of Maryland — Frederick
+    address: 100 W. Patrick Street, Frederick, MD 21701
+    lat: 39.4141820
+    lng: -77.4124350
+    url: https://www.mdcourts.gov/district/directories/frederick
+    kind: courthouse
+  - id: md-harford-courthouse
+    state: MD
+    county: Harford
+    name: District Court of Maryland — Harford
+    address: 2 South Bond Street, Bel Air, MD 21014
+    lat: 39.5354234
+    lng: -76.3508721
+    url: https://www.mdcourts.gov/district/directories/harford
+    kind: courthouse
+  - id: md-howard-courthouse
+    state: MD
+    county: Howard
+    name: District Court of Maryland — Howard
+    address: 3451 Courthouse Drive, Ellicott City, MD 21043
+    lat: 39.2755244
+    lng: -76.8037626
+    url: https://www.mdcourts.gov/district/directories/howard
+    kind: courthouse
+  - id: md-kent-courthouse
+    state: MD
+    county: Kent
+    name: District Court of Maryland — Kent
+    address: 103 N. Cross Street, Chestertown, MD 21620
+    lat: 39.2093279
+    lng: -76.0661611
+    url: https://www.mdcourts.gov/district/directories/kent
+    kind: courthouse
+  - id: md-montgomery-courthouse
+    state: MD
+    county: Montgomery
+    name: District Court of Maryland — Montgomery
+    address: 191 East Jefferson Street, Rockville, MD 20850
+    lat: 39.0826804
+    lng: -77.1517490
+    url: https://www.mdcourts.gov/district/directories/montgomeryROCKVILLE
+    kind: courthouse
+  - id: md-prince-georges-courthouse
+    state: MD
+    county: Prince George's
+    name: District Court of Maryland — Prince George's
+    address: 4990 Rhode Island Avenue, Hyattsville, MD 20781
+    lat: 38.9502058
+    lng: -76.9426428
+    url: https://www.mdcourts.gov/district/directories/princegeorgesHYATTSVILLE
+    kind: courthouse
+  - id: md-queen-annes-courthouse
+    state: MD
+    county: Queen Anne's
+    name: District Court of Maryland — Queen Anne's
+    address: 120 Broadway, Centreville, MD 21617
+    lat: 39.0452883
+    lng: -76.0649560
+    url: https://www.mdcourts.gov/district/directories/queenannes
+    kind: courthouse
+  - id: md-st-marys-courthouse
+    state: MD
+    county: St. Mary's
+    name: District Court of Maryland — St. Mary's
+    address: 23110 Leonard Hall Drive, Leonardtown, MD 20650
+    lat: 38.3042673
+    lng: -76.6297530
+    url: https://www.mdcourts.gov/district/directories/stmarys
+    kind: courthouse
+  - id: md-somerset-courthouse
+    state: MD
+    county: Somerset
+    name: District Court of Maryland — Somerset
+    address: 12155 Elm Street, Princess Anne, MD 21853
+    lat: 38.2151509
+    lng: -75.6984483
+    url: https://www.mdcourts.gov/district/directories/somerset
+    kind: courthouse
+  - id: md-talbot-courthouse
+    state: MD
+    county: Talbot
+    name: District Court of Maryland — Talbot
+    address: 108 W. Dover Street, Easton, MD 21601
+    lat: 38.7741461
+    lng: -76.0790747
+    url: https://www.mdcourts.gov/district/directories/talbot
+    kind: courthouse
+  - id: md-washington-courthouse
+    state: MD
+    county: Washington
+    name: District Court of Maryland — Washington
+    address: 36 W. Antietam Street, Hagerstown, MD 21740
+    lat: 39.6418408
+    lng: -77.7233849
+    url: https://www.mdcourts.gov/district/directories/washington
+    kind: courthouse
+  - id: md-wicomico-courthouse
+    state: MD
+    county: Wicomico
+    name: District Court of Maryland — Wicomico
+    address: 201 Baptist Street, Salisbury, MD 21801
+    lat: 38.3657580
+    lng: -75.5983060
+    url: https://www.mdcourts.gov/district/directories/wicomico
+    kind: courthouse
+  - id: md-worcester-courthouse
+    state: MD
+    county: Worcester
+    name: District Court of Maryland — Worcester
+    address: 6505 Coastal Highway, Ocean City, MD 21842
+    lat: 38.3876182
+    lng: -75.0657781
+    url: https://www.mdcourts.gov/district/directories/worcesterOCEANCITY
+    kind: courthouse

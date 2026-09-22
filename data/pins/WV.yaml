@@ -1,0 +1,500 @@
+# West Virginia map pins — Magistrate Court clerk locations.
+# Addresses verified against official courtswv.gov pages 2026-09-21;
+# coordinates from Nominatim, cross-checked by reverse geocode. URLs reused
+# verbatim from data/states/WV.yaml — never invented. Do not commit without review.
+pins:
+  - id: wv-barbour-courthouse
+    state: WV
+    county: Barbour
+    name: Magistrate Court — Barbour County
+    address: Church & Main Streets, Philippi, WV 26416
+    lat: 39.1525251
+    lng: -80.0392738
+    url: https://www.courtswv.gov/public-resources/court-information-county/barbour_county
+    kind: courthouse
+  - id: wv-berkeley-courthouse
+    state: WV
+    county: Berkeley
+    name: Magistrate Court — Berkeley County
+    address: 380 West South Street, Martinsburg, WV 25401
+    lat: 39.4538831
+    lng: -77.9683923
+    url: https://www.courtswv.gov/public-resources/court-information-county/berkeley_county
+    kind: courthouse
+  - id: wv-boone-courthouse
+    state: WV
+    county: Boone
+    name: Magistrate Court — Boone County
+    address: 200 State Street, Madison, WV 25130
+    lat: 38.0665065
+    lng: -81.8190802
+    url: https://www.courtswv.gov/public-resources/court-information-county/boone_county
+    kind: courthouse
+  - id: wv-braxton-courthouse
+    state: WV
+    county: Braxton
+    name: Magistrate Court — Braxton County
+    address: 307 Main Street Suite 205, Sutton, WV 26601
+    lat: 38.6645794
+    lng: -80.7084402
+    url: https://www.courtswv.gov/public-resources/court-information-county/braxton_county
+    kind: courthouse
+  - id: wv-brooke-courthouse
+    state: WV
+    county: Brooke
+    name: Magistrate Court — Brooke County
+    address: 620 Main Street, Wellsburg, WV 26070
+    lat: 40.2692735
+    lng: -80.6138947
+    url: https://www.courtswv.gov/public-resources/court-information-county/brooke_county
+    kind: courthouse
+  - id: wv-cabell-courthouse
+    state: WV
+    county: Cabell
+    name: Magistrate Court — Cabell County
+    address: 750 Fifth Avenue, Room B-113, Huntington, WV 25701
+    lat: 38.4197357
+    lng: -82.4463548
+    url: https://www.courtswv.gov/public-resources/court-information-county/cabell_county
+    kind: courthouse
+  - id: wv-calhoun-courthouse
+    state: WV
+    county: Calhoun
+    name: Magistrate Court — Calhoun County
+    address: 363 Main Street, Suite 103, Grantsville, WV 26147
+    lat: 38.9246254
+    lng: -81.0940377
+    url: https://www.courtswv.gov/public-resources/court-information-county/calhoun_county
+    kind: courthouse
+  - id: wv-clay-courthouse
+    state: WV
+    county: Clay
+    name: Magistrate Court — Clay County
+    address: 262 Main Street, Clay, WV 25043
+    lat: 38.4592222
+    lng: -81.0816584
+    url: https://www.courtswv.gov/public-resources/court-information-county/clay_county
+    kind: courthouse
+  - id: wv-doddridge-courthouse
+    state: WV
+    county: Doddridge
+    name: Magistrate Court — Doddridge County
+    address: 108 Court Street, West Union, WV 26456
+    lat: 39.2945435
+    lng: -80.7756181
+    url: https://www.courtswv.gov/public-resources/court-information-county/doddridge_county
+    kind: courthouse
+  - id: wv-fayette-courthouse
+    state: WV
+    county: Fayette
+    name: Magistrate Court — Fayette County
+    address: 100 Church Street, Suite 3, Fayetteville, WV 25840
+    lat: 38.0536230
+    lng: -81.1030180
+    url: https://www.courtswv.gov/public-resources/court-information-county/fayette_county
+    kind: courthouse
+  - id: wv-gilmer-courthouse
+    state: WV
+    county: Gilmer
+    name: Magistrate Court — Gilmer County
+    address: 201 North Court Street, Glenville, WV 26351
+    lat: 38.9347063
+    lng: -80.8360559
+    url: https://www.courtswv.gov/public-resources/court-information-county/gilmer_county
+    kind: courthouse
+  - id: wv-grant-courthouse
+    state: WV
+    county: Grant
+    name: Magistrate Court — Grant County
+    address: 4 North Main Street, Petersburg, WV 26847
+    lat: 38.9929109
+    lng: -79.1240977
+    url: https://www.courtswv.gov/public-resources/court-information-county/grant_county
+    kind: courthouse
+  - id: wv-greenbrier-courthouse
+    state: WV
+    county: Greenbrier
+    name: Magistrate Court — Greenbrier County
+    address: 912 Court Street North, Suite 13, Lewisburg, WV 24901
+    lat: 37.8032249
+    lng: -80.4451762
+    url: https://www.courtswv.gov/public-resources/court-information-county/greenbrier_county
+    kind: courthouse
+  - id: wv-hampshire-courthouse
+    state: WV
+    county: Hampshire
+    name: Magistrate Court — Hampshire County
+    address: 50 South High Street, Suite 3, Romney, WV 26757
+    lat: 39.3411801
+    lng: -78.7565003
+    url: https://www.courtswv.gov/public-resources/court-information-county/hampshire_county
+    kind: courthouse
+  - id: wv-hancock-courthouse
+    state: WV
+    county: Hancock
+    name: Magistrate Court — Hancock County
+    address: 900 North Chester Street, New Cumberland, WV 26047
+    lat: 40.5050310
+    lng: -80.6134250
+    url: https://www.courtswv.gov/public-resources/court-information-county/hancock_county
+    kind: courthouse
+  - id: wv-hardy-courthouse
+    state: WV
+    county: Hardy
+    name: Magistrate Court — Hardy County
+    address: 204 Washington Street, Moorefield, WV 26836
+    lat: 39.0639136
+    lng: -78.9670772
+    url: https://www.courtswv.gov/public-resources/court-information-county/hardy_county
+    kind: courthouse
+  - id: wv-harrison-courthouse
+    state: WV
+    county: Harrison
+    name: Magistrate Court — Harrison County
+    address: Room 222 306 Washington Avenue, Clarksburg, WV 26301
+    lat: 39.2783752
+    lng: -80.3396040
+    url: https://www.courtswv.gov/public-resources/court-information-county/harrison_county
+    kind: courthouse
+  - id: wv-jackson-courthouse
+    state: WV
+    county: Jackson
+    name: Magistrate Court — Jackson County
+    address: 100 Court Street, Ripley, WV 25271
+    lat: 38.8187170
+    lng: -81.7117020
+    url: https://www.courtswv.gov/public-resources/court-information-county/jackson_county
+    kind: courthouse
+  - id: wv-jefferson-courthouse
+    state: WV
+    county: Jefferson
+    name: Magistrate Court — Jefferson County
+    address: 110 North George Street, Charles Town, WV 25414
+    lat: 39.2891947
+    lng: -77.8601097
+    url: https://www.courtswv.gov/public-resources/court-information-county/jefferson_county
+    kind: courthouse
+  - id: wv-kanawha-courthouse
+    state: WV
+    county: Kanawha
+    name: Magistrate Court — Kanawha County
+    address: 111 Court Street, Charleston, WV 25301
+    lat: 38.3514013
+    lng: -81.6382480
+    url: https://www.courtswv.gov/public-resources/court-information-county/kanawha_county
+    kind: courthouse
+  - id: wv-lewis-courthouse
+    state: WV
+    county: Lewis
+    name: Magistrate Court — Lewis County
+    address: 117 Court Avenue, Room 143, Weston, WV 26452
+    lat: 39.0360327
+    lng: -80.4662382
+    url: https://www.courtswv.gov/public-resources/court-information-county/lewis_county
+    kind: courthouse
+  - id: wv-lincoln-courthouse
+    state: WV
+    county: Lincoln
+    name: Magistrate Court — Lincoln County
+    address: 8000 Court Avenue, Hamlin, WV 25523
+    lat: 38.2789540
+    lng: -82.1055270
+    url: https://www.courtswv.gov/public-resources/court-information-county/lincoln_county
+    kind: courthouse
+  - id: wv-logan-courthouse
+    state: WV
+    county: Logan
+    name: Magistrate Court — Logan County
+    address: 300 Stratton Street, Logan, WV 25601
+    lat: 37.8471230
+    lng: -81.9914670
+    url: https://www.courtswv.gov/public-resources/court-information-county/logan_county
+    kind: courthouse
+  - id: wv-marion-courthouse
+    state: WV
+    county: Marion
+    name: Magistrate Court — Marion County
+    address: 200 Jackson Street, Fairmont, WV 26554
+    lat: 39.4855490
+    lng: -80.1437230
+    url: https://www.courtswv.gov/public-resources/court-information-county/marion_county
+    kind: courthouse
+  - id: wv-marshall-courthouse
+    state: WV
+    county: Marshall
+    name: Magistrate Court — Marshall County
+    address: 511 Sixth Street, Moundsville, WV 26041
+    lat: 39.9192595
+    lng: -80.7469459
+    url: https://www.courtswv.gov/public-resources/court-information-county/marshall_county
+    kind: courthouse
+  - id: wv-mason-courthouse
+    state: WV
+    county: Mason
+    name: Magistrate Court — Mason County
+    address: 200 Sixth Street, Point Pleasant, WV 25550
+    lat: 38.8445090
+    lng: -82.1381120
+    url: https://www.courtswv.gov/public-resources/court-information-county/mason_county
+    kind: courthouse
+  - id: wv-mcdowell-courthouse
+    state: WV
+    county: McDowell
+    name: Magistrate Court — McDowell County
+    address: 105 Wyoming Street, Welch, WV 24801
+    lat: 37.4331179
+    lng: -81.5846605
+    url: https://www.courtswv.gov/public-resources/court-information-county/mcdowell_county
+    kind: courthouse
+  - id: wv-mercer-courthouse
+    state: WV
+    county: Mercer
+    name: Magistrate Court — Mercer County
+    address: 120 Scott Street, Suite 103, Princeton, WV 24740
+    lat: 37.3659213
+    lng: -81.1033349
+    url: https://www.courtswv.gov/public-resources/court-information-county/mercer_county
+    kind: courthouse
+  - id: wv-mineral-courthouse
+    state: WV
+    county: Mineral
+    name: Magistrate Court — Mineral County
+    address: 105 West Street, Keyser, WV 26726
+    lat: 39.4400307
+    lng: -78.9737653
+    url: https://www.courtswv.gov/public-resources/court-information-county/mineral_county
+    kind: courthouse
+  - id: wv-mingo-courthouse
+    state: WV
+    county: Mingo
+    name: Magistrate Court — Mingo County
+    address: 101 Logan Street, Room 303, Williamson, WV 25661
+    lat: 37.6724048
+    lng: -82.2788059
+    url: https://www.courtswv.gov/public-resources/court-information-county/mingo_county
+    kind: courthouse
+  - id: wv-monongalia-courthouse
+    state: WV
+    county: Monongalia
+    name: Magistrate Court — Monongalia County
+    address: 75 High Street, Suite 25, Morgantown, WV 26505
+    lat: 39.6278200
+    lng: -79.9577271
+    url: https://www.courtswv.gov/public-resources/court-information-county/monongalia_county
+    kind: courthouse
+  - id: wv-monroe-courthouse
+    state: WV
+    county: Monroe
+    name: Magistrate Court — Monroe County
+    address: 500 Main Street, Union, WV 24983
+    lat: 37.5939480
+    lng: -80.5437430
+    url: https://www.courtswv.gov/public-resources/court-information-county/monroe_county
+    kind: courthouse
+  - id: wv-morgan-courthouse
+    state: WV
+    county: Morgan
+    name: Magistrate Court — Morgan County
+    address: 77 Fairfax Street, Room 202, Berkeley Springs, WV 25411
+    lat: 39.6269595
+    lng: -78.2271901
+    url: https://www.courtswv.gov/public-resources/court-information-county/morgan_county
+    kind: courthouse
+  - id: wv-nicholas-courthouse
+    state: WV
+    county: Nicholas
+    name: Magistrate Court — Nicholas County
+    address: 511 Church Street, Summersville, WV 26651
+    lat: 38.2806457
+    lng: -80.8512566
+    url: https://www.courtswv.gov/public-resources/court-information-county/nicholas_county
+    kind: courthouse
+  - id: wv-ohio-courthouse
+    state: WV
+    county: Ohio
+    name: Magistrate Court — Ohio County
+    address: 26 Fifteenth Street, Wheeling, WV 26003
+    lat: 40.0650490
+    lng: -80.7191533
+    url: https://www.courtswv.gov/public-resources/court-information-county/ohio_county
+    kind: courthouse
+  - id: wv-pendleton-courthouse
+    state: WV
+    county: Pendleton
+    name: Magistrate Court — Pendleton County
+    address: 10 South Main Street, Franklin, WV 26807
+    lat: 38.6412530
+    lng: -79.3315143
+    url: https://www.courtswv.gov/public-resources/court-information-county/pendleton_county
+    kind: courthouse
+  - id: wv-pleasants-courthouse
+    state: WV
+    county: Pleasants
+    name: Magistrate Court — Pleasants County
+    address: 301 Court Lane, Room B-6, St. Marys, WV 26170
+    lat: 39.3879015
+    lng: -81.2059976
+    url: https://www.courtswv.gov/public-resources/court-information-county/pleasants_county
+    kind: courthouse
+  - id: wv-pocahontas-courthouse
+    state: WV
+    county: Pocahontas
+    name: Magistrate Court — Pocahontas County
+    address: 900 Tenth Avenue, Marlinton, WV 24954
+    lat: 38.2177805
+    lng: -80.0882063
+    url: https://www.courtswv.gov/public-resources/court-information-county/pocahontas_county
+    kind: courthouse
+  - id: wv-preston-courthouse
+    state: WV
+    county: Preston
+    name: Magistrate Court — Preston County
+    address: 101 West Main Street, Room 201, Kingwood, WV 26537
+    lat: 39.4720863
+    lng: -79.6875345
+    url: https://www.courtswv.gov/public-resources/court-information-county/preston_county
+    kind: courthouse
+  - id: wv-putnam-courthouse
+    state: WV
+    county: Putnam
+    name: Magistrate Court — Putnam County
+    address: 12093 Winfield Road, Suite 15, Winfield, WV 25213
+    lat: 38.5346012
+    lng: -81.8915658
+    url: https://www.courtswv.gov/public-resources/court-information-county/putnam_county
+    kind: courthouse
+  - id: wv-raleigh-courthouse
+    state: WV
+    county: Raleigh
+    name: Magistrate Court — Raleigh County
+    address: 222 Main Street, Beckley, WV 25801
+    lat: 37.7773545
+    lng: -81.1891797
+    url: https://www.courtswv.gov/public-resources/court-information-county/raleigh_county
+    kind: courthouse
+  - id: wv-randolph-courthouse
+    state: WV
+    county: Randolph
+    name: Magistrate Court — Randolph County
+    address: 11 Randolph Avenue, Elkins, WV 26241
+    lat: 38.9217402
+    lng: -79.8422517
+    url: https://www.courtswv.gov/public-resources/court-information-county/randolph_county
+    kind: courthouse
+  - id: wv-ritchie-courthouse
+    state: WV
+    county: Ritchie
+    name: Magistrate Court — Ritchie County
+    address: 109 North Street, Suite 102, Harrisville, WV 26362
+    lat: 39.2097169
+    lng: -81.0475872
+    url: https://www.courtswv.gov/public-resources/court-information-county/ritchie_county
+    kind: courthouse
+  - id: wv-roane-courthouse
+    state: WV
+    county: Roane
+    name: Magistrate Court — Roane County
+    address: 208 Court Street, Spencer, WV 25276
+    lat: 38.8024036
+    lng: -81.3498223
+    url: https://www.courtswv.gov/public-resources/court-information-county/roane_county
+    kind: courthouse
+  - id: wv-summers-courthouse
+    state: WV
+    county: Summers
+    name: Magistrate Court — Summers County
+    address: 123 Temple Street, Hinton, WV 25951
+    lat: 37.6738690
+    lng: -80.8915225
+    url: https://www.courtswv.gov/public-resources/court-information-county/summers_county
+    kind: courthouse
+  - id: wv-taylor-courthouse
+    state: WV
+    county: Taylor
+    name: Magistrate Court — Taylor County
+    address: 214 West Main Street, Grafton, WV 26354
+    lat: 39.3408256
+    lng: -80.0251342
+    url: https://www.courtswv.gov/public-resources/court-information-county/taylor_county
+    kind: courthouse
+  - id: wv-tucker-courthouse
+    state: WV
+    county: Tucker
+    name: Magistrate Court — Tucker County
+    address: 211 First Street, Suite 303, Parsons, WV 26287
+    lat: 39.0965198
+    lng: -79.6808640
+    url: https://www.courtswv.gov/public-resources/court-information-county/tucker_county
+    kind: courthouse
+  - id: wv-tyler-courthouse
+    state: WV
+    county: Tyler
+    name: Magistrate Court — Tyler County
+    address: 228 Main Street, Middlebourne, WV 26149
+    lat: 39.4927213
+    lng: -80.9035279
+    url: https://www.courtswv.gov/public-resources/court-information-county/tyler_county
+    kind: courthouse
+  - id: wv-upshur-courthouse
+    state: WV
+    county: Upshur
+    name: Magistrate Court — Upshur County
+    address: 38 West Main Street, Room 204, Buckhannon, WV 26201
+    lat: 38.9936371
+    lng: -80.2311305
+    url: https://www.courtswv.gov/public-resources/court-information-county/upshur_county
+    kind: courthouse
+  - id: wv-wayne-courthouse
+    state: WV
+    county: Wayne
+    name: Magistrate Court — Wayne County
+    address: 100 South Court Street, Wayne, WV 25570
+    lat: 38.2208218
+    lng: -82.4422154
+    url: https://www.courtswv.gov/public-resources/court-information-county/wayne_county
+    kind: courthouse
+  - id: wv-webster-courthouse
+    state: WV
+    county: Webster
+    name: Magistrate Court — Webster County
+    address: 112 Bell Street, Suite A, Webster Springs, WV 26288
+    lat: 38.4793990
+    lng: -80.4095613
+    url: https://www.courtswv.gov/public-resources/court-information-county/webster_county
+    kind: courthouse
+  - id: wv-wetzel-courthouse
+    state: WV
+    county: Wetzel
+    name: Magistrate Court — Wetzel County
+    address: 257 Main Street, Third Floor, New Martinsville, WV 26155
+    lat: 39.6409961
+    lng: -80.8655670
+    url: https://www.courtswv.gov/public-resources/court-information-county/wetzel_county
+    kind: courthouse
+  - id: wv-wirt-courthouse
+    state: WV
+    county: Wirt
+    name: Magistrate Court — Wirt County
+    address: 90 Market Street, Elizabeth, WV 26143
+    lat: 39.0635096
+    lng: -81.3936769
+    url: https://www.courtswv.gov/public-resources/court-information-county/wirt_county
+    kind: courthouse
+  - id: wv-wood-courthouse
+    state: WV
+    county: Wood
+    name: Magistrate Court — Wood County
+    address: 401 Second Street, Suite 12, Parkersburg, WV 26101
+    lat: 39.2629110
+    lng: -81.5628570
+    url: https://www.courtswv.gov/public-resources/court-information-county/wood_county
+    kind: courthouse
+  - id: wv-wyoming-courthouse
+    state: WV
+    county: Wyoming
+    name: Magistrate Court — Wyoming County
+    address: 44 Cedar Street, Pineville, WV 24874
+    lat: 37.5839526
+    lng: -81.5380291
+    url: https://www.courtswv.gov/public-resources/court-information-county/wyoming_county
+    kind: courthouse

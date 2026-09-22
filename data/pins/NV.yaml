@@ -1,0 +1,12 @@
+# Nevada map pins — justice court locations.
+# 1 pin (Clark County/Henderson); 16 counties omitted (not verified).
+pins:
+  - id: nv-clark-courthouse
+    state: NV
+    county: Clark
+    name: Henderson Justice Court
+    address: 243 S Water St, Henderson, NV 89015
+    lat: 36.0314037
+    lng: -114.9815514
+    url: https://www.clarkcountynv.gov/government/departments/justice_courts/jurisdictions/henderson/divisions/traffic
+    kind: courthouse

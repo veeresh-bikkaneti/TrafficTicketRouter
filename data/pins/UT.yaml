@@ -1,0 +1,220 @@
+# Utah map pins — justice court locations (phase P5, MapLibre).
+# Addresses from official court/county pages verified 2026-09-21; coordinates
+# via Nominatim, cross-checked against OSM place data. URLs reused verbatim
+# from data/states/UT.yaml — never invented. 7 counties omitted (geocode failed).
+pins:
+  - id: ut-box-elder-courthouse
+    state: UT
+    county: Box Elder
+    name: Box Elder County Justice Court
+    address: 81 North Main Street, Brigham City, UT 84302
+    lat: 41.512232
+    lng: -112.0163536
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=box-elder-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-cache-courthouse
+    state: UT
+    county: Cache
+    name: Logan Justice Court
+    address: 446 North 100 West, Logan, UT 84321
+    lat: 41.7400194
+    lng: -111.8369028
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=logan-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-carbon-courthouse
+    state: UT
+    county: Carbon
+    name: Carbon County Justice Court
+    address: 751 E 100 N, Price, UT 84501
+    lat: 39.6010034
+    lng: -110.8083465
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=carbon-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-garfield-courthouse
+    state: UT
+    county: Garfield
+    name: Garfield County Justice Court
+    address: 740 North Main St, Panguitch, UT 84759
+    lat: 37.8344035
+    lng: -112.4372384
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=garfield-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-grand-courthouse
+    state: UT
+    county: Grand
+    name: Grand County Justice Court
+    address: 125 East Center St, Moab, UT 84532
+    lat: 38.5738292
+    lng: -109.5482807
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=grand-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-iron-courthouse
+    state: UT
+    county: Iron
+    name: Iron County Justice Court
+    address: 82 North 100 East, Cedar City, UT 84720
+    lat: 37.6801976
+    lng: -113.0601366
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=iron-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-juab-courthouse
+    state: UT
+    county: Juab
+    name: Juab County Justice Court
+    address: 160 N Main Street, Nephi, UT 84648
+    lat: 39.7108049
+    lng: -111.8354889
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=juab-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-kane-courthouse
+    state: UT
+    county: Kane
+    name: Kane County Justice Court
+    address: 76 N Main St, Kanab, UT 84741
+    lat: 37.0455628
+    lng: -112.5285533
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=kane-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-morgan-courthouse
+    state: UT
+    county: Morgan
+    name: Morgan County Justice Court
+    address: 48 West Young Street, Morgan, UT 84050
+    lat: 41.035892
+    lng: -111.6782351
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=morgan-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-rich-courthouse
+    state: UT
+    county: Rich
+    name: Rich County Justice Court
+    address: 20 South Main Street, Randolph, UT 84064
+    lat: 41.6650777
+    lng: -111.184497
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=rich-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-salt-lake-courthouse
+    state: UT
+    county: Salt Lake
+    name: Salt Lake County Justice Court
+    address: 2001 S State St, Salt Lake City, UT 84114
+    lat: 40.7267416
+    lng: -111.8874929
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=salt-lake-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-san-juan-courthouse
+    state: UT
+    county: San Juan
+    name: San Juan County Justice Court
+    address: 297 South Main St, Monticello, UT 84535
+    lat: 37.8684344
+    lng: -109.3428298
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=san-juan-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-sevier-courthouse
+    state: UT
+    county: Sevier
+    name: Sevier County Justice Court
+    address: 250 North Main, Richfield, UT 84701
+    lat: 38.791093
+    lng: -112.0833707
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=sevier-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-tooele-courthouse
+    state: UT
+    county: Tooele
+    name: Tooele County Justice Court
+    address: 74 S 100 E, Tooele, UT 84074
+    lat: 40.5292384
+    lng: -112.2957337
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=tooele-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-uintah-courthouse
+    state: UT
+    county: Uintah
+    name: Uintah County Justice Court
+    address: 641 East 300 South, Vernal, UT 84078
+    lat: 40.4513253
+    lng: -109.5242181
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=uintah-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-utah-courthouse
+    state: UT
+    county: Utah
+    name: Utah County Justice Court
+    address: 151 South University Ave, Provo, UT 84601
+    lat: 40.2316667
+    lng: -111.6582464
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=utah-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-washington-courthouse
+    state: UT
+    county: Washington
+    name: Washington County Justice Court
+    address: 197 E Tabernacle Street, St. George, UT 84770
+    lat: 37.108212
+    lng: -113.5867287
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=washington-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ut-wayne-courthouse
+    state: UT
+    county: Wayne
+    name: Wayne County Justice Court
+    address: 18 S Main St, Loa, UT 84747
+    lat: 38.4019028
+    lng: -111.6433747
+    url: https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=wayne-county-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

@@ -1,0 +1,865 @@
+# North Carolina map pins — District Court / courthouse locations.
+# Addresses from official nccourts.gov pages 2026-09-21; coordinates from
+# Nominatim, cross-checked by reverse geocode (Carteret and Dare use official
+# nccourts.gov place coordinates, cross-checked via OSM reverse). URLs reused
+# verbatim from data/states/NC.yaml — never invented.
+# Pins omitted: Beaufort (no OSM courthouse record; name search resolved to
+# Roper, NC, not the card venue), Clay, Hertford, Rockingham (not verifiable),
+# Polk (OSM resolves only to town level, no courthouse/precise address).
+# Do not commit without review.
+pins:
+  - id: nc-alamance-courthouse
+    state: NC
+    county: Alamance
+    name: Judge J.B. Allen Jr. Criminal Courthouse
+    address: 212 West Elm Street, Graham, NC 27253
+    lat: 36.0694981
+    lng: -79.4029521
+    url: https://www.nccourts.gov/locations/alamance-county/judge-jb-allen-jr-criminal-courthouse-0
+    kind: courthouse
+  - id: nc-alexander-courthouse
+    state: NC
+    county: Alexander
+    name: Alexander County Courthouse
+    address: 29 W. Main Ave., Taylorsville, NC 28681
+    lat: 35.9222643
+    lng: -81.1758481
+    url: https://www.nccourts.gov/locations/alexander-county/alexander-county-courthouse
+    kind: courthouse
+  - id: nc-alleghany-courthouse
+    state: NC
+    county: Alleghany
+    name: Alleghany County Courthouse
+    address: 12 N Main St, Sparta, NC 28675
+    lat: 36.5058303
+    lng: -81.1206581
+    url: https://www.nccourts.gov/locations/alleghany-county/alleghany-county-courthouse
+    kind: courthouse
+  - id: nc-anson-courthouse
+    state: NC
+    county: Anson
+    name: Anson County Courthouse
+    address: 114 N Greene St, Wadesboro, NC 28170
+    lat: 34.9665196
+    lng: -80.0767137
+    url: https://www.nccourts.gov/locations/anson-county/anson-county-courthouse
+    kind: courthouse
+  - id: nc-ashe-courthouse
+    state: NC
+    county: Ashe
+    name: Ashe County Courthouse
+    address: 150 Government Circle, Jefferson, NC 28640
+    lat: 36.4182213
+    lng: -81.4590014
+    url: https://www.nccourts.gov/locations/ashe-county/ashe-county-courthouse
+    kind: courthouse
+  - id: nc-avery-courthouse
+    state: NC
+    county: Avery
+    name: Avery County Courthouse
+    address: 200 Montezuma St, Newland, NC 28657
+    lat: 36.0866100
+    lng: -81.9266361
+    url: https://www.nccourts.gov/locations/avery-county/avery-county-courthouse
+    kind: courthouse
+  - id: nc-bertie-courthouse
+    state: NC
+    county: Bertie
+    name: Bertie County Courthouse
+    address: 108 Dundee St, Windsor, NC 27983
+    lat: 35.9973239
+    lng: -76.9458479
+    url: https://www.nccourts.gov/locations/bertie-county/bertie-county-courthouse
+    kind: courthouse
+  - id: nc-bladen-courthouse
+    state: NC
+    county: Bladen
+    name: Bladen County Courthouse
+    address: 166 E. Broad St., Elizabethtown, NC 28337
+    lat: 34.6280102
+    lng: -78.6058548
+    url: https://www.nccourts.gov/locations/bladen-county/bladen-county-courthouse
+    kind: courthouse
+  - id: nc-brunswick-courthouse
+    state: NC
+    county: Brunswick
+    name: Brunswick County Courthouse
+    address: 310 Government Center Drive, NE, Bolivia, NC 28422
+    lat: 34.0598045
+    lng: -78.1620455
+    url: https://www.nccourts.gov/locations/brunswick-county/brunswick-county-courthouse
+    kind: courthouse
+  - id: nc-buncombe-courthouse
+    state: NC
+    county: Buncombe
+    name: Buncombe County Courthouse
+    address: 60 Court Plaza, Asheville, NC 28801
+    lat: 35.5954955
+    lng: -82.5491275
+    url: https://www.nccourts.gov/locations/buncombe-county/buncombe-county-courthouse
+    kind: courthouse
+  - id: nc-burke-courthouse
+    state: NC
+    county: Burke
+    name: Burke County Courthouse
+    address: 201 South Green St, Morganton, NC 28655
+    lat: 35.7454050
+    lng: -81.6861520
+    url: https://www.nccourts.gov/locations/burke-county/burke-county-courthouse
+    kind: courthouse
+  - id: nc-cabarrus-courthouse
+    state: NC
+    county: Cabarrus
+    name: Cabarrus County Courthouse
+    address: 61 Union Street South, Concord, NC 28025
+    lat: 35.4094801
+    lng: -80.5789014
+    url: https://www.nccourts.gov/locations/cabarrus-county/cabarrus-county-courthouse
+    kind: courthouse
+  - id: nc-caldwell-courthouse
+    state: NC
+    county: Caldwell
+    name: Caldwell County Courthouse
+    address: 216 Main St NW, Lenoir, NC 28645
+    lat: 35.9155436
+    lng: -81.5397481
+    url: https://www.nccourts.gov/locations/caldwell-county/caldwell-county-courthouse
+    kind: courthouse
+  - id: nc-camden-courthouse
+    state: NC
+    county: Camden
+    name: Camden County Courthouse
+    address: 117 NC Hwy 343 North, Camden, NC 27921
+    lat: 36.3296891
+    lng: -76.1747803
+    url: https://www.nccourts.gov/locations/camden-county/camden-county-courthouse
+    kind: courthouse
+  - id: nc-carteret-courthouse
+    state: NC
+    county: Carteret
+    name: Carteret County Courthouse
+    address: 300 Courthouse Square, Beaufort, NC 28516
+    lat: 34.72009
+    lng: -76.662639
+    url: https://www.nccourts.gov/locations/carteret-county/carteret-county-courthouse
+    kind: courthouse
+  - id: nc-caswell-courthouse
+    state: NC
+    county: Caswell
+    name: Caswell County Courthouse
+    address: 139 East Church St, Yanceyville, NC 27379
+    lat: 36.4059775
+    lng: -79.3355397
+    url: https://www.nccourts.gov/locations/caswell-county/caswell-county-courthouse
+    kind: courthouse
+  - id: nc-catawba-courthouse
+    state: NC
+    county: Catawba
+    name: Catawba County Justice Center
+    address: 100 Government Drive, Newton, NC 28658
+    lat: 35.6622831
+    lng: -81.2319188
+    url: https://www.nccourts.gov/locations/catawba-county/catawba-county-justice-center
+    kind: courthouse
+  - id: nc-chatham-courthouse
+    state: NC
+    county: Chatham
+    name: Chatham County Courthouse
+    address: 40 E Chatham Street, Pittsboro, NC 27312
+    lat: 35.7189713
+    lng: -79.1772144
+    url: https://www.nccourts.gov/locations/chatham-county/chatham-county-courthouse
+    kind: courthouse
+  - id: nc-cherokee-courthouse
+    state: NC
+    county: Cherokee
+    name: Cherokee County Courthouse
+    address: 75 Peachtree St, Murphy, NC 28906
+    lat: 35.0870867
+    lng: -84.0328087
+    url: https://www.nccourts.gov/locations/cherokee-county/cherokee-county-courthouse
+    kind: courthouse
+  - id: nc-chowan-courthouse
+    state: NC
+    county: Chowan
+    name: Chowan County Courthouse
+    address: 101 S Broad St, Edenton, NC 27932
+    lat: 36.0579810
+    lng: -76.6091645
+    url: https://www.nccourts.gov/locations/chowan-county/chowan-county-courthouse
+    kind: courthouse
+  - id: nc-cleveland-courthouse
+    state: NC
+    county: Cleveland
+    name: Cleveland County Courthouse
+    address: 100 Justice Place, Shelby, NC 28150
+    lat: 35.2908182
+    lng: -81.5359413
+    url: https://www.nccourts.gov/locations/cleveland-county/cleveland-county-courthouse
+    kind: courthouse
+  - id: nc-columbus-courthouse
+    state: NC
+    county: Columbus
+    name: Columbus County Courthouse
+    address: 100 Courthouse Circle, Whiteville, NC 28472
+    lat: 34.3387373
+    lng: -78.7035928
+    url: https://www.nccourts.gov/locations/columbus-county/columbus-county-courthouse
+    kind: courthouse
+  - id: nc-craven-courthouse
+    state: NC
+    county: Craven
+    name: Craven County Courthouse
+    address: 302 Broad St, New Bern, NC 28560
+    lat: 35.1085038
+    lng: -77.0383690
+    url: https://www.nccourts.gov/locations/craven-county/craven-county-courthouse
+    kind: courthouse
+  - id: nc-cumberland-courthouse
+    state: NC
+    county: Cumberland
+    name: Judge E. Maurice Braswell Cumberland County Courthouse
+    address: 117 Dick St., Fayetteville, NC 28301
+    lat: 35.0509145
+    lng: -78.8762551
+    url: https://www.nccourts.gov/locations/cumberland-county/judge-e-maurice-braswell-cumberland-county-courthouse
+    kind: courthouse
+  - id: nc-currituck-courthouse
+    state: NC
+    county: Currituck
+    name: Currituck County Courthouse
+    address: 2801 Caratoke Hwy, Currituck, NC 27929
+    lat: 36.4533993
+    lng: -76.0251898
+    url: https://www.nccourts.gov/locations/currituck-county/currituck-county-courthouse
+    kind: courthouse
+  - id: nc-dare-courthouse
+    state: NC
+    county: Dare
+    name: Dare County Justice Center
+    address: 962 Marshall Collins Drive, Manteo, NC 27954
+    lat: 35.890514
+    lng: -75.664006
+    url: https://www.nccourts.gov/locations/dare-county/dare-county-justice-center
+    kind: courthouse
+  - id: nc-davidson-courthouse
+    state: NC
+    county: Davidson
+    name: Davidson County Courthouse
+    address: 110 West Center St, Lexington, NC 27292
+    lat: 35.8262239
+    lng: -80.2548560
+    url: https://www.nccourts.gov/locations/davidson-county/davidson-county-courthouse
+    kind: courthouse
+  - id: nc-davie-courthouse
+    state: NC
+    county: Davie
+    name: Davie County Courthouse
+    address: 140 South Main St, Mocksville, NC 27028
+    lat: 35.8934924
+    lng: -80.5615935
+    url: https://www.nccourts.gov/locations/davie-county/davie-county-courthouse
+    kind: courthouse
+  - id: nc-duplin-courthouse
+    state: NC
+    county: Duplin
+    name: Duplin County Courthouse
+    address: 112 Duplin St., Kenansville, NC 28349
+    lat: 34.9625960
+    lng: -77.9625503
+    url: https://www.nccourts.gov/locations/duplin-county/duplin-county-courthouse
+    kind: courthouse
+  - id: nc-durham-courthouse
+    state: NC
+    county: Durham
+    name: Durham County Courthouse
+    address: 510 South Dillard St, Durham, NC 27701
+    lat: 35.9921792
+    lng: -78.9011126
+    url: https://www.nccourts.gov/locations/durham-county/durham-county-courthouse
+    kind: courthouse
+  - id: nc-edgecombe-courthouse
+    state: NC
+    county: Edgecombe
+    name: Edgecombe County Courthouse
+    address: 301 St Andrews St., Tarboro, NC 27886
+    lat: 35.8975066
+    lng: -77.5328831
+    url: https://www.nccourts.gov/locations/edgecombe-county/edgecombe-county-courthouse
+    kind: courthouse
+  - id: nc-forsyth-courthouse
+    state: NC
+    county: Forsyth
+    name: Forsyth County Courthouse
+    address: 175 N. Chestnut Street, Winston-Salem, NC 27101
+    lat: 36.0962914
+    lng: -80.2410180
+    url: https://www.nccourts.gov/locations/forsyth-county/forsyth-county-courthouse
+    kind: courthouse
+  - id: nc-franklin-courthouse
+    state: NC
+    county: Franklin
+    name: Franklin County Courthouse
+    address: 102 S Main St., Louisburg, NC 27549
+    lat: 36.0989245
+    lng: -78.3009071
+    url: https://www.nccourts.gov/locations/franklin-county/franklin-county-courthouse
+    kind: courthouse
+  - id: nc-gaston-courthouse
+    state: NC
+    county: Gaston
+    name: Gaston County Courthouse
+    address: 325 Dr. Martin Luther King Jr. Way Suite 1004, Gastonia, NC 28052
+    lat: 35.2661430
+    lng: -81.1827677
+    url: https://www.nccourts.gov/locations/gaston-county/gaston-county-courthouse
+    kind: courthouse
+  - id: nc-gates-courthouse
+    state: NC
+    county: Gates
+    name: Gates County Courthouse
+    address: 202 Court St., Gatesville, NC 27938
+    lat: 36.4030100
+    lng: -76.7538576
+    url: https://www.nccourts.gov/locations/gates-county/gates-county-courthouse
+    kind: courthouse
+  - id: nc-graham-courthouse
+    state: NC
+    county: Graham
+    name: Graham County Courthouse
+    address: 12 Court St., Robbinsville, NC 28771
+    lat: 35.3230753
+    lng: -83.8066920
+    url: https://www.nccourts.gov/locations/graham-county/graham-county-courthouse
+    kind: courthouse
+  - id: nc-granville-courthouse
+    state: NC
+    county: Granville
+    name: Granville County Courthouse
+    address: 101 Main St., Oxford, NC 27565
+    lat: 36.3118727
+    lng: -78.5879849
+    url: https://www.nccourts.gov/locations/granville-county/granville-county-courthouse
+    kind: courthouse
+  - id: nc-greene-courthouse
+    state: NC
+    county: Greene
+    name: Greene County Courthouse
+    address: 301 N Greene St., Snow Hill, NC 28580
+    lat: 35.4553809
+    lng: -77.6698299
+    url: https://www.nccourts.gov/locations/greene-county/greene-county-courthouse
+    kind: courthouse
+  - id: nc-guilford-courthouse
+    state: NC
+    county: Guilford
+    name: Guilford County Courthouse
+    address: 201 South Eugene St, Greensboro, NC 27401
+    lat: 36.0722094
+    lng: -79.7938166
+    url: https://www.nccourts.gov/locations/guilford-county/guilford-county-courthouse
+    kind: courthouse
+  - id: nc-halifax-courthouse
+    state: NC
+    county: Halifax
+    name: Halifax County Courthouse
+    address: 357 Ferrell Lane, Halifax, NC 27839
+    lat: 36.3208238
+    lng: -77.5897265
+    url: https://www.nccourts.gov/locations/halifax-county/halifax-county-courthouse
+    kind: courthouse
+  - id: nc-harnett-courthouse
+    state: NC
+    county: Harnett
+    name: Harnett County Courthouse
+    address: 301 W. Cornelius Harnett Blvd Suite 100, Lillington, NC 27546
+    lat: 35.4189681
+    lng: -78.8088919
+    url: https://www.nccourts.gov/locations/harnett-county/harnett-county-courthouse
+    kind: courthouse
+  - id: nc-haywood-courthouse
+    state: NC
+    county: Haywood
+    name: Haywood County Courthouse
+    address: 285 N Main St Suite 1500, Waynesville, NC 28786
+    lat: 35.4927620
+    lng: -82.9872342
+    url: https://www.nccourts.gov/locations/haywood-county/haywood-county-courthouse
+    kind: courthouse
+  - id: nc-henderson-courthouse
+    state: NC
+    county: Henderson
+    name: Henderson County Courthouse
+    address: 200 N Grove St Suite 163, Hendersonville, NC 28792
+    lat: 35.3159122
+    lng: -82.4569021
+    url: https://www.nccourts.gov/locations/henderson-county/henderson-county-courthouse
+    kind: courthouse
+  - id: nc-hoke-courthouse
+    state: NC
+    county: Hoke
+    name: Hoke County Courthouse
+    address: 304 N Main St, Raeford, NC 28376
+    lat: 34.9807932
+    lng: -79.2244882
+    url: https://www.nccourts.gov/locations/hoke-county/hoke-county-courthouse
+    kind: courthouse
+  - id: nc-hyde-courthouse
+    state: NC
+    county: Hyde
+    name: Hyde County Courthouse
+    address: 40 Oyster Creek Road, Swan Quarter, NC 27885
+    lat: 35.4060326
+    lng: -76.3286462
+    url: https://www.nccourts.gov/locations/hyde-county/hyde-county-courthouse
+    kind: courthouse
+  - id: nc-iredell-courthouse
+    state: NC
+    county: Iredell
+    name: Iredell County Hall of Justice
+    address: 226 Stockton St, Statesville, NC 28677
+    lat: 35.7889695
+    lng: -80.8866019
+    url: https://www.nccourts.gov/locations/iredell-county/iredell-county-hall-of-justice
+    kind: courthouse
+  - id: nc-jackson-courthouse
+    state: NC
+    county: Jackson
+    name: Jackson County Courthouse
+    address: 401 Grindstaff Cove Rd, Sylva, NC 28779
+    lat: 35.3797400
+    lng: -83.2234930
+    url: https://www.nccourts.gov/locations/jackson-county/jackson-county-courthouse
+    kind: courthouse
+  - id: nc-johnston-courthouse
+    state: NC
+    county: Johnston
+    name: Johnston County Courthouse
+    address: 207 E Johnston St, Smithfield, NC 27577
+    lat: 35.5106162
+    lng: -78.3480139
+    url: https://www.nccourts.gov/locations/johnston-county/johnston-county-courthouse
+    kind: courthouse
+  - id: nc-jones-courthouse
+    state: NC
+    county: Jones
+    name: Jones County Courthouse
+    address: 101 Market St, Trenton, NC 28585
+    lat: 35.0631568
+    lng: -77.3533143
+    url: https://www.nccourts.gov/locations/jones-county/jones-county-courthouse
+    kind: courthouse
+  - id: nc-lee-courthouse
+    state: NC
+    county: Lee
+    name: Lee County Courthouse
+    address: 1400 S Horner Blvd, Sanford, NC 27330
+    lat: 35.4679030
+    lng: -79.1627620
+    url: https://www.nccourts.gov/locations/lee-county/lee-county-courthouse
+    kind: courthouse
+  - id: nc-lenoir-courthouse
+    state: NC
+    county: Lenoir
+    name: Lenoir County Courthouse
+    address: 130 S Queen St, Kinston, NC 28501
+    lat: 35.2592860
+    lng: -77.5799062
+    url: https://www.nccourts.gov/locations/lenoir-county/lenoir-county-courthouse
+    kind: courthouse
+  - id: nc-lincoln-courthouse
+    state: NC
+    county: Lincoln
+    name: Lincoln County Courthouse
+    address: 120 Justice Drive, Lincolnton, NC 28092
+    lat: 35.4712026
+    lng: -81.2354402
+    url: https://www.nccourts.gov/locations/lincoln-county/lincoln-county-courthouse
+    kind: courthouse
+  - id: nc-macon-courthouse
+    state: NC
+    county: Macon
+    name: Macon County Courthouse
+    address: 5 W Main St, Franklin, NC 28734
+    lat: 35.1820155
+    lng: -83.3817000
+    url: https://www.nccourts.gov/locations/macon-county/macon-county-courthouse
+    kind: courthouse
+  - id: nc-madison-courthouse
+    state: NC
+    county: Madison
+    name: Madison County Courthouse
+    address: 258 Carolina Lane, Marshall, NC 28753
+    lat: 35.7976800
+    lng: -82.6839264
+    url: https://www.nccourts.gov/locations/madison-county/madison-county-courthouse
+    kind: courthouse
+  - id: nc-martin-courthouse
+    state: NC
+    county: Martin
+    name: Martin County Governmental Center
+    address: 305 E Main St, Williamston, NC 27892
+    lat: 35.8565597
+    lng: -77.0518950
+    url: https://www.nccourts.gov/locations/martin-county/martin-county-governmental-center
+    kind: courthouse
+  - id: nc-mcdowell-courthouse
+    state: NC
+    county: Mcdowell
+    name: McDowell County Courthouse
+    address: 21 S Main St, Marion, NC 28752
+    lat: 35.6840847
+    lng: -82.0081823
+    url: https://www.nccourts.gov/locations/mcdowell-county/mcdowell-county-courthouse
+    kind: courthouse
+  - id: nc-mecklenburg-courthouse
+    state: NC
+    county: Mecklenburg
+    name: Mecklenburg County Courthouse
+    address: 832 East Fourth St, Charlotte, NC 28202
+    lat: 35.2196022
+    lng: -80.8367502
+    url: https://www.nccourts.gov/locations/mecklenburg-county/mecklenburg-county-courthouse
+    kind: courthouse
+  - id: nc-mitchell-courthouse
+    state: NC
+    county: Mitchell
+    name: Mitchell County Courthouse
+    address: 328 Longview Dr, Bakersville, NC 28705
+    lat: 36.0167127
+    lng: -82.1627527
+    url: https://www.nccourts.gov/locations/mitchell-county/mitchell-county-courthouse
+    kind: courthouse
+  - id: nc-montgomery-courthouse
+    state: NC
+    county: Montgomery
+    name: Montgomery County Courthouse
+    address: 108 E Main St, Troy, NC 27371
+    lat: 35.3581860
+    lng: -79.8932350
+    url: https://www.nccourts.gov/locations/montgomery-county/montgomery-county-courthouse
+    kind: courthouse
+  - id: nc-moore-courthouse
+    state: NC
+    county: Moore
+    name: Moore County Courthouse
+    address: 102 Monroe St, Carthage, NC 28327
+    lat: 35.3449487
+    lng: -79.4175396
+    url: https://www.nccourts.gov/locations/moore-county/moore-county-courthouse
+    kind: courthouse
+  - id: nc-nash-courthouse
+    state: NC
+    county: Nash
+    name: Nash County Courthouse
+    address: 234 W Washington St, Nashville, NC 27856
+    lat: 35.9752990
+    lng: -77.9680390
+    url: https://www.nccourts.gov/locations/nash-county/nash-county-courthouse
+    kind: courthouse
+  - id: nc-new-hanover-courthouse
+    state: NC
+    county: New Hanover
+    name: New Hanover County Courthouse
+    address: 316 Princess St, Wilmington, NC 28401
+    lat: 34.2365118
+    lng: -77.9457125
+    url: https://www.nccourts.gov/locations/new-hanover-county/new-hanover-county-courthouse
+    kind: courthouse
+  - id: nc-northampton-courthouse
+    state: NC
+    county: Northampton
+    name: Northampton County Courthouse
+    address: 128 East Jefferson St, Jackson, NC 27845
+    lat: 36.3907278
+    lng: -77.4141861
+    url: https://www.nccourts.gov/locations/northampton-county/northampton-county-courthouse
+    kind: courthouse
+  - id: nc-onslow-courthouse
+    state: NC
+    county: Onslow
+    name: Onslow County District Courthouse
+    address: 602 Anne Street, Jacksonville, NC 28540
+    lat: 34.7514602
+    lng: -77.4322997
+    url: https://www.nccourts.gov/locations/onslow-county/onslow-county-courthouse
+    kind: courthouse
+  - id: nc-orange-courthouse
+    state: NC
+    county: Orange
+    name: Orange County Courthouse
+    address: 106 E Margaret Lane, Hillsborough, NC 27278
+    lat: 36.0742263
+    lng: -79.0984574
+    url: https://www.nccourts.gov/locations/orange-county/orange-county-courthouse
+    kind: courthouse
+  - id: nc-pamlico-courthouse
+    state: NC
+    county: Pamlico
+    name: Pamlico County Courthouse
+    address: 202 Main St, Bayboro, NC 28515
+    lat: 35.1428623
+    lng: -76.7701126
+    url: https://www.nccourts.gov/locations/pamlico-county/pamlico-county-courthouse
+    kind: courthouse
+  - id: nc-pasquotank-courthouse
+    state: NC
+    county: Pasquotank
+    name: Pasquotank County Courthouse
+    address: 206 E Main St, Elizabeth City, NC 27909
+    lat: 36.3002237
+    lng: -76.2227362
+    url: https://www.nccourts.gov/locations/pasquotank-county/pasquotank-county-courthouse
+    kind: courthouse
+  - id: nc-pender-courthouse
+    state: NC
+    county: Pender
+    name: Frances Dawson Basden Judicial Annex
+    address: 100 Dickerson Street, Burgaw, NC 28425
+    lat: 34.5508240
+    lng: -77.9280290
+    url: https://www.nccourts.gov/locations/pender-county/frances-dawson-basden-judicial-annex
+    kind: courthouse
+  - id: nc-perquimans-courthouse
+    state: NC
+    county: Perquimans
+    name: Perquimans County Courthouse
+    address: 128 N Church St, Hertford, NC 27944
+    lat: 36.1891326
+    lng: -76.4657262
+    url: https://www.nccourts.gov/locations/perquimans-county/perquimans-county-courthouse
+    kind: courthouse
+  - id: nc-person-courthouse
+    state: NC
+    county: Person
+    name: Person County Courthouse
+    address: 105 S Main St, Roxboro, NC 27573
+    lat: 36.3934449
+    lng: -78.9836364
+    url: https://www.nccourts.gov/locations/person-county/person-county-courthouse
+    kind: courthouse
+  - id: nc-pitt-courthouse
+    state: NC
+    county: Pitt
+    name: Pitt County Courthouse
+    address: 100 W Third St, Greenville, NC 27834
+    lat: 35.6134943
+    lng: -77.3730206
+    url: https://www.nccourts.gov/locations/pitt-county/pitt-county-courthouse
+    kind: courthouse
+  - id: nc-randolph-courthouse
+    state: NC
+    county: Randolph
+    name: Randolph County Courthouse
+    address: 176 East Salisbury St, Asheboro, NC 27203
+    lat: 35.7064495
+    lng: -79.8122069
+    url: https://www.nccourts.gov/locations/randolph-county/randolph-county-courthouse
+    kind: courthouse
+  - id: nc-richmond-courthouse
+    state: NC
+    county: Richmond
+    name: Richmond County Judicial Center
+    address: 105 W Franklin St, Rockingham, NC 28379
+    lat: 34.9380675
+    lng: -79.7746951
+    url: https://www.nccourts.gov/locations/richmond-county/richmond-county-judicial-center
+    kind: courthouse
+  - id: nc-robeson-courthouse
+    state: NC
+    county: Robeson
+    name: Robeson County Courthouse
+    address: 500 North Elm St Room 101, Lumberton, NC 28359
+    lat: 34.6201332
+    lng: -79.0082172
+    url: https://www.nccourts.gov/locations/robeson-county/robeson-county-courthouse
+    kind: courthouse
+  - id: nc-rowan-courthouse
+    state: NC
+    county: Rowan
+    name: Rowan County Courthouse
+    address: 210 N Main St, Salisbury, NC 28144
+    lat: 35.6683399
+    lng: -80.4685198
+    url: https://www.nccourts.gov/locations/rowan-county/rowan-county-courthouse
+    kind: courthouse
+  - id: nc-rutherford-courthouse
+    state: NC
+    county: Rutherford
+    name: Rutherford County Courthouse
+    address: 229 N. Main St. Suite 203, Rutherfordton, NC 28139
+    lat: 35.3690599
+    lng: -81.9575375
+    url: https://www.nccourts.gov/locations/rutherford-county/rutherford-county-courthouse
+    kind: courthouse
+  - id: nc-sampson-courthouse
+    state: NC
+    county: Sampson
+    name: Sampson County Courthouse
+    address: 101 E. Main St, Clinton, NC 28328
+    lat: 34.9985293
+    lng: -78.3225626
+    url: https://www.nccourts.gov/locations/sampson-county/sampson-county-courthouse
+    kind: courthouse
+  - id: nc-scotland-courthouse
+    state: NC
+    county: Scotland
+    name: Scotland County Courthouse
+    address: 212 Biggs St, Laurinburg, NC 28352
+    lat: 34.7754078
+    lng: -79.4604090
+    url: https://www.nccourts.gov/locations/scotland-county/scotland-county-courthouse
+    kind: courthouse
+  - id: nc-stanly-courthouse
+    state: NC
+    county: Stanly
+    name: Stanly County Courthouse
+    address: 201 S Second St, Albemarle, NC 28002
+    lat: 35.3493698
+    lng: -80.1977239
+    url: https://www.nccourts.gov/locations/stanly-county/stanly-county-courthouse
+    kind: courthouse
+  - id: nc-stokes-courthouse
+    state: NC
+    county: Stokes
+    name: Stokes County Courthouse
+    address: Hwy 89 - 1012 Main St, Danbury, NC 27016
+    lat: 36.4096915
+    lng: -80.2057768
+    url: https://www.nccourts.gov/locations/stokes-county/stokes-county-courthouse
+    kind: courthouse
+  - id: nc-surry-courthouse
+    state: NC
+    county: Surry
+    name: Surry County Courthouse
+    address: 201 E. Kapp St, Dobson, NC 27017
+    lat: 36.3970990
+    lng: -80.7218560
+    url: https://www.nccourts.gov/locations/surry-county/surry-county-courthouse
+    kind: courthouse
+  - id: nc-swain-courthouse
+    state: NC
+    county: Swain
+    name: Swain County Courthouse
+    address: 101 Mitchell St, Bryson City, NC 28713
+    lat: 35.4284216
+    lng: -83.4476895
+    url: https://www.nccourts.gov/locations/swain-county/swain-county-courthouse
+    kind: courthouse
+  - id: nc-transylvania-courthouse
+    state: NC
+    county: Transylvania
+    name: Transylvania County Courthouse
+    address: 7 East Main St, Brevard, NC 28712
+    lat: 35.2261570
+    lng: -82.7274353
+    url: https://www.nccourts.gov/locations/transylvania-county/transylvania-county-courthouse
+    kind: courthouse
+  - id: nc-tyrrell-courthouse
+    state: NC
+    county: Tyrrell
+    name: Tyrrell County Courthouse
+    address: 403 Main St, Columbia, NC 27925
+    lat: 35.9175626
+    lng: -76.2519432
+    url: https://www.nccourts.gov/locations/tyrrell-county/tyrrell-county-courthouse
+    kind: courthouse
+  - id: nc-union-courthouse
+    state: NC
+    county: Union
+    name: Union County Judicial Center
+    address: 400 North Main St, Monroe, NC 28112
+    lat: 34.9834340
+    lng: -80.5502900
+    url: https://www.nccourts.gov/locations/union-county/union-county-judicial-center
+    kind: courthouse
+  - id: nc-vance-courthouse
+    state: NC
+    county: Vance
+    name: Vance County Courthouse
+    address: 156 Church St Suite 101, Henderson, NC 27536
+    lat: 36.3294647
+    lng: -78.4016743
+    url: https://www.nccourts.gov/locations/vance-county/vance-county-courthouse
+    kind: courthouse
+  - id: nc-wake-courthouse
+    state: NC
+    county: Wake
+    name: Wake County Courthouse
+    address: 316 Fayetteville St. Mall, Raleigh, NC 27601
+    lat: 35.7762685
+    lng: -78.6398944
+    url: https://www.nccourts.gov/locations/wake-county/wake-county-courthouse
+    kind: courthouse
+  - id: nc-warren-courthouse
+    state: NC
+    county: Warren
+    name: Warren County Courthouse
+    address: 109 S Main St, Warrenton, NC 27589
+    lat: 36.3983551
+    lng: -78.1559182
+    url: https://www.nccourts.gov/locations/warren-county/warren-county-courthouse
+    kind: courthouse
+  - id: nc-washington-courthouse
+    state: NC
+    county: Washington
+    name: Washington County Courthouse
+    address: 120 Adams St, Plymouth, NC 27962
+    lat: 35.8669362
+    lng: -76.7487353
+    url: https://www.nccourts.gov/locations/washington-county/washington-county-courthouse
+    kind: courthouse
+  - id: nc-watauga-courthouse
+    state: NC
+    county: Watauga
+    name: Watauga County Courthouse
+    address: 842 W King St Suite 13, Boone, NC 28607
+    lat: 36.2205732
+    lng: -81.6865725
+    url: https://www.nccourts.gov/locations/watauga-county/watauga-county-courthouse
+    kind: courthouse
+  - id: nc-wayne-courthouse
+    state: NC
+    county: Wayne
+    name: Wayne County Courthouse
+    address: 224 E. Walnut St Room 230, Goldsboro, NC 27530
+    lat: 35.3818373
+    lng: -77.9943833
+    url: https://www.nccourts.gov/locations/wayne-county/wayne-county-courthouse
+    kind: courthouse
+  - id: nc-wilkes-courthouse
+    state: NC
+    county: Wilkes
+    name: Wilkes County Courthouse
+    address: 500 Courthouse Dr, Wilkesboro, NC 28697
+    lat: 36.1429910
+    lng: -81.1507790
+    url: https://www.nccourts.gov/locations/wilkes-county/wilkes-county-courthouse
+    kind: courthouse
+  - id: nc-wilson-courthouse
+    state: NC
+    county: Wilson
+    name: Wilson County Courthouse
+    address: 115 E Nash St, Wilson, NC 27894
+    lat: 35.7257077
+    lng: -77.9100603
+    url: https://www.nccourts.gov/locations/wilson-county/wilson-county-courthouse
+    kind: courthouse
+  - id: nc-yadkin-courthouse
+    state: NC
+    county: Yadkin
+    name: Yadkin County Courthouse
+    address: 101 S State St, Yadkinville, NC 27055
+    lat: 36.1342872
+    lng: -80.6591431
+    url: https://www.nccourts.gov/locations/yadkin-county/yadkin-county-courthouse
+    kind: courthouse
+  - id: nc-yancey-courthouse
+    state: NC
+    county: Yancey
+    name: Yancey County Courthouse
+    address: 110 Towne Square Room 5, Burnsville, NC 28714
+    lat: 35.9167697
+    lng: -82.2984580
+    url: https://www.nccourts.gov/locations/yancey-county/yancey-county-courthouse
+    kind: courthouse

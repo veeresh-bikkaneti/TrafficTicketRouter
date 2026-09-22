@@ -1,0 +1,43 @@
+# Hawaii map pins — district court traffic locations.
+# Addresses from official Hawaii Judiciary page verified 2026-09-21; coordinates
+# via Nominatim. Kalawao County omitted (no separate court; uses Second Circuit).
+pins:
+  - id: hi-honolulu-courthouse
+    state: HI
+    county: Honolulu
+    name: District Court of the First Circuit, Honolulu
+    address: 1111 Alakea Street, Honolulu, HI 96813
+    lat: 21.3089567
+    lng: -157.8588141
+    url: https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info
+    kind: courthouse
+
+  - id: hi-hawaii-courthouse
+    state: HI
+    county: Hawaii
+    name: District Court of the Third Circuit, Hilo
+    address: 777 Kilauea Ave, Hilo, HI 96720
+    lat: 19.7169061
+    lng: -155.0792104
+    url: https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info
+    kind: courthouse
+
+  - id: hi-maui-courthouse
+    state: HI
+    county: Maui
+    name: District Court of the Second Circuit, Wailuku
+    address: 2145 Main Street, Wailuku, HI 96793
+    lat: 20.8872251
+    lng: -156.5034449
+    url: https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info
+    kind: courthouse
+
+  - id: hi-kauai-courthouse
+    state: HI
+    county: Kauai
+    name: District Court of the Fifth Circuit, Lihue
+    address: 3970 Kaana Street, Lihue, HI 96766
+    lat: 21.9771616
+    lng: -159.3622392
+    url: https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info
+    kind: courthouse

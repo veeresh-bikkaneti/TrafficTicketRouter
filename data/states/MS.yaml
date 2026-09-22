@@ -1,0 +1,782 @@
+# Mississippi — Justice Court per county. 32 counties have verified Justice Court street locations from the official MS Secretary of State county directory; remaining counties route via the official statewide Justice Court page. Pins only for verified Justice Court locations.
+state: MS
+state_name: Mississippi
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.ms.gov
+counties:
+  - name: Adams
+  - name: Alcorn
+  - name: Amite
+  - name: Attala
+  - name: Benton
+  - name: Bolivar
+  - name: Calhoun
+  - name: Carroll
+  - name: Chickasaw
+  - name: Choctaw
+  - name: Claiborne
+  - name: Clarke
+  - name: Clay
+  - name: Coahoma
+  - name: Copiah
+  - name: Covington
+  - name: DeSoto
+  - name: Forrest
+  - name: Franklin
+  - name: George
+  - name: Greene
+  - name: Grenada
+  - name: Hancock
+  - name: Harrison
+  - name: Hinds
+  - name: Holmes
+  - name: Humphreys
+  - name: Issaquena
+  - name: Itawamba
+  - name: Jackson
+  - name: Jasper
+  - name: Jefferson
+  - name: Jefferson Davis
+  - name: Jones
+  - name: Kemper
+  - name: Lafayette
+  - name: Lamar
+  - name: Lauderdale
+  - name: Lawrence
+  - name: Leake
+  - name: Lee
+  - name: Leflore
+  - name: Lincoln
+  - name: Lowndes
+  - name: Madison
+  - name: Marion
+  - name: Marshall
+  - name: Monroe
+  - name: Montgomery
+  - name: Neshoba
+  - name: Newton
+  - name: Noxubee
+  - name: Oktibbeha
+  - name: Panola
+  - name: Pearl River
+  - name: Perry
+  - name: Pike
+  - name: Pontotoc
+  - name: Prentiss
+  - name: Quitman
+  - name: Rankin
+  - name: Scott
+  - name: Sharkey
+  - name: Simpson
+  - name: Smith
+  - name: Stone
+  - name: Sunflower
+  - name: Tallahatchie
+  - name: Tate
+  - name: Tippah
+  - name: Tishomingo
+  - name: Tunica
+  - name: Union
+  - name: Walthall
+  - name: Warren
+  - name: Washington
+  - name: Wayne
+  - name: Webster
+  - name: Wilkinson
+  - name: Winston
+  - name: Yalobusha
+  - name: Yazoo
+cards:
+  - id: ms-adams-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County Justice Court"
+    contact: "114 S. Wall St., Natchez 39120. Phone 601-442-0199. Clerk: Verna Johnson."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: ms-attala-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Attala County Justice Court"
+    contact: "254 Hwy. 12W, Kosciusko 39090. Phone 662-289-7272. Clerk: Angie Shaw."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Attala
+    weight: 10
+
+  - id: ms-choctaw-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Choctaw County Justice Court"
+    contact: "140 Jail House Rd., Ackerman 39735. Phone 662-285-3599. Clerk: Heather Wood."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Choctaw
+    weight: 10
+
+  - id: ms-coahoma-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coahoma County Justice Court"
+    contact: "1 Justice Dr., Clarksdale 38614. Phone 662-624-3060. Clerk: Darlean Lake."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coahoma
+    weight: 10
+
+  - id: ms-copiah-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Copiah County Justice Court"
+    contact: "121 W. Frost St., Hazlehurst 39083. Phone 601-894-3218. Clerk: Mona Carr."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Copiah
+    weight: 10
+
+  - id: ms-forrest-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Forrest County Justice Court"
+    contact: "700 N. Main St., Hattiesburg 39401. Phone 601-544-3163. Clerk: Faye Moffett."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Forrest
+    weight: 10
+
+  - id: ms-george-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "George County Justice Court"
+    contact: "368 Cox St., Lucedale 39452. Phone 601-947-4834. Clerk: Allyson Salter."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - George
+    weight: 10
+
+  - id: ms-grenada-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grenada County Justice Court"
+    contact: "16 First St., Grenada 38901. Phone 662-226-3331. Clerk: Judith Eldridge."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grenada
+    weight: 10
+
+  - id: ms-hancock-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hancock County Justice Court"
+    contact: "8450 Hwy. 90, Bay St. Louis 39520. Phone 228-467-5573. Clerk: Catherine Garcia."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: ms-humphreys-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Humphreys County Justice Court"
+    contact: "102 Castleman St., Belzoni 39038. Phone 662-247-4337. Clerk: Sandra Overton."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Humphreys
+    weight: 10
+
+  - id: ms-itawamba-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Itawamba County Justice Court"
+    contact: "304 W. Wiygul St., Ste. D, Fulton 38843. Phone 662-862-4315. Clerk: Rhonda Johnson."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Itawamba
+    weight: 10
+
+  - id: ms-jackson-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Justice Court"
+    contact: "5343 Jefferson St., Moss Point 39563. Phone 228-769-3080. Clerk: Lisa Fairley (Justice Court Administrator)."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ms-jones-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jones County Justice Court"
+    contact: "5180 Hwy. 11 N, Ellisville 39437. Phone 601-428-3137. Clerk: Stacy Walls."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jones
+    weight: 10
+
+  - id: ms-lowndes-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lowndes County Justice Court"
+    contact: "309 S. Martin Luther King Jr. Dr., Columbus 39702. Phone 662-329-5929. Clerk: Carley Etes."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lowndes
+    weight: 10
+
+  - id: ms-madison-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County Justice Court"
+    contact: "2961 S. Liberty, Canton 39046. Phone 601-859-6337. Clerk: Cheryl Horn."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: ms-marion-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County Justice Court"
+    contact: "500 Courthouse Sq., Ste. 2, Columbia 39429. Phone 601-736-2572. Clerk: Wynette Parkman."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: ms-neshoba-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Neshoba County Justice Court"
+    contact: "200 Byrd Ave., Philadelphia 39350. Phone 601-656-4053. Clerk: Kim Yates."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Neshoba
+    weight: 10
+
+  - id: ms-oktibbeha-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oktibbeha County Justice Court"
+    contact: "104 Felix Long Dr., Starkville 39759. Phone 662-324-3032. Clerk: Shalonda Sykes."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oktibbeha
+    weight: 10
+
+  - id: ms-pearl-river-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pearl River County Justice Court"
+    contact: "153 Savannah-Millard Rd., Ste. A, Poplarville 39470. Phone 601-403-2575. Clerk: Brittany Twiner."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pearl River
+    weight: 10
+
+  - id: ms-pontotoc-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pontotoc County Justice Court"
+    contact: "171 Hwy. 15 N., Pontotoc 38863. Phone 662-489-3921. Clerk: Melissa Ferguson."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pontotoc
+    weight: 10
+
+  - id: ms-prentiss-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Prentiss County Justice Court"
+    contact: "1901-C E. Chambers Dr., Booneville 38829. Phone 662-728-8696. Clerk: Kristen Lambert."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prentiss
+    weight: 10
+
+  - id: ms-quitman-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Quitman County Justice Court"
+    contact: "275 E. Main St., Marks 38646. Phone 662-326-2104. Clerk: Gloria Survillion."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Quitman
+    weight: 10
+
+  - id: ms-simpson-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Simpson County Justice Court"
+    contact: "1498 Simpson Hwy. 149, Mendenhall 39114. Phone 601-847-5848. Clerk: Joyce Hicks."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Simpson
+    weight: 10
+
+  - id: ms-stone-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stone County Justice Court"
+    contact: "231 Third St., Wiggins 39577. Phone 601-928-4415. Clerk: Kathy Rogers."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stone
+    weight: 10
+
+  - id: ms-tate-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tate County Justice Court"
+    contact: "103 Preston McKay Dr., Senatobia 38668. Phone 662-562-7626. Clerk: Stacey Suddoth."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tate
+    weight: 10
+
+  - id: ms-tippah-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tippah County Justice Court"
+    contact: "205-B Spring Ave., Ripley 38663. Phone 662-837-8842. Clerk: Gloria L. White."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tippah
+    weight: 10
+
+  - id: ms-tishomingo-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tishomingo County Justice Court"
+    contact: "1008 Battleground Dr., Rm. 212, Iuka 38852. Phone 662-423-7033. Clerk: Michelle Pounders."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tishomingo
+    weight: 10
+
+  - id: ms-tunica-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tunica County Justice Court"
+    contact: "5130 Old Moon Landing Rd., Tunica 38676. Phone 662-363-2178. Clerk: Tomaka Henderson-Cotton."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tunica
+    weight: 10
+
+  - id: ms-walthall-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Walthall County Justice Court"
+    contact: "808 Magnolia Ave., Tylertown 39667. Phone 601-876-2311. Clerk: LaShanda Magee."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walthall
+    weight: 10
+
+  - id: ms-washington-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Justice Court"
+    contact: "905 W. Alexander, Greenville 38701. Phone 662-332-0633. Clerk: Eloise Brooks."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ms-wayne-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County Justice Court"
+    contact: "810 Chickasawhay St., Waynesboro 39367. Phone 601-735-3118. Clerk: Larita Michelle McCann."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: ms-webster-court
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    verification_note: "County Justice Court street location from the official MS Secretary of State county directory (archived 2023 edition via Wayback, live-fetched 2026-09-21). Card links to the official statewide Justice Court page."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Webster County Justice Court"
+    contact: "24 E. Fox Ave., Eupora 39744. Phone 662-258-2590. Clerk: Lisa Dean."
+    accepted_keys: "See the official Justice Court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Courts hear misdemeanor criminal cases and traffic offenses outside municipalities."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: ms-justice-court-statewide
+    verification: link_ok
+    source_url: "https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Mississippi Judiciary — Justice Court (statewide)"
+    accepted_keys: "Read the official Justice Court overview; contact your county's Justice Court directly."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on courts.ms.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "There are 82 Justice Courts statewide; this page describes the court, not your county's location."
+      - "If your county has no county-specific card above, call your county's Justice Court clerk."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 20

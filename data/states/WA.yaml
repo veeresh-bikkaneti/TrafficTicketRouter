@@ -1,0 +1,788 @@
+# Washington — 39 counties. 39 verified district-court cards.
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+state: WA
+state_name: Washington
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.wa.gov
+counties:
+  - name: Adams
+    note: "Traffic venue is district court."
+  - name: Asotin
+    note: "Traffic venue is district court."
+  - name: Benton
+    note: "Traffic venue is district court."
+  - name: Chelan
+    note: "Traffic venue is district court."
+  - name: Clallam
+    note: "Traffic venue is district court."
+  - name: Clark
+    note: "Traffic venue is district court."
+  - name: Columbia
+    note: "Traffic venue is district court."
+  - name: Cowlitz
+    note: "Traffic venue is district court."
+  - name: Douglas
+    note: "Traffic venue is district court."
+  - name: Ferry
+    note: "Traffic venue is district court."
+  - name: Franklin
+    note: "Traffic venue is district court."
+  - name: Garfield
+    note: "Traffic venue is district court."
+  - name: Grant
+    note: "Traffic venue is district court."
+  - name: Grays Harbor
+    note: "Traffic venue is district court."
+  - name: Island
+    note: "Traffic venue is district court."
+  - name: Jefferson
+    note: "Traffic venue is district court."
+  - name: King
+    note: "Traffic venue is district court."
+  - name: Kitsap
+    note: "Traffic venue is district court."
+  - name: Kittitas
+    note: "Traffic venue is district court."
+  - name: Klickitat
+    note: "Traffic venue is district court."
+  - name: Lewis
+    note: "Traffic venue is district court."
+  - name: Lincoln
+    note: "Traffic venue is district court."
+  - name: Mason
+    note: "Traffic venue is district court."
+  - name: Okanogan
+    note: "Traffic venue is district court."
+  - name: Pacific
+    note: "Traffic venue is district court."
+  - name: Pend Oreille
+    note: "Traffic venue is district court."
+  - name: Pierce
+    note: "Traffic venue is district court."
+  - name: San Juan
+    note: "Traffic venue is district court."
+  - name: Skagit
+    note: "Traffic venue is district court."
+  - name: Skamania
+    note: "Traffic venue is district court."
+  - name: Snohomish
+    note: "Traffic venue is district court."
+  - name: Spokane
+    note: "Traffic venue is district court."
+  - name: Stevens
+    note: "Traffic venue is district court."
+  - name: Thurston
+    note: "Traffic venue is district court."
+  - name: Wahkiakum
+    note: "Traffic venue is district court."
+  - name: Walla Walla
+    note: "Traffic venue is district court."
+  - name: Whatcom
+    note: "Traffic venue is district court."
+  - name: Whitman
+    note: "Traffic venue is district court."
+  - name: Yakima
+    note: "Traffic venue is district court."
+cards:
+  - id: adams-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/124.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: asotin-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/262.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Asotin County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Asotin
+    weight: 10
+
+  - id: benton-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/263.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benton County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: chelan-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/264.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chelan County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chelan
+    weight: 10
+
+  - id: clallam-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/265.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clallam County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clallam
+    weight: 10
+
+  - id: clark-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/266.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: columbia-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/267.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: cowlitz-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/268.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cowlitz County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cowlitz
+    weight: 10
+
+  - id: douglas-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/269.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Douglas County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: ferry-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/270.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ferry County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ferry
+    weight: 10
+
+  - id: franklin-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/271.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: garfield-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/272.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garfield County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garfield
+    weight: 10
+
+  - id: grant-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/273.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: grays-harbor-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/274.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grays Harbor County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grays Harbor
+    weight: 10
+
+  - id: island-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/275.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Island County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Island
+    weight: 10
+
+  - id: jefferson-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/276.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: king-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/190.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "King County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - King
+    weight: 10
+
+  - id: kitsap-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/277.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kitsap County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kitsap
+    weight: 10
+
+  - id: kittitas-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/278.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kittitas County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kittitas
+    weight: 10
+
+  - id: klickitat-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/279.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Klickitat County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Klickitat
+    weight: 10
+
+  - id: lewis-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/280.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: lincoln-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/281.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: mason-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/282.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mason County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mason
+    weight: 10
+
+  - id: okanogan-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/283.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Okanogan County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Okanogan
+    weight: 10
+
+  - id: pacific-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/284.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pacific County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pacific
+    weight: 10
+
+  - id: pend-oreille-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/285.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pend Oreille County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pend Oreille
+    weight: 10
+
+  - id: pierce-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/286.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pierce County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pierce
+    weight: 10
+
+  - id: san-juan-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/287.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "San Juan County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Juan
+    weight: 10
+
+  - id: skagit-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/288.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Skagit County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Skagit
+    weight: 10
+
+  - id: skamania-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/289.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Skamania County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Skamania
+    weight: 10
+
+  - id: snohomish-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/290.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Snohomish County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Snohomish
+    weight: 10
+
+  - id: spokane-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/291.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Spokane County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spokane
+    weight: 10
+
+  - id: stevens-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/292.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stevens County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stevens
+    weight: 10
+
+  - id: thurston-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/293.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Thurston County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Thurston
+    weight: 10
+
+  - id: wahkiakum-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/294.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wahkiakum County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wahkiakum
+    weight: 10
+
+  - id: walla-walla-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/295.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Walla Walla County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walla Walla
+    weight: 10
+
+  - id: whatcom-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/296.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Whatcom County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Whatcom
+    weight: 10
+
+  - id: whitman-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/297.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Whitman County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Whitman
+    weight: 10
+
+  - id: yakima-district-card
+    verification: link_ok
+    source_url: "https://www.courts.wa.gov/court_dir/orgs/254.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yakima County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.wa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yakima
+    weight: 10

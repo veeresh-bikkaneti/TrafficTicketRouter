@@ -1,0 +1,509 @@
+# Florida courthouse pins.
+# Calhoun, Glades, Gulf, Hardee, Washington, Franklin: pins omitted --
+# official address could not be geocoded to a verified point; cards retained.
+state: FL
+pins:
+  - id: fl-alachua-courthouse
+    state: FL
+    county: Alachua
+    name: "Alachua County Courthouse"
+    address: "201 E University Ave, Gainesville, FL 32601"
+    lat: 29.651987
+    lng: -82.31852
+    url: https://alachuacounty.us/Depts/Clerk/Pages/Clerk.aspx
+    kind: courthouse
+
+  - id: fl-bay-courthouse
+    state: FL
+    county: Bay
+    name: "Bay County Courthouse"
+    address: "300 E 4th St, Panama City, FL 32401"
+    lat: 30.154364
+    lng: -85.657571
+    url: https://www.baycoclerk.com/
+    kind: courthouse
+
+  - id: fl-bradford-courthouse
+    state: FL
+    county: Bradford
+    name: "Bradford County Courthouse"
+    address: "945 N Temple Ave, Starke, FL 32091"
+    lat: 29.954318
+    lng: -82.108719
+    url: https://bradfordclerk.com/
+    kind: courthouse
+
+  - id: fl-brevard-courthouse
+    state: FL
+    county: Brevard
+    name: "Brevard County Courthouse"
+    address: "400 S St (Second floor), Titusville, FL 32780"
+    lat: 28.609956
+    lng: -80.809704
+    url: https://www.brevardclerk.us/
+    kind: courthouse
+
+  - id: fl-broward-courthouse
+    state: FL
+    county: Broward
+    name: "Broward County Courthouse"
+    address: "201 SE Sixth St"
+    lat: 26.115214
+    lng: -80.141506
+    url: https://www.browardclerk.org/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: fl-charlotte-courthouse
+    state: FL
+    county: Charlotte
+    name: "Charlotte County Courthouse"
+    address: "350 E Marion Ave, Punta Gorda, FL 33950"
+    lat: 26.938031
+    lng: -82.046824
+    url: https://charlotteclerk.com/
+    kind: courthouse
+
+  - id: fl-citrus-courthouse
+    state: FL
+    county: Citrus
+    name: "Citrus County Courthouse"
+    address: "110 N Apopka Ave, Inverness, FL 34450-4299"
+    lat: 28.836771
+    lng: -82.330089
+    url: https://www.citrusclerk.org/
+    kind: courthouse
+
+  - id: fl-clay-courthouse
+    state: FL
+    county: Clay
+    name: "Clay County Courthouse"
+    address: "2825 N Orange Ave, Green Cove Springs, FL 32043"
+    lat: 30.000153
+    lng: -81.68331
+    url: https://clayclerk.com/
+    kind: courthouse
+
+  - id: fl-collier-courthouse
+    state: FL
+    county: Collier
+    name: "Collier County Courthouse"
+    address: "3315 Tamiami Trail E"
+    lat: 26.12631
+    lng: -81.765236
+    url: https://www.collierclerk.com/
+    kind: courthouse
+
+  - id: fl-columbia-courthouse
+    state: FL
+    county: Columbia
+    name: "Columbia County Courthouse"
+    address: "173 NE Hernando Ave, Lake City, FL 32055"
+    lat: 30.190423
+    lng: -82.635602
+    url: https://columbiaclerk.com/
+    kind: courthouse
+
+  - id: fl-desoto-courthouse
+    state: FL
+    county: DeSoto
+    name: "DeSoto County Courthouse"
+    address: "115 E Oak St, Arcadia, FL 34266-2401"
+    lat: 27.213307
+    lng: -81.854309
+    url: https://www.desotoclerk.com/
+    kind: courthouse
+
+  - id: fl-dixie-courthouse
+    state: FL
+    county: Dixie
+    name: "Dixie County Courthouse"
+    address: "214 NE Hwy 351"
+    lat: 29.636936
+    lng: -83.123117
+    url: https://dixieclerk.com/
+    kind: courthouse
+
+  - id: fl-duval-courthouse
+    state: FL
+    county: Duval
+    name: "Duval County Courthouse"
+    address: "501 W Adams St"
+    lat: 30.330043
+    lng: -81.663286
+    url: https://www.duvalclerk.gov/
+    kind: courthouse
+
+  - id: fl-gadsden-courthouse
+    state: FL
+    county: Gadsden
+    name: "Gadsden County Courthouse"
+    address: "10 E Jefferson St, Quincy, FL 32351"
+    lat: 30.588236
+    lng: -84.576755
+    url: https://www.gadsdenclerk.com/
+    kind: courthouse
+
+  - id: fl-gilchrist-courthouse
+    state: FL
+    county: Gilchrist
+    name: "Gilchrist County Courthouse"
+    address: "112 S Main Street, Trenton, FL 32693"
+    lat: 29.620916
+    lng: -82.818472
+    url: https://gilchristclerk.com/
+    kind: courthouse
+
+  - id: fl-hamilton-courthouse
+    state: FL
+    county: Hamilton
+    name: "Hamilton County Courthouse"
+    address: "207 NE First St"
+    lat: 30.519391
+    lng: -82.945978
+    url: https://hamiltonclerk.com/
+    kind: courthouse
+
+  - id: fl-hendry-courthouse
+    state: FL
+    county: Hendry
+    name: "Hendry County Courthouse"
+    address: "25 E Hickpochee Ave, LaBelle, FL 33935"
+    lat: 26.761844
+    lng: -81.422471
+    url: https://www.hendryclerk.org/
+    kind: courthouse
+
+  - id: fl-hernando-courthouse
+    state: FL
+    county: Hernando
+    name: "Hernando County Courthouse"
+    address: "20 N Main Street"
+    lat: 28.555299
+    lng: -82.387286
+    url: https://hernandoclerk.com/
+    kind: courthouse
+
+  - id: fl-highlands-courthouse
+    state: FL
+    county: Highlands
+    name: "Highlands County Courthouse"
+    address: "590 S Commerce Ave, Sebring, FL 33870-3867"
+    lat: 27.491423
+    lng: -81.435835
+    url: https://www.highlandsclerkfl.gov/
+    kind: courthouse
+
+  - id: fl-hillsborough-courthouse
+    state: FL
+    county: Hillsborough
+    name: "Hillsborough County Courthouse"
+    address: "County Center, 601 E Kennedy Blvd, 13th Floor, Tampa, FL 33602"
+    lat: 27.949761
+    lng: -82.454416
+    url: https://www.hillsclerk.com/
+    kind: courthouse
+
+  - id: fl-holmes-courthouse
+    state: FL
+    county: Holmes
+    name: "Holmes County Courthouse"
+    address: "201 N Oklahoma St, Bonifay, FL 32425"
+    lat: 30.793121
+    lng: -85.678508
+    url: https://holmesclerk.com/
+    kind: courthouse
+
+  - id: fl-indian-river-courthouse
+    state: FL
+    county: Indian River
+    name: "Indian River County Courthouse"
+    address: "2000 16th Ave, Vero Beach, FL 32960"
+    lat: 27.639117
+    lng: -80.400951
+    url: https://indianriverclerk.com/
+    kind: courthouse
+
+  - id: fl-jackson-courthouse
+    state: FL
+    county: Jackson
+    name: "Jackson County Courthouse"
+    address: "4445 Lafayette St, Marianna, FL 32446"
+    lat: 30.773985
+    lng: -85.226697
+    url: https://www.jacksonclerk.com/
+    kind: courthouse
+
+  - id: fl-jefferson-courthouse
+    state: FL
+    county: Jefferson
+    name: "Jefferson County Courthouse"
+    address: "1 Courthouse Cir, Monticello, FL 32344"
+    lat: 30.544846
+    lng: -83.87017
+    url: https://www.jeffersonclerk.com/
+    kind: courthouse
+
+  - id: fl-lafayette-courthouse
+    state: FL
+    county: Lafayette
+    name: "Lafayette County Courthouse"
+    address: "120 W Main St, Mayo, FL 32066"
+    lat: 30.05681
+    lng: -83.184389
+    url: https://www.lafayetteclerk.com/
+    kind: courthouse
+
+  - id: fl-lake-courthouse
+    state: FL
+    county: Lake
+    name: "Lake County Courthouse"
+    address: "550 W Main St, Tavares, FL 32778"
+    lat: 28.8031
+    lng: -81.732978
+    url: https://www.lakecountyclerkfl.gov/
+    kind: courthouse
+
+  - id: fl-levy-courthouse
+    state: FL
+    county: Levy
+    name: "Levy County Courthouse"
+    address: "355 S Court St, Bronson, FL 32621"
+    lat: 29.44615
+    lng: -82.636295
+    url: https://levyclerk.com/
+    kind: courthouse
+
+  - id: fl-liberty-courthouse
+    state: FL
+    county: Liberty
+    name: "Liberty County Courthouse"
+    address: "10818 NW SR 20, Bristol, FL 32321"
+    lat: 30.432328
+    lng: -84.980212
+    url: https://libertyclerk.com/
+    kind: courthouse
+
+  - id: fl-madison-courthouse
+    state: FL
+    county: Madison
+    name: "Madison County Courthouse"
+    address: "125 SW Range Ave, Madison, FL 32340"
+    lat: 30.467589
+    lng: -83.412862
+    url: https://www.madisonclerk.com/
+    kind: courthouse
+
+  - id: fl-manatee-courthouse
+    state: FL
+    county: Manatee
+    name: "Manatee County Courthouse"
+    address: "1115 Manatee Ave W, Bradenton, FL 34205"
+    lat: 27.495343
+    lng: -82.572901
+    url: https://www.manateeclerk.com/
+    kind: courthouse
+
+  - id: fl-marion-courthouse
+    state: FL
+    county: Marion
+    name: "Marion County Courthouse"
+    address: "110 NW First Ave, Ocala, FL 34475"
+    lat: 29.188261
+    lng: -82.138489
+    url: https://www.marioncountyclerk.org/
+    kind: courthouse
+
+  - id: fl-miami-dade-courthouse
+    state: FL
+    county: Miami-Dade
+    name: "Miami-Dade County Courthouse"
+    address: "73 W Flagler Street"
+    lat: 25.774587
+    lng: -80.195136
+    url: https://www.miamidadeclerk.gov/clerk/home.page
+    kind: courthouse
+
+  - id: fl-nassau-courthouse
+    state: FL
+    county: Nassau
+    name: "Nassau County Courthouse"
+    address: "76347 Veterans Way, Yulee, FL 32034"
+    lat: 30.612302
+    lng: -81.629734
+    url: https://www.nassauclerk.com/
+    kind: courthouse
+
+  - id: fl-okaloosa-courthouse
+    state: FL
+    county: Okaloosa
+    name: "Okaloosa County Courthouse"
+    address: "101 E James Lee Blvd, Crestview, FL 32536"
+    lat: 30.760562
+    lng: -86.552396
+    url: https://okaloosaclerk.com/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: fl-okeechobee-courthouse
+    state: FL
+    county: Okeechobee
+    name: "Okeechobee County Courthouse"
+    address: "312 NW Third St"
+    lat: 27.245329
+    lng: -80.832792
+    url: https://myokeeclerk.com/
+    kind: courthouse
+
+  - id: fl-orange-courthouse
+    state: FL
+    county: Orange
+    name: "Orange County Courthouse"
+    address: "425 N Orange Ave, Orlando, FL 32801"
+    lat: 28.548195
+    lng: -81.377752
+    url: https://www.myorangeclerk.com/
+    kind: courthouse
+
+  - id: fl-osceola-courthouse
+    state: FL
+    county: Osceola
+    name: "Osceola County Courthouse"
+    address: "2 Courthouse Square"
+    lat: 28.290341
+    lng: -81.411216
+    url: https://osceolaclerk.com/
+    kind: courthouse
+
+  - id: fl-pasco-courthouse
+    state: FL
+    county: Pasco
+    name: "Pasco County Courthouse"
+    address: "38053 Live Oak Avenue"
+    lat: 28.365253
+    lng: -82.187855
+    url: https://www.pascoclerk.com/
+    kind: courthouse
+
+  - id: fl-pinellas-courthouse
+    state: FL
+    county: Pinellas
+    name: "Pinellas County Courthouse"
+    address: "315 Court St"
+    lat: 27.961608
+    lng: -82.801243
+    url: https://www.mypinellasclerk.gov/
+    kind: courthouse
+
+  - id: fl-polk-courthouse
+    state: FL
+    county: Polk
+    name: "Polk County Courthouse"
+    address: "255 N Broadway Ave, Bartow, FL 33830"
+    lat: 27.901111
+    lng: -81.843296
+    url: https://www.polkclerkfl.gov/
+    kind: courthouse
+
+  - id: fl-putnam-courthouse
+    state: FL
+    county: Putnam
+    name: "Putnam County Courthouse"
+    address: "410 St. Johns Ave, Palatka, FL 32177"
+    lat: 29.646998
+    lng: -81.632497
+    url: https://putnamclerk.com/
+    kind: courthouse
+
+  - id: fl-santa-rosa-courthouse
+    state: FL
+    county: Santa Rosa
+    name: "Santa Rosa County Courthouse"
+    address: "6495 Caroline St"
+    lat: 30.609674
+    lng: -87.058623
+    url: https://santarosaclerk.com/
+    kind: courthouse
+
+  - id: fl-seminole-courthouse
+    state: FL
+    county: Seminole
+    name: "Seminole County Courthouse"
+    address: "91 Eslinger Way, Sanford, FL 32773"
+    lat: 28.748976
+    lng: -81.299007
+    url: https://www.seminoleclerk.org/
+    kind: courthouse
+
+  - id: fl-st-johns-courthouse
+    state: FL
+    county: St. Johns
+    name: "St. Johns County Courthouse"
+    address: "4010 Lewis Speedway, St. Augustine, FL 32084"
+    lat: 29.939891
+    lng: -81.336909
+    url: https://stjohnsclerk.com/
+    kind: courthouse
+
+  - id: fl-sumter-courthouse
+    state: FL
+    county: Sumter
+    name: "Sumter County Courthouse"
+    address: "215 E McCollum Ave, Bushnell, FL 33513"
+    lat: 28.663835
+    lng: -82.109472
+    url: https://www.sumterclerk.com/
+    kind: courthouse
+
+  - id: fl-suwannee-courthouse
+    state: FL
+    county: Suwannee
+    name: "Suwannee County Courthouse"
+    address: "200 S Ohio Ave, Live Oak, FL 32064"
+    lat: 30.291004
+    lng: -82.987359
+    url: https://www.suwgov.org/
+    kind: courthouse
+
+  - id: fl-taylor-courthouse
+    state: FL
+    county: Taylor
+    name: "Taylor County Courthouse"
+    address: "108 N Jefferson St"
+    lat: 30.117535
+    lng: -83.581746
+    url: https://taylorclerk.com/
+    kind: courthouse
+
+  - id: fl-volusia-courthouse
+    state: FL
+    county: Volusia
+    name: "Volusia County Courthouse"
+    address: "101 N Alabama Ave, DeLand, FL 32724"
+    lat: 29.028994
+    lng: -81.300233
+    url: https://www.clerk.org/
+    kind: courthouse
+
+  - id: fl-wakulla-courthouse
+    state: FL
+    county: Wakulla
+    name: "Wakulla County Courthouse"
+    address: "3056 Crawfordville Hwy, Crawfordville, FL 32327"
+    lat: 30.175943
+    lng: -84.375133
+    url: https://wakullaclerk.org/
+    kind: courthouse
+
+  - id: fl-walton-courthouse
+    state: FL
+    county: Walton
+    name: "Walton County Courthouse"
+    address: "571 US Highway 90 E, DeFuniak Springs, FL 32433"
+    lat: 30.721855
+    lng: -86.111164
+    url: https://waltonclerkfl.gov/
+    kind: courthouse
+

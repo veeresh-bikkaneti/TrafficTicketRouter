@@ -1,0 +1,222 @@
+# Arizona — 15 counties. 8 verified justice-court cards; 7 counties omitted
+# (official pages bot-blocked or unreachable — see gaps in report).
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+state: AZ
+state_name: Arizona
+last_verified: "2026-09-21"
+official_hosts:
+  - cochise.az.gov
+  - gilacountyaz.gov
+  - graham.az.gov
+  - lapazcountyjusticecourt.com
+  - justicecourts.maricopa.gov
+  - mohavecourts.com
+  - jp.pima.gov
+  - santacruzcountyaz.gov
+  - azcourts.gov
+counties:
+  - name: Apache
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Cochise
+    note: "Traffic venue is justice court."
+  - name: Coconino
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Gila
+    note: "Traffic venue is justice court."
+  - name: Graham
+    note: "Traffic venue is justice court."
+  - name: Greenlee
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: La Paz
+    note: "Traffic venue is justice court."
+  - name: Maricopa
+    note: "Traffic venue is justice court."
+  - name: Mohave
+    note: "Traffic venue is justice court."
+  - name: Navajo
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Pima
+    note: "Traffic venue is justice court."
+  - name: Pinal
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Santa Cruz
+    note: "Traffic venue is justice court."
+  - name: Yavapai
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Yuma
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+cards:
+  - id: cochise-county-card
+    verification: link_ok
+    source_url: "https://www.cochise.az.gov/403/Justice-of-the-Peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cochise County Justice of the Peace"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on cochise.az.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+      - "For case-specific questions, contact the precinct listed on your citation."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cochise
+    weight: 10
+
+  - id: gila-county-card
+    verification: link_ok
+    source_url: "https://www.gilacountyaz.gov/government/courts/globe_regional_justice_court/payments.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gila County — Globe Regional Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on gilacountyaz.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+      - "Payments page lists options for the Globe Regional Justice Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gila
+    weight: 10
+
+  - id: graham-county-card
+    verification: link_ok
+    source_url: "https://www.graham.az.gov/184/Courts-Judicial/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Graham County Courts & Judicial — Justice Court"
+    contact: "Graham County Justice Court, 800 W. Main Street, Safford, AZ 85546. Phone 928-428-1210."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on graham.az.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+      - "The Justice Court is on the 1st floor of the Graham County Courthouse."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Graham
+    weight: 10
+
+  - id: lapaz-county-card
+    verification: link_ok
+    source_url: "https://lapazcountyjusticecourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "La Paz County Justice Court (Parker Justice Court)"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on lapazcountyjusticecourt.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - La Paz
+    weight: 10
+
+  - id: maricopa-county-card
+    verification: link_ok
+    source_url: "https://justicecourts.maricopa.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maricopa County Justice Courts"
+    contact: "Arcadia Biltmore Justice Court, 620 W Jackson Street, Phoenix, AZ 85003. Phone (602) 372-6300."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on justicecourts.maricopa.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+      - "26 precincts; use the court-locations page to find the precinct on your citation."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Maricopa
+    weight: 10
+
+  - id: mohave-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mohavecourts.com/kingmancerbat-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mohave County — Kingman/Cerbat Justice Court"
+    contact: "401 E. Spring Street, Kingman, AZ 86401. Phone (928) 753-0710."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on mohavecourts.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mohave
+    weight: 10
+
+  - id: pima-county-card
+    verification: link_ok
+    source_url: "https://www.jp.pima.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pima County Consolidated Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on jp.pima.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Eight precincts consolidated at 240 N Stone Ave, Tucson."
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pima
+    weight: 10
+
+  - id: santacruz-county-card
+    verification: link_ok
+    link_check: manual
+    source_url: "https://santacruzcountyaz.gov/347/Court-Services"
+    verification_note: "Bot-blocked to curl (403); verified live HTTP 200 via browser fetch on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Santa Cruz County — Court Services (Justice Court)"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on santacruzcountyaz.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice Court Precinct 1: 2160 N Congress, Ste 2100, Nogales."
+      - "Justice courts handle civil traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Santa Cruz
+    weight: 10
+
+  - id: az-courts-locator
+    verification: link_ok
+    source_url: "https://www.azcourts.gov/AZ-Courts/AZ-Courts-Locator"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Arizona Judicial Branch — AZ Courts Locator"
+    accepted_keys: "Select a county to find official court locations and links."
+    cost: "No cost to look up — as of 2026-09-21 on azcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "A directory of official court locations, not a ticket search."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 50

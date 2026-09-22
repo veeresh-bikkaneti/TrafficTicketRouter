@@ -1,0 +1,951 @@
+# Tennessee courthouse pins. Coordinates from Nominatim/OSM, cross-checked against expected city. URLs match data/states/TN.yaml verbatim. tngovcourts.gov is bot-protected; link_check is manual on cards.
+pins:
+  - id: tn-anderson-courthouse
+    state: TN
+    county: Anderson
+    name: "Anderson County General Sessions Court"
+    address: "100 N Main St. Clinton, TN 37716"
+    lat: 36.1003823
+    lng: -84.1338642
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-bedford-courthouse
+    state: TN
+    county: Bedford
+    name: "Bedford County General Sessions Court"
+    address: "108 North Creek Drive, Shelbyville, TN 37160"
+    lat: 35.483406
+    lng: -86.4602717
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-benton-courthouse
+    state: TN
+    county: Benton
+    name: "Benton County General Sessions Court"
+    address: "1 Court Square, Camden, TN 38320"
+    lat: 36.0589486
+    lng: -88.0978151
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-bledsoe-courthouse
+    state: TN
+    county: Bledsoe
+    name: "Bledsoe County General Sessions Court"
+    address: "3150 Main Street, Ste 300, Pikeville, TN 37367"
+    lat: 35.6163586
+    lng: -85.1868532
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-blount-courthouse
+    state: TN
+    county: Blount
+    name: "Blount County General Sessions Court"
+    address: "928 E Lamar Alexander Pkwy, Maryville, TN 37804"
+    lat: 35.7548845
+    lng: -83.9589836
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-bradley-courthouse
+    state: TN
+    county: Bradley
+    name: "Bradley County General Sessions Court"
+    address: "2230 Blythe Avenue, Cleveland, TN 37311"
+    lat: 35.1474572
+    lng: -84.8758701
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-campbell-courthouse
+    state: TN
+    county: Campbell
+    name: "Campbell County General Sessions Court"
+    address: "570 Main St., Jacksboro, TN 37757"
+    lat: 36.3306523
+    lng: -84.1828511
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-cannon-courthouse
+    state: TN
+    county: Cannon
+    name: "Cannon County General Sessions Court"
+    address: "200 West Main, Woodbury, TN 37190"
+    lat: 35.8281729
+    lng: -86.0706313
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-carroll-courthouse
+    state: TN
+    county: Carroll
+    name: "Carroll County General Sessions Court"
+    address: "99 Court Square, Huntingdon, TN 38344"
+    lat: 36.0003807
+    lng: -88.4280604
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-carter-courthouse
+    state: TN
+    county: Carter
+    name: "Carter County General Sessions Court"
+    address: "801 E Elk Ave., Elizabethton, TN 37643"
+    lat: 36.3487756
+    lng: -82.2107617
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-cheatham-courthouse
+    state: TN
+    county: Cheatham
+    name: "Cheatham County General Sessions Court"
+    address: "100 Public Square, Ashland City, TN 37015"
+    lat: 36.2742207
+    lng: -87.0641699
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-chester-courthouse
+    state: TN
+    county: Chester
+    name: "Chester County General Sessions Court"
+    address: "333 Eric Bell Drive, Henderson, TN 38340"
+    lat: 35.6418311
+    lng: -88.3949437
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-claiborne-courthouse
+    state: TN
+    county: Claiborne
+    name: "Claiborne County General Sessions Court"
+    address: "415 Straight Creek Rd., New Tazewell, TN 37825"
+    lat: 36.4402595
+    lng: -83.5767548
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-clay-courthouse
+    state: TN
+    county: Clay
+    name: "Clay County General Sessions Court"
+    address: "100 Court House Square, Celina, TN 38551"
+    lat: 36.5500611
+    lng: -85.505247
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-cocke-courthouse
+    state: TN
+    county: Cocke
+    name: "Cocke County General Sessions Court"
+    address: "301 Cosby Highway, Newport, TN 37821"
+    lat: 35.963935
+    lng: -83.194267
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-coffee-courthouse
+    state: TN
+    county: Coffee
+    name: "Coffee County General Sessions Court"
+    address: "300 Hillsboro Blvd., Manchester, TN 37355"
+    lat: 35.479429
+    lng: -86.084798
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-crockett-courthouse
+    state: TN
+    county: Crockett
+    name: "Crockett County General Sessions Court"
+    address: "1 S Bells St., Alamo, TN 38001"
+    lat: 35.784683
+    lng: -89.117192
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-cumberland-courthouse
+    state: TN
+    county: Cumberland
+    name: "Cumberland County General Sessions Court"
+    address: "60 Justice Center Dr., Crossville, TN 38555"
+    lat: 35.9415141
+    lng: -85.0232067
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-davidson-courthouse
+    state: TN
+    county: Davidson
+    name: "Davidson County General Sessions Court"
+    address: "408 2nd Avenue North, Nashville, TN 37201"
+    lat: 36.1659937
+    lng: -86.7776558
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-dekalb-courthouse
+    state: TN
+    county: DeKalb
+    name: "DeKalb County General Sessions Court"
+    address: "1 Public Square, Smithville, TN 37166&"
+    lat: 35.961081
+    lng: -85.813284
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-decatur-courthouse
+    state: TN
+    county: Decatur
+    name: "Decatur County General Sessions Court"
+    address: "22 W Main Street, Decaturville, TN 38329"
+    lat: 35.5840853
+    lng: -88.1201556
+    url: https://tncourts.gov/courthouse?page=0
+    kind: courthouse
+
+  - id: tn-dickson-courthouse
+    state: TN
+    county: Dickson
+    name: "Dickson County General Sessions Court"
+    address: "500 Spring Street, Charlotte, TN 37036"
+    lat: 36.1772797
+    lng: -87.3397319
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-dyer-courthouse
+    state: TN
+    county: Dyer
+    name: "Dyer County General Sessions Court"
+    address: "101 W Court St., Dyersburg, TN 38024"
+    lat: 36.03266
+    lng: -89.385901
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-fayette-courthouse
+    state: TN
+    county: Fayette
+    name: "Fayette County General Sessions Court"
+    address: "16755 US-64, Somerville, TN 38068"
+    lat: 35.2435123
+    lng: -89.3506399
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-fentress-courthouse
+    state: TN
+    county: Fentress
+    name: "Fentress County General Sessions Court"
+    address: "140 Justice Ctr Drive, Jamestown, TN 38556"
+    lat: 36.4194352
+    lng: -84.9265497
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-franklin-courthouse
+    state: TN
+    county: Franklin
+    name: "Franklin County General Sessions Court"
+    address: "440 George Fraley Parkway, Winchester, TN 37398"
+    lat: 35.1859901
+    lng: -86.1118359
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-gibson-courthouse
+    state: TN
+    county: Gibson
+    name: "Gibson County General Sessions Court"
+    address: "1421 Osborne Street, Humboldt, Tennessee 38343"
+    lat: 35.8215336
+    lng: -88.9167593
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-giles-courthouse
+    state: TN
+    county: Giles
+    name: "Giles County General Sessions Court"
+    address: "1 Public Square, Pulaski, TN 38478"
+    lat: 35.1998023
+    lng: -87.0308412
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-grainger-courthouse
+    state: TN
+    county: Grainger
+    name: "Grainger County General Sessions Court"
+    address: "8095 Rutledge Pike, Rutledge, TN 37861"
+    lat: 36.2811827
+    lng: -83.5143881
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-greene-courthouse
+    state: TN
+    county: Greene
+    name: "Greene County General Sessions Court"
+    address: "101 S Main Street, Greeneville, TN 37743"
+    lat: 36.1628777
+    lng: -82.8305805
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-grundy-courthouse
+    state: TN
+    county: Grundy
+    name: "Grundy County General Sessions Court"
+    address: "68 Cumberland Street, Altamont, TN 37301"
+    lat: 35.4301332
+    lng: -85.7226999
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hamblen-courthouse
+    state: TN
+    county: Hamblen
+    name: "Hamblen County General Sessions Court"
+    address: "510 Allison Street, Morristown, TN 37814"
+    lat: 36.2149812
+    lng: -83.2990431
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hamilton-courthouse
+    state: TN
+    county: Hamilton
+    name: "Hamilton County General Sessions Court"
+    address: "625 Georgia Avenue, Chattanooga, TN 37402"
+    lat: 35.0493316
+    lng: -85.306131
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hancock-courthouse
+    state: TN
+    county: Hancock
+    name: "Hancock County General Sessions Court"
+    address: "1237 Main Street, Sneedville, TN 37869"
+    lat: 36.5299297
+    lng: -83.2175573
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hardeman-courthouse
+    state: TN
+    county: Hardeman
+    name: "Hardeman County General Sessions Court"
+    address: "100 North Main St., Bolivar, TN 38008"
+    lat: 35.256298
+    lng: -88.987756
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hardin-courthouse
+    state: TN
+    county: Hardin
+    name: "Hardin County General Sessions Court"
+    address: "465 Main Street, Savannah, TN 38372"
+    lat: 35.2248128
+    lng: -88.2504908
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hawkins-courthouse
+    state: TN
+    county: Hawkins
+    name: "Hawkins County General Sessions Court"
+    address: "100 E Main Street, Rogersville, TN 37857"
+    lat: 36.4456707
+    lng: -82.9588847
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-haywood-courthouse
+    state: TN
+    county: Haywood
+    name: "Haywood County General Sessions Court"
+    address: "100 S. Dupree, Brownsville, TN 38012"
+    lat: 35.5801713
+    lng: -89.242963
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-henderson-courthouse
+    state: TN
+    county: Henderson
+    name: "Henderson County General Sessions Court"
+    address: "170 Justice Center Drive, Lexington, TN 38351"
+    lat: 35.6974511
+    lng: -88.3793247
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-henry-courthouse
+    state: TN
+    county: Henry
+    name: "Henry County General Sessions Court"
+    address: "101 W Washington St., Paris, TN 38242"
+    lat: 36.302654
+    lng: -88.325465
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-hickman-courthouse
+    state: TN
+    county: Hickman
+    name: "Hickman County General Sessions Court"
+    address: "104 College Avenue, Centerville, TN 37033"
+    lat: 35.7790751
+    lng: -87.4648603
+    url: https://tncourts.gov/courthouse?page=1
+    kind: courthouse
+
+  - id: tn-houston-courthouse
+    state: TN
+    county: Houston
+    name: "Houston County General Sessions Court"
+    address: "4725 E Main Street, Erin, TN 37061"
+    lat: 36.3188969
+    lng: -87.6938021
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-humphreys-courthouse
+    state: TN
+    county: Humphreys
+    name: "Humphreys County General Sessions Court"
+    address: "100 N Court Square, Waverly, TN 37185"
+    lat: 36.083334
+    lng: -87.794804
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-jackson-courthouse
+    state: TN
+    county: Jackson
+    name: "Jackson County General Sessions Court"
+    address: "101 E Hull Ave Street, Gainesboro, TN 38562"
+    lat: 36.355428
+    lng: -85.6588652
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-jefferson-courthouse
+    state: TN
+    county: Jefferson
+    name: "Jefferson County General Sessions Court"
+    address: "765 Justice Center Dr., Dandridge, TN 37725"
+    lat: 36.0338701
+    lng: -83.4273972
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-johnson-courthouse
+    state: TN
+    county: Johnson
+    name: "Johnson County General Sessions Court"
+    address: "222 W Main Street, Mountain City, TN 37683"
+    lat: 36.4752061
+    lng: -81.8064269
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-knox-courthouse
+    state: TN
+    county: Knox
+    name: "Knox County General Sessions Court"
+    address: "400 Main St SW., Knoxville, TN 37902"
+    lat: 35.9603948
+    lng: -83.9210261
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-lake-courthouse
+    state: TN
+    county: Lake
+    name: "Lake County General Sessions Court"
+    address: "229 Church St., Tiptonville, TN 38079"
+    lat: 36.3783114
+    lng: -89.4845808
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-lauderdale-courthouse
+    state: TN
+    county: Lauderdale
+    name: "Lauderdale County General Sessions Court"
+    address: "675 Hwy 51 South, Ripley, TN 38063"
+    lat: 35.7453551
+    lng: -89.5297973
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-lawrence-courthouse
+    state: TN
+    county: Lawrence
+    name: "Lawrence County General Sessions Court"
+    address: "240 W Gaines St Ste 1, Lawrenceburg, TN 38464"
+    lat: 35.2428265
+    lng: -87.337103
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-lewis-courthouse
+    state: TN
+    county: Lewis
+    name: "Lewis County General Sessions Court"
+    address: "29 West Main St., Hohenwald, TN 38462"
+    lat: 35.5480503
+    lng: -87.5526343
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-lincoln-courthouse
+    state: TN
+    county: Lincoln
+    name: "Lincoln County General Sessions Court"
+    address: "112 Main Ave S., Fayetteville, TN 37334"
+    lat: 35.1520285
+    lng: -86.5705145
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-loudon-courthouse
+    state: TN
+    county: Loudon
+    name: "Loudon County General Sessions Court"
+    address: "12680 Hwy 11 W. Lenoir City, TN 37771"
+    lat: 35.7972998
+    lng: -84.2560299
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-macon-courthouse
+    state: TN
+    county: Macon
+    name: "Macon County General Sessions Court"
+    address: "904 TN-52 Bypass, Lafayette, TN 37083"
+    lat: 36.5208223
+    lng: -86.0260366
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-madison-courthouse
+    state: TN
+    county: Madison
+    name: "Madison County General Sessions Court"
+    address: "515 S Liberty St # 300, Jackson, TN 38301"
+    lat: 35.6144446
+    lng: -88.8177418
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-marion-courthouse
+    state: TN
+    county: Marion
+    name: "Marion County General Sessions Court"
+    address: "1 Courthouse Square, Jasper, TN 37347"
+    lat: 35.0742448
+    lng: -85.6260789
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-marshall-courthouse
+    state: TN
+    county: Marshall
+    name: "Marshall County General Sessions Court"
+    address: "301 Marshall County Courthouse, Lewisburg, TN 37091Maury"
+    lat: 35.4492404
+    lng: -86.7888887
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-maury-courthouse
+    state: TN
+    county: Maury
+    name: "Maury County General Sessions Court"
+    address: "1115 S. Main St. Columbia, TN 38401"
+    lat: 35.6089328
+    lng: -87.0340912
+    url: https://tncourts.gov/courthouse?page=2
+    kind: courthouse
+
+  - id: tn-mcminn-courthouse
+    state: TN
+    county: McMinn
+    name: "McMinn County General Sessions Court"
+    address: "1317 S. White St. Athens, TN 37303"
+    lat: 35.4223587
+    lng: -84.582552
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-mcnairy-courthouse
+    state: TN
+    county: McNairy
+    name: "McNairy County General Sessions Court"
+    address: "300 Industrial Park Drive, Selmer, TN 38375"
+    lat: 35.158397
+    lng: -88.594824
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-meigs-courthouse
+    state: TN
+    county: Meigs
+    name: "Meigs County General Sessions Court"
+    address: "17214 St. Hwy. 58 North, Decatur Tn. 37322"
+    lat: 35.4835021
+    lng: -88.2047167
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-monroe-courthouse
+    state: TN
+    county: Monroe
+    name: "Monroe County General Sessions Court"
+    address: "105 College St. S., Madisonville, TN 37354"
+    lat: 35.5201036
+    lng: -84.363146
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-montgomery-courthouse
+    state: TN
+    county: Montgomery
+    name: "Montgomery County General Sessions Court"
+    address: "2 Millenium Plz., Clarksville, TN 37040"
+    lat: 36.5272614
+    lng: -87.358147
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-moore-courthouse
+    state: TN
+    county: Moore
+    name: "Moore County General Sessions Court"
+    address: "196 Main Street, Lynchburg, TN 37352"
+    lat: 35.2823676
+    lng: -86.3735809
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-morgan-courthouse
+    state: TN
+    county: Morgan
+    name: "Morgan County General Sessions Court"
+    address: "415 N Kingston Street, Wartburg, TN 37887"
+    lat: 36.1065473
+    lng: -84.5968145
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-obion-courthouse
+    state: TN
+    county: Obion
+    name: "Obion County General Sessions Court"
+    address: "1 Bill Burnett Circle, Union City, TN 38261"
+    lat: 36.4232842
+    lng: -89.0593304
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-overton-courthouse
+    state: TN
+    county: Overton
+    name: "Overton County General Sessions Court"
+    address: "306 W Main St suite 103, Livingston, TN 38570"
+    lat: 36.3828664
+    lng: -85.3242963
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-perry-courthouse
+    state: TN
+    county: Perry
+    name: "Perry County General Sessions Court"
+    address: "121 E Main Street, Linden, TN 37096"
+    lat: 35.616932
+    lng: -87.837854
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-pickett-courthouse
+    state: TN
+    county: Pickett
+    name: "Pickett County General Sessions Court"
+    address: "1 Courthouse Square, Byrdstown, TN 38549;"
+    lat: 36.569857
+    lng: -85.129837
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-polk-courthouse
+    state: TN
+    county: Polk
+    name: "Polk County General Sessions Court"
+    address: "6239 Hwy 411, Benton, TN 37307"
+    lat: 36.0345286
+    lng: -88.101285
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-putnam-courthouse
+    state: TN
+    county: Putnam
+    name: "Putnam County General Sessions Court"
+    address: "421 E Spring Street, Cookeville, TN 38501"
+    lat: 36.1617449
+    lng: -85.4983817
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-rhea-courthouse
+    state: TN
+    county: Rhea
+    name: "Rhea County General Sessions Court"
+    address: "7824 Rhea County Hwy., Dayton Tn 37321"
+    lat: 35.5141072
+    lng: -84.9984044
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-roane-courthouse
+    state: TN
+    county: Roane
+    name: "Roane County General Sessions Court"
+    address: "200 E Race St #11, Kingston, TN 37763"
+    lat: 35.8714256
+    lng: -84.5162633
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-robertson-courthouse
+    state: TN
+    county: Robertson
+    name: "Robertson County General Sessions Court"
+    address: "422 West Court Square, Springfield, TN 37172"
+    lat: 36.5092119
+    lng: -86.8849984
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-rutherford-courthouse
+    state: TN
+    county: Rutherford
+    name: "Rutherford County General Sessions Court"
+    address: "116 West Lytle Street, Murfreesboro, TN 37130"
+    lat: 35.8486676
+    lng: -86.3968774
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-scott-courthouse
+    state: TN
+    county: Scott
+    name: "Scott County General Sessions Court"
+    address: "575 Scott High Drive, Huntsville, TN 37756"
+    lat: 36.4062395
+    lng: -84.5325331
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-sequatchie-courthouse
+    state: TN
+    county: Sequatchie
+    name: "Sequatchie County General Sessions Court"
+    address: "22 Cherry Street, Dunlap, TN 37327"
+    lat: 35.3707958
+    lng: -85.3875503
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-sevier-courthouse
+    state: TN
+    county: Sevier
+    name: "Sevier County General Sessions Court"
+    address: "127 Commerce Street, Sevierville, TN 37862"
+    lat: 35.8672932
+    lng: -83.5657167
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-shelby-courthouse
+    state: TN
+    county: Shelby
+    name: "Shelby County General Sessions Court"
+    address: "201 Poplar Avenue, Memphis 38103"
+    lat: 35.1489511
+    lng: -90.0479567
+    url: https://tncourts.gov/courthouse?page=3
+    kind: courthouse
+
+  - id: tn-smith-courthouse
+    state: TN
+    county: Smith
+    name: "Smith County General Sessions Court"
+    address: "322 Justice Drive, Carthage, TN 37030"
+    lat: 36.2522766
+    lng: -85.951654
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-stewart-courthouse
+    state: TN
+    county: Stewart
+    name: "Stewart County General Sessions Court"
+    address: "225 Donelson Pkwy., Dover, TN 37058"
+    lat: 36.4839807
+    lng: -87.8526821
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-sullivan-courthouse
+    state: TN
+    county: Sullivan
+    name: "Sullivan County General Sessions Court"
+    address: "200 Shelby Street, Kingsport, TN 37660"
+    lat: 36.5475163
+    lng: -82.561933
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-sumner-courthouse
+    state: TN
+    county: Sumner
+    name: "Sumner County General Sessions Court"
+    address: "115 East Main Street, Gallatin, TN 37066"
+    lat: 36.388336
+    lng: -86.445899
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-tipton-courthouse
+    state: TN
+    county: Tipton
+    name: "Tipton County General Sessions Court"
+    address: "1801 South College Street, Covington, TN 38019"
+    lat: 35.544163
+    lng: -89.649358
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-trousdale-courthouse
+    state: TN
+    county: Trousdale
+    name: "Trousdale County General Sessions Court"
+    address: "303 East Main Street, Hartsville, TN 37074"
+    lat: 36.3904447
+    lng: -86.1652256
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-unicoi-courthouse
+    state: TN
+    county: Unicoi
+    name: "Unicoi County General Sessions Court"
+    address: "100 N Main Avenue, Erwin, TN 37650"
+    lat: 36.14526
+    lng: -82.416489
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-union-courthouse
+    state: TN
+    county: Union
+    name: "Union County General Sessions Court"
+    address: "901 Main Street, Maynardville, TN 37807"
+    lat: 36.2496951
+    lng: -83.7986744
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-van-buren-courthouse
+    state: TN
+    county: Van Buren
+    name: "Van Buren County General Sessions Court"
+    address: "121 Taft Drive, Spencer, TN 38585"
+    lat: 35.7515761
+    lng: -85.460176
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-warren-courthouse
+    state: TN
+    county: Warren
+    name: "Warren County General Sessions Court"
+    address: "111 S Court Square, McMinnville, TN 37110"
+    lat: 35.6813536
+    lng: -85.7732085
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-washington-courthouse
+    state: TN
+    county: Washington
+    name: "Washington County General Sessions Court"
+    address: "108 W Jackson Blvd., Jonesborough, TN 37659"
+    lat: 36.2981756
+    lng: -82.4762283
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-wayne-courthouse
+    state: TN
+    county: Wayne
+    name: "Wayne County General Sessions Court"
+    address: "1016 Andrew Jackson Drive, Waynesboro, Tn 38485"
+    lat: 35.3198362
+    lng: -87.7629269
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-weakley-courthouse
+    state: TN
+    county: Weakley
+    name: "Weakley County General Sessions Court"
+    address: "116 W Main Street, Dresden, TN 38225"
+    lat: 36.2917801
+    lng: -88.7081198
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-white-courthouse
+    state: TN
+    county: White
+    name: "White County General Sessions Court"
+    address: "111 Depot St, Sparta, TN 38583"
+    lat: 35.9271442
+    lng: -85.4734954
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-williamson-courthouse
+    state: TN
+    county: Williamson
+    name: "Williamson County General Sessions Court"
+    address: "135 4th Ave S., Franklin, TN 37064"
+    lat: 35.925206
+    lng: -86.8689419
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse
+
+  - id: tn-wilson-courthouse
+    state: TN
+    county: Wilson
+    name: "Wilson County General Sessions Court"
+    address: "134 S College Street, Lebanon, TN 37087"
+    lat: 36.2045314
+    lng: -86.2903118
+    url: https://tncourts.gov/courthouse?page=4
+    kind: courthouse

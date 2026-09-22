@@ -4,6 +4,10 @@
 state: NE
 state_name: Nebraska
 last_verified: "2026-09-20"
+official_hosts:
+  - nebraskajudicial.gov
+  - nebraska.gov
+  - nefindalawyer.com
 counties:
   - name: Lancaster
     note: "Traffic venue is county court."

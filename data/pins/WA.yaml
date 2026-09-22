@@ -1,0 +1,262 @@
+# Washington map pins — district court locations.
+# 26 pins with verified coordinates; 13 counties omitted.
+pins:
+  - id: wa-asotin-courthouse
+    state: WA
+    county: Asotin
+    name: "Asotin County District Court"
+    address: 135 2nd St, Asotin, WA 99402
+    lat: 46.3403693
+    lng: -117.0536624
+    url: https://www.courts.wa.gov/court_dir/orgs/262.html
+    kind: courthouse
+
+  - id: wa-benton-courthouse
+    state: WA
+    county: Benton
+    name: "Benton County District Court"
+    address: 620 Market St, Prosser, WA 99350
+    lat: 46.2032140
+    lng: -119.7707824
+    url: https://www.courts.wa.gov/court_dir/orgs/263.html
+    kind: courthouse
+
+  - id: wa-chelan-courthouse
+    state: WA
+    county: Chelan
+    name: "Chelan County District Court"
+    address: 140 S Mission, Wenatchee, WA 98801
+    lat: 47.4138534
+    lng: -120.3047447
+    url: https://www.courts.wa.gov/court_dir/orgs/264.html
+    kind: courthouse
+
+  - id: wa-clallam-courthouse
+    state: WA
+    county: Clallam
+    name: "Clallam County District Court"
+    address: 10    Port, Angeles, WA 98362
+    lat: 48.1170078
+    lng: -123.5982427
+    url: https://www.courts.wa.gov/court_dir/orgs/265.html
+    kind: courthouse
+
+  - id: wa-clark-courthouse
+    state: WA
+    county: Clark
+    name: "Clark County District Court"
+    address: 210 E. 13th Street, Vancouver, WA 98660
+    lat: 45.6310590
+    lng: -122.6704894
+    url: https://www.courts.wa.gov/court_dir/orgs/266.html
+    kind: courthouse
+
+  - id: wa-cowlitz-courthouse
+    state: WA
+    county: Cowlitz
+    name: "Cowlitz County District Court"
+    address: 1351 Hudson St, Longview, WA 98632
+    lat: 46.1370680
+    lng: -122.9350927
+    url: https://www.courts.wa.gov/court_dir/orgs/268.html
+    kind: courthouse
+
+  - id: wa-douglas-courthouse
+    state: WA
+    county: Douglas
+    name: "Douglas County District Court"
+    address: 271 9th St NE, East Wenatchee, WA 98802
+    lat: 47.4178330
+    lng: -120.2887473
+    url: https://www.courts.wa.gov/court_dir/orgs/269.html
+    kind: courthouse
+
+  - id: wa-franklin-courthouse
+    state: WA
+    county: Franklin
+    name: "Franklin County District Court"
+    address: 1016 N 4th Ave, Pasco, WA 99301
+    lat: 46.2369413
+    lng: -119.0961195
+    url: https://www.courts.wa.gov/court_dir/orgs/271.html
+    kind: courthouse
+
+  - id: wa-grant-courthouse
+    state: WA
+    county: Grant
+    name: "Grant County District Court"
+    address: 1525 E Wheeler Rd, Moses Lake, WA 98837
+    lat: 47.1303424
+    lng: -119.2502425
+    url: https://www.courts.wa.gov/court_dir/orgs/273.html
+    kind: courthouse
+
+  - id: wa-grays-harbor-courthouse
+    state: WA
+    county: Grays Harbor
+    name: "Grays Harbor County District Court"
+    address: 112 N Main St, Montesano, WA 98563
+    lat: 46.9816767
+    lng: -123.6005213
+    url: https://www.courts.wa.gov/court_dir/orgs/274.html
+    kind: courthouse
+
+  - id: wa-island-courthouse
+    state: WA
+    county: Island
+    name: "Island County District Court"
+    address: 800 SE 8th Ave, Oak Harbor, WA 98277
+    lat: 48.2919100
+    lng: -122.6474660
+    url: https://www.courts.wa.gov/court_dir/orgs/275.html
+    kind: courthouse
+
+  - id: wa-jefferson-courthouse
+    state: WA
+    county: Jefferson
+    name: "Jefferson County District Court"
+    address: 1820 Jefferson St, Port Townsend, WA 98368
+    lat: 48.1120683
+    lng: -122.7678190
+    url: https://www.courts.wa.gov/court_dir/orgs/276.html
+    kind: courthouse
+
+  - id: wa-kittitas-courthouse
+    state: WA
+    county: Kittitas
+    name: "Kittitas County District Court"
+    address: 700 E 1st St, Cle Elum, WA 98922
+    lat: 47.1929457
+    lng: -120.9258922
+    url: https://www.courts.wa.gov/court_dir/orgs/278.html
+    kind: courthouse
+
+  - id: wa-lewis-courthouse
+    state: WA
+    county: Lewis
+    name: "Lewis County District Court"
+    address: 323 NE 1st St, Winlock, WA 98596
+    lat: 46.4919700
+    lng: -122.9368626
+    url: https://www.courts.wa.gov/court_dir/orgs/280.html
+    kind: courthouse
+
+  - id: wa-lincoln-courthouse
+    state: WA
+    county: Lincoln
+    name: "Lincoln County District Court"
+    address: 406 Sinclair, Davenport, WA 99122
+    lat: 47.6560037
+    lng: -118.1481484
+    url: https://www.courts.wa.gov/court_dir/orgs/281.html
+    kind: courthouse
+
+  - id: wa-mason-courthouse
+    state: WA
+    county: Mason
+    name: "Mason County District Court"
+    address: 414 W. Franklin Street, Shelton, WA 98584
+    lat: 47.2140652
+    lng: -123.1038248
+    url: https://www.courts.wa.gov/court_dir/orgs/282.html
+    kind: courthouse
+
+  - id: wa-okanogan-courthouse
+    state: WA
+    county: Okanogan
+    name: "Okanogan County District Court"
+    address: 105 S 3rd St, Brewster, WA 98812
+    lat: 48.0986919
+    lng: -119.7798066
+    url: https://www.courts.wa.gov/court_dir/orgs/283.html
+    kind: courthouse
+
+  - id: wa-pacific-courthouse
+    state: WA
+    county: Pacific
+    name: "Pacific County District Court"
+    address: 300 Memorial Dr, South Bend, WA 98586
+    lat: 46.6624812
+    lng: -123.8103399
+    url: https://www.courts.wa.gov/court_dir/orgs/284.html
+    kind: courthouse
+
+  - id: wa-pend-oreille-courthouse
+    state: WA
+    county: Pend Oreille
+    name: "Pend Oreille County District Court"
+    address: 229 S Garden Ave, Newport, WA 99156
+    lat: 48.1791777
+    lng: -117.0580171
+    url: https://www.courts.wa.gov/court_dir/orgs/285.html
+    kind: courthouse
+
+  - id: wa-san-juan-courthouse
+    state: WA
+    county: San Juan
+    name: "San Juan County District Court"
+    address: 350 Court Street, Friday Harbor, WA 98250
+    lat: 48.5357860
+    lng: -123.0186435
+    url: https://www.courts.wa.gov/court_dir/orgs/287.html
+    kind: courthouse
+
+  - id: wa-skagit-courthouse
+    state: WA
+    county: Skagit
+    name: "Skagit County District Court"
+    address: 600 S 3rd St, Mount Vernon, WA 98273
+    lat: 48.4182687
+    lng: -122.3357504
+    url: https://www.courts.wa.gov/court_dir/orgs/288.html
+    kind: courthouse
+
+  - id: wa-spokane-courthouse
+    state: WA
+    county: Spokane
+    name: "Spokane County District Court"
+    address: 1100 W Mallon Ave, Spokane, WA 99260
+    lat: 47.6648170
+    lng: -117.4289158
+    url: https://www.courts.wa.gov/court_dir/orgs/291.html
+    kind: courthouse
+
+  - id: wa-thurston-courthouse
+    state: WA
+    county: Thurston
+    name: "Thurston County District Court"
+    address: 555 Israel Rd SW, Tumwater, WA 98501
+    lat: 46.9847300
+    lng: -122.9117872
+    url: https://www.courts.wa.gov/court_dir/orgs/293.html
+    kind: courthouse
+
+  - id: wa-wahkiakum-courthouse
+    state: WA
+    county: Wahkiakum
+    name: "Wahkiakum County District Court"
+    address: 64 Main St, Cathlamet, WA 98612
+    lat: 46.2027495
+    lng: -123.3850191
+    url: https://www.courts.wa.gov/court_dir/orgs/294.html
+    kind: courthouse
+
+  - id: wa-walla-walla-courthouse
+    state: WA
+    county: Walla Walla
+    name: "Walla Walla County District Court"
+    address: 317 W Rose St, Walla Walla, WA 99362
+    lat: 46.0657977
+    lng: -118.3442069
+    url: https://www.courts.wa.gov/court_dir/orgs/295.html
+    kind: courthouse
+
+  - id: wa-whitman-courthouse
+    state: WA
+    county: Whitman
+    name: "Whitman County District Court"
+    address: 325 SE Paradise St, Pullman, WA 99163
+    lat: 46.7288013
+    lng: -117.1796331
+    url: https://www.courts.wa.gov/court_dir/orgs/297.html
+    kind: courthouse

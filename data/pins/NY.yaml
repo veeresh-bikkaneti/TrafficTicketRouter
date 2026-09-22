@@ -1,0 +1,657 @@
+# New York map pins — county courthouses and NYC TVB offices (MapLibre).
+# Non-NYC addresses taken from the official NY Courts court pages 2026-09-21; TVB
+# office addresses from the official NYC 311 TVB article. Coordinates cross-checked
+# against a second source (Census/OSM/Nominatim). URLs reused verbatim from
+# data/states/NY.yaml — never invented. Do not commit without review.
+# NOTE: outside NYC, actual traffic venue is the issuing city/town/village court,
+# not necessarily the county courthouse pinned here.
+pins:
+  - id: ny-albany-courthouse
+    state: NY
+    county: Albany
+    name: Albany County Supreme Court
+    address: 16 Eagle Street, Room 102, Albany, NY 12207
+    lat: 42.6517563
+    lng: -73.7545035
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=albany&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-allegany-courthouse
+    state: NY
+    county: Allegany
+    name: Allegany County Supreme Court (M-B)
+    address: 7 Court Street, Belmont, NY 14813
+    lat: 42.2244412
+    lng: -78.0342171
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Allegany&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-broome-courthouse
+    state: NY
+    county: Broome
+    name: Broome County Court
+    address: 65 Hawley Street, Binghamton, NY 13901
+    lat: 42.0971965
+    lng: -75.9104577
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=broome&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-cattaraugus-courthouse
+    state: NY
+    county: Cattaraugus
+    name: Cattaraugus County Supreme Court (M-B)
+    address: 303 Court Street, Little Valley, NY 14755
+    lat: 42.2516063
+    lng: -78.8006916
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Cattaraugus&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-cayuga-courthouse
+    state: NY
+    county: Cayuga
+    name: Cayuga County Court (M-B)
+    address: 152 Genesee Street, Auburn, NY 13021
+    lat: 42.9300835
+    lng: -76.5693826
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=cayuga&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-chautauqua-courthouse
+    state: NY
+    county: Chautauqua
+    name: Chautauqua County Supreme Court
+    address: 3 North Erie Street, Mayville, NY 14757
+    lat: 42.2543206
+    lng: -79.5050858
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Chautauqua&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-chemung-courthouse
+    state: NY
+    county: Chemung
+    name: Chemung County Court (M-B)
+    address: 203-205 Lake Street, Elmira, NY 14901
+    lat: 42.0900718
+    lng: -76.8018986
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=chemung&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-chenango-courthouse
+    state: NY
+    county: Chenango
+    name: Chenango County Supreme Court (M-B)
+    address: 13 Eaton Avenue, Norwich, NY 13815
+    lat: 42.5280062
+    lng: -75.5248293
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Chenango&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-clinton-courthouse
+    state: NY
+    county: Clinton
+    name: Clinton County Supreme & County Court
+    address: 137 Margaret Street, Plattsburgh, NY 12901
+    lat: 44.6994479
+    lng: -73.4531609
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=clinton&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-columbia-courthouse
+    state: NY
+    county: Columbia
+    name: Columbia County Court
+    address: 401 Union Street, Hudson, NY 12534
+    lat: 42.2561428
+    lng: -73.7503965
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=columbia&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-cortland-courthouse
+    state: NY
+    county: Cortland
+    name: Cortland County Supreme Court (M-B)
+    address: 46 Greenbush Street, Cortland, NY 13045
+    lat: 42.5993974
+    lng: -76.1754507
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Cortland&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-delaware-courthouse
+    state: NY
+    county: Delaware
+    name: Delaware County Supreme Court (M-B)
+    address: 3 Court Street, Delhi, NY 13753
+    lat: 42.2791171
+    lng: -74.9187262
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Delaware&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-dutchess-courthouse
+    state: NY
+    county: Dutchess
+    name: Dutchess Supreme and County Court
+    address: 10 Market Street, Poughkeepsie, NY 12601
+    lat: 41.7038560
+    lng: -73.9290659
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Dutchess&topic=351&wrapped=true
+    kind: courthouse
+
+  - id: ny-erie-courthouse
+    state: NY
+    county: Erie
+    name: Erie County Supreme Court
+    address: 25 Delaware Avenue, Buffalo, NY 14202
+    lat: 42.8852064
+    lng: -78.8784579
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Erie&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-essex-courthouse
+    state: NY
+    county: Essex
+    name: Essex County Supreme & County Court
+    address: 7559 Court Street, Elizabethtown, NY 12932
+    lat: 44.2147527
+    lng: -73.5935747
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Essex&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-franklin-courthouse
+    state: NY
+    county: Franklin
+    name: Franklin County Supreme & County Court
+    address: 355 West Main Street, Malone, NY 12953
+    lat: 44.8488573
+    lng: -74.2956014
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Franklin&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-fulton-courthouse
+    state: NY
+    county: Fulton
+    name: Fulton County Supreme & County Court
+    address: 223 West Main Street, Johnstown, NY 12095
+    lat: 43.0063999
+    lng: -74.3745822
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Fulton&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-genesee-courthouse
+    state: NY
+    county: Genesee
+    name: Genesee County Supreme Court (M-B)
+    address: 1 West Main Street, Batavia, NY 14020
+    lat: 42.9980364
+    lng: -78.1873943
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Genesee&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-greene-courthouse
+    state: NY
+    county: Greene
+    name: Greene County Court (M-B)
+    address: 320 Main Street, Catskill, NY 12414
+    lat: 42.2174939
+    lng: -73.8647631
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=greene&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-hamilton-courthouse
+    state: NY
+    county: Hamilton
+    name: Hamilton County Court
+    address: 102 County View Drive, Lake Pleasant, NY 12108
+    lat: 43.4700046
+    lng: -74.4111810
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Hamilton&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-herkimer-courthouse
+    state: NY
+    county: Herkimer
+    name: Herkimer Supreme & County Courts
+    address: 301 N. Washington Street, Suite 5550, Herkimer, NY 13350
+    lat: 43.0290050
+    lng: -74.9873513
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Herkimer&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-jefferson-courthouse
+    state: NY
+    county: Jefferson
+    name: Jefferson Supreme & County Court
+    address: 163 Arsenal Street, 2nd Floor, Watertown, NY 13601
+    lat: 43.9754842
+    lng: -75.9130633
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Jefferson&topic=331&wrapped=true
+    kind: courthouse
+
+  - id: ny-lewis-courthouse
+    state: NY
+    county: Lewis
+    name: Lewis County Supreme Court
+    address: 7660 N. State Street, Lowville, NY 13367
+    lat: 43.7885250
+    lng: -75.4935638
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Lewis&topic=331&wrapped=true
+    kind: courthouse
+
+  - id: ny-livingston-courthouse
+    state: NY
+    county: Livingston
+    name: Livingston County Supreme Court (M-B)
+    address: 2 Court Street, Geneseo, NY 14454
+    lat: 42.8010013
+    lng: -77.8156346
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Livingston&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-madison-courthouse
+    state: NY
+    county: Madison
+    name: Madison County Supreme Court (M-B)
+    address: 138 North Court Street, Wampsville, NY 13163
+    lat: 43.0792714
+    lng: -75.7071863
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Madison&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-monroe-courthouse
+    state: NY
+    county: Monroe
+    name: Monroe County Supreme & County Court
+    address: 99 Exchange Blvd., Rochester, NY 14614
+    lat: 43.1546983
+    lng: -77.6121654
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Monroe&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-montgomery-courthouse
+    state: NY
+    county: Montgomery
+    name: Montgomery County Supreme & County Court
+    address: 58 Broadway, Fonda, NY 12068
+    lat: 42.9568110
+    lng: -74.3782898
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Montgomery&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-nassau-courthouse
+    state: NY
+    county: Nassau
+    name: Nassau County Supreme Court
+    address: 100 Supreme Court Drive, Mineola, NY 11501
+    lat: 40.7367286
+    lng: -73.6318940
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Nassau&topic=8276&wrapped=true&district=8276
+    kind: courthouse
+
+  - id: ny-niagara-courthouse
+    state: NY
+    county: Niagara
+    name: Niagara County Supreme Court
+    address: 775 Third Street, Niagara Falls, NY 14301
+    lat: 43.0957968
+    lng: -79.0595880
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Niagara&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-oneida-courthouse
+    state: NY
+    county: Oneida
+    name: Oneida Supreme & County Court
+    address: 200 Elizabeth Street, Utica, NY 13501
+    lat: 43.1006645
+    lng: -75.2296595
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Oneida&topic=331&wrapped=true
+    kind: courthouse
+
+  - id: ny-onondaga-courthouse
+    state: NY
+    county: Onondaga
+    name: Onondaga Supreme & County Courts
+    address: 505 South State St., Syracuse, NY 13202
+    lat: 43.0471101
+    lng: -76.1474052
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Onondaga&topic=331&wrapped=true
+    kind: courthouse
+
+  - id: ny-ontario-courthouse
+    state: NY
+    county: Ontario
+    name: Ontario Supreme & County Court
+    address: 27 North Main Street, Canandaigua, NY 14424
+    lat: 42.8873375
+    lng: -77.2809009
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Ontario&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-orange-courthouse
+    state: NY
+    county: Orange
+    name: Orange Supreme & County Court
+    address: 285 Main Street, Goshen, NY 10924
+    lat: 41.4065686
+    lng: -74.3169821
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Orange&topic=351&wrapped=true
+    kind: courthouse
+
+  - id: ny-orleans-courthouse
+    state: NY
+    county: Orleans
+    name: Orleans County Supreme Court (M-B)
+    address: 1 South Main Street, Albion, NY 14411
+    lat: 43.2461761
+    lng: -78.1936734
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Orleans&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-oswego-courthouse
+    state: NY
+    county: Oswego
+    name: Oswego Supreme & County Court
+    address: 25 East Oneida Street, Oswego, NY 13126
+    lat: 43.4568865
+    lng: -76.5053736
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Oswego&topic=331&wrapped=true
+    kind: courthouse
+
+  - id: ny-otsego-courthouse
+    state: NY
+    county: Otsego
+    name: Otsego County Supreme Court (M-B)
+    address: 197 Main Street, Cooperstown, NY 13326
+    lat: 42.7013167
+    lng: -74.9295364
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Otsego&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-putnam-courthouse
+    state: NY
+    county: Putnam
+    name: Putnam Supreme and County Court
+    address: 20 County Center, Carmel, NY 10512
+    lat: 41.4271370
+    lng: -73.6772543
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Putnam&topic=351&wrapped=true
+    kind: courthouse
+
+  - id: ny-rensselaer-courthouse
+    state: NY
+    county: Rensselaer
+    name: Rensselaer Supreme and County Court
+    address: 80 Second Street, Troy, NY 12180
+    lat: 42.7288834
+    lng: -73.6920108
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Rensselaer&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-rockland-courthouse
+    state: NY
+    county: Rockland
+    name: Rockland Supreme and County Court
+    address: 1 South Main Street, New City, NY 10956
+    lat: 41.1474040
+    lng: -73.9894726
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Rockland+&topic=351&wrapped=true
+    kind: courthouse
+
+  - id: ny-saratoga-courthouse
+    state: NY
+    county: Saratoga
+    name: Saratoga County Supreme & County Court
+    address: 30 McMaster Street, Ballston Spa, NY 12020
+    lat: 42.9989041
+    lng: -73.8497943
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Saratoga&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-schenectady-courthouse
+    state: NY
+    county: Schenectady
+    name: Schenectady County Supreme & County Court
+    address: 612 State Street, Schenectady, NY 12305
+    lat: 42.8111457
+    lng: -73.9398695
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schenectady&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-schoharie-courthouse
+    state: NY
+    county: Schoharie
+    name: Schoharie County Courts
+    address: 290 Main Street, Schoharie, NY 12157
+    lat: 42.6637328
+    lng: -74.3121385
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schoharie&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-schuyler-courthouse
+    state: NY
+    county: Schuyler
+    name: Schuyler County Supreme Court (M-B)
+    address: 105 Ninth Street, Watkins Glen, NY 14891
+    lat: 42.3772251
+    lng: -76.8714912
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Schuyler&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-seneca-courthouse
+    state: NY
+    county: Seneca
+    name: Seneca County Supreme & County Court
+    address: 48 West Williams Street, Waterloo, NY 13165
+    lat: 42.9054557
+    lng: -76.8668712
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Seneca&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-st-lawrence-courthouse
+    state: NY
+    county: St. Lawrence
+    name: St. Lawrence County Supreme Court
+    address: 48 Court Street, Canton, NY 13617
+    lat: 44.5994990
+    lng: -75.1696840
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=St.+Lawrence&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-steuben-courthouse
+    state: NY
+    county: Steuben
+    name: Steuben County Supreme & County Courts
+    address: 3 East Pulteney Square, Bath, NY 14810
+    lat: 42.3325352
+    lng: -77.3176618
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Steuben&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-suffolk-courthouse
+    state: NY
+    county: Suffolk
+    name: Suffolk County Court
+    address: 210 Center Drive, Riverhead, NY 11901
+    lat: 40.9141528
+    lng: -72.6707785
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Suffolk&topic=8271&wrapped=true&district=8271
+    kind: courthouse
+
+  - id: ny-sullivan-courthouse
+    state: NY
+    county: Sullivan
+    name: Sullivan Supreme and County Court
+    address: 414 Broadway, Monticello, NY 12701
+    lat: 41.6577401
+    lng: -74.6975115
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Sullivan&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-tioga-courthouse
+    state: NY
+    county: Tioga
+    name: Tioga County Supreme & County Courts
+    address: 20 Court St., Owego, NY 13827
+    lat: 42.1023433
+    lng: -76.2617203
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Tioga&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-tompkins-courthouse
+    state: NY
+    county: Tompkins
+    name: Tompkins County Supreme Court (M-B)
+    address: 320 N Tioga Street, Ithaca, NY 14850
+    lat: 42.4416651
+    lng: -76.4969938
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Tompkins&topic=336&wrapped=true
+    kind: courthouse
+
+  - id: ny-ulster-courthouse
+    state: NY
+    county: Ulster
+    name: Ulster County Supreme & County Courts
+    address: 285 Wall Street, Kingston, NY 12401
+    lat: 41.9331448
+    lng: -74.0195954
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Ulster&topic=6&wrapped=true
+    kind: courthouse
+
+  - id: ny-warren-courthouse
+    state: NY
+    county: Warren
+    name: Warren County Supreme & County Court
+    address: 1340 State Route 9, Lake George, NY 12845
+    lat: 43.3585740
+    lng: -73.7004907
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Warren&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-washington-courthouse
+    state: NY
+    county: Washington
+    name: Washington County Supreme & County Court
+    address: 383 Broadway, Fort Edward, NY 12828
+    lat: 43.2837084
+    lng: -73.5866003
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Washington&topic=326&wrapped=true
+    kind: courthouse
+
+  - id: ny-wayne-courthouse
+    state: NY
+    county: Wayne
+    name: Wayne County Supreme & County Courts
+    address: 54 Broad Street, Lyons, NY 14489
+    lat: 43.0649068
+    lng: -76.9933903
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Wayne&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-westchester-courthouse
+    state: NY
+    county: Westchester
+    name: Supreme & County Court of Westchester County
+    address: 111 Dr.Martin Luther King Jr Blvd, White Plains, NY 10601
+    lat: 41.0306185
+    lng: -73.7694341
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Westchester&topic=351&wrapped=true
+    kind: courthouse
+
+  - id: ny-wyoming-courthouse
+    state: NY
+    county: Wyoming
+    name: Wyoming County Supreme Court (M-B)
+    address: 147 North Main Street, Warsaw, NY 14569
+    lat: 42.7435845
+    lng: -78.1326571
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Wyoming&topic=346&wrapped=true
+    kind: courthouse
+
+  - id: ny-yates-courthouse
+    state: NY
+    county: Yates
+    name: Yates County Court (M-B)
+    address: 415 Liberty Street, Penn Yan, NY 14527
+    lat: 42.6630532
+    lng: -77.0575975
+    url: https://www.nycourts.gov/court-locator?topic_field_case_types=All&field_court_type=All&field_zipcodes_served=&topic_field_counties_topic_title_fulltext=Yates&topic=8256&wrapped=true
+    kind: courthouse
+
+  - id: ny-tvb-brooklyn-north
+    state: NY
+    county: Kings
+    name: TVB Brooklyn North
+    address: 625 Atlantic Avenue, Brooklyn, NY 11217
+    lat: 40.6833933
+    lng: -73.9751086
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-brooklyn-south
+    state: NY
+    county: Kings
+    name: TVB Brooklyn South
+    address: 2875 West 8th Street, Brooklyn, NY 11224
+    lat: 40.5779788
+    lng: -73.9762923
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-manhattan-north
+    state: NY
+    county: New York
+    name: TVB Manhattan North
+    address: 5 West 125th Street, New York, NY 10027
+    lat: 40.8065421
+    lng: -73.9424194
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-manhattan-south
+    state: NY
+    county: New York
+    name: TVB Manhattan South
+    address: 17 Battery Place, New York, NY 10004
+    lat: 40.7049062
+    lng: -74.0163135
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-queens-south
+    state: NY
+    county: Queens
+    name: TVB Queens South
+    address: 168-35 Rockaway Boulevard, Jamaica, NY 11434
+    lat: 40.6587626
+    lng: -73.7720794
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-staten-island
+    state: NY
+    county: Richmond
+    name: TVB Staten Island
+    address: 1775 South Avenue, Staten Island, NY 10314
+    lat: 40.6018553
+    lng: -74.1920561
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-bronx
+    state: NY
+    county: Bronx
+    name: TVB Bronx
+    address: 610 Exterior Street, Bronx, NY 10451
+    lat: 40.8217248
+    lng: -73.9299802
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse
+
+  - id: ny-tvb-queens-north
+    state: NY
+    county: Queens
+    name: TVB Queens North
+    address: 30-56 Whitestone Expressway, Flushing, NY 11354
+    lat: 40.7700514
+    lng: -73.8370069
+    url: https://dmv.ny.gov/tickets/find-tvb-office-locations
+    kind: courthouse

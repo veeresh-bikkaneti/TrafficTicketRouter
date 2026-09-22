@@ -1,0 +1,1070 @@
+# North Dakota — District Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: ND
+state_name: North Dakota
+last_verified: "2026-09-21"
+official_hosts:
+  - ndcourts.gov
+counties:
+  - name: Adams
+    note: "Traffic venue is the District Court."
+  - name: Barnes
+    note: "Traffic venue is the District Court."
+  - name: Benson
+    note: "Traffic venue is the District Court."
+  - name: Billings
+    note: "Traffic venue is the District Court."
+  - name: Bottineau
+    note: "Traffic venue is the District Court."
+  - name: Bowman
+    note: "Traffic venue is the District Court."
+  - name: Burke
+    note: "Traffic venue is the District Court."
+  - name: Burleigh
+    note: "Traffic venue is the District Court."
+  - name: Cass
+    note: "Traffic venue is the District Court."
+  - name: Cavalier
+    note: "Traffic venue is the District Court."
+  - name: Dickey
+    note: "Traffic venue is the District Court."
+  - name: Divide
+    note: "Traffic venue is the District Court."
+  - name: Dunn
+    note: "Traffic venue is the District Court."
+  - name: Eddy
+    note: "Traffic venue is the District Court."
+  - name: Emmons
+    note: "Traffic venue is the District Court."
+  - name: Foster
+    note: "Traffic venue is the District Court."
+  - name: Golden Valley
+    note: "Traffic venue is the District Court."
+  - name: Grand Forks
+    note: "Traffic venue is the District Court."
+  - name: Grant
+    note: "Traffic venue is the District Court."
+  - name: Griggs
+    note: "Traffic venue is the District Court."
+  - name: Hettinger
+    note: "Traffic venue is the District Court."
+  - name: Kidder
+    note: "Traffic venue is the District Court."
+  - name: LaMoure
+    note: "Traffic venue is the District Court."
+  - name: Logan
+    note: "Traffic venue is the District Court."
+  - name: McHenry
+    note: "Traffic venue is the District Court."
+  - name: McIntosh
+    note: "Traffic venue is the District Court."
+  - name: McKenzie
+    note: "Traffic venue is the District Court."
+  - name: McLean
+    note: "Traffic venue is the District Court."
+  - name: Mercer
+    note: "Traffic venue is the District Court."
+  - name: Morton
+    note: "Traffic venue is the District Court."
+  - name: Mountrail
+    note: "Traffic venue is the District Court."
+  - name: Nelson
+    note: "Traffic venue is the District Court."
+  - name: Oliver
+    note: "Traffic venue is the District Court."
+  - name: Pembina
+    note: "Traffic venue is the District Court."
+  - name: Pierce
+    note: "Traffic venue is the District Court."
+  - name: Ramsey
+    note: "Traffic venue is the District Court."
+  - name: Ransom
+    note: "Traffic venue is the District Court."
+  - name: Renville
+    note: "Traffic venue is the District Court."
+  - name: Richland
+    note: "Traffic venue is the District Court."
+  - name: Rolette
+    note: "Traffic venue is the District Court."
+  - name: Sargent
+    note: "Traffic venue is the District Court."
+  - name: Sheridan
+    note: "Traffic venue is the District Court."
+  - name: Sioux
+    note: "Traffic venue is the District Court."
+  - name: Slope
+    note: "Traffic venue is the District Court."
+  - name: Stark
+    note: "Traffic venue is the District Court."
+  - name: Steele
+    note: "Traffic venue is the District Court."
+  - name: Stutsman
+    note: "Traffic venue is the District Court."
+  - name: Towner
+    note: "Traffic venue is the District Court."
+  - name: Traill
+    note: "Traffic venue is the District Court."
+  - name: Walsh
+    note: "Traffic venue is the District Court."
+  - name: Ward
+    note: "Traffic venue is the District Court."
+  - name: Wells
+    note: "Traffic venue is the District Court."
+  - name: Williams
+    note: "Traffic venue is the District Court."
+cards:
+  - id: nd-adams-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/adams-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: nd-barnes-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/barnes-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Barnes County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barnes
+    weight: 10
+
+  - id: nd-benson-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/benson-county"
+    verification_note: "GET returns 200; the site's firewall blocks HEAD requests, so link checkers should use GET."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benson County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benson
+    weight: 10
+
+  - id: nd-billings-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/billings-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Billings County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Billings
+    weight: 10
+
+  - id: nd-bottineau-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/bottineau-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bottineau County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bottineau
+    weight: 10
+
+  - id: nd-bowman-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/bowman-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bowman County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bowman
+    weight: 10
+
+  - id: nd-burke-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/burke-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Burke County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Burke
+    weight: 10
+
+  - id: nd-burleigh-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/burleigh-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Burleigh County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Burleigh
+    weight: 10
+
+  - id: nd-cass-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/cass-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cass County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 10
+
+  - id: nd-cavalier-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/cavalier-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cavalier County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cavalier
+    weight: 10
+
+  - id: nd-dickey-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/dickey-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dickey County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickey
+    weight: 10
+
+  - id: nd-divide-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/divide-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Divide County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Divide
+    weight: 10
+
+  - id: nd-dunn-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/dunn-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dunn County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dunn
+    weight: 10
+
+  - id: nd-eddy-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/eddy-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Eddy County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Eddy
+    weight: 10
+
+  - id: nd-emmons-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/emmons-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Emmons County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Emmons
+    weight: 10
+
+  - id: nd-foster-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/foster-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Foster County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Foster
+    weight: 10
+
+  - id: nd-golden-valley-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/golden-valley-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Golden Valley County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Golden Valley
+    weight: 10
+
+  - id: nd-grand-forks-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/grand-forks-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grand Forks County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grand Forks
+    weight: 10
+
+  - id: nd-grant-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/grant-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: nd-griggs-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/griggs-county"
+    verification_note: "GET returns 200; the site's firewall blocks HEAD requests, so link checkers should use GET."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Griggs County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Griggs
+    weight: 10
+
+  - id: nd-hettinger-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/hettinger-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hettinger County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hettinger
+    weight: 10
+
+  - id: nd-kidder-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/kidder-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kidder County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kidder
+    weight: 10
+
+  - id: nd-lamoure-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/lamoure-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "LaMoure County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - LaMoure
+    weight: 10
+
+  - id: nd-logan-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/logan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: nd-mchenry-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mchenry-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McHenry County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McHenry
+    weight: 10
+
+  - id: nd-mcintosh-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mcintosh-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McIntosh County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McIntosh
+    weight: 10
+
+  - id: nd-mckenzie-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mckenzie-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McKenzie County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McKenzie
+    weight: 10
+
+  - id: nd-mclean-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mclean-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McLean County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McLean
+    weight: 10
+
+  - id: nd-mercer-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mercer-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mercer County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: nd-morton-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/morton-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morton County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morton
+    weight: 10
+
+  - id: nd-mountrail-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/mountrail-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mountrail County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mountrail
+    weight: 10
+
+  - id: nd-nelson-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/nelson-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nelson County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nelson
+    weight: 10
+
+  - id: nd-oliver-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/oliver-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oliver County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oliver
+    weight: 10
+
+  - id: nd-pembina-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/pembina-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pembina County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pembina
+    weight: 10
+
+  - id: nd-pierce-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/pierce-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pierce County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pierce
+    weight: 10
+
+  - id: nd-ramsey-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/ramsey-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ramsey County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ramsey
+    weight: 10
+
+  - id: nd-ransom-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/ransom-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ransom County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ransom
+    weight: 10
+
+  - id: nd-renville-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/renville-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Renville County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Renville
+    weight: 10
+
+  - id: nd-richland-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/richland-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Richland County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 10
+
+  - id: nd-rolette-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/rolette-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rolette County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rolette
+    weight: 10
+
+  - id: nd-sargent-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/sargent-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sargent County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sargent
+    weight: 10
+
+  - id: nd-sheridan-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/sheridan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sheridan County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sheridan
+    weight: 10
+
+  - id: nd-sioux-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/sioux-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sioux County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sioux
+    weight: 10
+
+  - id: nd-slope-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/slope-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Slope County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Slope
+    weight: 10
+
+  - id: nd-stark-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/stark-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stark County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stark
+    weight: 10
+
+  - id: nd-steele-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/steele-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Steele County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Steele
+    weight: 10
+
+  - id: nd-stutsman-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/stutsman-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stutsman County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stutsman
+    weight: 10
+
+  - id: nd-towner-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/towner-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Towner County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Towner
+    weight: 10
+
+  - id: nd-traill-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/traill-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Traill County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Traill
+    weight: 10
+
+  - id: nd-walsh-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/walsh-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Walsh County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walsh
+    weight: 10
+
+  - id: nd-ward-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/ward-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ward County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ward
+    weight: 10
+
+  - id: nd-wells-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/wells-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wells County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wells
+    weight: 10
+
+  - id: nd-williams-court
+    verification: link_ok
+    source_url: "https://www.ndcourts.gov/court-locations/williams-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Williams County District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on ndcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williams
+    weight: 10

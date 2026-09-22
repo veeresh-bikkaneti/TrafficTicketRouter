@@ -1,0 +1,463 @@
+# South Carolina courthouse pins.
+state: SC
+pins:
+  - id: sc-abbeville-courthouse
+    state: SC
+    county: Abbeville
+    name: "Abbeville County Courthouse"
+    address: "21 Old Calhoun Falls Road, Abbeville, SC 29620"
+    lat: 34.166741
+    lng: -82.410775
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-aiken-courthouse
+    state: SC
+    county: Aiken
+    name: "Aiken County Courthouse"
+    address: "129 Langley Dam Road, Warrenville, SC 29851"
+    lat: 33.523915
+    lng: -81.847446
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-allendale-courthouse
+    state: SC
+    county: Allendale
+    name: "Allendale County Courthouse"
+    address: "398 Barnwell Highway, Allendale, SC 29810"
+    lat: 33.012228
+    lng: -81.305575
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-anderson-courthouse
+    state: SC
+    county: Anderson
+    name: "Anderson County Courthouse"
+    address: "2404 North Main Street, Anderson, SC 29621"
+    lat: 34.528059
+    lng: -82.659671
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-bamberg-courthouse
+    state: SC
+    county: Bamberg
+    name: "Bamberg County Courthouse"
+    address: "1234 North Street, Bamberg, SC 29003"
+    lat: 33.297836
+    lng: -81.033215
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-barnwell-courthouse
+    state: SC
+    county: Barnwell
+    name: "Barnwell County Courthouse"
+    address: "5997 N. Lartigue Street, Blackville, SC 29817"
+    lat: 33.359426
+    lng: -81.269404
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-beaufort-courthouse
+    state: SC
+    county: Beaufort
+    name: "Beaufort County Courthouse"
+    address: "104 Ribaut Road, Beaufort, SC 29902"
+    lat: 32.439731
+    lng: -80.685592
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-berkeley-courthouse
+    state: SC
+    county: Berkeley
+    name: "Berkeley County Courthouse"
+    address: "223 North Live Oak Drive, Moncks Corner, SC 29461"
+    lat: 33.198417
+    lng: -80.006799
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-calhoun-courthouse
+    state: SC
+    county: Calhoun
+    name: "Calhoun County Courthouse"
+    address: "2833 Old Belleville Road, St. Matthews, SC 29135"
+    lat: 33.673607
+    lng: -80.783183
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-charleston-courthouse
+    state: SC
+    county: Charleston
+    name: "Charleston County Courthouse"
+    address: "101 Meeting Street (3rd Floor), Charleston, SC 29401"
+    lat: 32.777157
+    lng: -79.931696
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-cherokee-courthouse
+    state: SC
+    county: Cherokee
+    name: "Cherokee County Courthouse"
+    address: "301 West Cherokee Street, Blacksburg, SC 29702"
+    lat: 35.119779
+    lng: -81.518657
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-chester-courthouse
+    state: SC
+    county: Chester
+    name: "Chester County Courthouse"
+    address: "2740 Dawson Drive, Chester, SC 29706"
+    lat: 34.707886
+    lng: -81.233791
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-chesterfield-courthouse
+    state: SC
+    county: Chesterfield
+    name: "Chesterfield County Courthouse"
+    address: "200 West Main Street, Chesterfield, SC 29709"
+    lat: 34.736609
+    lng: -80.089053
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-clarendon-courthouse
+    state: SC
+    county: Clarendon
+    name: "Clarendon County Courthouse"
+    address: "2681 Greeleyville Highway, Manning, SC 29101"
+    lat: 33.692555
+    lng: -80.201953
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-colleton-courthouse
+    state: SC
+    county: Colleton
+    name: "Colleton County Courthouse"
+    address: "40 Klein Street, Walterboro, SC 29488"
+    lat: 32.903179
+    lng: -80.668696
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-darlington-courthouse
+    state: SC
+    county: Darlington
+    name: "Darlington County Courthouse"
+    address: "115 Camp Road, Darlington, SC 29532"
+    lat: 34.298688
+    lng: -79.92504
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-dillon-courthouse
+    state: SC
+    county: Dillon
+    name: "Dillon County Courthouse"
+    address: "318 Lee Circle, Dillon, SC 29536"
+    lat: 34.430484
+    lng: -79.355534
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-dorchester-courthouse
+    state: SC
+    county: Dorchester
+    name: "Dorchester County Courthouse"
+    address: "212 Deming Way, Summerville, SC 29483"
+    lat: 33.042596
+    lng: -80.210909
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-edgefield-courthouse
+    state: SC
+    county: Edgefield
+    name: "Edgefield County Courthouse"
+    address: "264 Star Road, Edgefield, SC 29824"
+    lat: 33.76998
+    lng: -81.907094
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-fairfield-courthouse
+    state: SC
+    county: Fairfield
+    name: "Fairfield County Courthouse"
+    address: "115 B South Congress Street, Winnsboro, SC 29180"
+    lat: 34.374848
+    lng: -81.084604
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-florence-courthouse
+    state: SC
+    county: Florence
+    name: "Florence County Courthouse"
+    address: "120 Courthouse Square, Florence, SC 29501"
+    lat: 34.198858
+    lng: -79.766644
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-georgetown-courthouse
+    state: SC
+    county: Georgetown
+    name: "Georgetown County Courthouse"
+    address: "333 Cleland Street, Georgetown, SC 29440"
+    lat: 33.372982
+    lng: -79.285468
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-greenville-courthouse
+    state: SC
+    county: Greenville
+    name: "Greenville County Courthouse"
+    address: "445 E. Curtis Street, Simpsonville, SC 29681"
+    lat: 34.739402
+    lng: -82.249389
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-greenwood-courthouse
+    state: SC
+    county: Greenwood
+    name: "Greenwood County Courthouse"
+    address: "528 Monument Street (Room 100), Greenwood, SC 29646"
+    lat: 34.189018
+    lng: -82.162126
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-hampton-courthouse
+    state: SC
+    county: Hampton
+    name: "Hampton County Courthouse"
+    address: "411 Cemetary Road, Varnville, SC 29944"
+    lat: 32.862149
+    lng: -81.089171
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-horry-courthouse
+    state: SC
+    county: Horry
+    name: "Horry County Courthouse"
+    address: "1201 Third Avenue, Conway, SC 29526"
+    lat: 33.834032
+    lng: -79.048371
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-jasper-courthouse
+    state: SC
+    county: Jasper
+    name: "Jasper County Courthouse"
+    address: "967 West Adams Street., Ridgeland, SC 29936"
+    lat: 32.480442
+    lng: -80.983399
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-kershaw-courthouse
+    state: SC
+    county: Kershaw
+    name: "Kershaw County Courthouse"
+    address: "1121 Broad Street, Camden, SC 29020"
+    lat: 34.246819
+    lng: -80.607226
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-lancaster-courthouse
+    state: SC
+    county: Lancaster
+    name: "Lancaster County Courthouse"
+    address: "761 Highway 521 Lancaster Bypass East, Lancaster, SC 29720"
+    lat: 34.704848
+    lng: -80.759082
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-laurens-courthouse
+    state: SC
+    county: Laurens
+    name: "Laurens County Courthouse"
+    address: "100 Hillcrest Square, Laurens, SC 29360"
+    lat: 34.507234
+    lng: -82.019842
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-lee-courthouse
+    state: SC
+    county: Lee
+    name: "Lee County Courthouse"
+    address: "115 Gregg Street, Bishopville, SC 29010"
+    lat: 34.216342
+    lng: -80.24839
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-lexington-courthouse
+    state: SC
+    county: Lexington
+    name: "Lexington County Courthouse"
+    address: "428 Oak Drive, Lexington, SC 29073"
+    lat: 33.983327
+    lng: -81.155469
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-marion-courthouse
+    state: SC
+    county: Marion
+    name: "Marion County Courthouse"
+    address: "2715 East US Highway 76, Mullins, SC 29574"
+    lat: 34.199341
+    lng: -79.238841
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-marlboro-courthouse
+    state: SC
+    county: Marlboro
+    name: "Marlboro County Courthouse"
+    address: "249 Throop Street, Bennettsville, SC 29512"
+    lat: 34.608028
+    lng: -79.66981
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-mccormick-courthouse
+    state: SC
+    county: McCormick
+    name: "McCormick County Courthouse"
+    address: "211 Augusta Street, Extension McCormick, SC 29835"
+    lat: 33.904123
+    lng: -82.300603
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-newberry-courthouse
+    state: SC
+    county: Newberry
+    name: "Newberry County Courthouse"
+    address: "833 Main Street, Newberry, SC 29108"
+    lat: 34.272732
+    lng: -81.623656
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-oconee-courthouse
+    state: SC
+    county: Oconee
+    name: "Oconee County Courthouse"
+    address: "1606 East Main Street, Westminster, SC 29693"
+    lat: 34.660198
+    lng: -83.080423
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-orangeburg-courthouse
+    state: SC
+    county: Orangeburg
+    name: "Orangeburg County Courthouse"
+    address: "1540 Ellis Avenue, Orangeburg, SC 29116"
+    lat: 33.512062
+    lng: -80.853732
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-pickens-courthouse
+    state: SC
+    county: Pickens
+    name: "Pickens County Courthouse"
+    address: "310 West Main Street, Liberty, SC 29657"
+    lat: 34.787116
+    lng: -82.698452
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-richland-courthouse
+    state: SC
+    county: Richland
+    name: "Richland County Courthouse"
+    address: "3875 Lucius Road (Off of River Drive), Columbia, SC 29201"
+    lat: 34.022102
+    lng: -81.059061
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-saluda-courthouse
+    state: SC
+    county: Saluda
+    name: "Saluda County Courthouse"
+    address: "108 South Rudolph Street, Saluda, SC 29138"
+    lat: 34.00067
+    lng: -81.770779
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-spartanburg-courthouse
+    state: SC
+    county: Spartanburg
+    name: "Spartanburg County Courthouse"
+    address: "180 Magnolia Street, Spartanburg, SC 29306"
+    lat: 34.950567
+    lng: -81.933865
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-sumter-courthouse
+    state: SC
+    county: Sumter
+    name: "Sumter County Courthouse"
+    address: "190 East Canal Street, Sumter, SC 29150"
+    lat: 33.922768
+    lng: -80.339477
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-union-courthouse
+    state: SC
+    county: Union
+    name: "Union County Courthouse"
+    address: "210 West Main Street, Union, SC 29379"
+    lat: 34.715143
+    lng: -81.625542
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-williamsburg-courthouse
+    state: SC
+    county: Williamsburg
+    name: "Williamsburg County Courthouse"
+    address: "209 Short Street, Kingstree, SC 29556"
+    lat: 33.661992
+    lng: -79.831558
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+
+  - id: sc-york-courthouse
+    state: SC
+    county: York
+    name: "York County Courthouse"
+    address: "1675 York Highway, York, SC 29730"
+    lat: 34.984544
+    lng: -81.20015
+    url: https://www.sccourts.org/courts/trial-courts/magistrate-court/
+    kind: courthouse
+

@@ -1,0 +1,1552 @@
+# Pennsylvania.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# County cards point at the official pacourts.us county pages; traffic matters in
+# Pennsylvania are heard in magisterial district courts, not the courts of common pleas.
+# TicketRouter routes to official pages only; it does not search or store tickets.
+state: PA
+state_name: Pennsylvania
+last_verified: "2026-09-21"
+official_hosts:
+  - pacourts.us
+  - ujsportal.pacourts.us
+  - pa.gov
+counties:
+  - name: Adams
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Allegheny
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Armstrong
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Beaver
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Bedford
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Berks
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Blair
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Bradford
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Bucks
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Butler
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Cambria
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Cameron
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Carbon
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Centre
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Chester
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Clarion
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Clearfield
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Clinton
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Columbia
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Crawford
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Cumberland
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Dauphin
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Delaware
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Elk
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Erie
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Fayette
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Forest
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Franklin
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Fulton
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Greene
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Huntingdon
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Indiana
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Jefferson
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Juniata
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lackawanna
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lancaster
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lawrence
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lebanon
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lehigh
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Luzerne
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Lycoming
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: McKean
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Mercer
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Mifflin
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Monroe
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Montgomery
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Montour
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Northampton
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Northumberland
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Perry
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Philadelphia
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Pike
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Potter
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Schuylkill
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Snyder
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Somerset
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Sullivan
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Susquehanna
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Tioga
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Union
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Venango
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Warren
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Washington
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Wayne
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Westmoreland
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: Wyoming
+    note: "Traffic matters are heard in magisterial district courts."
+  - name: York
+    note: "Traffic matters are heard in magisterial district courts."
+cards:
+  - id: pa-adams-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/adams-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County Court of Common Pleas"
+    contact: "Adams County Courthouse, 117 Baltimore Street, Gettysburg, PA 17325."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: pa-allegheny-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/allegheny-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allegheny County Court of Common Pleas"
+    contact: "529 Allegheny County Courthouse, 436 Grant Street, Pittsburgh, PA 15219."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allegheny
+    weight: 10
+
+  - id: pa-armstrong-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/armstrong-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Armstrong County Court of Common Pleas"
+    contact: ", 500 Market Street, Kittanning, PA 16201."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Armstrong
+    weight: 10
+
+  - id: pa-beaver-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/beaver-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaver County Court of Common Pleas"
+    contact: "Beaver County Courthouse, 810 Third Street, Beaver, PA 15009."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaver
+    weight: 10
+
+  - id: pa-bedford-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bedford-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bedford County Court of Common Pleas"
+    contact: "Bedford County Courthouse, 200 South Juliana Street, Bedford, PA 15522."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bedford
+    weight: 10
+
+  - id: pa-berks-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/berks-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Berks County Court of Common Pleas"
+    contact: "Berks County Courthouse, 633 Court Street, Reading, PA 19601."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Berks
+    weight: 10
+
+  - id: pa-blair-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/blair-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blair County Court of Common Pleas"
+    contact: "Blair County Courthouse, 423 Allegheny Street, Hollidaysburg, PA 16648."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blair
+    weight: 10
+
+  - id: pa-bradford-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bradford-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bradford County Court of Common Pleas"
+    contact: "Bradford County Courthouse, 301 Main Street, Towanda, PA 18848."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bradford
+    weight: 10
+
+  - id: pa-bucks-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bucks-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bucks County Court of Common Pleas"
+    contact: "Bucks County Justice Center, 100 North Main Street, Doylestown, PA 18901."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bucks
+    weight: 10
+
+  - id: pa-butler-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/butler-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Butler County Court of Common Pleas"
+    contact: "Butler County Government Center, 124 West Diamond Street, Butler, PA 16001."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 10
+
+  - id: pa-cambria-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cambria-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cambria County Court of Common Pleas"
+    contact: "Cambria County Courthouse, 200 South Center Street, Ebensburg, PA 15931."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cambria
+    weight: 10
+
+  - id: pa-cameron-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cameron-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cameron County Court of Common Pleas"
+    contact: "Cameron County Courthouse, 20 E. 5th Street, Emporium, PA 15834."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cameron
+    weight: 10
+
+  - id: pa-carbon-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/carbon-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carbon County Court of Common Pleas"
+    contact: "Carbon County Courthouse, 4 Broadway, Jim Thorpe, PA 18229."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carbon
+    weight: 10
+
+  - id: pa-centre-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/centre-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Centre County Court of Common Pleas"
+    contact: "Centre County Courthouse, Room 103, 102 South Allegheny Street, Bellefonte, PA 16823."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Centre
+    weight: 10
+
+  - id: pa-chester-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/chester-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chester County Court of Common Pleas"
+    contact: "Chester County Justice Center, 201 West Market Street, West Chester, PA 19380."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chester
+    weight: 10
+
+  - id: pa-clarion-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clarion-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clarion County Court of Common Pleas"
+    contact: "Clarion County Courthouse, 421 Main Street, Clarion, PA 16214."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clarion
+    weight: 10
+
+  - id: pa-clearfield-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clearfield-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clearfield County Court of Common Pleas"
+    contact: "Clearfield County Courthouse, 230 East Market Street, Clearfield, PA 16830."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clearfield
+    weight: 10
+
+  - id: pa-clinton-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clinton-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clinton County Court of Common Pleas"
+    contact: "Clinton County Courthouse, 230 East Water Street, Lock Haven, PA 17745."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: pa-columbia-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/columbia-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County Court of Common Pleas"
+    contact: "Columbia County Courthouse, 35 West Main Street, Bloomsburg, PA 17815."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: pa-crawford-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/crawford-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crawford County Court of Common Pleas"
+    contact: "Crawford County Judicial Center, 359 East Center Street, Meadville, PA 16335."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: pa-cumberland-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cumberland-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cumberland County Court of Common Pleas"
+    contact: "Cumberland County Courthouse, 1 Courthouse Square, Carlisle, PA 17013."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: pa-dauphin-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/dauphin-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dauphin County Court of Common Pleas"
+    contact: "Dauphin County Courthouse, 101 Market Street, Harrisburg, PA 17101."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dauphin
+    weight: 10
+
+  - id: pa-delaware-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/delaware-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Delaware County Court of Common Pleas"
+    contact: "Delaware County Courthouse, 201 West Front Street, Media, PA 19063."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delaware
+    weight: 10
+
+  - id: pa-elk-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/elk-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Elk County Court of Common Pleas"
+    contact: "Elk County Courthouse, 250 Main Street, Ridgway, PA 15853."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elk
+    weight: 10
+
+  - id: pa-erie-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/erie-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Erie County Court of Common Pleas"
+    contact: "Erie County Courthouse, 140 West Sixth Street, Erie, PA 16501."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Erie
+    weight: 10
+
+  - id: pa-fayette-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/fayette-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fayette County Court of Common Pleas"
+    contact: "Fayette County Courthouse, 61 East Main Street, Uniontown, PA 15401."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: pa-forest-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/forest-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Forest County Court of Common Pleas"
+    contact: "Warren County Courthouse, 204 Fourth Avenue, Warren, PA 16365."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Forest
+    weight: 10
+
+  - id: pa-franklin-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/franklin-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County Court of Common Pleas"
+    contact: "Franklin County Courthouse, 157 Lincoln Way East, Chambersburg, PA 17201."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: pa-fulton-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/fulton-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fulton County Court of Common Pleas"
+    contact: "Fulton County Courthouse, 201 N. Second Street, McConnellsburg, PA 17233."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 10
+
+  - id: pa-greene-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/greene-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greene County Court of Common Pleas"
+    contact: "Greene County Courthouse, 10 East High Street, Waynesburg, PA 15370."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: pa-huntingdon-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/huntingdon-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Huntingdon County Court of Common Pleas"
+    contact: "Huntingdon County Courthouse, 223 Penn Street, Huntingdon, PA 16652."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Huntingdon
+    weight: 10
+
+  - id: pa-indiana-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/indiana-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Indiana County Court of Common Pleas"
+    contact: "Indiana County Courthouse, 825 Philadelphia Street, Indiana, PA 15701."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Indiana
+    weight: 10
+
+  - id: pa-jefferson-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/jefferson-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Court of Common Pleas"
+    contact: "Jefferson County Courthouse, 200 Main Street, Brookville, PA 15825."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: pa-juniata-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/juniata-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Juniata County Court of Common Pleas"
+    contact: "Juniata County Courthouse, 26 N. Main Street, Mifflintown, PA 17059."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Juniata
+    weight: 10
+
+  - id: pa-lackawanna-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lackawanna-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lackawanna County Court of Common Pleas"
+    contact: "Lackawanna County Courthouse, 200 North Washington Avenue, Scranton, PA 18503."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lackawanna
+    weight: 10
+
+  - id: pa-lancaster-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lancaster-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lancaster County Court of Common Pleas"
+    contact: "Lancaster County Courthouse, 50 North Duke Street, Lancaster, PA 17608."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lancaster
+    weight: 10
+
+  - id: pa-lawrence-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lawrence-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lawrence County Court of Common Pleas"
+    contact: "Lawrence County Government Center, 430 Court Street, New Castle, PA 16101."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: pa-lebanon-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lebanon-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lebanon County Court of Common Pleas"
+    contact: ", 400 South Eighth Street, Lebanon, PA 17042."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lebanon
+    weight: 10
+
+  - id: pa-lehigh-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lehigh-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lehigh County Court of Common Pleas"
+    contact: "Lehigh County Courthouse, 455 Hamilton Street, Allentown, PA 18101."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lehigh
+    weight: 10
+
+  - id: pa-luzerne-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/luzerne-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Luzerne County Court of Common Pleas"
+    contact: ", 113 West North Street, Wilkes-Barre, PA 18711."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Luzerne
+    weight: 10
+
+  - id: pa-lycoming-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lycoming-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lycoming County Court of Common Pleas"
+    contact: "Lycoming County Courthouse, 48 West Third Street, Williamsport, PA 17701."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lycoming
+    weight: 10
+
+  - id: pa-mckean-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mckean-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McKean County Court of Common Pleas"
+    contact: "McKean County Courthouse, 500 West Main Street, Smethport, PA 16749."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McKean
+    weight: 10
+
+  - id: pa-mercer-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mercer-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mercer County Court of Common Pleas"
+    contact: "Mercer County Courthouse, 125 S. Diamond Street, Mercer, PA 16137."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: pa-mifflin-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mifflin-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mifflin County Court of Common Pleas"
+    contact: "Mifflin County Courthouse, 20 North Wayne Street, Lewistown, PA 17044."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mifflin
+    weight: 10
+
+  - id: pa-monroe-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/monroe-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County Court of Common Pleas"
+    contact: "Monroe County Courthouse, 610 Monroe Street, Stroudsburg, PA 18360."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: pa-montgomery-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/montgomery-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County Court of Common Pleas"
+    contact: "Montgomery County Courthouse, 2 E. Airy St., Norristown, PA 19401."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: pa-montour-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/montour-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montour County Court of Common Pleas"
+    contact: "Montour County Courthouse, 253 Mill St., Danville, PA 17821."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montour
+    weight: 10
+
+  - id: pa-northampton-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/northampton-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Northampton County Court of Common Pleas"
+    contact: "Northampton County Courthouse, 669 Washington Street, Easton, PA 18042."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Northampton
+    weight: 10
+
+  - id: pa-northumberland-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/northumberland-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Northumberland County Court of Common Pleas"
+    contact: "Northumberland County Courthouse, 201 Market Street, Sunbury, PA 17801."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Northumberland
+    weight: 10
+
+  - id: pa-perry-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/perry-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perry County Court of Common Pleas"
+    contact: "Perry County Courthouse, 2 E. Main Street, New Bloomfield, PA 17068."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: pa-philadelphia-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts"
+    last_verified: "2026-09-21"
+    verification_note: "Verified 2026-09-21; https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-county redirects to this page, HTTP 200."
+    kind: county_court
+    agency: "Philadelphia County Court of Common Pleas"
+    contact: ", 640 City Hall, Philadelphia, PA 19107."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Philadelphia
+    weight: 10
+
+  - id: pa-pike-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/pike-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pike County Court of Common Pleas"
+    contact: ", 412 Broad Street, Milford, PA 18337."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 10
+
+  - id: pa-potter-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/potter-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Potter County Court of Common Pleas"
+    contact: "Potter County Courthouse, 1 E. Second Street, Coudersport, PA 16915."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Potter
+    weight: 10
+
+  - id: pa-schuylkill-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/schuylkill-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Schuylkill County Court of Common Pleas"
+    contact: "Schuylkill County Courthouse, 401 North Second Street, Pottsville, PA 17901."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schuylkill
+    weight: 10
+
+  - id: pa-snyder-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/snyder-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Snyder County Court of Common Pleas"
+    contact: "Union County Courthouse, 103 South Second Street, Lewisburg, PA 17837."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Snyder
+    weight: 10
+
+  - id: pa-somerset-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/somerset-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Somerset County Court of Common Pleas"
+    contact: "Somerset County Courthouse, 111 East Union Street, Somerset, PA 15501."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Somerset
+    weight: 10
+
+  - id: pa-sullivan-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/sullivan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sullivan County Court of Common Pleas"
+    contact: "Sullivan County Courthouse, 245 Muncy Street, Laporte, PA 18626."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sullivan
+    weight: 10
+
+  - id: pa-susquehanna-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/susquehanna-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Susquehanna County Court of Common Pleas"
+    contact: ", 31 Lake Avenue, Montrose, PA 18801."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Susquehanna
+    weight: 10
+
+  - id: pa-tioga-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/tioga-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tioga County Court of Common Pleas"
+    contact: "Tioga County Courthouse, 118 Main Street, Wellsboro, PA 16901."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tioga
+    weight: 10
+
+  - id: pa-union-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/union-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County Court of Common Pleas"
+    contact: "Union County Courthouse, 103 South Second Street, Lewisburg, PA 17837."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: pa-venango-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/venango-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Venango County Court of Common Pleas"
+    contact: "Venango County Courthouse, 1168 Liberty Street, Franklin, PA 16323."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Venango
+    weight: 10
+
+  - id: pa-warren-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/warren-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County Court of Common Pleas"
+    contact: "Warren County Courthouse, 204 Fourth Avenue, Warren, PA 16365."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: pa-washington-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/washington-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Court of Common Pleas"
+    contact: "Washington County Courthouse, 1 South Main Street, Washington, PA 15301."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: pa-wayne-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/wayne-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County Court of Common Pleas"
+    contact: "Wayne County Courthouse, 925 Court Street, Honesdale, PA 18431."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: pa-westmoreland-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/westmoreland-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Westmoreland County Court of Common Pleas"
+    contact: "Westmoreland County Courthouse, 2 North Main Street, Greensburg, PA 15601."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Westmoreland
+    weight: 10
+
+  - id: pa-wyoming-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/wyoming-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wyoming County Court of Common Pleas"
+    contact: "Wyoming County Courthouse, 1 Court House Square, Tunkhannock, PA 18657."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wyoming
+    weight: 10
+
+  - id: pa-york-county-card
+    verification: link_ok
+    source_url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/york-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "York County Court of Common Pleas"
+    contact: "York County Judicial Center, 45 North George Street, York, PA 17401."
+    accepted_keys: "See the official county page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations in Pennsylvania are filed and heard in magisterial district courts, not the court of common pleas."
+      - "The citation itself names the magisterial district court and the response deadline."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - York
+    weight: 10
+
+  - id: pa-case-search
+    verification: link_ok
+    source_url: "https://ujsportal.pacourts.us/CaseSearch"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: "PA Unified Judicial System — Case Search"
+    accepted_keys: "On the official portal, search by case number, participant name, or citation number."
+    cost: "No cost to search public case information — as of 2026-09-21 on ujsportal.pacourts.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Covers magisterial district court dockets, where traffic citations are filed, plus other PA courts."
+      - "TicketRouter does not run the search for you; you enter the details on the official portal."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 30
+
+  - id: pa-epay-traffic
+    verification: link_ok
+    source_url: "https://ujsportal.pacourts.us/PAePayFCR"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "PA Unified Judicial System — pay traffic ticket or court costs"
+    accepted_keys: "On the official portal, enter the citation number from the ticket."
+    cost: "Amount due shown on the official portal; a processing fee may apply."
+    cost_free: false
+    lag: null
+    limitations:
+      - "For eligible traffic citations and court costs in the magisterial district court system."
+      - "Paying a citation online is generally a guilty plea; check the citation and court rules first."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 30
+
+  - id: pa-driving-record
+    verification: link_ok
+    source_url: "https://www.pa.gov/agencies/dmv"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "PennDOT Driver and Vehicle Services — driving record"
+    accepted_keys: "On the official PennDOT site: your driver license number and personal details."
+    cost: "PennDOT shows the current fee on its official driving record request page."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Request your 3-year or 10-year driving record on PennDOT's website or by mail with form DL-503."
+      - "Shows violations and convictions history — not a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

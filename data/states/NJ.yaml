@@ -1,0 +1,539 @@
+# New Jersey.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# County cards point at the official NJ Courts vicinage pages; traffic and parking
+# matters in New Jersey are heard in municipal courts, not the Superior Court.
+# TicketRouter routes to official pages only; it does not search or store tickets.
+state: NJ
+state_name: New Jersey
+last_verified: "2026-09-21"
+official_hosts:
+  - njcourts.gov
+  - nj.gov
+  - njmcdirect.com
+counties:
+  - name: Atlantic
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Bergen
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Burlington
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Camden
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Cape May
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Cumberland
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Essex
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Gloucester
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Hudson
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Hunterdon
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Mercer
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Middlesex
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Monmouth
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Morris
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Ocean
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Passaic
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Salem
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Somerset
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Sussex
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Union
+    note: "Traffic and parking matters are heard in municipal courts."
+  - name: Warren
+    note: "Traffic and parking matters are heard in municipal courts."
+cards:
+  - id: nj-atlantic-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.njcourts.gov/courts/vicinages/atlantic-cape-may"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Atlantic County — Atlantic/Cape May Vicinage, NJ Superior Court"
+    contact: "Atlantic County Criminal Courts Complex, 4997 Unami Blvd., Mays Landing, NJ 08330."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Atlantic
+    weight: 10
+
+  - id: nj-bergen-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/bergen"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bergen County — Bergen Vicinage, NJ Superior Court"
+    contact: "Bergen County Justice Center, 10 Main Street, Hackensack, NJ 07601."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bergen
+    weight: 10
+
+  - id: nj-burlington-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/burlington"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Burlington County — Burlington Vicinage, NJ Superior Court"
+    contact: "Burlington County Court Facility, 49 Rancocas Road, Mount Holly, NJ 08060."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Burlington
+    weight: 10
+
+  - id: nj-camden-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/camden"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Camden County — Camden Vicinage, NJ Superior Court"
+    contact: "Camden County Hall of Justice, 101 South 5th Street, Camden, NJ 08103."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Camden
+    weight: 10
+
+  - id: nj-cape-may-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/atlantic-cape-may"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cape May County — Atlantic/Cape May Vicinage, NJ Superior Court"
+    contact: "Cape May County Courthouse, 9 North Main Street, Cape May Court House, NJ 08210."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cape May
+    weight: 10
+
+  - id: nj-cumberland-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cumberland County — Cumberland/Gloucester/Salem Vicinage, NJ Superior Court"
+    contact: "Cumberland County Courthouse, 60 West Broad Street, Bridgeton, NJ 08302."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: nj-essex-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/essex"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Essex County — Essex Vicinage, NJ Superior Court"
+    contact: "Essex County Dr. Martin Luther King, Jr. Justice Building, 495 Dr. Martin Luther King, Jr. Blvd., Newark, NJ 07102."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Essex
+    weight: 10
+
+  - id: nj-gloucester-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gloucester County — Cumberland/Gloucester/Salem Vicinage, NJ Superior Court"
+    contact: "Gloucester County Justice Complex, 70 Hunter Street, Woodbury, NJ 08096."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gloucester
+    weight: 10
+
+  - id: nj-hudson-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/hudson"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hudson County — Hudson Vicinage, NJ Superior Court"
+    contact: "William J. Brennan Jr. Courthouse, 583 Newark Avenue, Jersey City, NJ 07306."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hudson
+    weight: 10
+
+  - id: nj-hunterdon-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hunterdon County — Somerset/Hunterdon/Warren Vicinage, NJ Superior Court"
+    contact: "Hunterdon County Justice Center, 65 Park Avenue, Flemington, NJ 08822."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hunterdon
+    weight: 10
+
+  - id: nj-mercer-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/mercer"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mercer County — Mercer Vicinage, NJ Superior Court"
+    contact: "Mercer County Criminal Courthouse, 400 South Warren Street, Trenton, NJ 08650."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: nj-middlesex-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/middlesex"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Middlesex County — Middlesex Vicinage, NJ Superior Court"
+    contact: "Middlesex County Courthouse, 56 Paterson Street, New Brunswick, NJ 08903."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Middlesex
+    weight: 10
+
+  - id: nj-monmouth-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/monmouth"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monmouth County — Monmouth Vicinage, NJ Superior Court"
+    contact: "Monmouth County Courthouse, 71 Monument Street, Freehold, NJ 07728."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monmouth
+    weight: 10
+
+  - id: nj-morris-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/morris-sussex"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morris County — Morris/Sussex Vicinage, NJ Superior Court"
+    contact: "Morris County Courthouse, Washington and Court Streets, Morristown, NJ 07960."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morris
+    weight: 10
+
+  - id: nj-ocean-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/ocean"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ocean County — Ocean Vicinage, NJ Superior Court"
+    contact: "Ocean County Courthouse, 100 Hooper Avenue, Toms River, NJ 08754."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ocean
+    weight: 10
+
+  - id: nj-passaic-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/passaic"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Passaic County — Passaic Vicinage, NJ Superior Court"
+    contact: "New Courthouse, 77 Hamilton Street, Paterson, NJ 07505."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Passaic
+    weight: 10
+
+  - id: nj-salem-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Salem County — Cumberland/Gloucester/Salem Vicinage, NJ Superior Court"
+    contact: "Salem County Courthouse, 92 Market Street, Salem, NJ 08079."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Salem
+    weight: 10
+
+  - id: nj-somerset-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Somerset County — Somerset/Hunterdon/Warren Vicinage, NJ Superior Court"
+    contact: "Somerset County Courthouse, 20 North Bridge Street, Somerville, NJ 08876."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Somerset
+    weight: 10
+
+  - id: nj-sussex-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/morris-sussex"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sussex County — Morris/Sussex Vicinage, NJ Superior Court"
+    contact: "Sussex County Judicial Center, 43-47 High Street, Newton, NJ 07860."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sussex
+    weight: 10
+
+  - id: nj-union-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/union"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County — Union Vicinage, NJ Superior Court"
+    contact: "Union County Courthouse, 2 Broad Street, Elizabeth, NJ 07207."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: nj-warren-county-card
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County — Somerset/Hunterdon/Warren Vicinage, NJ Superior Court"
+    contact: "Warren County Courthouse, 413 Second Street, Belvidere, NJ 07823."
+    accepted_keys: "See the official vicinage page for court locations, hours, and contacts."
+    cost: "No cost to look up — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and parking matters in New Jersey are heard in municipal courts, not the Superior Court."
+      - "For a specific ticket, contact the municipal court named on the ticket or use NJMCDirect."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: nj-mcdirect
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.njmcdirect.com"
+    last_verified: "2026-09-21"
+    verification_note: "Verified 2026-09-21; redirects to the NJ Courts-hosted portal (portalnjmcdirect-cloud.njcourts.gov), HTTP 200. The NJ Courts Find a Case page names NJMCDirect as the official place to find your own traffic ticket or municipal complaint. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: pay_portal
+    agency: "NJMCDirect — New Jersey municipal courts online"
+    accepted_keys: "On the official site, enter your ticket number or complaint number to find your own case."
+    cost: "Fine plus a card processing fee, shown on the official site before you pay."
+    cost_free: false
+    lag: null
+    limitations:
+      - "For matters in New Jersey municipal courts, including traffic tickets."
+      - "You need the ticket or complaint number; TicketRouter does not look it up for you."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 30
+
+  - id: nj-driving-record
+    verification: link_ok
+    source_url: "https://nj.gov/mvc/about/faq.htm"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "NJ Motor Vehicle Commission — driver history abstract"
+    accepted_keys: "On the official MVC site: your MVC user ID, driver license number, and last four of SSN."
+    cost: "$15 per record request; online card payments add a convenience fee — as of 2026-09-21 on nj.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Request online, by mail with form DO-21, or in person at an MVC agency."
+      - "Shows violations, points, and suspensions history — not a pending-ticket portal."
+      - "Self-check only: request your own abstract, not someone else's."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: nj-find-case
+    verification: link_ok
+    source_url: "https://www.njcourts.gov/public/find-a-case"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "NJ Courts — Find a Case"
+    accepted_keys: "Follow the official guide; municipal court tickets go through NJMCDirect."
+    cost: "No cost to read — as of 2026-09-21 on njcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "The official page directs traffic-ticket questions to the municipal court where the ticket was issued."
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40

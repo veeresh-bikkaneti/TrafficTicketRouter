@@ -1,0 +1,505 @@
+# Wisconsin courthouse pins.
+# Addresses from official court/county sites; coordinates via Nominatim/OSM.
+# URLs match data/states/WI.yaml exactly.
+pins:
+  - id: wi-adams-courthouse
+    state: WI
+    county: Adams
+    name: Adams County Clerk of Circuit Court
+    address: "401 Adams St, Friendship, WI 53934"
+    lat: 43.971179
+    lng: -89.815102
+    url: "https://www.co.adams.wi.us/departments/clerk-of-circuit-court"
+    kind: courthouse
+  - id: wi-barron-courthouse
+    state: WI
+    county: Barron
+    name: Barron County Clerk of Circuit Court
+    address: "1420 State Hwy 25 N, Barron, WI 54812"
+    lat: 45.4099517
+    lng: -91.8508154
+    url: "https://www.barroncountywi.gov/index.asp?Type=B_BASIC&SEC=%7B472F1AB3-BF6D-4A92-8F36-532AD7D51C8E%7D"
+    kind: courthouse
+  - id: wi-bayfield-courthouse
+    state: WI
+    county: Bayfield
+    name: Bayfield County Clerk of Circuit Court
+    address: "117 E 5th St, Washburn, WI 54891"
+    lat: 46.6768792
+    lng: -90.8933947
+    url: "https://www.bayfieldcounty.wi.gov/133/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-brown-courthouse
+    state: WI
+    county: Brown
+    name: Brown County Clerk of Circuit Court
+    address: "100 S Jefferson St, Green Bay, WI 54305"
+    lat: 44.5128651
+    lng: -88.0142328
+    url: "https://www.browncountywi.gov/departments/clerk-of-circuit-court/general-information/"
+    kind: courthouse
+  - id: wi-calumet-courthouse
+    state: WI
+    county: Calumet
+    name: Calumet County Clerk of Circuit Court
+    address: "206 Court St, Chilton, WI 53014"
+    lat: 44.0305025
+    lng: -88.1692435
+    url: "https://www.co.calumet.wi.us/129/Clerk-of-Circuit-Court"
+    kind: courthouse
+  - id: wi-chippewa-courthouse
+    state: WI
+    county: Chippewa
+    name: Chippewa County Clerk of Circuit Court
+    address: "711 N Bridge St, Chippewa Falls, WI 54729"
+    lat: 44.9399937
+    lng: -91.3965968
+    url: "https://www.chippewacountywi.gov/187/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-clark-courthouse
+    state: WI
+    county: Clark
+    name: Clark County Clerk of Circuit Court
+    address: "517 Court St, Neillsville, WI 54456"
+    lat: 44.560289
+    lng: -90.5943294
+    url: "https://www.clarkcountywi.gov/clerk-of-courts"
+    kind: courthouse
+  - id: wi-columbia-courthouse
+    state: WI
+    county: Columbia
+    name: Columbia County Clerk of Circuit Court
+    address: "400 DeWitt St, Portage, WI 53901"
+    lat: 43.5410012
+    lng: -89.460925
+    url: "https://www.co.columbia.wi.us/columbiacounty/clerkofcourts/"
+    kind: courthouse
+  - id: wi-crawford-courthouse
+    state: WI
+    county: Crawford
+    name: Crawford County Clerk of Circuit Court
+    address: "220 N Beaumont Rd, Prairie du Chien, WI 53821"
+    lat: 43.0548411
+    lng: -91.1464482
+    url: "https://www.crawfordcountywi.gov/departments/clerkofcourt"
+    kind: courthouse
+  - id: wi-dane-courthouse
+    state: WI
+    county: Dane
+    name: Dane County Clerk of Circuit Court
+    address: "215 S Hamilton St, Madison, WI 53703"
+    lat: 43.0710966
+    lng: -89.3838864
+    url: "https://courts.danecounty.gov/"
+    kind: courthouse
+  - id: wi-dodge-courthouse
+    state: WI
+    county: Dodge
+    name: Dodge County Clerk of Circuit Court
+    address: "210 W Center St, Juneau, WI 53039"
+    lat: 43.408068
+    lng: -88.7065265
+    url: "https://www.co.dodge.wi.gov/404-page-not-found"
+    kind: courthouse
+  - id: wi-door-courthouse
+    state: WI
+    county: Door
+    name: Door County Clerk of Circuit Court
+    address: "1209 S Duluth Ave, Sturgeon Bay, WI 54235"
+    lat: 44.8431631
+    lng: -87.3981829
+    url: "https://www.co.door.wi.gov/181/Clerk-of-Circuit-Court"
+    kind: courthouse
+  - id: wi-douglas-courthouse
+    state: WI
+    county: Douglas
+    name: Douglas County Clerk of Circuit Court
+    address: "1313 Belknap St, Superior, WI 54880"
+    lat: 46.7210287
+    lng: -92.0970982
+    url: "https://www.douglascountywi.gov/170/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-dunn-courthouse
+    state: WI
+    county: Dunn
+    name: Dunn County Clerk of Circuit Court
+    address: "615 Stokke Pkwy, Menomonie, WI 54751"
+    lat: 44.8880794
+    lng: -91.8814122
+    url: "https://dunncountywi.gov/clerkofcourts"
+    kind: courthouse
+  - id: wi-eau-claire-courthouse
+    state: WI
+    county: Eau Claire
+    name: Eau Claire County Clerk of Circuit Court
+    address: "721 Oxford Ave, Eau Claire, WI 54703"
+    lat: 44.8074453
+    lng: -91.504278
+    url: "https://www.eauclairecounty.gov/departments/clerk_of_courts/"
+    kind: courthouse
+  - id: wi-florence-courthouse
+    state: WI
+    county: Florence
+    name: Florence County Clerk of Circuit Court
+    address: "501 Lake Ave, WI 54121"
+    lat: 45.9208716
+    lng: -88.2492283
+    url: "https://www.florencecountywi.com/departments/clerk-of-courts/"
+    kind: courthouse
+  - id: wi-forest-courthouse
+    state: WI
+    county: Forest
+    name: Forest County Clerk of Circuit Court
+    address: "200 E Madison St, Crandon, WI 54520"
+    lat: 45.5694516
+    lng: -88.8972731
+    url: "https://co.forest.wi.gov/clerk-of-circ-cor-depart"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: wi-green-courthouse
+    state: WI
+    county: Green
+    name: Green County Clerk of Circuit Court
+    address: "2841 6th St, Monroe, WI 53566"
+    lat: 42.6074122
+    lng: -89.6228571
+    url: "https://www.greencountywi.org/160/Clerk-of-Circuit-Court"
+    kind: courthouse
+  - id: wi-green-lake-courthouse
+    state: WI
+    county: Green Lake
+    name: Green Lake County Clerk of Circuit Court
+    address: "571 County Road A, Green Lake, WI 54941"
+    lat: 43.831732
+    lng: -88.9288292
+    url: "https://www.greenlakecountywi.gov/departments/clerk-of-courts/"
+    kind: courthouse
+  - id: wi-iowa-courthouse
+    state: WI
+    county: Iowa
+    name: Iowa County Clerk of Circuit Court
+    address: "222 N Iowa St, Dodgeville, WI 53533"
+    lat: 42.9613936
+    lng: -90.130487
+    url: "https://www.iowacountywi.gov/departments/ClerkofCourts"
+    kind: courthouse
+  - id: wi-iron-courthouse
+    state: WI
+    county: Iron
+    name: Iron County Clerk of Circuit Court
+    address: "300 Taconite St, Hurley, WI 54534"
+    lat: 46.4443504
+    lng: -90.1843117
+    url: "https://www.co.iron.wi.gov/250/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-jackson-courthouse
+    state: WI
+    county: Jackson
+    name: Jackson County Clerk of Circuit Court
+    address: "307 Main St, Black River Falls, WI 54615"
+    lat: 44.2950193
+    lng: -90.8522483
+    url: "https://www.co.jackson.wi.us/?SEC=92715347-A9EE-4EEE-8D7D-98FCBDE68F90"
+    kind: courthouse
+  - id: wi-jefferson-courthouse
+    state: WI
+    county: Jefferson
+    name: Jefferson County Clerk of Circuit Court
+    address: "311 S Center Ave, Jefferson, WI 53549"
+    lat: 43.0032228
+    lng: -88.8060767
+    url: "https://www.jeffersoncountywi.gov/courts___legal_services/clerk_of_courts/index.php"
+    kind: courthouse
+  - id: wi-juneau-courthouse
+    state: WI
+    county: Juneau
+    name: Juneau County Clerk of Circuit Court
+    address: "200 Oak Street, Mauston, WI 53948"
+    lat: 43.796041
+    lng: -90.076087
+    url: "https://www.co.juneau.wi.gov/departments/clerk_of_court/index.php"
+    kind: courthouse
+  - id: wi-kewaunee-courthouse
+    state: WI
+    county: Kewaunee
+    name: Kewaunee County Clerk of Circuit Court
+    address: "613 Dodge St, Kewaunee, WI 54216"
+    lat: 44.4568037
+    lng: -87.5051393
+    url: "https://www.kewauneeco.org/departments/clerk-of-circuit-court/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: wi-la-crosse-courthouse
+    state: WI
+    county: La Crosse
+    name: La Crosse County Clerk of Circuit Court
+    address: "333 Vine St, La Crosse, WI 54601"
+    lat: 43.8149049
+    lng: -91.2502878
+    url: "https://www.lacrossecounty.org/Court/"
+    kind: courthouse
+  - id: wi-lafayette-courthouse
+    state: WI
+    county: Lafayette
+    name: Lafayette County Clerk of Circuit Court
+    address: "626 Main St, Darlington, WI 53530"
+    lat: 42.6822522
+    lng: -90.1178359
+    url: "https://www.lafayettecountywi.org/coc"
+    kind: courthouse
+  - id: wi-langlade-courthouse
+    state: WI
+    county: Langlade
+    name: Langlade County Clerk of Circuit Court
+    address: "800 Clermont St, Antigo, WI 54409"
+    lat: 45.143454
+    lng: -89.154285
+    url: "https://www.co.langlade.wi.us/departments/clerk-of-circuit-court/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: wi-lincoln-courthouse
+    state: WI
+    county: Lincoln
+    name: Lincoln County Clerk of Circuit Court
+    address: "1110 E Main St, Merrill, WI 54452"
+    lat: 45.1807259
+    lng: -89.6841347
+    url: "https://www.co.lincoln.wi.us/clerk-courts"
+    kind: courthouse
+  - id: wi-manitowoc-courthouse
+    state: WI
+    county: Manitowoc
+    name: Manitowoc County Clerk of Circuit Court
+    address: "1010 S 8th St, Manitowoc, WI 54221"
+    lat: 44.0884262
+    lng: -87.6583756
+    url: "https://manitowoccountywi.gov/departments/clerk-of-circuit-court/"
+    kind: courthouse
+  - id: wi-marinette-courthouse
+    state: WI
+    county: Marinette
+    name: Marinette County Clerk of Circuit Court
+    address: "1926 Hall Ave, Marinette, WI 54143"
+    lat: 45.1001748
+    lng: -87.633161
+    url: "https://www.marinettecountywi.gov/departments/clerk-of-circuit-court/general-information/"
+    kind: courthouse
+  - id: wi-marquette-courthouse
+    state: WI
+    county: Marquette
+    name: Marquette County Clerk of Circuit Court
+    address: "77 W Park St, Montello, WI 53949"
+    lat: 43.7931935
+    lng: -89.3292069
+    url: "https://www.marquettecountywi.gov/"
+    kind: courthouse
+  - id: wi-menominee-courthouse
+    state: WI
+    county: Menominee
+    name: Menominee County Clerk of Circuit Court
+    address: "3269 Courthouse Ln, Keshena, WI 54135"
+    lat: 44.8864807
+    lng: -88.6529927
+    url: "https://www.co.menominee.wi.us/departments/?department=fc7a717f2fdd"
+    kind: courthouse
+  - id: wi-oconto-courthouse
+    state: WI
+    county: Oconto
+    name: Oconto County Clerk of Circuit Court
+    address: "301 Washington St, Oconto, WI 54153"
+    lat: 44.8902011
+    lng: -87.8659479
+    url: "https://www.ocontocountywi.gov/195/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-oneida-courthouse
+    state: WI
+    county: Oneida
+    name: Oneida County Clerk of Circuit Court
+    address: "1 S Oneida Ave, Rhinelander, WI 54501"
+    lat: 45.637692
+    lng: -89.408393
+    url: "https://www.oneidacountywi.gov/departments/cc/"
+    kind: courthouse
+  - id: wi-ozaukee-courthouse
+    state: WI
+    county: Ozaukee
+    name: Ozaukee County Clerk of Circuit Court
+    address: "1201 S Spring St, Port Washington, WI 53074"
+    lat: 43.3733845
+    lng: -87.8980449
+    url: "https://www.ozaukeecounty.gov/181/Clerk-of-Circuit-Court"
+    kind: courthouse
+  - id: wi-pepin-courthouse
+    state: WI
+    county: Pepin
+    name: Pepin County Clerk of Circuit Court
+    address: "740 7th Ave W Durand, WI 54736"
+    lat: 44.6224505
+    lng: -91.9672252
+    url: "https://www.co.pepin.wi.us/?SEC=39EEF88F-473E-4669-A441-A719BA173A53"
+    kind: courthouse
+  - id: wi-pierce-courthouse
+    state: WI
+    county: Pierce
+    name: Pierce County Clerk of Circuit Court
+    address: "414 W Main St, Ellsworth, WI 54011"
+    lat: 44.7320956
+    lng: -92.503416
+    url: "https://www.co.pierce.wi.us/departments/circuit_court/index.php"
+    kind: courthouse
+  - id: wi-polk-courthouse
+    state: WI
+    county: Polk
+    name: Polk County Clerk of Circuit Court
+    address: "1005 W Main St, Balsam Lake, WI 54810"
+    lat: 45.4526321
+    lng: -92.4715445
+    url: "https://www.polkcountywi.gov/government/elected_officials/clerk_of_courts/index.php"
+    kind: courthouse
+  - id: wi-price-courthouse
+    state: WI
+    county: Price
+    name: Price County Clerk of Circuit Court
+    address: "126 Cherry St, Phillips, WI 54555"
+    lat: 45.6904833
+    lng: -90.3985424
+    url: "https://co.price.wi.us/193/Clerk-of-Circuit-Court"
+    kind: courthouse
+  - id: wi-richland-courthouse
+    state: WI
+    county: Richland
+    name: Richland County Clerk of Circuit Court
+    address: "181 W Seminary St, Richland Center, WI 53581"
+    lat: 43.3342784
+    lng: -90.3860588
+    url: "https://richlandcountywi.gov/index.asp?SEC=7FDB0F2B-F1DE-41B6-BC8D-B9F26E52FD6B"
+    kind: courthouse
+  - id: wi-rusk-courthouse
+    state: WI
+    county: Rusk
+    name: Rusk County Clerk of Circuit Court
+    address: "311 Miner Ave E, Ladysmith, WI 54848"
+    lat: 45.464737
+    lng: -91.09776
+    url: "https://ruskcounty.org/court"
+    kind: courthouse
+  - id: wi-sauk-courthouse
+    state: WI
+    county: Sauk
+    name: Sauk County Clerk of Circuit Court
+    address: "515 Oak St, Baraboo, WI 53913"
+    lat: 43.4701584
+    lng: -89.7426105
+    url: "https://www.co.sauk.wi.us/clerkofcourts"
+    kind: courthouse
+  - id: wi-sawyer-courthouse
+    state: WI
+    county: Sawyer
+    name: Sawyer County Clerk of Circuit Court
+    address: "10610 Main, Hayward, WI 54843"
+    lat: 46.0165748
+    lng: -91.4864463
+    url: "https://www.sawyercounty.gov/164/Circuit-Court"
+    kind: courthouse
+  - id: wi-shawano-courthouse
+    state: WI
+    county: Shawano
+    name: Shawano County Clerk of Circuit Court
+    address: "311 N Main St, Shawano, WI 54166"
+    lat: 44.7842695
+    lng: -88.6095539
+    url: "https://www.co.shawano.wi.us/departments/clerk-of-circuit-court/general-information/"
+    kind: courthouse
+  - id: wi-st-croix-courthouse
+    state: WI
+    county: St. Croix
+    name: St. Croix County Clerk of Circuit Court
+    address: "1101 Carmichael Rd, Hudson, WI 54016"
+    lat: 44.9814386
+    lng: -92.7230278
+    url: "https://www.sccwi.gov/292/Clerk-of-Courts"
+    kind: courthouse
+  - id: wi-taylor-courthouse
+    state: WI
+    county: Taylor
+    name: Taylor County Clerk of Circuit Court
+    address: "224 S Second St, Medford, WI 54451"
+    lat: 45.1369805
+    lng: -90.3417517
+    url: "https://co.taylor.wi.us/departments/clerk-of-courts/"
+    kind: courthouse
+  - id: wi-trempealeau-courthouse
+    state: WI
+    county: Trempealeau
+    name: Trempealeau County Clerk of Circuit Court
+    address: "18600 Hobson St, Whitehall, WI 54773"
+    lat: 44.3664008
+    lng: -91.3189062
+    url: "https://co.trempealeau.wi.us/departments/administrative_departments/clerk_of_court/index.php"
+    kind: courthouse
+  - id: wi-vilas-courthouse
+    state: WI
+    county: Vilas
+    name: Vilas County Clerk of Circuit Court
+    address: "330 Court St, Eagle River, WI 54521"
+    lat: 45.9197611
+    lng: -89.2496372
+    url: "https://www.vilascountywi.gov/departments/court___legal/clerk_of_circuit_court/index.php"
+    kind: courthouse
+  - id: wi-washburn-courthouse
+    state: WI
+    county: Washburn
+    name: Washburn County Clerk of Circuit Court
+    address: "10 Fourth Ave, Shell Lake, WI 54871"
+    lat: 45.7418873
+    lng: -91.9250117
+    url: "https://co.washburn.wi.us/departments/clerk-of-circuit-court/"
+    kind: courthouse
+  - id: wi-washington-courthouse
+    state: WI
+    county: Washington
+    name: Washington County Clerk of Circuit Court
+    address: "432 E Washington St, West Bend, WI 53095"
+    lat: 43.4268386
+    lng: -88.1727261
+    url: "https://www.washcowisco.gov/departments/clerk_of_circuit_court"
+    kind: courthouse
+  - id: wi-waukesha-courthouse
+    state: WI
+    county: Waukesha
+    name: Waukesha County Clerk of Circuit Court
+    address: "515 W Moreland Blvd, Waukesha, WI 53188"
+    lat: 43.0230576
+    lng: -88.2290587
+    url: "https://www.waukeshacounty.gov/circuit-courts/clerk-of-circuit-court/"
+    kind: courthouse
+  - id: wi-waupaca-courthouse
+    state: WI
+    county: Waupaca
+    name: Waupaca County Clerk of Circuit Court
+    address: "811 Harding St, Waupaca, WI 54981"
+    lat: 44.3503407
+    lng: -89.0670737
+    url: "https://www.waupacacounty-wi.gov/departments/government_departments/clerk_of_courts/clerk_of_circuit_courts.php"
+    kind: courthouse
+  - id: wi-waushara-courthouse
+    state: WI
+    county: Waushara
+    name: Waushara County Clerk of Circuit Court
+    address: "209 S Saint Marie St, Wautoma, WI 54982"
+    lat: 44.0739515
+    lng: -89.2904671
+    url: "https://www.co.waushara.wi.us/12715"
+    kind: courthouse
+  - id: wi-wood-courthouse
+    state: WI
+    county: Wood
+    name: Wood County Clerk of Circuit Court
+    address: "400 Market St, Wisconsin Rapids, WI 54495"
+    lat: 44.3925368
+    lng: -89.8210375
+    url: "https://www.woodcountywi.gov/Departments/Courts/"
+    kind: courthouse

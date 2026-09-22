@@ -1,0 +1,1109 @@
+# South Carolina.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# County magistrate addresses and phones are from the official statewide magistrate
+# directory (sccourts.org); filter by county on the official page.
+state: SC
+state_name: South Carolina
+last_verified: "2026-09-21"
+official_hosts:
+  - sccourts.org
+  - dmv.sc.gov
+  - scbar.org
+counties:
+  - name: Abbeville
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Aiken
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Allendale
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Anderson
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Bamberg
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Barnwell
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Beaufort
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Berkeley
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Calhoun
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Charleston
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Cherokee
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Chester
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Chesterfield
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Clarendon
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Colleton
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Darlington
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Dillon
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Dorchester
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Edgefield
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Fairfield
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Florence
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Georgetown
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Greenville
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Greenwood
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Hampton
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Horry
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Jasper
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Kershaw
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Lancaster
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Laurens
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Lee
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Lexington
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Marion
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Marlboro
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: McCormick
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Newberry
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Oconee
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Orangeburg
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Pickens
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Richland
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Saluda
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Spartanburg
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Sumter
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Union
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: Williamsburg
+    note: "Traffic venue is magistrate court (summary court)."
+  - name: York
+    note: "Traffic venue is magistrate court (summary court)."
+cards:
+  - id: sc-abbeville-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Abbeville Magistrate -- Law Enforcement Center"
+    contact: "Office: (864) 446-6500. 21 Old Calhoun Falls Road, Abbeville, SC 29620."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Abbeville
+    weight: 10
+
+  - id: sc-aiken-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Aiken Central Traffic Court"
+    contact: "Office: (803) 593-5171. 129 Langley Dam Road, Warrenville, SC 29851."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Aiken
+    weight: 10
+
+  - id: sc-allendale-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allendale Magistrate"
+    contact: "Office: (803) 584-3755. 398 Barnwell Highway, Allendale, SC 29810."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allendale
+    weight: 10
+
+  - id: sc-anderson-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anderson Central Court"
+    contact: "Office: (864) 260-4156. 2404 North Main Street, Anderson, SC 29621."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anderson
+    weight: 10
+
+  - id: sc-bamberg-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bamberg Magistrate"
+    contact: "Office: (803) 245-3016. 1234 North Street, Bamberg, SC 29003."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bamberg
+    weight: 10
+
+  - id: sc-barnwell-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Barnwell Magistrate"
+    contact: "Office: (803) 284-2765. 5997 N. Lartigue Street, Blackville, SC 29817."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barnwell
+    weight: 10
+
+  - id: sc-beaufort-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaufort Magistrate"
+    contact: "Office: (843) 255-5700. 104 Ribaut Road, Beaufort, SC 29902."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaufort
+    weight: 10
+
+  - id: sc-berkeley-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Central Criminal/Traffic"
+    contact: "Office: (843) 719-4050. 223 North Live Oak Drive, Moncks Corner, SC 29461."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Berkeley
+    weight: 10
+
+  - id: sc-calhoun-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saint Matthews Magistrate"
+    contact: "Office: (803) 874-1112. 2833 Old Belleville Road, St. Matthews, SC 29135."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: sc-charleston-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Charleston City Magistrate"
+    contact: "Office: (843) 724-6720. 101 Meeting Street (3rd Floor), Charleston, SC 29401."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charleston
+    weight: 10
+
+  - id: sc-cherokee-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blacksburg Magistrate"
+    contact: "Office: (864) 839-2492. 301 West Cherokee Street, Blacksburg, SC 29702."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cherokee
+    weight: 10
+
+  - id: sc-chester-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chester Magistrate -- Law Enforcement Center"
+    contact: "Office: (803) 581-5136. 2740 Dawson Drive, Chester, SC 29706."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chester
+    weight: 10
+
+  - id: sc-chesterfield-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Central Traffic Court"
+    contact: "Office: (843) 623-9009. 200 West Main Street, Chesterfield, SC 29709."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chesterfield
+    weight: 10
+
+  - id: sc-clarendon-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clarendon County Magistrate"
+    contact: "Office: (803) 435-2670. 2681 Greeleyville Highway, Manning, SC 29101."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clarendon
+    weight: 10
+
+  - id: sc-colleton-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Colleton County Magistrate"
+    contact: "Office: (843) 549-1122. 40 Klein Street, Walterboro, SC 29488."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Colleton
+    weight: 10
+
+  - id: sc-darlington-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Darlington Magistrate"
+    contact: "Office: (843) 398-7543. 115 Camp Road, Darlington, SC 29532."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Darlington
+    weight: 10
+
+  - id: sc-dillon-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dillon Magistrate Court"
+    contact: "Office: (843) 774-1406. 318 Lee Circle, Dillon, SC 29536."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dillon
+    weight: 10
+
+  - id: sc-dorchester-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Summerville Magistrate"
+    contact: "Office: (843) 832-0370. 212 Deming Way, Summerville, SC 29483."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dorchester
+    weight: 10
+
+  - id: sc-edgefield-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edgefield County Magistrate"
+    contact: "Office: (803) 637-4052. 264 Star Road, Edgefield, SC 29824."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edgefield
+    weight: 10
+
+  - id: sc-fairfield-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fairfield Magistrate"
+    contact: "Office: (803) 635-4525. 115 B South Congress Street, Winnsboro, SC 29180."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fairfield
+    weight: 10
+
+  - id: sc-florence-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Florence County Magistrate Court"
+    contact: "Office: (843) 661-7800. 120 Courthouse Square, Florence, SC 29501."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Florence
+    weight: 10
+
+  - id: sc-georgetown-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Murrells Inlet Magistrate"
+    contact: "Office: (843) 545-3381. 333 Cleland Street, Georgetown, SC 29440."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Georgetown
+    weight: 10
+
+  - id: sc-greenville-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greenville County Magistrate"
+    contact: "Office: (864) 467-8470. 445 E. Curtis Street, Simpsonville, SC 29681."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greenville
+    weight: 10
+
+  - id: sc-greenwood-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greenwood County Courthouse"
+    contact: "Office: (864) 942-8655. 528 Monument Street (Room 100), Greenwood, SC 29646."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greenwood
+    weight: 10
+
+  - id: sc-hampton-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hampton Magistrate -- Law Enforcement Center"
+    contact: "Office: (803) 914-2230. 411 Cemetary Road, Varnville, SC 29944."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hampton
+    weight: 10
+
+  - id: sc-horry-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Conway Magistrate Court"
+    contact: "Office: (843) 915-5070. 1201 Third Avenue, Conway, SC 29526."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Horry
+    weight: 10
+
+  - id: sc-jasper-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Central Traffic Court"
+    contact: "Office: (843) 726-7717. 967 West Adams Street., Ridgeland, SC 29936."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jasper
+    weight: 10
+
+  - id: sc-kershaw-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kershaw County Courthouse"
+    contact: "Office: (803) 425-1500. 1121 Broad Street, Camden, SC 29020."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kershaw
+    weight: 10
+
+  - id: sc-lancaster-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lancaster Central Traffic Court"
+    contact: "Office: (803) 283-3983. 761 Highway 521 Lancaster Bypass East, Lancaster, SC 29720."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lancaster
+    weight: 10
+
+  - id: sc-laurens-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Laurens Township Magistrate"
+    contact: "Office: (864) 681-5689. 100 Hillcrest Square, Laurens, SC 29360."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Laurens
+    weight: 10
+
+  - id: sc-lee-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lee Magistrate -- Judicial Center"
+    contact: "Office: (803) 484-6463. 115 Gregg Street, Bishopville, SC 29010."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: sc-lexington-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oak Grove Magistrate"
+    contact: "Office: (803) 785-2569. 428 Oak Drive, Lexington, SC 29073."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lexington
+    weight: 10
+
+  - id: sc-marion-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mullin Summary Court"
+    contact: "Office: (843) 292-5238. 2715 East US Highway 76, Mullins, SC 29574."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: sc-marlboro-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bennettsville Summary Court"
+    contact: "Office: (843) 479-5620. 249 Throop Street, Bennettsville, SC 29512."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marlboro
+    weight: 10
+
+  - id: sc-mccormick-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCormick Magistrate"
+    contact: "Office: (864) 852-2316. 211 Augusta Street Extension, McCormick, SC 29835."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCormick
+    weight: 10
+
+  - id: sc-newberry-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Newberry Central Court"
+    contact: "Office: (803) 321-2144. 833 Main Street, Newberry, SC 29108."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newberry
+    weight: 10
+
+  - id: sc-oconee-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Westminster Magistrate"
+    contact: "Office: (864) 647-5998. 1606 East Main Street, Westminster, SC 29693."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oconee
+    weight: 10
+
+  - id: sc-orangeburg-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Central Region Magistrate"
+    contact: "Office: (803) 268-2743. 1540 Ellis Avenue, Orangeburg, SC 29116."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orangeburg
+    weight: 10
+
+  - id: sc-pickens-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Liberty Summary Court"
+    contact: "Office: (864) 898-5551. 310 West Main Street, Liberty, SC 29657."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pickens
+    weight: 10
+
+  - id: sc-richland-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia Magistrate"
+    contact: "Office: (803) 576-2510. 3875 Lucius Road (Off of River Drive), Columbia, SC 29201."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 10
+
+  - id: sc-saluda-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saluda Central Court"
+    contact: "Office: (864) 445-4500. 108 South Rudolph Street, Saluda, SC 29138."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saluda
+    weight: 10
+
+  - id: sc-spartanburg-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Spartanburg County Judicial Center"
+    contact: "Office: (864) 596-2564. 180 Magnolia Street, Spartanburg, SC 29306."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spartanburg
+    weight: 10
+
+  - id: sc-sumter-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sumter Magistrate Court"
+    contact: "Office: (803) 436-2280. 190 East Canal Street, Sumter, SC 29150."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sumter
+    weight: 10
+
+  - id: sc-union-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County Courthouse"
+    contact: "Office: (864) 429-1648. 210 West Main Street, Union, SC 29379."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: sc-williamsburg-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kingstree Magistrate"
+    contact: "Office: (843) 355-9565. 209 Short Street, Kingstree, SC 29556."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williamsburg
+    weight: 10
+
+  - id: sc-york-magistrate
+    verification: link_ok
+    verification_note: "Statewide magistrate directory; filter by county on the official page."
+    source_url: "https://www.sccourts.org/courts/trial-courts/magistrate-court/judges/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "York Summary Court"
+    contact: "Office: (803) 909-7650. 1675 York Highway, York, SC 29730."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on sccourts.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is magistrate court (summary court)."
+      - "Find your county's magistrate on the official statewide directory; call to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - York
+    weight: 10
+
+  - id: sc-dmv-driving-record
+    verification: link_ok
+    source_url: "https://dmv.sc.gov/online-services"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "South Carolina DMV -- online services"
+    contact: "See the official DMV online services page."
+    accepted_keys: "See the official DMV page for requirements."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on dmv.sc.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "For driving history only: shows convictions and points already on your record, not pending citations."
+      - "A pending ticket will not appear here; contact the magistrate court for the county where the stop happened."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: sc-bar-legal-help
+    verification: link_ok
+    source_url: "https://www.scbar.org/for-the-public/quicklinks/get-legal-help/"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "South Carolina Bar -- Get Legal Help"
+    contact: "See the official Bar page for legal aid and referral options."
+    accepted_keys: "See the official Bar page."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on scbar.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General legal help only."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 15

@@ -1,0 +1,2018 @@
+# Indiana — TicketRouter expansion.
+# Every source_url verified live 2026-09-21; see verification_note per card.
+state: IN
+state_name: Indiana
+last_verified: "2026-09-21"
+official_hosts:
+  - inbar.reliaguide.com
+  - mycase.in.gov
+  - publicaccess.courts.in.gov
+  - www.in.gov
+counties:
+  - name: Adams
+  - name: Allen
+  - name: Bartholomew
+  - name: Benton
+  - name: Blackford
+  - name: Boone
+  - name: Brown
+  - name: Carroll
+  - name: Cass
+  - name: Clark
+  - name: Clay
+  - name: Clinton
+  - name: Crawford
+  - name: Daviess
+  - name: DeKalb
+  - name: Dearborn
+  - name: Decatur
+  - name: Delaware
+  - name: Dubois
+  - name: Elkhart
+  - name: Fayette
+  - name: Floyd
+  - name: Fountain
+  - name: Franklin
+  - name: Fulton
+  - name: Gibson
+  - name: Grant
+  - name: Greene
+  - name: Hamilton
+  - name: Hancock
+  - name: Harrison
+  - name: Hendricks
+  - name: Henry
+  - name: Howard
+  - name: Huntington
+  - name: Jackson
+  - name: Jasper
+  - name: Jay
+  - name: Jefferson
+  - name: Jennings
+  - name: Johnson
+  - name: Knox
+  - name: Kosciusko
+  - name: LaGrange
+  - name: LaPorte
+  - name: Lake
+  - name: Lawrence
+  - name: Madison
+  - name: Marion
+  - name: Marshall
+  - name: Martin
+  - name: Miami
+  - name: Monroe
+  - name: Montgomery
+  - name: Morgan
+  - name: Newton
+  - name: Noble
+  - name: Ohio
+  - name: Orange
+  - name: Owen
+  - name: Parke
+  - name: Perry
+  - name: Pike
+  - name: Porter
+  - name: Posey
+  - name: Pulaski
+  - name: Putnam
+  - name: Randolph
+  - name: Ripley
+  - name: Rush
+  - name: Scott
+  - name: Shelby
+  - name: Spencer
+  - name: St. Joseph
+  - name: Starke
+  - name: Steuben
+  - name: Sullivan
+  - name: Switzerland
+  - name: Tippecanoe
+  - name: Tipton
+  - name: Union
+  - name: Vanderburgh
+  - name: Vermillion
+  - name: Vigo
+  - name: Wabash
+  - name: Warren
+  - name: Warrick
+  - name: Washington
+  - name: Wayne
+  - name: Wells
+  - name: White
+  - name: Whitley
+cards:
+  - id: in-mycase
+    verification: link_ok
+    verification_note: "GET https://mycase.in.gov/ -> 200 (no redirects)"
+    source_url: "https://mycase.in.gov/"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: Indiana Courts — MyCase public case search
+    accepted_keys: Search by party name or case number on the official portal.
+    cost: No cost to search — as of 2026-09-21 on mycase.in.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Covers cases in Indiana trial courts that report to the portal.
+      - Not searchable by driver’s license number.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - '*'
+    weight: 20
+  - id: in-court-pay
+    verification: link_ok
+    verification_note: "GET https://publicaccess.courts.in.gov/pay -> 200 (no redirects)"
+    source_url: "https://publicaccess.courts.in.gov/pay"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: Indiana Courts — online payment
+    accepted_keys: Case or citation details on the official payment form.
+    cost: The official payment page lists any processing details — as of 2026-09-21 on publicaccess.courts.in.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Paying a ticket can be a plea of guilty or an admission — confirm on the official page before paying.
+      - Not all citations are payable online.
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 30
+  - id: in-bmv
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/bmv/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/bmv/"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: Indiana BMV — official site
+    accepted_keys: Use the official BMV site for driver records and services.
+    cost: The official BMV page lists the current cost for records — as of 2026-09-21 on in.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Driving records show history and convictions — not a pending-ticket portal.
+      - "Self-check only: request your own record, not someone else’s."
+    for_intents:
+      - history
+    for_counties:
+      - '*'
+    weight: 20
+  - id: in-lawyer-directory
+    verification: link_ok
+    verification_note: "GET https://inbar.reliaguide.com/home -> 200 (no redirects)"
+    source_url: "https://inbar.reliaguide.com/home"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: Indiana State Bar Association — lawyer directory
+    accepted_keys: Search the official directory.
+    cost: No cost to search the directory — as of 2026-09-21.
+    cost_free: true
+    lag: null
+    limitations:
+      - "A directory of lawyers, not legal advice and not a referral endorsement."
+    for_intents:
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 50
+  - id: in-adams-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/adams-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/adams-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Adams County Courts
+    address: "112 S. 2nd Street, Room A, Decatur, IN 46733-1618"
+    phone: 260-724-5309
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 80
+  - id: in-allen-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/allen-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/allen-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Allen County Courts
+    address: "715 South Calhoun Street, # 201, Fort Wayne, IN 46802"
+    phone: 260-449-7245
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allen
+    weight: 80
+  - id: in-bartholomew-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/bartholomew-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/bartholomew-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bartholomew County Courts
+    address: "P.O. Box 924, Columbus, IN 47202-0924"
+    phone: 812-379-1600
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bartholomew
+    weight: 80
+  - id: in-benton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/benton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/benton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Benton County Courts
+    address: "706 E. 5th Street, Fowler, IN 47944"
+    phone: 765-884-0930
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 80
+  - id: in-blackford-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/blackford-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/blackford-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Blackford County Courts
+    address: "110 W. Washington, Hartford City, IN 47348"
+    phone: 765-348-1130
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blackford
+    weight: 80
+  - id: in-boone-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/boone-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/boone-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Boone County Courts
+    address: "212 Courthouse Square, Lebanon, IN 46052"
+    phone: 765-482-3510
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 80
+  - id: in-brown-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/brown-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/brown-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Brown County Courts
+    address: "PO BOX 85, 20 E. Main Street, Nashville, IN 47448"
+    phone: 812-988-5510
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 80
+  - id: in-carroll-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/carroll-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/carroll-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Carroll County Courts
+    address: "101 W. Main Street, Delphi, IN 46923"
+    phone: 765-564-4485
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 80
+  - id: in-cass-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/cass-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/cass-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Cass County Courts
+    address: "200 Court Park, # 103, Logansport, IN 46947"
+    phone: 574-753-7740
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 80
+  - id: in-clark-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/clark-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/clark-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clark County Courts
+    address: "Clark County Government Building, 501 E. Court Avenue, Jeffersonville, IN 47130"
+    phone: 812-285-6244
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 80
+  - id: in-clay-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/clay-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/clay-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clay County Courts
+    address: "609 E. National Avenue, # 213, Brazil, IN 47834"
+    phone: 812-448-9024
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 80
+  - id: in-clinton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/clinton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/clinton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clinton County Courts
+    address: "265 Courthouse Square, Frankfort, IN 46041"
+    phone: 765-659-6335
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 80
+  - id: in-crawford-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/crawford-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/crawford-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Crawford County Courts
+    address: "PO BOX 375, 715 Judicial Plaza Drive, English, IN 47118"
+    phone: 812-338-2565
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 80
+  - id: in-daviess-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/daviess-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/daviess-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Daviess County Courts
+    address: "P.O. Box 739, 200 E. Walnut Street, Washington, IN 47501"
+    phone: 812-254-8669
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Daviess
+    weight: 80
+  - id: in-dekalb-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/dekalb-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/dekalb-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: DeKalb County Courts
+    address: "PO BOX 230, 100 S. Main Street, Auburn, IN 46706"
+    phone: 260-925-0912
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeKalb
+    weight: 80
+  - id: in-dearborn-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/dearborn-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/dearborn-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dearborn County Courts
+    address: "165 Mary Street, Lawrenceburg, IN 47025"
+    phone: 812-537-8867
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dearborn
+    weight: 80
+  - id: in-decatur-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/decatur-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/decatur-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Decatur County Courts
+    address: "150 Courthouse Square, # 244, Greensburg, IN 47240"
+    phone: 812-663-8223
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Decatur
+    weight: 80
+  - id: in-delaware-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/delaware-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/delaware-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Delaware County Courts
+    address: "3100 S. Tillotson Avenue, Muncie, IN 47302"
+    phone: 765-747-7726
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delaware
+    weight: 80
+  - id: in-dubois-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/dubois-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/dubois-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dubois County Courts
+    address: "One Courthouse Square, Jasper, IN 47546"
+    phone: 812-481-7035
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dubois
+    weight: 80
+  - id: in-elkhart-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/elkhart-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/elkhart-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Elkhart County Courts
+    address: "1905 Reliance Road, Goshen, IN 46526"
+    phone: 574-538-3000
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elkhart
+    weight: 80
+  - id: in-fayette-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/fayette-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/fayette-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fayette County Courts
+    address: "401 N. Central Avenue, Connersville, IN 47331"
+    phone: 765-825-1813
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 80
+  - id: in-floyd-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/floyd-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/floyd-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Floyd County Courts
+    address: "311 Hauss Square, # 235, New Albany, IN 47150"
+    phone: 812-948-5415
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Floyd
+    weight: 80
+  - id: in-fountain-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/fountain-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/fountain-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fountain County Courts
+    address: "301 4th Street, Covington, IN 47932"
+    phone: 765-793-3301
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fountain
+    weight: 80
+  - id: in-franklin-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/franklin-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/franklin-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Franklin County Courts
+    address: "459 Main Street, Brookville, IN 47012"
+    phone: 765-647-5111
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 80
+  - id: in-fulton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/fulton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/fulton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fulton County Courts
+    address: "815 Main Street, Rochester, IN 46975"
+    phone: 574-223-4824
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 80
+  - id: in-gibson-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/gibson-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/gibson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Gibson County Courts
+    address: "101 N. Main Street, Princeton, IN 47670-1562, (The Clerk’s Office is in the Gibson County, Courthouse)"
+    phone: 812-386-6474
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gibson
+    weight: 80
+  - id: in-grant-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/grant-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/grant-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Grant County Courts
+    address: "101 E. 4th Street, Marion City Court, Hon. Joshua M. Howell, Judge, 301 South Branson Street, Marion, IN 46952"
+    phone: 765-668-4425
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 80
+  - id: in-greene-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/greene-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/greene-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Greene County Courts
+    address: "PO BOX 229, Bloomfield, IN 47424"
+    phone: 812-384-8532
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 80
+  - id: in-hamilton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/hamilton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/hamilton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hamilton County Courts
+    address: "One Hamilton Square, # 106, Noblesville, IN 46060"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 80
+  - id: in-hancock-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/hancock-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/hancock-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hancock County Courts
+    address: "9 East Main Street, Rm. 213, Greenfield, IN 46140"
+    phone: "317-477-1109, 1143"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 80
+  - id: in-harrison-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/harrison-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/harrison-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Harrison County Courts
+    address: "300 N. Capitol Ave., Corydon, IN 47112"
+    phone: 812-738-4289
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 80
+  - id: in-hendricks-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/hendricks-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/hendricks-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hendricks County Courts
+    address: "One Courthouse Square, 51 W. Main St., # 104, Danville, IN 46122"
+    phone: 317-745-9231
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hendricks
+    weight: 80
+  - id: in-henry-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/henry-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/henry-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Henry County Courts
+    address: "1215 Race Street, Suite 120, New Castle, IN 47362"
+    phone: 765-529-6401
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 80
+  - id: in-howard-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/howard-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/howard-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Howard County Courts
+    address: "104 N. Buckeye Street, Room 202, Kokomo, IN 46901"
+    phone: 765-456-2000
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howard
+    weight: 80
+  - id: in-huntington-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/huntington-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/huntington-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Huntington County Courts
+    address: "201 N. Jefferson Street, # 201, Huntington, IN 46750"
+    phone: 260-358-4819
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Huntington
+    weight: 80
+  - id: in-jackson-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/jackson-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/jackson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jackson County Courts
+    address: "P.O. BOX 318 mailing address, 109 S. Sugar Street, Brownstown, IN 47220"
+    phone: 812-358-6117
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 80
+  - id: in-jasper-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/jasper-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/jasper-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jasper County Courts
+    address: "115 W. Washington Street, # 204, Rensselaer, IN 47978"
+    phone: 219-866-4927
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jasper
+    weight: 80
+  - id: in-jay-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/jay-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/jay-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jay County Courts
+    address: "120 N. Court Street, Portland, IN 47371"
+    phone: 260-726-6915
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jay
+    weight: 80
+  - id: in-jefferson-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/jefferson-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/jefferson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jefferson County Courts
+    address: "300 East Main Street, # 203, Madison, IN 47250"
+    phone: 812-265-8924
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 80
+  - id: in-jennings-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/jennings-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/jennings-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jennings County Courts
+    address: "PO BOX 385 mailing address-, Vernon, IN 47282, (The Clerk’s Office is in the Jennings County, Courthouse)"
+    phone: 812-352-3070
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jennings
+    weight: 80
+  - id: in-johnson-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/johnson-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/johnson-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Johnson County Courts
+    address: "PO BOX 368, Five East Jefferson Street, Franklin, IN 46131"
+    phone: 317-346-4450
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 80
+  - id: in-knox-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/knox-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/knox-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Knox County Courts
+    address: "111 North Seventh Street, Vincennes, IN 47591"
+    phone: 812-885-2521
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 80
+  - id: in-kosciusko-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/kosciusko-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/kosciusko-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Kosciusko County Courts
+    address: "121 N. Lake Street, Warsaw, IN 46580"
+    phone: 574-372-2334
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kosciusko
+    weight: 80
+  - id: in-lagrange-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/lagrange-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/lagrange-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: LaGrange County Courts
+    address: "105 North Detroit Street, LaGrange, IN 46761"
+    phone: 260-499-6371
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - LaGrange
+    weight: 80
+  - id: in-laporte-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/laporte-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/laporte-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: LaPorte County Courts
+    address: "813 Lincolnway, #105, LaPorte, IN 46350"
+    phone: 219-326-6808
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - LaPorte
+    weight: 80
+  - id: in-lake-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/lake-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/lake-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lake County Courts
+    address: "2293 N. Main Street, Crown Point, IN 46307"
+    phone: 219-755-3461
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 80
+  - id: in-lawrence-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/lawrence-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/lawrence-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lawrence County Courts
+    address: "916 15th Street, # 31, Bedford, IN 47421"
+    phone: 812-275-7543
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 80
+  - id: in-madison-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/madison-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/madison-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Madison County Courts
+    address: "16 E. Ninth Street, #213, Anderson, IN 46016"
+    phone: 765-641-9443
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 80
+  - id: in-marion-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/marion-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/marion-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marion County Courts
+    address: "675 Justice Way, Indianapolis, IN 46203"
+    phone: 317-327-4740
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 80
+  - id: in-marshall-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/marshall-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/marshall-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marshall County Courts
+    address: "211 W. Madison St., Plymouth, IN 46563"
+    phone: 574-936-8922
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 80
+  - id: in-martin-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/martin-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/martin-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Martin County Courts
+    address: "PO BOX 120 mailing address-, Shoals, IN 47581, (The Clerk’s Office is in the Martin County, Courthouse)"
+    phone: 812-247-3651
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Martin
+    weight: 80
+  - id: in-miami-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/miami-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/miami-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Miami County Courts
+    address: "25 North Broadway, Room 208, Peru, IN 46970"
+    phone: 765-472-3901 x256
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miami
+    weight: 80
+  - id: in-monroe-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/monroe-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/monroe-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Monroe County Courts
+    address: "PO BOX 547 (mailing address), Bloomington, IN 47402, The Clerk’s Office is in the Monroe County, Justice Building"
+    phone: 812-349-2600
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 80
+  - id: in-montgomery-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/montgomery-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/montgomery-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Montgomery County Courts
+    address: "100 East Main Street, Crawfordsville, IN 47933"
+    phone: 765-364-6430
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 80
+  - id: in-morgan-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/morgan-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/morgan-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Morgan County Courts
+    address: "Morgan County Justice Campus, 180 S. Main St., Martinsville, IN 46151"
+    phone: 765-205-1548
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 80
+  - id: in-newton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/newton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/newton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Newton County Courts
+    address: "PO BOX 49 mailing address, Kentland, IN 47951, The Clerk’s Office is in the Newton County, Courthouse)"
+    phone: 219-474-6081
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newton
+    weight: 80
+  - id: in-noble-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/noble-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/noble-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Noble County Courts
+    address: "101 North Orange Street, Albion, IN 46701"
+    phone: 260-636-2736
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Noble
+    weight: 80
+  - id: in-ohio-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/ohio-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/ohio-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ohio County Courts
+    address: "PO BOX 185 mailing address, Rising Sun, IN 47040"
+    phone: 812-438-2610
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ohio
+    weight: 80
+  - id: in-orange-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/orange-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/orange-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Orange County Courts
+    address: "1 Court Street, Paoli, IN 47454"
+    phone: 812-723-2649
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 80
+  - id: in-owen-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/owen-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/owen-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Owen County Courts
+    address: "PO BOX 146 mailing address, Spencer, IN 47460, The Clerk’s Office is in the Owen County, Courthouse)"
+    phone: 812-829-5015
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Owen
+    weight: 80
+  - id: in-parke-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/parke-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/parke-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Parke County Courts
+    address: "116 West High Street, Room 204, Rockville, IN 47872"
+    phone: 765-569-5132
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Parke
+    weight: 80
+  - id: in-perry-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/perry-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/perry-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Perry County Courts
+    address: "2219 Payne Street, Tell City, IN 47586"
+    phone: 812-547-3741
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 80
+  - id: in-pike-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/pike-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/pike-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Pike County Courts
+    address: "PO BOX 125 mailing address, Petersburg, IN 47567, (The Clerk’s Office is in the Pike County, Courthouse)"
+    phone: 812-354-6025
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 80
+  - id: in-porter-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/porter-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/porter-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Porter County Courts
+    address: "16 Lincolnway, # 209, Valparaiso, IN 46383"
+    phone: 219-465-3450
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Porter
+    weight: 80
+  - id: in-posey-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/posey-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/posey-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Posey County Courts
+    address: "300 Main Street, Room 115, Mount Vernon, IN 47620, (The Clerk’s Office is in the Posey County, Courthouse)"
+    phone: 812-838-1306
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Posey
+    weight: 80
+  - id: in-pulaski-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/pulaski-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/pulaski-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Pulaski County Courts
+    address: "117 East Main Street, Winamac, IN 46996"
+    phone: 574-946-3313
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 80
+  - id: in-putnam-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/putnam-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/putnam-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Putnam County Courts
+    address: "One Courthouse Square, Greencastle, IN 46135"
+    phone: 765-653-2648
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 80
+  - id: in-randolph-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/randolph-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/randolph-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Randolph County Courts
+    address: "100 S. Main Street, Room 201, Winchester, IN 47394"
+    phone: 765-584-4214
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 80
+  - id: in-ripley-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/ripley-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/ripley-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ripley County Courts
+    address: "PO Box 177 mailing address), Versailles, IN 47042, (The Clerk’s Office is in the Ripley County, Courthouse)"
+    phone: 812-689-6115
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ripley
+    weight: 80
+  - id: in-rush-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/rush-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/rush-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Rush County Courts
+    address: "101 E. 2nd Street, Room 209, Rushville, IN 46173"
+    phone: 765-932-2086
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rush
+    weight: 80
+  - id: in-scott-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/scott-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/scott-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Scott County Courts
+    address: "One East McClain Avenue, Scottsburg, IN 47170"
+    phone: 812-752-8420
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 80
+  - id: in-shelby-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/shelby-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/shelby-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Shelby County Courts
+    address: "407 South Harrison Street, Shelbyville, IN 46176"
+    phone: 317-392-6320
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 80
+  - id: in-spencer-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/spencer-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/spencer-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Spencer County Courts
+    address: "200 Main Street, Rockport, IN 47635"
+    phone: 812-649-6029
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spencer
+    weight: 80
+  - id: in-st-joseph-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/st-joseph-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/st-joseph-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: St. Joseph County Courts
+    address: "101 South Main Street, South Bend, IN 46601"
+    phone: 574-235-9635
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Joseph
+    weight: 80
+  - id: in-starke-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/starke-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/starke-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Starke County Courts
+    address: "53 East Washington Street, Knox, IN 46534"
+    phone: 574-772-9128
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Starke
+    weight: 80
+  - id: in-steuben-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/steuben-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/steuben-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Steuben County Courts
+    address: "305 South Martha Street, Steuben County Judicial Center, 1st Floor, Angola, IN 46703"
+    phone: 260-668-1000
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Steuben
+    weight: 80
+  - id: in-sullivan-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/sullivan-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/sullivan-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Sullivan County Courts
+    address: "P.O. Box 370, 100 Courthouse Square, Sullivan, IN 47882"
+    phone: 812-268-4657
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sullivan
+    weight: 80
+  - id: in-switzerland-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/switzerland-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/switzerland-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Switzerland County Courts
+    address: "212 West Main Street, Vevay, IN 47043"
+    phone: 812-427-4415
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Switzerland
+    weight: 80
+  - id: in-tippecanoe-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/tippecanoe-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/tippecanoe-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Tippecanoe County Courts
+    address: "PO BOX 1665 mailing address, Lafayette, IN 47901"
+    phone: 765-423-9326
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tippecanoe
+    weight: 80
+  - id: in-tipton-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/tipton-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/tipton-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Tipton County Courts
+    address: "101 East Jefferson Street, Tipton, IN 46072"
+    phone: 765-675-2795
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tipton
+    weight: 80
+  - id: in-union-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/union-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/union-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Union County Courts
+    address: "26 West Union Street, Liberty, IN 47353"
+    phone: 765-458-6121
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 80
+  - id: in-vanderburgh-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/vanderburgh-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/vanderburgh-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Vanderburgh County Courts
+    address: "PO BOX 3356 mailing address, Evansville, IN 47732-3356, The Clerk’s Office is in the new Vanderburgh"
+    phone: 812-435-5160
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vanderburgh
+    weight: 80
+  - id: in-vermillion-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/vermillion-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/vermillion-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Vermillion County Courts
+    address: "PO BOX 10, 255 South Main, Newport, IN 47966"
+    phone: 765-492-3500
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vermillion
+    weight: 80
+  - id: in-vigo-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/vigo-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/vigo-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Vigo County Courts
+    address: "33 South Third Street, Courthouse, 1st Floor, Terre Haute, IN 47807, Traffic Tickets Pho: 812-232-3375"
+    phone: 812-462-3211
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vigo
+    weight: 80
+  - id: in-wabash-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/wabash-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/wabash-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Wabash County Courts
+    address: "69 West Hill Street, Wabash, IN 46992"
+    phone: 260-563-0661
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wabash
+    weight: 80
+  - id: in-warren-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/warren-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/warren-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Warren County Courts
+    address: "125 North Monroe Street, # 11, Williamsport, IN 47993"
+    phone: 765-762-3510
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 80
+  - id: in-warrick-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/warrick-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/warrick-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Warrick County Courts
+    address: "One County Square, # 200, Boonville, IN 47601"
+    phone: 812-897-6160
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warrick
+    weight: 80
+  - id: in-washington-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/washington-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/washington-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Washington County Courts
+    address: "801 S. Jackson Street, Suite 102, Salem, IN 47167"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 80
+  - id: in-wayne-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/wayne-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/wayne-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Wayne County Courts
+    address: "301 East Main Street, Richmond, IN 47374-4200"
+    phone: 765-973-9220
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 80
+  - id: in-wells-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/wells-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/wells-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Wells County Courts
+    address: "102 Market Street, #201, Bluffton, IN 46714"
+    phone: 260-824-6482
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wells
+    weight: 80
+  - id: in-white-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/white-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/white-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: White County Courts
+    address: "PO BOX 350, 110 North Main Street, Monticello, IN 47960"
+    phone: 574-583-7032
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - White
+    weight: 80
+  - id: in-whitley-court
+    verification: link_ok
+    verification_note: "GET https://www.in.gov/courts/local/whitley-county/ -> 200 (no redirects)"
+    source_url: "https://www.in.gov/courts/local/whitley-county/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Whitley County Courts
+    address: "101 West Van Buren Street, Columbia City, IN 46725"
+    phone: 260-248-3102
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Indiana traffic matters are handled through the county Superior or Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Whitley
+    weight: 80

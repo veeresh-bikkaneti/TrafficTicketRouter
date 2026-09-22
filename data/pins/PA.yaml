@@ -1,0 +1,678 @@
+# Pennsylvania map pins — county courthouses (MapLibre).
+# Addresses taken from the official pacourts.us county pages 2026-09-21; coordinates
+# cross-checked against a second source (Census/OSM/Nominatim). URLs reused verbatim
+# from data/states/PA.yaml — never invented. Do not commit without review.
+pins:
+  - id: pa-adams-courthouse
+    state: PA
+    county: Adams
+    name: Adams County Courthouse
+    address: 117 Baltimore Street, Gettysburg, PA 17325
+    lat: 39.8292077
+    lng: -77.2311643
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/adams-county
+    kind: courthouse
+
+  - id: pa-allegheny-courthouse
+    state: PA
+    county: Allegheny
+    name: Allegheny County Courthouse
+    address: 436 Grant Street, Pittsburgh, PA 15219
+    lat: 40.4387880
+    lng: -79.9970459
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/allegheny-county
+    kind: courthouse
+
+  - id: pa-armstrong-courthouse
+    state: PA
+    county: Armstrong
+    name: Armstrong County Courthouse
+    address: 500 Market Street, Kittanning, PA 16201
+    lat: 40.8160092
+    lng: -79.5165177
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/armstrong-county
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: pa-beaver-courthouse
+    state: PA
+    county: Beaver
+    name: Beaver County Courthouse
+    address: 810 Third Street, Beaver, PA 15009
+    lat: 40.6941945
+    lng: -80.3074299
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/beaver-county
+    kind: courthouse
+
+  - id: pa-bedford-courthouse
+    state: PA
+    county: Bedford
+    name: Bedford County Courthouse
+    address: 200 South Juliana Street, Bedford, PA 15522
+    lat: 40.0173694
+    lng: -78.5037689
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bedford-county
+    kind: courthouse
+
+  - id: pa-berks-courthouse
+    state: PA
+    county: Berks
+    name: Berks County Courthouse
+    address: 633 Court Street, Reading, PA 19601
+    lat: 40.3362645
+    lng: -75.9247970
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/berks-county
+    kind: courthouse
+
+  - id: pa-blair-courthouse
+    state: PA
+    county: Blair
+    name: Blair County Courthouse
+    address: 423 Allegheny Street, Hollidaysburg, PA 16648
+    lat: 40.4297781
+    lng: -78.3929301
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/blair-county
+    kind: courthouse
+
+  - id: pa-bradford-courthouse
+    state: PA
+    county: Bradford
+    name: Bradford County Courthouse
+    address: 301 Main Street, Towanda, PA 18848
+    lat: 41.7672521
+    lng: -76.4430354
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bradford-county
+    kind: courthouse
+
+  - id: pa-bucks-courthouse
+    state: PA
+    county: Bucks
+    name: Bucks County Justice Center
+    address: 100 North Main Street, Doylestown, PA 18901
+    lat: 40.3118930
+    lng: -75.1306694
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/bucks-county
+    kind: courthouse
+
+  - id: pa-butler-courthouse
+    state: PA
+    county: Butler
+    name: Butler County Government Center
+    address: 124 West Diamond Street, Butler, PA 16001
+    lat: 40.8585117
+    lng: -79.8963716
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/butler-county
+    kind: courthouse
+
+  - id: pa-cambria-courthouse
+    state: PA
+    county: Cambria
+    name: Cambria County Courthouse
+    address: 200 South Center Street, Ebensburg, PA 15931
+    lat: 40.4842274
+    lng: -78.7249048
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cambria-county
+    kind: courthouse
+
+  - id: pa-cameron-courthouse
+    state: PA
+    county: Cameron
+    name: Cameron County Courthouse
+    address: 20 E. 5th Street, Emporium, PA 15834
+    lat: 41.5127100
+    lng: -78.2368800
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cameron-county
+    kind: courthouse
+
+  - id: pa-carbon-courthouse
+    state: PA
+    county: Carbon
+    name: Carbon County Courthouse
+    address: 4 Broadway, Jim Thorpe, PA 18229
+    lat: 40.8635433
+    lng: -75.7382773
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/carbon-county
+    kind: courthouse
+
+  - id: pa-centre-courthouse
+    state: PA
+    county: Centre
+    name: Centre County Courthouse, Room 103
+    address: 102 South Allegheny Street, Bellefonte, PA 16823
+    lat: 40.9119484
+    lng: -77.7777580
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/centre-county
+    kind: courthouse
+
+  - id: pa-chester-courthouse
+    state: PA
+    county: Chester
+    name: Chester County Justice Center
+    address: 201 West Market Street, West Chester, PA 19380
+    lat: 39.9585292
+    lng: -75.6071782
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/chester-county
+    kind: courthouse
+
+  - id: pa-clarion-courthouse
+    state: PA
+    county: Clarion
+    name: Clarion County Courthouse
+    address: 421 Main Street, Clarion, PA 16214
+    lat: 41.2150441
+    lng: -79.3863254
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clarion-county
+    kind: courthouse
+
+  - id: pa-clearfield-courthouse
+    state: PA
+    county: Clearfield
+    name: Clearfield County Courthouse
+    address: 230 East Market Street, Clearfield, PA 16830
+    lat: 41.0221301
+    lng: -78.4368857
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clearfield-county
+    kind: courthouse
+
+  - id: pa-clinton-courthouse
+    state: PA
+    county: Clinton
+    name: Clinton County Courthouse
+    address: 230 East Water Street, Lock Haven, PA 17745
+    lat: 41.1379289
+    lng: -77.4428196
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/clinton-county
+    kind: courthouse
+
+  - id: pa-columbia-courthouse
+    state: PA
+    county: Columbia
+    name: Columbia County Courthouse
+    address: 35 West Main Street, Bloomsburg, PA 17815
+    lat: 41.0029631
+    lng: -76.4571438
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/columbia-county
+    kind: courthouse
+
+  - id: pa-crawford-courthouse
+    state: PA
+    county: Crawford
+    name: Crawford County Judicial Center
+    address: 359 East Center Street, Meadville, PA 16335
+    lat: 41.6385806
+    lng: -80.1486717
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/crawford-county
+    kind: courthouse
+
+  - id: pa-cumberland-courthouse
+    state: PA
+    county: Cumberland
+    name: Cumberland County Courthouse
+    address: 1 Courthouse Square, Carlisle, PA 17013
+    lat: 40.2014615
+    lng: -77.1897410
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/cumberland-county
+    kind: courthouse
+
+  - id: pa-dauphin-courthouse
+    state: PA
+    county: Dauphin
+    name: Dauphin County Courthouse
+    address: 101 Market Street, Harrisburg, PA 17101
+    lat: 40.2585538
+    lng: -76.8827441
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/dauphin-county
+    kind: courthouse
+
+  - id: pa-delaware-courthouse
+    state: PA
+    county: Delaware
+    name: Delaware County Courthouse
+    address: 201 West Front Street, Media, PA 19063
+    lat: 39.9192073
+    lng: -75.3913305
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/delaware-county
+    kind: courthouse
+
+  - id: pa-elk-courthouse
+    state: PA
+    county: Elk
+    name: Elk County Courthouse
+    address: 250 Main Street, Ridgway, PA 15853
+    lat: 41.4217460
+    lng: -78.7301541
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/elk-county
+    kind: courthouse
+
+  - id: pa-erie-courthouse
+    state: PA
+    county: Erie
+    name: Erie County Courthouse
+    address: 140 West Sixth Street, Erie, PA 16501
+    lat: 42.1285962
+    lng: -80.0876996
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/erie-county
+    kind: courthouse
+
+  - id: pa-fayette-courthouse
+    state: PA
+    county: Fayette
+    name: Fayette County Courthouse
+    address: 61 East Main Street, Uniontown, PA 15401
+    lat: 39.9014098
+    lng: -79.7229960
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/fayette-county
+    kind: courthouse
+
+  - id: pa-forest-courthouse
+    state: PA
+    county: Forest
+    name: Warren County Courthouse
+    address: 204 Fourth Avenue, Warren, PA 16365
+    lat: 41.8480253
+    lng: -79.1471158
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/forest-county
+    kind: courthouse
+
+  - id: pa-franklin-courthouse
+    state: PA
+    county: Franklin
+    name: Franklin County Courthouse
+    address: 157 Lincoln Way East, Chambersburg, PA 17201
+    lat: 39.9373376
+    lng: -77.6596345
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/franklin-county
+    kind: courthouse
+
+  - id: pa-fulton-courthouse
+    state: PA
+    county: Fulton
+    name: Fulton County Courthouse
+    address: 201 N. Second Street, McConnellsburg, PA 17233
+    lat: 39.9338900
+    lng: -77.9984100
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/fulton-county
+    kind: courthouse
+
+  - id: pa-greene-courthouse
+    state: PA
+    county: Greene
+    name: Greene County Courthouse
+    address: 10 East High Street, Waynesburg, PA 15370
+    lat: 39.8964048
+    lng: -80.1867696
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/greene-county
+    kind: courthouse
+
+  - id: pa-huntingdon-courthouse
+    state: PA
+    county: Huntingdon
+    name: Huntingdon County Courthouse
+    address: 223 Penn Street, Huntingdon, PA 16652
+    lat: 40.4834554
+    lng: -78.0075634
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/huntingdon-county
+    kind: courthouse
+
+  - id: pa-indiana-courthouse
+    state: PA
+    county: Indiana
+    name: Indiana County Courthouse
+    address: 825 Philadelphia Street, Indiana, PA 15701
+    lat: 40.6230404
+    lng: -79.1550258
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/indiana-county
+    kind: courthouse
+
+  - id: pa-jefferson-courthouse
+    state: PA
+    county: Jefferson
+    name: Jefferson County Courthouse
+    address: 200 Main Street, Brookville, PA 15825
+    lat: 41.1560134
+    lng: -79.0926352
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/jefferson-county
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: pa-juniata-courthouse
+    state: PA
+    county: Juniata
+    name: Juniata County Courthouse
+    address: 26 N. Main Street, Mifflintown, PA 17059
+    lat: 40.5707445
+    lng: -77.3971183
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/juniata-county
+    kind: courthouse
+
+  - id: pa-lackawanna-courthouse
+    state: PA
+    county: Lackawanna
+    name: Lackawanna County Courthouse
+    address: 200 North Washington Avenue, Scranton, PA 18503
+    lat: 41.4079481
+    lng: -75.6635657
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lackawanna-county
+    kind: courthouse
+
+  - id: pa-lancaster-courthouse
+    state: PA
+    county: Lancaster
+    name: Lancaster County Courthouse
+    address: 50 North Duke Street, Lancaster, PA 17608
+    lat: 40.0393585
+    lng: -76.3039303
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lancaster-county
+    kind: courthouse
+
+  - id: pa-lawrence-courthouse
+    state: PA
+    county: Lawrence
+    name: Lawrence County Government Center
+    address: 430 Court Street, New Castle, PA 16101
+    lat: 40.9988676
+    lng: -80.3387879
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lawrence-county
+    kind: courthouse
+
+  - id: pa-lebanon-courthouse
+    state: PA
+    county: Lebanon
+    name: Lebanon County Courthouse
+    address: 400 South Eighth Street, Lebanon, PA 17042
+    lat: 40.3334311
+    lng: -76.4237266
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lebanon-county
+    kind: courthouse
+
+  - id: pa-lehigh-courthouse
+    state: PA
+    county: Lehigh
+    name: Lehigh County Courthouse
+    address: 455 Hamilton Street, Allentown, PA 18101
+    lat: 40.6035273
+    lng: -75.4672455
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lehigh-county
+    kind: courthouse
+
+  - id: pa-luzerne-courthouse
+    state: PA
+    county: Luzerne
+    name: Luzerne County Courthouse
+    address: 113 West North Street, Wilkes-Barre, PA 18711
+    lat: 41.2517801
+    lng: -75.8779079
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/luzerne-county
+    kind: courthouse
+
+  - id: pa-lycoming-courthouse
+    state: PA
+    county: Lycoming
+    name: Lycoming County Courthouse
+    address: 48 West Third Street, Williamsport, PA 17701
+    lat: 41.2407532
+    lng: -77.0019026
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/lycoming-county
+    kind: courthouse
+
+  - id: pa-mckean-courthouse
+    state: PA
+    county: McKean
+    name: McKean County Courthouse
+    address: 500 West Main Street, Smethport, PA 16749
+    lat: 41.8096180
+    lng: -78.4467868
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mckean-county
+    kind: courthouse
+
+  - id: pa-mercer-courthouse
+    state: PA
+    county: Mercer
+    name: Mercer County Courthouse
+    address: 125 S. Diamond Street, Mercer, PA 16137
+    lat: 41.2265863
+    lng: -80.2387893
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mercer-county
+    kind: courthouse
+
+  - id: pa-mifflin-courthouse
+    state: PA
+    county: Mifflin
+    name: Mifflin County Courthouse
+    address: 20 North Wayne Street, Lewistown, PA 17044
+    lat: 40.5972859
+    lng: -77.5766647
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/mifflin-county
+    kind: courthouse
+
+  - id: pa-monroe-courthouse
+    state: PA
+    county: Monroe
+    name: Monroe County Courthouse
+    address: 610 Monroe Street, Stroudsburg, PA 18360
+    lat: 40.9866032
+    lng: -75.1946205
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/monroe-county
+    kind: courthouse
+
+  - id: pa-montgomery-courthouse
+    state: PA
+    county: Montgomery
+    name: Montgomery County Courthouse
+    address: 2 E. Airy St., Norristown, PA 19401
+    lat: 40.1160750
+    lng: -75.3436455
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/montgomery-county
+    kind: courthouse
+
+  - id: pa-montour-courthouse
+    state: PA
+    county: Montour
+    name: Montour County Courthouse
+    address: 253 Mill St., Danville, PA 17821
+    lat: 40.9602310
+    lng: -76.6193070
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/montour-county
+    kind: courthouse
+
+  - id: pa-northampton-courthouse
+    state: PA
+    county: Northampton
+    name: Northampton County Courthouse
+    address: 669 Washington Street, Easton, PA 18042
+    lat: 40.6871701
+    lng: -75.2160483
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/northampton-county
+    kind: courthouse
+
+  - id: pa-northumberland-courthouse
+    state: PA
+    county: Northumberland
+    name: Northumberland County Courthouse
+    address: 201 Market Street, Sunbury, PA 17801
+    lat: 40.8620606
+    lng: -76.7948323
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/northumberland-county
+    kind: courthouse
+
+  - id: pa-perry-courthouse
+    state: PA
+    county: Perry
+    name: Perry County Courthouse
+    address: 2 E. Main Street, New Bloomfield, PA 17068
+    lat: 40.4198162
+    lng: -77.1871290
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/perry-county
+    kind: courthouse
+
+  - id: pa-philadelphia-courthouse
+    state: PA
+    county: Philadelphia
+    name: Philadelphia County Courthouse
+    address: 640 City Hall, Philadelphia, PA 19107
+    lat: 39.9523995
+    lng: -75.1629893
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts
+    kind: courthouse
+
+  - id: pa-pike-courthouse
+    state: PA
+    county: Pike
+    name: Pike County Courthouse
+    address: 412 Broad Street, Milford, PA 18337
+    lat: 41.3241565
+    lng: -74.8010799
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/pike-county
+    kind: courthouse
+
+  - id: pa-potter-courthouse
+    state: PA
+    county: Potter
+    name: Potter County Courthouse
+    address: 1 E. Second Street, Coudersport, PA 16915
+    lat: 41.7746470
+    lng: -78.0209114
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/potter-county
+    kind: courthouse
+
+  - id: pa-schuylkill-courthouse
+    state: PA
+    county: Schuylkill
+    name: Schuylkill County Courthouse
+    address: 401 North Second Street, Pottsville, PA 17901
+    lat: 40.6873740
+    lng: -76.1979891
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/schuylkill-county
+    kind: courthouse
+
+  - id: pa-snyder-courthouse
+    state: PA
+    county: Snyder
+    name: Union County Courthouse
+    address: 103 South Second Street, Lewisburg, PA 17837
+    lat: 40.9637201
+    lng: -76.8823880
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/snyder-county
+    kind: courthouse
+
+  - id: pa-somerset-courthouse
+    state: PA
+    county: Somerset
+    name: Somerset County Courthouse
+    address: 111 East Union Street, Somerset, PA 15501
+    lat: 40.0093784
+    lng: -79.0780647
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/somerset-county
+    kind: courthouse
+
+  - id: pa-sullivan-courthouse
+    state: PA
+    county: Sullivan
+    name: Sullivan County Courthouse
+    address: 245 Muncy Street, Laporte, PA 18626
+    lat: 41.4233263
+    lng: -76.4939184
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/sullivan-county
+    kind: courthouse
+
+  - id: pa-susquehanna-courthouse
+    state: PA
+    county: Susquehanna
+    name: Susquehanna County Courthouse
+    address: 31 Lake Avenue, Montrose, PA 18801
+    lat: 41.8359630
+    lng: -75.8751258
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/susquehanna-county
+    kind: courthouse
+
+  - id: pa-tioga-courthouse
+    state: PA
+    county: Tioga
+    name: Tioga County Courthouse
+    address: 118 Main Street, Wellsboro, PA 16901
+    lat: 41.7469777
+    lng: -77.3028759
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/tioga-county
+    kind: courthouse
+
+  - id: pa-union-courthouse
+    state: PA
+    county: Union
+    name: Union County Courthouse
+    address: 103 South Second Street, Lewisburg, PA 17837
+    lat: 40.9637201
+    lng: -76.8823880
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/union-county
+    kind: courthouse
+
+  - id: pa-venango-courthouse
+    state: PA
+    county: Venango
+    name: Venango County Courthouse
+    address: 1168 Liberty Street, Franklin, PA 16323
+    lat: 41.3969980
+    lng: -79.8275499
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/venango-county
+    kind: courthouse
+
+  - id: pa-warren-courthouse
+    state: PA
+    county: Warren
+    name: Warren County Courthouse
+    address: 204 Fourth Avenue, Warren, PA 16365
+    lat: 41.8480253
+    lng: -79.1471158
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/warren-county
+    kind: courthouse
+
+  - id: pa-washington-courthouse
+    state: PA
+    county: Washington
+    name: Washington County Courthouse
+    address: 1 South Main Street, Washington, PA 15301
+    lat: 40.1708031
+    lng: -80.2455124
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/washington-county
+    kind: courthouse
+
+  - id: pa-wayne-courthouse
+    state: PA
+    county: Wayne
+    name: Wayne County Courthouse
+    address: 925 Court Street, Honesdale, PA 18431
+    lat: 41.5743976
+    lng: -75.2542502
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/wayne-county
+    kind: courthouse
+
+  - id: pa-westmoreland-courthouse
+    state: PA
+    county: Westmoreland
+    name: Westmoreland County Courthouse
+    address: 2 North Main Street, Greensburg, PA 15601
+    lat: 40.3135810
+    lng: -79.5481736
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/westmoreland-county
+    kind: courthouse
+
+  - id: pa-wyoming-courthouse
+    state: PA
+    county: Wyoming
+    name: Wyoming County Courthouse
+    address: 1 Court House Square, Tunkhannock, PA 18657
+    lat: 41.5401689
+    lng: -75.9480919
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/wyoming-county
+    kind: courthouse
+
+  - id: pa-york-courthouse
+    state: PA
+    county: York
+    name: York County Judicial Center
+    address: 45 North George Street, York, PA 17401
+    lat: 39.9633861
+    lng: -76.7281481
+    url: https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/york-county
+    kind: courthouse

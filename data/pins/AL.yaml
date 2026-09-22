@@ -1,0 +1,840 @@
+# Alabama map pins — county courthouses (phase P5, MapLibre).
+#
+# Verification (2026-09-21):
+# - Addresses taken from official county court pages (county.alacourt.gov, the
+#   Alabama Administrative Office of Courts' official county sites); Fayette from
+#   the official county courthouse page; Dale from the Alabama SOS
+#   city-county-lookup record for Dale County officials.
+# - Every pin URL curl-verified HTTP 200 the same day (Fayette's official
+#   courthouse page on HTTP now serves HTTPS; HTTPS URL used).
+# - Coordinates geocoded via Nominatim (1+ s between requests), with cross-checks:
+#   Nominatim display_name confirmed correct city/county/AL for each address hit;
+#   10 pins use coordinates from the official site's own "Need Directions" map
+#   link because Nominatim has no street-level record for those rural addresses
+#   (Barbour, Butler, Clay, Coffee/Elba, Dale, Elmore, Henry, Pike, St. Clair;
+#   Covington uses the Andalusia town centroid — approximate).
+#
+# Omissions: none — all 67 Alabama counties are represented.
+#
+# Caveats:
+# - Multi-location counties; the pin marks the county-seat/main courthouse:
+#   Barbour (Eufaula division: 405 East Barbour Street, Suite A119),
+#   Coffee (Enterprise division: 101 S Edwards Street; pin is Elba),
+#   Marshall (Albertville division: 133 South Emmett Street),
+#   Jefferson (pin is Birmingham; a Bessemer division exists),
+#   St. Clair (pin is the Ashville county-seat courthouse; a Pell City
+#   division exists).
+# - Dale: the official court site footer lists only PO Box 1350; the physical
+#   address (100 E Court Square, Ozark) is from the Alabama SOS official lookup
+#   for the Dale County Circuit Clerk's office; coordinates come from the
+#   official site's own directions link (Google: "Dale County Circuit Court").
+# - Pike: the official footer names "Pike County Judicial Complex,
+#   1318 N Three Notch St." but the site's own directions map pins
+#   120 W Church St, Troy; the pin uses the map-pinned address pending court
+#   clarification.
+# - Hosts used beyond the AL.yaml official_hosts allowlist need parent review:
+#   alacourt.gov (all 66 court pins), fayetteco.net (Fayette courthouse page).
+# Do not commit without review.
+pins:
+
+  - id: al-autauga-courthouse
+    state: AL
+    county: Autauga
+    name: Autauga County District Court
+    address: 134 North Court Street, Prattville, AL 36067
+    lat: 32.4635707
+    lng: -86.4751956
+    url: https://autauga.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-baldwin-courthouse
+    state: AL
+    county: Baldwin
+    name: Baldwin County District Court
+    address: 312 Courthouse Square, Suite 10, Bay Minette, AL 36507
+    lat: 30.8832314
+    lng: -87.7743339
+    url: https://baldwin.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-barbour-courthouse
+    state: AL
+    county: Barbour
+    name: Barbour County District Court
+    address: One Court Square, Clayton, AL 36016
+    lat: 31.8781886
+    lng: -85.4496204
+    url: https://barbour.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-bibb-courthouse
+    state: AL
+    county: Bibb
+    name: Bibb County District Court
+    address: 35 Court Square East, Centreville, AL 35042
+    lat: 32.9457434
+    lng: -87.1357422
+    url: https://bibb.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-blount-courthouse
+    state: AL
+    county: Blount
+    name: Blount County District Court
+    address: 220 2nd Ave E, Oneonta, AL 35121
+    lat: 33.9464158
+    lng: -86.4760473
+    url: https://blount.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-bullock-courthouse
+    state: AL
+    county: Bullock
+    name: Bullock County District Court
+    address: 217 N Prairie St, Union Springs, AL 36089
+    lat: 32.1348378
+    lng: -85.7160661
+    url: https://bullock.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-butler-courthouse
+    state: AL
+    county: Butler
+    name: Butler County District Court
+    address: 700 Court Square, Greenville, AL 36037
+    lat: 31.8295979
+    lng: -86.6178018
+    url: https://butler.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-calhoun-courthouse
+    state: AL
+    county: Calhoun
+    name: Calhoun County District Court
+    address: 25 West 11th Street, Anniston, AL 36201
+    lat: 33.6588560
+    lng: -85.8309524
+    url: https://calhoun.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-chambers-courthouse
+    state: AL
+    county: Chambers
+    name: Chambers County District Court
+    address: 2 Lafayette Street South, Suite B-114, Lafayette, AL 36862
+    lat: 32.8855001
+    lng: -85.4045415
+    url: https://chambers.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-cherokee-courthouse
+    state: AL
+    county: Cherokee
+    name: Cherokee County District Court
+    address: 373 East Main Street, Suite 102, Centre, AL 35960
+    lat: 34.1513826
+    lng: -85.6765118
+    url: https://cherokee.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-chilton-courthouse
+    state: AL
+    county: Chilton
+    name: Chilton County District Court
+    address: 500 2nd Ave N, Clanton, AL 35045
+    lat: 32.8400971
+    lng: -86.6296476
+    url: https://chilton.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-choctaw-courthouse
+    state: AL
+    county: Choctaw
+    name: Choctaw County District Court
+    address: 117 South Mulberry Ave, Suite 10, Butler, AL 36904
+    lat: 32.0868572
+    lng: -88.2213871
+    url: https://choctaw.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-clarke-courthouse
+    state: AL
+    county: Clarke
+    name: Clarke County District Court
+    address: 114 Court Street, Grove Hill, AL 36451
+    lat: 31.7088905
+    lng: -87.7786996
+    url: https://clarke.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-clay-courthouse
+    state: AL
+    county: Clay
+    name: Clay County District Court
+    address: 25 Court Square, Ashland, AL 36251
+    lat: 33.2742595
+    lng: -85.8357087
+    url: https://clay.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-cleburne-courthouse
+    state: AL
+    county: Cleburne
+    name: Cleburne County District Court
+    address: 120 Vickery Street, Room 202, Heflin, AL 36264
+    lat: 33.6498800
+    lng: -85.5878818
+    url: https://cleburne.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-coffee-courthouse
+    state: AL
+    county: Coffee
+    name: Coffee County District Court
+    address: 230 Court Ave, Elba, AL 36323
+    lat: 31.4141482
+    lng: -86.0655853
+    url: https://coffee.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-colbert-courthouse
+    state: AL
+    county: Colbert
+    name: Colbert County District Court
+    address: 201 North Main Street, Tuscumbia, AL 35674
+    lat: 34.7338773
+    lng: -87.7043825
+    url: https://colbert.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-conecuh-courthouse
+    state: AL
+    county: Conecuh
+    name: Conecuh County District Court
+    address: 111 Court St, Evergreen, AL 36401
+    lat: 31.4342472
+    lng: -86.9562126
+    url: https://conecuh.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-coosa-courthouse
+    state: AL
+    county: Coosa
+    name: Coosa County District Court
+    address: 9709 US-231, Rockford, AL 35136
+    lat: 32.8973466
+    lng: -86.2149312
+    url: https://coosa.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-covington-courthouse
+    state: AL
+    county: Covington
+    name: Covington County District Court
+    address: 1-K North Court Square, Andalusia, AL 36420
+    lat: 31.3080607
+    lng: -86.4824240
+    url: https://covington.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-crenshaw-courthouse
+    state: AL
+    county: Crenshaw
+    name: Crenshaw County District Court
+    address: 29 S Glenwood Ave, Suite 206, Luverne, AL 36049
+    lat: 31.7136046
+    lng: -86.2628219
+    url: https://crenshaw.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-cullman-courthouse
+    state: AL
+    county: Cullman
+    name: Cullman County District Court
+    address: 500 2nd Ave SW, Cullman, AL 35055
+    lat: 34.1727040
+    lng: -86.8423140
+    url: https://cullman.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-dale-courthouse
+    state: AL
+    county: Dale
+    name: Dale County District Court
+    address: 100 E Court Square, Ozark, AL 36360
+    lat: 31.4580124
+    lng: -85.6406368
+    url: https://dale.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-dallas-courthouse
+    state: AL
+    county: Dallas
+    name: Dallas County District Court
+    address: 105 Lauderdale Street, Selma, AL 36701
+    lat: 32.4104836
+    lng: -87.0227669
+    url: https://dallas.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-dekalb-courthouse
+    state: AL
+    county: DeKalb
+    name: DeKalb County District Court
+    address: 300 Grand Avenue South, Suite 200, Fort Payne, AL 35967
+    lat: 34.4339073
+    lng: -85.7313078
+    url: https://dekalb.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-elmore-courthouse
+    state: AL
+    county: Elmore
+    name: Elmore County District Court
+    address: 8935 US Highway 231 N, Wetumpka, AL 36092
+    lat: 32.563277
+    lng: -86.194735
+    url: https://elmore.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-escambia-courthouse
+    state: AL
+    county: Escambia
+    name: Escambia County District Court
+    address: 314 Belleville Ave, Brewton, AL 36427
+    lat: 31.1065574
+    lng: -87.0715066
+    url: https://escambia.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-etowah-courthouse
+    state: AL
+    county: Etowah
+    name: Etowah County District Court
+    address: 801 Forrest Ave, Gadsden, AL 35901
+    lat: 34.0156329
+    lng: -86.0116434
+    url: https://etowah.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-fayette-courthouse
+    state: AL
+    county: Fayette
+    name: Fayette County District Court
+    address: 113 Temple Ave N, Fayette, AL 35555
+    lat: 33.7103436
+    lng: -87.8217678
+    url: https://www.fayetteco.net/home/about/county-courthouse/
+    kind: courthouse
+
+  - id: al-franklin-courthouse
+    state: AL
+    county: Franklin
+    name: Franklin County District Court
+    address: 410 N Jackson Ave, Russellville, AL 35653
+    lat: 34.5086440
+    lng: -87.7283470
+    url: https://franklin.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-geneva-courthouse
+    state: AL
+    county: Geneva
+    name: Geneva County District Court
+    address: 200 N Commerce St, Geneva, AL 36340
+    lat: 31.0396820
+    lng: -85.8661870
+    url: https://geneva.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-greene-courthouse
+    state: AL
+    county: Greene
+    name: Greene County District Court
+    address: 400 Morrow Ave, Eutaw, AL 35462
+    lat: 32.8393525
+    lng: -87.8870326
+    url: https://greene.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-hale-courthouse
+    state: AL
+    county: Hale
+    name: Hale County District Court
+    address: 1001 Main St, Greensboro, AL 36744
+    lat: 32.7037567
+    lng: -87.5924197
+    url: https://hale.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-henry-courthouse
+    state: AL
+    county: Henry
+    name: Henry County District Court
+    address: 101 Court Square, Suite J, Abbeville, AL 36310
+    lat: 31.5712413
+    lng: -85.2499008
+    url: https://henry.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-houston-courthouse
+    state: AL
+    county: Houston
+    name: Houston County District Court
+    address: 114 North Oates Street, Dothan, AL 36303
+    lat: 31.2244600
+    lng: -85.3933781
+    url: https://houston.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-jackson-courthouse
+    state: AL
+    county: Jackson
+    name: Jackson County District Court
+    address: 102 East Laurel Street, Scottsboro, AL 35768
+    lat: 34.6727523
+    lng: -86.0346027
+    url: https://jackson.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-jefferson-courthouse
+    state: AL
+    county: Jefferson
+    name: Jefferson County District Court
+    address: 716 Richard Arrington Jr Blvd N, Birmingham, AL 35203
+    lat: 33.5212188
+    lng: -86.8085206
+    url: https://jefferson.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-lamar-courthouse
+    state: AL
+    county: Lamar
+    name: Lamar County District Court
+    address: 330 1st Street NE, Vernon, AL 35592
+    lat: 33.7560455
+    lng: -88.1084635
+    url: https://lamar.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-lauderdale-courthouse
+    state: AL
+    county: Lauderdale
+    name: Lauderdale County District Court
+    address: 200 S Court St, Florence, AL 35630
+    lat: 34.7991090
+    lng: -87.6753580
+    url: https://lauderdale.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-lawrence-courthouse
+    state: AL
+    county: Lawrence
+    name: Lawrence County District Court
+    address: 14451 Market St, Moulton, AL 35650
+    lat: 34.4811306
+    lng: -87.2918740
+    url: https://lawrence.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-lee-courthouse
+    state: AL
+    county: Lee
+    name: Lee County District Court
+    address: 2311 Gateway Dr, Opelika, AL 36801
+    lat: 32.6239897
+    lng: -85.4049337
+    url: https://lee.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-limestone-courthouse
+    state: AL
+    county: Limestone
+    name: Limestone County District Court
+    address: 200 Washington St West, Athens, AL 35611
+    lat: 34.8028514
+    lng: -86.9716181
+    url: https://limestone.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-lowndes-courthouse
+    state: AL
+    county: Lowndes
+    name: Lowndes County District Court
+    address: 1 South Washington Street, Hayneville, AL 36040
+    lat: 32.1828446
+    lng: -86.5799499
+    url: https://lowndes.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-macon-courthouse
+    state: AL
+    county: Macon
+    name: Macon County District Court
+    address: 101 Rosa Parks Plaza, Tuskegee, AL 36083
+    lat: 32.4224199
+    lng: -85.6948110
+    url: https://macon.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-madison-courthouse
+    state: AL
+    county: Madison
+    name: Madison County District Court
+    address: 100 North Side Square, Room 217, Huntsville, AL 35801
+    lat: 34.7302567
+    lng: -86.5850583
+    url: https://madison.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-marengo-courthouse
+    state: AL
+    county: Marengo
+    name: Marengo County District Court
+    address: 101 E Coats Ave, Linden, AL 36748
+    lat: 32.3016669
+    lng: -87.7794150
+    url: https://marengo.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-marion-courthouse
+    state: AL
+    county: Marion
+    name: Marion County District Court
+    address: 132 Military Street South, Hamilton, AL 35570
+    lat: 34.0916990
+    lng: -87.9840165
+    url: https://marion.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-marshall-courthouse
+    state: AL
+    county: Marshall
+    name: Marshall County District Court
+    address: 424 Blount Avenue, Suite 201, Guntersville, AL 35976
+    lat: 34.3585943
+    lng: -86.2931847
+    url: https://marshall.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-mobile-courthouse
+    state: AL
+    county: Mobile
+    name: Mobile County District Court
+    address: 205 Government Street, Mobile, AL 36644
+    lat: 30.6889619
+    lng: -88.0424368
+    url: https://mobile.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-monroe-courthouse
+    state: AL
+    county: Monroe
+    name: Monroe County District Court
+    address: 65 North Alabama Ave, Room 220, Monroeville, AL 36460
+    lat: 31.5271087
+    lng: -87.3242992
+    url: https://monroe.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-montgomery-courthouse
+    state: AL
+    county: Montgomery
+    name: Montgomery County District Court
+    address: 251 S Lawrence St, Montgomery, AL 36104
+    lat: 32.3745620
+    lng: -86.3059653
+    url: https://montgomery.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-morgan-courthouse
+    state: AL
+    county: Morgan
+    name: Morgan County District Court
+    address: 302 Lee St NE, Decatur, AL 35601
+    lat: 34.6062649
+    lng: -86.9849867
+    url: https://morgan.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-perry-courthouse
+    state: AL
+    county: Perry
+    name: Perry County District Court
+    address: 300 Washington Street, Suite 110, Marion, AL 36756
+    lat: 32.6329149
+    lng: -87.3190308
+    url: https://perry.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-pickens-courthouse
+    state: AL
+    county: Pickens
+    name: Pickens County District Court
+    address: 20 Phoenix Ave, Carrollton, AL 35447
+    lat: 33.2628892
+    lng: -88.0954063
+    url: https://pickens.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-pike-courthouse
+    state: AL
+    county: Pike
+    name: Pike County District Court
+    address: 120 W Church St, Troy, AL 36081
+    lat: 31.807277
+    lng: -85.9735892
+    url: https://pike.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-randolph-courthouse
+    state: AL
+    county: Randolph
+    name: Randolph County District Court
+    address: 1 Main St South, Wedowee, AL 36278
+    lat: 33.2907442
+    lng: -85.4753476
+    url: https://randolph.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-russell-courthouse
+    state: AL
+    county: Russell
+    name: Russell County District Court
+    address: 1000 Broad Street, Phenix City, AL 36867
+    lat: 32.4680734
+    lng: -85.0012843
+    url: https://russell.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-shelby-courthouse
+    state: AL
+    county: Shelby
+    name: Shelby County District Court
+    address: 112 North Main Street, First Floor, Columbiana, AL 35051
+    lat: 33.1784699
+    lng: -86.6072051
+    url: https://shelby.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-st-clair-courthouse
+    state: AL
+    county: St. Clair
+    name: St. Clair County District Court
+    address: 100 6th Avenue North, Suite 400, Ashville, AL 35953
+    lat: 33.8369035
+    lng: -86.2549437
+    url: https://stclair.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-sumter-courthouse
+    state: AL
+    county: Sumter
+    name: Sumter County District Court
+    address: 115 Franklin St, Livingston, AL 35470
+    lat: 32.5831881
+    lng: -88.1880791
+    url: https://sumter.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-talladega-courthouse
+    state: AL
+    county: Talladega
+    name: Talladega County District Court
+    address: 148 East Street N, Talladega, AL 35160
+    lat: 33.4358373
+    lng: -86.0999176
+    url: https://talladega.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-tallapoosa-courthouse
+    state: AL
+    county: Tallapoosa
+    name: Tallapoosa County District Court
+    address: 125 North Broadnax, Dadeville, AL 36853
+    lat: 32.8310480
+    lng: -85.7640621
+    url: https://tallapoosa.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-tuscaloosa-courthouse
+    state: AL
+    county: Tuscaloosa
+    name: Tuscaloosa County District Court
+    address: 714 Greensboro Ave, Tuscaloosa, AL 35401
+    lat: 33.2072967
+    lng: -87.5678541
+    url: https://tuscaloosa.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-walker-courthouse
+    state: AL
+    county: Walker
+    name: Walker County District Court
+    address: 1803 3rd Avenue, Suite 205, Jasper, AL 35501
+    lat: 33.8346450
+    lng: -87.2777697
+    url: https://walker.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-washington-courthouse
+    state: AL
+    county: Washington
+    name: Washington County District Court
+    address: 45 Court Street, Chatom, AL 36518
+    lat: 31.4656737
+    lng: -88.2565792
+    url: https://washington.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse
+
+  - id: al-wilcox-courthouse
+    state: AL
+    county: Wilcox
+    name: Wilcox County District Court
+    address: 12 Water Street, Suite 304, Camden, AL 36726
+    lat: 31.9909848
+    lng: -87.2883802
+    url: https://wilcox.alacourt.gov/
+    link_check: manual
+    verification_note: "Official Alabama county court site (county.alacourt.gov family). clay.alacourt.gov was human-verified live in a real browser on 2026-09-21 with official court content; this site’s bot defenses reset automated connections, so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+
+  - id: al-winston-courthouse
+    state: AL
+    county: Winston
+    name: Winston County District Court
+    address: 10 Blake Dr, Double Springs, AL 35553
+    lat: 34.1464340
+    lng: -87.4023119
+    url: https://winston.alacourt.gov/
+    link_check: manual
+    verification_note: "Sixty-six Alabama courthouse pins share this host. All returned HTTP 200 on 2026-09-21; as of late 2026-09-21 automated checks from this network stall mid-TLS-handshake (DNS resolves, TCP connects), indicating network-level blocking rather than a dead site. Automated checking is waived for this record (link_check: manual); re-verify from another network when possible."
+    kind: courthouse

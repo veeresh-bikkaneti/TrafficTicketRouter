@@ -1,0 +1,62 @@
+# Nevada — 17 counties. 1 verified justice-court card (Clark County).
+# nvcourts.gov returned 403 to automated verification; Clark County Justice Court
+# URL verified live to HTTP 200 on 2026-09-21 via official clarkcountynv.gov.
+# 16 counties omitted (official justice-court pages not independently verified).
+state: NV
+state_name: Nevada
+last_verified: "2026-09-21"
+official_hosts:
+  - clarkcountynv.gov
+counties:
+  - name: Carson City
+    note: "Official justice-court page not independently verified."
+  - name: Churchill
+    note: "Official justice-court page not independently verified."
+  - name: Clark
+    note: "Traffic venue is Henderson Justice Court (Clark County)."
+  - name: Douglas
+    note: "Official justice-court page not independently verified."
+  - name: Elko
+    note: "Official justice-court page not independently verified."
+  - name: Esmeralda
+    note: "Official justice-court page not independently verified."
+  - name: Eureka
+    note: "Official justice-court page not independently verified."
+  - name: Humboldt
+    note: "Official justice-court page not independently verified."
+  - name: Lander
+    note: "Official justice-court page not independently verified."
+  - name: Lincoln
+    note: "Official justice-court page not independently verified."
+  - name: Lyon
+    note: "Official justice-court page not independently verified."
+  - name: Mineral
+    note: "Official justice-court page not independently verified."
+  - name: Nye
+    note: "Official justice-court page not independently verified."
+  - name: Pershing
+    note: "Official justice-court page not independently verified."
+  - name: Storey
+    note: "Official justice-court page not independently verified."
+  - name: Washoe
+    note: "Official justice-court page not independently verified."
+  - name: White Pine
+    note: "Official justice-court page not independently verified."
+cards:
+  - id: clark-justice-card
+    verification: link_ok
+    source_url: "https://www.clarkcountynv.gov/government/departments/justice_courts/jurisdictions/henderson/divisions/traffic"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henderson Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on clarkcountynv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10

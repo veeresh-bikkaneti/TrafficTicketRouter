@@ -1,0 +1,1587 @@
+# Georgia courthouse pins.
+# Miller County: pin omitted -- official street address could not be geocoded to a verified point.
+# Stewart County: pin omitted -- official GSCCCA record lists only a P.O. Box.
+state: GA
+pins:
+  - id: ga-appling-courthouse
+    state: GA
+    county: Appling
+    name: "Appling County Courthouse"
+    address: "69 Tippins St, Baxley, GA 31513"
+    lat: 31.778187
+    lng: -82.350196
+    url: https://www.gsccca.org/clerks/clerk-results?cid=1
+    kind: courthouse
+
+  - id: ga-atkinson-courthouse
+    state: GA
+    county: Atkinson
+    name: "Atkinson County Courthouse"
+    address: "717 N. Main Street, Pearson, GA 31642"
+    lat: 31.306622
+    lng: -82.850247
+    url: https://www.gsccca.org/clerks/clerk-results?cid=2
+    kind: courthouse
+
+  - id: ga-bacon-courthouse
+    state: GA
+    county: Bacon
+    name: "Bacon County Courthouse"
+    address: "502 W. 12th St, Alma, GA 31510"
+    lat: 31.541692
+    lng: -82.465492
+    url: https://www.gsccca.org/clerks/clerk-results?cid=3
+    kind: courthouse
+
+  - id: ga-baker-courthouse
+    state: GA
+    county: Baker
+    name: "Baker County Courthouse"
+    address: "167 Baker Place, Newton, GA 39870"
+    lat: 31.317093
+    lng: -84.341358
+    url: https://www.gsccca.org/clerks/clerk-results?cid=4
+    kind: courthouse
+
+  - id: ga-baldwin-courthouse
+    state: GA
+    county: Baldwin
+    name: "Baldwin County Courthouse"
+    address: "121 N. Wilkinson St, Milledgeville, GA 31061"
+    lat: 33.082897
+    lng: -83.22927
+    url: https://www.gsccca.org/clerks/clerk-results?cid=5
+    kind: courthouse
+
+  - id: ga-banks-courthouse
+    state: GA
+    county: Banks
+    name: "Banks County Courthouse"
+    address: "144 Yonah Homer Rd, Homer, GA 30547"
+    lat: 34.33969
+    lng: -83.505138
+    url: https://www.gsccca.org/clerks/clerk-results?cid=6
+    kind: courthouse
+
+  - id: ga-barrow-courthouse
+    state: GA
+    county: Barrow
+    name: "Barrow County Courthouse"
+    address: "652 Barrow Park Dr, Winder, GA 30680"
+    lat: 34.000848
+    lng: -83.759274
+    url: https://www.gsccca.org/clerks/clerk-results?cid=7
+    kind: courthouse
+
+  - id: ga-bartow-courthouse
+    state: GA
+    county: Bartow
+    name: "Bartow County Courthouse"
+    address: "135 W. Cherokee Ave, Cartersville, GA 30120"
+    lat: 34.165845
+    lng: -84.799778
+    url: https://www.gsccca.org/clerks/clerk-results?cid=8
+    kind: courthouse
+
+  - id: ga-ben-hill-courthouse
+    state: GA
+    county: Ben Hill
+    name: "Ben Hill County Courthouse"
+    address: "115 South Sheridan Street, Fitzgerald, GA 31750"
+    lat: 31.714629
+    lng: -83.250322
+    url: https://www.gsccca.org/clerks/clerk-results?cid=9
+    kind: courthouse
+
+  - id: ga-berrien-courthouse
+    state: GA
+    county: Berrien
+    name: "Berrien County Courthouse"
+    address: "201 N. Davis Street, Nashville, GA 31639"
+    lat: 31.208479
+    lng: -83.249495
+    url: https://www.gsccca.org/clerks/clerk-results?cid=10
+    kind: courthouse
+
+  - id: ga-bibb-courthouse
+    state: GA
+    county: Bibb
+    name: "Bibb County Courthouse"
+    address: "601 Mulberry Street, MACON, GA 31201"
+    lat: 32.838667
+    lng: -83.628101
+    url: https://www.gsccca.org/clerks/clerk-results?cid=11
+    kind: courthouse
+
+  - id: ga-bleckley-courthouse
+    state: GA
+    county: Bleckley
+    name: "Bleckley County Courthouse"
+    address: "112 N. Second Street, Cochran, GA 31014"
+    lat: 32.387383
+    lng: -83.355165
+    url: https://www.gsccca.org/clerks/clerk-results?cid=12
+    kind: courthouse
+
+  - id: ga-brantley-courthouse
+    state: GA
+    county: Brantley
+    name: "Brantley County Courthouse"
+    address: "234 Brantley St, Nahunta, GA 31553"
+    lat: 31.203232
+    lng: -81.981688
+    url: https://www.gsccca.org/clerks/clerk-results?cid=13
+    kind: courthouse
+
+  - id: ga-brooks-courthouse
+    state: GA
+    county: Brooks
+    name: "Brooks County Courthouse"
+    address: "#1 Screven Street, Quitman, GA 31643"
+    lat: 30.784553
+    lng: -83.547905
+    url: https://www.gsccca.org/clerks/clerk-results?cid=14
+    kind: courthouse
+
+  - id: ga-bryan-courthouse
+    state: GA
+    county: Bryan
+    name: "Bryan County Courthouse"
+    address: "151 South College Street, Pembroke, GA 31321"
+    lat: 32.131154
+    lng: -81.622038
+    url: https://www.gsccca.org/clerks/clerk-results?cid=15
+    kind: courthouse
+
+  - id: ga-bulloch-courthouse
+    state: GA
+    county: Bulloch
+    name: "Bulloch County Courthouse"
+    address: "20 Siebald St, Statesboro, GA 30458"
+    lat: 32.449942
+    lng: -81.782172
+    url: https://www.gsccca.org/clerks/clerk-results?cid=16
+    kind: courthouse
+
+  - id: ga-burke-courthouse
+    state: GA
+    county: Burke
+    name: "Burke County Courthouse"
+    address: "200 East 6th Street, Waynesboro, GA 30830"
+    lat: 33.090148
+    lng: -82.014273
+    url: https://www.gsccca.org/clerks/clerk-results?cid=17
+    kind: courthouse
+
+  - id: ga-butts-courthouse
+    state: GA
+    county: Butts
+    name: "Butts County Courthouse"
+    address: "625 W. Third Street, Jackson, GA 30233"
+    lat: 33.294794
+    lng: -83.966926
+    url: https://www.gsccca.org/clerks/clerk-results?cid=18
+    kind: courthouse
+
+  - id: ga-calhoun-courthouse
+    state: GA
+    county: Calhoun
+    name: "Calhoun County Courthouse"
+    address: "31 Court Street, Morgan, GA 39866"
+    lat: 31.537619
+    lng: -84.599654
+    url: https://www.gsccca.org/clerks/clerk-results?cid=19
+    kind: courthouse
+
+  - id: ga-camden-courthouse
+    state: GA
+    county: Camden
+    name: "Camden County Courthouse"
+    address: "210 Fourth Street, Woodbine, GA 31569"
+    lat: 30.968239
+    lng: -81.720504
+    url: https://www.gsccca.org/clerks/clerk-results?cid=20
+    kind: courthouse
+
+  - id: ga-candler-courthouse
+    state: GA
+    county: Candler
+    name: "Candler County Courthouse"
+    address: "35 SW Broad St, Metter, GA 30439"
+    lat: 32.396563
+    lng: -82.06262
+    url: https://www.gsccca.org/clerks/clerk-results?cid=21
+    kind: courthouse
+
+  - id: ga-carroll-courthouse
+    state: GA
+    county: Carroll
+    name: "Carroll County Courthouse"
+    address: "311 Newnan St, Carrollton, GA 30117"
+    lat: 33.57973
+    lng: -85.073713
+    url: https://www.gsccca.org/clerks/clerk-results?cid=22
+    kind: courthouse
+
+  - id: ga-catoosa-courthouse
+    state: GA
+    county: Catoosa
+    name: "Catoosa County Courthouse"
+    address: "875 Lafayette Street, Ringgold, GA 30736"
+    lat: 34.915581
+    lng: -85.11099
+    url: https://www.gsccca.org/clerks/clerk-results?cid=23
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-charlton-courthouse
+    state: GA
+    county: Charlton
+    name: "Charlton County Courthouse"
+    address: "1520 Third St, Folkston, GA 31537"
+    lat: 30.829048
+    lng: -82.004495
+    url: https://www.gsccca.org/clerks/clerk-results?cid=24
+    kind: courthouse
+
+  - id: ga-chatham-courthouse
+    state: GA
+    county: Chatham
+    name: "Chatham County Courthouse"
+    address: "400 W. Oglethorpe Avenue, Rm 178, SAVANNAH, GA 31401"
+    lat: 32.079319
+    lng: -81.097098
+    url: https://www.gsccca.org/clerks/clerk-results?cid=25
+    kind: courthouse
+
+  - id: ga-chattahoochee-courthouse
+    state: GA
+    county: Chattahoochee
+    name: "Chattahoochee County Courthouse"
+    address: "379 Broad St, CUSSETA, GA 31805"
+    lat: 32.305936
+    lng: -84.776781
+    url: https://www.gsccca.org/clerks/clerk-results?cid=26
+    kind: courthouse
+
+  - id: ga-chattooga-courthouse
+    state: GA
+    county: Chattooga
+    name: "Chattooga County Courthouse"
+    address: "10035 Commerce Street, Summerville, GA 30747"
+    lat: 34.480222
+    lng: -85.34821
+    url: https://www.gsccca.org/clerks/clerk-results?cid=27
+    kind: courthouse
+
+  - id: ga-cherokee-courthouse
+    state: GA
+    county: Cherokee
+    name: "Cherokee County Courthouse"
+    address: "90 North Street, Canton, GA 30114"
+    lat: 34.237291
+    lng: -84.489417
+    url: https://www.gsccca.org/clerks/clerk-results?cid=28
+    kind: courthouse
+
+  - id: ga-clarke-courthouse
+    state: GA
+    county: Clarke
+    name: "Clarke County Courthouse"
+    address: "325 E. Washington St., Rm. 450, Athens, GA 30601"
+    lat: 33.960133
+    lng: -83.374557
+    url: https://www.gsccca.org/clerks/clerk-results?cid=29
+    kind: courthouse
+
+  - id: ga-clay-courthouse
+    state: GA
+    county: Clay
+    name: "Clay County Courthouse"
+    address: "210 Washington Street S, Fort Gaines, GA 39851"
+    lat: 31.604178
+    lng: -85.048397
+    url: https://www.gsccca.org/clerks/clerk-results?cid=30
+    kind: courthouse
+
+  - id: ga-clayton-courthouse
+    state: GA
+    county: Clayton
+    name: "Clayton County Courthouse"
+    address: "9151 Tara Blvd, JONESBORO, GA 30236"
+    lat: 33.512538
+    lng: -84.360263
+    url: https://www.gsccca.org/clerks/clerk-results?cid=31
+    kind: courthouse
+
+  - id: ga-clinch-courthouse
+    state: GA
+    county: Clinch
+    name: "Clinch County Courthouse"
+    address: "25 Court Sq, Homerville, GA 31634"
+    lat: 31.036876
+    lng: -82.748474
+    url: https://www.gsccca.org/clerks/clerk-results?cid=32
+    kind: courthouse
+
+  - id: ga-cobb-courthouse
+    state: GA
+    county: Cobb
+    name: "Cobb County Courthouse"
+    address: "70 Haynes St, Marietta, GA 30090"
+    lat: 33.952725
+    lng: -84.546593
+    url: https://www.gsccca.org/clerks/clerk-results?cid=33
+    kind: courthouse
+
+  - id: ga-coffee-courthouse
+    state: GA
+    county: Coffee
+    name: "Coffee County Courthouse"
+    address: "101 S. Peterson Ave, Douglas, GA 31533"
+    lat: 31.508766
+    lng: -82.850495
+    url: https://www.gsccca.org/clerks/clerk-results?cid=34
+    kind: courthouse
+
+  - id: ga-colquitt-courthouse
+    state: GA
+    county: Colquitt
+    name: "Colquitt County Courthouse"
+    address: "9 South Main Street, Courthouse, Moultrie, GA 31768"
+    lat: 31.179425
+    lng: -83.788234
+    url: https://www.gsccca.org/clerks/clerk-results?cid=35
+    kind: courthouse
+
+  - id: ga-columbia-courthouse
+    state: GA
+    county: Columbia
+    name: "Columbia County Courthouse"
+    address: "640 Ronald Reagan Drive, Evans, GA 30809"
+    lat: 33.543999
+    lng: -82.13405
+    url: https://www.gsccca.org/clerks/clerk-results?cid=36
+    kind: courthouse
+
+  - id: ga-cook-courthouse
+    state: GA
+    county: Cook
+    name: "Cook County Courthouse"
+    address: "212 N. Hutchinson Ave, Adel, GA 31620"
+    lat: 31.139216
+    lng: -83.423753
+    url: https://www.gsccca.org/clerks/clerk-results?cid=37
+    kind: courthouse
+
+  - id: ga-coweta-courthouse
+    state: GA
+    county: Coweta
+    name: "Coweta County Courthouse"
+    address: "72 Greenville Street, NEWNAN, GA 30263"
+    lat: 33.368995
+    lng: -84.798933
+    url: https://www.gsccca.org/clerks/clerk-results?cid=38
+    kind: courthouse
+
+  - id: ga-crawford-courthouse
+    state: GA
+    county: Crawford
+    name: "Crawford County Courthouse"
+    address: "100 GA Hwy 42 South, Knoxville, GA 31050"
+    lat: 32.723163
+    lng: -83.996671
+    url: https://www.gsccca.org/clerks/clerk-results?cid=39
+    kind: courthouse
+
+  - id: ga-crisp-courthouse
+    state: GA
+    county: Crisp
+    name: "Crisp County Courthouse"
+    address: "510 North 7th Street, CORDELE, GA 31015"
+    lat: 31.971297
+    lng: -83.782609
+    url: https://www.gsccca.org/clerks/clerk-results?cid=40
+    kind: courthouse
+
+  - id: ga-dade-courthouse
+    state: GA
+    county: Dade
+    name: "Dade County Courthouse"
+    address: "255 W. Crabtree St, Trenton, GA 30752"
+    lat: 34.871803
+    lng: -85.511651
+    url: https://www.gsccca.org/clerks/clerk-results?cid=41
+    kind: courthouse
+
+  - id: ga-dawson-courthouse
+    state: GA
+    county: Dawson
+    name: "Dawson County Courthouse"
+    address: "25 Justice Way, Dawsonville, GA 30534"
+    lat: 34.422999
+    lng: -84.11938
+    url: https://www.gsccca.org/clerks/clerk-results?cid=42
+    kind: courthouse
+
+  - id: ga-dekalb-courthouse
+    state: GA
+    county: DeKalb
+    name: "DeKalb County Courthouse"
+    address: "556 N. McDonough St, Decatur, GA 30030"
+    lat: 33.774075
+    lng: -84.297086
+    url: https://www.gsccca.org/clerks/clerk-results?cid=44
+    kind: courthouse
+
+  - id: ga-decatur-courthouse
+    state: GA
+    county: Decatur
+    name: "Decatur County Courthouse"
+    address: "112 West Water Street, Bainbridge, GA 39818"
+    lat: 30.906647
+    lng: -84.576696
+    url: https://www.gsccca.org/clerks/clerk-results?cid=43
+    kind: courthouse
+
+  - id: ga-dodge-courthouse
+    state: GA
+    county: Dodge
+    name: "Dodge County Courthouse"
+    address: "643 Pearl Bates Ave, Eastman, GA 31023"
+    lat: 32.198399
+    lng: -83.196058
+    url: https://www.gsccca.org/clerks/clerk-results?cid=45
+    kind: courthouse
+
+  - id: ga-dooly-courthouse
+    state: GA
+    county: Dooly
+    name: "Dooly County Courthouse"
+    address: "104 Second St, Vienna, GA 31092"
+    lat: 32.09108
+    lng: -83.797522
+    url: https://www.gsccca.org/clerks/clerk-results?cid=46
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-dougherty-courthouse
+    state: GA
+    county: Dougherty
+    name: "Dougherty County Courthouse"
+    address: "225 Pine Ave, Albany, GA 31701"
+    lat: 31.578576
+    lng: -84.152618
+    url: https://www.gsccca.org/clerks/clerk-results?cid=47
+    kind: courthouse
+
+  - id: ga-douglas-courthouse
+    state: GA
+    county: Douglas
+    name: "Douglas County Courthouse"
+    address: "8700 Hospital Dr, Douglasville, GA 30134"
+    lat: 33.744523
+    lng: -84.731091
+    url: https://www.gsccca.org/clerks/clerk-results?cid=48
+    kind: courthouse
+
+  - id: ga-early-courthouse
+    state: GA
+    county: Early
+    name: "Early County Courthouse"
+    address: "111 Court Square, Blakely, GA 39823"
+    lat: 31.377617
+    lng: -84.934017
+    url: https://www.gsccca.org/clerks/clerk-results?cid=49
+    kind: courthouse
+
+  - id: ga-echols-courthouse
+    state: GA
+    county: Echols
+    name: "Echols County Courthouse"
+    address: "110 Hwy. 94 E, Statenville, GA 31648"
+    lat: 30.703326
+    lng: -83.027928
+    url: https://www.gsccca.org/clerks/clerk-results?cid=50
+    kind: courthouse
+
+  - id: ga-effingham-courthouse
+    state: GA
+    county: Effingham
+    name: "Effingham County Courthouse"
+    address: "700 N. Pine Street, Springfield, GA 31329"
+    lat: 32.372723
+    lng: -81.314289
+    url: https://www.gsccca.org/clerks/clerk-results?cid=51
+    kind: courthouse
+
+  - id: ga-elbert-courthouse
+    state: GA
+    county: Elbert
+    name: "Elbert County Courthouse"
+    address: "12 South, Oliver ELBERTON, GA 30635"
+    lat: 34.109942
+    lng: -82.868724
+    url: https://www.gsccca.org/clerks/clerk-results?cid=52
+    kind: courthouse
+
+  - id: ga-emanuel-courthouse
+    state: GA
+    county: Emanuel
+    name: "Emanuel County Courthouse"
+    address: "125 South Main Street, Swainsboro, GA 30401"
+    lat: 32.582051
+    lng: -82.318637
+    url: https://www.gsccca.org/clerks/clerk-results?cid=53
+    kind: courthouse
+
+  - id: ga-evans-courthouse
+    state: GA
+    county: Evans
+    name: "Evans County Courthouse"
+    address: "123 W. Main St, CLAXTON, GA 30417"
+    lat: 32.161325
+    lng: -81.90746
+    url: https://www.gsccca.org/clerks/clerk-results?cid=54
+    kind: courthouse
+
+  - id: ga-fannin-courthouse
+    state: GA
+    county: Fannin
+    name: "Fannin County Courthouse"
+    address: "400 W. Main St, BLUE RIDGE, GA 30513"
+    lat: 34.864115
+    lng: -84.327009
+    url: https://www.gsccca.org/clerks/clerk-results?cid=55
+    kind: courthouse
+
+  - id: ga-fayette-courthouse
+    state: GA
+    county: Fayette
+    name: "Fayette County Courthouse"
+    address: "1 Center Drive, FAYETTEVILLE, GA 30214"
+    lat: 33.44237
+    lng: -84.453968
+    url: https://www.gsccca.org/clerks/clerk-results?cid=56
+    kind: courthouse
+
+  - id: ga-floyd-courthouse
+    state: GA
+    county: Floyd
+    name: "Floyd County Courthouse"
+    address: "3 Government Plaza, Rome, GA 30161"
+    lat: 34.256078
+    lng: -85.171614
+    url: https://www.gsccca.org/clerks/clerk-results?cid=57
+    kind: courthouse
+
+  - id: ga-forsyth-courthouse
+    state: GA
+    county: Forsyth
+    name: "Forsyth County Courthouse"
+    address: "101 E. Courthouse Square, Cumming, GA 30040"
+    lat: 34.206429
+    lng: -84.138554
+    url: https://www.gsccca.org/clerks/clerk-results?cid=58
+    kind: courthouse
+
+  - id: ga-franklin-courthouse
+    state: GA
+    county: Franklin
+    name: "Franklin County Courthouse"
+    address: "9592 Lavonia Rd, CARNESVILLE, GA 30521"
+    lat: 34.369735
+    lng: -83.235478
+    url: https://www.gsccca.org/clerks/clerk-results?cid=59
+    kind: courthouse
+
+  - id: ga-fulton-courthouse
+    state: GA
+    county: Fulton
+    name: "Fulton County Courthouse"
+    address: "136 Pryor Street S.W, Atlanta, GA 30303"
+    lat: 33.749995
+    lng: -84.390734
+    url: https://www.gsccca.org/clerks/clerk-results?cid=60
+    kind: courthouse
+
+  - id: ga-gilmer-courthouse
+    state: GA
+    county: Gilmer
+    name: "Gilmer County Courthouse"
+    address: "#1 Broad Street, Ellijay, GA 30540"
+    lat: 34.694925
+    lng: -84.483762
+    url: https://www.gsccca.org/clerks/clerk-results?cid=61
+    kind: courthouse
+
+  - id: ga-glascock-courthouse
+    state: GA
+    county: Glascock
+    name: "Glascock County Courthouse"
+    address: "62 East Main St, Gibson, GA 30810"
+    lat: 33.233508
+    lng: -82.594492
+    url: https://www.gsccca.org/clerks/clerk-results?cid=62
+    kind: courthouse
+
+  - id: ga-glynn-courthouse
+    state: GA
+    county: Glynn
+    name: "Glynn County Courthouse"
+    address: "701 H. Street, Brunswick, GA 31520"
+    lat: 31.156287
+    lng: -81.484923
+    url: https://www.gsccca.org/clerks/clerk-results?cid=63
+    kind: courthouse
+
+  - id: ga-gordon-courthouse
+    state: GA
+    county: Gordon
+    name: "Gordon County Courthouse"
+    address: "101 South Piedmont St, Calhoun, GA 30701"
+    lat: 34.502757
+    lng: -84.950553
+    url: https://www.gsccca.org/clerks/clerk-results?cid=64
+    kind: courthouse
+
+  - id: ga-grady-courthouse
+    state: GA
+    county: Grady
+    name: "Grady County Courthouse"
+    address: "250 North Broad St., Box 8, Cairo, GA 39828"
+    lat: 30.878578
+    lng: -84.20767
+    url: https://www.gsccca.org/clerks/clerk-results?cid=65
+    kind: courthouse
+
+  - id: ga-greene-courthouse
+    state: GA
+    county: Greene
+    name: "Greene County Courthouse"
+    address: "113 N. Main Street, Greensboro, GA 30642"
+    lat: 33.577073
+    lng: -83.182475
+    url: https://www.gsccca.org/clerks/clerk-results?cid=66
+    kind: courthouse
+
+  - id: ga-gwinnett-courthouse
+    state: GA
+    county: Gwinnett
+    name: "Gwinnett County Courthouse"
+    address: "75 Langley Dr, Lawrenceville, GA 30046"
+    lat: 33.951447
+    lng: -83.993081
+    url: https://www.gsccca.org/clerks/clerk-results?cid=67
+    kind: courthouse
+
+  - id: ga-habersham-courthouse
+    state: GA
+    county: Habersham
+    name: "Habersham County Courthouse"
+    address: "295 Llewellyn Street, Clarkesville, GA 30523"
+    lat: 34.608314
+    lng: -83.523291
+    url: https://www.gsccca.org/clerks/clerk-results?cid=68
+    kind: courthouse
+
+  - id: ga-hall-courthouse
+    state: GA
+    county: Hall
+    name: "Hall County Courthouse"
+    address: "225 Green Street, Gainesville, GA 30501"
+    lat: 34.297747
+    lng: -83.823976
+    url: https://www.gsccca.org/clerks/clerk-results?cid=69
+    kind: courthouse
+
+  - id: ga-hancock-courthouse
+    state: GA
+    county: Hancock
+    name: "Hancock County Courthouse"
+    address: "12630 Broad Street, Sparta, GA 31087"
+    lat: 33.275442
+    lng: -82.976263
+    url: https://www.gsccca.org/clerks/clerk-results?cid=70
+    kind: courthouse
+
+  - id: ga-haralson-courthouse
+    state: GA
+    county: Haralson
+    name: "Haralson County Courthouse"
+    address: "4485 GA Hwy. 120, Buchanan, GA 30113"
+    lat: 33.801871
+    lng: -85.189636
+    url: https://www.gsccca.org/clerks/clerk-results?cid=71
+    kind: courthouse
+
+  - id: ga-harris-courthouse
+    state: GA
+    county: Harris
+    name: "Harris County Courthouse"
+    address: "102 N. College St, HAMILTON, GA 31811"
+    lat: 32.758866
+    lng: -84.874574
+    url: https://www.gsccca.org/clerks/clerk-results?cid=72
+    kind: courthouse
+
+  - id: ga-hart-courthouse
+    state: GA
+    county: Hart
+    name: "Hart County Courthouse"
+    address: "185 W. Franklin St.,Rm1 Courthouse, HARTWELL, GA 30643"
+    lat: 34.352882
+    lng: -82.932365
+    url: https://www.gsccca.org/clerks/clerk-results?cid=73
+    kind: courthouse
+
+  - id: ga-heard-courthouse
+    state: GA
+    county: Heard
+    name: "Heard County Courthouse"
+    address: "215 E. Court St, FRANKLIN, GA 30217"
+    lat: 33.279007
+    lng: -85.097997
+    url: https://www.gsccca.org/clerks/clerk-results?cid=74
+    kind: courthouse
+
+  - id: ga-henry-courthouse
+    state: GA
+    county: Henry
+    name: "Henry County Courthouse"
+    address: "1 Courthouse Square, McDonough, GA 30253"
+    lat: 33.447989
+    lng: -84.146877
+    url: https://www.gsccca.org/clerks/clerk-results?cid=75
+    kind: courthouse
+
+  - id: ga-houston-courthouse
+    state: GA
+    county: Houston
+    name: "Houston County Courthouse"
+    address: "201 Perry Parkway, Perry, GA 31069"
+    lat: 32.467202
+    lng: -83.77787
+    url: https://www.gsccca.org/clerks/clerk-results?cid=76
+    kind: courthouse
+
+  - id: ga-irwin-courthouse
+    state: GA
+    county: Irwin
+    name: "Irwin County Courthouse"
+    address: "301 S. Irwin Avenue, Ocilla, GA 31774"
+    lat: 31.592057
+    lng: -83.250435
+    url: https://www.gsccca.org/clerks/clerk-results?cid=77
+    kind: courthouse
+
+  - id: ga-jackson-courthouse
+    state: GA
+    county: Jackson
+    name: "Jackson County Courthouse"
+    address: "5000 Jackson Parkway, Jefferson, GA 30549"
+    lat: 34.139868
+    lng: -83.560109
+    url: https://www.gsccca.org/clerks/clerk-results?cid=78
+    kind: courthouse
+
+  - id: ga-jasper-courthouse
+    state: GA
+    county: Jasper
+    name: "Jasper County Courthouse"
+    address: "126 W. Greene Street, Monticello, GA 31064"
+    lat: 33.304792
+    lng: -83.683791
+    url: https://www.gsccca.org/clerks/clerk-results?cid=79
+    kind: courthouse
+
+  - id: ga-jeff-davis-courthouse
+    state: GA
+    county: Jeff Davis
+    name: "Jeff Davis County Courthouse"
+    address: "14 Jeff Davis St, HAZLEHURST, GA 31539"
+    lat: 31.862416
+    lng: -82.59993
+    url: https://www.gsccca.org/clerks/clerk-results?cid=80
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-jefferson-courthouse
+    state: GA
+    county: Jefferson
+    name: "Jefferson County Courthouse"
+    address: "202 E. Broad St, Louisville, GA 30434"
+    lat: 32.998958
+    lng: -82.408423
+    url: https://www.gsccca.org/clerks/clerk-results?cid=81
+    kind: courthouse
+
+  - id: ga-jenkins-courthouse
+    state: GA
+    county: Jenkins
+    name: "Jenkins County Courthouse"
+    address: "Harvey St, Millen, GA 30442"
+    lat: 32.809212
+    lng: -81.938545
+    url: https://www.gsccca.org/clerks/clerk-results?cid=82
+    kind: courthouse
+
+  - id: ga-johnson-courthouse
+    state: GA
+    county: Johnson
+    name: "Johnson County Courthouse"
+    address: "East Elm St, WRIGHTSVILLE, GA 31096"
+    lat: 32.729537
+    lng: -82.715063
+    url: https://www.gsccca.org/clerks/clerk-results?cid=83
+    kind: courthouse
+
+  - id: ga-jones-courthouse
+    state: GA
+    county: Jones
+    name: "Jones County Courthouse"
+    address: "110 S. Jefferson St, GRAY, GA 31032"
+    lat: 33.008072
+    lng: -83.536561
+    url: https://www.gsccca.org/clerks/clerk-results?cid=84
+    kind: courthouse
+
+  - id: ga-lamar-courthouse
+    state: GA
+    county: Lamar
+    name: "Lamar County Courthouse"
+    address: "326 Thomaston St., Box 7, Barnesville, GA 30204"
+    lat: 33.052349
+    lng: -84.156027
+    url: https://www.gsccca.org/clerks/clerk-results?cid=85
+    kind: courthouse
+
+  - id: ga-lanier-courthouse
+    state: GA
+    county: Lanier
+    name: "Lanier County Courthouse"
+    address: "56 W. Main St, LAKELAND, GA 31635"
+    lat: 31.041077
+    lng: -83.075784
+    url: https://www.gsccca.org/clerks/clerk-results?cid=86
+    kind: courthouse
+
+  - id: ga-laurens-courthouse
+    state: GA
+    county: Laurens
+    name: "Laurens County Courthouse"
+    address: "101 N. Jefferson St, Dublin, GA 31021"
+    lat: 32.5401
+    lng: -82.904493
+    url: https://www.gsccca.org/clerks/clerk-results?cid=87
+    kind: courthouse
+
+  - id: ga-lee-courthouse
+    state: GA
+    county: Lee
+    name: "Lee County Courthouse"
+    address: "100 Leslie Hwy, Leesburg, GA 31763"
+    lat: 31.736775
+    lng: -84.168376
+    url: https://www.gsccca.org/clerks/clerk-results?cid=88
+    kind: courthouse
+
+  - id: ga-liberty-courthouse
+    state: GA
+    county: Liberty
+    name: "Liberty County Courthouse"
+    address: "201 South Main Street, Hinesville, GA 31313"
+    lat: 31.846631
+    lng: -81.596365
+    url: https://www.gsccca.org/clerks/clerk-results?cid=89
+    kind: courthouse
+
+  - id: ga-lincoln-courthouse
+    state: GA
+    county: Lincoln
+    name: "Lincoln County Courthouse"
+    address: "210 Humphrey St, LINCOLNTON, GA 30817"
+    lat: 33.794799
+    lng: -82.475639
+    url: https://www.gsccca.org/clerks/clerk-results?cid=90
+    kind: courthouse
+
+  - id: ga-long-courthouse
+    state: GA
+    county: Long
+    name: "Long County Courthouse"
+    address: "458 So. McDonald Street, Ludowici, GA 31316"
+    lat: 31.707731
+    lng: -81.741376
+    url: https://www.gsccca.org/clerks/clerk-results?cid=91
+    kind: courthouse
+
+  - id: ga-lowndes-courthouse
+    state: GA
+    county: Lowndes
+    name: "Lowndes County Courthouse"
+    address: "327 N. Ashley St, Valdosta, GA 31601"
+    lat: 30.833488
+    lng: -83.279277
+    url: https://www.gsccca.org/clerks/clerk-results?cid=92
+    kind: courthouse
+
+  - id: ga-lumpkin-courthouse
+    state: GA
+    county: Lumpkin
+    name: "Lumpkin County Courthouse"
+    address: "325 Riley Road, Dahlonega, GA 30533"
+    lat: 34.529071
+    lng: -83.975845
+    url: https://www.gsccca.org/clerks/clerk-results?cid=93
+    kind: courthouse
+
+  - id: ga-macon-courthouse
+    state: GA
+    county: Macon
+    name: "Macon County Courthouse"
+    address: "121 S. Sumter St, Oglethorpe, GA 31068"
+    lat: 32.285555
+    lng: -84.057197
+    url: https://www.gsccca.org/clerks/clerk-results?cid=94
+    kind: courthouse
+
+  - id: ga-madison-courthouse
+    state: GA
+    county: Madison
+    name: "Madison County Courthouse"
+    address: "91 Albany Ave, Danielsville, GA 30633"
+    lat: 34.121527
+    lng: -83.221953
+    url: https://www.gsccca.org/clerks/clerk-results?cid=95
+    kind: courthouse
+
+  - id: ga-marion-courthouse
+    state: GA
+    county: Marion
+    name: "Marion County Courthouse"
+    address: "100 Broad St, BUENA VISTA, GA 31803"
+    lat: 32.314176
+    lng: -84.519702
+    url: https://www.gsccca.org/clerks/clerk-results?cid=96
+    kind: courthouse
+
+  - id: ga-mcduffie-courthouse
+    state: GA
+    county: McDuffie
+    name: "McDuffie County Courthouse"
+    address: "210 Railroad Street, Thomson, GA 30824"
+    lat: 33.467015
+    lng: -82.499427
+    url: https://www.gsccca.org/clerks/clerk-results?cid=97
+    kind: courthouse
+
+  - id: ga-mcintosh-courthouse
+    state: GA
+    county: McIntosh
+    name: "McIntosh County Courthouse"
+    address: "310 North Way, Darien, GA 31305"
+    lat: 31.369204
+    lng: -81.43416
+    url: https://www.gsccca.org/clerks/clerk-results?cid=98
+    kind: courthouse
+
+  - id: ga-meriwether-courthouse
+    state: GA
+    county: Meriwether
+    name: "Meriwether County Courthouse"
+    address: "100 N. Court Square, Greenville, GA 30222"
+    lat: 33.028878
+    lng: -84.713477
+    url: https://www.gsccca.org/clerks/clerk-results?cid=99
+    kind: courthouse
+
+  - id: ga-mitchell-courthouse
+    state: GA
+    county: Mitchell
+    name: "Mitchell County Courthouse"
+    address: "11 W. Broad St, Camilla, GA 31730"
+    lat: 31.231181
+    lng: -84.211985
+    url: https://www.gsccca.org/clerks/clerk-results?cid=101
+    kind: courthouse
+
+  - id: ga-monroe-courthouse
+    state: GA
+    county: Monroe
+    name: "Monroe County Courthouse"
+    address: "1 Courthouse Square, Forsyth, GA 31029"
+    lat: 34.206575
+    lng: -84.140425
+    url: https://www.gsccca.org/clerks/clerk-results?cid=102
+    kind: courthouse
+
+  - id: ga-montgomery-courthouse
+    state: GA
+    county: Montgomery
+    name: "Montgomery County Courthouse"
+    address: "400 S. Railroad Ave, Mount Vernon, GA 30445"
+    lat: 32.169502
+    lng: -82.595648
+    url: https://www.gsccca.org/clerks/clerk-results?cid=103
+    kind: courthouse
+
+  - id: ga-morgan-courthouse
+    state: GA
+    county: Morgan
+    name: "Morgan County Courthouse"
+    address: "384 Hancock St, Madison, GA 30650"
+    lat: 33.596282
+    lng: -83.465774
+    url: https://www.gsccca.org/clerks/clerk-results?cid=104
+    kind: courthouse
+
+  - id: ga-murray-courthouse
+    state: GA
+    county: Murray
+    name: "Murray County Courthouse"
+    address: "121 N. Third Ave, Chatsworth, GA 30705"
+    lat: 34.766925
+    lng: -84.770318
+    url: https://www.gsccca.org/clerks/clerk-results?cid=105
+    kind: courthouse
+
+  - id: ga-muscogee-courthouse
+    state: GA
+    county: Muscogee
+    name: "Muscogee County Courthouse"
+    address: "100 10th St, COLUMBUS, GA 31902"
+    lat: 32.464679
+    lng: -84.991602
+    url: https://www.gsccca.org/clerks/clerk-results?cid=106
+    kind: courthouse
+
+  - id: ga-newton-courthouse
+    state: GA
+    county: Newton
+    name: "Newton County Courthouse"
+    address: "1132 Usher St., Rm 338, COVINGTON, GA 30014"
+    lat: 33.597759
+    lng: -83.85919
+    url: https://www.gsccca.org/clerks/clerk-results?cid=107
+    kind: courthouse
+
+  - id: ga-oconee-courthouse
+    state: GA
+    county: Oconee
+    name: "Oconee County Courthouse"
+    address: "23 N. Main St., Rm 208, Watkinsville, GA 30677"
+    lat: 33.863359
+    lng: -83.410022
+    url: https://www.gsccca.org/clerks/clerk-results?cid=108
+    kind: courthouse
+
+  - id: ga-oglethorpe-courthouse
+    state: GA
+    county: Oglethorpe
+    name: "Oglethorpe County Courthouse"
+    address: "111 W. Main Street, LEXINGTON, GA 30648"
+    lat: 33.869331
+    lng: -83.110881
+    url: https://www.gsccca.org/clerks/clerk-results?cid=109
+    kind: courthouse
+
+  - id: ga-paulding-courthouse
+    state: GA
+    county: Paulding
+    name: "Paulding County Courthouse"
+    address: "280 Constitution Blvd, Dallas, GA 30132"
+    lat: 33.916973
+    lng: -84.848698
+    url: https://www.gsccca.org/clerks/clerk-results?cid=110
+    kind: courthouse
+
+  - id: ga-peach-courthouse
+    state: GA
+    county: Peach
+    name: "Peach County Courthouse"
+    address: "205 W. Church St, Fort Valley, GA 31030"
+    lat: 32.55334
+    lng: -83.888267
+    url: https://www.gsccca.org/clerks/clerk-results?cid=111
+    kind: courthouse
+
+  - id: ga-pickens-courthouse
+    state: GA
+    county: Pickens
+    name: "Pickens County Courthouse"
+    address: "50 North Main St, Jasper, GA 30143"
+    lat: 34.46934
+    lng: -84.429833
+    url: https://www.gsccca.org/clerks/clerk-results?cid=112
+    kind: courthouse
+
+  - id: ga-pierce-courthouse
+    state: GA
+    county: Pierce
+    name: "Pierce County Courthouse"
+    address: "3550 Hwy 84, BLACKSHEAR, GA 31516"
+    lat: 31.306616
+    lng: -82.243032
+    url: https://www.gsccca.org/clerks/clerk-results?cid=113
+    kind: courthouse
+
+  - id: ga-pike-courthouse
+    state: GA
+    county: Pike
+    name: "Pike County Courthouse"
+    address: "16001 Barnesville St, Zebulon, GA 30295"
+    lat: 33.101947
+    lng: -84.332141
+    url: https://www.gsccca.org/clerks/clerk-results?cid=114
+    kind: courthouse
+
+  - id: ga-polk-courthouse
+    state: GA
+    county: Polk
+    name: "Polk County Courthouse"
+    address: "100 Prior St, Cedartown, GA 30125"
+    lat: 34.0126
+    lng: -85.260329
+    url: https://www.gsccca.org/clerks/clerk-results?cid=115
+    kind: courthouse
+
+  - id: ga-pulaski-courthouse
+    state: GA
+    county: Pulaski
+    name: "Pulaski County Courthouse"
+    address: "141, COMMERCE ST HAWKINSVILLE, GA 31036"
+    lat: 32.28399
+    lng: -83.473435
+    url: https://www.gsccca.org/clerks/clerk-results?cid=116
+    kind: courthouse
+
+  - id: ga-putnam-courthouse
+    state: GA
+    county: Putnam
+    name: "Putnam County Courthouse"
+    address: "100 S. Jefferson Ave, EATONTON, GA 31024"
+    lat: 33.319423
+    lng: -83.383397
+    url: https://www.gsccca.org/clerks/clerk-results?cid=117
+    kind: courthouse
+
+  - id: ga-quitman-courthouse
+    state: GA
+    county: Quitman
+    name: "Quitman County Courthouse"
+    address: "111 Main St, Georgetown, GA 39854"
+    lat: 31.886142
+    lng: -85.108911
+    url: https://www.gsccca.org/clerks/clerk-results?cid=118
+    kind: courthouse
+
+  - id: ga-rabun-courthouse
+    state: GA
+    county: Rabun
+    name: "Rabun County Courthouse"
+    address: "25 Courthouse Square, Clayton, GA 30525"
+    lat: 34.878868
+    lng: -83.402654
+    url: https://www.gsccca.org/clerks/clerk-results?cid=119
+    kind: courthouse
+
+  - id: ga-randolph-courthouse
+    state: GA
+    county: Randolph
+    name: "Randolph County Courthouse"
+    address: "93 Front Street, Cuthbert, GA 39840"
+    lat: 31.765776
+    lng: -84.786417
+    url: https://www.gsccca.org/clerks/clerk-results?cid=120
+    kind: courthouse
+
+  - id: ga-richmond-courthouse
+    state: GA
+    county: Richmond
+    name: "Richmond County Courthouse"
+    address: "735 James Brown Blvd, Augusta, GA 30901"
+    lat: 33.46937
+    lng: -81.971032
+    url: https://www.gsccca.org/clerks/clerk-results?cid=121
+    kind: courthouse
+
+  - id: ga-rockdale-courthouse
+    state: GA
+    county: Rockdale
+    name: "Rockdale County Courthouse"
+    address: "922 Court Street, Conyers, GA 30012"
+    lat: 33.667925
+    lng: -84.016705
+    url: https://www.gsccca.org/clerks/clerk-results?cid=122
+    kind: courthouse
+
+  - id: ga-schley-courthouse
+    state: GA
+    county: Schley
+    name: "Schley County Courthouse"
+    address: "47 N. Pecan St, Ellaville, GA 31806"
+    lat: 32.237761
+    lng: -84.310604
+    url: https://www.gsccca.org/clerks/clerk-results?cid=123
+    kind: courthouse
+
+  - id: ga-screven-courthouse
+    state: GA
+    county: Screven
+    name: "Screven County Courthouse"
+    address: "216 Mims Road, Sylvania, GA 30467"
+    lat: 32.750554
+    lng: -81.646463
+    url: https://www.gsccca.org/clerks/clerk-results?cid=124
+    kind: courthouse
+
+  - id: ga-seminole-courthouse
+    state: GA
+    county: Seminole
+    name: "Seminole County Courthouse"
+    address: "200 South Knox Ave, DONALSONVILLE, GA 39845"
+    lat: 31.030148
+    lng: -84.884788
+    url: https://www.gsccca.org/clerks/clerk-results?cid=125
+    kind: courthouse
+
+  - id: ga-spalding-courthouse
+    state: GA
+    county: Spalding
+    name: "Spalding County Courthouse"
+    address: "132 E. Solomon St, GRIFFIN, GA 30223"
+    lat: 33.248569
+    lng: -84.263172
+    url: https://www.gsccca.org/clerks/clerk-results?cid=126
+    kind: courthouse
+
+  - id: ga-stephens-courthouse
+    state: GA
+    county: Stephens
+    name: "Stephens County Courthouse"
+    address: "70 North Alexander Street, TOCCOA, GA 30577"
+    lat: 34.579806
+    lng: -83.332105
+    url: https://www.gsccca.org/clerks/clerk-results?cid=127
+    kind: courthouse
+
+  - id: ga-sumter-courthouse
+    state: GA
+    county: Sumter
+    name: "Sumter County Courthouse"
+    address: "500 W. Lamar St, Americus, GA 31709"
+    lat: 32.07219
+    lng: -84.234443
+    url: https://www.gsccca.org/clerks/clerk-results?cid=129
+    kind: courthouse
+
+  - id: ga-talbot-courthouse
+    state: GA
+    county: Talbot
+    name: "Talbot County Courthouse"
+    address: "1 Courthouse Sq, TALBOTTON, GA 31827"
+    lat: 32.677219
+    lng: -84.540605
+    url: https://www.gsccca.org/clerks/clerk-results?cid=130
+    kind: courthouse
+
+  - id: ga-taliaferro-courthouse
+    state: GA
+    county: Taliaferro
+    name: "Taliaferro County Courthouse"
+    address: "113 Monument St, Crawfordville, GA 30631"
+    lat: 33.554622
+    lng: -82.896201
+    url: https://www.gsccca.org/clerks/clerk-results?cid=131
+    kind: courthouse
+
+  - id: ga-tattnall-courthouse
+    state: GA
+    county: Tattnall
+    name: "Tattnall County Courthouse"
+    address: "111 North Main Street, REIDSVILLE, GA 30453"
+    lat: 32.087838
+    lng: -82.118709
+    url: https://www.gsccca.org/clerks/clerk-results?cid=132
+    kind: courthouse
+
+  - id: ga-taylor-courthouse
+    state: GA
+    county: Taylor
+    name: "Taylor County Courthouse"
+    address: "Courthouse Sq, Butler, GA 31006"
+    lat: 32.557206
+    lng: -84.237394
+    url: https://www.gsccca.org/clerks/clerk-results?cid=133
+    kind: courthouse
+
+  - id: ga-telfair-courthouse
+    state: GA
+    county: Telfair
+    name: "Telfair County Courthouse"
+    address: "19 E. Oak Street, McRae, GA 31055"
+    lat: 32.067064
+    lng: -82.897381
+    url: https://www.gsccca.org/clerks/clerk-results?cid=134
+    kind: courthouse
+
+  - id: ga-terrell-courthouse
+    state: GA
+    county: Terrell
+    name: "Terrell County Courthouse"
+    address: "499 Rountree Drive, Dawson, GA 39842"
+    lat: 31.771576
+    lng: -84.4483
+    url: https://www.gsccca.org/clerks/clerk-results?cid=135
+    kind: courthouse
+
+  - id: ga-thomas-courthouse
+    state: GA
+    county: Thomas
+    name: "Thomas County Courthouse"
+    address: "325 N. Madison St, Thomasville, GA 31792"
+    lat: 30.839022
+    lng: -83.983083
+    url: https://www.gsccca.org/clerks/clerk-results?cid=136
+    kind: courthouse
+
+  - id: ga-tift-courthouse
+    state: GA
+    county: Tift
+    name: "Tift County Courthouse"
+    address: "237 E. 2nd Street, TIFTON, GA 31793"
+    lat: 31.454238
+    lng: -83.508391
+    url: https://www.gsccca.org/clerks/clerk-results?cid=137
+    kind: courthouse
+
+  - id: ga-toombs-courthouse
+    state: GA
+    county: Toombs
+    name: "Toombs County Courthouse"
+    address: "100 Courthouse Sq, Lyons, GA 30436"
+    lat: 32.202911
+    lng: -82.327604
+    url: https://www.gsccca.org/clerks/clerk-results?cid=138
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-towns-courthouse
+    state: GA
+    county: Towns
+    name: "Towns County Courthouse"
+    address: "48 River Street, Hiawassee, GA 30546"
+    lat: 34.946374
+    lng: -83.758535
+    url: https://www.gsccca.org/clerks/clerk-results?cid=139
+    kind: courthouse
+
+  - id: ga-treutlen-courthouse
+    state: GA
+    county: Treutlen
+    name: "Treutlen County Courthouse"
+    address: "639 Second St. South, Soperton, GA 30457"
+    lat: 32.377148
+    lng: -82.59336
+    url: https://www.gsccca.org/clerks/clerk-results?cid=140
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-troup-courthouse
+    state: GA
+    county: Troup
+    name: "Troup County Courthouse"
+    address: "100 Ridley Ave, LAGRANGE, GA 30241"
+    lat: 33.039637
+    lng: -85.031007
+    url: https://www.gsccca.org/clerks/clerk-results?cid=141
+    kind: courthouse
+
+  - id: ga-turner-courthouse
+    state: GA
+    county: Turner
+    name: "Turner County Courthouse"
+    address: "219 E. College Ave., Rm. 3, ASHBURN, GA 31714"
+    lat: 31.707958
+    lng: -83.652668
+    url: https://www.gsccca.org/clerks/clerk-results?cid=142
+    kind: courthouse
+
+  - id: ga-twiggs-courthouse
+    state: GA
+    county: Twiggs
+    name: "Twiggs County Courthouse"
+    address: "425 Railroad Street North, Jeffersonville, GA 31044"
+    lat: 32.689
+    lng: -83.349605
+    url: https://www.gsccca.org/clerks/clerk-results?cid=143
+    kind: courthouse
+
+  - id: ga-union-courthouse
+    state: GA
+    county: Union
+    name: "Union County Courthouse"
+    address: "65 Courthouse Street, Blairsville, GA 30512"
+    lat: 34.877986
+    lng: -83.960566
+    url: https://www.gsccca.org/clerks/clerk-results?cid=144
+    kind: courthouse
+
+  - id: ga-upson-courthouse
+    state: GA
+    county: Upson
+    name: "Upson County Courthouse"
+    address: "1185 Hwy 19, Thomaston, GA 30286"
+    lat: 32.887574
+    lng: -84.326668
+    url: https://www.gsccca.org/clerks/clerk-results?cid=145
+    kind: courthouse
+
+  - id: ga-walker-courthouse
+    state: GA
+    county: Walker
+    name: "Walker County Courthouse"
+    address: "103 South Duke Street, LaFayette, GA 30728"
+    lat: 34.704229
+    lng: -85.280666
+    url: https://www.gsccca.org/clerks/clerk-results?cid=146
+    kind: courthouse
+
+  - id: ga-walton-courthouse
+    state: GA
+    county: Walton
+    name: "Walton County Courthouse"
+    address: "303 South Hammond Drive, MONROE, GA 30655"
+    lat: 33.797158
+    lng: -83.696507
+    url: https://www.gsccca.org/clerks/clerk-results?cid=147
+    kind: courthouse
+
+  - id: ga-ware-courthouse
+    state: GA
+    county: Ware
+    name: "Ware County Courthouse"
+    address: "800 Church St, WAYCROSS, GA 31501"
+    lat: 31.214263
+    lng: -82.354851
+    url: https://www.gsccca.org/clerks/clerk-results?cid=148
+    kind: courthouse
+
+  - id: ga-warren-courthouse
+    state: GA
+    county: Warren
+    name: "Warren County Courthouse"
+    address: "521 Main Street 2nd, Warrenton, GA 30828"
+    lat: 33.406688
+    lng: -82.662274
+    url: https://www.gsccca.org/clerks/clerk-results?cid=149
+    kind: courthouse
+
+  - id: ga-washington-courthouse
+    state: GA
+    county: Washington
+    name: "Washington County Courthouse"
+    address: "132 W. Haynes Street, Sandersville, GA 31082"
+    lat: 32.982909
+    lng: -82.812387
+    url: https://www.gsccca.org/clerks/clerk-results?cid=150
+    kind: courthouse
+
+  - id: ga-wayne-courthouse
+    state: GA
+    county: Wayne
+    name: "Wayne County Courthouse"
+    address: "174 N. Brunswick Street, Jesup, GA 31598"
+    lat: 31.604144
+    lng: -81.879963
+    url: https://www.gsccca.org/clerks/clerk-results?cid=151
+    kind: courthouse
+
+  - id: ga-webster-courthouse
+    state: GA
+    county: Webster
+    name: "Webster County Courthouse"
+    address: "6330 Hamilton St., Rm. 102, Preston, GA 31824"
+    lat: 32.066398
+    lng: -84.537076
+    url: https://www.gsccca.org/clerks/clerk-results?cid=152
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: ga-wheeler-courthouse
+    state: GA
+    county: Wheeler
+    name: "Wheeler County Courthouse"
+    address: "16 W Pearl St, Alamo, GA 30411"
+    lat: 32.156061
+    lng: -82.774556
+    url: https://www.gsccca.org/clerks/clerk-results?cid=153
+    kind: courthouse
+
+  - id: ga-white-courthouse
+    state: GA
+    county: White
+    name: "White County Courthouse"
+    address: "59 S. MAIN ST, CLEVELAND, GA 30528"
+    lat: 34.595859
+    lng: -83.7628
+    url: https://www.gsccca.org/clerks/clerk-results?cid=154
+    kind: courthouse
+
+  - id: ga-whitfield-courthouse
+    state: GA
+    county: Whitfield
+    name: "Whitfield County Courthouse"
+    address: "205 N Selvidge St, Dalton, GA 30720"
+    lat: 34.781487
+    lng: -84.967845
+    url: https://www.gsccca.org/clerks/clerk-results?cid=155
+    kind: courthouse
+
+  - id: ga-wilcox-courthouse
+    state: GA
+    county: Wilcox
+    name: "Wilcox County Courthouse"
+    address: "103 N. Broad St, Abbeville, GA 31001"
+    lat: 31.998926
+    lng: -83.310028
+    url: https://www.gsccca.org/clerks/clerk-results?cid=156
+    kind: courthouse
+
+  - id: ga-wilkes-courthouse
+    state: GA
+    county: Wilkes
+    name: "Wilkes County Courthouse"
+    address: "23 Court St., Rm. 301, Washington, GA 30673"
+    lat: 33.738184
+    lng: -82.739031
+    url: https://www.gsccca.org/clerks/clerk-results?cid=157
+    kind: courthouse
+
+  - id: ga-wilkinson-courthouse
+    state: GA
+    county: Wilkinson
+    name: "Wilkinson County Courthouse"
+    address: "100 Bacon St. (Shipping address) (Mailing address), IRWINTON, GA 31042"
+    lat: 32.810665
+    lng: -83.173964
+    url: https://www.gsccca.org/clerks/clerk-results?cid=158
+    kind: courthouse
+
+  - id: ga-worth-courthouse
+    state: GA
+    county: Worth
+    name: "Worth County Courthouse"
+    address: "201 N. Main St. Courthouse, Sylvester, GA 31791"
+    lat: 31.52795
+    lng: -83.835969
+    url: https://www.gsccca.org/clerks/clerk-results?cid=159
+    kind: courthouse
+

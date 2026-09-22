@@ -3,6 +3,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename } from 'node:path';
 import { parseYAML } from './yaml.mjs';
+import { STATE_BOUNDS } from './state-bounds.mjs';
 
 // Cards must never be tagged vin_only: no court URL may present itself as a
 // VIN lookup, so the router's intent set (which includes vin_only) is wider
@@ -14,13 +15,14 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const JUSTICE_COST_NOTES = 'confirm fee on the terms page; $17 as of 2026-09-20';
 
 // M1: defense-in-depth — every URL a contributor adds must live on an official
-// host. Human review stays the real gate; this is the automated one.
-const OFFICIAL_HOSTS = ['nebraskajudicial.gov', 'nebraska.gov', 'nefindalawyer.com'];
-
-function hostIsOfficial(url) {
+// host declared by that state file's `official_hosts` list. Human review stays
+// the real gate (reviewers verify each declared host is genuinely official);
+// this is the automated one. Hosts are per-state so the allowlist scales to 50
+// states without a central registry edit for every new URL.
+function hostIsOfficial(url, hosts) {
   try {
     const host = new URL(url).hostname.toLowerCase();
-    return OFFICIAL_HOSTS.some((h) => host === h || host.endsWith('.' + h));
+    return (hosts || []).some((h) => host === h || host.endsWith('.' + h));
   } catch {
     return false;
   }
@@ -30,6 +32,17 @@ function isRealDate(s) {
   if (!DATE_RE.test(s)) return false;
   const d = new Date(s + 'T00:00:00Z');
   return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s;
+}
+
+// Policy: https is required everywhere. The single exception is an official
+// site whose TLS is broken (human-verified): the working http URL may be used,
+// but only when the record's verification_note actually asserts the breakage
+// (certificate error / broken TLS) — a note that merely mentions "https" is
+// not enough.
+const TLS_BROKEN_RE = /certificate[^.]{0,80}(broken|error|invalid|expired|misconfigured|mismatch)|tls[^.]{0,80}(broken|error|disabled)/i;
+function httpWithTlsNote(url, note) {
+  return typeof url === 'string' && url.startsWith('http://') &&
+    typeof note === 'string' && TLS_BROKEN_RE.test(note);
 }
 
 const errors = [];
@@ -52,6 +65,10 @@ function validateFile(path) {
   const code = file.replace(/\.ya?ml$/, '');
   check(data.state === code, file, `state "${data.state}" must match file name "${code}"`);
   check(typeof data.state_name === 'string' && data.state_name.length > 0, file, 'state_name required');
+  const officialHosts = data.official_hosts;
+  check(Array.isArray(officialHosts) && officialHosts.length > 0 &&
+    officialHosts.every((h) => typeof h === 'string' && h.length > 0),
+    file, 'official_hosts must be a non-empty list of host strings');
   check(isRealDate(data.last_verified || ''), file, 'last_verified must be a real YYYY-MM-DD date');
 
   const counties = data.counties;
@@ -102,19 +119,25 @@ function validateFile(path) {
     if (card.source_url == null) {
       check(card.kind === 'guidance', file, `${where}: source_url may be null only for kind=guidance`);
     } else {
-      check(typeof card.source_url === 'string' && card.source_url.startsWith('https://'),
-        file, `${where}: source_url must be https`);
-      check(hostIsOfficial(card.source_url),
-        file, `${where}: source_url host is not on the official allowlist ${OFFICIAL_HOSTS.join(', ')}`);
+      check(typeof card.source_url === 'string' &&
+        (card.source_url.startsWith('https://') || httpWithTlsNote(card.source_url, card.verification_note)),
+        file, `${where}: source_url must be https (http allowed only when verification_note documents the site's broken TLS)`);
+      check(hostIsOfficial(card.source_url, officialHosts),
+        file, `${where}: source_url host is not on this state's official_hosts allowlist`);
     }
     if (card.link_check != null) {
       check(['auto', 'manual'].includes(card.link_check), file, `${where}: bad link_check`);
     }
+    if (card.link_check === 'manual') {
+      check(typeof card.verification_note === 'string' && card.verification_note.length > 0,
+        file, `${where}: link_check=manual requires a verification_note explaining the human verification`);
+    }
     for (const l of card.extra_links || []) {
       check(l && typeof l.label === 'string' && typeof l.source_url === 'string' &&
-        l.source_url.startsWith('https://'), file, `${where}: bad extra_link`);
-      check(hostIsOfficial(l.source_url),
-        file, `${where}: extra_link host is not on the official allowlist`);
+        (l.source_url.startsWith('https://') || httpWithTlsNote(l.source_url, card.verification_note)),
+        file, `${where}: bad extra_link (http allowed only when verification_note documents the site's broken TLS)`);
+      check(hostIsOfficial(l.source_url, officialHosts),
+        file, `${where}: extra_link host is not on this state's official_hosts allowlist`);
     }
     // Policy: fee honesty in both directions.
     if (card.cost_free === false) {
@@ -143,18 +166,19 @@ if (files.length === 0) err('data/states', 'no state files found');
 for (const f of files) validateFile(join(dir, f));
 
 // ---- pins (phase P5): county courthouse pins for the MapLibre map page ----
-// Same defense-in-depth as cards: every pin URL must live on an official host,
-// and coordinates must fall inside the state's bounding box so a bad geocode
-// can never drop a pin in the wrong state.
+// Same defense-in-depth as cards: every pin URL must live on an official host
+// declared by that state's own file, and coordinates must fall inside the
+// state's bounding box (scripts/state-bounds.mjs) so a bad geocode can never
+// drop a pin in the wrong state.
 const PIN_KINDS = ['courthouse'];
-const STATE_BOUNDS = {
-  NE: { lat: [40.0, 43.0], lng: [-104.1, -95.3] },
-};
 
-function countyNamesFor(stateCode) {
+function stateDataFor(stateCode) {
   try {
     const data = parseYAML(readFileSync(join(process.cwd(), 'data', 'states', `${stateCode}.yaml`), 'utf8'));
-    return new Set((data.counties || []).map((c) => c && c.name));
+    return {
+      counties: new Set((data.counties || []).map((c) => c && c.name)),
+      officialHosts: Array.isArray(data.official_hosts) ? data.official_hosts : [],
+    };
   } catch {
     return null;
   }
@@ -176,9 +200,11 @@ function validatePinsFile(path) {
   const pins = data.pins;
   check(Array.isArray(pins) && pins.length > 0, file, 'pins must be a non-empty list');
   const bounds = STATE_BOUNDS[code];
-  check(!!bounds, file, `no coordinate bounds defined for state "${code}" — add them to STATE_BOUNDS`);
-  const counties = countyNamesFor(code);
-  check(!!counties, file, `state file data/states/${code}.yaml is missing or unreadable`);
+  check(!!bounds, file, `no coordinate bounds defined for state "${code}" — add them to scripts/state-bounds.mjs`);
+  const stateData = stateDataFor(code);
+  check(!!stateData, file, `state file data/states/${code}.yaml is missing or unreadable`);
+  const counties = stateData && stateData.counties;
+  const pinHosts = stateData && stateData.officialHosts;
   const ids = new Set();
   for (const pin of pins || []) {
     const id = pin && pin.id ? String(pin.id) : '(missing id)';
@@ -202,10 +228,22 @@ function validatePinsFile(path) {
         pin.lng >= bounds.lng[0] && pin.lng <= bounds.lng[1],
         file, `${where}: (${pin.lat}, ${pin.lng}) falls outside ${code} bounds — bad geocode?`);
     }
-    check(typeof pin.url === 'string' && pin.url.startsWith('https://'),
-      file, `${where}: url must be https`);
-    check(hostIsOfficial(pin.url),
-      file, `${where}: url host is not on the official allowlist ${OFFICIAL_HOSTS.join(', ')}`);
+    check(typeof pin.url === 'string' &&
+      (pin.url.startsWith('https://') || httpWithTlsNote(pin.url, pin.verification_note)),
+      file, `${where}: url must be https (http allowed only when verification_note documents the site's broken TLS)`);
+    if (pin.link_check != null) {
+      check(['auto', 'manual'].includes(pin.link_check), file, `${where}: bad link_check`);
+    }
+    if (pin.link_check === 'manual') {
+      check(typeof pin.verification_note === 'string' && pin.verification_note.length > 0,
+        file, `${where}: link_check=manual requires a verification_note explaining the human verification`);
+    }
+    if (typeof pin.url === 'string' && pin.url.startsWith('http://')) {
+      check(typeof pin.verification_note === 'string' && pin.verification_note.length > 0,
+        file, `${where}: http url requires a verification_note documenting the broken TLS`);
+    }
+    check(hostIsOfficial(pin.url, pinHosts),
+      file, `${where}: url host is not on this state's official_hosts allowlist`);
   }
 }
 

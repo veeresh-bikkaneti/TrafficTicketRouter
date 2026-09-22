@@ -1,0 +1,364 @@
+# Ohio courthouse pins.
+# Addresses from official court/county sites; coordinates via Nominatim/OSM.
+# URLs match data/states/OH.yaml exactly.
+pins:
+  - id: oh-ashland-courthouse
+    state: OH
+    county: Ashland
+    name: Ashland Municipal Court
+    address: "1209 East Main Street, Ashland, OH 44805"
+    lat: 40.8643267
+    lng: -82.2920884
+    url: "https://www.ashlandmunicourt.com/"
+    kind: courthouse
+  - id: oh-ashtabula-courthouse
+    state: OH
+    county: Ashtabula
+    name: Ashtabula Municipal Court
+    address: "110 West 44th Street, Ashtabula, OH 44004"
+    lat: 41.8669706
+    lng: -80.7801907
+    url: "https://www.ashtabulamunicourt.com/"
+    kind: courthouse
+  - id: oh-carroll-courthouse
+    state: OH
+    county: Carroll
+    name: Carroll County Municipal Court
+    address: "119 South Lisbon St., Carrollton, OH 44615"
+    lat: 40.5724446
+    lng: -81.0867968
+    url: "https://www.carrollcountycourt.org/"
+    kind: courthouse
+  - id: oh-champaign-courthouse
+    state: OH
+    county: Champaign
+    name: ChampaignCounty Municipal Court
+    address: "205 S. Main Street, Urbana, OH 43078"
+    lat: 40.1067966
+    lng: -83.7525327
+    url: "https://www.champaigncountymunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-columbiana-courthouse
+    state: OH
+    county: Columbiana
+    name: Columbiana County     Municipal Court
+    address: "38832 Saltwell Road, Lisbon, OH 44432"
+    lat: 40.784915
+    lng: -80.7691958
+    url: "https://www.ccclerk.org/municipal-court"
+    kind: courthouse
+  - id: oh-crawford-courthouse
+    state: OH
+    county: Crawford
+    name: Crawford County Municipal Court
+    address: "112 E. Mansfield Street, Bucyrus, OH 44820"
+    lat: 40.8087554
+    lng: -82.9747455
+    url: "https://www.crawfordcountymuni.org/"
+    kind: courthouse
+  - id: oh-cuyahoga-courthouse
+    state: OH
+    county: Cuyahoga
+    name: Cleveland Municipal Court
+    address: "1200 Ontario Street, Cleveland, OH 44113"
+    lat: 41.502806
+    lng: -81.696588
+    url: "https://clevelandmunicipalcourt.org/home"
+    kind: courthouse
+  - id: oh-defiance-courthouse
+    state: OH
+    county: Defiance
+    name: Defiance Municipal Court
+    address: "665 Perry Street, Defiance, OH 43512"
+    lat: 41.2836213
+    lng: -84.3660792
+    url: "https://www.defiancemunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-fairfield-courthouse
+    state: OH
+    county: Fairfield
+    name: Fairfield County Municipal Court
+    address: "136 W. Main Street, Lancaster, OH 43130"
+    lat: 39.7136912
+    lng: -82.6029486
+    url: "https://www.fcmcourt.org/default.aspx"
+    kind: courthouse
+  - id: oh-fulton-courthouse
+    state: OH
+    county: Fulton
+    name: Fulton County Court Western District
+    address: "224 S. Fulton St., Wauseon, OH 43567"
+    lat: 41.545766
+    lng: -84.140655
+    url: "https://www.fultoncountyoh.com/514/Western-District-Court"
+    kind: courthouse
+  - id: oh-geauga-courthouse
+    state: OH
+    county: Geauga
+    name: Chardon Municipal Court
+    address: "111 Water Street, Chardon, OH 44024"
+    lat: 41.5803923
+    lng: -81.2047886
+    url: "https://chardonmunicipalcourt.com/#group=documentlist023212224&doc-type=0&docspagination=0-15"
+    kind: courthouse
+  - id: oh-guernsey-courthouse
+    state: OH
+    county: Guernsey
+    name: Cambridge Municipal Court
+    address: "150 Highland Avenue, Cambridge, OH 43725"
+    lat: 40.0252407
+    lng: -81.5818133
+    url: "https://cambridgeoh.org/court/"
+    kind: courthouse
+  - id: oh-hardin-courthouse
+    state: OH
+    county: Hardin
+    name: Hardin County Municipal Court
+    address: "111 West Franklin St., Kenton, OH 43326"
+    lat: 40.6469302
+    lng: -83.608559
+    url: "https://www.hardincourts.com/MCSite/"
+    kind: courthouse
+  - id: oh-harrison-courthouse
+    state: OH
+    county: Harrison
+    name: Harrison County Court
+    address: "100 West Market Street, Cadiz, OH 43907"
+    lat: 40.273424
+    lng: -80.998019
+    url: "https://www.harrisoncountyohio.gov/court"
+    kind: courthouse
+  - id: oh-henry-courthouse
+    state: OH
+    county: Henry
+    name: Napoleon Municipal Court
+    address: "1819 Oakwood Avenue, Napoleon, OH 43545"
+    lat: 41.4103982
+    lng: -84.1196728
+    url: "https://www.napoleonmunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-hocking-courthouse
+    state: OH
+    county: Hocking
+    name: Hocking County Municipal Court
+    address: "105 West Hunter St., Logan, OH 43138"
+    lat: 39.5410411
+    lng: -82.4111649
+    url: "https://hocking.oh.gov/municipalcourt"
+    kind: courthouse
+  - id: oh-holmes-courthouse
+    state: OH
+    county: Holmes
+    name: Holmes County Municipal Court
+    address: "1 E. Jackson St., Millersburg, OH 44654"
+    lat: 40.554091
+    lng: -81.917189
+    url: "https://www.co.holmes.oh.us/municipal-court-overview"
+    kind: courthouse
+  - id: oh-huron-courthouse
+    state: OH
+    county: Huron
+    name: Huron Municipal Court
+    address: "417 Main Street, Norwalk, OH 44839"
+    lat: 41.2289637
+    lng: -82.6435736
+    url: "https://www.huronmunicourt.us/"
+    kind: courthouse
+  - id: oh-knox-courthouse
+    state: OH
+    county: Knox
+    name: Mount Vernon Municipal Court
+    address: "5 North Gay Street, Mount Vernon, OH 43050"
+    lat: 40.3942424
+    lng: -82.4844585
+    url: "https://www.mountvernonmunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-logan-courthouse
+    state: OH
+    county: Logan
+    name: Bellefontaine Municipal Court
+    address: "135 N. Detroit Street, Bellefontaine, OH 43311"
+    lat: 40.3622941
+    lng: -83.761609
+    url: "https://www.ci.bellefontaine.oh.us/page/municipal-court"
+    kind: courthouse
+  - id: oh-lorain-courthouse
+    state: OH
+    county: Lorain
+    name: Avon Lake     Municipal Court
+    address: "32855 Walker Road, Lorain, OH 44012"
+    lat: 41.4930975
+    lng: -82.0226158
+    url: "https://www.avonlakecourt.com/"
+    kind: courthouse
+  - id: oh-madison-courthouse
+    state: OH
+    county: Madison
+    name: Madison County  Municipal Court
+    address: "55 North Oak St., London, OH 43140"
+    lat: 39.8868818
+    lng: -83.450803
+    url: "https://www.co.madison.oh.us/departments/court_system/municipal_court/index.php"
+    kind: courthouse
+  - id: oh-mahoning-courthouse
+    state: OH
+    county: Mahoning
+    name: Youngstown Municipal Court
+    address: "9 West Front Street, Youngstown, OH 44503"
+    lat: 41.0983343
+    lng: -80.6509201
+    url: "https://youngstownohio.gov/court"
+    kind: courthouse
+  - id: oh-marion-courthouse
+    state: OH
+    county: Marion
+    name: Marion County Municipal Court
+    address: "233 W. Center Street, Marion, OH 43302"
+    lat: 40.588406
+    lng: -83.133026
+    url: "https://www.marionmunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-medina-courthouse
+    state: OH
+    county: Medina
+    name: Medina     Municipal Court
+    address: "135 North Elmwood Ave., Medina, OH 44256"
+    lat: 41.14006
+    lng: -81.866142
+    url: "https://medinamunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-monroe-courthouse
+    state: OH
+    county: Monroe
+    name: "Monroe County Court of Common Pleas, General Division"
+    address: "101 N. Main St., Woodsfield, OH 43793"
+    lat: 39.763244
+    lng: -81.115645
+    url: "https://www.monroecountyohio.net/government/clerk_of_courts/common_pleas_court/index.php"
+    kind: courthouse
+  - id: oh-montgomery-courthouse
+    state: OH
+    county: Montgomery
+    name: Dayton Municipal Court
+    address: "1583 Alum Creek Dr., Dayton, OH 43266"
+    lat: 39.7591791
+    lng: -84.1968365
+    url: "https://daytonmunicipalcourt.org/index.html"
+    kind: courthouse
+  - id: oh-morgan-courthouse
+    state: OH
+    county: Morgan
+    name: Morgan County Court
+    address: "37 East Main St., McConnelsville, OH 43756"
+    lat: 39.6491074
+    lng: -81.8527042
+    url: "https://www.morgancounty-oh.gov/countycourt.html"
+    kind: courthouse
+  - id: oh-morrow-courthouse
+    state: OH
+    county: Morrow
+    name: Morrow County Municipal Court
+    address: "48 E High St, Mount Gilead, OH 43338"
+    lat: 40.549097
+    lng: -82.827101
+    url: "https://www.morrowcountymunict.org/index.php"
+    kind: courthouse
+  - id: oh-muskingum-courthouse
+    state: OH
+    county: Muskingum
+    name: Zanesville Municipal Court
+    address: "332 South Street, Zanesville, OH 43701"
+    lat: 39.9382134
+    lng: -82.0082751
+    url: "https://zanesvillemunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-ottawa-courthouse
+    state: OH
+    county: Ottawa
+    name: Ottawa County Municipal Court
+    address: "1860 E. Perry Street, Port Clinton, OH 43452"
+    lat: 41.5146758
+    lng: -82.9136033
+    url: "https://www.ottawacountymunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-pickaway-courthouse
+    state: OH
+    county: Pickaway
+    name: Circleville Municipal Court
+    address: "151 East Franklin Street, Circleville, OH 43113"
+    lat: 39.6000566
+    lng: -82.9438922
+    url: "https://www.circlevillecourt.com/"
+    kind: courthouse
+  - id: oh-richland-courthouse
+    state: OH
+    county: Richland
+    name: Mansfield Municipal Court
+    address: "30 North Diamond St., Mansfield, OH 44902"
+    lat: 40.7589529
+    lng: -82.5130698
+    url: "https://mansfieldcourts.com/"
+    kind: courthouse
+  - id: oh-summit-courthouse
+    state: OH
+    county: Summit
+    name: Akron     Municipal Court
+    address: "172 S Broadway St, Akron, OH 44308"
+    lat: 41.0809817
+    lng: -81.516067
+    url: "https://www.akronmunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-trumbull-courthouse
+    state: OH
+    county: Trumbull
+    name: Girard Municipal Court
+    address: "100 N. Market Street, Warren, OH 44420"
+    lat: 41.0812829
+    lng: -80.6569409
+    url: "https://girardmunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-tuscarawas-courthouse
+    state: OH
+    county: Tuscarawas
+    name: New Philadelphia Municipal Court
+    address: "166 East High Avenue, New Philadelphia, OH 44663"
+    lat: 40.489227
+    lng: -81.443829
+    url: "https://www.npmunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-union-courthouse
+    state: OH
+    county: Union
+    name: Marysville Municipal Court
+    address: "1250 W. 5th Street, Marysville, OH 43040"
+    lat: 40.2409269
+    lng: -83.3893931
+    url: "https://marysvilleohio.org/670/Municipal-Court/"
+    kind: courthouse
+  - id: oh-wayne-courthouse
+    state: OH
+    county: Wayne
+    name: Wayne County    Municipal Court
+    address: "215 N Grant St., Wooster, OH 44691"
+    lat: 40.7991791
+    lng: -81.9433956
+    url: "https://www.waynemunicipalcourt.org/"
+    kind: courthouse
+  - id: oh-williams-courthouse
+    state: OH
+    county: Williams
+    name: Bryan Municipal Court
+    address: "1399 East High St., Bryan, OH 43506"
+    lat: 41.476524
+    lng: -84.5305362
+    url: "https://www.bryanmunicipalcourt.com/"
+    kind: courthouse
+  - id: oh-wood-courthouse
+    state: OH
+    county: Wood
+    name: Bowling Green Municipal Court
+    address: "711 South Dunbridge Road, Bowling Green, OH 43402"
+    lat: 41.3653469
+    lng: -83.6090944
+    url: "https://www.bgcourt.org/"
+    kind: courthouse

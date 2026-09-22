@@ -1,0 +1,3041 @@
+# Virginia — General District Court (traffic cases are heard in General District Court).
+# 133 localities (95 counties + 38 independent cities), per the Virginia
+# Association of Counties (vaco.org/virginia-counties). All court URLs verified
+# HTTP 200 on vacourts.gov 2026-09-21. Buchanan uses the combined court page; its
+# official address is a P.O. Box, so it has a card but no map pin. Do not commit without review.
+state: VA
+state_name: Virginia
+last_verified: "2026-09-21"
+official_hosts:
+  - vacourts.gov
+  - dmv.virginia.gov
+  - courts.state.va.us
+counties:
+  - name: Accomack
+    note: "Traffic venue is the General District Court."
+  - name: Albemarle
+    note: "Traffic venue is the General District Court."
+  - name: Alexandria
+    note: "Traffic venue is the General District Court."
+  - name: Alleghany
+    note: "Traffic venue is the General District Court."
+  - name: Amelia
+    note: "Traffic venue is the General District Court."
+  - name: Amherst
+    note: "Traffic venue is the General District Court."
+  - name: Appomattox
+    note: "Traffic venue is the General District Court."
+  - name: Arlington
+    note: "Traffic venue is the General District Court."
+  - name: Augusta
+    note: "Traffic venue is the General District Court."
+  - name: Bath
+    note: "Traffic venue is the General District Court."
+  - name: Bedford
+    note: "Traffic venue is the General District Court."
+  - name: Bland
+    note: "Traffic venue is the General District Court."
+  - name: Botetourt
+    note: "Traffic venue is the General District Court."
+  - name: Bristol
+    note: "Traffic venue is the General District Court."
+  - name: Brunswick
+    note: "Traffic venue is the General District Court."
+  - name: Buchanan
+    note: "Traffic venue is the General District Court."
+  - name: Buckingham
+    note: "Traffic venue is the General District Court."
+  - name: Buena Vista
+    note: "Traffic venue is the General District Court."
+  - name: Campbell
+    note: "Traffic venue is the General District Court."
+  - name: Caroline
+    note: "Traffic venue is the General District Court."
+  - name: Carroll
+    note: "Traffic venue is the General District Court."
+  - name: Charles City
+    note: "Traffic venue is the General District Court."
+  - name: Charlottesville
+    note: "Traffic venue is the General District Court."
+  - name: Charlotte
+    note: "Traffic venue is the General District Court."
+  - name: Chesapeake
+    note: "Traffic venue is the General District Court."
+  - name: Chesterfield
+    note: "Traffic venue is the General District Court."
+  - name: Clarke
+    note: "Traffic venue is the General District Court."
+  - name: Colonial Heights
+    note: "Traffic venue is the General District Court."
+  - name: Covington
+    note: "Traffic venue is the General District Court."
+  - name: Craig
+    note: "Traffic venue is the General District Court."
+  - name: Culpeper
+    note: "Traffic venue is the General District Court."
+  - name: Cumberland
+    note: "Traffic venue is the General District Court."
+  - name: Danville
+    note: "Traffic venue is the General District Court."
+  - name: Dickenson
+    note: "Traffic venue is the General District Court."
+  - name: Dinwiddie
+    note: "Traffic venue is the General District Court."
+  - name: Emporia
+    note: "Traffic venue is the General District Court."
+  - name: Essex
+    note: "Traffic venue is the General District Court."
+  - name: City of Fairfax
+    note: "Traffic venue is the General District Court."
+  - name: Fairfax
+    note: "Traffic venue is the General District Court."
+  - name: Falls Church
+    note: "Traffic venue is the General District Court."
+  - name: Fauquier
+    note: "Traffic venue is the General District Court."
+  - name: Floyd
+    note: "Traffic venue is the General District Court."
+  - name: Fluvanna
+    note: "Traffic venue is the General District Court."
+  - name: City of Franklin
+    note: "Traffic venue is the General District Court."
+  - name: Franklin
+    note: "Traffic venue is the General District Court."
+  - name: Fredericksburg
+    note: "Traffic venue is the General District Court."
+  - name: Frederick
+    note: "Traffic venue is the General District Court."
+  - name: Galax
+    note: "Traffic venue is the General District Court."
+  - name: Giles
+    note: "Traffic venue is the General District Court."
+  - name: Gloucester
+    note: "Traffic venue is the General District Court."
+  - name: Goochland
+    note: "Traffic venue is the General District Court."
+  - name: Grayson
+    note: "Traffic venue is the General District Court."
+  - name: Greene
+    note: "Traffic venue is the General District Court."
+  - name: Greensville
+    note: "Traffic venue is the General District Court."
+  - name: Halifax
+    note: "Traffic venue is the General District Court."
+  - name: Hampton
+    note: "Traffic venue is the General District Court."
+  - name: Hanover
+    note: "Traffic venue is the General District Court."
+  - name: Harrisonburg
+    note: "Traffic venue is the General District Court."
+  - name: Henrico
+    note: "Traffic venue is the General District Court."
+  - name: Henry
+    note: "Traffic venue is the General District Court."
+  - name: Highland
+    note: "Traffic venue is the General District Court."
+  - name: Hopewell
+    note: "Traffic venue is the General District Court."
+  - name: Isle of Wight
+    note: "Traffic venue is the General District Court."
+  - name: James City
+    note: "Traffic venue is the General District Court."
+  - name: King George
+    note: "Traffic venue is the General District Court."
+  - name: King William
+    note: "Traffic venue is the General District Court."
+  - name: King and Queen
+    note: "Traffic venue is the General District Court."
+  - name: Lancaster
+    note: "Traffic venue is the General District Court."
+  - name: Lee
+    note: "Traffic venue is the General District Court."
+  - name: Lexington
+    note: "Traffic venue is the General District Court."
+  - name: Loudoun
+    note: "Traffic venue is the General District Court."
+  - name: Louisa
+    note: "Traffic venue is the General District Court."
+  - name: Lunenburg
+    note: "Traffic venue is the General District Court."
+  - name: Lynchburg
+    note: "Traffic venue is the General District Court."
+  - name: Madison
+    note: "Traffic venue is the General District Court."
+  - name: Manassas Park
+    note: "Traffic venue is the General District Court."
+  - name: Manassas
+    note: "Traffic venue is the General District Court."
+  - name: Martinsville
+    note: "Traffic venue is the General District Court."
+  - name: Mathews
+    note: "Traffic venue is the General District Court."
+  - name: Mecklenburg
+    note: "Traffic venue is the General District Court."
+  - name: Middlesex
+    note: "Traffic venue is the General District Court."
+  - name: Montgomery
+    note: "Traffic venue is the General District Court."
+  - name: Nelson
+    note: "Traffic venue is the General District Court."
+  - name: New Kent
+    note: "Traffic venue is the General District Court."
+  - name: Newport News
+    note: "Traffic venue is the General District Court."
+  - name: Norfolk
+    note: "Traffic venue is the General District Court."
+  - name: Northampton
+    note: "Traffic venue is the General District Court."
+  - name: Northumberland
+    note: "Traffic venue is the General District Court."
+  - name: Norton
+    note: "Traffic venue is the General District Court."
+  - name: Nottoway
+    note: "Traffic venue is the General District Court."
+  - name: Orange
+    note: "Traffic venue is the General District Court."
+  - name: Page
+    note: "Traffic venue is the General District Court."
+  - name: Patrick
+    note: "Traffic venue is the General District Court."
+  - name: Petersburg
+    note: "Traffic venue is the General District Court."
+  - name: Pittsylvania
+    note: "Traffic venue is the General District Court."
+  - name: Poquoson
+    note: "Traffic venue is the General District Court."
+  - name: Portsmouth
+    note: "Traffic venue is the General District Court."
+  - name: Powhatan
+    note: "Traffic venue is the General District Court."
+  - name: Prince Edward
+    note: "Traffic venue is the General District Court."
+  - name: Prince George
+    note: "Traffic venue is the General District Court."
+  - name: Prince William
+    note: "Traffic venue is the General District Court."
+  - name: Pulaski
+    note: "Traffic venue is the General District Court."
+  - name: Radford
+    note: "Traffic venue is the General District Court."
+  - name: Rappahannock
+    note: "Traffic venue is the General District Court."
+  - name: City of Richmond
+    note: "Traffic venue is the General District Court."
+  - name: Richmond
+    note: "Traffic venue is the General District Court."
+  - name: City of Roanoke
+    note: "Traffic venue is the General District Court."
+  - name: Roanoke
+    note: "Traffic venue is the General District Court."
+  - name: Rockbridge
+    note: "Traffic venue is the General District Court."
+  - name: Rockingham
+    note: "Traffic venue is the General District Court."
+  - name: Russell
+    note: "Traffic venue is the General District Court."
+  - name: Salem
+    note: "Traffic venue is the General District Court."
+  - name: Scott
+    note: "Traffic venue is the General District Court."
+  - name: Shenandoah
+    note: "Traffic venue is the General District Court."
+  - name: Smyth
+    note: "Traffic venue is the General District Court."
+  - name: Southampton
+    note: "Traffic venue is the General District Court."
+  - name: Spotsylvania
+    note: "Traffic venue is the General District Court."
+  - name: Stafford
+    note: "Traffic venue is the General District Court."
+  - name: Staunton
+    note: "Traffic venue is the General District Court."
+  - name: Suffolk
+    note: "Traffic venue is the General District Court."
+  - name: Surry
+    note: "Traffic venue is the General District Court."
+  - name: Sussex
+    note: "Traffic venue is the General District Court."
+  - name: Tazewell
+    note: "Traffic venue is the General District Court."
+  - name: Virginia Beach
+    note: "Traffic venue is the General District Court."
+  - name: Warren
+    note: "Traffic venue is the General District Court."
+  - name: Washington
+    note: "Traffic venue is the General District Court."
+  - name: Waynesboro
+    note: "Traffic venue is the General District Court."
+  - name: Westmoreland
+    note: "Traffic venue is the General District Court."
+  - name: Williamsburg
+    note: "Traffic venue is the General District Court."
+  - name: Winchester
+    note: "Traffic venue is the General District Court."
+  - name: Wise
+    note: "Traffic venue is the General District Court."
+  - name: Wythe
+    note: "Traffic venue is the General District Court."
+  - name: York
+    note: "Traffic venue is the General District Court."
+cards:
+  - id: va-accomack-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/accomack/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Accomack"
+    contact: "23371 Front Street, Accomac, VA 23301-0276. Phone (757) 787-0923."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Accomack
+    weight: 10
+
+  - id: va-albemarle-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/albemarle/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Albemarle"
+    contact: "350 Park Street, Charlottesville, VA 22902-5113. Phone (434) 972-4004."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Albemarle
+    weight: 10
+
+  - id: va-alexandria-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/alexandria/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Alexandria"
+    contact: "520 King Street, Second Floor, Alexandria, VA 22320-4489. Phone (703) 746-4041."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alexandria
+    weight: 10
+
+  - id: va-alleghany-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/alleghany/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Alleghany"
+    contact: "266 West Main Street, Covington, VA 24426-0139. Phone (540) 965-1720."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alleghany
+    weight: 10
+
+  - id: va-amelia-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/amelia/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Amelia"
+    contact: "16441 Court Street, Amelia, VA 23002-0024. Phone (804) 561-2456."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Amelia
+    weight: 10
+
+  - id: va-amherst-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/amherst/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Amherst"
+    contact: "113 Taylor Street, Amherst, VA 24521. Phone (434) 946-9351."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Amherst
+    weight: 10
+
+  - id: va-appomattox-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/appomattox/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Appomattox"
+    contact: "297 Court Street, Second Floor, Appomattox, VA 24522-0187. Phone (434) 352-5540."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Appomattox
+    weight: 10
+
+  - id: va-arlington-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/arlington/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Arlington"
+    contact: "1425 North Courthouse Road, Suite 2400, Second Floor, Arlington, VA 22201-2622. Phone (703) 228-7900."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Arlington
+    weight: 10
+
+  - id: va-augusta-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/augusta/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Augusta"
+    contact: "100 Dick Huff Lane, Suite 1070, Verona, VA 24482. Phone (540) 245-5300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Augusta
+    weight: 10
+
+  - id: va-bath-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/bath/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Bath"
+    contact: "65 Courthouse Hill Rd., Warm Springs, VA 24484. Phone (540) 839-7241."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bath
+    weight: 10
+
+  - id: va-bedford-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/bedford/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Bedford"
+    contact: "123 East Main Street, Suite 202, Bedford, VA 24523-2034. Phone (540) 586-7637."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bedford
+    weight: 10
+
+  - id: va-bland-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/bland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Bland"
+    contact: "612 Main Street, Suite 106, Bland, VA 24315-0157. Phone (276) 688-4433."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bland
+    weight: 10
+
+  - id: va-botetourt-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/botetourt/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Botetourt"
+    contact: "20 E. Back Street, Suite A, Fincastle, VA 24090-4537. Phone (540) 928-2270."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Botetourt
+    weight: 10
+
+  - id: va-bristol-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/bristol/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Bristol"
+    contact: "497 Cumberland Street, RM 208, Bristol, VA 24201-4393. Phone (276) 645-7341."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bristol
+    weight: 10
+
+  - id: va-brunswick-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/brunswick/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Brunswick"
+    contact: "Albertis S. Harrison Jr. Courthouse, 202 North Main Street, Lawrenceville, VA 23868-1808. Phone (434) 848-2315."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brunswick
+    weight: 10
+
+  - id: va-buchanan-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/buchanan/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Buchanan"
+    contact: "Grundy, VA 24614-0654. Phone (276) 935-6526."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buchanan
+    weight: 10
+
+  - id: va-buckingham-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/buckingham/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Buckingham"
+    contact: "13049 W. James Anderson Hwy., Buckingham, VA 23921-0127. Phone (434) 969-4755."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buckingham
+    weight: 10
+
+  - id: va-buena-vista-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/buena_vista/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Buena Vista"
+    contact: "2039 Sycamore Avenue, Buena Vista, VA 24416. Phone (540) 264-2163."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buena Vista
+    weight: 10
+
+  - id: va-campbell-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/campbell/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Campbell"
+    contact: "732 Village Highway, Rustburg, VA 24588-0097. Phone (434) 332-9546."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Campbell
+    weight: 10
+
+  - id: va-caroline-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/caroline/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Caroline"
+    contact: "Caroline General District Court, 111 Ennis Street, Bowling Green, VA 22427-0511. Phone (804) 633-5720."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caroline
+    weight: 10
+
+  - id: va-carroll-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/carroll/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Carroll"
+    contact: "605 Pine Street, Hillsville, VA 24343-0698. Phone (276) 730-3050."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: va-charles-city-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/charles_city/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Charles City"
+    contact: "10780 Courthouse Road, Charles City, VA 23030-0057. Phone (804) 652-2188."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charles City
+    weight: 10
+
+  - id: va-charlottesville-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/charlottesville/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Charlottesville"
+    contact: "606 East Market Street, Charlottesville, VA 22902-2677. Phone (434) 970-3388."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charlottesville
+    weight: 10
+
+  - id: va-charlotte-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/charlotte/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Charlotte"
+    contact: "115 David Bruce Ave, Charlotte Court House, VA 23923. Phone (434) 542-5600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charlotte
+    weight: 10
+
+  - id: va-chesapeake-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/chesapeake/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Chesapeake"
+    contact: "307 Albemarle Drive, Civic Center, Chesapeake, VA 23322-5571. Phone (757) 382-3100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chesapeake
+    weight: 10
+
+  - id: va-chesterfield-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/chesterfield/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Chesterfield"
+    contact: "Chesterfield Courthouse, 9500 Courthouse Road, Chesterfield, VA 23832-0144. Phone (804) 748-1231."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chesterfield
+    weight: 10
+
+  - id: va-clarke-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/clarke/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Clarke"
+    contact: "104 North Church Street, Berryville, VA 22611-0612. Phone (540) 955-5128."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clarke
+    weight: 10
+
+  - id: va-colonial-heights-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/colonial_heights/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Colonial Heights"
+    contact: "550 Boulevard, Colonial Heights, VA 23834. Phone (804) 520-9346."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Colonial Heights
+    weight: 10
+
+  - id: va-covington-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/alleghany/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Covington"
+    contact: "266 West Main Street, Covington, VA 24426-0139. Phone (540) 965-1720."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Covington
+    weight: 10
+
+  - id: va-craig-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/craig/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Craig"
+    contact: "182 Main Street, Suite 5, New Castle, VA 24127-0232. Phone (540) 864-5989."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Craig
+    weight: 10
+
+  - id: va-culpeper-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/culpeper/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Culpeper"
+    contact: "135 West Cameron Street, Culpeper, VA 22701-3045. Phone (540) 727-3417."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Culpeper
+    weight: 10
+
+  - id: va-cumberland-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/cumberland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Cumberland"
+    contact: "1 Courthouse Circle, Courthouse, Cumberland, VA 23040-0024. Phone (804) 492-4848."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: va-danville-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/danville/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Danville"
+    contact: "401 Patton Street, Danville, VA 24543-3300. Phone (434) 799-5179."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Danville
+    weight: 10
+
+  - id: va-dickenson-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/dickenson/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Dickenson"
+    contact: "119 Courthouse Lane, Dickenson County Judicial Center, Clintwood, VA 24228-0128. Phone (276) 926-1630."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickenson
+    weight: 10
+
+  - id: va-dinwiddie-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/dinwiddie/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Dinwiddie"
+    contact: "14008 Boydton Plank Road, Dinwiddie, VA 23841. Phone (804) 469-4533."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dinwiddie
+    weight: 10
+
+  - id: va-emporia-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/emporia/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Emporia"
+    contact: "315 South Main Street, Emporia, VA 23847."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Emporia
+    weight: 10
+
+  - id: va-essex-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/essex/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Essex"
+    contact: "300 Prince Street, Tappahannock, VA 22560. Phone (804) 443-3744."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Essex
+    weight: 10
+
+  - id: va-fairfax-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/fairfax_city/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — City of Fairfax"
+    contact: "City Hall, Room 101, 10455 Armstrong Street, Fairfax, VA 22030-3600. Phone (703) 385-7866."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - City of Fairfax
+    weight: 10
+
+  - id: va-fairfax-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/fairfax_county/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Fairfax"
+    contact: "4110 Chain Bridge Road, Suite 210, Fairfax, VA 22030-0458. Phone (703) 246-3764."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fairfax
+    weight: 10
+
+  - id: va-falls-church-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/falls_church/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Falls Church"
+    contact: "300 Park Avenue, Suite 151W, Falls Church, VA 22046-3301. Phone (703) 248-5098."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Falls Church
+    weight: 10
+
+  - id: va-fauquier-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/fauquier/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Fauquier"
+    contact: "6 Court Street, Warrenton, VA 20186-3299. Phone (540) 422-8035."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fauquier
+    weight: 10
+
+  - id: va-floyd-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/floyd/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Floyd"
+    contact: "100 E. Main Street, Room 208, Floyd, VA 24091-2101. Phone (540) 745-9327."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Floyd
+    weight: 10
+
+  - id: va-fluvanna-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/fluvanna/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Fluvanna"
+    contact: "72 Main Street, Suite B, Palmyra, VA 22963-0417. Phone (434) 591-1980."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fluvanna
+    weight: 10
+
+  - id: va-franklin-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/franklin_city/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — City of Franklin"
+    contact: "1020 Pretlow Street, Franklin, VA 23851-2067. Phone (757) 562-8550."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - City of Franklin
+    weight: 10
+
+  - id: va-franklin-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/franklin_county/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Franklin"
+    contact: "275 South Main Street, Suite 111, Rocky Mount, VA 24151-1758. Phone (540) 483-3060."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: va-fredericksburg-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/fredericksburg/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Fredericksburg"
+    contact: "701 Princess Anne Street Suite 200, Fredericksburg, VA 22401. Phone (540) 372-1043."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fredericksburg
+    weight: 10
+
+  - id: va-frederick-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/Winchester~Frederick/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Frederick"
+    contact: "Judicial Center, 5 North Kent Street, Winchester, VA  22601. Phone (540) 722-7208."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Frederick
+    weight: 10
+
+  - id: va-galax-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/galax/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Galax"
+    contact: "353 North Main Street, Suite 204, Galax, VA 24333-2911. Phone (276) 236-8731."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Galax
+    weight: 10
+
+  - id: va-giles-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/giles/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Giles"
+    contact: "120 North Main Street, Suite 1, Pearisburg, VA 24134. Phone (540) 921-3533."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Giles
+    weight: 10
+
+  - id: va-gloucester-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/gloucester/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Gloucester"
+    contact: "7400 Justice Drive, Room 102, Gloucester, VA 23061-0873. Phone (804) 693-4860."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gloucester
+    weight: 10
+
+  - id: va-goochland-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/goochland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Goochland"
+    contact: "2938 River Road West, Building G, Goochland, VA 23063-0047. Phone (804) 556-5309."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Goochland
+    weight: 10
+
+  - id: va-grayson-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/grayson/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Grayson"
+    contact: "New Grayson Courthouse, 129 Davis St., Independence, VA 24348-0280. Phone (276) 773-2011."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grayson
+    weight: 10
+
+  - id: va-greene-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/greene/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Greene"
+    contact: "85 Stanard Street, Stanardsville, VA 22973-0245. Phone (434) 985-5224."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: va-greensville-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/greensville/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Greensville"
+    contact: "315 South Main Street, Emporia, VA 23847-2027. Phone (434) 634-5400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greensville
+    weight: 10
+
+  - id: va-halifax-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/halifax/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Halifax"
+    contact: "8 South Main Street Suite 200, Halifax, VA 24558-2508. Phone (434) 476-3385."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Halifax
+    weight: 10
+
+  - id: va-hampton-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/hampton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Hampton"
+    contact: "236 North King Street, 2nd Floor, Hampton, VA 23669-3518. Phone (757) 727-6260."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hampton
+    weight: 10
+
+  - id: va-hanover-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/hanover/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Hanover"
+    contact: "District Courts Building, 7530 County Complex Rd 1st Floor, Hanover, VA 23069-0176. Phone (804) 365-6457."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hanover
+    weight: 10
+
+  - id: va-harrisonburg-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/Harrisonburg~Rockingham/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Harrisonburg"
+    contact: "53 Court Square, Room 132, Harrisonburg, VA 22801-3700. Phone (540) 564-3130."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrisonburg
+    weight: 10
+
+  - id: va-henrico-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/henrico/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Henrico"
+    contact: "4309 East Parham Road, Henrico, VA 23273-0775. Phone (804) 501-4727."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henrico
+    weight: 10
+
+  - id: va-henry-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/henry/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Henry"
+    contact: "3160 Kings Mountain Road, Suite A, Martinsville, VA 24112-3965. Phone (276) 634-4815."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: va-highland-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/highland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Highland"
+    contact: "165 West Main Street, Monterey, VA 24465-0088. Phone (540) 468-2445."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Highland
+    weight: 10
+
+  - id: va-hopewell-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/hopewell/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Hopewell"
+    contact: "100 East Broadway, Hopewell, VA 23860-2715. Phone (804) 541-2257."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hopewell
+    weight: 10
+
+  - id: va-isle-of-wight-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/isle_of_wight/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Isle of Wight"
+    contact: "17000 Josiah Parker Circle, Isle Of Wight, VA 23397-0122. Phone (757) 365-6244."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Isle of Wight
+    weight: 10
+
+  - id: va-james-city-county
+    verification: link_ok
+    source_url: "https://vacourts.gov/courts/gd/Williamsburg~James_City_County/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — James City"
+    contact: "5201 Monticello Avenue, Suite 2, Williamsburg, VA 23188-8218. Phone (757) 564-2400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - James City
+    weight: 10
+
+  - id: va-king-george-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/king_george/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — King George"
+    contact: "10446 Government Center Blvd., Suite 105, King George, VA 22485. Phone (540) 775-2390."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - King George
+    weight: 10
+
+  - id: va-king-william-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/king_william/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — King William"
+    contact: "351 Courthouse Lane Ste 201, King William, VA 23086. Phone (804) 769-4947."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - King William
+    weight: 10
+
+  - id: va-king-and-queen-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/king_and_queen/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — King and Queen"
+    contact: "242 Allens Circle, Courthouse, King And Queen, VA 23085. Phone (804) 785-5982."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - King and Queen
+    weight: 10
+
+  - id: va-lancaster-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/lancaster/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Lancaster"
+    contact: "8265 Mary Ball Road, Lancaster, VA 22503-0129. Phone (804) 462-0012."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lancaster
+    weight: 10
+
+  - id: va-lee-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/lee/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Lee"
+    contact: "33640 Main St, Suite 209, Jonesville, VA 24263. Phone (276) 346-7729."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: va-lexington-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/Lexington~Rockbridge/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Lexington"
+    contact: "20 South Randolph Street, Suite 200, Lexington, VA 24450-2552. Phone (540) 463-3631."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lexington
+    weight: 10
+
+  - id: va-loudoun-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/loudoun/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Loudoun"
+    contact: "2 Church Street NE, Leesburg, VA 20176-2828. Phone (703) 777-0312."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Loudoun
+    weight: 10
+
+  - id: va-louisa-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/louisa/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Louisa"
+    contact: "Cunningham Bldg, 314 West Main Street, Louisa, VA 23093-0452. Phone (540) 967-5330."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Louisa
+    weight: 10
+
+  - id: va-lunenburg-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/lunenburg/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Lunenburg"
+    contact: "160 Courthouse Square, Suite 201, General Delivery, Lunenburg, VA 23952. Phone (434) 696-5508."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lunenburg
+    weight: 10
+
+  - id: va-lynchburg-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/lynchburg/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Lynchburg"
+    contact: "905 Court Street, Lynchburg, VA 24504-1603. Phone (434) 455-2640."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lynchburg
+    weight: 10
+
+  - id: va-madison-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/combined/madison/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Madison"
+    contact: "1 Main Street, Lower Level, Madison, VA 22727-0470. Phone (540) 948-4657."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: va-manassas-park-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/prince_william/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Manassas Park"
+    contact: "9311 Lee Avenue, Manassas, VA 20110-5586. Phone (703) 792-6141."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Manassas Park
+    weight: 10
+
+  - id: va-manassas-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/prince_william/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Manassas"
+    contact: "9311 Lee Avenue, Manassas, VA 20110-5586. Phone (703) 792-6141."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Manassas
+    weight: 10
+
+  - id: va-martinsville-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/martinsville/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Martinsville"
+    contact: "Municipal Building, 55 West Church Street, Martinsville, VA 24114-1402. Phone (276) 403-5125."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Martinsville
+    weight: 10
+
+  - id: va-mathews-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/mathews/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Mathews"
+    contact: "10622 Buckley Hall Road, Liberty Square, Mathews, VA 23109. Phone (804) 725-2242."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mathews
+    weight: 10
+
+  - id: va-mecklenburg-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/mecklenburg/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Mecklenburg"
+    contact: "911 Madison Street, Boydton, VA 23917-0306. Phone (434) 738-6260."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mecklenburg
+    weight: 10
+
+  - id: va-middlesex-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/middlesex/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Middlesex"
+    contact: "73 Bowden Street, Saluda, VA 23149. Phone (804) 758-4312."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Middlesex
+    weight: 10
+
+  - id: va-montgomery-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/montgomery/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Montgomery"
+    contact: "55 East Main Street, Third Floor, Christiansburg, VA 24073-3073. Phone (540) 394-2085."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: va-nelson-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/nelson/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Nelson"
+    contact: "84 Courthouse Square, Lovingston, VA 22949-0514. Phone (434) 263-7040."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nelson
+    weight: 10
+
+  - id: va-new-kent-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/new_kent/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — New Kent"
+    contact: "12001 Courthouse Circle, New Kent, VA 23124-0127. Phone (804) 966-9530."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - New Kent
+    weight: 10
+
+  - id: va-newport-news-city
+    verification: link_ok
+    source_url: "https://www.courts.state.va.us/courts/gd/Newport_News-Traffic/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Newport News"
+    contact: "2500 Washington Avenue, 2nd Fl., Newport News, VA 23607-4307. Phone (757) 926-8876."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newport News
+    weight: 10
+
+  - id: va-norfolk-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/norfolk/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Norfolk"
+    contact: "150 Saint Paul's Blvd, Room 3202, Norfolk, VA 23510-2747. Phone (757) 664-4910."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Norfolk
+    weight: 10
+
+  - id: va-northampton-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/northampton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Northampton"
+    contact: "5229 The Hornes, Eastville, VA 23347. Phone (757) 678-0466."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Northampton
+    weight: 10
+
+  - id: va-northumberland-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/northumberland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Northumberland"
+    contact: "220 Judicial Place, Heathsville, VA 22473-0114. Phone (804) 580-4323."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Northumberland
+    weight: 10
+
+  - id: va-norton-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/Wise~Norton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Norton"
+    contact: "206 East Main Street, Wise, VA 24293-0829. Phone (276) 328-3426."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Norton
+    weight: 10
+
+  - id: va-nottoway-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/nottoway/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Nottoway"
+    contact: "328 West Courthouse Road, Nottoway, VA 23955. Phone (434) 645-9312."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nottoway
+    weight: 10
+
+  - id: va-orange-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/orange/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Orange"
+    contact: "110 North Madison Road, Suite 100, Orange, VA 22960. Phone (540) 672-6164."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: va-page-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/page/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Page"
+    contact: "116 South Court Street, Suite B, Luray, VA 22835-1200. Phone (540) 743-5705."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Page
+    weight: 10
+
+  - id: va-patrick-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/patrick/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Patrick"
+    contact: "106 Rucker Street, Administration Bldg. Room 318, Stuart, VA 24171-0149. Phone (276) 694-7258."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Patrick
+    weight: 10
+
+  - id: va-petersburg-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/petersburg/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Petersburg"
+    contact: "35 East Tabb Street, Petersburg, VA 23803-4518. Phone (804) 733-2374."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Petersburg
+    weight: 10
+
+  - id: va-pittsylvania-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/pittsylvania/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Pittsylvania"
+    contact: "11 Bank Street, Suite 201, Chatham, VA 24531-0695. Phone (434) 432-7879."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pittsylvania
+    weight: 10
+
+  - id: va-poquoson-city
+    verification: link_ok
+    source_url: "https://vacourts.gov/courts/gd/york/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Poquoson"
+    contact: "300 Ballard Street, Yorktown, VA 23690-0316. Phone (757) 890-3450."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Poquoson
+    weight: 10
+
+  - id: va-portsmouth-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/portsmouth/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Portsmouth"
+    contact: "1345 Court Street, Suite 104, Portsmouth, VA 23704-3666. Phone (757) 393-8624."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Portsmouth
+    weight: 10
+
+  - id: va-powhatan-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/powhatan/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Powhatan"
+    contact: "3880-D Old Buckingham Road, Courthouse, Powhatan, VA 23139-7052. Phone (804) 598-5665."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Powhatan
+    weight: 10
+
+  - id: va-prince-edward-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/prince_edward/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Prince Edward"
+    contact: "111 South Street, Courthouse Building, Farmville, VA 23901-1354. Phone (434) 392-4024."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prince Edward
+    weight: 10
+
+  - id: va-prince-george-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/prince_george/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Prince George"
+    contact: "6601 Courts Drive, Prince George, VA 23875-0187. Phone (804) 733-2783."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prince George
+    weight: 10
+
+  - id: va-prince-william-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/prince_william/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Prince William"
+    contact: "9311 Lee Avenue, Manassas, VA 20110-5586. Phone (703) 792-6141."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prince William
+    weight: 10
+
+  - id: va-pulaski-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/pulaski/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Pulaski"
+    contact: "45 Third Street, N.W., Suite 102, Courthouse, Pulaski, VA 24301-5041. Phone (540) 980-7470."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 10
+
+  - id: va-radford-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/radford/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Radford"
+    contact: "619 Second Street, Municipal Building, Radford, VA 24141-1456. Phone (540) 731-3609."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Radford
+    weight: 10
+
+  - id: va-rappahannock-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/rappahannock/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Rappahannock"
+    contact: "250 Gay Street, Courthouse, Washington, VA 22747-0206. Phone (540) 675-5356."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rappahannock
+    weight: 10
+
+  - id: va-richmond-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/richmond_city/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — City of Richmond"
+    contact: "John Marshall Courts Building, 400 N. 9th Street, Richmond, VA 23219-1549. Phone (804) 646-6461."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - City of Richmond
+    weight: 10
+
+  - id: va-richmond-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/richmond_county/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Richmond"
+    contact: "201 Court Circle, Warsaw, VA 22572. Phone (804) 333-4616."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richmond
+    weight: 10
+
+  - id: va-roanoke-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/roanoke_city/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — City of Roanoke"
+    contact: "315 W. Church Ave. S.W., 2nd Floor, Roanoke, VA 24016-5007. Phone (540) 853-2364."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - City of Roanoke
+    weight: 10
+
+  - id: va-roanoke-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/roanoke_county/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Roanoke"
+    contact: "Courthouse, 305 East Main St., Salem, VA 24153-0997. Phone (540) 387-6168."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roanoke
+    weight: 10
+
+  - id: va-rockbridge-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/Lexington~Rockbridge/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Rockbridge"
+    contact: "20 South Randolph Street, Suite 200, Lexington, VA 24450-2552. Phone (540) 463-3631."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rockbridge
+    weight: 10
+
+  - id: va-rockingham-county
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/Harrisonburg~Rockingham/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Rockingham"
+    contact: "53 Court Square, Room 132, Harrisonburg, VA 22801-3700. Phone (540) 564-3130."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rockingham
+    weight: 10
+
+  - id: va-russell-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/russell/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Russell"
+    contact: "83 E. Main Street, Lebanon, VA 24266-0065. Phone (276) 889-8051."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Russell
+    weight: 10
+
+  - id: va-salem-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/salem/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Salem"
+    contact: "2 East Calhoun Street, Salem, VA 24153. Phone (540) 375-3044."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Salem
+    weight: 10
+
+  - id: va-scott-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/scott/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Scott"
+    contact: "202 West Jackson Street, Suite 203, Gate City, VA 24251-3417. Phone (276) 386-7341."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: va-shenandoah-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/shenandoah/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Shenandoah"
+    contact: "215 Mill Road, Suite 128, Woodstock, VA 22664-1409. Phone (540) 459-6130."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shenandoah
+    weight: 10
+
+  - id: va-smyth-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/smyth/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Smyth"
+    contact: "109 West Main Street, Suite 1022, Marion, VA 24354-2534. Phone (276) 782-4047."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Smyth
+    weight: 10
+
+  - id: va-southampton-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/southampton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Southampton"
+    contact: "22350 Main Street, Courtland, VA 23837. Phone (757) 653-2673."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Southampton
+    weight: 10
+
+  - id: va-spotsylvania-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/spotsylvania/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Spotsylvania"
+    contact: "9111 Courthouse Road, Judicial Center, 1st Floor, Spotsylvania, VA 22553-0339. Phone (540) 507-7680."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spotsylvania
+    weight: 10
+
+  - id: va-stafford-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/stafford/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Stafford"
+    contact: "1300 Courthouse Road, The Judicial Center, Stafford, VA 22555-0940. Phone (540) 658-8935."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stafford
+    weight: 10
+
+  - id: va-staunton-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/staunton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Staunton"
+    contact: "113 E. Beverley St., 1st Floor, Staunton, VA 24401-4390. Phone (540) 332-3878."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Staunton
+    weight: 10
+
+  - id: va-suffolk-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/suffolk/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Suffolk"
+    contact: "150 North Main Street, Suffolk, VA 23434-4552. Phone (757) 514-4822."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Suffolk
+    weight: 10
+
+  - id: va-surry-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/surry/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Surry"
+    contact: "Surry Government Center, 45 School Street, Surry, VA 23883-0332. Phone (757) 294-5201."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Surry
+    weight: 10
+
+  - id: va-sussex-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/combined/sussex/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Sussex"
+    contact: "15098 Courthouse Road, State Route 735, Sussex, VA 23884. Phone (434) 246-1096."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sussex
+    weight: 10
+
+  - id: va-tazewell-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/tazewell/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Tazewell"
+    contact: "135 Court Street, Suite 300, Tazewell, VA 24651-1081. Phone (276) 385-1563."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tazewell
+    weight: 10
+
+  - id: va-virginia-beach-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/virginia_beach/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Virginia Beach"
+    contact: "2425 Nimmo Parkway, Virginia Beach, VA 23456-9057. Phone (757) 385-8531."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Virginia Beach
+    weight: 10
+
+  - id: va-warren-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/warren/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Warren"
+    contact: "Courthouse Square, One East Main St., Front Royal, VA 22630. Phone (540) 635-2335."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: va-washington-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/washington/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Washington"
+    contact: "191 East Main Street, Abingdon, VA 24210-2858. Phone (276) 676-6281."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: va-waynesboro-city
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/waynesboro/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Waynesboro"
+    contact: "250 South Wayne Avenue, Suite 100, Waynesboro, VA 22980-4625. Phone (540) 942-6636."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Waynesboro
+    weight: 10
+
+  - id: va-westmoreland-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/westmoreland/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Westmoreland"
+    contact: "175 Polk Street, Montross, VA 22520. Phone (804) 493-0105."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Westmoreland
+    weight: 10
+
+  - id: va-williamsburg-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://vacourts.gov/courts/gd/Williamsburg~James_City_County/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Williamsburg"
+    contact: "5201 Monticello Avenue, Suite 2, Williamsburg, VA 23188-8218. Phone (757) 564-2400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williamsburg
+    weight: 10
+
+  - id: va-winchester-city
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vacourts.gov/courts/gd/Winchester~Frederick/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Winchester"
+    contact: "Judicial Center, 5 North Kent Street, Winchester, VA  22601. Phone (540) 722-7208."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Winchester
+    weight: 10
+
+  - id: va-wise-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/Wise~Norton/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Wise"
+    contact: "206 East Main Street, Wise, VA 24293-0829. Phone (276) 328-3426."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wise
+    weight: 10
+
+  - id: va-wythe-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/wythe/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — Wythe"
+    contact: "245 South 4th Street, Suite 205, Wytheville, VA 24382-2548. Phone (276) 223-6075."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wythe
+    weight: 10
+
+  - id: va-york-county
+    verification: link_ok
+    source_url: "https://www.vacourts.gov/courts/gd/york/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "General District Court — York"
+    contact: "300 Ballard Street, Yorktown, VA 23690-0316. Phone (757) 890-3450."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in General District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - York
+    weight: 10
+
+  - id: va-online-case-information
+    verification: link_ok
+    verification_note: "Previous URL https://www.vacourts.gov/online_case_information.html returned HTTP 404 on 2026-09-21; replaced with the current official General District Court Online Case Information System entry, verified HTTP 200 on 2026-09-21."
+    source_url: "https://eapps.courts.state.va.us/gdcourts/changeCourt.do"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: "Virginia Court System — online case information"
+    accepted_keys: "Search by name or case number on the official site."
+    cost: "No cost to search — as of 2026-09-21 on vacourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Not every case type is available online."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 25
+
+  - id: va-dmv-driving-record
+    verification: link_ok
+    verification_note: "Previous URL https://www.dmv.virginia.gov/general/#records/ returned HTTP 404 on 2026-09-21; replaced with the current official driver/vehicle record request page, verified HTTP 200 on 2026-09-21."
+    source_url: "https://www.dmv.virginia.gov/records/request-driver-vehicle-record"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Virginia DMV — driving records"
+    accepted_keys: "Follow the official DMV page to request your driving record."
+    cost: "Driving record requests have a fee — see the official DMV page for current pricing, as of 2026-09-21 on dmv.virginia.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — NOT a pending-ticket portal."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

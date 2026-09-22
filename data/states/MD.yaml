@@ -1,0 +1,612 @@
+# Maryland — District Court (traffic citations are handled by the District Court of Maryland).
+# All 24 county URLs verified HTTP 200 on mdcourts.gov 2026-09-21. Do not commit without review.
+state: MD
+state_name: Maryland
+last_verified: "2026-09-21"
+official_hosts:
+  - mdcourts.gov
+  - mva.maryland.gov
+counties:
+  - name: Allegany
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Anne Arundel
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Baltimore City
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Baltimore
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Calvert
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Caroline
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Carroll
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Cecil
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Charles
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Dorchester
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Frederick
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Garrett
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Harford
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Howard
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Kent
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Montgomery
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Prince George's
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Queen Anne's
+    note: "Traffic venue is the District Court of Maryland."
+  - name: St. Mary's
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Somerset
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Talbot
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Washington
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Wicomico
+    note: "Traffic venue is the District Court of Maryland."
+  - name: Worcester
+    note: "Traffic venue is the District Court of Maryland."
+cards:
+  - id: md-allegany-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/allegany"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Allegany"
+    contact: "123 South Liberty Street, Cumberland, MD 21502."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allegany
+    weight: 10
+
+  - id: md-anne-arundel-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/annearundelANNAPOLIS"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Anne Arundel"
+    contact: "251 Rowe Boulevard, Annapolis, MD 21401."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anne Arundel
+    weight: 10
+
+  - id: md-baltimore-city-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/baltimorecityWABASH"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Baltimore City"
+    contact: "5800 Wabash Avenue, Baltimore, MD 21215."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baltimore City
+    weight: 10
+
+  - id: md-baltimore-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "Redirects to https://www.mdcourts.gov/district/directories/baltimorecountyCATONSVILLE-Rolling (HTTP 200) as of 2026-09-21. Human-verified live in a real browser on 2026-09-21 — the official page loads (the old -Walker URL redirects to the current -Rolling location page). Automated checks are blocked (403), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/baltimorecountyCATONSVILLE-Walker"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Baltimore"
+    contact: "1 Rolling Cross Road, Catonsville, MD 21228."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baltimore
+    weight: 10
+
+  - id: md-calvert-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/calvert"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Calvert"
+    contact: "200 Duke Street, Prince Frederick, MD 20678."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calvert
+    weight: 10
+
+  - id: md-caroline-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/caroline"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Caroline"
+    contact: "207 S. Third Street, Denton, MD 21629."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caroline
+    weight: 10
+
+  - id: md-carroll-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/carroll"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Carroll"
+    contact: "101 North Court Street, Westminster, MD 21157."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: md-cecil-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/cecil"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Cecil"
+    contact: "170 E. Main Street, Elkton, MD 21921."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cecil
+    weight: 10
+
+  - id: md-charles-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/charles"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Charles"
+    contact: "11 Washington Avenue, La Plata, MD 20646. Phone 301-934-5110."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charles
+    weight: 10
+
+  - id: md-dorchester-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/dorchester"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Dorchester"
+    contact: "310 Gay Street, Cambridge, MD 21613."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dorchester
+    weight: 10
+
+  - id: md-frederick-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/frederick"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Frederick"
+    contact: "100 W. Patrick Street, Frederick, MD 21701."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Frederick
+    weight: 10
+
+  - id: md-garrett-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/garrett"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Garrett"
+    contact: "205 South Third Street, Oakland, MD 21550. Phone (301) 334-9431."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garrett
+    weight: 10
+
+  - id: md-harford-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/harford"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Harford"
+    contact: "2 South Bond Street, Bel Air, MD 21014."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harford
+    weight: 10
+
+  - id: md-howard-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/howard"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Howard"
+    contact: "3451 Courthouse Drive, Ellicott City, MD 21043."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howard
+    weight: 10
+
+  - id: md-kent-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/kent"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Kent"
+    contact: "103 N. Cross Street, Chestertown, MD 21620."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kent
+    weight: 10
+
+  - id: md-montgomery-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/montgomeryROCKVILLE"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Montgomery"
+    contact: "191 East Jefferson Street, Rockville, MD 20850."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: md-prince-georges-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/princegeorgesHYATTSVILLE"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Prince George's"
+    contact: "4990 Rhode Island Avenue, Hyattsville, MD 20781."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prince George's
+    weight: 10
+
+  - id: md-queen-annes-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.mdcourts.gov/district/directories/queenannes"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Queen Anne's"
+    contact: "120 Broadway, Centreville, MD 21617."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Queen Anne's
+    weight: 10
+
+  - id: md-st-marys-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/stmarys"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — St. Mary's"
+    contact: "23110 Leonard Hall Drive, Leonardtown, MD 20650."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Mary's
+    weight: 10
+
+  - id: md-somerset-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/somerset"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Somerset"
+    contact: "12155 Elm Street, Princess Anne, MD 21853."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Somerset
+    weight: 10
+
+  - id: md-talbot-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/talbot"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Talbot"
+    contact: "108 W. Dover Street, Easton, MD 21601."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Talbot
+    weight: 10
+
+  - id: md-washington-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/washington"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Washington"
+    contact: "36 W. Antietam Street, Hagerstown, MD 21740."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: md-wicomico-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/wicomico"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Wicomico"
+    contact: "201 Baptist Street, Salisbury, MD 21801."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wicomico
+    weight: 10
+
+  - id: md-worcester-district-court
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/directories/worcesterOCEANCITY"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of Maryland — Worcester"
+    contact: "6505 Coastal Highway, Ocean City, MD 21842."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the District Court of Maryland."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Worcester
+    weight: 10
+
+  - id: md-traffic-citation-help
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/district/selfhelp/traffic"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Maryland Courts — traffic citation information"
+    accepted_keys: "Browse the official traffic citation guide. No account."
+    cost: "No cost to read — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40
+
+  - id: md-court-help
+    verification: link_ok
+    source_url: "https://www.mdcourts.gov/courthelp"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Maryland Courts — Court Help"
+    accepted_keys: "Browse self-help resources on the official site. No account."
+    cost: "No cost to read — as of 2026-09-21 on mdcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 42
+
+  - id: md-mva-driving-record
+    verification: link_ok
+    source_url: "https://mva.maryland.gov/pia-request-driving-record-information"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Maryland MVA — request driving record information"
+    accepted_keys: "Follow the official MVA page to request your driving record."
+    cost: "Driving record requests have a fee — see the official MVA page for current pricing, as of 2026-09-21 on mva.maryland.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — NOT a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

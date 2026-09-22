@@ -1,0 +1,147 @@
+# Vermont map pins — Superior Court Criminal Division locations (phase P5, MapLibre).
+# Addresses verified against official court pages 2026-09-21; coordinates
+# geocoded via Nominatim one request at a time and cross-checked against the
+# OSM address records (road and house number match in every case).
+# URLs reused verbatim from data/states/VT.yaml — never invented.
+# NOTE: Franklin pin — the court's official mailing ZIP is 05478; the OSM
+# address record for the same building shows 05479. Coordinates place the pin.
+pins:
+  - id: vt-addison-courthouse
+    state: VT
+    county: Addison
+    name: Addison Criminal Division
+    address: 7 Mahady Court, Middlebury, VT 05753
+    lat: 44.0140786
+    lng: -73.1652724
+    url: https://www.vtcourts.gov/court-locations/addison-criminal-division
+    kind: courthouse
+
+  - id: vt-bennington-courthouse
+    state: VT
+    county: Bennington
+    name: Bennington Criminal Division
+    address: 200 Veterans Memorial Drive, Bennington, VT 05201
+    lat: 42.8882335
+    lng: -73.1983211
+    url: https://www.vtcourts.gov/court-locations/bennington-criminal-division
+    kind: courthouse
+
+  - id: vt-caledonia-courthouse
+    state: VT
+    county: Caledonia
+    name: Caledonia Criminal Division
+    address: 1126 Main St, Suite 1, St. Johnsbury, VT 05819
+    lat: 44.4186724
+    lng: -72.0208488
+    url: https://www.vtcourts.gov/court-locations/caledonia-criminal-division
+    kind: courthouse
+
+  - id: vt-chittenden-courthouse
+    state: VT
+    county: Chittenden
+    name: Chittenden Criminal Division
+    address: 32 Cherry St., Suite 300, Burlington, VT 05401
+    lat: 44.4796558
+    lng: -73.2170274
+    url: https://www.vtcourts.gov/court-locations/chittenden-criminal-division
+    kind: courthouse
+
+  - id: vt-essex-courthouse
+    state: VT
+    county: Essex
+    name: Essex Criminal Division
+    address: 75 Courthouse Drive, Guildhall, VT 05905
+    lat: 44.5655644
+    lng: -71.5612799
+    url: https://www.vtcourts.gov/court-locations/essex-criminal-division
+    kind: courthouse
+
+  - id: vt-franklin-courthouse
+    state: VT
+    county: Franklin
+    name: Franklin Criminal Division
+    address: 36 Lake Street, St. Albans, VT 05478
+    lat: 44.8105472
+    lng: -73.0850084
+    url: https://www.vtcourts.gov/court-locations/franklin-criminal-division
+    kind: courthouse
+
+  - id: vt-grand-isle-courthouse
+    state: VT
+    county: Grand Isle
+    name: Grand Isle Criminal Division
+    address: 3677 US Rt. 2, North Hero, VT 05474
+    lat: 44.8502283
+    lng: -73.2625551
+    url: https://www.vtcourts.gov/court-locations/grand-isle-criminal-division
+    kind: courthouse
+
+  - id: vt-lamoille-courthouse
+    state: VT
+    county: Lamoille
+    name: Lamoille Criminal Division
+    address: 154 Main Street, Hyde Park, VT 05655
+    lat: 44.5930976
+    lng: -72.6173712
+    url: https://www.vtcourts.gov/court-locations/lamoille-criminal-division
+    kind: courthouse
+
+  - id: vt-orange-courthouse
+    state: VT
+    county: Orange
+    name: Orange Criminal Division
+    address: 5 Court Street, Chelsea, VT 05038
+    lat: 43.9876391
+    lng: -72.4460883
+    url: https://www.vtcourts.gov/court-locations/orange-criminal-division
+    kind: courthouse
+
+  - id: vt-orleans-courthouse
+    state: VT
+    county: Orleans
+    name: Orleans Criminal Division
+    address: 217 Main Street, Newport, VT 05855
+    lat: 44.9351831
+    lng: -72.2102941
+    url: https://www.vtcourts.gov/court-locations/orleans-criminal-division
+    kind: courthouse
+
+  - id: vt-rutland-courthouse
+    state: VT
+    county: Rutland
+    name: Rutland Criminal Division
+    address: 9 Merchants Row, Rutland, VT 05701
+    lat: 43.6065356
+    lng: -72.9802239
+    url: https://www.vtcourts.gov/court-locations/rutland-criminal-division
+    kind: courthouse
+
+  - id: vt-washington-courthouse
+    state: VT
+    county: Washington
+    name: Washington Criminal Division
+    address: 255 North Main St, Suite 1, Barre, VT 05641
+    lat: 44.1998787
+    lng: -72.5039080
+    url: https://www.vtcourts.gov/court-locations/washington-criminal-division
+    kind: courthouse
+
+  - id: vt-windham-courthouse
+    state: VT
+    county: Windham
+    name: Windham Criminal Division
+    address: 30 Putney Road, 2nd Floor, Brattleboro, VT 05301
+    lat: 42.8573039
+    lng: -72.5594700
+    url: https://www.vtcourts.gov/court-locations/windham-criminal-division
+    kind: courthouse
+
+  - id: vt-windsor-courthouse
+    state: VT
+    county: Windsor
+    name: Windsor Criminal Division
+    address: 82 Railroad Row, White River Junction, VT 05001
+    lat: 43.6489899
+    lng: -72.3176098
+    url: https://www.vtcourts.gov/court-locations/windsor-criminal-division
+    kind: courthouse

@@ -1,0 +1,796 @@
+# South Dakota courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/SD.yaml — never invented.
+pins:
+  - id: sd-aurora-courthouse
+    state: SD
+    county: Aurora
+    name: "Aurora County Circuit Court"
+    address: "401 North Main Street, Plankinton, SD 57368-0366"
+    lat: 43.7171904
+    lng: -98.4849164
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/aurora-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-beadle-courthouse
+    state: SD
+    county: Beadle
+    name: "Beadle County Circuit Court"
+    address: "450 3rd Street SW, Suite 204, Huron, SD 57350"
+    lat: 44.3631650
+    lng: -98.2215898
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/beadle-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-bennett-courthouse
+    state: SD
+    county: Bennett
+    name: "Bennett County Circuit Court"
+    address: "202 Main, Martin, SD 57551-0281"
+    lat: 43.1726500
+    lng: -101.7325257
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/bennett-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-bon-homme-courthouse
+    state: SD
+    county: Bon Homme
+    name: "Bon Homme County Circuit Court"
+    address: "300 W. 18th Avenue, Tyndall, SD 57066-0006"
+    lat: 42.9938792
+    lng: -97.8661814
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/bon-homme-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-brookings-courthouse
+    state: SD
+    county: Brookings
+    name: "Brookings County Circuit Court"
+    address: "314 6th Avenue, Suite 6, Brookings, SD 57006-2085"
+    lat: 44.3084907
+    lng: -96.7943648
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/brookings-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-brown-courthouse
+    state: SD
+    county: Brown
+    name: "Brown County Circuit Court"
+    address: "101 SE 1st Avenue, Aberdeen, SD 57402-1087"
+    lat: 45.4642130
+    lng: -98.4864370
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/brown-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-brule-courthouse
+    state: SD
+    county: Brule
+    name: "Brule County Circuit Court"
+    address: "300 South Courtland Street, Suite #111, Chamberlain, SD 57325-1599"
+    lat: 43.8087280
+    lng: -99.3332890
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/brule-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-buffalo-courthouse
+    state: SD
+    county: Buffalo
+    name: "Buffalo County Circuit Court"
+    address: "300 South Courtland Street, Suite #111, Chamberlain, SD 57325-1599"
+    lat: 43.8087280
+    lng: -99.3332890
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/buffalo-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-butte-courthouse
+    state: SD
+    county: Butte
+    name: "Butte County Circuit Court"
+    address: "839 5th Ave., Belle Fourche, SD 57717-0250"
+    lat: 44.6691695
+    lng: -103.8534063
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/butte-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-campbell-courthouse
+    state: SD
+    county: Campbell
+    name: "Campbell County Circuit Court"
+    address: "111 2nd Street NE, Mound City, SD 57464-0146"
+    lat: 45.7263584
+    lng: -100.0677860
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/campbell-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-charles-mix-courthouse
+    state: SD
+    county: Charles Mix
+    name: "Charles Mix County Circuit Court"
+    address: "400 Main Street, Lake Andes, SD 57356-0640"
+    lat: 43.1561380
+    lng: -98.5400210
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/charles-mix-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-clark-courthouse
+    state: SD
+    county: Clark
+    name: "Clark County Circuit Court"
+    address: "200 Commercial Street, Clark, SD 57225-0294"
+    lat: 44.8751520
+    lng: -97.7333720
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/clark-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-clay-courthouse
+    state: SD
+    county: Clay
+    name: "Clay County Circuit Court"
+    address: "211 West Main Street, Suite #300, Vermillion, SD 57069-0377"
+    lat: 42.7824305
+    lng: -96.9586072
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/clay-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-codington-courthouse
+    state: SD
+    county: Codington
+    name: "Codington County Circuit Court"
+    address: "14 1st Ave SE, Watertown, SD 57201"
+    lat: 44.8986342
+    lng: -97.1144055
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/codington-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-corson-courthouse
+    state: SD
+    county: Corson
+    name: "Corson County Circuit Court"
+    address: "212 1st Ave East, McIntosh, SD 57641-0175"
+    lat: 45.9214669
+    lng: -101.3481221
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/corson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-custer-courthouse
+    state: SD
+    county: Custer
+    name: "Custer County Circuit Court"
+    address: "420 Mt. Rushmore Road, Suite 6, Custer, SD 57730-1934"
+    lat: 43.7675919
+    lng: -103.5952272
+    url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/custer-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-davison-courthouse
+    state: SD
+    county: Davison
+    name: "Davison County Circuit Court"
+    address: "200 East 4th Avenue, Mitchell, SD 57301-0927"
+    lat: 43.7125710
+    lng: -98.0239090
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/davison-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-day-courthouse
+    state: SD
+    county: Day
+    name: "Day County Circuit Court"
+    address: "711 West 1st Street, Webster, SD 57274-1359"
+    lat: 45.3323941
+    lng: -97.5216832
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/day-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-deuel-courthouse
+    state: SD
+    county: Deuel
+    name: "Deuel County Circuit Court"
+    address: "408 4th Street W, Clear Lake, SD 57226-0308"
+    lat: 44.7556813
+    lng: -96.6842637
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/deuel-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-dewey-courthouse
+    state: SD
+    county: Dewey
+    name: "Dewey County Circuit Court"
+    address: "710 C Street - Courthouse, Timber Lake, SD 57656-0096"
+    lat: 45.4291550
+    lng: -101.0740340
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/dewey-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-douglas-courthouse
+    state: SD
+    county: Douglas
+    name: "Douglas County Circuit Court"
+    address: "706 Braddock, Armour, SD 57313-0036"
+    lat: 43.3180024
+    lng: -98.3447540
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/douglas-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-edmunds-courthouse
+    state: SD
+    county: Edmunds
+    name: "Edmunds County Circuit Court"
+    address: "210 2nd Ave., Ipswich, SD 57451-0384"
+    lat: 45.4453990
+    lng: -99.0252605
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/edmunds-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-fall-river-courthouse
+    state: SD
+    county: Fall River
+    name: "Fall River County Circuit Court"
+    address: "906 N River St, Hot Springs, SD 57747-1387"
+    lat: 43.4394656
+    lng: -103.4805074
+    url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/fall-river-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-faulk-courthouse
+    state: SD
+    county: Faulk
+    name: "Faulk County Circuit Court"
+    address: "110 9th Ave South, Faulkton, SD 57438-0357"
+    lat: 45.0287335
+    lng: -99.1256792
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/faulk-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-grant-courthouse
+    state: SD
+    county: Grant
+    name: "Grant County Circuit Court"
+    address: "210 E 5th Avenue, Milbank, SD 57252"
+    lat: 45.2175613
+    lng: -96.6359208
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/grant-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-gregory-courthouse
+    state: SD
+    county: Gregory
+    name: "Gregory County Circuit Court"
+    address: "221 E 8th St, Burke, SD 57523-0430"
+    lat: 43.1824168
+    lng: -99.2904926
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/gregory-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-haakon-courthouse
+    state: SD
+    county: Haakon
+    name: "Haakon County Circuit Court"
+    address: "140 South Howard, Phillip, SD 57567-0070"
+    lat: 44.0385217
+    lng: -101.6659620
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/haakon-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hamlin-courthouse
+    state: SD
+    county: Hamlin
+    name: "Hamlin County Circuit Court"
+    address: "350 Fourth Street, Hayti, SD 57241-0256"
+    lat: 44.6571870
+    lng: -97.2050730
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/hamlin-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hand-courthouse
+    state: SD
+    county: Hand
+    name: "Hand County Circuit Court"
+    address: "415 West 1st Ave #11, Miller, SD 57362"
+    lat: 44.5197136
+    lng: -98.9904509
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/hand-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hanson-courthouse
+    state: SD
+    county: Hanson
+    name: "Hanson County Circuit Court"
+    address: "720 5th Street, Alexandria, SD 57311-0127"
+    lat: 43.6544950
+    lng: -97.7774500
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/hanson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-harding-courthouse
+    state: SD
+    county: Harding
+    name: "Harding County Circuit Court"
+    address: "410 Ramsland Street, Buffalo, SD 57720-0534"
+    lat: 45.5834410
+    lng: -103.5497106
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/harding-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hughes-courthouse
+    state: SD
+    county: Hughes
+    name: "Hughes County Circuit Court"
+    address: "104 East Capitol Avenue, Pierre, SD 57501-1238"
+    lat: 44.3688562
+    lng: -100.3511116
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/hughes-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hutchinson-courthouse
+    state: SD
+    county: Hutchinson
+    name: "Hutchinson County Circuit Court"
+    address: "201 West Mentor Street, Room 142, Olivet, SD 57052-2103"
+    lat: 43.2424670
+    lng: -97.6764200
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/hutchinson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-hyde-courthouse
+    state: SD
+    county: Hyde
+    name: "Hyde County Circuit Court"
+    address: "412 Commercial SE, Highmore, SD 57345-0306"
+    lat: 44.5144995
+    lng: -99.4401676
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/hyde-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-jackson-courthouse
+    state: SD
+    county: Jackson
+    name: "Jackson County Circuit Court"
+    address: "700 Main Street, Kadoka, SD 57543-0128"
+    lat: 43.8353205
+    lng: -101.5103110
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/jackson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-jerauld-courthouse
+    state: SD
+    county: Jerauld
+    name: "Jerauld County Circuit Court"
+    address: "205 South Wallace, Wessington Springs, SD 57382-0435"
+    lat: 44.0778479
+    lng: -98.5694371
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/jerauld-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-jones-courthouse
+    state: SD
+    county: Jones
+    name: "Jones County Circuit Court"
+    address: "310 Main Street, Murdo, SD 57559-0448"
+    lat: 43.8874936
+    lng: -100.7131198
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/jones-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-kingsbury-courthouse
+    state: SD
+    county: Kingsbury
+    name: "Kingsbury County Circuit Court"
+    address: "202 2nd Street SE, De Smet, SD 57231-0176"
+    lat: 44.3860168
+    lng: -97.5472676
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/kingsbury-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-lake-courthouse
+    state: SD
+    county: Lake
+    name: "Lake County Circuit Court"
+    address: "200 East Center Street, Madison, SD 57042-2941"
+    lat: 44.0051930
+    lng: -97.1123730
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/lake-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-lawrence-courthouse
+    state: SD
+    county: Lawrence
+    name: "Lawrence County Circuit Court"
+    address: "78 Sherman Street, Deadwood, SD 57732-0626"
+    lat: 44.3746480
+    lng: -103.7294063
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/lawrence-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-lincoln-courthouse
+    state: SD
+    county: Lincoln
+    name: "Lincoln County Circuit Court"
+    address: "104 N Main Street, Canton, SD 57013-1732"
+    lat: 43.3015750
+    lng: -96.5921326
+    url: "https://ujs.sd.gov/court-finder/second-judicial-circuit/lincoln-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-lyman-courthouse
+    state: SD
+    county: Lyman
+    name: "Lyman County Circuit Court"
+    address: "300 S Maine St, Kennebec, SD 57544-0235"
+    lat: 43.9036020
+    lng: -99.8617830
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/lyman-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-mccook-courthouse
+    state: SD
+    county: McCook
+    name: "McCook County Circuit Court"
+    address: "130 West Essex Avenue, Salem, SD 57058-0504"
+    lat: 43.7276174
+    lng: -97.3879201
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/mccook-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-mcpherson-courthouse
+    state: SD
+    county: McPherson
+    name: "McPherson County Circuit Court"
+    address: "706 Main Street, Leola, SD 57456-0248"
+    lat: 45.7227543
+    lng: -98.9408157
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/mcpherson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-marshall-courthouse
+    state: SD
+    county: Marshall
+    name: "Marshall County Circuit Court"
+    address: "911 Vander Horck, Britton, SD 57430"
+    lat: 45.7907739
+    lng: -97.7542937
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/marshall-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-meade-courthouse
+    state: SD
+    county: Meade
+    name: "Meade County Circuit Court"
+    address: "1425 Sherman Street, Sturgis, SD 57785-0939"
+    lat: 44.4135796
+    lng: -103.5160209
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/meade-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-mellette-courthouse
+    state: SD
+    county: Mellette
+    name: "Mellette County Circuit Court"
+    address: "First & McKinley St, White River, SD 57579-0257"
+    lat: 43.5699383
+    lng: -100.7485190
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/mellette-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-miner-courthouse
+    state: SD
+    county: Miner
+    name: "Miner County Circuit Court"
+    address: "401 N. Main, Howard, SD 57349-0265"
+    lat: 44.0108070
+    lng: -97.5267360
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/miner-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-minnehaha-courthouse
+    state: SD
+    county: Minnehaha
+    name: "Minnehaha County Circuit Court"
+    address: "425 N. Dakota Avenue, Sioux Falls, SD 57104-2470"
+    lat: 43.5515808
+    lng: -96.7299293
+    url: "https://ujs.sd.gov/court-finder/second-judicial-circuit/minnehaha-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-moody-courthouse
+    state: SD
+    county: Moody
+    name: "Moody County Circuit Court"
+    address: "101 East Pipestone Avenue, Flandreau, SD 57028-0226"
+    lat: 44.0482940
+    lng: -96.5952500
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/moody-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-oglala-lakota-courthouse
+    state: SD
+    county: Oglala Lakota
+    name: "Oglala Lakota County Circuit Court"
+    address: "906 N River St, Hot Springs, SD 57747-1387"
+    lat: 43.4394656
+    lng: -103.4805074
+    url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/oglala-lakota-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-pennington-courthouse
+    state: SD
+    county: Pennington
+    name: "Pennington County Circuit Court"
+    address: "315 St Joseph St #5, Rapid City, SD 57709-0230"
+    lat: 44.0789108
+    lng: -103.2224684
+    url: "https://ujs.sd.gov/court-finder/seventh-judicial-circuit/pennington-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-perkins-courthouse
+    state: SD
+    county: Perkins
+    name: "Perkins County Circuit Court"
+    address: "101 Main Street, Bison, SD 57620-0426"
+    lat: 45.5223180
+    lng: -102.4637380
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/perkins-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-potter-courthouse
+    state: SD
+    county: Potter
+    name: "Potter County Circuit Court"
+    address: "201 South Exene, Gettysburg, SD 57442-0067"
+    lat: 45.0102480
+    lng: -99.9555500
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/potter-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-roberts-courthouse
+    state: SD
+    county: Roberts
+    name: "Roberts County Circuit Court"
+    address: "411 2nd Ave East, Sisseton, SD 57262-1403"
+    lat: 45.6639272
+    lng: -97.0482405
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/roberts-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-sanborn-courthouse
+    state: SD
+    county: Sanborn
+    name: "Sanborn County Circuit Court"
+    address: "604 West 6th Street, Woonsocket, SD 57385-0056"
+    lat: 44.0529950
+    lng: -98.2788070
+    url: "https://ujs.sd.gov/court-finder/third-judicial-circuit/sanborn-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-spink-courthouse
+    state: SD
+    county: Spink
+    name: "Spink County Circuit Court"
+    address: "210 East 7th Avenue, Redfield, SD 57469-1299"
+    lat: 44.8751999
+    lng: -98.5144293
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/spink-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-stanley-courthouse
+    state: SD
+    county: Stanley
+    name: "Stanley County Circuit Court"
+    address: "8 E. 2nd Ave., Fort Pierre, SD 57532-0758"
+    lat: 44.3535200
+    lng: -100.3738240
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/stanley-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-sully-courthouse
+    state: SD
+    county: Sully
+    name: "Sully County Circuit Court"
+    address: "700 Ash Avenue, Onida, SD 57564-0188"
+    lat: 44.7079458
+    lng: -100.0683024
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/sully-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-todd-courthouse
+    state: SD
+    county: Todd
+    name: "Todd County Circuit Court"
+    address: "200 E Third Street, Winner, SD 57580-0311"
+    lat: 43.3766670
+    lng: -99.8590070
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/todd-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-tripp-courthouse
+    state: SD
+    county: Tripp
+    name: "Tripp County Circuit Court"
+    address: "200 E Third Street, Winner, SD 57580-0311"
+    lat: 43.3766670
+    lng: -99.8590070
+    url: "https://ujs.sd.gov/court-finder/sixth-judicial-circuit/tripp-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-turner-courthouse
+    state: SD
+    county: Turner
+    name: "Turner County Circuit Court"
+    address: "400 S. Main St., Suite 203, Parker, SD 57053-0446"
+    lat: 43.3952960
+    lng: -97.1366860
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/turner-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-union-courthouse
+    state: SD
+    county: Union
+    name: "Union County Circuit Court"
+    address: "209 East Main Street, Suite 230, Elk Point, SD 57025-2327"
+    lat: 42.6857088
+    lng: -96.6833548
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/union-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-walworth-courthouse
+    state: SD
+    county: Walworth
+    name: "Walworth County Circuit Court"
+    address: "4304 4th Avenue, Selby, SD 57472-0328"
+    lat: 45.5065782
+    lng: -100.0337816
+    url: "https://ujs.sd.gov/court-finder/fifth-judicial-circuit/walworth-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-yankton-courthouse
+    state: SD
+    county: Yankton
+    name: "Yankton County Circuit Court"
+    address: "410 Walnut Street, Suite 205, Yankton, SD 57078-4390"
+    lat: 42.8718490
+    lng: -97.3931708
+    url: "https://ujs.sd.gov/court-finder/first-judicial-circuit/yankton-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: sd-ziebach-courthouse
+    state: SD
+    county: Ziebach
+    name: "Ziebach County Circuit Court"
+    address: "601 Main St, Dupree, SD 57623-0306"
+    lat: 45.0475999
+    lng: -101.6031754
+    url: "https://ujs.sd.gov/court-finder/fourth-judicial-circuit/ziebach-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

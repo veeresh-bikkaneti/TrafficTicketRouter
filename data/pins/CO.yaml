@@ -1,0 +1,477 @@
+# Colorado map pins — county courthouse locations.
+# Addresses from official Colorado Judicial Branch pages verified 2026-09-21;
+# coordinates via Nominatim. 17 counties omitted (geocode failed).
+pins:
+  - id: co-adams-courthouse
+    state: CO
+    county: Adams
+    name: "Adams County Court"
+    address: 1100 Judicial Center Dr., Brighton, CO 80601
+    lat: 39.9684284
+    lng: -104.7632229
+    url: https://www.coloradojudicial.gov/courts/trial-courts/adams-county
+    kind: courthouse
+
+  - id: co-arapahoe-courthouse
+    state: CO
+    county: Arapahoe
+    name: "Arapahoe County Court"
+    address: 7325 S. Potomac Street, Centennial, CO 80112
+    lat: 39.5813986
+    lng: -104.8295137
+    url: https://www.coloradojudicial.gov/courts/trial-courts/arapahoe-county
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: co-archuleta-courthouse
+    state: CO
+    county: Archuleta
+    name: "Archuleta County Court"
+    address: 109 Harman Park Drive, Pagosa Springs, CO 81147
+    lat: 37.2661504
+    lng: -107.0514695
+    url: https://www.coloradojudicial.gov/courts/trial-courts/archuleta-county
+    kind: courthouse
+
+  - id: co-baca-courthouse
+    state: CO
+    county: Baca
+    name: "Baca County Court"
+    address: 741 Main Street, Springfield, CO 81073
+    lat: 37.4066986
+    lng: -102.6163817
+    url: https://www.coloradojudicial.gov/courts/trial-courts/baca-county
+    kind: courthouse
+
+  - id: co-bent-courthouse
+    state: CO
+    county: Bent
+    name: "Bent County Court"
+    address: 725 Bent Avenue, Las Animas, CO 81054
+    lat: 38.0658886
+    lng: -103.2200622
+    url: https://www.coloradojudicial.gov/courts/trial-courts/bent-county
+    kind: courthouse
+
+  - id: co-boulder-courthouse
+    state: CO
+    county: Boulder
+    name: "Boulder County Court"
+    address: 1777 6th St., Boulder, CO 80302
+    lat: 40.0140253
+    lng: -105.2873310
+    url: https://www.coloradojudicial.gov/courts/trial-courts/boulder-county
+    kind: courthouse
+
+  - id: co-broomfield-courthouse
+    state: CO
+    county: Broomfield
+    name: "Broomfield County Court"
+    address: 17 Descombes Dr., Broomfield, CO 80020
+    lat: 39.9206894
+    lng: -105.0679516
+    url: https://www.coloradojudicial.gov/courts/trial-courts/broomfield-county
+    kind: courthouse
+
+  - id: co-chaffee-courthouse
+    state: CO
+    county: Chaffee
+    name: "Chaffee County Court"
+    address: 142 Crestone Avenue, Salida, CO 81201
+    lat: 38.5379308
+    lng: -105.9988576
+    url: https://www.coloradojudicial.gov/courts/trial-courts/chaffee-county
+    kind: courthouse
+
+  - id: co-cheyenne-courthouse
+    state: CO
+    county: Cheyenne
+    name: "Cheyenne County Court"
+    address: 51 S. 1st St., Cheyenne Wells, CO 80810
+    lat: 38.8213951
+    lng: -102.3532430
+    url: https://www.coloradojudicial.gov/courts/trial-courts/cheyenne-county
+    kind: courthouse
+
+  - id: co-crowley-courthouse
+    state: CO
+    county: Crowley
+    name: "Crowley County Court"
+    address: 110 East 6th Street, Ordway, CO 81063
+    lat: 38.2219547
+    lng: -103.7562083
+    url: https://www.coloradojudicial.gov/courts/trial-courts/crowley-county
+    kind: courthouse
+
+  - id: co-custer-courthouse
+    state: CO
+    county: Custer
+    name: "Custer County Court"
+    address: 205 S. 6th St., Westcliffe, CO 81252
+    lat: 38.1347220
+    lng: -105.4658353
+    url: https://www.coloradojudicial.gov/courts/trial-courts/custer-county
+    kind: courthouse
+
+  - id: co-delta-courthouse
+    state: CO
+    county: Delta
+    name: "Delta County Court"
+    address: 501 Palmer St., Delta, CO 81416
+    lat: 38.7400092
+    lng: -108.0727898
+    url: https://www.coloradojudicial.gov/courts/trial-courts/delta-county
+    kind: courthouse
+
+  - id: co-denver-courthouse
+    state: CO
+    county: Denver
+    name: "Denver County Court"
+    address: 1437 Bannock Street, Denver, CO 80202
+    lat: 39.7390471
+    lng: -104.9903453
+    url: https://www.coloradojudicial.gov/courts/trial-courts/denver-county
+    kind: courthouse
+
+  - id: co-dolores-courthouse
+    state: CO
+    county: Dolores
+    name: "Dolores County Court"
+    address: 409 N. Main, Dove Creek, CO 81324
+    lat: 37.7654710
+    lng: -108.9036891
+    url: https://www.coloradojudicial.gov/courts/trial-courts/dolores-county
+    kind: courthouse
+
+  - id: co-douglas-courthouse
+    state: CO
+    county: Douglas
+    name: "Douglas County Court"
+    address: 4000 Justice Way, Castle Rock, CO 80109
+    lat: 39.4016573
+    lng: -104.8649167
+    url: https://www.coloradojudicial.gov/courts/trial-courts/douglas-county
+    kind: courthouse
+
+  - id: co-eagle-courthouse
+    state: CO
+    county: Eagle
+    name: "Eagle County Court"
+    address: 885 Chambers Ave, Eagle, CO 81631
+    lat: 39.6632677
+    lng: -106.8181867
+    url: https://www.coloradojudicial.gov/courts/trial-courts/eagle-county
+    kind: courthouse
+
+  - id: co-el-paso-courthouse
+    state: CO
+    county: El Paso
+    name: "El Paso County Court"
+    address: 270 S Tejon St, Colorado Springs, CO 80903
+    lat: 38.8303193
+    lng: -104.8251756
+    url: https://www.coloradojudicial.gov/courts/trial-courts/el-paso-county
+    kind: courthouse
+
+  - id: co-elbert-courthouse
+    state: CO
+    county: Elbert
+    name: "Elbert County Court"
+    address: 751 Ute Ave., Kiowa, CO 80117
+    lat: 39.3422830
+    lng: -104.4640819
+    url: https://www.coloradojudicial.gov/courts/trial-courts/elbert-county
+    kind: courthouse
+
+  - id: co-fremont-courthouse
+    state: CO
+    county: Fremont
+    name: "Fremont County Court"
+    address: 136 Justice Center Rd, Canon City, CO 81212
+    lat: 38.4450506
+    lng: -105.1831432
+    url: https://www.coloradojudicial.gov/courts/trial-courts/fremont-county
+    kind: courthouse
+
+  - id: co-garfield-courthouse
+    state: CO
+    county: Garfield
+    name: "Garfield County Court"
+    address: 109 8th St., Glenwood Springs, CO 81601
+    lat: 39.5468067
+    lng: -107.3263486
+    url: https://www.coloradojudicial.gov/courts/trial-courts/garfield-county
+    kind: courthouse
+
+  - id: co-grand-courthouse
+    state: CO
+    county: Grand
+    name: "Grand County Court"
+    address: 307 Moffat Avenue, Hot Sulphur Springs, CO 80451
+    lat: 40.0721150
+    lng: -106.1039337
+    url: https://www.coloradojudicial.gov/courts/trial-courts/grand-county
+    kind: courthouse
+
+  - id: co-gunnison-courthouse
+    state: CO
+    county: Gunnison
+    name: "Gunnison County Court"
+    address: 200 E. Virginia Avenue, Gunnison, CO 81230
+    lat: 38.5456070
+    lng: -106.9254640
+    url: https://www.coloradojudicial.gov/courts/trial-courts/gunnison-county
+    kind: courthouse
+
+  - id: co-hinsdale-courthouse
+    state: CO
+    county: Hinsdale
+    name: "Hinsdale County Court"
+    address: 317 Henson St., Lake City, CO 81235
+    lat: 38.0288507
+    lng: -107.3144396
+    url: https://www.coloradojudicial.gov/courts/trial-courts/hinsdale-county
+    kind: courthouse
+
+  - id: co-huerfano-courthouse
+    state: CO
+    county: Huerfano
+    name: "Huerfano County Court"
+    address: 200 West 5th Street, Walsenburg, CO 81089
+    lat: 37.6232539
+    lng: -104.7856036
+    url: https://www.coloradojudicial.gov/courts/trial-courts/huerfano-county
+    kind: courthouse
+
+  - id: co-jefferson-courthouse
+    state: CO
+    county: Jefferson
+    name: "Jefferson County Court"
+    address: 100 Jefferson County Parkway, Parkway Golden, CO 80401
+    lat: 39.7281807
+    lng: -105.2016602
+    url: https://www.coloradojudicial.gov/courts/trial-courts/jefferson-county
+    kind: courthouse
+
+  - id: co-kiowa-courthouse
+    state: CO
+    county: Kiowa
+    name: "Kiowa County Court"
+    address: 1305 Goff Street, Eads, CO 81036
+    lat: 38.4795156
+    lng: -102.7799926
+    url: https://www.coloradojudicial.gov/courts/trial-courts/kiowa-county
+    kind: courthouse
+
+  - id: co-kit-carson-courthouse
+    state: CO
+    county: Kit Carson
+    name: "Kit Carson County Court"
+    address: 1650 Donelan, Burlington, CO 80807
+    lat: 39.3023783
+    lng: -102.2713828
+    url: https://www.coloradojudicial.gov/courts/trial-courts/kit-carson-county
+    kind: courthouse
+
+  - id: co-lake-courthouse
+    state: CO
+    county: Lake
+    name: "Lake County Court"
+    address: 505 Harrison Avenue, Leadville, CO 80461
+    lat: 39.2480504
+    lng: -106.2923279
+    url: https://www.coloradojudicial.gov/courts/trial-courts/lake-county
+    kind: courthouse
+
+  - id: co-las-animas-courthouse
+    state: CO
+    county: Las Animas
+    name: "Las Animas County Court"
+    address: 200 E. 1st St., Trinidad, CO 81082
+    lat: 37.1693970
+    lng: -104.5005410
+    url: https://www.coloradojudicial.gov/courts/trial-courts/las-animas-county
+    kind: courthouse
+
+  - id: co-mesa-courthouse
+    state: CO
+    county: Mesa
+    name: "Mesa County Court"
+    address: 125 N Spruce St., Grand Junction, CO 81501
+    lat: 39.0679256
+    lng: -108.5726562
+    url: https://www.coloradojudicial.gov/courts/trial-courts/mesa-county
+    kind: courthouse
+
+  - id: co-mineral-courthouse
+    state: CO
+    county: Mineral
+    name: "Mineral County Court"
+    address: 1201 North Main, Creede, CO 81130
+    lat: 37.8541492
+    lng: -106.9273090
+    url: https://www.coloradojudicial.gov/courts/trial-courts/mineral-county
+    kind: courthouse
+
+  - id: co-moffat-courthouse
+    state: CO
+    county: Moffat
+    name: "Moffat County Court"
+    address: 1198 W. Victory Way, Craig, CO 81625
+    lat: 40.5142641
+    lng: -107.5612612
+    url: https://www.coloradojudicial.gov/courts/trial-courts/moffat-county
+    kind: courthouse
+
+  - id: co-montezuma-courthouse
+    state: CO
+    county: Montezuma
+    name: "Montezuma County Court"
+    address: 865 North Park Street, Cortez, CO 81321
+    lat: 37.3579079
+    lng: -108.5760891
+    url: https://www.coloradojudicial.gov/courts/trial-courts/montezuma-county
+    kind: courthouse
+
+  - id: co-morgan-courthouse
+    state: CO
+    county: Morgan
+    name: "Morgan County Court"
+    address: 400 Warner Street, Fort Morgan, CO 80701
+    lat: 40.2520754
+    lng: -103.7892328
+    url: https://www.coloradojudicial.gov/courts/trial-courts/morgan-county
+    kind: courthouse
+
+  - id: co-ouray-courthouse
+    state: CO
+    county: Ouray
+    name: "Ouray County Court"
+    address: 541 4th St, Ouray, CO 81427
+    lat: 38.0225061
+    lng: -107.6697309
+    url: https://www.coloradojudicial.gov/courts/trial-courts/ouray-county
+    kind: courthouse
+
+  - id: co-pitkin-courthouse
+    state: CO
+    county: Pitkin
+    name: "Pitkin County Court"
+    address: 506 E Main Street, Aspen, CO 81611
+    lat: 39.1906790
+    lng: -106.8176034
+    url: https://www.coloradojudicial.gov/courts/trial-courts/pitkin-county
+    kind: courthouse
+
+  - id: co-prowers-courthouse
+    state: CO
+    county: Prowers
+    name: "Prowers County Court"
+    address: 301 S. Main, Lamar, CO 81052
+    lat: 38.0868247
+    lng: -102.6184448
+    url: https://www.coloradojudicial.gov/courts/trial-courts/prowers-county
+    kind: courthouse
+
+  - id: co-pueblo-courthouse
+    state: CO
+    county: Pueblo
+    name: "Pueblo County Court"
+    address: 501 N. Elizabeth Street, Pueblo, CO 81003
+    lat: 38.2716310
+    lng: -104.6147240
+    url: https://www.coloradojudicial.gov/courts/trial-courts/pueblo-county
+    kind: courthouse
+
+  - id: co-rio-blanco-courthouse
+    state: CO
+    county: Rio Blanco
+    name: "Rio Blanco County Court"
+    address: 455 Main Street, Meeker, CO 81641
+    lat: 40.0377726
+    lng: -107.9117081
+    url: https://www.coloradojudicial.gov/courts/trial-courts/rio-blanco-county
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: co-rio-grande-courthouse
+    state: CO
+    county: Rio Grande
+    name: "Rio Grande County Court"
+    address: 925 6th Street, Del Norte, CO 81132
+    lat: 37.6773604
+    lng: -106.3504499
+    url: https://www.coloradojudicial.gov/courts/trial-courts/rio-grande-county
+    kind: courthouse
+
+  - id: co-routt-courthouse
+    state: CO
+    county: Routt
+    name: "Routt County Court"
+    address: 1955 Shield Drive, Steamboat Springs, CO 80487
+    lat: 40.5011044
+    lng: -106.8587104
+    url: https://www.coloradojudicial.gov/courts/trial-courts/routt-county
+    kind: courthouse
+
+  - id: co-saguache-courthouse
+    state: CO
+    county: Saguache
+    name: "Saguache County Court"
+    address: 501 4th Street, Saguache, CO 81149
+    lat: 38.0855030
+    lng: -106.1369470
+    url: https://www.coloradojudicial.gov/courts/trial-courts/saguache-county
+    kind: courthouse
+
+  - id: co-san-juan-courthouse
+    state: CO
+    county: San Juan
+    name: "San Juan County Court"
+    address: 1557 Greene Street, Silverton, CO 81433
+    lat: 37.8151462
+    lng: -107.6619943
+    url: https://www.coloradojudicial.gov/courts/trial-courts/san-juan-county
+    kind: courthouse
+
+  - id: co-san-miguel-courthouse
+    state: CO
+    county: San Miguel
+    name: "San Miguel County Court"
+    address: 305 W. Colorado Ave., Telluride, CO 81435
+    lat: 37.9379830
+    lng: -107.8128190
+    url: https://www.coloradojudicial.gov/courts/trial-courts/san-miguel-county
+    kind: courthouse
+
+  - id: co-sedgwick-courthouse
+    state: CO
+    county: Sedgwick
+    name: "Sedgwick County Court"
+    address: 315 Cedar Street, Julesburg, CO 80737
+    lat: 40.9883807
+    lng: -102.2647947
+    url: https://www.coloradojudicial.gov/courts/trial-courts/sedgwick-county
+    kind: courthouse
+
+  - id: co-teller-courthouse
+    state: CO
+    county: Teller
+    name: "Teller County Court"
+    address: 101 W. Bennett Avenue, Cripple Creek, CO 80813
+    lat: 38.7467943
+    lng: -105.1806443
+    url: https://www.coloradojudicial.gov/courts/trial-courts/teller-county
+    kind: courthouse
+
+  - id: co-weld-courthouse
+    state: CO
+    county: Weld
+    name: "Weld County Court"
+    address: 901 9th Ave, Greeley, CO 80631
+    lat: 40.4235203
+    lng: -104.6931645
+    url: https://www.coloradojudicial.gov/courts/trial-courts/weld-county
+    kind: courthouse

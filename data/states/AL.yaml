@@ -1,0 +1,212 @@
+# Alabama.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# UPDATE 2026-09-21 (pins backfill): the alacourt.gov county subdomains ARE
+# reachable — all 66 alacourt.gov subdomains returned HTTP 200 with official
+# court content when retested during the pins backfill (the earlier
+# "unreachable" finding was transient). data/pins/AL.yaml pins all 67 county
+# district courthouses (66 on alacourt.gov, Fayette on fayetteco.net).
+state: AL
+state_name: Alabama
+last_verified: "2026-09-21"
+official_hosts:
+  - alacourt.com
+  - alacourt.gov
+  - alea.gov
+  - alabar.org
+  - fayetteco.net
+counties:
+  - name: Autauga
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Baldwin
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Barbour
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Bibb
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Blount
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Bullock
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Butler
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Calhoun
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Chambers
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Cherokee
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Chilton
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Choctaw
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Clarke
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Clay
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Cleburne
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Coffee
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Colbert
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Conecuh
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Coosa
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Covington
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Crenshaw
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Cullman
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Dale
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Dallas
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: DeKalb
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Elmore
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Escambia
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Etowah
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Fayette
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Franklin
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Geneva
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Greene
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Hale
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Henry
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Houston
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Jackson
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Jefferson
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Lamar
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Lauderdale
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Lawrence
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Lee
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Limestone
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Lowndes
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Macon
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Madison
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Marengo
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Marion
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Marshall
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Mobile
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Monroe
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Montgomery
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Morgan
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Perry
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Pickens
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Pike
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Randolph
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Russell
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Shelby
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: St. Clair
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Sumter
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Talladega
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Tallapoosa
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Tuscaloosa
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Walker
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Washington
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Wilcox
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+  - name: Winston
+    note: "Traffic venue is district court. No verified official county URL; see statewide cards."
+cards:
+  - id: al-alacourt
+    verification: link_ok
+    verification_note: "Official statewide court portal; redirects from alacourt.com to v2.alacourt.com. Human-verified in a real browser on 2026-09-22: the portal requires a paid subscriber login (Customer ID / User ID / Password via On-Line Information Services, Inc.) — it is not a free public search."
+    source_url: "https://v2.alacourt.com/"
+    last_verified: "2026-09-22"
+    kind: pay_portal
+    agency: "Alabama Alacourt -- statewide court portal (subscription required)"
+    contact: "See the official Alacourt portal."
+    accepted_keys: "See the official portal for available counties and case types."
+    cost: "Paid subscription required -- the portal login requires a Customer ID / User ID / Password as of 2026-09-22."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Statewide portal; availability varies by county."
+      - "Traffic cases are heard in district court; confirm the county on the official portal."
+      - "Requires a paid Alacourt subscription; not a free public search."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 25
+
+  - id: al-alea-driving-history
+    verification: link_ok
+    source_url: "https://www.alea.gov/dps/driver-license-forms"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Alabama ALEA -- driver license forms and history"
+    contact: "See the official ALEA driver license forms page."
+    accepted_keys: "See the official ALEA page for requirements."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on alea.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "For driving history only: shows violations already on your record, not pending citations."
+      - "A pending ticket will not appear here; contact the district court where the stop happened."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: al-bar-legal-help
+    verification: link_ok
+    source_url: "https://www.alabar.org/for-the-public/get-legal-help/"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Alabama State Bar -- Get Legal Help"
+    contact: "See the official Bar legal help page."
+    accepted_keys: "See the official Bar page."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on alabar.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General legal help only."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 15

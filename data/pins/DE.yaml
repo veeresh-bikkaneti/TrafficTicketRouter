@@ -1,0 +1,26 @@
+# Delaware map pins — county courthouses.
+# Addresses verified against official courts.delaware.gov pages 2026-09-21;
+# coordinates from Nominatim, cross-checked by reverse geocode. URLs reused
+# verbatim from data/states/DE.yaml — never invented. Do not commit without review.
+# NOTE: New Castle pin omitted — Nominatim resolves Penns Way at street level only;
+# no precise courthouse/building-number confirmation available.
+pins:
+  - id: de-kent-courthouse
+    state: DE
+    county: Kent
+    name: Justice of the Peace Court 7
+    address: 480 Bank Lane, Dover, DE 19904
+    lat: 39.1543227
+    lng: -75.5304487
+    url: https://www.courts.delaware.gov/locations/jp07.aspx
+    kind: courthouse
+
+  - id: de-sussex-courthouse
+    state: DE
+    county: Sussex
+    name: Justice of the Peace Court 3
+    address: 23730 Shortly Road, Georgetown, DE 19947
+    lat: 38.6614392
+    lng: -75.3801101
+    url: https://www.courts.delaware.gov/locations/jp03.aspx
+    kind: courthouse

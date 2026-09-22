@@ -1,0 +1,1443 @@
+# Florida.
+# Every source_url below was fetched live and returned HTTP 200 on 2026-09-21.
+# County clerk addresses and phones are from the official Florida Clerks directory
+# (flclerks.com); each county card links to the clerk's own verified official site.
+# 11 counties are omitted (no live-verifiable official county URL): Baker, Escambia,
+# Flagler, Lee, Leon, Martin, Monroe, Palm Beach, St. Lucie, Sarasota, Union.
+state: FL
+state_name: Florida
+last_verified: "2026-09-21"
+official_hosts:
+  - alachuacounty.us
+  - bradfordclerk.com
+  - calhounclerk.com
+  - charlotteclerk.com
+  - clayclerk.com
+  - columbiaclerk.com
+  - dixieclerk.com
+  - flhsmv.gov
+  - floridabar.org
+  - gilchristclerk.com
+  - gladesclerk.com
+  - hamiltonclerk.com
+  - hernandoclerk.com
+  - holmesclerk.com
+  - indianriverclerk.com
+  - levyclerk.com
+  - libertyclerk.com
+  - myfloridacounty.com
+  - myokeeclerk.com
+  - okaloosaclerk.com
+  - osceolaclerk.com
+  - putnamclerk.com
+  - santarosaclerk.com
+  - stjohnsclerk.com
+  - taylorclerk.com
+  - wakullaclerk.org
+  - waltonclerkfl.gov
+  - www.baycoclerk.com
+  - www.brevardclerk.us
+  - www.browardclerk.org
+  - www.citrusclerk.org
+  - www.clerk.org
+  - www.collierclerk.com
+  - www.desotoclerk.com
+  - www.duvalclerk.gov
+  - www.franklinclerk.com
+  - www.gadsdenclerk.com
+  - www.gulfclerk.com
+  - www.hardeeclerk.com
+  - www.hendryclerk.org
+  - www.highlandsclerkfl.gov
+  - www.hillsclerk.com
+  - www.jacksonclerk.com
+  - www.jeffersonclerk.com
+  - www.lafayetteclerk.com
+  - www.lakecountyclerkfl.gov
+  - www.madisonclerk.com
+  - www.manateeclerk.com
+  - www.marioncountyclerk.org
+  - www.miamidadeclerk.gov
+  - www.myorangeclerk.com
+  - www.mypinellasclerk.gov
+  - www.nassauclerk.com
+  - www.pascoclerk.com
+  - www.polkclerkfl.gov
+  - www.seminoleclerk.org
+  - www.sumterclerk.com
+  - www.suwgov.org
+  - www.washingtonclerk.com
+counties:
+  - name: Alachua
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Baker
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Bay
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Bradford
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Brevard
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Broward
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Calhoun
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Charlotte
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Citrus
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Clay
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Collier
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Columbia
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: DeSoto
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Dixie
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Duval
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Escambia
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Flagler
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Franklin
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Gadsden
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Gilchrist
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Glades
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Gulf
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Hamilton
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Hardee
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Hendry
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Hernando
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Highlands
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Hillsborough
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Holmes
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Indian River
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Jackson
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Jefferson
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Lafayette
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Lake
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Lee
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Leon
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Levy
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Liberty
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Madison
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Manatee
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Marion
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Martin
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Miami-Dade
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Monroe
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Nassau
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Okaloosa
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Okeechobee
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Orange
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Osceola
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Palm Beach
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Pasco
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Pinellas
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Polk
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Putnam
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Santa Rosa
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Sarasota
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Seminole
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: St. Johns
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: St. Lucie
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Sumter
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Suwannee
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Taylor
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Union
+    note: "Traffic venue is county court. No verified official county URL; see statewide cards."
+  - name: Volusia
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Wakulla
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Walton
+    note: "Traffic venue is county court; the clerk processes citations."
+  - name: Washington
+    note: "Traffic venue is county court; the clerk processes citations."
+cards:
+  - id: fl-alachua-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://alachuacounty.us/Depts/Clerk/Pages/Clerk.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Alachua County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 374-3636. 201 E University Ave, Gainesville, FL 32601."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alachua
+    weight: 10
+
+  - id: fl-bay-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.baycoclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bay County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 747-5101. 300 E 4th St, Panama City, FL 32401."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bay
+    weight: 10
+
+  - id: fl-bradford-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://bradfordclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bradford County Clerk of the Circuit Court"
+    contact: "Clerk: (904) 966-6280. 945 N Temple Ave, Starke, FL 32091."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bradford
+    weight: 10
+
+  - id: fl-brevard-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.brevardclerk.us/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brevard County Clerk of the Circuit Court"
+    contact: "Clerk: (321) 637-2017. 400 S St (Second floor), Titusville, FL 32780."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brevard
+    weight: 10
+
+  - id: fl-broward-clerk
+    verification: link_ok
+    link_check: manual
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21. Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.browardclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Broward County Clerk of the Circuit Court"
+    contact: "Clerk: (954) 831-6565. 201 SE Sixth St, Ste 18150, Fort Lauderdale, FL 33301."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Broward
+    weight: 10
+
+  - id: fl-calhoun-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://calhounclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Calhoun County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 674-4545. 20859 Central Ave E, Room 130, Blountstown, FL 32424."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: fl-charlotte-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://charlotteclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Charlotte County Clerk of the Circuit Court"
+    contact: "Clerk: (941) 637-2329. 350 E Marion Ave, Punta Gorda, FL 33950."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charlotte
+    weight: 10
+
+  - id: fl-citrus-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.citrusclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Citrus County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 341-6424. 110 N Apopka Ave, Inverness, FL 34450-4299."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Citrus
+    weight: 10
+
+  - id: fl-clay-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://clayclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County Clerk of the Circuit Court"
+    contact: "Clerk: (904) 284-6302. 2825 N Orange Ave, Green Cove Springs, FL 32043."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: fl-collier-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.collierclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Collier County Clerk of the Circuit Court"
+    contact: "Clerk: (239) 252-2646. 3315 Tamiami Trail E, Ste 102, Naples, FL 34112-5324."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Collier
+    weight: 10
+
+  - id: fl-columbia-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://columbiaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 758-1342. 173 NE Hernando Ave, Lake City, FL 32055."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: fl-desoto-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.desotoclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "DeSoto County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 993-4876. 115 E Oak St, Arcadia, FL 34266-2401."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeSoto
+    weight: 10
+
+  - id: fl-dixie-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://dixieclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dixie County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 498-1200. 214 NE Hwy 351, Ste M, Cross City, FL 32628."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dixie
+    weight: 10
+
+  - id: fl-duval-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.duvalclerk.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Duval County Clerk of the Circuit Court"
+    contact: "Clerk: (904) 255-2000. 501 W Adams St, Room 2350, Jacksonville, FL 32202."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Duval
+    weight: 10
+
+  - id: fl-franklin-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.franklinclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 653-8861. 33 Market St, Ste 203, Apalachicola, FL 32320."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: fl-gadsden-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.gadsdenclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gadsden County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 875-8601 ext. 224. 10 E Jefferson St, Quincy, FL 32351."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gadsden
+    weight: 10
+
+  - id: fl-gilchrist-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://gilchristclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gilchrist County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 463-3170. 112 S Main Street, Trenton, FL 32693."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gilchrist
+    weight: 10
+
+  - id: fl-glades-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://gladesclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Glades County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 946-6010. 500 Ave J, Room 102, Moore Haven, FL 33471."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Glades
+    weight: 10
+
+  - id: fl-gulf-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.gulfclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gulf County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 229-6112. 1000 Cecil G. Costin, Sr. Blvd, Room 149, Port Saint Joe, FL 32456."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gulf
+    weight: 10
+
+  - id: fl-hamilton-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://hamiltonclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamilton County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 792-1288. 207 NE First St, Ste 106, Jasper, FL 32052."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: fl-hardee-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.hardeeclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hardee County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 773-4174. 417 W Main St, Room 202, Wauchula, FL 33873."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardee
+    weight: 10
+
+  - id: fl-hendry-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.hendryclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hendry County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 675-5217. 25 E Hickpochee Ave, LaBelle, FL 33935."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hendry
+    weight: 10
+
+  - id: fl-hernando-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://hernandoclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hernando County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 754-4201. 20 N Main Street, Room 362, Brooksville, FL 34601."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hernando
+    weight: 10
+
+  - id: fl-highlands-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.highlandsclerkfl.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Highlands County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 402-6564. 590 S Commerce Ave, Sebring, FL 33870-3867."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Highlands
+    weight: 10
+
+  - id: fl-hillsborough-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.hillsclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hillsborough County Clerk of the Circuit Court"
+    contact: "Clerk: (813) 276-8100. County Center, 601 E Kennedy Blvd, 13th Floor, Tampa, FL 33602."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hillsborough
+    weight: 10
+
+  - id: fl-holmes-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://holmesclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Holmes County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 547-1100. 201 N Oklahoma St, Bonifay, FL 32425."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Holmes
+    weight: 10
+
+  - id: fl-indian-river-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://indianriverclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Indian River County Clerk of the Circuit Court"
+    contact: "Clerk: (772) 226-3100. 2000 16th Ave, Vero Beach, FL 32960."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Indian River
+    weight: 10
+
+  - id: fl-jackson-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.jacksonclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 482-9552. 4445 Lafayette St, Marianna, FL 32446."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: fl-jefferson-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.jeffersonclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 342-0218 ext. 223. 1 Courthouse Cir, Monticello, FL 32344."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: fl-lafayette-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.lafayetteclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lafayette County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 294-1600 x4230. 120 W Main St, Mayo, FL 32066."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafayette
+    weight: 10
+
+  - id: fl-lake-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.lakecountyclerkfl.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 742-4100. 550 W Main St, Tavares, FL 32778."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: fl-levy-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://levyclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Levy County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 486-5266 x1222. 355 S Court St, Bronson, FL 32621."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Levy
+    weight: 10
+
+  - id: fl-liberty-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://libertyclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Liberty County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 643-2215. 10818 NW SR 20, Bristol, FL 32321."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Liberty
+    weight: 10
+
+  - id: fl-madison-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.madisonclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 973-1500. 125 SW Range Ave, Madison, FL 32340."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: fl-manatee-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.manateeclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Manatee County Clerk of the Circuit Court"
+    contact: "Clerk: (941) 749-1800. 1115 Manatee Ave W, Bradenton, FL 34205."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Manatee
+    weight: 10
+
+  - id: fl-marion-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.marioncountyclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 671-5604. 110 NW First Ave, Ocala, FL 34475."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: fl-miami-dade-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.miamidadeclerk.gov/clerk/home.page"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Miami-Dade County Clerk of the Circuit Court"
+    contact: "Clerk: (305) 349-7333. 73 W Flagler Street, Ste 242, Miami, FL 33130."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miami-Dade
+    weight: 10
+
+  - id: fl-nassau-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.nassauclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nassau County Clerk of the Circuit Court"
+    contact: "Clerk: (904) 548-4600. 76347 Veterans Way, Yulee, FL 32034."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nassau
+    weight: 10
+
+  - id: fl-okaloosa-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://okaloosaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Okaloosa County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 689-5000 ext. 4000. 101 E James Lee Blvd, Crestview, FL 32536."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Okaloosa
+    weight: 10
+
+  - id: fl-okeechobee-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://myokeeclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Okeechobee County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 763-2131. 312 NW Third St, Ste 101, Okeechobee, FL 34972."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Okeechobee
+    weight: 10
+
+  - id: fl-orange-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.myorangeclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orange County Clerk of the Circuit Court"
+    contact: "Clerk: (407) 836-2000. 425 N Orange Ave, Orlando, FL 32801."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: fl-osceola-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://osceolaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Osceola County Clerk of the Circuit Court"
+    contact: "Clerk: (407) 742-3708. 2 Courthouse Square, Ste 2000, Kissimmee, FL 34741."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osceola
+    weight: 10
+
+  - id: fl-pasco-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.pascoclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pasco County Clerk of the Circuit Court"
+    contact: "Clerk: (727) 847-8199. 38053 Live Oak Avenue, Ste 205, Dade City, FL 33523."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pasco
+    weight: 10
+
+  - id: fl-pinellas-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.mypinellasclerk.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pinellas County Clerk of the Circuit Court"
+    contact: "Clerk: (727) 464-3341. 315 Court St, Room 400, Clearwater, FL 33756."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pinellas
+    weight: 10
+
+  - id: fl-polk-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.polkclerkfl.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Polk County Clerk of the Circuit Court"
+    contact: "Clerk: (863) 534-4000. 255 N Broadway Ave, Bartow, FL 33830."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: fl-putnam-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://putnamclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Putnam County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 326-7600. 410 St. Johns Ave, Palatka, FL 32177."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: fl-santa-rosa-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://santarosaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Santa Rosa County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 981-5554. 6495 Caroline St Ste A, Milton, FL 32570."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Santa Rosa
+    weight: 10
+
+  - id: fl-seminole-clerk
+    verification: link_ok
+    link_check: manual
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.seminoleclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Seminole County Clerk of the Circuit Court"
+    contact: "Clerk: (407) 665-4330. 91 Eslinger Way, Sanford, FL 32773."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Seminole
+    weight: 10
+
+  - id: fl-st-johns-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://stjohnsclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Johns County Clerk of the Circuit Court"
+    contact: "Clerk: (904) 819-3600. 4010 Lewis Speedway, St. Augustine, FL 32084."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Johns
+    weight: 10
+
+  - id: fl-sumter-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.sumterclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sumter County Clerk of the Circuit Court"
+    contact: "Clerk: (352) 569-6600. 215 E McCollum Ave, Bushnell, FL 33513."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sumter
+    weight: 10
+
+  - id: fl-suwannee-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.suwgov.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Suwannee County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 362-0500. 200 S Ohio Ave, Live Oak, FL 32064."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Suwannee
+    weight: 10
+
+  - id: fl-taylor-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://taylorclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Taylor County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 838-3506. 108 N Jefferson St, Ste 102, Perry, FL 32347."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taylor
+    weight: 10
+
+  - id: fl-volusia-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.clerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Volusia County Clerk of the Circuit Court"
+    contact: "Clerk: (386) 822-5710. 101 N Alabama Ave, DeLand, FL 32724."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Volusia
+    weight: 10
+
+  - id: fl-wakulla-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://wakullaclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wakulla County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 926-0905. 3056 Crawfordville Hwy, Crawfordville, FL 32327."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wakulla
+    weight: 10
+
+  - id: fl-walton-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://waltonclerkfl.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Walton County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 892-8115. 571 US Highway 90 E, DeFuniak Springs, FL 32433."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walton
+    weight: 10
+
+  - id: fl-washington-clerk
+    verification: link_ok
+    verification_note: "County clerk official site; verified live 200 on 2026-09-21."
+    source_url: "https://www.washingtonclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Clerk of the Circuit Court"
+    contact: "Clerk: (850) 638-6289. 1293 Jackson Ave, St 101, Chipley, FL 32428."
+    accepted_keys: "See the official clerk site for traffic case information."
+    cost: "No cost to access this official information page -- as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is county court; the clerk processes citations."
+      - "Use the clerk's official site to confirm where to appear or pay."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: fl-traffic-tickets
+    verification: link_ok
+    source_url: "https://www.myfloridacounty.com/traffic_tickets/index.html"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "MyFloridaCounty -- traffic tickets"
+    contact: "See the official MyFloridaCounty traffic page."
+    accepted_keys: "See the official page for participating counties."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on myfloridacounty.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Covers participating counties only; not every county is listed."
+      - "For counties not listed, contact the county clerk directly."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 25
+
+  - id: fl-hsmv-driving-record
+    verification: link_ok
+    source_url: "https://www.flhsmv.gov/driver-licenses-id-cards/driving-record-history/"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Florida HSMV -- driving record history"
+    contact: "See the official HSMV driving record page."
+    accepted_keys: "See the official HSMV page for requirements."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on flhsmv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "For driving history only: shows violations already on your record, not pending citations."
+      - "A pending ticket will not appear here; contact the county clerk where the stop happened."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: fl-bar-lawyer-referral
+    verification: link_ok
+    link_check: manual
+    verification_note: "Human-verified live in a real browser on 2026-09-21 — the official Florida Bar page loads. Cloudflare’s security block stops automated checks, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.floridabar.org/public/lrs/"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "The Florida Bar -- Lawyer Referral Service"
+    contact: "See the official Bar lawyer referral page."
+    accepted_keys: "See the official Bar page."
+    cost: "No cost to access this official information page -- as of 2026-09-21 on floridabar.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General legal help only."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 15

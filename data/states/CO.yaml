@@ -1,0 +1,1302 @@
+# Colorado — 64 counties. 64 verified county-court cards.
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+state: CO
+state_name: Colorado
+last_verified: "2026-09-21"
+official_hosts:
+  - coloradojudicial.gov
+counties:
+  - name: Adams
+    note: "Traffic venue is county court."
+  - name: Alamosa
+    note: "Traffic venue is county court."
+  - name: Arapahoe
+    note: "Traffic venue is county court."
+  - name: Archuleta
+    note: "Traffic venue is county court."
+  - name: Baca
+    note: "Traffic venue is county court."
+  - name: Bent
+    note: "Traffic venue is county court."
+  - name: Boulder
+    note: "Traffic venue is county court."
+  - name: Broomfield
+    note: "Traffic venue is county court."
+  - name: Chaffee
+    note: "Traffic venue is county court."
+  - name: Cheyenne
+    note: "Traffic venue is county court."
+  - name: Clear Creek
+    note: "Traffic venue is county court."
+  - name: Conejos
+    note: "Traffic venue is county court."
+  - name: Costilla
+    note: "Traffic venue is county court."
+  - name: Crowley
+    note: "Traffic venue is county court."
+  - name: Custer
+    note: "Traffic venue is county court."
+  - name: Delta
+    note: "Traffic venue is county court."
+  - name: Denver
+    note: "Traffic venue is Denver County Court."
+  - name: Dolores
+    note: "Traffic venue is county court."
+  - name: Douglas
+    note: "Traffic venue is county court."
+  - name: Eagle
+    note: "Traffic venue is county court."
+  - name: Elbert
+    note: "Traffic venue is county court."
+  - name: El Paso
+    note: "Traffic venue is county court."
+  - name: Fremont
+    note: "Traffic venue is county court."
+  - name: Garfield
+    note: "Traffic venue is county court."
+  - name: Gilpin
+    note: "Traffic venue is county court."
+  - name: Grand
+    note: "Traffic venue is county court."
+  - name: Gunnison
+    note: "Traffic venue is county court."
+  - name: Hinsdale
+    note: "Traffic venue is county court."
+  - name: Huerfano
+    note: "Traffic venue is county court."
+  - name: Jackson
+    note: "Traffic venue is county court."
+  - name: Jefferson
+    note: "Traffic venue is county court."
+  - name: Kiowa
+    note: "Traffic venue is county court."
+  - name: Kit Carson
+    note: "Traffic venue is county court."
+  - name: Lake
+    note: "Traffic venue is county court."
+  - name: La Plata
+    note: "Traffic venue is county court."
+  - name: Larimer
+    note: "Traffic venue is county court."
+  - name: Las Animas
+    note: "Traffic venue is county court."
+  - name: Lincoln
+    note: "Traffic venue is county court."
+  - name: Logan
+    note: "Traffic venue is county court."
+  - name: Mesa
+    note: "Traffic venue is county court."
+  - name: Mineral
+    note: "Traffic venue is county court."
+  - name: Moffat
+    note: "Traffic venue is county court."
+  - name: Montezuma
+    note: "Traffic venue is county court."
+  - name: Montrose
+    note: "Traffic venue is county court."
+  - name: Morgan
+    note: "Traffic venue is county court."
+  - name: Otero
+    note: "Traffic venue is county court."
+  - name: Ouray
+    note: "Traffic venue is county court."
+  - name: Park
+    note: "Traffic venue is county court."
+  - name: Phillips
+    note: "Traffic venue is county court."
+  - name: Pitkin
+    note: "Traffic venue is county court."
+  - name: Prowers
+    note: "Traffic venue is county court."
+  - name: Pueblo
+    note: "Traffic venue is county court."
+  - name: Rio Blanco
+    note: "Traffic venue is county court."
+  - name: Rio Grande
+    note: "Traffic venue is county court."
+  - name: Routt
+    note: "Traffic venue is county court."
+  - name: Saguache
+    note: "Traffic venue is county court."
+  - name: San Juan
+    note: "Traffic venue is county court."
+  - name: San Miguel
+    note: "Traffic venue is county court."
+  - name: Sedgwick
+    note: "Traffic venue is county court."
+  - name: Summit
+    note: "Traffic venue is county court."
+  - name: Teller
+    note: "Traffic venue is county court."
+  - name: Washington
+    note: "Traffic venue is county court."
+  - name: Weld
+    note: "Traffic venue is county court."
+  - name: Yuma
+    note: "Traffic venue is county court."
+cards:
+  - id: adams-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/adams-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: alamosa-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/alamosa-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Alamosa County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alamosa
+    weight: 10
+
+  - id: arapahoe-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/arapahoe-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Arapahoe County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Arapahoe
+    weight: 10
+
+  - id: archuleta-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/archuleta-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Archuleta County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Archuleta
+    weight: 10
+
+  - id: baca-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/baca-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Baca County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baca
+    weight: 10
+
+  - id: bent-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/bent-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bent County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bent
+    weight: 10
+
+  - id: boulder-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/boulder-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boulder County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boulder
+    weight: 10
+
+  - id: broomfield-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/broomfield-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Broomfield County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Broomfield
+    weight: 10
+
+  - id: chaffee-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/chaffee-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chaffee County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chaffee
+    weight: 10
+
+  - id: cheyenne-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/cheyenne-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cheyenne County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cheyenne
+    weight: 10
+
+  - id: clear-creek-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/clear-creek-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clear Creek County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clear Creek
+    weight: 10
+
+  - id: conejos-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/conejos-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Conejos County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Conejos
+    weight: 10
+
+  - id: costilla-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/costilla-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Costilla County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Costilla
+    weight: 10
+
+  - id: crowley-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/crowley-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crowley County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crowley
+    weight: 10
+
+  - id: custer-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/custer-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Custer County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Custer
+    weight: 10
+
+  - id: delta-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/delta-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Delta County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delta
+    weight: 10
+
+  - id: denver-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/denver-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Denver County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Denver
+    weight: 10
+
+  - id: dolores-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/dolores-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dolores County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dolores
+    weight: 10
+
+  - id: douglas-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/douglas-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Douglas County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: eagle-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/eagle-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Eagle County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Eagle
+    weight: 10
+
+  - id: elbert-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/elbert-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Elbert County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elbert
+    weight: 10
+
+  - id: el-paso-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/el-paso-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "El Paso County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - El Paso
+    weight: 10
+
+  - id: fremont-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/fremont-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fremont County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fremont
+    weight: 10
+
+  - id: garfield-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/garfield-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garfield County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garfield
+    weight: 10
+
+  - id: gilpin-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/gilpin-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gilpin County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gilpin
+    weight: 10
+
+  - id: grand-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/grand-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grand County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grand
+    weight: 10
+
+  - id: gunnison-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/gunnison-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gunnison County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gunnison
+    weight: 10
+
+  - id: hinsdale-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/hinsdale-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hinsdale County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hinsdale
+    weight: 10
+
+  - id: huerfano-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/huerfano-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Huerfano County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Huerfano
+    weight: 10
+
+  - id: jackson-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/jackson-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: jefferson-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/jefferson-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: kiowa-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/kiowa-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kiowa County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kiowa
+    weight: 10
+
+  - id: kit-carson-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/kit-carson-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kit Carson County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kit Carson
+    weight: 10
+
+  - id: lake-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/lake-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: la-plata-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/la-plata-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "La Plata County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - La Plata
+    weight: 10
+
+  - id: larimer-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/larimer-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Larimer County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Larimer
+    weight: 10
+
+  - id: las-animas-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/las-animas-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Las Animas County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Las Animas
+    weight: 10
+
+  - id: lincoln-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/lincoln-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: logan-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/logan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: mesa-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/mesa-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mesa County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mesa
+    weight: 10
+
+  - id: mineral-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/mineral-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mineral County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mineral
+    weight: 10
+
+  - id: moffat-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/moffat-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Moffat County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moffat
+    weight: 10
+
+  - id: montezuma-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/montezuma-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montezuma County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montezuma
+    weight: 10
+
+  - id: montrose-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/montrose-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montrose County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montrose
+    weight: 10
+
+  - id: morgan-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/morgan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morgan County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: otero-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/otero-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Otero County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Otero
+    weight: 10
+
+  - id: ouray-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/ouray-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ouray County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ouray
+    weight: 10
+
+  - id: park-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/park-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Park County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Park
+    weight: 10
+
+  - id: phillips-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/phillips-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Phillips County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Phillips
+    weight: 10
+
+  - id: pitkin-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/pitkin-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pitkin County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pitkin
+    weight: 10
+
+  - id: prowers-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/prowers-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Prowers County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prowers
+    weight: 10
+
+  - id: pueblo-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/pueblo-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pueblo County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pueblo
+    weight: 10
+
+  - id: rio-blanco-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/rio-blanco-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rio Blanco County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rio Blanco
+    weight: 10
+
+  - id: rio-grande-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/rio-grande-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rio Grande County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rio Grande
+    weight: 10
+
+  - id: routt-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/routt-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Routt County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Routt
+    weight: 10
+
+  - id: saguache-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/saguache-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saguache County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saguache
+    weight: 10
+
+  - id: san-juan-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/san-juan-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "San Juan County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Juan
+    weight: 10
+
+  - id: san-miguel-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/san-miguel-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "San Miguel County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Miguel
+    weight: 10
+
+  - id: sedgwick-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/sedgwick-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sedgwick County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sedgwick
+    weight: 10
+
+  - id: summit-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/summit-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Summit County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Summit
+    weight: 10
+
+  - id: teller-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/teller-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Teller County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Teller
+    weight: 10
+
+  - id: washington-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/washington-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: weld-county-card
+    verification: link_ok
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/weld-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Weld County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Weld
+    weight: 10
+
+  - id: yuma-county-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.coloradojudicial.gov/courts/trial-courts/yuma-county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yuma County Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on coloradojudicial.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "County courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yuma
+    weight: 10

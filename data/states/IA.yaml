@@ -1,0 +1,1994 @@
+# Iowa — county district court cards.
+# County court URLs are the official iowacourts.gov judicial-district county pages,
+# each fetched live (curl HEAD) and ending at HTTP 200 on 2026-09-21.
+# Courthouse addresses are the official Clerk of Court addresses from those pages;
+# coordinates via Nominatim, cross-checked against the OSM place record.
+# Lee County has two seats; one pin per county, so the North Lee (Fort Madison)
+# location is used as the primary.
+state: IA
+state_name: Iowa
+last_verified: "2026-09-21"
+official_hosts:
+  - iowacourts.gov
+counties:
+  - name: Adair
+    note: "Traffic venue is the district court."
+  - name: Adams
+    note: "Traffic venue is the district court."
+  - name: Allamakee
+    note: "Traffic venue is the district court."
+  - name: Appanoose
+    note: "Traffic venue is the district court."
+  - name: Audubon
+    note: "Traffic venue is the district court."
+  - name: Benton
+    note: "Traffic venue is the district court."
+  - name: Black Hawk
+    note: "Traffic venue is the district court."
+  - name: Boone
+    note: "Traffic venue is the district court."
+  - name: Bremer
+    note: "Traffic venue is the district court."
+  - name: Buchanan
+    note: "Traffic venue is the district court."
+  - name: Buena Vista
+    note: "Traffic venue is the district court."
+  - name: Butler
+    note: "Traffic venue is the district court."
+  - name: Calhoun
+    note: "Traffic venue is the district court."
+  - name: Carroll
+    note: "Traffic venue is the district court."
+  - name: Cass
+    note: "Traffic venue is the district court."
+  - name: Cedar
+    note: "Traffic venue is the district court."
+  - name: Cerro Gordo
+    note: "Traffic venue is the district court."
+  - name: Cherokee
+    note: "Traffic venue is the district court."
+  - name: Chickasaw
+    note: "Traffic venue is the district court."
+  - name: Clarke
+    note: "Traffic venue is the district court."
+  - name: Clay
+    note: "Traffic venue is the district court."
+  - name: Clayton
+    note: "Traffic venue is the district court."
+  - name: Clinton
+    note: "Traffic venue is the district court."
+  - name: Crawford
+    note: "Traffic venue is the district court."
+  - name: Dallas
+    note: "Traffic venue is the district court."
+  - name: Davis
+    note: "Traffic venue is the district court."
+  - name: Decatur
+    note: "Traffic venue is the district court."
+  - name: Delaware
+    note: "Traffic venue is the district court."
+  - name: Des Moines
+    note: "Traffic venue is the district court."
+  - name: Dickinson
+    note: "Traffic venue is the district court."
+  - name: Dubuque
+    note: "Traffic venue is the district court."
+  - name: Emmet
+    note: "Traffic venue is the district court."
+  - name: Fayette
+    note: "Traffic venue is the district court."
+  - name: Floyd
+    note: "Traffic venue is the district court."
+  - name: Franklin
+    note: "Traffic venue is the district court."
+  - name: Fremont
+    note: "Traffic venue is the district court."
+  - name: Greene
+    note: "Traffic venue is the district court."
+  - name: Grundy
+    note: "Traffic venue is the district court."
+  - name: Guthrie
+    note: "Traffic venue is the district court."
+  - name: Hamilton
+    note: "Traffic venue is the district court."
+  - name: Hancock
+    note: "Traffic venue is the district court."
+  - name: Hardin
+    note: "Traffic venue is the district court."
+  - name: Harrison
+    note: "Traffic venue is the district court."
+  - name: Henry
+    note: "Traffic venue is the district court."
+  - name: Howard
+    note: "Traffic venue is the district court."
+  - name: Humboldt
+    note: "Traffic venue is the district court."
+  - name: Ida
+    note: "Traffic venue is the district court."
+  - name: Iowa
+    note: "Traffic venue is the district court."
+  - name: Jackson
+    note: "Traffic venue is the district court."
+  - name: Jasper
+    note: "Traffic venue is the district court."
+  - name: Jefferson
+    note: "Traffic venue is the district court."
+  - name: Johnson
+    note: "Traffic venue is the district court."
+  - name: Jones
+    note: "Traffic venue is the district court."
+  - name: Keokuk
+    note: "Traffic venue is the district court."
+  - name: Kossuth
+    note: "Traffic venue is the district court."
+  - name: Lee
+    note: "Traffic venue is the district court."
+  - name: Linn
+    note: "Traffic venue is the district court."
+  - name: Louisa
+    note: "Traffic venue is the district court."
+  - name: Lucas
+    note: "Traffic venue is the district court."
+  - name: Lyon
+    note: "Traffic venue is the district court."
+  - name: Madison
+    note: "Traffic venue is the district court."
+  - name: Mahaska
+    note: "Traffic venue is the district court."
+  - name: Marion
+    note: "Traffic venue is the district court."
+  - name: Marshall
+    note: "Traffic venue is the district court."
+  - name: Mills
+    note: "Traffic venue is the district court."
+  - name: Mitchell
+    note: "Traffic venue is the district court."
+  - name: Monona
+    note: "Traffic venue is the district court."
+  - name: Monroe
+    note: "Traffic venue is the district court."
+  - name: Montgomery
+    note: "Traffic venue is the district court."
+  - name: Muscatine
+    note: "Traffic venue is the district court."
+  - name: O'Brien
+    note: "Traffic venue is the district court."
+  - name: Osceola
+    note: "Traffic venue is the district court."
+  - name: Page
+    note: "Traffic venue is the district court."
+  - name: Palo Alto
+    note: "Traffic venue is the district court."
+  - name: Plymouth
+    note: "Traffic venue is the district court."
+  - name: Pocahontas
+    note: "Traffic venue is the district court."
+  - name: Polk
+    note: "Traffic venue is the district court."
+  - name: Pottawattamie
+    note: "Traffic venue is the district court."
+  - name: Poweshiek
+    note: "Traffic venue is the district court."
+  - name: Ringgold
+    note: "Traffic venue is the district court."
+  - name: Sac
+    note: "Traffic venue is the district court."
+  - name: Scott
+    note: "Traffic venue is the district court."
+  - name: Shelby
+    note: "Traffic venue is the district court."
+  - name: Sioux
+    note: "Traffic venue is the district court."
+  - name: Story
+    note: "Traffic venue is the district court."
+  - name: Tama
+    note: "Traffic venue is the district court."
+  - name: Taylor
+    note: "Traffic venue is the district court."
+  - name: Union
+    note: "Traffic venue is the district court."
+  - name: Van Buren
+    note: "Traffic venue is the district court."
+  - name: Wapello
+    note: "Traffic venue is the district court."
+  - name: Warren
+    note: "Traffic venue is the district court."
+  - name: Washington
+    note: "Traffic venue is the district court."
+  - name: Wayne
+    note: "Traffic venue is the district court."
+  - name: Webster
+    note: "Traffic venue is the district court."
+  - name: Winnebago
+    note: "Traffic venue is the district court."
+  - name: Winneshiek
+    note: "Traffic venue is the district court."
+  - name: Woodbury
+    note: "Traffic venue is the district court."
+  - name: Worth
+    note: "Traffic venue is the district court."
+  - name: Wright
+    note: "Traffic venue is the district court."
+cards:
+  - id: ia-allamakee-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/allamakee
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Allamakee County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allamakee
+    weight: 10
+
+  - id: ia-black-hawk-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/black-hawk
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Black Hawk County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Black Hawk
+    weight: 10
+
+  - id: ia-buchanan-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/buchanan
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Buchanan County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buchanan
+    weight: 10
+
+  - id: ia-chickasaw-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/chickasaw
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Chickasaw County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chickasaw
+    weight: 10
+
+  - id: ia-clayton-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/clayton
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clayton County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clayton
+    weight: 10
+
+  - id: ia-delaware-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/delaware
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Delaware County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delaware
+    weight: 10
+
+  - id: ia-dubuque-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/dubuque
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dubuque County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dubuque
+    weight: 10
+
+  - id: ia-fayette-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/fayette
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Fayette County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: ia-grundy-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/grundy
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Grundy County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grundy
+    weight: 10
+
+  - id: ia-howard-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/howard
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Howard County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howard
+    weight: 10
+
+  - id: ia-winneshiek-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/district/1/county/winneshiek
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Winneshiek County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Winneshiek
+    weight: 10
+
+  - id: ia-boone-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/boone
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Boone County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: ia-bremer-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/bremer
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Bremer County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bremer
+    weight: 10
+
+  - id: ia-butler-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/butler
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Butler County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 10
+
+  - id: ia-calhoun-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/calhoun
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Calhoun County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: ia-carroll-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/carroll
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Carroll County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: ia-cerro-gordo-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/cerro-gordo
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cerro Gordo County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cerro Gordo
+    weight: 10
+
+  - id: ia-floyd-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/floyd
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Floyd County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Floyd
+    weight: 10
+
+  - id: ia-franklin-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/franklin
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Franklin County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ia-greene-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/greene
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Greene County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: ia-hamilton-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/hamilton
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hamilton County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: ia-hancock-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/hancock
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hancock County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: ia-hardin-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/hardin
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hardin County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardin
+    weight: 10
+
+  - id: ia-humboldt-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/humboldt
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Humboldt County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Humboldt
+    weight: 10
+
+  - id: ia-marshall-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/marshall
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Marshall County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: ia-mitchell-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/mitchell
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mitchell County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mitchell
+    weight: 10
+
+  - id: ia-pocahontas-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/pocahontas
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pocahontas County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pocahontas
+    weight: 10
+
+  - id: ia-sac-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/sac
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Sac County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sac
+    weight: 10
+
+  - id: ia-story-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/story
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Story County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Story
+    weight: 10
+
+  - id: ia-webster-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/webster
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Webster County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: ia-winnebago-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/winnebago
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Winnebago County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Winnebago
+    weight: 10
+
+  - id: ia-worth-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/worth
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Worth County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Worth
+    weight: 10
+
+  - id: ia-wright-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-2/district/2/county/wright
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wright County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wright
+    weight: 10
+
+  - id: ia-buena-vista-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/buena-vista
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Buena Vista County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buena Vista
+    weight: 10
+
+  - id: ia-cherokee-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/cherokee
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cherokee County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cherokee
+    weight: 10
+
+  - id: ia-clay-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/clay
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clay County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: ia-crawford-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/crawford
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Crawford County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: ia-dickinson-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/dickinson
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dickinson County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickinson
+    weight: 10
+
+  - id: ia-emmet-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/emmet
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Emmet County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Emmet
+    weight: 10
+
+  - id: ia-ida-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/ida
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ida County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ida
+    weight: 10
+
+  - id: ia-kossuth-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/kossuth
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Kossuth County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kossuth
+    weight: 10
+
+  - id: ia-lyon-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/lyon
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lyon County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lyon
+    weight: 10
+
+  - id: ia-monona-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/monona
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Monona County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monona
+    weight: 10
+
+  - id: ia-obrien-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/obrien
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: O'Brien County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - O'Brien
+    weight: 10
+
+  - id: ia-osceola-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/osceola
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Osceola County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osceola
+    weight: 10
+
+  - id: ia-palo-alto-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/palo-alto
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Palo Alto County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Palo Alto
+    weight: 10
+
+  - id: ia-plymouth-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/plymouth
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Plymouth County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Plymouth
+    weight: 10
+
+  - id: ia-sioux-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/sioux
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Sioux County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sioux
+    weight: 10
+
+  - id: ia-woodbury-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-3/district/3/county/woodbury
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Woodbury County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodbury
+    weight: 10
+
+  - id: ia-audubon-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/audubon
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Audubon County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Audubon
+    weight: 10
+
+  - id: ia-cass-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/cass
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cass County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 10
+
+  - id: ia-fremont-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/fremont
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Fremont County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fremont
+    weight: 10
+
+  - id: ia-harrison-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/harrison
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Harrison County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 10
+
+  - id: ia-mills-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/mills
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mills County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mills
+    weight: 10
+
+  - id: ia-montgomery-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/montgomery
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Montgomery County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: ia-page-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/page
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Page County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Page
+    weight: 10
+
+  - id: ia-pottawattamie-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/pottawattamie
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pottawattamie County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pottawattamie
+    weight: 10
+
+  - id: ia-shelby-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-4/district/4/county/shelby
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Shelby County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 10
+
+  - id: ia-adair-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/adair
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Adair County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adair
+    weight: 10
+
+  - id: ia-adams-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/adams
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Adams County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: ia-clarke-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/clarke
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clarke County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clarke
+    weight: 10
+
+  - id: ia-dallas-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/dallas
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dallas County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dallas
+    weight: 10
+
+  - id: ia-decatur-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/decatur
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Decatur County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Decatur
+    weight: 10
+
+  - id: ia-guthrie-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/guthrie
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Guthrie County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Guthrie
+    weight: 10
+
+  - id: ia-jasper-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/jasper
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jasper County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jasper
+    weight: 10
+
+  - id: ia-lucas-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/lucas
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lucas County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lucas
+    weight: 10
+
+  - id: ia-madison-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/madison
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Madison County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: ia-marion-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/marion
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Marion County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: ia-polk-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/polk
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Polk County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: ia-ringgold-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/ringgold
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ringgold County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ringgold
+    weight: 10
+
+  - id: ia-taylor-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/taylor
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Taylor County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taylor
+    weight: 10
+
+  - id: ia-union-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/union
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Union County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: ia-warren-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/warren
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Warren County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: ia-wayne-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/wayne
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wayne County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: ia-benton-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/benton
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Benton County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: ia-iowa-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/iowa
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Iowa County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iowa
+    weight: 10
+
+  - id: ia-johnson-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/johnson
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Johnson County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: ia-jones-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/jones
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jones County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jones
+    weight: 10
+
+  - id: ia-linn-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/linn
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Linn County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Linn
+    weight: 10
+
+  - id: ia-tama-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-6/district/6/county/tama
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Tama County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tama
+    weight: 10
+
+  - id: ia-cedar-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-7/district/7/county/cedar
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cedar County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cedar
+    weight: 10
+
+  - id: ia-clinton-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-7/district/7/county/clinton
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clinton County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: ia-jackson-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-7/district/7/county/jackson
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jackson County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ia-muscatine-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-7/district/7/county/muscatine
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Muscatine County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Muscatine
+    weight: 10
+
+  - id: ia-scott-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-7/district/7/county/scott
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Scott County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: ia-appanoose-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/appanoose
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Appanoose County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Appanoose
+    weight: 10
+
+  - id: ia-davis-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/davis
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Davis County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davis
+    weight: 10
+
+  - id: ia-des-moines-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/des-moines
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Des Moines County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Des Moines
+    weight: 10
+
+  - id: ia-henry-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/henry
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Henry County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: ia-jefferson-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/jefferson
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jefferson County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ia-keokuk-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/keokuk
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Keokuk County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Keokuk
+    weight: 10
+
+  - id: ia-lee-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/lee-north
+    verification_note: Lee County has two seats; this card uses the North Lee (Fort Madison) location as the primary.
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lee County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: ia-louisa-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/louisa
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Louisa County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Louisa
+    weight: 10
+
+  - id: ia-mahaska-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/mahaska
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mahaska County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mahaska
+    weight: 10
+
+  - id: ia-monroe-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/monroe
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Monroe County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: ia-poweshiek-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/poweshiek
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Poweshiek County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Poweshiek
+    weight: 10
+
+  - id: ia-van-buren-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/van-buren
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Van Buren County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Van Buren
+    weight: 10
+
+  - id: ia-wapello-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/wapello
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wapello County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wapello
+    weight: 10
+
+  - id: ia-washington-court
+    verification: link_ok
+    source_url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-8/district/8/county/washington
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Washington County District Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on iowacourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county district court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10

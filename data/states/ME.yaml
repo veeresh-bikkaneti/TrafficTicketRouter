@@ -1,0 +1,406 @@
+# Maine — Northeast expansion (2026-09-21).
+# Every source_url below returned a final HTTP 200 on 2026-09-21 (direct, no
+# redirects). The router emits only verification link_ok or better.
+# Traffic note: Maine has no county traffic courts. Traffic matters are heard
+# in the state District Court; traffic infractions are administered statewide
+# by the Judicial Branch Violations Bureau.
+state: ME
+state_name: Maine
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.maine.gov
+counties:
+  - name: Androscoggin
+    note: "Traffic venue: Lewiston District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Aroostook
+    note: "Traffic venue: Houlton District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Cumberland
+    note: "Traffic venue: Portland District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Franklin
+    note: "Traffic venue: Farmington District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Hancock
+    note: "Traffic venue: Ellsworth District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Kennebec
+    note: "Traffic venue: Augusta District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Knox
+    note: "Traffic venue: Rockland District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Lincoln
+    note: "Traffic venue: Wiscasset District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Oxford
+    note: "Traffic venue: South Paris District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Penobscot
+    note: "Traffic venue: Bangor District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Piscataquis
+    note: "Traffic venue: Dover-Foxcroft District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Sagadahoc
+    note: "Traffic venue: West Bath District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Somerset
+    note: "Traffic venue: Skowhegan District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Waldo
+    note: "Traffic venue: Belfast District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: Washington
+    note: "Traffic venue: Machias District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+  - name: York
+    note: "Traffic venue: Biddeford District Court. Traffic infractions are administered statewide by the Judicial Branch Violations Bureau."
+cards:
+  - id: me-androscoggin-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/lewiston-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Lewiston District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Androscoggin County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Androscoggin
+    weight: 10
+
+  - id: me-aroostook-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/houlton-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Houlton District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Aroostook County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Aroostook
+    weight: 10
+
+  - id: me-cumberland-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/portland-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Portland District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Cumberland County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: me-franklin-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/farmington-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Farmington District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Franklin County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: me-hancock-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/ellsworth-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Ellsworth District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Hancock County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: me-kennebec-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/augusta-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Augusta District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Kennebec County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kennebec
+    weight: 10
+
+  - id: me-knox-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/rockland-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Rockland District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Knox County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 10
+
+  - id: me-lincoln-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/wiscasset-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Wiscasset District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Lincoln County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: me-oxford-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/south-paris-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — South Paris District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Oxford County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oxford
+    weight: 10
+
+  - id: me-penobscot-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.courts.maine.gov/courts/district/bangor-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Bangor District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Penobscot County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Penobscot
+    weight: 10
+
+  - id: me-piscataquis-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/dover-foxcroft-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Dover-Foxcroft District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Piscataquis County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Piscataquis
+    weight: 10
+
+  - id: me-sagadahoc-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/west-bath-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — West Bath District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Sagadahoc County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sagadahoc
+    weight: 10
+
+  - id: me-somerset-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/skowhegan-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Skowhegan District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Somerset County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Somerset
+    weight: 10
+
+  - id: me-waldo-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/belfast-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Belfast District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Waldo County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Waldo
+    weight: 10
+
+  - id: me-washington-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.courts.maine.gov/courts/district/machias-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Machias District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for Washington County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: me-york-court
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/district/biddeford-dc.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maine Judicial Branch — Biddeford District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic infractions are administered statewide by the Judicial Branch Violations Bureau; this District Court location is the representative venue for York County — confirm the correct venue on the official page."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - York
+    weight: 10
+
+  - id: me-traffic-pay
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/traffic/pay.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "Maine Judicial Branch — Violations Bureau (traffic payments)"
+    accepted_keys: "Ticket or case information on the official payment page."
+    cost: "Pay the amount shown on your ticket; confirm any additional costs on the official payment page — as of 2026-09-21."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Pay only the amount shown on your ticket or as directed by the court."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: me-traffic-contest
+    verification: link_ok
+    source_url: "https://www.courts.maine.gov/courts/traffic/contest.html"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Maine Judicial Branch — contesting a traffic infraction"
+    accepted_keys: "Read the official instructions for contesting a traffic infraction."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.maine.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 25

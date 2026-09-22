@@ -1,0 +1,2193 @@
+# Texas — TicketRouter state file (v1).
+# Every source_url passed a redirect-following HEAD check ending at HTTP 200
+# and is on an official .gov / court / county host (see official_hosts).
+# Do not commit without review.
+state: TX
+state_name: Texas
+last_verified: "2026-09-21"
+official_hosts:
+  - co.kendall.tx.us
+  - dallascityhall.com
+  - greggcounty.texas.gov
+  - mcmullencounty.org
+  - milamcounty.net
+  - newtools.cira.state.tx.us
+  - parmercounty.texas.gov
+  - texascourthelp.gov
+  - txapps.texas.gov
+  - wichitacountytx.com
+  - www.andersoncountytx.gov
+  - www.angelinacounty.net
+  - www.austincounty.com
+  - www.austintexas.gov
+  - www.bastropcounty.gov
+  - www.bexar.org
+  - www.cameroncountytx.gov
+  - www.claycountytx.net
+  - www.co.borden.tx.us
+  - www.co.carson.tx.us
+  - www.co.chambers.tx.us
+  - www.co.cochran.tx.us
+  - www.co.colorado.tx.us
+  - www.co.crockett.tx.us
+  - www.co.edwards.tx.us
+  - www.co.floyd.tx.us
+  - www.co.frio.tx.us
+  - www.co.hockley.tx.us
+  - www.co.hudspeth.tx.us
+  - www.co.jim-hogg.tx.us
+  - www.co.kimble.tx.us
+  - www.co.lampasas.tx.us
+  - www.co.lavaca.tx.us
+  - www.co.marion.tx.us
+  - www.co.mason.tx.us
+  - www.co.menard.tx.us
+  - www.co.midland.tx.us
+  - www.co.mitchell.tx.us
+  - www.co.moore.tx.us
+  - www.co.morris.tx.us
+  - www.co.motley.tx.us
+  - www.co.oldham.tx.us
+  - www.co.orange.tx.us
+  - www.co.palo-pinto.tx.us
+  - www.co.potter.tx.us
+  - www.co.sabine.tx.us
+  - www.co.sutton.tx.us
+  - www.co.titus.tx.us
+  - www.co.waller.tx.us
+  - www.co.wharton.tx.us
+  - www.co.wilson.tx.us
+  - www.co.young.tx.us
+  - www.collincountytx.gov
+  - www.countyofupshur.com
+  - www.deltacountytx.com
+  - www.dentoncounty.gov
+  - www.dps.texas.gov
+  - www.elliscountytx.gov
+  - www.elpasotexas.gov
+  - www.fortbendcountytx.gov
+  - www.guadalupetx.gov
+  - www.harrisoncountytexas.gov
+  - www.hayscountytx.gov
+  - www.houstontx.gov
+  - www.huntcounty.net
+  - www.jp.hctx.net
+  - www.lubbockcounty.gov
+  - www.mywoodcounty.com
+  - www.parkercountytx.gov
+  - www.randallcounty.gov
+  - www.rockwallcountytexas.com
+  - www.runnelscounty.org
+  - www.sanpatriciocountytx.gov
+  - www.shackelfordcounty.org
+  - www.taylorcounty.texas.gov
+  - www.throckmortoncounty.org
+  - www.traviscountytx.gov
+  - www.valverdecounty.texas.gov
+  - www.vanzandtcounty.org
+  - www.vctx.org
+  - www.wheelercounty.texas.gov
+counties:
+  - name: Anderson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Andrews
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Angelina
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Aransas
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Archer
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Armstrong
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Atascosa
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Austin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bailey
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bandera
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bastrop
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Baylor
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bee
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bexar
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Blanco
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Borden
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bosque
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Bowie
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Brazoria
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Brazos
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Brewster
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Briscoe
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Brooks
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Brown
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Burleson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Burnet
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Caldwell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Calhoun
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Callahan
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cameron
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Camp
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Carson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cass
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Castro
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Chambers
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cherokee
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Childress
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Clay
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cochran
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Coke
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Coleman
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Collin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Collingsworth
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Colorado
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Comal
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Comanche
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Concho
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cooke
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Coryell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Cottle
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Crane
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Crockett
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Crosby
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Culberson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Dallam
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Dallas
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Dawson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Deaf Smith
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Delta
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Denton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: DeWitt
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Dickens
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Dimmit
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Donley
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Duval
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Eastland
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Ector
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Edwards
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Ellis
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: El Paso
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Erath
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Falls
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Fannin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Fayette
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Fisher
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Floyd
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Foard
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Fort Bend
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Franklin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Freestone
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Frio
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Gaines
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Galveston
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Garza
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Gillespie
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Glasscock
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Goliad
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Gonzales
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Gray
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Grayson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Gregg
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Grimes
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Guadalupe
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hale
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hall
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hamilton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hansford
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hardeman
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hardin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Harris
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Harrison
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hartley
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Haskell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hays
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hemphill
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Henderson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hidalgo
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hill
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hockley
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hood
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hopkins
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Houston
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Howard
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hudspeth
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hunt
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Hutchinson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Irion
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jack
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jackson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jasper
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jeff Davis
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jefferson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jim Hogg
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jim Wells
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Johnson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Jones
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Karnes
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kaufman
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kendall
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kenedy
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kent
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kerr
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kimble
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: King
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kinney
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Kleberg
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Knox
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lamar
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lamb
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lampasas
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: La Salle
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lavaca
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lee
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Leon
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Liberty
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Limestone
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lipscomb
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Live Oak
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Llano
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Loving
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lubbock
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Lynn
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: McCulloch
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: McLennan
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: McMullen
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Madison
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Marion
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Martin
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Mason
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Matagorda
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Maverick
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Medina
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Menard
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Midland
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Milam
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Mills
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Mitchell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Montague
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Montgomery
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Moore
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Morris
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Motley
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Nacogdoches
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Navarro
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Newton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Nolan
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Nueces
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Ochiltree
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Oldham
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Orange
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Palo Pinto
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Panola
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Parker
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Parmer
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Pecos
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Polk
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Potter
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Presidio
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Rains
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Randall
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Reagan
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Real
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Red River
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Reeves
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Refugio
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Roberts
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Robertson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Rockwall
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Runnels
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Rusk
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Sabine
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: San Augustine
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: San Jacinto
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: San Patricio
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: San Saba
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Schleicher
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Scurry
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Shackelford
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Shelby
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Sherman
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Smith
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Somervell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Starr
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Stephens
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Sterling
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Stonewall
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Sutton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Swisher
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Tarrant
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Taylor
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Terrell
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Terry
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Throckmorton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Titus
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Tom Green
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Travis
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Trinity
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Tyler
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Upshur
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Upton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Uvalde
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Val Verde
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Van Zandt
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Victoria
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Walker
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Waller
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Ward
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Washington
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Webb
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wharton
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wheeler
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wichita
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wilbarger
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Willacy
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Williamson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wilson
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Winkler
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wise
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Wood
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Yoakum
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Young
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Zapata
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+  - name: Zavala
+    note: "Texas traffic venue is distributed among justice of the peace and municipal courts."
+cards:
+  - id: texas-court-help
+    verification: link_ok
+    source_url: "https://texascourthelp.gov/resources/"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Texas Court Help — Texas Judicial Branch self-help resources"
+    accepted_keys: "Browse plain-language guides and forms for handling a court matter. No account."
+    cost: "No cost to read — as of 2026-09-21 on texascourthelp.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+      - "For a specific ticket, contact the court named on the citation."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 20
+  - id: texas-dps-driver-records
+    verification: link_ok
+    source_url: "https://www.dps.texas.gov/section/driver-license/how-order-driver-record"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Texas DPS — order your own driver record"
+    accepted_keys: "Order your own Texas driver record to review conviction and violation history. Not a pending-ticket lookup."
+    cost: "Type 1 $4, Type 2 $6, Type 2A $10, Type 3 $7, Type 3A $10, Type AR $20 — as of 2026-09-21 on dps.texas.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your own conviction and violation history — it does not search pending tickets."
+      - "Order only your own record."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20
+  - id: texas-dps-record-order-system
+    verification: link_ok
+    source_url: "https://txapps.texas.gov/tolapp/txldrcdr/TXDPSLicenseeManager"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Texas DPS — online driver-record ordering system"
+    accepted_keys: "Order your own Texas driver record online through the official DPS system."
+    cost: "Type 1 $4, Type 2 $6, Type 2A $10, Type 3 $7, Type 3A $10, Type AR $20 — as of 2026-09-21 on txapps.texas.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your own conviction and violation history — it does not search pending tickets."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 21
+  - id: tx-anderson-jp
+    verification: link_ok
+    source_url: "https://www.andersoncountytx.gov/page/JusticePeace.One"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anderson County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.andersoncountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Anderson"
+    weight: 10
+  - id: tx-angelina-jp
+    verification: link_ok
+    source_url: "https://www.angelinacounty.net/jp1/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Angelina County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.angelinacounty.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Angelina"
+    weight: 10
+  - id: tx-austin-jp
+    verification: link_ok
+    source_url: "https://www.austincounty.com/page/austin.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Austin County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.austincounty.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Austin"
+    weight: 10
+  - id: tx-bastrop-jp
+    verification: link_ok
+    source_url: "https://www.bastropcounty.gov/page/co.justice_peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bastrop County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.bastropcounty.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Bastrop"
+    weight: 10
+  - id: tx-bexar-jp
+    verification: link_ok
+    source_url: "https://www.bexar.org/3145/Justice-of-the-Peace-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bexar County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.bexar.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Bexar"
+    weight: 10
+  - id: tx-borden-jp
+    verification: link_ok
+    source_url: "https://www.co.borden.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Borden County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.borden.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Borden"
+    weight: 10
+  - id: tx-cameron-jp
+    verification: link_ok
+    source_url: "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cameron County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.cameroncountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Cameron"
+    weight: 10
+  - id: tx-carson-jp
+    verification: link_ok
+    source_url: "https://www.co.carson.tx.us/page/carson.JP1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carson County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.carson.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Carson"
+    weight: 10
+  - id: tx-chambers-jp
+    verification: link_ok
+    source_url: "https://www.co.chambers.tx.us/221/Justices-of-the-Peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chambers County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.chambers.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Chambers"
+    weight: 10
+  - id: tx-clay-jp
+    verification: link_ok
+    source_url: "https://www.claycountytx.net/justicecourt-lre"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.claycountytx.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Clay"
+    weight: 10
+  - id: tx-cochran-jp
+    verification: link_ok
+    source_url: "https://www.co.cochran.tx.us/page/cochran.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cochran County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.cochran.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Cochran"
+    weight: 10
+  - id: tx-collin-jp
+    verification: link_ok
+    source_url: "https://www.collincountytx.gov/Courts/justices-peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Collin County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.collincountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Collin"
+    weight: 10
+  - id: tx-colorado-jp
+    verification: link_ok
+    source_url: "https://www.co.colorado.tx.us/page/colorado.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Colorado County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.colorado.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Colorado"
+    weight: 10
+  - id: tx-crockett-jp
+    verification: link_ok
+    source_url: "https://www.co.crockett.tx.us/page/crockett.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crockett County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.crockett.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Crockett"
+    weight: 10
+  - id: tx-delta-jp
+    verification: link_ok
+    source_url: "https://www.deltacountytx.com/justice-peace/page/options-pay-fines"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Delta County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.deltacountytx.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Delta"
+    weight: 10
+  - id: tx-denton-jp
+    verification: link_ok
+    source_url: "https://www.dentoncounty.gov/380/Justice-of-the-Peace-Payments"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Denton County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.dentoncounty.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Denton"
+    weight: 10
+  - id: tx-edwards-jp
+    verification: link_ok
+    source_url: "https://www.co.edwards.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edwards County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.edwards.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Edwards"
+    weight: 10
+  - id: tx-ellis-jp
+    verification: link_ok
+    source_url: "https://www.elliscountytx.gov/139/Precinct-One"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ellis County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.elliscountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Ellis"
+    weight: 10
+  - id: tx-floyd-jp
+    verification: link_ok
+    source_url: "https://www.co.floyd.tx.us/page/floyd.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Floyd County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.floyd.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Floyd"
+    weight: 10
+  - id: tx-fort-bend-jp
+    verification: link_ok
+    source_url: "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fort Bend County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.fortbendcountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Fort Bend"
+    weight: 10
+  - id: tx-frio-jp
+    verification: link_ok
+    source_url: "https://www.co.frio.tx.us/page/co.justice-of-peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Frio County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.frio.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Frio"
+    weight: 10
+  - id: tx-gregg-jp
+    verification: link_ok
+    source_url: "https://greggcounty.texas.gov/government/precinct-1/justices-of-the-peace-precinct-1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gregg County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on greggcounty.texas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Gregg"
+    weight: 10
+  - id: tx-guadalupe-jp
+    verification: link_ok
+    source_url: "https://www.guadalupetx.gov/page/jp4.home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Guadalupe County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.guadalupetx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Guadalupe"
+    weight: 10
+  - id: tx-harris-jp
+    verification: link_ok
+    source_url: "https://www.jp.hctx.net/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harris County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.jp.hctx.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Harris"
+    weight: 10
+  - id: tx-harrison-jp
+    verification: link_ok
+    source_url: "https://www.harrisoncountytexas.gov/page/JP"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harrison County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.harrisoncountytexas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Harrison"
+    weight: 10
+  - id: tx-hays-jp
+    verification: link_ok
+    source_url: "https://www.hayscountytx.gov/328/Justice-of-the-Peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hays County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.hayscountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Hays"
+    weight: 10
+  - id: tx-hockley-jp
+    verification: link_ok
+    source_url: "https://www.co.hockley.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hockley County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.hockley.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Hockley"
+    weight: 10
+  - id: tx-howard-jp
+    verification: link_ok
+    source_url: "https://newtools.cira.state.tx.us/page/howard.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Howard County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on newtools.cira.state.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Howard"
+    weight: 10
+  - id: tx-hudspeth-jp
+    verification: link_ok
+    source_url: "https://www.co.hudspeth.tx.us/page/JP"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hudspeth County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.hudspeth.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Hudspeth"
+    weight: 10
+  - id: tx-hunt-jp
+    verification: link_ok
+    source_url: "https://www.huntcounty.net/page/justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hunt County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.huntcounty.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Hunt"
+    weight: 10
+  - id: tx-jim-hogg-jp
+    verification: link_ok
+    source_url: "https://www.co.jim-hogg.tx.us/page/jim-hogg.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jim Hogg County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.jim-hogg.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Jim Hogg"
+    weight: 10
+  - id: tx-kendall-jp
+    verification: link_ok
+    source_url: "https://co.kendall.tx.us/201/Justice-of-the-Peace-Precinct-3"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kendall County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on co.kendall.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Kendall"
+    weight: 10
+  - id: tx-kimble-jp
+    verification: link_ok
+    source_url: "https://www.co.kimble.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kimble County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.kimble.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Kimble"
+    weight: 10
+  - id: tx-lampasas-jp
+    verification: link_ok
+    source_url: "https://www.co.lampasas.tx.us/page/lampasas.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lampasas County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.lampasas.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Lampasas"
+    weight: 10
+  - id: tx-lavaca-jp
+    verification: link_ok
+    source_url: "https://www.co.lavaca.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lavaca County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.lavaca.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Lavaca"
+    weight: 10
+  - id: tx-lubbock-jp
+    verification: link_ok
+    source_url: "https://www.lubbockcounty.gov/department/?fDD=18-0"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lubbock County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.lubbockcounty.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Lubbock"
+    weight: 10
+  - id: tx-mcculloch-jp
+    verification: link_ok
+    source_url: "https://newtools.cira.state.tx.us/page/mcculloch.JusticeofthePeace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCulloch County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on newtools.cira.state.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "McCulloch"
+    weight: 10
+  - id: tx-mcmullen-jp
+    verification: link_ok
+    source_url: "https://mcmullencounty.org/justice-of-the-peace/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McMullen County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on mcmullencounty.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "McMullen"
+    weight: 10
+  - id: tx-marion-jp
+    verification: link_ok
+    source_url: "https://www.co.marion.tx.us/page/marion.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.marion.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Marion"
+    weight: 10
+  - id: tx-mason-jp
+    verification: link_ok
+    source_url: "https://www.co.mason.tx.us/page/mason.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mason County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.mason.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Mason"
+    weight: 10
+  - id: tx-menard-jp
+    verification: link_ok
+    source_url: "https://www.co.menard.tx.us/page/menard.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Menard County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.menard.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Menard"
+    weight: 10
+  - id: tx-midland-jp
+    verification: link_ok
+    source_url: "https://www.co.midland.tx.us/446/Precinct-1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Midland County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.midland.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Midland"
+    weight: 10
+  - id: tx-milam-jp
+    verification: link_ok
+    source_url: "https://milamcounty.net/courts/justice_of_the_peace.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Milam County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on milamcounty.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Milam"
+    weight: 10
+  - id: tx-mitchell-jp
+    verification: link_ok
+    source_url: "https://www.co.mitchell.tx.us/page/JP"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mitchell County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.mitchell.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Mitchell"
+    weight: 10
+  - id: tx-montague-jp
+    verification: link_ok
+    source_url: "https://newtools.cira.state.tx.us/page/montague.JP1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montague County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on newtools.cira.state.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Montague"
+    weight: 10
+  - id: tx-moore-jp
+    verification: link_ok
+    source_url: "https://www.co.moore.tx.us/page/moore.jp1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Moore County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.moore.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Moore"
+    weight: 10
+  - id: tx-morris-jp
+    verification: link_ok
+    source_url: "https://www.co.morris.tx.us/page/morris.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morris County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.morris.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Morris"
+    weight: 10
+  - id: tx-motley-jp
+    verification: link_ok
+    source_url: "https://www.co.motley.tx.us/page/motley.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Motley County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.motley.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Motley"
+    weight: 10
+  - id: tx-oldham-jp
+    verification: link_ok
+    source_url: "https://www.co.oldham.tx.us/page/Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oldham County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.oldham.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Oldham"
+    weight: 10
+  - id: tx-orange-jp
+    verification: link_ok
+    source_url: "https://www.co.orange.tx.us/JudgeHershelStagnerJr"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orange County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.orange.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Orange"
+    weight: 10
+  - id: tx-palo-pinto-jp
+    verification: link_ok
+    source_url: "https://www.co.palo-pinto.tx.us/page/JP1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Palo Pinto County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.palo-pinto.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Palo Pinto"
+    weight: 10
+  - id: tx-parker-jp
+    verification: link_ok
+    source_url: "https://www.parkercountytx.gov/185/Justice-of-the-Peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Parker County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.parkercountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Parker"
+    weight: 10
+  - id: tx-parmer-jp
+    verification: link_ok
+    source_url: "https://parmercounty.texas.gov/?page_id=10"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Parmer County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on parmercounty.texas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Parmer"
+    weight: 10
+  - id: tx-potter-jp
+    verification: link_ok
+    source_url: "https://www.co.potter.tx.us/page/JP1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Potter County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.potter.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Potter"
+    weight: 10
+  - id: tx-randall-jp
+    verification: link_ok
+    source_url: "https://www.randallcounty.gov/309/Justices-of-the-Peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Randall County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.randallcounty.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Randall"
+    weight: 10
+  - id: tx-rockwall-jp
+    verification: link_ok
+    source_url: "https://www.rockwallcountytexas.com/104/Precinct-2"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rockwall County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.rockwallcountytexas.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Rockwall"
+    weight: 10
+  - id: tx-runnels-jp
+    verification: link_ok
+    source_url: "https://www.runnelscounty.org/page/runnels.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Runnels County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.runnelscounty.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Runnels"
+    weight: 10
+  - id: tx-sabine-jp
+    verification: link_ok
+    source_url: "https://www.co.sabine.tx.us/page/sabine.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sabine County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.sabine.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Sabine"
+    weight: 10
+  - id: tx-san-patricio-jp
+    verification: link_ok
+    source_url: "https://www.sanpatriciocountytx.gov/page/jp1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "San Patricio County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.sanpatriciocountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "San Patricio"
+    weight: 10
+  - id: tx-shackelford-jp
+    verification: link_ok
+    source_url: "https://www.shackelfordcounty.org/page/shackelford.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Shackelford County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.shackelfordcounty.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Shackelford"
+    weight: 10
+  - id: tx-sutton-jp
+    verification: link_ok
+    source_url: "https://www.co.sutton.tx.us/page/sutton.JP"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sutton County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.sutton.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Sutton"
+    weight: 10
+  - id: tx-taylor-jp
+    verification: link_ok
+    source_url: "https://www.taylorcounty.texas.gov/162/Precinct-3"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Taylor County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.taylorcounty.texas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Taylor"
+    weight: 10
+  - id: tx-throckmorton-jp
+    verification: link_ok
+    source_url: "https://www.throckmortoncounty.org/page/throckmorton.justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Throckmorton County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.throckmortoncounty.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Throckmorton"
+    weight: 10
+  - id: tx-titus-jp
+    verification: link_ok
+    source_url: "https://www.co.titus.tx.us/page/co.jp"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Titus County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.titus.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Titus"
+    weight: 10
+  - id: tx-travis-jp
+    verification: link_ok
+    source_url: "https://www.traviscountytx.gov/justices-of-peace/jp1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Travis County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.traviscountytx.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Travis"
+    weight: 10
+  - id: tx-trinity-jp
+    verification: link_ok
+    source_url: "https://newtools.cira.state.tx.us/page/trinity.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Trinity County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on newtools.cira.state.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Trinity"
+    weight: 10
+  - id: tx-upshur-jp
+    verification: link_ok
+    source_url: "https://www.countyofupshur.com/page/justice_1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Upshur County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.countyofupshur.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Upshur"
+    weight: 10
+  - id: tx-val-verde-jp
+    verification: link_ok
+    source_url: "https://www.valverdecounty.texas.gov/177/Justice-of-the-Peace-PCT-1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Val Verde County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.valverdecounty.texas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Val Verde"
+    weight: 10
+  - id: tx-van-zandt-jp
+    verification: link_ok
+    source_url: "https://www.vanzandtcounty.org/page/vanzandt.JP2"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Van Zandt County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.vanzandtcounty.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Van Zandt"
+    weight: 10
+  - id: tx-victoria-jp
+    verification: link_ok
+    source_url: "https://www.vctx.org/page/justice.of.the.peace"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Victoria County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.vctx.org."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Victoria"
+    weight: 10
+  - id: tx-waller-jp
+    verification: link_ok
+    source_url: "https://www.co.waller.tx.us/page/JP-precinct1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Waller County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.waller.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Waller"
+    weight: 10
+  - id: tx-wharton-jp
+    verification: link_ok
+    source_url: "https://www.co.wharton.tx.us/page/wharton.Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wharton County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.wharton.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Wharton"
+    weight: 10
+  - id: tx-wheeler-jp
+    verification: link_ok
+    source_url: "https://www.wheelercounty.texas.gov/page/JP2-Main"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wheeler County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.wheelercounty.texas.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Wheeler"
+    weight: 10
+  - id: tx-wichita-jp
+    verification: link_ok
+    source_url: "https://wichitacountytx.com/locations/justice-of-the-peace-precinct-1-place-1/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wichita County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on wichitacountytx.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Wichita"
+    weight: 10
+  - id: tx-wilson-jp
+    verification: link_ok
+    source_url: "https://www.co.wilson.tx.us/page/wilson.JusticeofthePeacePrecinct1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wilson County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.wilson.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Wilson"
+    weight: 10
+  - id: tx-wood-jp
+    verification: link_ok
+    source_url: "https://www.mywoodcounty.com/page/jp1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wood County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.mywoodcounty.com."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Wood"
+    weight: 10
+  - id: tx-young-jp
+    verification: link_ok
+    source_url: "https://www.co.young.tx.us/page/young.JP3"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Young County — Justice of the Peace"
+    accepted_keys: "Your citation number, or your name and the approximate date and place of the stop."
+    cost: "No cost to call or look up — as of 2026-09-21 on www.co.young.tx.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "In Texas, traffic tickets are generally handled by the justice of the peace or municipal court where the stop happened — there is no statewide ticket search."
+      - "The court can tell you the official options for your citation; court staff cannot give legal advice."
+      - "Check the paper citation first: it names the court and the appearance date."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "Young"
+    weight: 10

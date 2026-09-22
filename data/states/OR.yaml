@@ -1,0 +1,729 @@
+# Oregon — 36 counties. 36 verified circuit-court cards.
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+# Curry, Harney, Morrow share courts with Coos, Grant, Umatilla respectively.
+state: OR
+state_name: Oregon
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.oregon.gov
+counties:
+  - name: Baker
+    note: "Traffic venue is circuit court."
+  - name: Benton
+    note: "Traffic venue is circuit court."
+  - name: Clackamas
+    note: "Traffic venue is circuit court."
+  - name: Clatsop
+    note: "Traffic venue is circuit court."
+  - name: Columbia
+    note: "Traffic venue is circuit court."
+  - name: Coos
+    note: "Traffic venue is circuit court."
+  - name: Crook
+    note: "Traffic venue is circuit court."
+  - name: Curry
+    note: "Traffic venue is Coos County Circuit Court (shared)."
+  - name: Deschutes
+    note: "Traffic venue is circuit court."
+  - name: Douglas
+    note: "Traffic venue is circuit court."
+  - name: Gilliam
+    note: "Traffic venue is circuit court."
+  - name: Grant
+    note: "Traffic venue is circuit court."
+  - name: Harney
+    note: "Traffic venue is Grant County Circuit Court (shared)."
+  - name: Hood River
+    note: "Traffic venue is circuit court."
+  - name: Jackson
+    note: "Traffic venue is circuit court."
+  - name: Jefferson
+    note: "Traffic venue is circuit court."
+  - name: Josephine
+    note: "Traffic venue is circuit court."
+  - name: Klamath
+    note: "Traffic venue is circuit court."
+  - name: Lake
+    note: "Traffic venue is circuit court."
+  - name: Lane
+    note: "Traffic venue is circuit court."
+  - name: Lincoln
+    note: "Traffic venue is circuit court."
+  - name: Linn
+    note: "Traffic venue is circuit court."
+  - name: Malheur
+    note: "Traffic venue is circuit court."
+  - name: Marion
+    note: "Traffic venue is circuit court."
+  - name: Morrow
+    note: "Traffic venue is Umatilla County Circuit Court (shared)."
+  - name: Multnomah
+    note: "Traffic venue is circuit court."
+  - name: Polk
+    note: "Traffic venue is circuit court."
+  - name: Sherman
+    note: "Traffic venue is circuit court."
+  - name: Tillamook
+    note: "Traffic venue is circuit court."
+  - name: Umatilla
+    note: "Traffic venue is circuit court."
+  - name: Union
+    note: "Traffic venue is circuit court."
+  - name: Wallowa
+    note: "Traffic venue is circuit court."
+  - name: Wasco
+    note: "Traffic venue is circuit court."
+  - name: Washington
+    note: "Traffic venue is circuit court."
+  - name: Wheeler
+    note: "Traffic venue is circuit court."
+  - name: Yamhill
+    note: "Traffic venue is circuit court."
+cards:
+  - id: baker-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/baker"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Baker County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baker
+    weight: 10
+
+  - id: benton-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/benton"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benton County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: clackamas-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/clackamas"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clackamas County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clackamas
+    weight: 10
+
+  - id: clatsop-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/clatsop"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clatsop County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clatsop
+    weight: 10
+
+  - id: columbia-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/columbia"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: coos-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/coos"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coos County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coos
+    weight: 10
+
+  - id: crook-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/crook"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crook County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crook
+    weight: 10
+
+  - id: curry-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/coos"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coos County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Curry
+    weight: 10
+
+  - id: deschutes-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/deschutes"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Deschutes County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Deschutes
+    weight: 10
+
+  - id: douglas-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/douglas"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Douglas County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: gilliam-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/gilliam"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gilliam County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gilliam
+    weight: 10
+
+  - id: grant-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/grant"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: harney-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/grant"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harney
+    weight: 10
+
+  - id: hood-river-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/hood_river"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hood River County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hood River
+    weight: 10
+
+  - id: jackson-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/jackson"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: jefferson-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/jefferson"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: josephine-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/josephine"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Josephine County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Josephine
+    weight: 10
+
+  - id: klamath-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/klamath"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Klamath County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Klamath
+    weight: 10
+
+  - id: lake-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/lake"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: lane-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/lane"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lane County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lane
+    weight: 10
+
+  - id: lincoln-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/lincoln"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: linn-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/linn"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Linn County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Linn
+    weight: 10
+
+  - id: malheur-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/malheur"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Malheur County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Malheur
+    weight: 10
+
+  - id: marion-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/marion"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: morrow-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/umatilla"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Umatilla County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morrow
+    weight: 10
+
+  - id: multnomah-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/multnomah"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Multnomah County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Multnomah
+    weight: 10
+
+  - id: polk-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/polk"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Polk County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: sherman-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/sherman"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sherman County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sherman
+    weight: 10
+
+  - id: tillamook-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/tillamook"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tillamook County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tillamook
+    weight: 10
+
+  - id: umatilla-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/umatilla"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Umatilla County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Umatilla
+    weight: 10
+
+  - id: union-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/union"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: wallowa-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/wallowa"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wallowa County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wallowa
+    weight: 10
+
+  - id: wasco-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/wasco"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wasco County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wasco
+    weight: 10
+
+  - id: washington-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/washington"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: wheeler-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/wheeler"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wheeler County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wheeler
+    weight: 10
+
+  - id: yamhill-circuit-card
+    verification: link_ok
+    source_url: "https://www.courts.oregon.gov/courts/yamhill"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yamhill County Circuit Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.oregon.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Circuit courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yamhill
+    weight: 10

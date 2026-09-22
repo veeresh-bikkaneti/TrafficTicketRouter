@@ -1,1 +1,226 @@
-{"$defs":{"card":{"additionalProperties":false,"properties":{"accepted_keys":{"description":"What the official form asks for, as text. Never an input on our site.","type":"string"},"agency":{"type":"string"},"contact":{"description":"Phone / address / info-line text copied from the official source.","type":["string","null"]},"cost":{"description":"Fee as printed on source_url that day, not a market claim.","type":"string"},"cost_free":{"type":"boolean"},"cost_notes":{"description":"Required on the JUSTICE card: confirm-fee language.","type":"string"},"exclude_counties":{"items":{"type":"string"},"type":"array"},"extra_links":{"items":{"additionalProperties":false,"properties":{"label":{"type":"string"},"source_url":{"pattern":"^https://","type":"string"}},"required":["label","source_url"],"type":"object"},"type":"array"},"for_counties":{"description":"County names, or [\"*\"] for all counties in the state.","items":{"type":"string"},"minItems":1,"type":"array"},"for_intents":{"items":{"enum":["lost_paper","history","handle_it"],"type":"string"},"minItems":1,"type":"array"},"id":{"pattern":"^[a-z0-9-]+$","type":"string"},"kind":{"enum":["statewide_cms","pay_portal","county_court","dmv","self_help","guidance"],"type":"string"},"lag":{"type":["string","null"]},"last_verified":{"pattern":"^\\d{4}-\\d{2}-\\d{2}$","type":"string"},"limitations":{"items":{"type":"string"},"minItems":1,"type":"array"},"link_check":{"default":"auto","description":"manual = bot-blocked but human-verified; check-links.mjs skips these and reports them.","enum":["auto","manual"],"type":"string"},"source_url":{"description":"Official URL only. May be null only for kind=guidance.","pattern":"^https://","type":["string","null"]},"verification":{"description":"Router emits only link_ok or better (link_ok, keys_documented, handoff_tested).","enum":["unverified","link_ok","keys_documented","handoff_tested","disabled"],"type":"string"},"verification_note":{"type":"string"},"weight":{"description":"Lower renders first.","type":"integer"}},"required":["id","verification","source_url","last_verified","kind","agency","accepted_keys","cost","cost_free","limitations","for_intents","for_counties","weight"],"type":"object"}},"$id":"https://ticketrouter.example/schema/jurisdiction.schema.json","$schema":"https://json-schema.org/draft/2020-12/schema","additionalProperties":false,"description":"One file per state. Data is the product: the UI reads compiled JSON, contributors edit YAML.","properties":{"cards":{"items":{"$ref":"#/$defs/card"},"minItems":1,"type":"array"},"counties":{"items":{"additionalProperties":false,"properties":{"name":{"type":"string"},"note":{"type":"string"}},"required":["name"],"type":"object"},"minItems":1,"type":"array"},"last_verified":{"pattern":"^\\d{4}-\\d{2}-\\d{2}$","type":"string"},"state":{"description":"Two-letter state code. Must match the file name.","pattern":"^[A-Z]{2}$","type":"string"},"state_name":{"type":"string"}},"required":["state","state_name","last_verified","counties","cards"],"title":"TicketRouter jurisdiction file","type":"object"}
+{
+  "$defs": {
+    "card": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted_keys": {
+          "description": "What the official form asks for, as text. Never an input on our site.",
+          "type": "string"
+        },
+        "agency": {
+          "type": "string"
+        },
+        "contact": {
+          "description": "Phone / address / info-line text copied from the official source.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cost": {
+          "description": "Fee as printed on source_url that day, not a market claim.",
+          "type": "string"
+        },
+        "cost_free": {
+          "type": "boolean"
+        },
+        "cost_notes": {
+          "description": "Required on the JUSTICE card: confirm-fee language.",
+          "type": "string"
+        },
+        "exclude_counties": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "extra_links": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "source_url": {
+                "pattern": "^https?://",
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "source_url"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "for_counties": {
+          "description": "County names, or [\"*\"] for all counties in the state.",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "for_intents": {
+          "items": {
+            "enum": [
+              "lost_paper",
+              "history",
+              "handle_it"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9-]+$",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "statewide_cms",
+            "pay_portal",
+            "county_court",
+            "dmv",
+            "self_help",
+            "guidance"
+          ],
+          "type": "string"
+        },
+        "lag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_verified": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "link_check": {
+          "default": "auto",
+          "description": "manual = bot-blocked but human-verified; check-links.mjs skips these and reports them.",
+          "enum": [
+            "auto",
+            "manual"
+          ],
+          "type": "string"
+        },
+        "source_url": {
+          "description": "Official URL only. May be null only for kind=guidance. https:// required; http:// only for an official site with human-verified broken TLS, documented in verification_note.",
+          "pattern": "^https?://",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification": {
+          "description": "Router emits only link_ok or better (link_ok, keys_documented, handoff_tested).",
+          "enum": [
+            "unverified",
+            "link_ok",
+            "keys_documented",
+            "handoff_tested",
+            "disabled"
+          ],
+          "type": "string"
+        },
+        "verification_note": {
+          "type": "string"
+        },
+        "weight": {
+          "description": "Lower renders first.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "verification",
+        "source_url",
+        "last_verified",
+        "kind",
+        "agency",
+        "accepted_keys",
+        "cost",
+        "cost_free",
+        "limitations",
+        "for_intents",
+        "for_counties",
+        "weight"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://ticketrouter.example/schema/jurisdiction.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "One file per state. Data is the product: the UI reads compiled JSON, contributors edit YAML.",
+  "properties": {
+    "cards": {
+      "items": {
+        "$ref": "#/$defs/card"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "counties": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "last_verified": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "type": "string"
+    },
+    "state": {
+      "description": "Two-letter state code. Must match the file name.",
+      "pattern": "^[A-Z]{2}$",
+      "type": "string"
+    },
+    "state_name": {
+      "type": "string"
+    },
+    "official_hosts": {
+      "description": "Official host suffixes for this state (e.g. nvcourts.gov, nv.gov). Every card source_url and pin url must live on one of these. Human review is the real gate: reviewers verify each declared host is genuinely official (.gov or an official court/county domain).",
+      "type": "array",
+      "items": {
+        "pattern": "^[a-z0-9.-]+$",
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "state",
+    "state_name",
+    "official_hosts",
+    "last_verified",
+    "counties",
+    "cards"
+  ],
+  "title": "TicketRouter jurisdiction file",
+  "type": "object"
+}

@@ -1,0 +1,1633 @@
+# Oklahoma — District Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: OK
+state_name: Oklahoma
+last_verified: "2026-09-21"
+official_hosts:
+  - oscn.net
+counties:
+  - name: Adair
+    note: "Traffic venue is the District Court."
+  - name: Alfalfa
+    note: "Traffic venue is the District Court."
+  - name: Atoka
+    note: "Traffic venue is the District Court."
+  - name: Beaver
+    note: "Traffic venue is the District Court."
+  - name: Beckham
+    note: "Traffic venue is the District Court."
+  - name: Blaine
+    note: "Traffic venue is the District Court."
+  - name: Bryan
+    note: "Traffic venue is the District Court."
+  - name: Caddo
+    note: "Traffic venue is the District Court."
+  - name: Canadian
+    note: "Traffic venue is the District Court."
+  - name: Carter
+    note: "Traffic venue is the District Court."
+  - name: Cherokee
+    note: "Traffic venue is the District Court."
+  - name: Choctaw
+    note: "Traffic venue is the District Court."
+  - name: Cimarron
+    note: "Traffic venue is the District Court."
+  - name: Cleveland
+    note: "Traffic venue is the District Court."
+  - name: Coal
+    note: "Traffic venue is the District Court."
+  - name: Comanche
+    note: "Traffic venue is the District Court."
+  - name: Cotton
+    note: "Traffic venue is the District Court."
+  - name: Craig
+    note: "Traffic venue is the District Court."
+  - name: Creek
+    note: "Traffic venue is the District Court."
+  - name: Custer
+    note: "Traffic venue is the District Court."
+  - name: Delaware
+    note: "Traffic venue is the District Court."
+  - name: Dewey
+    note: "Traffic venue is the District Court."
+  - name: Ellis
+    note: "Traffic venue is the District Court."
+  - name: Garfield
+    note: "Traffic venue is the District Court."
+  - name: Garvin
+    note: "Traffic venue is the District Court."
+  - name: Grady
+    note: "Traffic venue is the District Court."
+  - name: Grant
+    note: "Traffic venue is the District Court."
+  - name: Greer
+    note: "Traffic venue is the District Court."
+  - name: Harmon
+    note: "Traffic venue is the District Court."
+  - name: Harper
+    note: "Traffic venue is the District Court."
+  - name: Haskell
+    note: "Traffic venue is the District Court."
+  - name: Hughes
+    note: "Traffic venue is the District Court."
+  - name: Jackson
+    note: "Traffic venue is the District Court."
+  - name: Jefferson
+    note: "Traffic venue is the District Court."
+  - name: Johnston
+    note: "Traffic venue is the District Court."
+  - name: Kay
+    note: "Traffic venue is the District Court."
+  - name: Kingfisher
+    note: "Traffic venue is the District Court."
+  - name: Kiowa
+    note: "Traffic venue is the District Court."
+  - name: Latimer
+    note: "Traffic venue is the District Court."
+  - name: Le Flore
+    note: "Traffic venue is the District Court."
+  - name: Lincoln
+    note: "Traffic venue is the District Court."
+  - name: Logan
+    note: "Traffic venue is the District Court."
+  - name: Love
+    note: "Traffic venue is the District Court."
+  - name: McClain
+    note: "Traffic venue is the District Court."
+  - name: McCurtain
+    note: "Traffic venue is the District Court."
+  - name: McIntosh
+    note: "Traffic venue is the District Court."
+  - name: Major
+    note: "Traffic venue is the District Court."
+  - name: Marshall
+    note: "Traffic venue is the District Court."
+  - name: Mayes
+    note: "Traffic venue is the District Court."
+  - name: Murray
+    note: "Traffic venue is the District Court."
+  - name: Muskogee
+    note: "Traffic venue is the District Court."
+  - name: Noble
+    note: "Traffic venue is the District Court."
+  - name: Nowata
+    note: "Traffic venue is the District Court."
+  - name: Okfuskee
+    note: "Traffic venue is the District Court."
+  - name: Oklahoma
+    note: "Traffic venue is the District Court."
+  - name: Okmulgee
+    note: "Traffic venue is the District Court."
+  - name: Osage
+    note: "Traffic venue is the District Court."
+  - name: Ottawa
+    note: "Traffic venue is the District Court."
+  - name: Pawnee
+    note: "Traffic venue is the District Court."
+  - name: Payne
+    note: "Traffic venue is the District Court."
+  - name: Pittsburg
+    note: "Traffic venue is the District Court."
+  - name: Pontotoc
+    note: "Traffic venue is the District Court."
+  - name: Pottawatomie
+    note: "Traffic venue is the District Court."
+  - name: Pushmataha
+    note: "Traffic venue is the District Court."
+  - name: Roger Mills
+    note: "Traffic venue is the District Court."
+  - name: Rogers
+    note: "Traffic venue is the District Court."
+  - name: Seminole
+    note: "Traffic venue is the District Court."
+  - name: Sequoyah
+    note: "Traffic venue is the District Court."
+  - name: Stephens
+    note: "Traffic venue is the District Court."
+  - name: Texas
+    note: "Traffic venue is the District Court."
+  - name: Tillman
+    note: "Traffic venue is the District Court."
+  - name: Tulsa
+    note: "Traffic venue is the District Court."
+  - name: Wagoner
+    note: "Traffic venue is the District Court."
+  - name: Washington
+    note: "Traffic venue is the District Court."
+  - name: Washita
+    note: "Traffic venue is the District Court."
+  - name: Woods
+    note: "Traffic venue is the District Court."
+  - name: Woodward
+    note: "Traffic venue is the District Court."
+cards:
+  - id: ok-adair-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adair County District Court"
+    contact: "Phone (918) 696-7633."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adair
+    weight: 10
+
+  - id: ok-alfalfa-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Alfalfa County District Court"
+    contact: "Phone (580) 596-3523."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alfalfa
+    weight: 10
+
+  - id: ok-atoka-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Atoka County District Court"
+    contact: "Phone (580) 889-3565."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Atoka
+    weight: 10
+
+  - id: ok-beaver-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaver County District Court"
+    contact: "Phone (580) 625-3191."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaver
+    weight: 10
+
+  - id: ok-beckham-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beckham County District Court"
+    contact: "Phone (580) 928-3330."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beckham
+    weight: 10
+
+  - id: ok-blaine-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blaine County District Court"
+    contact: "Phone (580) 623-5970."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blaine
+    weight: 10
+
+  - id: ok-bryan-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bryan County District Court"
+    contact: "Phone (580) 924-1446."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bryan
+    weight: 10
+
+  - id: ok-caddo-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caddo County District Court"
+    contact: "Phone (405) 247-3393."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caddo
+    weight: 10
+
+  - id: ok-canadian-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Canadian County District Court"
+    contact: "Phone (405) 262-1070."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Canadian
+    weight: 10
+
+  - id: ok-carter-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carter County District Court"
+    contact: "Phone (580) 223-5253."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carter
+    weight: 10
+
+  - id: ok-cherokee-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cherokee County District Court"
+    contact: "Phone (918) 456-0691."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cherokee
+    weight: 10
+
+  - id: ok-choctaw-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Choctaw County District Court"
+    contact: "Phone (580) 326-7554."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Choctaw
+    weight: 10
+
+  - id: ok-cimarron-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cimarron County District Court"
+    contact: "Phone (580) 544-2221."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cimarron
+    weight: 10
+
+  - id: ok-cleveland-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cleveland County District Court"
+    contact: "Phone (405) 321-6402."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cleveland
+    weight: 10
+
+  - id: ok-coal-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coal County District Court"
+    contact: "Phone (580) 927-2281."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coal
+    weight: 10
+
+  - id: ok-comanche-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Comanche County District Court"
+    contact: "Phone (580) 355-4017."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Comanche
+    weight: 10
+
+  - id: ok-cotton-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cotton County District Court"
+    contact: "Phone (580) 875-3029."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cotton
+    weight: 10
+
+  - id: ok-craig-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Craig County District Court"
+    contact: "Phone (918) 256-6451."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Craig
+    weight: 10
+
+  - id: ok-creek-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Creek County District Court"
+    contact: "Phone (918) 227-2525."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Creek
+    weight: 10
+
+  - id: ok-custer-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Custer County District Court"
+    contact: "Phone (580) 323-3233."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Custer
+    weight: 10
+
+  - id: ok-delaware-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Delaware County District Court"
+    contact: "Phone (918) 253-4420."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delaware
+    weight: 10
+
+  - id: ok-dewey-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dewey County District Court"
+    contact: "Phone (580) 328-5521."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dewey
+    weight: 10
+
+  - id: ok-ellis-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ellis County District Court"
+    contact: "Phone (580) 885-7255."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ellis
+    weight: 10
+
+  - id: ok-garfield-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garfield County District Court"
+    contact: "Phone (580) 237-0232."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garfield
+    weight: 10
+
+  - id: ok-garvin-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garvin County District Court"
+    contact: "Phone (405) 238-5596."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garvin
+    weight: 10
+
+  - id: ok-grady-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grady County District Court"
+    contact: "Phone (405) 224-7446."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grady
+    weight: 10
+
+  - id: ok-grant-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    contact: "Phone (580) 395-2828."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: ok-greer-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greer County District Court"
+    contact: "Phone (580) 782-3665."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greer
+    weight: 10
+
+  - id: ok-harmon-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harmon County District Court"
+    contact: "Phone (580) 688-3617."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harmon
+    weight: 10
+
+  - id: ok-harper-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harper County District Court"
+    contact: "Phone (580) 735-2010."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harper
+    weight: 10
+
+  - id: ok-haskell-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Haskell County District Court"
+    contact: "Phone (918) 967-3323."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Haskell
+    weight: 10
+
+  - id: ok-hughes-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hughes County District Court"
+    contact: "Phone (405) 379-3384."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hughes
+    weight: 10
+
+  - id: ok-jackson-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County District Court"
+    contact: "Phone (580) 482-0448."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ok-jefferson-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County District Court"
+    contact: "Phone (580) 228-2961."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ok-johnston-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnston County District Court"
+    contact: "Phone (580) 371-3281."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnston
+    weight: 10
+
+  - id: ok-kay-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kay County District Court"
+    contact: "Phone (580) 362-3350."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kay
+    weight: 10
+
+  - id: ok-kingfisher-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kingfisher County District Court"
+    contact: "Phone (405) 375-3813."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kingfisher
+    weight: 10
+
+  - id: ok-kiowa-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kiowa County District Court"
+    contact: "Phone (580) 726-5125."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kiowa
+    weight: 10
+
+  - id: ok-latimer-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Latimer County District Court"
+    contact: "Phone (918) 465-2011."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Latimer
+    weight: 10
+
+  - id: ok-le-flore-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Le Flore County District Court"
+    contact: "Phone (918) 647-3181."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Le Flore
+    weight: 10
+
+  - id: ok-lincoln-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County District Court"
+    contact: "Phone (405) 258-1309."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: ok-logan-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County District Court"
+    contact: "Phone (405) 282-0123."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: ok-love-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Love County District Court"
+    contact: "Phone (580) 276-2235."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Love
+    weight: 10
+
+  - id: ok-mcclain-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McClain County District Court"
+    contact: "Phone (405) 527-3221."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McClain
+    weight: 10
+
+  - id: ok-mccurtain-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCurtain County District Court"
+    contact: "Phone (580) 286-3693."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCurtain
+    weight: 10
+
+  - id: ok-mcintosh-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McIntosh County District Court"
+    contact: "Phone (918) 689-2282."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McIntosh
+    weight: 10
+
+  - id: ok-major-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Major County District Court"
+    contact: "Phone (580) 227-4690."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Major
+    weight: 10
+
+  - id: ok-marshall-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marshall County District Court"
+    contact: "Phone (580) 795-3278."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: ok-mayes-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mayes County District Court"
+    contact: "Phone (918) 825-2185."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mayes
+    weight: 10
+
+  - id: ok-murray-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Murray County District Court"
+    contact: "Phone (580) 622-3223."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Murray
+    weight: 10
+
+  - id: ok-muskogee-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Muskogee County District Court"
+    contact: "Phone (918) 682-7873."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Muskogee
+    weight: 10
+
+  - id: ok-noble-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Noble County District Court"
+    contact: "Phone (580) 336-5187."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Noble
+    weight: 10
+
+  - id: ok-nowata-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nowata County District Court"
+    contact: "Phone (918) 273-0127."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nowata
+    weight: 10
+
+  - id: ok-okfuskee-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Okfuskee County District Court"
+    contact: "Phone (918) 623-0525."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Okfuskee
+    weight: 10
+
+  - id: ok-oklahoma-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oklahoma County District Court"
+    contact: "Phone (405) 713-1705."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oklahoma
+    weight: 10
+
+  - id: ok-okmulgee-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Okmulgee County District Court"
+    contact: "Phone (918) 756-3042."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Okmulgee
+    weight: 10
+
+  - id: ok-osage-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Osage County District Court"
+    contact: "Phone (918) 287-4104."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osage
+    weight: 10
+
+  - id: ok-ottawa-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ottawa County District Court"
+    contact: "Phone (918) 542-2801."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ottawa
+    weight: 10
+
+  - id: ok-pawnee-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pawnee County District Court"
+    contact: "Phone (918) 762-2547."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pawnee
+    weight: 10
+
+  - id: ok-payne-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Payne County District Court"
+    contact: "Phone (405) 372-4774."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Payne
+    weight: 10
+
+  - id: ok-pittsburg-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pittsburg County District Court"
+    contact: "Phone (918) 423-4859."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pittsburg
+    weight: 10
+
+  - id: ok-pontotoc-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pontotoc County District Court"
+    contact: "Phone (580) 332-5763."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pontotoc
+    weight: 10
+
+  - id: ok-pottawatomie-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pottawatomie County District Court"
+    contact: "Phone (405) 273-3624."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pottawatomie
+    weight: 10
+
+  - id: ok-pushmataha-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pushmataha County District Court"
+    contact: "Phone (580) 298-2274."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pushmataha
+    weight: 10
+
+  - id: ok-roger-mills-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Roger Mills County District Court"
+    contact: "Phone (580) 303-6053."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roger Mills
+    weight: 10
+
+  - id: ok-rogers-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rogers County District Court"
+    contact: "Phone (918) 923-4961."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rogers
+    weight: 10
+
+  - id: ok-seminole-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Seminole County District Court"
+    contact: "Phone (405) 257-6236."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Seminole
+    weight: 10
+
+  - id: ok-sequoyah-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sequoyah County District Court"
+    contact: "Phone (918) 775-4411."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sequoyah
+    weight: 10
+
+  - id: ok-stephens-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stephens County District Court"
+    contact: "Phone (580) 470-2000."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stephens
+    weight: 10
+
+  - id: ok-texas-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Texas County District Court"
+    contact: "Phone (580) 338-3003."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Texas
+    weight: 10
+
+  - id: ok-tillman-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tillman County District Court"
+    contact: "Phone (580) 335-3023."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tillman
+    weight: 10
+
+  - id: ok-tulsa-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tulsa County District Court"
+    contact: "Phone (918) 596-5000."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tulsa
+    weight: 10
+
+  - id: ok-wagoner-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wagoner County District Court"
+    contact: "Phone (918) 485-4508."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wagoner
+    weight: 10
+
+  - id: ok-washington-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County District Court"
+    contact: "Phone (918) 337-2870."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ok-washita-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washita County District Court"
+    contact: "Phone (580) 832-3836."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washita
+    weight: 10
+
+  - id: ok-woods-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Woods County District Court"
+    contact: "Phone (580) 327-3119."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woods
+    weight: 10
+
+  - id: ok-woodward-court
+    verification: link_ok
+    source_url: "https://www.oscn.net/dockets/Search.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Woodward County District Court"
+    contact: "Phone (580) 256-3413."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on oscn.net."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodward
+    weight: 10

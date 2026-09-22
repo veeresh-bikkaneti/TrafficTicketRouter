@@ -1,3 +1,11 @@
+> **Supersession notice — 2026-09-21.** The geographic limitation in this
+> document (Nebraska only) has been superseded by the 50-state expansion
+> described in `docs/TICKETROUTER-50-STATE-EXPANSION.md`. Everything else in
+> this document — the product definition, the privacy boundaries (no ticket
+> search, no stored records, no PII handling on this site), the official-links-only
+> rule, and the static-site constraint — remains in force unchanged. This
+> document is preserved as the historical Nebraska v1 contract.
+
 # TicketRouter — Locked Scope (agent contract)
 
 Date: 2026-09-20. Status: locked for v1 implementation.

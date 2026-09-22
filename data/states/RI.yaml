@@ -1,0 +1,172 @@
+# Rhode Island — Northeast expansion (2026-09-21).
+# Every source_url below returned a final HTTP 200 on 2026-09-21 (direct, no
+# redirects). The router emits only verification link_ok or better.
+# Traffic note: Rhode Island has no county courts; traffic is handled through
+# the RI Traffic Tribunal, District Court, or municipal court as applicable.
+# The Traffic Tribunal sits in Cranston and has statewide jurisdiction, so all
+# five per-county cards point at the single tribunal page and all five pins
+# mark the single tribunal building. County boundaries do not determine venue.
+state: RI
+state_name: Rhode Island
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.ri.gov
+  - dmv.ri.gov
+counties:
+  - name: Bristol
+    note: "Rhode Island has no county courts; traffic is handled through the RI Traffic Tribunal (Cranston), District Court, or municipal court as applicable. County boundaries do not determine venue."
+  - name: Kent
+    note: "Rhode Island has no county courts; traffic is handled through the RI Traffic Tribunal (Cranston), District Court, or municipal court as applicable. County boundaries do not determine venue."
+  - name: Newport
+    note: "Rhode Island has no county courts; traffic is handled through the RI Traffic Tribunal (Cranston), District Court, or municipal court as applicable. County boundaries do not determine venue."
+  - name: Providence
+    note: "Rhode Island has no county courts; traffic is handled through the RI Traffic Tribunal (Cranston), District Court, or municipal court as applicable. County boundaries do not determine venue."
+  - name: Washington
+    note: "Rhode Island has no county courts; traffic is handled through the RI Traffic Tribunal (Cranston), District Court, or municipal court as applicable. County boundaries do not determine venue."
+cards:
+  - id: ri-bristol-court
+    verification: link_ok
+    source_url: "https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhode Island Traffic Tribunal"
+    accepted_keys: "See the official tribunal page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.ri.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Rhode Island has no county courts; the RI Traffic Tribunal has original jurisdiction over civil traffic offenses statewide."
+      - "County boundaries do not determine venue; District Court or municipal court may apply depending on the matter."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bristol
+    weight: 10
+
+  - id: ri-kent-court
+    verification: link_ok
+    source_url: "https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhode Island Traffic Tribunal"
+    accepted_keys: "See the official tribunal page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.ri.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Rhode Island has no county courts; the RI Traffic Tribunal has original jurisdiction over civil traffic offenses statewide."
+      - "County boundaries do not determine venue; District Court or municipal court may apply depending on the matter."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kent
+    weight: 10
+
+  - id: ri-newport-court
+    verification: link_ok
+    source_url: "https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhode Island Traffic Tribunal"
+    accepted_keys: "See the official tribunal page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.ri.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Rhode Island has no county courts; the RI Traffic Tribunal has original jurisdiction over civil traffic offenses statewide."
+      - "County boundaries do not determine venue; District Court or municipal court may apply depending on the matter."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newport
+    weight: 10
+
+  - id: ri-providence-court
+    verification: link_ok
+    source_url: "https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhode Island Traffic Tribunal"
+    accepted_keys: "See the official tribunal page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.ri.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Rhode Island has no county courts; the RI Traffic Tribunal has original jurisdiction over civil traffic offenses statewide."
+      - "County boundaries do not determine venue; District Court or municipal court may apply depending on the matter."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Providence
+    weight: 10
+
+  - id: ri-washington-court
+    verification: link_ok
+    source_url: "https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhode Island Traffic Tribunal"
+    accepted_keys: "See the official tribunal page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.courts.ri.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Rhode Island has no county courts; the RI Traffic Tribunal has original jurisdiction over civil traffic offenses statewide."
+      - "County boundaries do not determine venue; District Court or municipal court may apply depending on the matter."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ri-tribunal-pay
+    verification: link_ok
+    link_check: manual
+    source_url: "https://portal7.courts.ri.gov/RITTDocumentUpload"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. Verified live on 2026-09-21 — the official RI Traffic Tribunal document-upload portal loads. Automated checks are blocked, so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "Rhode Island Traffic Tribunal — payment and document upload portal"
+    accepted_keys: "Ticket or case information on the official tribunal portal."
+    cost: "Pay the amount shown on your ticket; confirm any additional costs on the official portal — as of 2026-09-21."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Pay only the amount shown on your ticket or as directed by the tribunal."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 20
+
+  - id: ri-dmv-record
+    verification: link_ok
+    source_url: "https://dmv.ri.gov/online-services"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Rhode Island DMV — online services"
+    accepted_keys: "Follow the official DMV instructions to request your own driving record."
+    cost: "A fee may apply — confirm on the official DMV page as of 2026-09-21."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — not a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

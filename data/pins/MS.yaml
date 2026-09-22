@@ -1,0 +1,321 @@
+# Mississippi Justice Court pins. Only counties with verified Justice Court street locations from the official MS Secretary of State directory. Coordinates from Nominatim/OSM. URLs match data/states/MS.yaml verbatim.
+pins:
+  - id: ms-adams-courthouse
+    state: MS
+    county: Adams
+    name: "Adams County Justice Court"
+    address: "114 S. Wall St., Natchez 39120"
+    lat: 31.5605976
+    lng: -91.404757
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-attala-courthouse
+    state: MS
+    county: Attala
+    name: "Attala County Justice Court"
+    address: "254 Hwy. 12W, Kosciusko 39090"
+    lat: 33.0576295
+    lng: -89.5875764
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-choctaw-courthouse
+    state: MS
+    county: Choctaw
+    name: "Choctaw County Justice Court"
+    address: "140 Jail House Rd., Ackerman 39735"
+    lat: 33.3101243
+    lng: -89.1728434
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-coahoma-courthouse
+    state: MS
+    county: Coahoma
+    name: "Coahoma County Justice Court"
+    address: "1 Justice Dr., Clarksdale 38614"
+    lat: 34.2006479
+    lng: -90.5702071
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-copiah-courthouse
+    state: MS
+    county: Copiah
+    name: "Copiah County Justice Court"
+    address: "121 W. Frost St., Hazlehurst 39083"
+    lat: 31.8590418
+    lng: -90.3948182
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-forrest-courthouse
+    state: MS
+    county: Forrest
+    name: "Forrest County Justice Court"
+    address: "700 N. Main St., Hattiesburg 39401"
+    lat: 31.3275564
+    lng: -89.2918793
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-george-courthouse
+    state: MS
+    county: George
+    name: "George County Justice Court"
+    address: "368 Cox St., Lucedale 39452"
+    lat: 30.9238179
+    lng: -88.5897938
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-grenada-courthouse
+    state: MS
+    county: Grenada
+    name: "Grenada County Justice Court"
+    address: "16 First St., Grenada 38901"
+    lat: 33.772401
+    lng: -89.7674875
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-hancock-courthouse
+    state: MS
+    county: Hancock
+    name: "Hancock County Justice Court"
+    address: "8450 Hwy. 90, Bay St. Louis 39520"
+    lat: 30.3105666
+    lng: -89.3275482
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-humphreys-courthouse
+    state: MS
+    county: Humphreys
+    name: "Humphreys County Justice Court"
+    address: "102 Castleman St., Belzoni 39038"
+    lat: 33.1760303
+    lng: -90.4886671
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-itawamba-courthouse
+    state: MS
+    county: Itawamba
+    name: "Itawamba County Justice Court"
+    address: "304 W. Wiygul St., Ste. D, Fulton 38843"
+    lat: 34.2730336
+    lng: -88.4097248
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-jackson-courthouse
+    state: MS
+    county: Jackson
+    name: "Jackson County Justice Court"
+    address: "5343 Jefferson St., Moss Point 39563"
+    lat: 30.4115881
+    lng: -88.5344601
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-jones-courthouse
+    state: MS
+    county: Jones
+    name: "Jones County Justice Court"
+    address: "5180 Hwy. 11 N, Ellisville 39437"
+    lat: 31.6047734
+    lng: -89.195641
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-lowndes-courthouse
+    state: MS
+    county: Lowndes
+    name: "Lowndes County Justice Court"
+    address: "309 S. Martin Luther King Jr. Dr., Columbus 39702"
+    lat: 33.4943584
+    lng: -88.4024046
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-madison-courthouse
+    state: MS
+    county: Madison
+    name: "Madison County Justice Court"
+    address: "2961 S. Liberty, Canton 39046"
+    lat: 32.5866967
+    lng: -90.0443895
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-marion-courthouse
+    state: MS
+    county: Marion
+    name: "Marion County Justice Court"
+    address: "500 Courthouse Sq., Ste. 2, Columbia 39429"
+    lat: 31.2518582
+    lng: -89.8353099
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-neshoba-courthouse
+    state: MS
+    county: Neshoba
+    name: "Neshoba County Justice Court"
+    address: "200 Byrd Ave., Philadelphia 39350"
+    lat: 32.77179
+    lng: -89.110984
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-oktibbeha-courthouse
+    state: MS
+    county: Oktibbeha
+    name: "Oktibbeha County Justice Court"
+    address: "104 Felix Long Dr., Starkville 39759"
+    lat: 33.4638745
+    lng: -88.8152074
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-pearl-river-courthouse
+    state: MS
+    county: Pearl River
+    name: "Pearl River County Justice Court"
+    address: "153 Savannah-Millard Rd., Ste. A, Poplarville 39470"
+    lat: 30.8401495
+    lng: -89.5342315
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-pontotoc-courthouse
+    state: MS
+    county: Pontotoc
+    name: "Pontotoc County Justice Court"
+    address: "171 Hwy. 15 N., Pontotoc 38863"
+    lat: 34.2478831
+    lng: -88.998673
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-prentiss-courthouse
+    state: MS
+    county: Prentiss
+    name: "Prentiss County Justice Court"
+    address: "1901-C E. Chambers Dr., Booneville 38829"
+    lat: 34.6807166
+    lng: -88.5356033
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-quitman-courthouse
+    state: MS
+    county: Quitman
+    name: "Quitman County Justice Court"
+    address: "275 E. Main St., Marks 38646"
+    lat: 34.2568107
+    lng: -90.2709372
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-simpson-courthouse
+    state: MS
+    county: Simpson
+    name: "Simpson County Justice Court"
+    address: "1498 Simpson Hwy. 149, Mendenhall 39114"
+    lat: 31.9622006
+    lng: -89.8702079
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-stone-courthouse
+    state: MS
+    county: Stone
+    name: "Stone County Justice Court"
+    address: "231 Third St., Wiggins 39577"
+    lat: 30.858244
+    lng: -89.1353283
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-tate-courthouse
+    state: MS
+    county: Tate
+    name: "Tate County Justice Court"
+    address: "103 Preston McKay Dr., Senatobia 38668"
+    lat: 34.6116598
+    lng: -89.9938573
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-tippah-courthouse
+    state: MS
+    county: Tippah
+    name: "Tippah County Justice Court"
+    address: "205-B Spring Ave., Ripley 38663"
+    lat: 34.7307014
+    lng: -88.9488276
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-tishomingo-courthouse
+    state: MS
+    county: Tishomingo
+    name: "Tishomingo County Justice Court"
+    address: "1008 Battleground Dr., Rm. 212, Iuka 38852"
+    lat: 34.8049692
+    lng: -88.2029975
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-tunica-courthouse
+    state: MS
+    county: Tunica
+    name: "Tunica County Justice Court"
+    address: "5130 Old Moon Landing Rd., Tunica 38676"
+    lat: 34.6398783
+    lng: -90.3623833
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-walthall-courthouse
+    state: MS
+    county: Walthall
+    name: "Walthall County Justice Court"
+    address: "808 Magnolia Ave., Tylertown 39667"
+    lat: 31.116884
+    lng: -90.1419596
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-washington-courthouse
+    state: MS
+    county: Washington
+    name: "Washington County Justice Court"
+    address: "905 W. Alexander, Greenville 38701"
+    lat: 33.409208
+    lng: -91.0522359
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-wayne-courthouse
+    state: MS
+    county: Wayne
+    name: "Wayne County Justice Court"
+    address: "810 Chickasawhay St., Waynesboro 39367"
+    lat: 31.6748367
+    lng: -88.6471187
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse
+
+  - id: ms-webster-courthouse
+    state: MS
+    county: Webster
+    name: "Webster County Justice Court"
+    address: "24 E. Fox Ave., Eupora 39744"
+    lat: 33.5406769
+    lng: -89.2670124
+    url: https://courts.ms.gov/trialcourts/justicecourt/justicecourt.php
+    kind: courthouse

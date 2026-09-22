@@ -2,13 +2,22 @@
 // Run order: validate.mjs -> build-data.mjs -> this.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { route } from '../site/js/router.js';
 
 const root = join(import.meta.dirname, '..');
-const data = JSON.parse(readFileSync(join(root, 'site', 'data', 'ne.json'), 'utf8'));
+const dataDir = join(root, 'site', 'data');
+const data = JSON.parse(readFileSync(join(dataDir, 'ne.json'), 'utf8'));
 const fixtures = JSON.parse(readFileSync(join(root, 'tests', 'fixtures', 'routes.json'), 'utf8'));
+
+// Every built state file, for the multi-state smoke tests below.
+const stateFiles = readdirSync(dataDir).filter((f) => /^[a-z]{2}\.json$/.test(f));
+const states = stateFiles.map((f) => ({
+  code: f.replace(/\.json$/, '').toUpperCase(),
+  data: JSON.parse(readFileSync(join(dataDir, f), 'utf8')),
+}));
+assert.ok(states.length > 0, 'no built state JSON files found');
 
 const byId = (result, id) => result.cards.find((c) => c.id === id);
 
@@ -69,5 +78,46 @@ test('router never emits unverified or disabled rows', () => {
           `card ${c.id} verification ${c.verification} must not route`);
       }
     }
+  }
+});
+
+// ---- multi-state smoke tests (all built states) ----
+
+test('every state routes without crashing and emits only verified cards', () => {
+  for (const { code, data: sd } of states) {
+    const counties = sd.counties.map((c) => c.name);
+    const sampleCounties = [counties[0], counties[Math.floor(counties.length / 2)], 'Nonexistent County'];
+    for (const intent of ['lost_paper', 'history', 'handle_it']) {
+      for (const county of sampleCounties) {
+        const r = route(sd, { intent, state: code, county });
+        assert.ok(['cards', 'cannot-route', 'explainer'].includes(r.type),
+          `${code}: unexpected result type ${r.type}`);
+        for (const c of r.cards) {
+          assert.ok(['link_ok', 'keys_documented', 'handoff_tested'].includes(c.verification),
+            `${code} card ${c.id}: verification ${c.verification} must not route`);
+        }
+      }
+    }
+    // vin_only is always the explainer, regardless of state.
+    const v = route(sd, { intent: 'vin_only', state: code, county: counties[0] });
+    assert.equal(v.type, 'explainer', `${code}: vin_only must return the explainer`);
+    assert.deepEqual(v.cards, [], `${code}: vin_only must return zero cards`);
+  }
+});
+
+test('no emitted card in any state claims VIN lookup', () => {
+  for (const { code, data: sd } of states) {
+    for (const card of sd.cards) {
+      const blob = `${card.accepted_keys} ${(card.limitations || []).join(' ')}`;
+      assert.ok(!/\bVIN\b/i.test(blob) || /not/i.test(blob),
+        `${code} card ${card.id} must not present itself as a VIN lookup`);
+    }
+  }
+});
+
+test('every state file carries official_hosts', () => {
+  for (const { code, data: sd } of states) {
+    assert.ok(Array.isArray(sd.official_hosts) && sd.official_hosts.length > 0,
+      `${code}: official_hosts required`);
   }
 });

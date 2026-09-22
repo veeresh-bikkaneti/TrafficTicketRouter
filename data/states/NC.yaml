@@ -1,0 +1,2450 @@
+# North Carolina — District Court (traffic cases are heard in District Court).
+# All 100 county URLs verified HTTP 200 on nccourts.gov 2026-09-21.
+# Pins omitted for Clay, Hertford, Rockingham: venues not resolvable to
+# verifiable coordinates. Do not commit without review.
+state: NC
+state_name: North Carolina
+last_verified: "2026-09-21"
+official_hosts:
+  - nccourts.gov
+  - ncdot.gov
+counties:
+  - name: Alamance
+    note: "Traffic venue is the District Court."
+  - name: Alexander
+    note: "Traffic venue is the District Court."
+  - name: Alleghany
+    note: "Traffic venue is the District Court."
+  - name: Anson
+    note: "Traffic venue is the District Court."
+  - name: Ashe
+    note: "Traffic venue is the District Court."
+  - name: Avery
+    note: "Traffic venue is the District Court."
+  - name: Beaufort
+    note: "Traffic venue is the District Court."
+  - name: Bertie
+    note: "Traffic venue is the District Court."
+  - name: Bladen
+    note: "Traffic venue is the District Court."
+  - name: Brunswick
+    note: "Traffic venue is the District Court."
+  - name: Buncombe
+    note: "Traffic venue is the District Court."
+  - name: Burke
+    note: "Traffic venue is the District Court."
+  - name: Cabarrus
+    note: "Traffic venue is the District Court."
+  - name: Caldwell
+    note: "Traffic venue is the District Court."
+  - name: Camden
+    note: "Traffic venue is the District Court."
+  - name: Carteret
+    note: "Traffic venue is the District Court."
+  - name: Caswell
+    note: "Traffic venue is the District Court."
+  - name: Catawba
+    note: "Traffic venue is the District Court."
+  - name: Chatham
+    note: "Traffic venue is the District Court."
+  - name: Cherokee
+    note: "Traffic venue is the District Court."
+  - name: Chowan
+    note: "Traffic venue is the District Court."
+  - name: Clay
+    note: "Traffic venue is the District Court."
+  - name: Cleveland
+    note: "Traffic venue is the District Court."
+  - name: Columbus
+    note: "Traffic venue is the District Court."
+  - name: Craven
+    note: "Traffic venue is the District Court."
+  - name: Cumberland
+    note: "Traffic venue is the District Court."
+  - name: Currituck
+    note: "Traffic venue is the District Court."
+  - name: Dare
+    note: "Traffic venue is the District Court."
+  - name: Davidson
+    note: "Traffic venue is the District Court."
+  - name: Davie
+    note: "Traffic venue is the District Court."
+  - name: Duplin
+    note: "Traffic venue is the District Court."
+  - name: Durham
+    note: "Traffic venue is the District Court."
+  - name: Edgecombe
+    note: "Traffic venue is the District Court."
+  - name: Forsyth
+    note: "Traffic venue is the District Court."
+  - name: Franklin
+    note: "Traffic venue is the District Court."
+  - name: Gaston
+    note: "Traffic venue is the District Court."
+  - name: Gates
+    note: "Traffic venue is the District Court."
+  - name: Graham
+    note: "Traffic venue is the District Court."
+  - name: Granville
+    note: "Traffic venue is the District Court."
+  - name: Greene
+    note: "Traffic venue is the District Court."
+  - name: Guilford
+    note: "Traffic venue is the District Court."
+  - name: Halifax
+    note: "Traffic venue is the District Court."
+  - name: Harnett
+    note: "Traffic venue is the District Court."
+  - name: Haywood
+    note: "Traffic venue is the District Court."
+  - name: Henderson
+    note: "Traffic venue is the District Court."
+  - name: Hertford
+    note: "Traffic venue is the District Court."
+  - name: Hoke
+    note: "Traffic venue is the District Court."
+  - name: Hyde
+    note: "Traffic venue is the District Court."
+  - name: Iredell
+    note: "Traffic venue is the District Court."
+  - name: Jackson
+    note: "Traffic venue is the District Court."
+  - name: Johnston
+    note: "Traffic venue is the District Court."
+  - name: Jones
+    note: "Traffic venue is the District Court."
+  - name: Lee
+    note: "Traffic venue is the District Court."
+  - name: Lenoir
+    note: "Traffic venue is the District Court."
+  - name: Lincoln
+    note: "Traffic venue is the District Court."
+  - name: Macon
+    note: "Traffic venue is the District Court."
+  - name: Madison
+    note: "Traffic venue is the District Court."
+  - name: Martin
+    note: "Traffic venue is the District Court."
+  - name: Mcdowell
+    note: "Traffic venue is the District Court."
+  - name: Mecklenburg
+    note: "Traffic venue is the District Court."
+  - name: Mitchell
+    note: "Traffic venue is the District Court."
+  - name: Montgomery
+    note: "Traffic venue is the District Court."
+  - name: Moore
+    note: "Traffic venue is the District Court."
+  - name: Nash
+    note: "Traffic venue is the District Court."
+  - name: New Hanover
+    note: "Traffic venue is the District Court."
+  - name: Northampton
+    note: "Traffic venue is the District Court."
+  - name: Onslow
+    note: "Traffic venue is the District Court."
+  - name: Orange
+    note: "Traffic venue is the District Court."
+  - name: Pamlico
+    note: "Traffic venue is the District Court."
+  - name: Pasquotank
+    note: "Traffic venue is the District Court."
+  - name: Pender
+    note: "Traffic venue is the District Court."
+  - name: Perquimans
+    note: "Traffic venue is the District Court."
+  - name: Person
+    note: "Traffic venue is the District Court."
+  - name: Pitt
+    note: "Traffic venue is the District Court."
+  - name: Polk
+    note: "Traffic venue is the District Court."
+  - name: Randolph
+    note: "Traffic venue is the District Court."
+  - name: Richmond
+    note: "Traffic venue is the District Court."
+  - name: Robeson
+    note: "Traffic venue is the District Court."
+  - name: Rockingham
+    note: "Traffic venue is the District Court."
+  - name: Rowan
+    note: "Traffic venue is the District Court."
+  - name: Rutherford
+    note: "Traffic venue is the District Court."
+  - name: Sampson
+    note: "Traffic venue is the District Court."
+  - name: Scotland
+    note: "Traffic venue is the District Court."
+  - name: Stanly
+    note: "Traffic venue is the District Court."
+  - name: Stokes
+    note: "Traffic venue is the District Court."
+  - name: Surry
+    note: "Traffic venue is the District Court."
+  - name: Swain
+    note: "Traffic venue is the District Court."
+  - name: Transylvania
+    note: "Traffic venue is the District Court."
+  - name: Tyrrell
+    note: "Traffic venue is the District Court."
+  - name: Union
+    note: "Traffic venue is the District Court."
+  - name: Vance
+    note: "Traffic venue is the District Court."
+  - name: Wake
+    note: "Traffic venue is the District Court."
+  - name: Warren
+    note: "Traffic venue is the District Court."
+  - name: Washington
+    note: "Traffic venue is the District Court."
+  - name: Watauga
+    note: "Traffic venue is the District Court."
+  - name: Wayne
+    note: "Traffic venue is the District Court."
+  - name: Wilkes
+    note: "Traffic venue is the District Court."
+  - name: Wilson
+    note: "Traffic venue is the District Court."
+  - name: Yadkin
+    note: "Traffic venue is the District Court."
+  - name: Yancey
+    note: "Traffic venue is the District Court."
+cards:
+  - id: nc-alamance-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/alamance-county/judge-jb-allen-jr-criminal-courthouse-0"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Judge J.B. Allen Jr. Criminal Courthouse"
+    contact: "212 West Elm Street, Graham, NC 27253. Phone (336) 570-5202."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alamance
+    weight: 10
+
+  - id: nc-alexander-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/alexander-county/alexander-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Alexander County Courthouse"
+    contact: "29 W. Main Ave., Taylorsville, NC 28681. Phone (828) 635-3113."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alexander
+    weight: 10
+
+  - id: nc-alleghany-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/alleghany-county/alleghany-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Alleghany County Courthouse"
+    contact: "12 N Main St, Sparta, NC 28675. Phone (336) 372-3900."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alleghany
+    weight: 10
+
+  - id: nc-anson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/anson-county/anson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anson County Courthouse"
+    contact: "114 N Greene St, Wadesboro, NC 28170. Phone (704) 994-3800."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anson
+    weight: 10
+
+  - id: nc-ashe-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/ashe-county/ashe-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ashe County Courthouse"
+    contact: "150 Government Circle, Jefferson, NC 28640. Phone (336) 219-1400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ashe
+    weight: 10
+
+  - id: nc-avery-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/avery-county/avery-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Avery County Courthouse"
+    contact: "200 Montezuma St, Newland, NC 28657. Phone (828) 737-6700."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Avery
+    weight: 10
+
+  - id: nc-beaufort-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/beaufort-county/beaufort-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaufort County Courthouse"
+    contact: "112 W Second St, Washington, NC 27889. Phone (252) 940-4000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaufort
+    weight: 10
+
+  - id: nc-bertie-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/bertie-county/bertie-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bertie County Courthouse"
+    contact: "108 Dundee St, Windsor, NC 27983. Phone (252) 794-6800."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bertie
+    weight: 10
+
+  - id: nc-bladen-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/bladen-county/bladen-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bladen County Courthouse"
+    contact: "166 E. Broad St., Elizabethtown, NC 28337. Phone (910) 872-7200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bladen
+    weight: 10
+
+  - id: nc-brunswick-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/brunswick-county/brunswick-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brunswick County Courthouse"
+    contact: "310 Government Center Drive, NE, Bolivia, NC 28422. Phone (910) 253-3900."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brunswick
+    weight: 10
+
+  - id: nc-buncombe-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/buncombe-county/buncombe-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Buncombe County Courthouse"
+    contact: "60 Court Plaza, Asheville, NC 28801. Phone (828) 259-3400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buncombe
+    weight: 10
+
+  - id: nc-burke-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/burke-county/burke-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Burke County Courthouse"
+    contact: "201 South Green St, Morganton, NC 28655. Phone (828) 433-3200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Burke
+    weight: 10
+
+  - id: nc-cabarrus-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/cabarrus-county/cabarrus-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cabarrus County Courthouse"
+    contact: "61 Union Street South, Concord, NC 28025. Phone (704) 262-5500."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cabarrus
+    weight: 10
+
+  - id: nc-caldwell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/caldwell-county/caldwell-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caldwell County Courthouse"
+    contact: "216 Main St NW, Lenoir, NC 28645. Phone (828) 759-3503."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caldwell
+    weight: 10
+
+  - id: nc-camden-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/camden-county/camden-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Camden County Courthouse"
+    contact: "117 NC Hwy 343 North, Camden, NC 27921. Phone (252) 336-4000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Camden
+    weight: 10
+
+  - id: nc-carteret-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/carteret-county/carteret-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carteret County Courthouse"
+    contact: "300 Courthouse Square, Beaufort, NC 28516. Phone (252) 504-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carteret
+    weight: 10
+
+  - id: nc-caswell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/caswell-county/caswell-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caswell County Courthouse"
+    contact: "139 East Church St, Yanceyville, NC 27379. Phone (336) 459-4000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caswell
+    weight: 10
+
+  - id: nc-catawba-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/catawba-county/catawba-county-justice-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Catawba County Justice Center"
+    contact: "100 Government Drive, Newton, NC 28658. Phone (828) 695-6100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Catawba
+    weight: 10
+
+  - id: nc-chatham-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/chatham-county/chatham-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chatham County Courthouse"
+    contact: "40 E Chatham Street, Pittsboro, NC 27312. Phone (919) 545-3500."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chatham
+    weight: 10
+
+  - id: nc-cherokee-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/cherokee-county/cherokee-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cherokee County Courthouse"
+    contact: "75 Peachtree St, Murphy, NC 28906. Phone (828) 835-7740."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cherokee
+    weight: 10
+
+  - id: nc-chowan-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/chowan-county/chowan-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chowan County Courthouse"
+    contact: "101 S Broad St, Edenton, NC 27932. Phone (252) 368-5000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chowan
+    weight: 10
+
+  - id: nc-clay-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/clay-county/clay-county-government-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County Government Center"
+    contact: "261 Courthouse Dr. Suite 1, Hayesville, NC 28904. Phone (828) 389-2300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: nc-cleveland-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/cleveland-county/cleveland-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cleveland County Courthouse"
+    contact: "100 Justice Place, Shelby, NC 28150. Phone (704) 476-7800."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cleveland
+    weight: 10
+
+  - id: nc-columbus-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/columbus-county/columbus-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbus County Courthouse"
+    contact: "100 Courthouse Circle, Whiteville, NC 28472. Phone (910) 641-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbus
+    weight: 10
+
+  - id: nc-craven-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/craven-county/craven-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Craven County Courthouse"
+    contact: "302 Broad St, New Bern, NC 28560. Phone (252) 639-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Craven
+    weight: 10
+
+  - id: nc-cumberland-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/cumberland-county/judge-e-maurice-braswell-cumberland-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Judge E. Maurice Braswell Cumberland County Courthouse"
+    contact: "117 Dick St., Fayetteville, NC 28301. Phone (910) 475-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: nc-currituck-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/currituck-county/currituck-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Currituck County Courthouse"
+    contact: "2801 Caratoke Hwy, Currituck, NC 27929. Phone (252) 232-6200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Currituck
+    weight: 10
+
+  - id: nc-dare-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/dare-county/dare-county-justice-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dare County Justice Center"
+    contact: "962 Marshall Collins Drive, Manteo, NC 27954. Phone (252) 475-5200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dare
+    weight: 10
+
+  - id: nc-davidson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/davidson-county/davidson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Davidson County Courthouse"
+    contact: "110 West Center St, Lexington, NC 27292. Phone (336) 242-6701."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davidson
+    weight: 10
+
+  - id: nc-davie-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/davie-county/davie-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Davie County Courthouse"
+    contact: "140 South Main St, Mocksville, NC 27028. Phone (336) 936-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davie
+    weight: 10
+
+  - id: nc-duplin-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/duplin-county/duplin-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Duplin County Courthouse"
+    contact: "112 Duplin St., Kenansville, NC 28349. Phone (910) 275-7000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Duplin
+    weight: 10
+
+  - id: nc-durham-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/durham-county/durham-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Durham County Courthouse"
+    contact: "510 South Dillard St, Durham, NC 27701. Phone (919) 808-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Durham
+    weight: 10
+
+  - id: nc-edgecombe-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/edgecombe-county/edgecombe-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edgecombe County Courthouse"
+    contact: "301 St Andrews St., Tarboro, NC 27886. Phone (252) 824-3200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edgecombe
+    weight: 10
+
+  - id: nc-forsyth-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/forsyth-county/forsyth-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Forsyth County Courthouse"
+    contact: "175 N. Chestnut Street, Winston-Salem, NC 27101. Phone (336) 779-6300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Forsyth
+    weight: 10
+
+  - id: nc-franklin-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/franklin-county/franklin-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County Courthouse"
+    contact: "102 S Main St., Louisburg, NC 27549. Phone (919) 497-4200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: nc-gaston-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/gaston-county/gaston-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gaston County Courthouse"
+    contact: "325 Dr. Martin Luther King Jr. Way Suite 1004, Gastonia, NC 28052. Phone (704) 852-3100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gaston
+    weight: 10
+
+  - id: nc-gates-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/gates-county/gates-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gates County Courthouse"
+    contact: "202 Court St., Gatesville, NC 27938. Phone (252) 357-1365."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gates
+    weight: 10
+
+  - id: nc-graham-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/graham-county/graham-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Graham County Courthouse"
+    contact: "12 Court St., Robbinsville, NC 28771. Phone (828) 479-7000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Graham
+    weight: 10
+
+  - id: nc-granville-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/granville-county/granville-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Granville County Courthouse"
+    contact: "101 Main St., Oxford, NC 27565. Phone (919) 690-4800."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Granville
+    weight: 10
+
+  - id: nc-greene-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/greene-county/greene-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greene County Courthouse"
+    contact: "301 N Greene St., Snow Hill, NC 28580. Phone (252) 747-6200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: nc-guilford-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/guilford-county/guilford-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Guilford County Courthouse"
+    contact: "201 South Eugene St, Greensboro, NC 27401. Phone (336) 412-7300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Guilford
+    weight: 10
+
+  - id: nc-halifax-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/halifax-county/halifax-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Halifax County Courthouse"
+    contact: "357 Ferrell Lane, Halifax, NC 27839. Phone (252) 593-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Halifax
+    weight: 10
+
+  - id: nc-harnett-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/harnett-county/harnett-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harnett County Courthouse"
+    contact: "301 W. Cornelius Harnett Blvd Suite 100, Lillington, NC 27546. Phone (910) 814-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harnett
+    weight: 10
+
+  - id: nc-haywood-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/haywood-county/haywood-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Haywood County Courthouse"
+    contact: "285 N Main St Suite 1500, Waynesville, NC 28786. Phone (828) 454-6501."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Haywood
+    weight: 10
+
+  - id: nc-henderson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/henderson-county/henderson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henderson County Courthouse"
+    contact: "200 N Grove St Suite 163, Hendersonville, NC 28792. Phone (828) 694-4100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henderson
+    weight: 10
+
+  - id: nc-hertford-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/hertford-county/hertford-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hertford County Courthouse"
+    contact: "119 Justice Drive, Winton, NC 27986. Phone (252) 358-7100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hertford
+    weight: 10
+
+  - id: nc-hoke-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/hoke-county/hoke-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hoke County Courthouse"
+    contact: "304 N Main St, Raeford, NC 28376. Phone (910) 878-4100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hoke
+    weight: 10
+
+  - id: nc-hyde-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/hyde-county/hyde-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hyde County Courthouse"
+    contact: "40 Oyster Creek Road, Swan Quarter, NC 27885. Phone (252) 926-4700."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hyde
+    weight: 10
+
+  - id: nc-iredell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/iredell-county/iredell-county-hall-of-justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Iredell County Hall of Justice"
+    contact: "226 Stockton St, Statesville, NC 28677. Phone (704) 832-6600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iredell
+    weight: 10
+
+  - id: nc-jackson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/jackson-county/jackson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County Courthouse"
+    contact: "401 Grindstaff Cove Rd, Sylva, NC 28779. Phone (828) 631-6400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: nc-johnston-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/johnston-county/johnston-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnston County Courthouse"
+    contact: "207 E Johnston St, Smithfield, NC 27577. Phone (919) 209-5400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnston
+    weight: 10
+
+  - id: nc-jones-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/jones-county/jones-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jones County Courthouse"
+    contact: "101 Market St, Trenton, NC 28585. Phone (252) 448-6220."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jones
+    weight: 10
+
+  - id: nc-lee-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/lee-county/lee-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lee County Courthouse"
+    contact: "1400 S Horner Blvd, Sanford, NC 27330. Phone (919) 718-6300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: nc-lenoir-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/lenoir-county/lenoir-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lenoir County Courthouse"
+    contact: "130 S Queen St, Kinston, NC 28501. Phone (252) 520-5300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lenoir
+    weight: 10
+
+  - id: nc-lincoln-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/lincoln-county/lincoln-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Courthouse"
+    contact: "120 Justice Drive, Lincolnton, NC 28092. Phone (704) 742-7800."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: nc-macon-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/macon-county/macon-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Macon County Courthouse"
+    contact: "5 W Main St, Franklin, NC 28734. Phone (828) 349-7200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macon
+    weight: 10
+
+  - id: nc-madison-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/madison-county/madison-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County Courthouse"
+    contact: "258 Carolina Lane, Marshall, NC 28753. Phone (828) 649-2200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: nc-martin-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/martin-county/martin-county-governmental-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Martin County Governmental Center"
+    contact: "305 E Main St, Williamston, NC 27892. Phone (252) 809-5100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Martin
+    weight: 10
+
+  - id: nc-mcdowell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/mcdowell-county/mcdowell-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McDowell County Courthouse"
+    contact: "21 S Main St, Marion, NC 28752. Phone (828) 655-4100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mcdowell
+    weight: 10
+
+  - id: nc-mecklenburg-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/mecklenburg-county/mecklenburg-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mecklenburg County Courthouse"
+    contact: "832 East Fourth St, Charlotte, NC 28202."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mecklenburg
+    weight: 10
+
+  - id: nc-mitchell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/mitchell-county/mitchell-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mitchell County Courthouse"
+    contact: "328 Longview Dr, Bakersville, NC 28705. Phone (828) 688-5100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mitchell
+    weight: 10
+
+  - id: nc-montgomery-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/montgomery-county/montgomery-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County Courthouse"
+    contact: "108 E Main St, Troy, NC 27371. Phone (910) 571-3700."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: nc-moore-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/moore-county/moore-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Moore County Courthouse"
+    contact: "102 Monroe St, Carthage, NC 28327. Phone (910) 722-5000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moore
+    weight: 10
+
+  - id: nc-nash-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/nash-county/nash-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nash County Courthouse"
+    contact: "234 W Washington St, Nashville, NC 27856. Phone (252) 220-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nash
+    weight: 10
+
+  - id: nc-new-hanover-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/new-hanover-county/new-hanover-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "New Hanover County Courthouse"
+    contact: "316 Princess St, Wilmington, NC 28401. Phone (910) 772-6600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - New Hanover
+    weight: 10
+
+  - id: nc-northampton-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/northampton-county/northampton-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Northampton County Courthouse"
+    contact: "128 East Jefferson St, Jackson, NC 27845. Phone (252) 574-3100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Northampton
+    weight: 10
+
+  - id: nc-onslow-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/onslow-county/onslow-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Onslow County District Courthouse"
+    contact: "602 Anne Street, Jacksonville, NC 28540. Phone (910) 478-3600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Onslow
+    weight: 10
+
+  - id: nc-orange-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/orange-county/orange-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orange County Courthouse"
+    contact: "106 E Margaret Lane, Hillsborough, NC 27278."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: nc-pamlico-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/pamlico-county/pamlico-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pamlico County Courthouse"
+    contact: "202 Main St, Bayboro, NC 28515. Phone (252) 745-6600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pamlico
+    weight: 10
+
+  - id: nc-pasquotank-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/pasquotank-county/pasquotank-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pasquotank County Courthouse"
+    contact: "206 E Main St, Elizabeth City, NC 27909. Phone (252) 331-4600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pasquotank
+    weight: 10
+
+  - id: nc-pender-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/pender-county/frances-dawson-basden-judicial-annex"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Frances Dawson Basden Judicial Annex"
+    contact: "100 Dickerson Street, Burgaw, NC 28425. Phone (910) 663-3958."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pender
+    weight: 10
+
+  - id: nc-perquimans-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/perquimans-county/perquimans-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perquimans County Courthouse"
+    contact: "128 N Church St, Hertford, NC 27944. Phone (252) 404-5000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perquimans
+    weight: 10
+
+  - id: nc-person-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/person-county/person-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Person County Courthouse"
+    contact: "105 S Main St, Roxboro, NC 27573. Phone (336) 503-5200."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Person
+    weight: 10
+
+  - id: nc-pitt-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/pitt-county/pitt-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pitt County Courthouse"
+    contact: "100 W Third St, Greenville, NC 27834. Phone (252) 695-7100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pitt
+    weight: 10
+
+  - id: nc-polk-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/polk-county/polk-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Polk County Courthouse"
+    contact: "One Courthouse Square, Columbus, NC 28722. Phone (828) 894-4900."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: nc-randolph-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/randolph-county/randolph-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Randolph County Courthouse"
+    contact: "176 East Salisbury St, Asheboro, NC 27203. Phone (336) 328-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 10
+
+  - id: nc-richmond-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/richmond-county/richmond-county-judicial-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Richmond County Judicial Center"
+    contact: "105 W Franklin St, Rockingham, NC 28379. Phone (910) 419-7400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richmond
+    weight: 10
+
+  - id: nc-robeson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/robeson-county/robeson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Robeson County Courthouse"
+    contact: "500 North Elm St Room 101, Lumberton, NC 28359. Phone (910) 272-5900."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Robeson
+    weight: 10
+
+  - id: nc-rockingham-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/rockingham-county/rockingham-county-judicial-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rockingham County Judicial Center"
+    contact: "170 Hwy 65, Reidsville, NC 27320. Phone (336) 634-6000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rockingham
+    weight: 10
+
+  - id: nc-rowan-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/rowan-county/rowan-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rowan County Courthouse"
+    contact: "210 N Main St, Salisbury, NC 28144. Phone (704) 797-3001."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rowan
+    weight: 10
+
+  - id: nc-rutherford-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/rutherford-county/rutherford-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rutherford County Courthouse"
+    contact: "229 N. Main St. Suite 203, Rutherfordton, NC 28139. Phone (828) 288-6100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rutherford
+    weight: 10
+
+  - id: nc-sampson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/sampson-county/sampson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sampson County Courthouse"
+    contact: "101 E. Main St, Clinton, NC 28328. Phone (910) 596-6600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sampson
+    weight: 10
+
+  - id: nc-scotland-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/scotland-county/scotland-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Scotland County Courthouse"
+    contact: "212 Biggs St, Laurinburg, NC 28352. Phone (910) 266-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scotland
+    weight: 10
+
+  - id: nc-stanly-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/stanly-county/stanly-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stanly County Courthouse"
+    contact: "201 S Second St, Albemarle, NC 28002. Phone (704) 986-7000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stanly
+    weight: 10
+
+  - id: nc-stokes-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/stokes-county/stokes-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stokes County Courthouse"
+    contact: "Hwy 89 - 1012 Main St, Danbury, NC 27016. Phone (336) 593-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stokes
+    weight: 10
+
+  - id: nc-surry-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/surry-county/surry-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Surry County Courthouse"
+    contact: "201 E. Kapp St, Dobson, NC 27017. Phone (336) 386-3700."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Surry
+    weight: 10
+
+  - id: nc-swain-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/swain-county/swain-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Swain County Courthouse"
+    contact: "101 Mitchell St, Bryson City, NC 28713. Phone (828) 488-7400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Swain
+    weight: 10
+
+  - id: nc-transylvania-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/transylvania-county/transylvania-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Transylvania County Courthouse"
+    contact: "7 East Main St, Brevard, NC 28712. Phone (828) 885-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Transylvania
+    weight: 10
+
+  - id: nc-tyrrell-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/tyrrell-county/tyrrell-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tyrrell County Courthouse"
+    contact: "403 Main St, Columbia, NC 27925. Phone (252) 766-6510."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tyrrell
+    weight: 10
+
+  - id: nc-union-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/union-county/union-county-judicial-center"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County Judicial Center"
+    contact: "400 North Main St, Monroe, NC 28112. Phone (704) 698-3100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: nc-vance-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/vance-county/vance-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vance County Courthouse"
+    contact: "156 Church St Suite 101, Henderson, NC 27536. Phone (252) 430-5100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vance
+    weight: 10
+
+  - id: nc-wake-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/wake-county/wake-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wake County Courthouse"
+    contact: "316 Fayetteville St. Mall, Raleigh, NC 27601. Phone (919) 792-4000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wake
+    weight: 10
+
+  - id: nc-warren-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/warren-county/warren-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County Courthouse"
+    contact: "109 S Main St, Warrenton, NC 27589. Phone (252) 257-6300."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: nc-washington-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/washington-county/washington-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Courthouse"
+    contact: "120 Adams St, Plymouth, NC 27962. Phone (252) 791-4000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: nc-watauga-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/watauga-county/watauga-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Watauga County Courthouse"
+    contact: "842 W King St Suite 13, Boone, NC 28607. Phone (828) 268-6600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Watauga
+    weight: 10
+
+  - id: nc-wayne-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/wayne-county/wayne-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County Courthouse"
+    contact: "224 E. Walnut St Room 230, Goldsboro, NC 27530. Phone (919) 722-6100."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: nc-wilkes-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/wilkes-county/wilkes-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wilkes County Courthouse"
+    contact: "500 Courthouse Dr, Wilkesboro, NC 28697. Phone (336) 651-4400."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wilkes
+    weight: 10
+
+  - id: nc-wilson-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/wilson-county/wilson-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wilson County Courthouse"
+    contact: "115 E Nash St, Wilson, NC 27894. Phone (252) 206-3000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wilson
+    weight: 10
+
+  - id: nc-yadkin-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/yadkin-county/yadkin-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yadkin County Courthouse"
+    contact: "101 S State St, Yadkinville, NC 27055. Phone (336) 679-3600."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yadkin
+    weight: 10
+
+  - id: nc-yancey-district-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/locations/yancey-county/yancey-county-courthouse"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yancey County Courthouse"
+    contact: "110 Towne Square Room 5, Burnsville, NC 28714. Phone (828) 678-5700."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic cases are heard in District Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yancey
+    weight: 10
+
+  - id: nc-court-services
+    verification: link_ok
+    link_check: manual
+    verification_note: "nccourts.gov returns HTTP 403 to automated link checks (bot protection); page content verified via browser fetch on 2026-09-21."
+    source_url: "https://www.nccourts.gov/services"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "North Carolina Judicial Branch — services"
+    accepted_keys: "Browse official court services. No account."
+    cost: "No cost to read — as of 2026-09-21 on nccourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40
+
+  - id: nc-dmv-driving-record
+    verification: link_ok
+    source_url: "https://www.ncdot.gov/dmv/offices-services/records-reports/Pages/driving-records.aspx"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "N.C. Division of Motor Vehicles — driving records"
+    accepted_keys: "Follow the official DMV page to request your driving record."
+    cost: "Driving record requests have a fee — see the official DMV page for current pricing, as of 2026-09-21 on ncdot.gov."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — NOT a pending-ticket portal."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

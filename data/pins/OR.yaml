@@ -1,0 +1,32 @@
+# Oregon map pins — circuit court locations.
+# 3 pins with verified coordinates; 33 counties omitted (geocode failed).
+pins:
+  - id: or-gilliam-courthouse
+    state: OR
+    county: Gilliam
+    name: Gilliam County Circuit Court
+    address: 221 S. Oregon St., Condon, OR 97823
+    lat: 45.2312565
+    lng: -120.1860312
+    url: https://www.courts.oregon.gov/courts/gilliam
+    kind: courthouse
+
+  - id: or-jefferson-courthouse
+    state: OR
+    county: Jefferson
+    name: Jefferson County Circuit Court
+    address: 129 SW, E Street Madras, OR 97741
+    lat: 44.6322690
+    lng: -121.1143928
+    url: https://www.courts.oregon.gov/courts/jefferson
+    kind: courthouse
+
+  - id: or-malheur-courthouse
+    state: OR
+    county: Malheur
+    name: Malheur County Circuit Court
+    address: 251 B Street West, Vale, OR 97918
+    lat: 43.9811752
+    lng: -117.2452952
+    url: https://www.courts.oregon.gov/courts/malheur
+    kind: courthouse

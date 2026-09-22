@@ -1,0 +1,651 @@
+# Louisiana parish courthouse pins plus New Orleans Municipal and Traffic Court. Winn Parish omitted (no qualifying official site). Coordinates from Nominatim/OSM. URLs match data/states/LA.yaml verbatim.
+pins:
+  - id: la-acadia-courthouse
+    state: LA
+    county: Acadia
+    name: "Acadia Parish Clerk of Court"
+    address: "500 NE Court Circle Crowley, LA 70526"
+    lat: 30.2147145
+    lng: -92.3731842
+    url: https://www.acadiaparishclerk.com/
+    kind: courthouse
+
+  - id: la-allen-courthouse
+    state: LA
+    county: Allen
+    name: "Allen Parish Clerk of Court"
+    address: "400 West Sixth Avenue Oberlin, LA 70655"
+    lat: 30.6201984
+    lng: -92.7626462
+    url: https://www.allenparishclerk.org/
+    kind: courthouse
+
+  - id: la-ascension-courthouse
+    state: LA
+    county: Ascension
+    name: "Ascension Parish Clerk of Court"
+    address: "607 E. Worthey St. 1st Floor, Gonzales, LA 70737"
+    lat: 30.2385294
+    lng: -90.9200987
+    url: https://www.ascensionclerk.com/
+    kind: courthouse
+
+  - id: la-assumption-courthouse
+    state: LA
+    county: Assumption
+    name: "Assumption Parish Clerk of Court"
+    address: "4809 Hwy 1 Napoleonville, LA 70390"
+    lat: 29.9415857
+    lng: -91.0243267
+    url: https://www.assumptionclerk.com/
+    kind: courthouse
+
+  - id: la-avoyelles-courthouse
+    state: LA
+    county: Avoyelles
+    name: "Avoyelles Parish Clerk of Court"
+    address: "312 North Main Street Marksville, LA 71351"
+    lat: 31.1272634
+    lng: -92.0660356
+    url: https://www.avoyellesparishclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-beauregard-courthouse
+    state: LA
+    county: Beauregard
+    name: "Beauregard Parish Clerk of Court"
+    address: "201 West First Street, DeRidder, LA 70634"
+    lat: 30.846201
+    lng: -93.289281
+    url: https://beauregardclerk.org/
+    kind: courthouse
+
+  - id: la-bienville-courthouse
+    state: LA
+    county: Bienville
+    name: "Bienville Parish Clerk of Court"
+    address: "100 Courthouse Drive Suite 1100 Arcadia, LA 71001"
+    lat: 32.5673932
+    lng: -92.9188111
+    url: https://clerk.bienvilleparish.org/
+    kind: courthouse
+
+  - id: la-bossier-courthouse
+    state: LA
+    county: Bossier
+    name: "Bossier Parish Clerk of Court"
+    address: "204 Burt Boulevard Third Floor Benton, LA 71006"
+    lat: 32.6978036
+    lng: -93.7399258
+    url: https://www.bossierclerk.com/
+    kind: courthouse
+
+  - id: la-caddo-courthouse
+    state: LA
+    county: Caddo
+    name: "Caddo Parish Clerk of Court"
+    address: "501 Texas Street Room 103 Shreveport, LA 71101"
+    lat: 32.512086
+    lng: -93.7496099
+    url: https://www.caddoclerk.com/
+    kind: courthouse
+
+  - id: la-calcasieu-courthouse
+    state: LA
+    county: Calcasieu
+    name: "Calcasieu Parish Clerk of Court"
+    address: "1000 Ryan Street Suite 5 Lake Charles, LA 70601"
+    lat: 30.2263188
+    lng: -93.2183891
+    url: https://calcasieuclerk.gov/
+    kind: courthouse
+
+  - id: la-caldwell-courthouse
+    state: LA
+    county: Caldwell
+    name: "Caldwell Parish Clerk of Court"
+    address: "201 Main Street Suite 1 Columbia, LA 71418"
+    lat: 32.105784
+    lng: -92.074713
+    url: https://www.caldwellclerk.org/
+    kind: courthouse
+
+  - id: la-cameron-courthouse
+    state: LA
+    county: Cameron
+    name: "Cameron Parish Clerk of Court"
+    address: "119 Smith Circle Room 21 Cameron, LA  70631"
+    lat: 29.798515
+    lng: -93.3250203
+    url: https://www.cameronparishcoc2.com/
+    kind: courthouse
+
+  - id: la-catahoula-courthouse
+    state: LA
+    county: Catahoula
+    name: "Catahoula Parish Clerk of Court"
+    address: "301 Bushley Street Room 101 Harrisonburg, LA 71340"
+    lat: 31.7666172
+    lng: -91.8293918
+    url: https://www.catahoulaclerk.com/
+    kind: courthouse
+
+  - id: la-claiborne-courthouse
+    state: LA
+    county: Claiborne
+    name: "Claiborne Parish Clerk of Court"
+    address: "512 East Main Street Homer, LA 71040"
+    lat: 32.7923417
+    lng: -93.05459
+    url: https://www.claiborneclerk.org/
+    kind: courthouse
+
+  - id: la-concordia-courthouse
+    state: LA
+    county: Concordia
+    name: "Concordia Parish Clerk of Court"
+    address: "4001 Carter Street Room 5 Vidalia, LA 71373"
+    lat: 31.5753
+    lng: -91.4579861
+    url: https://concordiaclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-de-soto-courthouse
+    state: LA
+    county: De Soto
+    name: "De Soto Parish Clerk of Court"
+    address: "101 Texas Street, Mansfield, LA 71052"
+    lat: 32.03838
+    lng: -93.710689
+    url: https://desotoparishclerk.org/
+    kind: courthouse
+
+  - id: la-east-baton-rouge-courthouse
+    state: LA
+    county: East Baton Rouge
+    name: "East Baton Rouge Parish Clerk of Court"
+    address: "222 St. Louis Street Baton Rouge, LA 70802"
+    lat: 30.4460504
+    lng: -91.1878106
+    url: https://ebrclerk.com/
+    kind: courthouse
+
+  - id: la-east-carroll-courthouse
+    state: LA
+    county: East Carroll
+    name: "East Carroll Parish Clerk of Court"
+    address: "400 First Street, Lake Providence, LA 71254"
+    lat: 32.8042966
+    lng: -91.170109
+    url: http://www.eastcarrollclerk.com/
+    link_check: manual
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    kind: courthouse
+
+  - id: la-east-feliciana-courthouse
+    state: LA
+    county: East Feliciana
+    name: "East Feliciana Parish Clerk of Court"
+    address: "12305 St. Helena Street Clinton, LA 70722"
+    lat: 30.8656284
+    lng: -91.0176613
+    url: https://www.eastfelicianaclerk.org/
+    kind: courthouse
+
+  - id: la-evangeline-courthouse
+    state: LA
+    county: Evangeline
+    name: "Evangeline Parish Clerk of Court"
+    address: "200 Court Street Suite 104 Ville Platte, LA 70586"
+    lat: 30.6901838
+    lng: -92.2774771
+    url: https://www.evangelineparishclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-franklin-courthouse
+    state: LA
+    county: Franklin
+    name: "Franklin Parish Clerk of Court"
+    address: "6550 Main Street Winnsboro, LA 71295"
+    lat: 32.1653916
+    lng: -91.7139572
+    url: https://www.franklinparishclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-grant-courthouse
+    state: LA
+    county: Grant
+    name: "Grant Parish Clerk of Court"
+    address: "200 Main Street Colfax, LA 71417"
+    lat: 31.516672
+    lng: -92.712813
+    url: https://www.grantparishclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-iberia-courthouse
+    state: LA
+    county: Iberia
+    name: "Iberia Parish Clerk of Court"
+    address: "300 Iberia Street New Iberia, LA 70560"
+    lat: 30.004535
+    lng: -91.820453
+    url: https://www.iberiaclerk.com/
+    kind: courthouse
+
+  - id: la-iberville-courthouse
+    state: LA
+    county: Iberville
+    name: "Iberville Parish Clerk of Court"
+    address: "58050 Meriam Street Plaquemine, LA 70764"
+    lat: 30.2870961
+    lng: -91.2365993
+    url: https://www.ibervilleclerk.com/
+    kind: courthouse
+
+  - id: la-jackson-courthouse
+    state: LA
+    county: Jackson
+    name: "Jackson Parish Clerk of Court"
+    address: "500 East Court Street, Jonesboro, LA 71251"
+    lat: 32.240309
+    lng: -92.716032
+    url: https://jacksonparishclerk.org/
+    kind: courthouse
+
+  - id: la-jefferson-courthouse
+    state: LA
+    county: Jefferson
+    name: "Jefferson Parish Clerk of Court"
+    address: "General Government Building 200 Derbigny Street, Suite 5600 Gretna, LA 70053"
+    lat: 29.9146493
+    lng: -90.0539604
+    url: https://www.jpclerkofcourt.us/
+    kind: courthouse
+
+  - id: la-jefferson-davis-courthouse
+    state: LA
+    county: Jefferson Davis
+    name: "Jefferson Davis Parish Clerk of Court"
+    address: "300 N. State Street Room 106 Jennings, LA 70546"
+    lat: 30.222749
+    lng: -92.656544
+    url: https://www.jeffdavisclerk.com/
+    kind: courthouse
+
+  - id: la-lafayette-courthouse
+    state: LA
+    county: Lafayette
+    name: "Lafayette Parish Clerk of Court"
+    address: "800 South Buchanan Street Lafayette, LA 70501"
+    lat: 30.222799
+    lng: -92.019883
+    url: https://www.lpclerk.com/
+    kind: courthouse
+
+  - id: la-lafourche-courthouse
+    state: LA
+    county: Lafourche
+    name: "Lafourche Parish Clerk of Court"
+    address: "303 W. 3rd Street  Thibodaux, LA 70301"
+    lat: 29.7974228
+    lng: -90.819558
+    url: https://www.lafourcheclerk.com/
+    kind: courthouse
+
+  - id: la-la-salle-courthouse
+    state: LA
+    county: La Salle
+    name: "La Salle Parish Clerk of Court"
+    address: "1050 Courthouse Street, Jena, LA 71342"
+    lat: 31.6849974
+    lng: -92.1324738
+    url: http://lasalleclerk.com/
+    link_check: manual
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    kind: courthouse
+
+  - id: la-lincoln-courthouse
+    state: LA
+    county: Lincoln
+    name: "Lincoln Parish Clerk of Court"
+    address: "100 West Texas Avenue Ruston, LA 71270"
+    lat: 32.5270733
+    lng: -92.6388164
+    url: https://www.lincolnparish.org/
+    kind: courthouse
+
+  - id: la-livingston-courthouse
+    state: LA
+    county: Livingston
+    name: "Livingston Parish Clerk of Court"
+    address: "20300 Government Boulevard, Livingston, LA 70754"
+    lat: 30.4824696
+    lng: -90.751757
+    url: https://www.livclerk.org/
+    kind: courthouse
+
+  - id: la-madison-courthouse
+    state: LA
+    county: Madison
+    name: "Madison Parish Clerk of Court"
+    address: "100 North Cedar Street Tallulah, LA 71282"
+    lat: 32.4080874
+    lng: -91.1866258
+    url: https://www.madisonparishclerk.com/
+    kind: courthouse
+
+  - id: la-morehouse-courthouse
+    state: LA
+    county: Morehouse
+    name: "Morehouse Parish Clerk of Court"
+    address: "100 East Madison Street Bastrop, LA 71220"
+    lat: 32.7777896
+    lng: -91.9138683
+    url: https://morehouseclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-natchitoches-courthouse
+    state: LA
+    county: Natchitoches
+    name: "Natchitoches Parish Clerk of Court"
+    address: "200 Church Street Room 104 Natchitoches, LA 71457"
+    lat: 31.7615361
+    lng: -93.0883111
+    url: https://www.npclerkofcourt.org/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: la-orleans-courthouse
+    state: LA
+    county: Orleans
+    name: "Orleans Parish Clerk of Court"
+    address: "421 Loyola Avenue Room 402 New Orleans, LA 70112"
+    lat: 29.9518602
+    lng: -90.0754679
+    url: https://www.orleanscivilclerk.com/
+    kind: courthouse
+
+  - id: la-ouachita-courthouse
+    state: LA
+    county: Ouachita
+    name: "Ouachita Parish Clerk of Court"
+    address: "301 South Grand Street Room 104 Monroe, LA 71201"
+    lat: 32.499309
+    lng: -92.116993
+    url: https://www.opclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-plaquemines-courthouse
+    state: LA
+    county: Plaquemines
+    name: "Plaquemines Parish Clerk of Court"
+    address: "301 Main Street Suite 108 Belle Chasse, LA 70037"
+    lat: 29.8566975
+    lng: -89.9840654
+    url: https://www.clerk25th.com/
+    kind: courthouse
+
+  - id: la-pointe-coupee-courthouse
+    state: LA
+    county: Pointe Coupee
+    name: "Pointe Coupee Parish Clerk of Court"
+    address: "201 East Main Street New Roads, LA 70760"
+    lat: 30.693946
+    lng: -91.4253289
+    url: https://pcclerk.org/
+    kind: courthouse
+
+  - id: la-rapides-courthouse
+    state: LA
+    county: Rapides
+    name: "Rapides Parish Clerk of Court"
+    address: "701 Murray Street Suite 102 Alexandria, LA 71301"
+    lat: 31.309091
+    lng: -92.447117
+    url: https://www.rapidesclerk.org/
+    kind: courthouse
+
+  - id: la-red-river-courthouse
+    state: LA
+    county: Red River
+    name: "Red River Parish Clerk of Court"
+    address: "615 East Carroll Street, Coushatta, LA 71019"
+    lat: 32.0142364
+    lng: -93.3404747
+    url: https://redriverclerk.com/
+    kind: courthouse
+
+  - id: la-richland-courthouse
+    state: LA
+    county: Richland
+    name: "Richland Parish Clerk of Court"
+    address: "708 Julia Street Suite 103 Rayville, LA 71269"
+    lat: 32.4768572
+    lng: -91.7591823
+    url: https://www.richlandparishclerk.com/
+    kind: courthouse
+
+  - id: la-sabine-courthouse
+    state: LA
+    county: Sabine
+    name: "Sabine Parish Clerk of Court"
+    address: "400 South Capitol Street Room 102  Many, LA 71449"
+    lat: 31.5672898
+    lng: -93.4837642
+    url: https://www.sabineparishclerk.com/
+    kind: courthouse
+
+  - id: la-st-bernard-courthouse
+    state: LA
+    county: St. Bernard
+    name: "St. Bernard Parish Clerk of Court"
+    address: "1101 W St. Bernard Highway, Chalmette, LA 70043"
+    lat: 29.940084
+    lng: -89.97349
+    url: http://stbclerk.com/
+    link_check: manual
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    kind: courthouse
+
+  - id: la-st-charles-courthouse
+    state: LA
+    county: St. Charles
+    name: "St. Charles Parish Clerk of Court"
+    address: "15045 River Road Hahnville, LA 70057"
+    lat: 29.963789
+    lng: -90.4066386
+    url: https://www.scpclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-st-helena-courthouse
+    state: LA
+    county: St. Helena
+    name: "St. Helena Parish Clerk of Court"
+    address: "369 Sitman Street Greensburg, LA 70441"
+    lat: 30.8289562
+    lng: -90.6672928
+    url: https://www.sthelenaclerk.org/
+    kind: courthouse
+
+  - id: la-st-james-courthouse
+    state: LA
+    county: St. James
+    name: "St. James Parish Clerk of Court"
+    address: "5800 La. Hwy. 44 Convent, LA 70723"
+    lat: 30.0205669
+    lng: -90.8297092
+    url: https://stjamesclerk.com/
+    kind: courthouse
+
+  - id: la-st-john-the-baptist-courthouse
+    state: LA
+    county: St. John the Baptist
+    name: "St. John the Baptist Parish Clerk of Court"
+    address: "2393 Highway 18, Edgard, LA 70049"
+    lat: 30.0432578
+    lng: -90.5600869
+    url: https://www.sjbparishclerk.gov/
+    kind: courthouse
+
+  - id: la-st-landry-courthouse
+    state: LA
+    county: St. Landry
+    name: "St. Landry Parish Clerk of Court"
+    address: "118 South Court Street Suite 207 Opelousas, LA 70570"
+    lat: 30.5338803
+    lng: -92.0829675
+    url: https://www.stlandry.org/
+    kind: courthouse
+
+  - id: la-st-martin-courthouse
+    state: LA
+    county: St. Martin
+    name: "St. Martin Parish Clerk of Court"
+    address: "415 St. Martin Street St. Martinville, LA 70582"
+    lat: 30.1193637
+    lng: -91.829534
+    url: https://www.smpcoc2.com/
+    kind: courthouse
+
+  - id: la-st-mary-courthouse
+    state: LA
+    county: St. Mary
+    name: "St. Mary Parish Clerk of Court"
+    address: "500 Main Street, 2nd Floor Franklin, LA 70538"
+    lat: 29.7925517
+    lng: -91.5006704
+    url: https://www.stmaryparishclerkofcourt.com/
+    kind: courthouse
+
+  - id: la-st-tammany-courthouse
+    state: LA
+    county: St. Tammany
+    name: "St. Tammany Parish Clerk of Court"
+    address: "701 North Columbia Street Covington, LA 70433"
+    lat: 30.4801642
+    lng: -90.0961789
+    url: https://www.sttammanyclerk.org/
+    kind: courthouse
+
+  - id: la-tangipahoa-courthouse
+    state: LA
+    county: Tangipahoa
+    name: "Tangipahoa Parish Clerk of Court"
+    address: "110 North Bay Street Suite 100 Amite, LA 70422"
+    lat: 30.7269264
+    lng: -90.5053967
+    url: https://www.tangiclerk.org/
+    kind: courthouse
+
+  - id: la-tensas-courthouse
+    state: LA
+    county: Tensas
+    name: "Tensas Parish Clerk of Court"
+    address: "201 Hancock Street St. Joseph, LA 71366"
+    lat: 31.914558
+    lng: -91.236627
+    url: https://www.tensasclerk.org/
+    kind: courthouse
+
+  - id: la-terrebonne-courthouse
+    state: LA
+    county: Terrebonne
+    name: "Terrebonne Parish Clerk of Court"
+    address: "7856 Main Street Houma, LA 70360"
+    lat: 29.596987
+    lng: -90.7241624
+    url: https://www.terrebonneclerk.org/
+    kind: courthouse
+
+  - id: la-union-courthouse
+    state: LA
+    county: Union
+    name: "Union Parish Clerk of Court"
+    address: "100 East Bayou Street Suite 105 Farmerville, LA 71241"
+    lat: 32.7747312
+    lng: -92.4046686
+    url: https://www.upclerk.com/
+    kind: courthouse
+
+  - id: la-vermilion-courthouse
+    state: LA
+    county: Vermilion
+    name: "Vermilion Parish Clerk of Court"
+    address: "100 N. State Street Suite 101 Abbeville, LA 70510"
+    lat: 29.97409
+    lng: -92.135532
+    url: https://www.vermilionclerk.com/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: la-vernon-courthouse
+    state: LA
+    county: Vernon
+    name: "Vernon Parish Clerk of Court"
+    address: "215 South 4th Street Leesville, LA 71446"
+    lat: 31.1424625
+    lng: -93.2621097
+    url: https://www.vernonparishcoc.com/
+    kind: courthouse
+
+  - id: la-washington-courthouse
+    state: LA
+    county: Washington
+    name: "Washington Parish Clerk of Court"
+    address: "Courthouse Building Corner of Washington &amp; Main St. Franklinton, LA 70438"
+    lat: 30.8386632
+    lng: -90.152984
+    url: https://www.washingtonparishclerk.org/
+    kind: courthouse
+
+  - id: la-webster-courthouse
+    state: LA
+    county: Webster
+    name: "Webster Parish Clerk of Court"
+    address: "410 Main Street Minden, LA 71055"
+    lat: 32.6139316
+    lng: -93.2882866
+    url: https://www.websterclerk.org/
+    kind: courthouse
+
+  - id: la-west-baton-rouge-courthouse
+    state: LA
+    county: West Baton Rouge
+    name: "West Baton Rouge Parish Clerk of Court"
+    address: "850 8th Street, Port Allen, LA 70767"
+    lat: 30.4599032
+    lng: -91.2092361
+    url: https://www.wbrclerk.org/
+    kind: courthouse
+
+  - id: la-west-carroll-courthouse
+    state: LA
+    county: West Carroll
+    name: "West Carroll Parish Clerk of Court"
+    address: "305 East Main Street Room 101 Oak Grove, LA 71263"
+    lat: 32.8604584
+    lng: -91.3873913
+    url: https://www.westcarrollclerk.org/
+    kind: courthouse
+
+  - id: la-west-feliciana-courthouse
+    state: LA
+    county: West Feliciana
+    name: "West Feliciana Parish Clerk of Court"
+    address: "4785 Prosperity Street St. Francisville, LA 70775"
+    lat: 30.774934
+    lng: -91.38578
+    url: https://westfelicianaclerkofcourt.org/
+    kind: courthouse
+
+  - id: la-orleans-municipal-traffic-courthouse
+    state: LA
+    county: Orleans
+    name: "New Orleans Municipal and Traffic Court"
+    address: "727 S. Broad St., New Orleans, LA 70119"
+    lat: 29.9592844
+    lng: -90.0926263
+    url: https://mtcourt.nola.gov/tickets/
+    kind: courthouse

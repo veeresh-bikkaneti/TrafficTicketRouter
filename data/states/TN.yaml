@@ -1,0 +1,2193 @@
+# Tennessee — General Sessions Court per county. Addresses from the TN Administrative Office of the Courts courthouse directory (tncourts.gov/courthouse), live-fetched 2026-09-21. tngovcourts.gov uses bot protection; link_check is manual.
+state: TN
+state_name: Tennessee
+last_verified: "2026-09-21"
+official_hosts:
+  - tncourts.gov
+  - nashville.gov
+counties:
+  - name: Anderson
+  - name: Bedford
+  - name: Benton
+  - name: Bledsoe
+  - name: Blount
+  - name: Bradley
+  - name: Campbell
+  - name: Cannon
+  - name: Carroll
+  - name: Carter
+  - name: Cheatham
+  - name: Chester
+  - name: Claiborne
+  - name: Clay
+  - name: Cocke
+  - name: Coffee
+  - name: Crockett
+  - name: Cumberland
+  - name: Davidson
+  - name: DeKalb
+  - name: Decatur
+  - name: Dickson
+  - name: Dyer
+  - name: Fayette
+  - name: Fentress
+  - name: Franklin
+  - name: Gibson
+  - name: Giles
+  - name: Grainger
+  - name: Greene
+  - name: Grundy
+  - name: Hamblen
+  - name: Hamilton
+  - name: Hancock
+  - name: Hardeman
+  - name: Hardin
+  - name: Hawkins
+  - name: Haywood
+  - name: Henderson
+  - name: Henry
+  - name: Hickman
+  - name: Houston
+  - name: Humphreys
+  - name: Jackson
+  - name: Jefferson
+  - name: Johnson
+  - name: Knox
+  - name: Lake
+  - name: Lauderdale
+  - name: Lawrence
+  - name: Lewis
+  - name: Lincoln
+  - name: Loudon
+  - name: Macon
+  - name: Madison
+  - name: Marion
+  - name: Marshall
+  - name: Maury
+  - name: McMinn
+  - name: McNairy
+  - name: Meigs
+  - name: Monroe
+  - name: Montgomery
+  - name: Moore
+  - name: Morgan
+  - name: Obion
+  - name: Overton
+  - name: Perry
+  - name: Pickett
+  - name: Polk
+  - name: Putnam
+  - name: Rhea
+  - name: Roane
+  - name: Robertson
+  - name: Rutherford
+  - name: Scott
+  - name: Sequatchie
+  - name: Sevier
+  - name: Shelby
+  - name: Smith
+  - name: Stewart
+  - name: Sullivan
+  - name: Sumner
+  - name: Tipton
+  - name: Trousdale
+  - name: Unicoi
+  - name: Union
+  - name: Van Buren
+  - name: Warren
+  - name: Washington
+  - name: Wayne
+  - name: Weakley
+  - name: White
+  - name: Williamson
+  - name: Wilson
+cards:
+  - id: tn-anderson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anderson County General Sessions Court"
+    contact: "100 N Main St. Clinton, TN 37716"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anderson
+    weight: 10
+
+  - id: tn-bedford-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bedford County General Sessions Court"
+    contact: "108 North Creek Drive, Shelbyville, TN 37160"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bedford
+    weight: 10
+
+  - id: tn-benton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benton County General Sessions Court"
+    contact: "1 Court Square, Camden, TN 38320"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: tn-bledsoe-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bledsoe County General Sessions Court"
+    contact: "3150 Main Street, Ste 300, Pikeville, TN 37367"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bledsoe
+    weight: 10
+
+  - id: tn-blount-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blount County General Sessions Court"
+    contact: "928 E Lamar Alexander Pkwy, Maryville, TN 37804"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blount
+    weight: 10
+
+  - id: tn-bradley-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bradley County General Sessions Court"
+    contact: "2230 Blythe Avenue, Cleveland, TN 37311"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bradley
+    weight: 10
+
+  - id: tn-campbell-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Campbell County General Sessions Court"
+    contact: "570 Main St., Jacksboro, TN 37757"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Campbell
+    weight: 10
+
+  - id: tn-cannon-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cannon County General Sessions Court"
+    contact: "200 West Main, Woodbury, TN 37190"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cannon
+    weight: 10
+
+  - id: tn-carroll-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carroll County General Sessions Court"
+    contact: "99 Court Square, Huntingdon, TN 38344"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: tn-carter-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carter County General Sessions Court"
+    contact: "801 E Elk Ave., Elizabethton, TN 37643"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carter
+    weight: 10
+
+  - id: tn-cheatham-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cheatham County General Sessions Court"
+    contact: "100 Public Square, Ashland City, TN 37015"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cheatham
+    weight: 10
+
+  - id: tn-chester-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chester County General Sessions Court"
+    contact: "333 Eric Bell Drive, Henderson, TN 38340"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chester
+    weight: 10
+
+  - id: tn-claiborne-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Claiborne County General Sessions Court"
+    contact: "415 Straight Creek Rd., New Tazewell, TN 37825"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Claiborne
+    weight: 10
+
+  - id: tn-clay-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County General Sessions Court"
+    contact: "100 Court House Square, Celina, TN 38551"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: tn-cocke-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cocke County General Sessions Court"
+    contact: "301 Cosby Highway, Newport, TN 37821"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cocke
+    weight: 10
+
+  - id: tn-coffee-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coffee County General Sessions Court"
+    contact: "300 Hillsboro Blvd., Manchester, TN 37355"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coffee
+    weight: 10
+
+  - id: tn-crockett-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crockett County General Sessions Court"
+    contact: "1 S Bells St., Alamo, TN 38001"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crockett
+    weight: 10
+
+  - id: tn-cumberland-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cumberland County General Sessions Court"
+    contact: "60 Justice Center Dr., Crossville, TN 38555"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: tn-davidson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "General Sessions Court location verified on the official Metropolitan Nashville General Sessions Court site (gscourt.nashville.gov): Justice A.A. Birch Building, 408 2nd Avenue North."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Davidson County General Sessions Court"
+    contact: "408 2nd Avenue North, Nashville, TN 37201"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davidson
+    weight: 10
+
+  - id: tn-dekalb-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "DeKalb County General Sessions Court"
+    contact: "1 Public Square, Smithville, TN 37166&"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeKalb
+    weight: 10
+
+  - id: tn-decatur-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=0"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Decatur County General Sessions Court"
+    contact: "22 W Main Street, Decaturville, TN 38329"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Decatur
+    weight: 10
+
+  - id: tn-dickson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dickson County General Sessions Court"
+    contact: "500 Spring Street, Charlotte, TN 37036"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickson
+    weight: 10
+
+  - id: tn-dyer-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dyer County General Sessions Court"
+    contact: "101 W Court St., Dyersburg, TN 38024"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dyer
+    weight: 10
+
+  - id: tn-fayette-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fayette County General Sessions Court"
+    contact: "16755 US-64, Somerville, TN 38068"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: tn-fentress-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fentress County General Sessions Court"
+    contact: "140 Justice Ctr Drive, Jamestown, TN 38556"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fentress
+    weight: 10
+
+  - id: tn-franklin-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County General Sessions Court"
+    contact: "440 George Fraley Parkway, Winchester, TN 37398"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: tn-gibson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gibson County General Sessions Court"
+    contact: "1421 Osborne Street, Humboldt, Tennessee 38343"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gibson
+    weight: 10
+
+  - id: tn-giles-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Giles County General Sessions Court"
+    contact: "1 Public Square, Pulaski, TN 38478"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Giles
+    weight: 10
+
+  - id: tn-grainger-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grainger County General Sessions Court"
+    contact: "8095 Rutledge Pike, Rutledge, TN 37861"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grainger
+    weight: 10
+
+  - id: tn-greene-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greene County General Sessions Court"
+    contact: "101 S Main Street, Greeneville, TN 37743"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: tn-grundy-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grundy County General Sessions Court"
+    contact: "68 Cumberland Street, Altamont, TN 37301"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grundy
+    weight: 10
+
+  - id: tn-hamblen-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamblen County General Sessions Court"
+    contact: "510 Allison Street, Morristown, TN 37814"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamblen
+    weight: 10
+
+  - id: tn-hamilton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamilton County General Sessions Court"
+    contact: "625 Georgia Avenue, Chattanooga, TN 37402"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: tn-hancock-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hancock County General Sessions Court"
+    contact: "1237 Main Street, Sneedville, TN 37869"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: tn-hardeman-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hardeman County General Sessions Court"
+    contact: "100 North Main St., Bolivar, TN 38008"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardeman
+    weight: 10
+
+  - id: tn-hardin-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hardin County General Sessions Court"
+    contact: "465 Main Street, Savannah, TN 38372"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardin
+    weight: 10
+
+  - id: tn-hawkins-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hawkins County General Sessions Court"
+    contact: "100 E Main Street, Rogersville, TN 37857"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hawkins
+    weight: 10
+
+  - id: tn-haywood-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Haywood County General Sessions Court"
+    contact: "100 S. Dupree, Brownsville, TN 38012"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Haywood
+    weight: 10
+
+  - id: tn-henderson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henderson County General Sessions Court"
+    contact: "170 Justice Center Drive, Lexington, TN 38351"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henderson
+    weight: 10
+
+  - id: tn-henry-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henry County General Sessions Court"
+    contact: "101 W Washington St., Paris, TN 38242"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: tn-hickman-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=1"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hickman County General Sessions Court"
+    contact: "104 College Avenue, Centerville, TN 37033"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hickman
+    weight: 10
+
+  - id: tn-houston-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Houston County General Sessions Court"
+    contact: "4725 E Main Street, Erin, TN 37061"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Houston
+    weight: 10
+
+  - id: tn-humphreys-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Humphreys County General Sessions Court"
+    contact: "100 N Court Square, Waverly, TN 37185"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Humphreys
+    weight: 10
+
+  - id: tn-jackson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County General Sessions Court"
+    contact: "101 E Hull Ave Street, Gainesboro, TN 38562"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: tn-jefferson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County General Sessions Court"
+    contact: "765 Justice Center Dr., Dandridge, TN 37725"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: tn-johnson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnson County General Sessions Court"
+    contact: "222 W Main Street, Mountain City, TN 37683"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: tn-knox-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Knox County General Sessions Court"
+    contact: "400 Main St SW., Knoxville, TN 37902"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 10
+
+  - id: tn-lake-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County General Sessions Court"
+    contact: "229 Church St., Tiptonville, TN 38079"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: tn-lauderdale-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lauderdale County General Sessions Court"
+    contact: "675 Hwy 51 South, Ripley, TN 38063"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lauderdale
+    weight: 10
+
+  - id: tn-lawrence-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lawrence County General Sessions Court"
+    contact: "240 W Gaines St Ste 1, Lawrenceburg, TN 38464"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: tn-lewis-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis County General Sessions Court"
+    contact: "29 West Main St., Hohenwald, TN 38462"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: tn-lincoln-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County General Sessions Court"
+    contact: "112 Main Ave S., Fayetteville, TN 37334"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: tn-loudon-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Loudon County General Sessions Court"
+    contact: "12680 Hwy 11 W. Lenoir City, TN 37771"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Loudon
+    weight: 10
+
+  - id: tn-macon-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Macon County General Sessions Court"
+    contact: "904 TN-52 Bypass, Lafayette, TN 37083"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macon
+    weight: 10
+
+  - id: tn-madison-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County General Sessions Court"
+    contact: "515 S Liberty St # 300, Jackson, TN 38301"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: tn-marion-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County General Sessions Court"
+    contact: "1 Courthouse Square, Jasper, TN 37347"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: tn-marshall-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marshall County General Sessions Court"
+    contact: "301 Marshall County Courthouse, Lewisburg, TN 37091Maury"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: tn-maury-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=2"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Maury County General Sessions Court"
+    contact: "1115 S. Main St. Columbia, TN 38401"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Maury
+    weight: 10
+
+  - id: tn-mcminn-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McMinn County General Sessions Court"
+    contact: "1317 S. White St. Athens, TN 37303"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McMinn
+    weight: 10
+
+  - id: tn-mcnairy-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McNairy County General Sessions Court"
+    contact: "300 Industrial Park Drive, Selmer, TN 38375"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McNairy
+    weight: 10
+
+  - id: tn-meigs-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Meigs County General Sessions Court"
+    contact: "17214 St. Hwy. 58 North, Decatur Tn. 37322"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meigs
+    weight: 10
+
+  - id: tn-monroe-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County General Sessions Court"
+    contact: "105 College St. S., Madisonville, TN 37354"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: tn-montgomery-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County General Sessions Court"
+    contact: "2 Millenium Plz., Clarksville, TN 37040"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: tn-moore-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Moore County General Sessions Court"
+    contact: "196 Main Street, Lynchburg, TN 37352"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moore
+    weight: 10
+
+  - id: tn-morgan-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morgan County General Sessions Court"
+    contact: "415 N Kingston Street, Wartburg, TN 37887"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: tn-obion-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Obion County General Sessions Court"
+    contact: "1 Bill Burnett Circle, Union City, TN 38261"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Obion
+    weight: 10
+
+  - id: tn-overton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Overton County General Sessions Court"
+    contact: "306 W Main St suite 103, Livingston, TN 38570"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Overton
+    weight: 10
+
+  - id: tn-perry-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perry County General Sessions Court"
+    contact: "121 E Main Street, Linden, TN 37096"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: tn-pickett-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pickett County General Sessions Court"
+    contact: "1 Courthouse Square, Byrdstown, TN 38549;"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pickett
+    weight: 10
+
+  - id: tn-polk-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Polk County General Sessions Court"
+    contact: "6239 Hwy 411, Benton, TN 37307"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: tn-putnam-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Putnam County General Sessions Court"
+    contact: "421 E Spring Street, Cookeville, TN 38501"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: tn-rhea-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rhea County General Sessions Court"
+    contact: "7824 Rhea County Hwy., Dayton Tn 37321"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rhea
+    weight: 10
+
+  - id: tn-roane-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Roane County General Sessions Court"
+    contact: "200 E Race St #11, Kingston, TN 37763"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roane
+    weight: 10
+
+  - id: tn-robertson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Robertson County General Sessions Court"
+    contact: "422 West Court Square, Springfield, TN 37172"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Robertson
+    weight: 10
+
+  - id: tn-rutherford-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rutherford County General Sessions Court"
+    contact: "116 West Lytle Street, Murfreesboro, TN 37130"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rutherford
+    weight: 10
+
+  - id: tn-scott-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Scott County General Sessions Court"
+    contact: "575 Scott High Drive, Huntsville, TN 37756"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: tn-sequatchie-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sequatchie County General Sessions Court"
+    contact: "22 Cherry Street, Dunlap, TN 37327"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sequatchie
+    weight: 10
+
+  - id: tn-sevier-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sevier County General Sessions Court"
+    contact: "127 Commerce Street, Sevierville, TN 37862"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sevier
+    weight: 10
+
+  - id: tn-shelby-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=3"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Shelby County General Sessions Court"
+    contact: "201 Poplar Avenue, Memphis 38103"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 10
+
+  - id: tn-smith-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Smith County General Sessions Court"
+    contact: "322 Justice Drive, Carthage, TN 37030"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Smith
+    weight: 10
+
+  - id: tn-stewart-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stewart County General Sessions Court"
+    contact: "225 Donelson Pkwy., Dover, TN 37058"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stewart
+    weight: 10
+
+  - id: tn-sullivan-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts courthouse directory (tncourts.gov, bot-blocked to automated checks; page content human-verified 2026-09-21). The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sullivan County General Sessions Court"
+    contact: "200 Shelby Street, Kingsport, TN 37660"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sullivan
+    weight: 10
+
+  - id: tn-sumner-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sumner County General Sessions Court"
+    contact: "115 East Main Street, Gallatin, TN 37066"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sumner
+    weight: 10
+
+  - id: tn-tipton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tipton County General Sessions Court"
+    contact: "1801 South College Street, Covington, TN 38019"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tipton
+    weight: 10
+
+  - id: tn-trousdale-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Trousdale County General Sessions Court"
+    contact: "303 East Main Street, Hartsville, TN 37074"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trousdale
+    weight: 10
+
+  - id: tn-unicoi-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Unicoi County General Sessions Court"
+    contact: "100 N Main Avenue, Erwin, TN 37650"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Unicoi
+    weight: 10
+
+  - id: tn-union-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County General Sessions Court"
+    contact: "901 Main Street, Maynardville, TN 37807"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: tn-van-buren-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Van Buren County General Sessions Court"
+    contact: "121 Taft Drive, Spencer, TN 38585"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Van Buren
+    weight: 10
+
+  - id: tn-warren-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County General Sessions Court"
+    contact: "111 S Court Square, McMinnville, TN 37110"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: tn-washington-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County General Sessions Court"
+    contact: "108 W Jackson Blvd., Jonesborough, TN 37659"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: tn-wayne-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County General Sessions Court"
+    contact: "1016 Andrew Jackson Drive, Waynesboro, Tn 38485"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: tn-weakley-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Weakley County General Sessions Court"
+    contact: "116 W Main Street, Dresden, TN 38225"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Weakley
+    weight: 10
+
+  - id: tn-white-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "White County General Sessions Court"
+    contact: "111 Depot St, Sparta, TN 38583"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - White
+    weight: 10
+
+  - id: tn-williamson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Williamson County General Sessions Court"
+    contact: "135 4th Ave S., Franklin, TN 37064"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williamson
+    weight: 10
+
+  - id: tn-wilson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://tncourts.gov/courthouse?page=4"
+    verification_note: "Address is the county courthouse listed in the TN Administrative Office of the Courts directory. The AOC confirms every TN county is served by a General Sessions Court, which sits at the county courthouse unless a separate facility is listed."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wilson County General Sessions Court"
+    contact: "134 S College Street, Lebanon, TN 37087"
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on tncourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in General Sessions Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wilson
+    weight: 10

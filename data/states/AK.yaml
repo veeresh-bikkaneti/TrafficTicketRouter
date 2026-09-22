@@ -1,0 +1,88 @@
+# Alaska — 30 boroughs/census areas. 0 verified cards.
+# Alaska Court System (courts.alaska.gov) trial court locations for all 30
+# boroughs/census areas were not independently verified to HTTP 200.
+# Jurisdictions listed per requirement; cards omitted pending verification.
+state: AK
+state_name: Alaska
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.alaska.gov
+counties:
+  - name: Aleutians East
+    note: "Official trial-court page not independently verified."
+  - name: Aleutians West
+    note: "Official trial-court page not independently verified."
+  - name: Anchorage
+    note: "Official trial-court page not independently verified."
+  - name: Bethel
+    note: "Official trial-court page not independently verified."
+  - name: Bristol Bay
+    note: "Official trial-court page not independently verified."
+  - name: Denali
+    note: "Official trial-court page not independently verified."
+  - name: Dillingham
+    note: "Official trial-court page not independently verified."
+  - name: Fairbanks North Star
+    note: "Official trial-court page not independently verified."
+  - name: Haines
+    note: "Official trial-court page not independently verified."
+  - name: Hoonah-Angoon
+    note: "Official trial-court page not independently verified."
+  - name: Juneau
+    note: "Official trial-court page not independently verified."
+  - name: Kenai Peninsula
+    note: "Official trial-court page not independently verified."
+  - name: Ketchikan Gateway
+    note: "Official trial-court page not independently verified."
+  - name: Kodiak Island
+    note: "Official trial-court page not independently verified."
+  - name: Kusilvak
+    note: "Official trial-court page not independently verified."
+  - name: Lake and Peninsula
+    note: "Official trial-court page not independently verified."
+  - name: Matanuska-Susitna
+    note: "Official trial-court page not independently verified."
+  - name: Nome
+    note: "Official trial-court page not independently verified."
+  - name: North Slope
+    note: "Official trial-court page not independently verified."
+  - name: Northwest Arctic
+    note: "Official trial-court page not independently verified."
+  - name: Petersburg
+    note: "Official trial-court page not independently verified."
+  - name: Prince of Wales-Hyder
+    note: "Official trial-court page not independently verified."
+  - name: Sitka
+    note: "Official trial-court page not independently verified."
+  - name: Skagway
+    note: "Official trial-court page not independently verified."
+  - name: Southeast Fairbanks
+    note: "Official trial-court page not independently verified."
+  - name: Valdez-Cordova
+    note: "Official trial-court page not independently verified."
+  - name: Wrangell
+    note: "Official trial-court page not independently verified."
+  - name: Yakutat
+    note: "Official trial-court page not independently verified."
+  - name: Yukon-Koyukuk
+    note: "Official trial-court page not independently verified."
+  - name: Chugach
+    note: "Official trial-court page not independently verified."
+cards:
+  - id: ak-guidance-card
+    verification: link_ok
+    source_url: null
+    last_verified: "2026-09-21"
+    kind: guidance
+    agency: "Alaska Court System"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Individual borough trial-court pages were not independently verified — use the Alaska Court System's court-locator on the official site to find the trial court for the borough where the stop happened, and confirm the venue with the court clerk."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 10

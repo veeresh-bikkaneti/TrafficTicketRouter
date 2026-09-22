@@ -1,0 +1,214 @@
+# New Jersey map pins — county courthouses (MapLibre).
+# Addresses taken from the official NJ Courts vicinage pages 2026-09-21; coordinates
+# cross-checked against a second source (Census/OSM/Nominatim). URLs reused verbatim
+# from data/states/NJ.yaml — never invented. Do not commit without review.
+pins:
+  - id: nj-atlantic-courthouse
+    state: NJ
+    county: Atlantic
+    name: Atlantic County Criminal Courts Complex
+    address: 4997 Unami Blvd., Mays Landing, NJ 08330
+    lat: 39.4407988
+    lng: -74.6875944
+    url: https://www.njcourts.gov/courts/vicinages/atlantic-cape-may
+    kind: courthouse
+
+  - id: nj-bergen-courthouse
+    state: NJ
+    county: Bergen
+    name: Bergen County Justice Center
+    address: 10 Main Street, Hackensack, NJ 07601
+    lat: 40.8783033
+    lng: -74.0448130
+    url: https://www.njcourts.gov/courts/vicinages/bergen
+    kind: courthouse
+
+  - id: nj-burlington-courthouse
+    state: NJ
+    county: Burlington
+    name: Burlington County Court Facility
+    address: 49 Rancocas Road, Mount Holly, NJ 08060
+    lat: 39.9949150
+    lng: -74.7902795
+    url: https://www.njcourts.gov/courts/vicinages/burlington
+    kind: courthouse
+
+  - id: nj-camden-courthouse
+    state: NJ
+    county: Camden
+    name: Camden County Hall of Justice
+    address: 101 South 5th Street, Camden, NJ 08103
+    lat: 39.9423496
+    lng: -75.1209908
+    url: https://www.njcourts.gov/courts/vicinages/camden
+    kind: courthouse
+
+  - id: nj-cape-may-courthouse
+    state: NJ
+    county: Cape May
+    name: Cape May County Courthouse
+    address: 9 North Main Street, Cape May Court House, NJ 08210
+    lat: 39.0833136
+    lng: -74.8232148
+    url: https://www.njcourts.gov/courts/vicinages/atlantic-cape-may
+    kind: courthouse
+
+  - id: nj-cumberland-courthouse
+    state: NJ
+    county: Cumberland
+    name: Cumberland County Courthouse
+    address: 60 West Broad Street, Bridgeton, NJ 08302
+    lat: 39.4279488
+    lng: -75.2395577
+    url: https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem
+    kind: courthouse
+
+  - id: nj-essex-courthouse
+    state: NJ
+    county: Essex
+    name: Essex County Dr. Martin Luther King, Jr. Justice Building
+    address: 495 Dr. Martin Luther King, Jr. Blvd., Newark, NJ 07102
+    lat: 40.7371137
+    lng: -74.1794383
+    url: https://www.njcourts.gov/courts/vicinages/essex
+    kind: courthouse
+
+  - id: nj-gloucester-courthouse
+    state: NJ
+    county: Gloucester
+    name: Gloucester County Justice Complex
+    address: 70 Hunter Street, Woodbury, NJ 08096
+    lat: 39.8388399
+    lng: -75.1490823
+    url: https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem
+    kind: courthouse
+
+  - id: nj-hudson-courthouse
+    state: NJ
+    county: Hudson
+    name: William J. Brennan Jr. Courthouse
+    address: 583 Newark Avenue, Jersey City, NJ 07306
+    lat: 40.7320292
+    lng: -74.0571169
+    url: https://www.njcourts.gov/courts/vicinages/hudson
+    kind: courthouse
+
+  - id: nj-hunterdon-courthouse
+    state: NJ
+    county: Hunterdon
+    name: Hunterdon County Justice Center
+    address: 65 Park Avenue, Flemington, NJ 08822
+    lat: 40.4952671
+    lng: -74.8187531
+    url: https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren
+    kind: courthouse
+
+  - id: nj-mercer-courthouse
+    state: NJ
+    county: Mercer
+    name: Mercer County Criminal Courthouse
+    address: 400 South Warren Street, Trenton, NJ 08650
+    lat: 40.2154121
+    lng: -74.7633266
+    url: https://www.njcourts.gov/courts/vicinages/mercer
+    kind: courthouse
+
+  - id: nj-middlesex-courthouse
+    state: NJ
+    county: Middlesex
+    name: Middlesex County Courthouse
+    address: 56 Paterson Street, New Brunswick, NJ 08903
+    lat: 40.4949338
+    lng: -74.4450793
+    url: https://www.njcourts.gov/courts/vicinages/middlesex
+    kind: courthouse
+
+  - id: nj-monmouth-courthouse
+    state: NJ
+    county: Monmouth
+    name: Monmouth County Courthouse
+    address: 71 Monument Street, Freehold, NJ 07728
+    lat: 40.2643934
+    lng: -74.2774756
+    url: https://www.njcourts.gov/courts/vicinages/monmouth
+    kind: courthouse
+
+  - id: nj-morris-courthouse
+    state: NJ
+    county: Morris
+    name: Morris County Courthouse
+    address: Washington and Court Streets, Morristown, NJ 07960
+    lat: 40.7978917
+    lng: -74.4833279
+    url: https://www.njcourts.gov/courts/vicinages/morris-sussex
+    kind: courthouse
+
+  - id: nj-ocean-courthouse
+    state: NJ
+    county: Ocean
+    name: Ocean County Courthouse
+    address: 100 Hooper Avenue, Toms River, NJ 08754
+    lat: 39.9534638
+    lng: -74.1936556
+    url: https://www.njcourts.gov/courts/vicinages/ocean
+    kind: courthouse
+
+  - id: nj-passaic-courthouse
+    state: NJ
+    county: Passaic
+    name: New Courthouse
+    address: 77 Hamilton Street, Paterson, NJ 07505
+    lat: 40.9156402
+    lng: -74.1721651
+    url: https://www.njcourts.gov/courts/vicinages/passaic
+    kind: courthouse
+
+  - id: nj-salem-courthouse
+    state: NJ
+    county: Salem
+    name: Salem County Courthouse
+    address: 92 Market Street, Salem, NJ 08079
+    lat: 39.5737906
+    lng: -75.4661739
+    url: https://www.njcourts.gov/courts/vicinages/cumberland-gloucester-salem
+    kind: courthouse
+
+  - id: nj-somerset-courthouse
+    state: NJ
+    county: Somerset
+    name: Somerset County Courthouse
+    address: 20 North Bridge Street, Somerville, NJ 08876
+    lat: 40.5689281
+    lng: -74.6114318
+    url: https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren
+    kind: courthouse
+
+  - id: nj-sussex-courthouse
+    state: NJ
+    county: Sussex
+    name: Sussex County Judicial Center
+    address: 43-47 High Street, Newton, NJ 07860
+    lat: 41.0580484
+    lng: -74.7546773
+    url: https://www.njcourts.gov/courts/vicinages/morris-sussex
+    kind: courthouse
+
+  - id: nj-union-courthouse
+    state: NJ
+    county: Union
+    name: Union County Courthouse
+    address: 2 Broad Street, Elizabeth, NJ 07207
+    lat: 40.6621884
+    lng: -74.2151208
+    url: https://www.njcourts.gov/courts/vicinages/union
+    kind: courthouse
+
+  - id: nj-warren-courthouse
+    state: NJ
+    county: Warren
+    name: Warren County Courthouse
+    address: 413 Second Street, Belvidere, NJ 07823
+    lat: 40.8272788
+    lng: -75.0769968
+    url: https://www.njcourts.gov/courts/vicinages/somerset-hunterdon-warren
+    kind: courthouse

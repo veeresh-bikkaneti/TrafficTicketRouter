@@ -1,0 +1,156 @@
+# Delaware — 3 counties.
+# Every source_url below was fetched live on 2026-09-21 and returned HTTP 200
+# with genuine court content. Do not add URLs from memory.
+state: DE
+state_name: Delaware
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.delaware.gov
+  - dmv.de.gov
+counties:
+  - name: Kent
+    note: "Traffic venue is the Justice of the Peace Court / Court of Common Pleas."
+  - name: New Castle
+    note: "Traffic venue is the Justice of the Peace Court / Court of Common Pleas."
+  - name: Sussex
+    note: "Traffic venue is the Justice of the Peace Court / Court of Common Pleas."
+cards:
+  - id: kent-county-card
+    verification: link_ok
+    source_url: "https://www.courts.delaware.gov/locations/jp07.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Justice of the Peace Court 7 — Kent County"
+    contact: "480 Bank Lane, Dover, DE 19904. Phone 302-739-4554."
+    accepted_keys: See the official court page for contact options
+    cost: "No cost to call or look up — as of 2026-09-21 on courts.delaware.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic offenses are heard in the Justice of the Peace Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kent
+    weight: 10
+
+  - id: new-castle-county-card
+    verification: link_ok
+    source_url: "https://www.courts.delaware.gov/locations/jp11.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Justice of the Peace Court 11 — New Castle County"
+    contact: "2 Penns Way, Suite 100A, New Castle, DE 19720. Phone 302-323-4450."
+    accepted_keys: See the official court page for contact options
+    cost: "No cost to call or look up — as of 2026-09-21 on courts.delaware.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic offenses are heard in the Justice of the Peace Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - New Castle
+    weight: 10
+
+  - id: sussex-county-card
+    verification: link_ok
+    source_url: "https://www.courts.delaware.gov/locations/jp03.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Justice of the Peace Court 3 — Sussex County"
+    contact: "23730 Shortly Road, Georgetown, DE 19947. Phone 302-856-1445."
+    accepted_keys: See the official court page for contact options
+    cost: "No cost to call or look up — as of 2026-09-21 on courts.delaware.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic offenses are heard in the Justice of the Peace Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sussex
+    weight: 10
+
+  - id: voluntary-assessment-center
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.courts.delaware.gov/locations/jp_vac_all.aspx"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "Delaware Courts — Voluntary Assessment Center (all counties)"
+    contact: "Phone 302-739-6911. Handles traffic and mail-in tickets for all counties."
+    accepted_keys: "Your ticket number and the other information on your ticket — have a copy of the ticket with you."
+    cost: "No cost to call — as of 2026-09-21 on courts.delaware.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "You need your ticket: the page says to have a copy of the ticket so you can give the ticket number."
+      - "Not a ticket search — it processes voluntary assessments (mail-in/in-person traffic tickets)."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 30
+
+  - id: epayment-fines
+    verification: link_ok
+    source_url: "https://www.courts.delaware.gov/epayment.aspx"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: "Delaware Courts — ePayment for fines"
+    accepted_keys: "Case number from your court correspondence, for online or 24-hour phone payment."
+    cost: "No cost to read — as of 2026-09-21 on courts.delaware.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "You need your case number, found on court correspondence."
+      - "Covers fines payable to the listed courts, including the Court of Common Pleas."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 32
+
+  - id: traffic-faq
+    verification: link_ok
+    source_url: "https://www.courts.delaware.gov/help/traffic/"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: "Delaware Courts — traffic FAQs in the Justice of the Peace Court"
+    accepted_keys: "Browse the official traffic FAQs. No account."
+    cost: "Free — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic offenses are heard in the Justice of the Peace Court."
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 40
+
+  - id: dmv-record
+    verification: link_ok
+    source_url: "https://dmv.de.gov/CLF4Apps/myDMV/index.shtml?dc=faq_driving_record"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Delaware DMV — driving record FAQ"
+    accepted_keys: "Follow the official FAQ to request your 3-year, 5-year, or full driving history."
+    cost: "No cost to read — as of 2026-09-21 on dmv.de.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Shows your driving history — NOT a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

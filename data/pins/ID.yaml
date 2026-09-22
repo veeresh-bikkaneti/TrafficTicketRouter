@@ -1,0 +1,532 @@
+# Idaho courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/ID.yaml — never invented.
+pins:
+  - id: id-ada-courthouse
+    state: ID
+    county: Ada
+    name: "Ada County Magistrate Court"
+    address: "200 West Front St. Boise, ID 83702-7300"
+    lat: 43.6191684
+    lng: -116.2149719
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-adams-courthouse
+    state: ID
+    county: Adams
+    name: "Adams County Magistrate Court"
+    address: "201 Industrial Council, ID 83612"
+    lat: 44.7377856
+    lng: -116.4354897
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-bannock-courthouse
+    state: ID
+    county: Bannock
+    name: "Bannock County Magistrate Court"
+    address: "624 E. Center Pocatello, ID 83201-6274"
+    lat: 42.8666057
+    lng: -112.4432706
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-bear-lake-courthouse
+    state: ID
+    county: Bear Lake
+    name: "Bear Lake County Magistrate Court"
+    address: "7 East Center St Paris, ID 83261"
+    lat: 42.2269761
+    lng: -111.4006630
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-benewah-courthouse
+    state: ID
+    county: Benewah
+    name: "Benewah County Magistrate Court"
+    address: "701 College Avenue St. Maries, ID 83861"
+    lat: 47.3150753
+    lng: -116.5670665
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-bingham-courthouse
+    state: ID
+    county: Bingham
+    name: "Bingham County Magistrate Court"
+    address: "501 N. Maple #205 Blackfoot, ID 83221-1700"
+    lat: 43.1943204
+    lng: -112.3437738
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-blaine-courthouse
+    state: ID
+    county: Blaine
+    name: "Blaine County Magistrate Court"
+    address: "206 1st Avenue South Hailey, ID 83333"
+    lat: 43.5189877
+    lng: -114.3134226
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-boise-courthouse
+    state: ID
+    county: Boise
+    name: "Boise County Magistrate Court"
+    address: "420 Main Street Idaho City, ID 83631"
+    lat: 43.8278232
+    lng: -115.8326577
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-bonner-courthouse
+    state: ID
+    county: Bonner
+    name: "Bonner County Magistrate Court"
+    address: "215 South 1st Avenue Sandpoint, ID 83864"
+    lat: 48.2718680
+    lng: -116.5476639
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-bonneville-courthouse
+    state: ID
+    county: Bonneville
+    name: "Bonneville County Magistrate Court"
+    address: "605 North Capital Avenue Idaho Falls, ID 83402"
+    lat: 43.4944902
+    lng: -112.0409490
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-boundary-courthouse
+    state: ID
+    county: Boundary
+    name: "Boundary County Magistrate Court"
+    address: "6452 Kootenai Street Bonners Ferry, ID 83805"
+    lat: 48.6958681
+    lng: -116.3138704
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-butte-courthouse
+    state: ID
+    county: Butte
+    name: "Butte County Magistrate Court"
+    address: "326 W. Grand Avenue Arco, ID 83213"
+    lat: 43.6348727
+    lng: -113.3025778
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-camas-courthouse
+    state: ID
+    county: Camas
+    name: "Camas County Magistrate Court"
+    address: "Corner of Soldier & Willow Streets Fairfield, ID 83327"
+    lat: 43.3456465
+    lng: -114.7919790
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-canyon-courthouse
+    state: ID
+    county: Canyon
+    name: "Canyon County Magistrate Court"
+    address: "1115 Albany Street Caldwell, ID 83605"
+    lat: 43.6654505
+    lng: -116.6819539
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-caribou-courthouse
+    state: ID
+    county: Caribou
+    name: "Caribou County Magistrate Court"
+    address: "159 South Main, Room 202 Soda Springs, ID 83276"
+    lat: 42.6554853
+    lng: -111.6035964
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-cassia-courthouse
+    state: ID
+    county: Cassia
+    name: "Cassia County Magistrate Court"
+    address: "1459 Overland Avenue Burley, ID 83318"
+    lat: 42.5347483
+    lng: -113.7931519
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-clark-courthouse
+    state: ID
+    county: Clark
+    name: "Clark County Magistrate Court"
+    address: "224 West Main Dubois, ID 83423"
+    lat: 44.1765947
+    lng: -112.2329709
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-clearwater-courthouse
+    state: ID
+    county: Clearwater
+    name: "Clearwater County Magistrate Court"
+    address: "150 Michigan Room 201 Orofino, ID 83544"
+    lat: 46.4799432
+    lng: -116.2551058
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-custer-courthouse
+    state: ID
+    county: Custer
+    name: "Custer County Magistrate Court"
+    address: "801 Main Street Challis, ID 83226"
+    lat: 44.5053093
+    lng: -114.2309980
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-elmore-courthouse
+    state: ID
+    county: Elmore
+    name: "Elmore County Magistrate Court"
+    address: "150 South 4th, East, Suite 3 Mountain Home, ID 83647"
+    lat: 43.1317220
+    lng: -115.6900601
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-franklin-courthouse
+    state: ID
+    county: Franklin
+    name: "Franklin County Magistrate Court"
+    address: "39 West Oneida, Room 2 Preston, ID 83263"
+    lat: 42.0962013
+    lng: -111.8780779
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-fremont-courthouse
+    state: ID
+    county: Fremont
+    name: "Fremont County Magistrate Court"
+    address: "151 West 1st North St, Rm 12 Saint Anthony, ID 83445"
+    lat: 43.9678159
+    lng: -111.6844632
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-gem-courthouse
+    state: ID
+    county: Gem
+    name: "Gem County Magistrate Court"
+    address: "415 East Main Street Emmett, ID 83617"
+    lat: 43.8750886
+    lng: -116.4949904
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-gooding-courthouse
+    state: ID
+    county: Gooding
+    name: "Gooding County Magistrate Court"
+    address: "624 Main Street Gooding, ID 83330"
+    lat: 42.9392588
+    lng: -114.7127503
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-idaho-courthouse
+    state: ID
+    county: Idaho
+    name: "Idaho County Magistrate Court"
+    address: "320 West Main Grangeville, ID 83530"
+    lat: 45.9262736
+    lng: -116.1233174
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-jefferson-courthouse
+    state: ID
+    county: Jefferson
+    name: "Jefferson County Magistrate Court"
+    address: "210 Courthouse Way Suite 120 Rigby, ID 83442"
+    lat: 43.6722397
+    lng: -111.9148632
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-jerome-courthouse
+    state: ID
+    county: Jerome
+    name: "Jerome County Magistrate Court"
+    address: "233 W. Main Street Jerome, ID 83338"
+    lat: 42.7240387
+    lng: -114.5209145
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-kootenai-courthouse
+    state: ID
+    county: Kootenai
+    name: "Kootenai County Magistrate Court"
+    address: "324 West Garden Avenue Coeur d'Alene, ID 83816-9000"
+    lat: 47.6773671
+    lng: -116.7880257
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-latah-courthouse
+    state: ID
+    county: Latah
+    name: "Latah County Magistrate Court"
+    address: "5th & VanBuren, Room 119 Moscow, ID 83843-0568"
+    lat: 46.7323875
+    lng: -117.0001650
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-lemhi-courthouse
+    state: ID
+    county: Lemhi
+    name: "Lemhi County Magistrate Court"
+    address: "206 Courthouse Drive Salmon, ID 83467"
+    lat: 45.1794390
+    lng: -113.9019040
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-lewis-courthouse
+    state: ID
+    county: Lewis
+    name: "Lewis County Magistrate Court"
+    address: "510 Oak Street Nez Perce, ID 83543"
+    lat: 46.2332426
+    lng: -116.2409936
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-lincoln-courthouse
+    state: ID
+    county: Lincoln
+    name: "Lincoln County Magistrate Court"
+    address: "111 West B Street, Suite C Shoshone, ID 83352"
+    lat: 42.9350662
+    lng: -114.4115152
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-madison-courthouse
+    state: ID
+    county: Madison
+    name: "Madison County Magistrate Court"
+    address: "159 East Main Rexburg, ID 83440"
+    lat: 43.8264705
+    lng: -111.7787395
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-minidoka-courthouse
+    state: ID
+    county: Minidoka
+    name: "Minidoka County Magistrate Court"
+    address: "8th & G Streets Rupert, ID 83350"
+    lat: 42.6190756
+    lng: -113.6772340
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-nez-perce-courthouse
+    state: ID
+    county: Nez Perce
+    name: "Nez Perce County Magistrate Court"
+    address: "Lewiston, ID 83501"
+    lat: 46.4195913
+    lng: -117.0216144
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-oneida-courthouse
+    state: ID
+    county: Oneida
+    name: "Oneida County Magistrate Court"
+    address: "10 Court Street Malad, ID 83252"
+    lat: 42.1864649
+    lng: -112.2450429
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-owyhee-courthouse
+    state: ID
+    county: Owyhee
+    name: "Owyhee County Magistrate Court"
+    address: "Murphy, ID 83650"
+    lat: 43.2169179
+    lng: -116.5511226
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-payette-courthouse
+    state: ID
+    county: Payette
+    name: "Payette County Magistrate Court"
+    address: "1130 3rd Avenue N., Suite 104 Payette, ID 83661"
+    lat: 44.0780531
+    lng: -116.9300025
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-power-courthouse
+    state: ID
+    county: Power
+    name: "Power County Magistrate Court"
+    address: "543 Bannock, Room 101 American Falls, ID 83211"
+    lat: 42.7831370
+    lng: -112.8497920
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-shoshone-courthouse
+    state: ID
+    county: Shoshone
+    name: "Shoshone County Magistrate Court"
+    address: "700 Bank Street, Suite 120 Wallace, ID 83873"
+    lat: 47.4713598
+    lng: -115.9219981
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-teton-courthouse
+    state: ID
+    county: Teton
+    name: "Teton County Magistrate Court"
+    address: "150 Courthouse Drive, Room 306 Driggs, ID 83422"
+    lat: 43.7242496
+    lng: -111.1160686
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-twin-falls-courthouse
+    state: ID
+    county: Twin Falls
+    name: "Twin Falls County Magistrate Court"
+    address: "427 Shoshone Street North Twin Falls, ID 83303-0126"
+    lat: 42.5558542
+    lng: -114.4700684
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-valley-courthouse
+    state: ID
+    county: Valley
+    name: "Valley County Magistrate Court"
+    address: "219 Main Street Cascade, ID 83611"
+    lat: 44.5051315
+    lng: -116.0295387
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: id-washington-courthouse
+    state: ID
+    county: Washington
+    name: "Washington County Magistrate Court"
+    address: "256 East Court Weiser, ID 83672"
+    lat: 44.2468962
+    lng: -116.9659668
+    url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

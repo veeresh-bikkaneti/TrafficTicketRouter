@@ -1,0 +1,76 @@
+# Connecticut — Northeast expansion (2026-09-21).
+# GAP: the Judicial Branch courthouse directory (jud.ct.gov) was unreachable
+# for automated checks on 2026-09-21 (connection failures on all paths tested,
+# including the ticket-payment portal). No per-county card or pin is
+# included — every URL below the bar of live-verified final HTTP 200 was
+# omitted. A follow-up with interactive browser verification can add the
+# eight per-county cards and pins.
+# Traffic note: Connecticut has no county government and no county courts;
+# traffic venue is the Superior Court Geographical Area (GA) determined by
+# the town where the matter arose.
+state: CT
+state_name: Connecticut
+last_verified: "2026-09-21"
+official_hosts:
+  - portal.ct.gov
+  - jud.ct.gov
+counties:
+  - name: Fairfield
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Bridgeport GA2). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: Hartford
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Hartford GA14). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: Litchfield
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Torrington GA18). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: Middlesex
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Middletown GA9). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: New Haven
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: New Haven GA23). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: New London
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: New London GA10). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: Tolland
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Rockville GA19). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+  - name: Windham
+    note: "Connecticut has no county government or county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose (representative: Danielson GA11). Per-county court page links were unreachable for automated verification on 2026-09-21; no per-county card is included."
+cards:
+  - id: ct-ga-guidance
+    verification: link_ok
+    source_url: null
+    verification_note: "Guidance only — no link to verify. The Judicial Branch courthouse directory (jud.ct.gov) was unreachable for automated checks on 2026-09-21, so no per-county URLs are listed."
+    last_verified: "2026-09-21"
+    kind: guidance
+    agency: "Connecticut Superior Court — Geographical Area"
+    accepted_keys: "Use the official Judicial Branch courthouse directory to find the Geographical Area for the town where the matter arose."
+    cost: "No cost to look up — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Connecticut has no county government and no county courts; traffic venue is the Superior Court Geographical Area determined by the town where the matter arose."
+      - "Per-county court page links were unreachable for automated verification on 2026-09-21; use the official Judicial Branch courthouse directory to find the right Geographical Area."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 10
+
+  - id: ct-dmv-record
+    verification: link_ok
+    source_url: "https://portal.ct.gov/dmv/licenses-permits-ids/request-driving-record"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Connecticut DMV — request a driving record"
+    accepted_keys: "Follow the official DMV instructions to request your own driving record."
+    cost: "A fee applies — confirm the amount on the official DMV page as of 2026-09-21."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — not a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

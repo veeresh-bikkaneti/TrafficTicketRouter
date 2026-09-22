@@ -1,0 +1,2527 @@
+# Kentucky — District Court per county. County pages from the KY Administrative Office of the Courts (kycourts.gov/Courts/County-Information), all live-fetched HTTP 200 on 2026-09-21.
+state: KY
+state_name: Kentucky
+last_verified: "2026-09-21"
+official_hosts:
+  - kycourts.gov
+counties:
+  - name: Adair
+  - name: Allen
+  - name: Anderson
+  - name: Ballard
+  - name: Barren
+  - name: Bath
+  - name: Bell
+  - name: Boone
+  - name: Bourbon
+  - name: Boyd
+  - name: Boyle
+  - name: Bracken
+  - name: Breathitt
+  - name: Breckinridge
+  - name: Bullitt
+  - name: Butler
+  - name: Caldwell
+  - name: Calloway
+  - name: Campbell
+  - name: Carlisle
+  - name: Carroll
+  - name: Carter
+  - name: Casey
+  - name: Christian
+  - name: Clark
+  - name: Clay
+  - name: Clinton
+  - name: Crittenden
+  - name: Cumberland
+  - name: Daviess
+  - name: Edmonson
+  - name: Elliott
+  - name: Estill
+  - name: Fayette
+  - name: Fleming
+  - name: Floyd
+  - name: Franklin
+  - name: Fulton
+  - name: Gallatin
+  - name: Garrard
+  - name: Grant
+  - name: Graves
+  - name: Grayson
+  - name: Green
+  - name: Greenup
+  - name: Hancock
+  - name: Hardin
+  - name: Harlan
+  - name: Harrison
+  - name: Hart
+  - name: Henderson
+  - name: Henry
+  - name: Hickman
+  - name: Hopkins
+  - name: Jackson
+  - name: Jefferson
+  - name: Jessamine
+  - name: Johnson
+  - name: Kenton
+  - name: Knott
+  - name: Knox
+  - name: Larue
+  - name: Laurel
+  - name: Lawrence
+  - name: Lee
+  - name: Leslie
+  - name: Letcher
+  - name: Lewis
+  - name: Lincoln
+  - name: Livingston
+  - name: Logan
+  - name: Lyon
+  - name: McCracken
+  - name: McCreary
+  - name: McLean
+  - name: Madison
+  - name: Magoffin
+  - name: Marion
+  - name: Marshall
+  - name: Martin
+  - name: Mason
+  - name: Meade
+  - name: Menifee
+  - name: Mercer
+  - name: Metcalfe
+  - name: Monroe
+  - name: Montgomery
+  - name: Morgan
+  - name: Muhlenberg
+  - name: Nelson
+  - name: Nicholas
+  - name: Ohio
+  - name: Oldham
+  - name: Owen
+  - name: Owsley
+  - name: Pendleton
+  - name: Perry
+  - name: Pike
+  - name: Powell
+  - name: Pulaski
+  - name: Robertson
+  - name: Rockcastle
+  - name: Rowan
+  - name: Russell
+  - name: Scott
+  - name: Shelby
+  - name: Simpson
+  - name: Spencer
+  - name: Taylor
+  - name: Todd
+  - name: Trigg
+  - name: Trimble
+  - name: Union
+  - name: Warren
+  - name: Washington
+  - name: Wayne
+  - name: Webster
+  - name: Whitley
+  - name: Wolfe
+  - name: Woodford
+cards:
+  - id: ky-adair-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Adair.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adair County District Court"
+    contact: "201 Campbellsville St., Columbia, KY 42728"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adair
+    weight: 10
+
+  - id: ky-allen-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Allen.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allen County District Court"
+    contact: "200 W. Main St., Scottsville, KY 42164"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allen
+    weight: 10
+
+  - id: ky-anderson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Anderson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anderson County District Court"
+    contact: "151 S. Main St., Lawrenceburg, KY 40342"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anderson
+    weight: 10
+
+  - id: ky-ballard-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Ballard.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ballard County District Court"
+    contact: "132 N. Fourth St., Wickliffe, KY 42087"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ballard
+    weight: 10
+
+  - id: ky-barren-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Barren.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Barren County District Court"
+    contact: "100 Courthouse Square, Glasgow, KY 42141"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barren
+    weight: 10
+
+  - id: ky-bath-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Bath.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bath County District Court"
+    contact: "65 Water St., Owingsville, KY 40360"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bath
+    weight: 10
+
+  - id: ky-bell-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Bell.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bell County District Court"
+    contact: "101 W. Park Ave., Pineville, KY 40977"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bell
+    weight: 10
+
+  - id: ky-boone-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Boone.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boone County District Court"
+    contact: "6025 Rogers Lane, Burlington, KY 41005"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: ky-bourbon-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Bourbon.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bourbon County District Court"
+    contact: "310 Main St., Paris, KY 40361"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bourbon
+    weight: 10
+
+  - id: ky-boyd-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Boyd.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boyd County District Court"
+    contact: "2805 Louisa Street, Catlettsburg, KY 41129"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boyd
+    weight: 10
+
+  - id: ky-boyle-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Boyle.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boyle County District Court"
+    contact: "321 W. Main St., Danville, KY 40422"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boyle
+    weight: 10
+
+  - id: ky-bracken-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Bracken.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bracken County District Court"
+    contact: "132 W. Miami St., Brooksville, KY 41004"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bracken
+    weight: 10
+
+  - id: ky-breathitt-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Breathitt.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Breathitt County District Court"
+    contact: "1131 Main St., Jackson, KY 41339"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Breathitt
+    weight: 10
+
+  - id: ky-breckinridge-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Breckinridge.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Breckinridge County District Court"
+    contact: "111 W. 2nd St., Hardinsburg, KY 40143"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Breckinridge
+    weight: 10
+
+  - id: ky-bullitt-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Bullitt.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bullitt County District Court"
+    contact: "250 Frank E. Simon Ave., Shepherdsville, KY 40165"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bullitt
+    weight: 10
+
+  - id: ky-butler-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Butler.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Butler County District Court"
+    contact: "110 N. Main St., Morgantown, KY 42261"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 10
+
+  - id: ky-caldwell-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Caldwell.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caldwell County District Court"
+    contact: "105 W. Court Square, Princeton, KY 42445"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caldwell
+    weight: 10
+
+  - id: ky-calloway-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Calloway.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Calloway County District Court"
+    contact: "312 N. 4th St., Murray, KY 42071"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calloway
+    weight: 10
+
+  - id: ky-campbell-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Campbell.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Campbell County District Court"
+    contact: "330 York St., Newport, KY 41071"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Campbell
+    weight: 10
+
+  - id: ky-carlisle-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Carlisle.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carlisle County District Court"
+    contact: "985 U.S. Highway 62, Bardwell, KY 42023"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carlisle
+    weight: 10
+
+  - id: ky-carroll-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Carroll.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carroll County District Court"
+    contact: "802 Clay St., Carrollton, KY 41008"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: ky-carter-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Carter.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carter County District Court"
+    contact: "100 E. Main St., Grayson, KY 41143"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carter
+    weight: 10
+
+  - id: ky-casey-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Casey.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Casey County District Court"
+    contact: "231 Courthouse Square, Liberty, KY 42539"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Casey
+    weight: 10
+
+  - id: ky-christian-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Christian.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Christian County District Court"
+    contact: "100 Justice Way, Hopkinsville, KY 42240"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Christian
+    weight: 10
+
+  - id: ky-clark-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Clark.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County District Court"
+    contact: "17 Cleveland Ave., Winchester, KY 40392"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: ky-clay-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Clay.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County District Court"
+    contact: "316 Main St., Manchester, KY 40962"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: ky-clinton-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Clinton.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clinton County District Court"
+    contact: "100 S. Cross St., Albany, KY 42602"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: ky-crittenden-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Crittenden.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crittenden County District Court"
+    contact: "217 S. Main St., Marion, KY 42064"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crittenden
+    weight: 10
+
+  - id: ky-cumberland-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Cumberland.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cumberland County District Court"
+    contact: "112 Courthouse Square, Burkesville, KY 42717"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: ky-daviess-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Daviess.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Daviess County District Court"
+    contact: "100 E. 2nd St., Owensboro, KY 42302"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Daviess
+    weight: 10
+
+  - id: ky-edmonson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Edmonson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edmonson County District Court"
+    contact: "110 E. Main Cross St., Brownsville, KY 42210"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edmonson
+    weight: 10
+
+  - id: ky-elliott-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Elliott.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Elliott County District Court"
+    contact: "100 Main and Jane Caudill Sts., Sandy Hook, KY 41171"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elliott
+    weight: 10
+
+  - id: ky-estill-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Estill.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Estill County District Court"
+    contact: "130 Main St., Irvine, KY 40336"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Estill
+    weight: 10
+
+  - id: ky-fayette-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Fayette/Pages/Fayette.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fayette County District Court"
+    contact: "150 N. Limestone, Lexington, KY 40507"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: ky-fleming-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Fleming.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fleming County District Court"
+    contact: "101 N. Main Cross St., Flemingsburg, KY 41041"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fleming
+    weight: 10
+
+  - id: ky-floyd-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Floyd.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Floyd County District Court"
+    contact: "127 S. Lake Drive, Prestonsburg, KY 41653"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Floyd
+    weight: 10
+
+  - id: ky-franklin-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Franklin.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County District Court"
+    contact: "222 Saint Clair St., Frankfort, KY 40601"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ky-fulton-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Fulton.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fulton County District Court"
+    contact: "114 E. Wellington St., Hickman, KY 42050"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 10
+
+  - id: ky-gallatin-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Gallatin.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gallatin County District Court"
+    contact: "100 Main St., Warsaw, KY 41095"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gallatin
+    weight: 10
+
+  - id: ky-garrard-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Garrard.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garrard County District Court"
+    contact: "54 Stanford Street, Lancaster, KY 40444"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garrard
+    weight: 10
+
+  - id: ky-grant-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Grant.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    contact: "224 S. Main St., Williamstown, KY 41097"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: ky-graves-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Graves.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Graves County District Court"
+    contact: "1102 Paris Road, Suite 21, Mayfield, KY 42066"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Graves
+    weight: 10
+
+  - id: ky-grayson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Grayson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grayson County District Court"
+    contact: "500 Carroll Gibson Blvd., Leitchfield, KY 42754"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grayson
+    weight: 10
+
+  - id: ky-green-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Green.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Green County District Court"
+    contact: "200 W. Court St., Greensburg, KY 42743"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Green
+    weight: 10
+
+  - id: ky-greenup-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Greenup.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greenup County District Court"
+    contact: "101 Harrison St., Greenup, KY 41144"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greenup
+    weight: 10
+
+  - id: ky-hancock-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Hancock.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hancock County District Court"
+    contact: "310 Hawesville School Drive, Hawesville, KY 42348"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: ky-hardin-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Hardin.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hardin County District Court"
+    contact: "120 E. Dixie Ave., Elizabethtown, KY 42701"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardin
+    weight: 10
+
+  - id: ky-harlan-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Harlan.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harlan County District Court"
+    contact: "129 S. 1st St., Harlan, KY 40831"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harlan
+    weight: 10
+
+  - id: ky-harrison-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Harrison.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harrison County District Court"
+    contact: "115 Court St., Cynthiana, KY 41031"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 10
+
+  - id: ky-hart-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Hart.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hart County District Court"
+    contact: "117 E. South St., Munfordville, KY 42765"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hart
+    weight: 10
+
+  - id: ky-henderson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Henderson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henderson County District Court"
+    contact: "5 N. Main St., Henderson, KY 42419"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henderson
+    weight: 10
+
+  - id: ky-henry-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Henry.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Henry County District Court"
+    contact: "30 N. Main St.,, New Castle, KY 40050"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: ky-hickman-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Hickman.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hickman County District Court"
+    contact: "109 S. Washington St., Clinton, KY 42031"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hickman
+    weight: 10
+
+  - id: ky-hopkins-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Hopkins.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hopkins County District Court"
+    contact: "120 E. Center St., Madisonville, KY 42431"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hopkins
+    weight: 10
+
+  - id: ky-jackson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Jackson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County District Court"
+    contact: "100 First St., McKee, KY 40447"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ky-jefferson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Jefferson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County District Court"
+    contact: "600 W. Jefferson St., Louisville, KY 40202"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ky-jessamine-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Jessamine.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jessamine County District Court"
+    contact: "107 N. Main St., Nicholasville, KY 40356"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jessamine
+    weight: 10
+
+  - id: ky-johnson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Johnson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnson County District Court"
+    contact: "908 3rd St., Paintsville, KY 41240"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: ky-kenton-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Kenton.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kenton County District Court"
+    contact: "230 Madison Ave., Covington, KY 41011"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kenton
+    weight: 10
+
+  - id: ky-knott-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Knott.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Knott County District Court"
+    contact: "53 W. Main St., Hindman, KY 41822"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knott
+    weight: 10
+
+  - id: ky-knox-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Knox.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Knox County District Court"
+    contact: "401 Court Square, Barbourville, KY 40906"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 10
+
+  - id: ky-larue-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Larue.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Larue County District Court"
+    contact: "209 W. High St., Hodgenville, KY 42748"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Larue
+    weight: 10
+
+  - id: ky-laurel-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Laurel.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Laurel County District Court"
+    contact: "305 S. Main St., London, KY 40741"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Laurel
+    weight: 10
+
+  - id: ky-lawrence-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Lawrence.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lawrence County District Court"
+    contact: "29 River Bend Road, Louisa, KY 41230"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: ky-lee-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Lee.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lee County District Court"
+    contact: "256 Main St., Beattyville, KY 41311"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: ky-leslie-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Leslie.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Leslie County District Court"
+    contact: "22010 Main St., Hyden, KY 41749"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Leslie
+    weight: 10
+
+  - id: ky-letcher-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Letcher.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Letcher County District Court"
+    contact: "156 Main St., Whitesburg, KY 41858"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Letcher
+    weight: 10
+
+  - id: ky-lewis-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Lewis.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis County District Court"
+    contact: "94 Second St., Vanceburg, KY 41179"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: ky-lincoln-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Lincoln.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County District Court"
+    contact: "101 E. Main St., Stanford, KY 40484"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: ky-livingston-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Livingston.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Livingston County District Court"
+    contact: "122 W. Adair Street, Smithland, KY 42081"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 10
+
+  - id: ky-logan-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Logan.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County District Court"
+    contact: "329 W. 4th St., Russellville, KY 42276"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: ky-lyon-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Lyon.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lyon County District Court"
+    contact: "500 West Dale Ave., Eddyville, KY 42038"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lyon
+    weight: 10
+
+  - id: ky-mccracken-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/McCracken.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCracken County District Court"
+    contact: "300 Clarence Gaines St., Paducah, KY 42003"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCracken
+    weight: 10
+
+  - id: ky-mccreary-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/McCreary.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCreary County District Court"
+    contact: "1 N. Main St., Whitley City, KY 42653"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCreary
+    weight: 10
+
+  - id: ky-mclean-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/McLean.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McLean County District Court"
+    contact: "210 E. Main St., Calhoun, KY 42327"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McLean
+    weight: 10
+
+  - id: ky-madison-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Madison.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County District Court"
+    contact: "Hall of Justice, 351 W. Main St., Richmond, KY 40475​​"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: ky-magoffin-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Magoffin.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magoffin County District Court"
+    contact: "100 E. Maple St., Salyersville, KY 41465"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Magoffin
+    weight: 10
+
+  - id: ky-marion-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Marion.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County District Court"
+    contact: "121 N. Spalding Ave., Lebanon, KY 40033"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: ky-marshall-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Marshall.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marshall County District Court"
+    contact: "80 Judicial Drive, Benton, KY 42025"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: ky-martin-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Martin.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Martin County District Court"
+    contact: "14 Court St., Inez, KY 41224"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Martin
+    weight: 10
+
+  - id: ky-mason-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Mason.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mason County District Court"
+    contact: "100 W. 3rd St., Maysville, KY 41056"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mason
+    weight: 10
+
+  - id: ky-meade-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Meade.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Meade County District Court"
+    contact: "516 Hillcrest Drive, Brandenburg, KY 40108"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meade
+    weight: 10
+
+  - id: ky-menifee-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Menifee.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Menifee County District Court"
+    contact: "12 Main St., Frenchburg, KY 40322"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Menifee
+    weight: 10
+
+  - id: ky-mercer-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Mercer.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mercer County District Court"
+    contact: "224 S. Main St., Harrodsburg, KY 40330"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: ky-metcalfe-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Metcalfe.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Metcalfe County District Court"
+    contact: "201 E. Stockton St., Edmonton, KY 42129"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Metcalfe
+    weight: 10
+
+  - id: ky-monroe-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Monroe.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County District Court"
+    contact: "300 N. Main St., Tompkinsville, KY 42167"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: ky-montgomery-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Montgomery.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County District Court"
+    contact: "One Court St., Mt. Sterling, KY 40353"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: ky-morgan-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Morgan.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morgan County District Court"
+    contact: "261 Court St., West Liberty, KY 41472"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: ky-muhlenberg-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Muhlenberg.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Muhlenberg County District Court"
+    contact: "136 S. Main St., Greenville, KY 42345"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Muhlenberg
+    weight: 10
+
+  - id: ky-nelson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Nelson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nelson County District Court"
+    contact: "200 Nelson County Plaza, Bardstown, KY 40004"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nelson
+    weight: 10
+
+  - id: ky-nicholas-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Nicholas.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nicholas County District Court"
+    contact: "217 N. Broadway St., Carlisle, KY 40311"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nicholas
+    weight: 10
+
+  - id: ky-ohio-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Ohio.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ohio County District Court"
+    contact: "130 E. Washington St., Hartford, KY 42347"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ohio
+    weight: 10
+
+  - id: ky-oldham-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Oldham.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oldham County District Court"
+    contact: "100 W. Main St., La Grange, KY 40031"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oldham
+    weight: 10
+
+  - id: ky-owen-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Owen.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Owen County District Court"
+    contact: "401 S. Main St., Owenton, KY 40359"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Owen
+    weight: 10
+
+  - id: ky-owsley-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Owsley.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Owsley County District Court"
+    contact: "20 Main St., Booneville, KY 41314"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Owsley
+    weight: 10
+
+  - id: ky-pendleton-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Pendleton.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pendleton County District Court"
+    contact: "120 Ridgeway Ave., Falmouth, KY 41040"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pendleton
+    weight: 10
+
+  - id: ky-perry-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Perry.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perry County District Court"
+    contact: "545 Main St., Hazard, KY 41702"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: ky-pike-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Pike.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pike County District Court"
+    contact: "175 Main St., Pikeville, KY 41502"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 10
+
+  - id: ky-powell-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Powell.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Powell County District Court"
+    contact: "525 Washington St., Stanton, KY 40380"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Powell
+    weight: 10
+
+  - id: ky-pulaski-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Pulaski.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pulaski County District Court"
+    contact: "50 Public Square, Somerset, KY 42502"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 10
+
+  - id: ky-robertson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Robertson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Robertson County District Court"
+    contact: "127 E. Walnut St., Mt. Olivet, KY 41064"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Robertson
+    weight: 10
+
+  - id: ky-rockcastle-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Rockcastle.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rockcastle County District Court"
+    contact: "205 E. Main St., Mt. Vernon, KY 40456"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rockcastle
+    weight: 10
+
+  - id: ky-rowan-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Rowan.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rowan County District Court"
+    contact: "700 W. Main St., Morehead, KY 40351"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rowan
+    weight: 10
+
+  - id: ky-russell-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Russell.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Russell County District Court"
+    contact: "202 Monument Square, Jamestown, KY 42629"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Russell
+    weight: 10
+
+  - id: ky-scott-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Scott.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Scott County District Court"
+    contact: "119 N. Hamilton St., Georgetown, KY 40324"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: ky-shelby-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Shelby.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Shelby County District Court"
+    contact: "401 Main St., Shelbyville, KY 40065"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 10
+
+  - id: ky-simpson-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Simpson.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Simpson County District Court"
+    contact: "101 N. Court St., Franklin, KY 42134"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Simpson
+    weight: 10
+
+  - id: ky-spencer-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Spencer.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Spencer County District Court"
+    contact: "27 E. Main St., Taylorsville, KY 40071"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Spencer
+    weight: 10
+
+  - id: ky-taylor-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Taylor.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Taylor County District Court"
+    contact: "300 E. Main St., Campbellsville, KY 42718"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taylor
+    weight: 10
+
+  - id: ky-todd-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Todd.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Todd County District Court"
+    contact: "204 W. Main St., Elkton, KY 42220"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Todd
+    weight: 10
+
+  - id: ky-trigg-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Trigg.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Trigg County District Court"
+    contact: "41 Main St., Cadiz, KY 42211"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trigg
+    weight: 10
+
+  - id: ky-trimble-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Trimble.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Trimble County District Court"
+    contact: "30 Highway 42 East, Bedford, KY 40006"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trimble
+    weight: 10
+
+  - id: ky-union-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Union.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County District Court"
+    contact: "121 S. Morgan St., Morganfield, KY 42437"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: ky-warren-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Warren.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Warren County District Court"
+    contact: "1001 Center St., Bowling Green, KY 42101"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: ky-washington-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Washington.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County District Court"
+    contact: "100 E. Main St., Springfield, KY 40069"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ky-wayne-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Wayne.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County District Court"
+    contact: "100 W. Columbia Ave., Monticello, KY 42633"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: ky-webster-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Webster.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Webster County District Court"
+    contact: "35 U.S. Highway 41A South, Dixon, KY 42409"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: ky-whitley-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Whitley.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Whitley County District Court"
+    contact: "100 Main St., Williamsburg, KY 40769"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Whitley
+    weight: 10
+
+  - id: ky-wolfe-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Wolfe.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wolfe County District Court"
+    contact: "133 Main St., Campton, KY 41301"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wolfe
+    weight: 10
+
+  - id: ky-woodford-court
+    verification: link_ok
+    source_url: "https://www.kycourts.gov/Courts/County-Information/Pages/Woodford.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Woodford County District Court"
+    contact: "130 Court St., Versailles, KY 40383"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on kycourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic and misdemeanor cases are heard in District Court."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodford
+    weight: 10

@@ -1,0 +1,323 @@
+# Alaska map pins — trial-court courthouses serving all 30 boroughs/census areas
+# (50-state wave, 2026-09-21).
+# Alaska has no counties; traffic/minor-offense matters are heard in Alaska
+# Court System trial courts. Area-to-court mapping follows the official
+# Supreme Court Order 1870 venue map community chart (presumptive district
+# court trial sites; https://courts.alaska.gov/sco/docs/sco1870leg.pdf).
+# Street addresses are from each court's official directory page on
+# courts.alaska.gov/courtdir/ — every page below was curl-verified to final
+# HTTP 200 on 2026-09-21 (redirects followed). Coordinates via Nominatim with
+# the official street address (User-Agent TicketRouter/1.0, 1 req/sec),
+# cross-checked against city/state in the geocoder's display_name.
+# Shared courthouses: Bethel serves Bethel + Kusilvak; Naknek serves
+# Bristol Bay + Lake and Peninsula; Nenana serves Denali + Yukon-Koyukuk
+# (Nenana is inside Yukon-Koyukuk CA); Valdez serves Valdez-Cordova + Chugach.
+# No areas omitted — all 30 boroughs/census areas have a pin.
+# Caveats:
+# - Hoonah-Angoon is pinned at Angoon (700 Aandeinaatt Street): the Hoonah
+#   court page lists only a mailing address (Box 430, Hoonah AK 99829), no
+#   street address, so no building-level pin is possible there. Juneau is the
+#   superior trial site for Hoonah-area matters per the venue map.
+# - Town-level pins (no building-level geocoder match; official street
+#   address retained, coordinates are town-level): Naknek, Sand Point,
+#   Angoon, Kotzebue.
+# - Tok pin is at 1313.4 Alaska Hwy, adjacent to the court's published
+#   location at Mile 1313.5 Alaska Hwy.
+# - Juneau ZIP 99801 and Skagway ZIP 99840 corroborated by the geocoder's
+#   FULL_ADDRESS match (court pages show only mailing ZIPs / no ZIP).
+# - Naknek ZIP 99633 and Sand Point ZIP 99661 are the towns' USPS ZIPs; the
+#   court pages do not publish a ZIP for these locations.
+# - Haines: the court's official mailing ZIP is 99827; Nominatim's record
+#   for the same street shows 99840. Coordinates place the pin.
+# - Dillingham: the geocoder record shows postcode "95576" (data typo) for
+#   Emperor Way; the official ZIP 99576 is used.
+# - Anchorage pin is the Nesbett Courthouse (825 W 4th Ave); the Boney
+#   Courthouse (303 K Street) also houses Anchorage trial courts.
+# - Kusilvak: Emmonak and Hooper Bay have in-area magistrate courts; the pin
+#   uses Bethel, the full-service court and superior trial site for the
+#   whole census area (district trial site for Hooper Bay/Chevak).
+# - Kenai Peninsula: Homer and Seward also have trial courts; the pin is the
+#   Kenai courthouse.
+# - Southeast Fairbanks: Delta Junction also has a trial court; the pin is
+#   Tok (venue-map trial site for most of the census area's communities).
+# - Prince of Wales-Hyder: Metlakatla is served by Ketchikan per the venue
+#   map; Kake has its own magistrate court. Pin is the Prince of Wales
+#   (Klawock) court.
+# - Nome Census Area: Unalakleet has its own trial court; the pin is Nome.
+# - Bethel Census Area: Aniak has an in-area magistrate court; pin is Bethel.
+# - North Slope: Point Hope is served by Kotzebue per the venue map; the pin
+#   is Utqiagvik.
+# - Aleutians East: Akutan is served by Unalaska; the pin is Sand Point.
+# Coordinates are building-level where matched, town-level where noted —
+# not survey-grade.
+pins:
+  - id: ak-aleutians-east-courthouse
+    state: AK
+    county: Aleutians East
+    name: Sand Point Trial Court
+    address: 264 Silver Spike Road, Sand Point, AK 99661
+    lat: 55.3405831
+    lng: -160.4978522
+    url: https://courts.alaska.gov/courtdir/3sp.htm
+    kind: courthouse
+  - id: ak-aleutians-west-courthouse
+    state: AK
+    county: Aleutians West
+    name: Unalaska Trial Court
+    address: 204 West Broadway, Unalaska, AK 99685
+    lat: 53.8746880
+    lng: -166.5354632
+    url: https://courts.alaska.gov/courtdir/3un.htm
+    kind: courthouse
+  - id: ak-anchorage-courthouse
+    state: AK
+    county: Anchorage
+    name: "Anchorage Trial Court — Nesbett Courthouse"
+    address: 825 W 4th Ave, Anchorage, AK 99501
+    lat: 61.2186370
+    lng: -149.8981950
+    url: https://courts.alaska.gov/courtdir/3an.htm
+    kind: courthouse
+  - id: ak-bethel-courthouse
+    state: AK
+    county: Bethel
+    name: Bethel Trial Court
+    address: 204 Chief Eddie Hoffman Highway, Bethel, AK 99559
+    lat: 60.7917206
+    lng: -161.7707023
+    url: https://courts.alaska.gov/courtdir/4be.htm
+    kind: courthouse
+  - id: ak-bristol-bay-courthouse
+    state: AK
+    county: Bristol Bay
+    name: Naknek Trial Court
+    address: 1 Main Street, Naknek, AK 99633
+    lat: 58.7911390
+    lng: -156.8947347
+    url: https://courts.alaska.gov/courtdir/3na.htm
+    kind: courthouse
+  - id: ak-denali-courthouse
+    state: AK
+    county: Denali
+    name: Nenana Trial Court
+    address: 102 West 8th Street, Nenana, AK 99760
+    lat: 64.5565919
+    lng: -149.0977671
+    url: https://courts.alaska.gov/courtdir/4ne.htm
+    kind: courthouse
+  - id: ak-dillingham-courthouse
+    state: AK
+    county: Dillingham
+    name: Dillingham Trial Court
+    address: 476 Emperor Way South, Dillingham, AK 99576
+    lat: 59.0456705
+    lng: -158.5320539
+    url: https://courts.alaska.gov/courtdir/3di.htm
+    kind: courthouse
+  - id: ak-fairbanks-north-star-courthouse
+    state: AK
+    county: Fairbanks North Star
+    name: "Fairbanks Trial Court — Rabinowitz Courthouse"
+    address: 101 Lacey Street, Fairbanks, AK 99701
+    lat: 64.8445728
+    lng: -147.7167512
+    url: https://courts.alaska.gov/courtdir/4fa.htm
+    kind: courthouse
+  - id: ak-haines-courthouse
+    state: AK
+    county: Haines
+    name: Haines Trial Court
+    address: 219 Main Street, Haines, AK 99827
+    lat: 59.2358024
+    lng: -135.4551804
+    url: https://courts.alaska.gov/courtdir/1ha.htm
+    kind: courthouse
+  - id: ak-hoonah-angoon-courthouse
+    state: AK
+    county: Hoonah-Angoon
+    name: Angoon Trial Court
+    address: 700 Aandeinaatt Street, Angoon, AK 99820
+    lat: 57.5033333
+    lng: -134.5838880
+    url: https://courts.alaska.gov/courtdir/1ag.htm
+    kind: courthouse
+  - id: ak-juneau-courthouse
+    state: AK
+    county: Juneau
+    name: "Juneau Trial Court — Dimond Courthouse"
+    address: 123 4th Street, Juneau, AK 99801
+    lat: 58.3018092
+    lng: -134.4102750
+    url: https://courts.alaska.gov/courtdir/1ju.htm
+    kind: courthouse
+  - id: ak-kenai-peninsula-courthouse
+    state: AK
+    county: Kenai Peninsula
+    name: Kenai Trial Court
+    address: 125 Trading Bay Drive, Kenai, AK 99611
+    lat: 60.5599533
+    lng: -151.2463450
+    url: https://courts.alaska.gov/courtdir/3kn.htm
+    kind: courthouse
+  - id: ak-ketchikan-gateway-courthouse
+    state: AK
+    county: Ketchikan Gateway
+    name: Ketchikan Trial Court
+    address: 415 Main Street, Rm 400, Ketchikan, AK 99901
+    lat: 55.3432424
+    lng: -131.6482509
+    url: https://courts.alaska.gov/courtdir/1ke.htm
+    kind: courthouse
+  - id: ak-kodiak-island-courthouse
+    state: AK
+    county: Kodiak Island
+    name: Kodiak Trial Court
+    address: 204 Mission Road, Rm 124, Kodiak, AK 99615
+    lat: 57.7870478
+    lng: -152.4057321
+    url: https://courts.alaska.gov/courtdir/3ko.htm
+    kind: courthouse
+  - id: ak-kusilvak-courthouse
+    state: AK
+    county: Kusilvak
+    name: Bethel Trial Court
+    address: 204 Chief Eddie Hoffman Highway, Bethel, AK 99559
+    lat: 60.7917206
+    lng: -161.7707023
+    url: https://courts.alaska.gov/courtdir/4be.htm
+    kind: courthouse
+  - id: ak-lake-and-peninsula-courthouse
+    state: AK
+    county: Lake and Peninsula
+    name: Naknek Trial Court
+    address: 1 Main Street, Naknek, AK 99633
+    lat: 58.7911390
+    lng: -156.8947347
+    url: https://courts.alaska.gov/courtdir/3na.htm
+    kind: courthouse
+  - id: ak-matanuska-susitna-courthouse
+    state: AK
+    county: Matanuska-Susitna
+    name: Palmer Trial Court
+    address: 435 South Denali Street, Palmer, AK 99645
+    lat: 61.6022862
+    lng: -149.1065512
+    url: https://courts.alaska.gov/courtdir/3pa.htm
+    kind: courthouse
+  - id: ak-nome-courthouse
+    state: AK
+    county: Nome
+    name: Nome Trial Court
+    address: 306 W 5th Ave, Nome, AK 99762
+    lat: 64.5020897
+    lng: -165.4058933
+    url: https://courts.alaska.gov/courtdir/2no.htm
+    kind: courthouse
+  - id: ak-north-slope-courthouse
+    state: AK
+    county: North Slope
+    name: "Utqiagvik Trial Court"
+    address: 1250 Agvik Street, Utqiagvik, AK 99723
+    lat: 71.2921895
+    lng: -156.7849046
+    url: https://courts.alaska.gov/courtdir/2ba.htm
+    kind: courthouse
+  - id: ak-northwest-arctic-courthouse
+    state: AK
+    county: Northwest Arctic
+    name: Kotzebue Trial Court
+    address: 605 Third Avenue, Kotzebue, AK 99752
+    lat: 66.8982057
+    lng: -162.5977621
+    url: https://courts.alaska.gov/courtdir/2kb.htm
+    kind: courthouse
+  - id: ak-petersburg-courthouse
+    state: AK
+    county: Petersburg
+    name: Petersburg Trial Court
+    address: 17 North Nordic Drive, Petersburg, AK 99833
+    lat: 56.8116606
+    lng: -132.9578222
+    url: https://courts.alaska.gov/courtdir/1pe.htm
+    kind: courthouse
+  - id: ak-prince-of-wales-hyder-courthouse
+    state: AK
+    county: Prince of Wales-Hyder
+    name: "Prince of Wales Trial Court — Klawock"
+    address: 6738-B Klawock-Hollis Highway, Klawock, AK 99925
+    lat: 55.5526694
+    lng: -133.0873450
+    url: https://courts.alaska.gov/courtdir/1pw.htm
+    kind: courthouse
+  - id: ak-sitka-courthouse
+    state: AK
+    county: Sitka
+    name: Sitka Trial Court
+    address: 304 Lake Street, Rm 203, Sitka, AK 99835
+    lat: 57.0525950
+    lng: -135.3336285
+    url: https://courts.alaska.gov/courtdir/1si.htm
+    kind: courthouse
+  - id: ak-skagway-courthouse
+    state: AK
+    county: Skagway
+    name: Skagway Trial Court
+    address: 307 9th Avenue, Skagway, AK 99840
+    lat: 59.4582599
+    lng: -135.3124504
+    url: https://courts.alaska.gov/courtdir/1sk.htm
+    kind: courthouse
+  - id: ak-southeast-fairbanks-courthouse
+    state: AK
+    county: Southeast Fairbanks
+    name: Tok Trial Court
+    address: Mile 1313.5 Alaska Hwy, Tok, AK 99780
+    lat: 63.3353195
+    lng: -142.9643641
+    url: https://courts.alaska.gov/courtdir/4to.htm
+    kind: courthouse
+  - id: ak-valdez-cordova-courthouse
+    state: AK
+    county: Valdez-Cordova
+    name: Valdez Trial Court
+    address: 213 Meals Avenue, Valdez, AK 99686
+    lat: 61.1273546
+    lng: -146.3515624
+    url: https://courts.alaska.gov/courtdir/3va.htm
+    kind: courthouse
+  - id: ak-wrangell-courthouse
+    state: AK
+    county: Wrangell
+    name: Wrangell Trial Court
+    address: 431 Zimovia Highway, Wrangell, AK 99929
+    lat: 56.4705652
+    lng: -132.3783429
+    url: https://courts.alaska.gov/courtdir/1wr.htm
+    kind: courthouse
+  - id: ak-yakutat-courthouse
+    state: AK
+    county: Yakutat
+    name: Yakutat Trial Court
+    address: 508 Max Italio Drive, Yakutat, AK 99689
+    lat: 59.5511609
+    lng: -139.7403574
+    url: https://courts.alaska.gov/courtdir/1ya.htm
+    kind: courthouse
+  - id: ak-yukon-koyukuk-courthouse
+    state: AK
+    county: Yukon-Koyukuk
+    name: Nenana Trial Court
+    address: 102 West 8th Street, Nenana, AK 99760
+    lat: 64.5565919
+    lng: -149.0977671
+    url: https://courts.alaska.gov/courtdir/4ne.htm
+    kind: courthouse
+  - id: ak-chugach-courthouse
+    state: AK
+    county: Chugach
+    name: Valdez Trial Court
+    address: 213 Meals Avenue, Valdez, AK 99686
+    lat: 61.1273546
+    lng: -146.3515624
+    url: https://courts.alaska.gov/courtdir/3va.htm
+    kind: courthouse

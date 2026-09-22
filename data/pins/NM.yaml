@@ -1,0 +1,353 @@
+# New Mexico courthouse map pins (50-state wave, 2026-09-21).
+# One pin per county — all 33 counties covered; none omitted.
+# Courts are NM magistrate courts (the courts that handle traffic citations)
+# except Bernalillo County, which is served by the Bernalillo County
+# Metropolitan Court. Where a county has multiple magistrate branches, the
+# pin uses the county-seat/main branch (documented below).
+# Addresses were taken from official nmcourts.gov pages on 2026-09-21:
+# district location-hours-contacts pages, magistrate-judge directory pages,
+# the Fifth Judicial District "Search Your Court" directory, and per-court
+# pages (San Juan, McKinley) plus a Metropolitan Court document. Every pin URL
+# below was live-verified on 2026-09-21: either curl returned final HTTP 200
+# with real official court content, or a public page-text fetch exposed the
+# expected official court content (several nmcourts.gov pages show a
+# JavaScript verification splash to curl; the permitted fallback was used).
+# Coordinates via Nominatim (User-Agent TicketRouter/1.0, ~1 req/sec), each
+# checked against city/county/state in the geocoder's display_name.
+# Caveats:
+# - Town-level pins (no building-level geocoder match for the official
+#   street address; official street address retained, coordinates are
+#   town-level): Grants (Cibola), Raton (Colfax), Lordsburg (Hidalgo),
+#   Deming (Luna), Gallup (McKinley), Mora (Mora), Moriarty (Torrance).
+# - Street-level pins (geocoder returned the street, not the building):
+#   Reserve (Catron — NM-12 is Main Street in Reserve), Ft Sumner
+#   (De Baca), Roy (Harding).
+# - Eddy: official text says "1949 Canal St."; Nominatim normalizes the
+#   street to "South Canal Street" — same street, Carlsbad, Eddy County.
+# - De Baca: official text uses "Ft Sumner"; geocoder normalizes to
+#   "Fort Sumner".
+# - Socorro: official ZIP is 87801; Nominatim's building record carries
+#   87802 — same courthouse, Socorro, Socorro County.
+# - Chaves: Nominatim's building record is labeled "Chavez County
+#   Courthouse" (typo in OSM); its address components confirm Roswell,
+#   Chaves County, NM 88201.
+# - Lincoln/Rio Arriba: Nominatim labels the buildings "Lincoln County
+#   Courthouse"/"Rio Arriba County Courthouse"; the magistrate courts are
+#   housed in those buildings (300 Central Ave., Carrizozo; 7 Main St.,
+#   Tierra Amarilla) per the official district pages.
+# - Colfax: Raton Magistrate Court pinned (county seat); Springer branch
+#   (15 Airport Road SW) not pinned. Dona Ana: Las Cruces branch pinned;
+#   Anthony branch (100 Lincoln Blvd.) not pinned. Lea: Lovington branch
+#   pinned (county seat); Hobbs and Eunice branches not pinned. Lincoln:
+#   Carrizozo pinned (county seat); Ruidoso branch (101 Service Road) not
+#   pinned. Rio Arriba: Tierra Amarilla pinned (county seat); Espanola
+#   branch not pinned. San Juan: Aztec pinned (county seat); Farmington
+#   branch (950 W. Apache St.) not pinned. Sandoval: Bernalillo branch
+#   pinned; Cuba branch (6354 Highway 550) not pinned. Valencia: Belen
+#   branch pinned; Los Lunas branch (1206 Main St. NE) not pinned. Grant:
+#   Division I (Silver City) pinned; Division II (Bayard) not pinned.
+# - Colfax address update: older sources showed 333 Savage Ave., Raton;
+#   the official statewide directory and 8th District page now list
+#   1413 South Second Street. Curry: older pages showed 221 Pile St.,
+#   Clovis; official pages now list 700 N. Main St., Suite 5.
+# - "Dona Ana" spelled without the tilde per data/states/NM.yaml county
+#   spelling requirement.
+pins:
+
+  - id: nm-bernalillo-courthouse
+    state: NM
+    county: Bernalillo
+    name: Bernalillo County Metropolitan Court
+    address: 401 Lomas Blvd NW, Albuquerque, NM 87102
+    lat: 35.0917623
+    lng: -106.650933
+    url: https://metro.nmcourts.gov/
+    kind: courthouse
+  - id: nm-catron-courthouse
+    state: NM
+    county: Catron
+    name: Reserve Magistrate Court
+    address: 698A NM-12, Reserve, NM 87830
+    lat: 33.7137783
+    lng: -108.7576413
+    url: https://seventhdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-chaves-courthouse
+    state: NM
+    county: Chaves
+    name: Roswell Magistrate Court
+    address: 400 N. Virginia Ave., Ste G-1, Roswell, NM 88201
+    lat: 33.39698
+    lng: -104.5217604
+    url: https://fifthdistrict.nmcourts.gov/search-your-court/
+    kind: courthouse
+  - id: nm-cibola-courthouse
+    state: NM
+    county: Cibola
+    name: Cibola County Magistrate Court (Grants)
+    address: 114 McBride Road, Ste B, Grants, NM 87020
+    lat: 35.154123
+    lng: -107.8590961
+    url: https://thirteenthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-colfax-courthouse
+    state: NM
+    county: Colfax
+    name: Raton Magistrate Court
+    address: 1413 South Second Street, Raton, NM 87740
+    lat: 36.8979234
+    lng: -104.4354816
+    url: https://eighthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-curry-courthouse
+    state: NM
+    county: Curry
+    name: Curry County Magistrate Court
+    address: 700 N. Main St., Suite 5, Clovis, NM 88101
+    lat: 34.4051479
+    lng: -103.2059305
+    url: https://ninthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-de-baca-courthouse
+    state: NM
+    county: De Baca
+    name: De Baca County Magistrate Court
+    address: 282 E. Ave. B, Ft Sumner, NM 88119
+    lat: 34.4727631
+    lng: -104.2422637
+    url: https://tenthdistrict.nmcourts.gov/about-this-district/magistrate-court-judges/
+    kind: courthouse
+  - id: nm-dona-ana-courthouse
+    state: NM
+    county: Dona Ana
+    name: Dona Ana County Las Cruces Magistrate Court
+    address: 110 Calle de Alegra, Las Cruces, NM 88005
+    lat: 32.2883273
+    lng: -106.7726826
+    url: https://thirddistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-eddy-courthouse
+    state: NM
+    county: Eddy
+    name: Carlsbad Magistrate Court
+    address: 1949 Canal St., Carlsbad, NM 88220
+    lat: 32.4010071
+    lng: -104.2230461
+    url: https://fifthdistrict.nmcourts.gov/search-your-court/
+    kind: courthouse
+  - id: nm-grant-courthouse
+    state: NM
+    county: Grant
+    name: Grant County Magistrate Court, Division I (Silver City)
+    address: 214 N. Black St., Silver City, NM 88061
+    lat: 32.7701272
+    lng: -108.2809335
+    url: https://sixthdistrict.nmcourts.gov/about-this-district/magistrate-judges/
+    kind: courthouse
+  - id: nm-guadalupe-courthouse
+    state: NM
+    county: Guadalupe
+    name: Guadalupe County Magistrate Courthouse
+    address: 1633 Historic Rt. 66, Santa Rosa, NM 88435
+    lat: 34.9431917
+    lng: -104.6853695
+    url: https://fourthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-harding-courthouse
+    state: NM
+    county: Harding
+    name: Harding County Magistrate Court
+    address: 355 Chicosa St., Roy, NM 87743
+    lat: 35.9457034
+    lng: -104.1964375
+    url: https://tenthdistrict.nmcourts.gov/about-this-district/magistrate-court-judges/
+    kind: courthouse
+  - id: nm-hidalgo-courthouse
+    state: NM
+    county: Hidalgo
+    name: Hidalgo County Magistrate Court
+    address: 420 W. Wabash Ave., Lordsburg, NM 88045
+    lat: 32.3504143
+    lng: -108.708434
+    url: https://sixthdistrict.nmcourts.gov/about-this-district/magistrate-judges/
+    kind: courthouse
+  - id: nm-lea-courthouse
+    state: NM
+    county: Lea
+    name: Lovington Magistrate Court
+    address: 26 W. Avenue A, Lovington, NM 88260
+    lat: 32.9469794
+    lng: -103.34898
+    url: https://fifthdistrict.nmcourts.gov/search-your-court/
+    kind: courthouse
+  - id: nm-lincoln-courthouse
+    state: NM
+    county: Lincoln
+    name: Carrizozo Magistrate Court
+    address: 300 Central Ave., Carrizozo, NM 88301
+    lat: 33.6440994
+    lng: -105.8750768
+    url: https://twelfthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-los-alamos-courthouse
+    state: NM
+    county: Los Alamos
+    name: Los Alamos County Magistrate Courthouse
+    address: 2500 Trinity Drive, Ste D, Los Alamos, NM 87544
+    lat: 35.8813742
+    lng: -106.3049601
+    url: https://firstdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-luna-courthouse
+    state: NM
+    county: Luna
+    name: Luna County Magistrate Court
+    address: 912 S. Silver St., Deming, NM 88030
+    lat: 32.2627416
+    lng: -107.7581979
+    url: https://sixthdistrict.nmcourts.gov/about-this-district/magistrate-judges/
+    kind: courthouse
+  - id: nm-mckinley-courthouse
+    state: NM
+    county: McKinley
+    name: Gallup Magistrate Court
+    address: 285 Boardman Drive, #C, Gallup, NM 87301
+    lat: 35.5283506
+    lng: -108.743907
+    url: https://eleventhdistrict.nmcourts.gov/about-this-district/magistrate-courts/mckinley-county-gallup-magistrate-court/
+    kind: courthouse
+  - id: nm-mora-courthouse
+    state: NM
+    county: Mora
+    name: Mora County Magistrate Courthouse
+    address: 1 Courthouse Drive, Mora, NM 87732
+    lat: 35.9741536
+    lng: -105.329942
+    url: https://fourthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-otero-courthouse
+    state: NM
+    county: Otero
+    name: Alamogordo Magistrate Court
+    address: 263 Robert H. Bradley Drive, Alamogordo, NM 88310
+    lat: 32.9307877
+    lng: -105.9605853
+    url: https://twelfthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-quay-courthouse
+    state: NM
+    county: Quay
+    name: Quay County Magistrate Court
+    address: 122 W. Center St., Tucumcari, NM 88401
+    lat: 35.1779464
+    lng: -103.7264522
+    url: https://tenthdistrict.nmcourts.gov/about-this-district/magistrate-court-judges/
+    kind: courthouse
+  - id: nm-rio-arriba-courthouse
+    state: NM
+    county: Rio Arriba
+    name: Rio Arriba County - CC Magistrate Courthouse
+    address: 7 Main St., Tierra Amarilla, NM 87575
+    lat: 36.698322
+    lng: -106.5521177
+    url: https://firstdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-roosevelt-courthouse
+    state: NM
+    county: Roosevelt
+    name: Roosevelt County Magistrate Court
+    address: 1630 N. Boston Ave., Portales, NM 88130
+    lat: 34.197648
+    lng: -103.3348991
+    url: https://ninthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-san-juan-courthouse
+    state: NM
+    county: San Juan
+    name: Aztec Magistrate Court
+    address: 200 Gossett Drive, Aztec, NM 87410
+    lat: 36.825523
+    lng: -108.0177215
+    url: https://eleventhdistrict.nmcourts.gov/about-this-district/magistrate-courts/san-juan-county-aztec-magistrate-court/
+    kind: courthouse
+  - id: nm-san-miguel-courthouse
+    state: NM
+    county: San Miguel
+    name: San Miguel County Magistrate Courthouse
+    address: 1927 Seventh St., Las Vegas, NM 87701
+    lat: 35.6115485
+    lng: -105.2250214
+    url: https://fourthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-sandoval-courthouse
+    state: NM
+    county: Sandoval
+    name: Sandoval County Magistrate Court (Bernalillo)
+    address: 1000 Montoya Road, Bernalillo, NM 87004
+    lat: 35.3215
+    lng: -106.5692
+    url: https://thirteenthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-santa-fe-courthouse
+    state: NM
+    county: Santa Fe
+    name: Santa Fe County Magistrate Courthouse
+    address: 2056 Galisteo St., Santa Fe, NM 87505
+    lat: 35.6564758
+    lng: -105.9543983
+    url: https://firstdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-sierra-courthouse
+    state: NM
+    county: Sierra
+    name: Truth or Consequences Magistrate Court
+    address: 155 Barton Street, Truth or Consequences, NM 87901
+    lat: 33.1438671
+    lng: -107.2492965
+    url: https://seventhdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-socorro-courthouse
+    state: NM
+    county: Socorro
+    name: Socorro Magistrate Court
+    address: 102 Winkler, Socorro, NM 87801
+    lat: 34.0565272
+    lng: -106.8923812
+    url: https://seventhdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-taos-courthouse
+    state: NM
+    county: Taos
+    name: Taos Magistrate Court
+    address: 105 Albright Street, Suite M, Taos, NM 87571
+    lat: 36.3968989
+    lng: -105.5757948
+    url: https://eighthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-torrance-courthouse
+    state: NM
+    county: Torrance
+    name: Moriarty Magistrate Court
+    address: 1100 U.S. Rt. 66, Moriarty, NM 87035
+    lat: 34.9972037
+    lng: -106.0494876
+    url: https://seventhdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-union-courthouse
+    state: NM
+    county: Union
+    name: Clayton Magistrate Court
+    address: 100 Court Street, Suite 5, Clayton, NM 88415
+    lat: 36.449935
+    lng: -103.187453
+    url: https://eighthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse
+  - id: nm-valencia-courthouse
+    state: NM
+    county: Valencia
+    name: Valencia County Magistrate Court (Belen)
+    address: 639 Becker Ave., Belen, NM 87002
+    lat: 34.6604035
+    lng: -106.7759363
+    url: https://thirteenthdistrict.nmcourts.gov/location-hours-contacts/
+    kind: courthouse

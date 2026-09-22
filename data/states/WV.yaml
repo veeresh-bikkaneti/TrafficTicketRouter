@@ -1,0 +1,1255 @@
+# West Virginia — Magistrate Court (traffic citations are handled by Magistrate Courts).
+# All 55 county URLs verified HTTP 200 on courtswv.gov 2026-09-21. Do not commit without review.
+state: WV
+state_name: West Virginia
+last_verified: "2026-09-21"
+official_hosts:
+  - courtswv.gov
+  - apps.wv.gov
+counties:
+  - name: Barbour
+    note: "Traffic venue is the Magistrate Court."
+  - name: Berkeley
+    note: "Traffic venue is the Magistrate Court."
+  - name: Boone
+    note: "Traffic venue is the Magistrate Court."
+  - name: Braxton
+    note: "Traffic venue is the Magistrate Court."
+  - name: Brooke
+    note: "Traffic venue is the Magistrate Court."
+  - name: Cabell
+    note: "Traffic venue is the Magistrate Court."
+  - name: Calhoun
+    note: "Traffic venue is the Magistrate Court."
+  - name: Clay
+    note: "Traffic venue is the Magistrate Court."
+  - name: Doddridge
+    note: "Traffic venue is the Magistrate Court."
+  - name: Fayette
+    note: "Traffic venue is the Magistrate Court."
+  - name: Gilmer
+    note: "Traffic venue is the Magistrate Court."
+  - name: Grant
+    note: "Traffic venue is the Magistrate Court."
+  - name: Greenbrier
+    note: "Traffic venue is the Magistrate Court."
+  - name: Hampshire
+    note: "Traffic venue is the Magistrate Court."
+  - name: Hancock
+    note: "Traffic venue is the Magistrate Court."
+  - name: Hardy
+    note: "Traffic venue is the Magistrate Court."
+  - name: Harrison
+    note: "Traffic venue is the Magistrate Court."
+  - name: Jackson
+    note: "Traffic venue is the Magistrate Court."
+  - name: Jefferson
+    note: "Traffic venue is the Magistrate Court."
+  - name: Kanawha
+    note: "Traffic venue is the Magistrate Court."
+  - name: Lewis
+    note: "Traffic venue is the Magistrate Court."
+  - name: Lincoln
+    note: "Traffic venue is the Magistrate Court."
+  - name: Logan
+    note: "Traffic venue is the Magistrate Court."
+  - name: Marion
+    note: "Traffic venue is the Magistrate Court."
+  - name: Marshall
+    note: "Traffic venue is the Magistrate Court."
+  - name: Mason
+    note: "Traffic venue is the Magistrate Court."
+  - name: McDowell
+    note: "Traffic venue is the Magistrate Court."
+  - name: Mercer
+    note: "Traffic venue is the Magistrate Court."
+  - name: Mineral
+    note: "Traffic venue is the Magistrate Court."
+  - name: Mingo
+    note: "Traffic venue is the Magistrate Court."
+  - name: Monongalia
+    note: "Traffic venue is the Magistrate Court."
+  - name: Monroe
+    note: "Traffic venue is the Magistrate Court."
+  - name: Morgan
+    note: "Traffic venue is the Magistrate Court."
+  - name: Nicholas
+    note: "Traffic venue is the Magistrate Court."
+  - name: Ohio
+    note: "Traffic venue is the Magistrate Court."
+  - name: Pendleton
+    note: "Traffic venue is the Magistrate Court."
+  - name: Pleasants
+    note: "Traffic venue is the Magistrate Court."
+  - name: Pocahontas
+    note: "Traffic venue is the Magistrate Court."
+  - name: Preston
+    note: "Traffic venue is the Magistrate Court."
+  - name: Putnam
+    note: "Traffic venue is the Magistrate Court."
+  - name: Raleigh
+    note: "Traffic venue is the Magistrate Court."
+  - name: Randolph
+    note: "Traffic venue is the Magistrate Court."
+  - name: Ritchie
+    note: "Traffic venue is the Magistrate Court."
+  - name: Roane
+    note: "Traffic venue is the Magistrate Court."
+  - name: Summers
+    note: "Traffic venue is the Magistrate Court."
+  - name: Taylor
+    note: "Traffic venue is the Magistrate Court."
+  - name: Tucker
+    note: "Traffic venue is the Magistrate Court."
+  - name: Tyler
+    note: "Traffic venue is the Magistrate Court."
+  - name: Upshur
+    note: "Traffic venue is the Magistrate Court."
+  - name: Wayne
+    note: "Traffic venue is the Magistrate Court."
+  - name: Webster
+    note: "Traffic venue is the Magistrate Court."
+  - name: Wetzel
+    note: "Traffic venue is the Magistrate Court."
+  - name: Wirt
+    note: "Traffic venue is the Magistrate Court."
+  - name: Wood
+    note: "Traffic venue is the Magistrate Court."
+  - name: Wyoming
+    note: "Traffic venue is the Magistrate Court."
+cards:
+  - id: wv-barbour-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/barbour_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Barbour County"
+    contact: "Church & Main Streets, Philippi, WV 26416. Phone 304-457-3676."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barbour
+    weight: 10
+
+  - id: wv-berkeley-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/berkeley_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Berkeley County"
+    contact: "380 West South Street, Martinsburg, WV 25401. Phone 304-264-1957."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Berkeley
+    weight: 10
+
+  - id: wv-boone-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/boone_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Boone County"
+    contact: "200 State Street, Madison, WV 25130. Phone 304-369-7366."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: wv-braxton-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/braxton_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Braxton County"
+    contact: "307 Main Street Suite 205, Sutton, WV 26601. Phone 304-765-7362."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Braxton
+    weight: 10
+
+  - id: wv-brooke-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/brooke_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Brooke County"
+    contact: "620 Main Street, Wellsburg, WV 26070. Phone 304-737-1321."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brooke
+    weight: 10
+
+  - id: wv-cabell-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/cabell_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Cabell County"
+    contact: "750 Fifth Avenue, Room B-113, Huntington, WV 25701. Phone 304-526-8642."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cabell
+    weight: 10
+
+  - id: wv-calhoun-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/calhoun_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Calhoun County"
+    contact: "363 Main Street, Suite 103, Grantsville, WV 26147. Phone 304-354-6698."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: wv-clay-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/clay_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Clay County"
+    contact: "262 Main Street, Clay, WV 25043. Phone 304-587-2131."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: wv-doddridge-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/doddridge_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Doddridge County"
+    contact: "108 Court Street, West Union, WV 26456. Phone 304-873-2694."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Doddridge
+    weight: 10
+
+  - id: wv-fayette-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/fayette_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Fayette County"
+    contact: "100 Church Street, Suite 3, Fayetteville, WV 25840. Phone 304-574-4279."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: wv-gilmer-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/gilmer_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Gilmer County"
+    contact: "201 North Court Street, Glenville, WV 26351. Phone 304-462-7812."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gilmer
+    weight: 10
+
+  - id: wv-grant-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/grant_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Grant County"
+    contact: "4 North Main Street, Petersburg, WV 26847. Phone 304-257-4637."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: wv-greenbrier-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/greenbrier_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Greenbrier County"
+    contact: "912 Court Street North, Suite 13, Lewisburg, WV 24901. Phone 304-647-6632."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greenbrier
+    weight: 10
+
+  - id: wv-hampshire-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/hampshire_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Hampshire County"
+    contact: "50 South High Street, Suite 3, Romney, WV 26757. Phone 304-822-4311."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hampshire
+    weight: 10
+
+  - id: wv-hancock-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/hancock_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Hancock County"
+    contact: "900 North Chester Street, New Cumberland, WV 26047. Phone 304-564-3080."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: wv-hardy-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/hardy_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Hardy County"
+    contact: "204 Washington Street, Moorefield, WV 26836. Phone 304-530-0212."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardy
+    weight: 10
+
+  - id: wv-harrison-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/harrison_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Harrison County"
+    contact: "Room 222 306 Washington Avenue, Clarksburg, WV 26301. Phone 304-624-8645."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 10
+
+  - id: wv-jackson-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/jackson_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Jackson County"
+    contact: "100 Court Street, Ripley, WV 25271. Phone 304-373-2313."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: wv-jefferson-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/jefferson_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Jefferson County"
+    contact: "110 North George Street, Charles Town, WV 25414. Phone 304-728-3233."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: wv-kanawha-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/kanawha_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Kanawha County"
+    contact: "111 Court Street, Charleston, WV 25301. Phone 304-357-0422."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kanawha
+    weight: 10
+
+  - id: wv-lewis-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/lewis_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Lewis County"
+    contact: "117 Court Avenue, Room 143, Weston, WV 26452. Phone 304-269-8230."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: wv-lincoln-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/lincoln_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Lincoln County"
+    contact: "8000 Court Avenue, Hamlin, WV 25523. Phone 304-824-7999."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: wv-logan-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/logan_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Logan County"
+    contact: "300 Stratton Street, Logan, WV 25601. Phone 304-792-8651."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: wv-marion-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/marion_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Marion County"
+    contact: "200 Jackson Street, Fairmont, WV 26554. Phone 304-367-5330."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: wv-marshall-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/marshall_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Marshall County"
+    contact: "511 Sixth Street, Moundsville, WV 26041. Phone 304-221-2701."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: wv-mason-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/mason_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Mason County"
+    contact: "200 Sixth Street, Point Pleasant, WV 25550. Phone 304-675-6840."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mason
+    weight: 10
+
+  - id: wv-mcdowell-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/mcdowell_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — McDowell County"
+    contact: "105 Wyoming Street, Welch, WV 24801. Phone 304-436-8587."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McDowell
+    weight: 10
+
+  - id: wv-mercer-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/mercer_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Mercer County"
+    contact: "120 Scott Street, Suite 103, Princeton, WV 24740. Phone 304-431-7115."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: wv-mineral-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/mineral_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Mineral County"
+    contact: "105 West Street, Keyser, WV 26726. Phone 304-788-2625."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mineral
+    weight: 10
+
+  - id: wv-mingo-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/mingo_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Mingo County"
+    contact: "101 Logan Street, Room 303, Williamson, WV 25661. Phone 304-235-2445."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mingo
+    weight: 10
+
+  - id: wv-monongalia-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/monongalia_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Monongalia County"
+    contact: "75 High Street, Suite 25, Morgantown, WV 26505. Phone 304-291-7296."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monongalia
+    weight: 10
+
+  - id: wv-monroe-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/monroe_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Monroe County"
+    contact: "500 Main Street, Union, WV 24983. Phone 304-772-3321."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: wv-morgan-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/morgan_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Morgan County"
+    contact: "77 Fairfax Street, Room 202, Berkeley Springs, WV 25411. Phone 304-258-8631."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: wv-nicholas-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/nicholas_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Nicholas County"
+    contact: "511 Church Street, Summersville, WV 26651. Phone 304-872-7829."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nicholas
+    weight: 10
+
+  - id: wv-ohio-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/ohio_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Ohio County"
+    contact: "26 Fifteenth Street, Wheeling, WV 26003. Phone 304-234-3709."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ohio
+    weight: 10
+
+  - id: wv-pendleton-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/pendleton_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Pendleton County"
+    contact: "10 South Main Street, Franklin, WV 26807. Phone 304-358-2343."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pendleton
+    weight: 10
+
+  - id: wv-pleasants-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/pleasants_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Pleasants County"
+    contact: "301 Court Lane, Room B-6, St. Marys, WV 26170. Phone 304-684-7197."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pleasants
+    weight: 10
+
+  - id: wv-pocahontas-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/pocahontas_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Pocahontas County"
+    contact: "900 Tenth Avenue, Marlinton, WV 24954. Phone 304-799-6603."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pocahontas
+    weight: 10
+
+  - id: wv-preston-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/preston_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Preston County"
+    contact: "101 West Main Street, Room 201, Kingwood, WV 26537. Phone 304-329-2762."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Preston
+    weight: 10
+
+  - id: wv-putnam-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/putnam_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Putnam County"
+    contact: "12093 Winfield Road, Suite 15, Winfield, WV 25213. Phone 304-586-0234."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: wv-raleigh-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/raleigh_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Raleigh County"
+    contact: "222 Main Street, Beckley, WV 25801. Phone 304-255-9197."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Raleigh
+    weight: 10
+
+  - id: wv-randolph-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/randolph_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Randolph County"
+    contact: "11 Randolph Avenue, Elkins, WV 26241. Phone 304-636-5885."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 10
+
+  - id: wv-ritchie-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/ritchie_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Ritchie County"
+    contact: "109 North Street, Suite 102, Harrisville, WV 26362. Phone 304-643-4409."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ritchie
+    weight: 10
+
+  - id: wv-roane-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/roane_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Roane County"
+    contact: "208 Court Street, Spencer, WV 25276. Phone 304-927-4750."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roane
+    weight: 10
+
+  - id: wv-summers-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/summers_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Summers County"
+    contact: "123 Temple Street, Hinton, WV 25951. Phone 304-466-7129."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Summers
+    weight: 10
+
+  - id: wv-taylor-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/taylor_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Taylor County"
+    contact: "214 West Main Street, Grafton, WV 26354. Phone 304-265-5762."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taylor
+    weight: 10
+
+  - id: wv-tucker-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/tucker_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Tucker County"
+    contact: "211 First Street, Suite 303, Parsons, WV 26287. Phone 304-478-2665."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tucker
+    weight: 10
+
+  - id: wv-tyler-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/tyler_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Tyler County"
+    contact: "228 Main Street, Middlebourne, WV 26149. Phone 304-758-2137."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tyler
+    weight: 10
+
+  - id: wv-upshur-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/upshur_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Upshur County"
+    contact: "38 West Main Street, Room 204, Buckhannon, WV 26201. Phone 304-472-2053."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Upshur
+    weight: 10
+
+  - id: wv-wayne-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/wayne_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Wayne County"
+    contact: "100 South Court Street, Wayne, WV 25570. Phone 304-272-6388."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: wv-webster-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/webster_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Webster County"
+    contact: "112 Bell Street, Suite A, Webster Springs, WV 26288. Phone 304-847-2613."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: wv-wetzel-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/wetzel_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Wetzel County"
+    contact: "257 Main Street, Third Floor, New Martinsville, WV 26155. Phone 304-455-5171."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wetzel
+    weight: 10
+
+  - id: wv-wirt-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/wirt_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Wirt County"
+    contact: "90 Market Street, Elizabeth, WV 26143. Phone 304-275-3642."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wirt
+    weight: 10
+
+  - id: wv-wood-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/wood_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Wood County"
+    contact: "401 Second Street, Suite 12, Parkersburg, WV 26101. Phone 304-422-3444."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wood
+    weight: 10
+
+  - id: wv-wyoming-magistrate-court
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/public-resources/court-information-county/wyoming_county"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Magistrate Court — Wyoming County"
+    contact: "44 Cedar Street, Pineville, WV 24874. Phone 304-732-8000."
+    accepted_keys: "See the official court page for contact and payment options."
+    cost: "No cost to call or look up — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic citations are handled by the Magistrate Court."
+      - "The clerk can tell you the official options; they cannot give legal advice."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wyoming
+    weight: 10
+
+  - id: wv-magistrate-record-search
+    verification: link_ok
+    source_url: "https://www.courtswv.gov/lower-courts/magistrate-courts/magistrate-record-search"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: "West Virginia Judiciary — Magistrate Record Search"
+    accepted_keys: "Search magistrate court records by name or case number."
+    cost: "No cost to search — as of 2026-09-21 on courtswv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Search by name or case number; court documents are not available online."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 25
+
+  - id: wv-dmv-services
+    verification: link_ok
+    source_url: "https://apps.wv.gov/DMV/SelfService/"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "West Virginia DMV — online services"
+    accepted_keys: "Use the official DMV self-service portal."
+    cost: "No cost to use the portal — as of 2026-09-21 on apps.wv.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Shows your driving history — NOT a pending-ticket portal."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

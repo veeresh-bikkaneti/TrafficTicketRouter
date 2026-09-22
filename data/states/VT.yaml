@@ -1,0 +1,344 @@
+# Vermont — Northeast expansion (2026-09-21).
+# Every per-county source_url below is the FINAL URL after verification on
+# 2026-09-21: the original vermontjudiciary.org court-location URL issues one
+# 301 redirect to the same path on www.vtcourts.gov and ends at HTTP 200.
+# The router emits only verification link_ok or better.
+# Traffic note: traffic venue is the Vermont Superior Court — Criminal
+# Division for the county where the matter arose.
+state: VT
+state_name: Vermont
+last_verified: "2026-09-21"
+official_hosts:
+  - vtcourts.gov
+  - vermontjudiciary.org
+  - dmv.vermont.gov
+counties:
+  - name: Addison
+    note: "Traffic venue: Vermont Superior Court — Addison Criminal Division, Middlebury."
+  - name: Bennington
+    note: "Traffic venue: Vermont Superior Court — Bennington Criminal Division, Bennington."
+  - name: Caledonia
+    note: "Traffic venue: Vermont Superior Court — Caledonia Criminal Division, St. Johnsbury."
+  - name: Chittenden
+    note: "Traffic venue: Vermont Superior Court — Chittenden Criminal Division, Burlington."
+  - name: Essex
+    note: "Traffic venue: Vermont Superior Court — Essex Criminal Division, Guildhall."
+  - name: Franklin
+    note: "Traffic venue: Vermont Superior Court — Franklin Criminal Division, St. Albans."
+  - name: Grand Isle
+    note: "Traffic venue: Vermont Superior Court — Grand Isle Criminal Division, North Hero."
+  - name: Lamoille
+    note: "Traffic venue: Vermont Superior Court — Lamoille Criminal Division, Hyde Park."
+  - name: Orange
+    note: "Traffic venue: Vermont Superior Court — Orange Criminal Division, Chelsea."
+  - name: Orleans
+    note: "Traffic venue: Vermont Superior Court — Orleans Criminal Division, Newport."
+  - name: Rutland
+    note: "Traffic venue: Vermont Superior Court — Rutland Criminal Division, Rutland."
+  - name: Washington
+    note: "Traffic venue: Vermont Superior Court — Washington Criminal Division, Barre."
+  - name: Windham
+    note: "Traffic venue: Vermont Superior Court — Windham Criminal Division, Brattleboro."
+  - name: Windsor
+    note: "Traffic venue: Vermont Superior Court — Windsor Criminal Division, White River Junction."
+cards:
+  - id: vt-addison-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/addison-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/addison-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Addison Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Addison
+    weight: 10
+
+  - id: vt-bennington-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/bennington-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/bennington-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Bennington Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bennington
+    weight: 10
+
+  - id: vt-caledonia-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/caledonia-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/caledonia-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Caledonia Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caledonia
+    weight: 10
+
+  - id: vt-chittenden-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/chittenden-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/chittenden-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Chittenden Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chittenden
+    weight: 10
+
+  - id: vt-essex-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/essex-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/essex-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Essex Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Essex
+    weight: 10
+
+  - id: vt-franklin-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/franklin-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/franklin-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Franklin Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: vt-grand-isle-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/grand-isle-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/grand-isle-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Grand Isle Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grand Isle
+    weight: 10
+
+  - id: vt-lamoille-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/lamoille-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/lamoille-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Lamoille Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lamoille
+    weight: 10
+
+  - id: vt-orange-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/orange-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/orange-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Orange Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: vt-orleans-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/orleans-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/orleans-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Orleans Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orleans
+    weight: 10
+
+  - id: vt-rutland-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/rutland-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/rutland-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Rutland Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rutland
+    weight: 10
+
+  - id: vt-washington-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/washington-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/washington-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Washington Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: vt-windham-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/windham-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/windham-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Windham Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Windham
+    weight: 10
+
+  - id: vt-windsor-court
+    verification: link_ok
+    source_url: "https://www.vtcourts.gov/court-locations/windsor-criminal-division"
+    verification_note: "Original https://www.vermontjudiciary.org/court-locations/windsor-criminal-division 301-redirects once to this URL; final HTTP 200 on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermont Superior Court — Windsor Criminal Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.vtcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Vermont Superior Court — Criminal Division for the county where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Windsor
+    weight: 10
+
+  - id: vt-dmv-record
+    verification: link_ok
+    source_url: "https://dmv.vermont.gov/about-vermont-dmv/public-records"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: "Vermont DMV — public records"
+    accepted_keys: "Follow the official DMV instructions to request your own driving record."
+    cost: "A fee applies — confirm the amount on the official DMV page as of 2026-09-21."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Shows your driving history — not a pending-ticket portal."
+      - "Self-check only: request your own record, not someone else's."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - history
+    for_counties:
+      - "*"
+    weight: 20

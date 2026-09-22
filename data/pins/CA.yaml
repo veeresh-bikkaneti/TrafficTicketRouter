@@ -1,0 +1,586 @@
+# California map pins — county superior courthouses (50-state wave, 2026-09-21).
+# Main courthouse street addresses verified on each county court's official
+# site; coordinates are FULL_ADDRESS-level geocoder matches in
+# the correct county, cross-checked against the official address. 48 pins reuse
+# the verified card source_url from data/states/CA.yaml verbatim — never invented.
+# 10 pins added 2026-09-21 (second pass): their sites were unreachable in the
+# first wave but verified live on 2026-09-21 (curl HTTP 200, or page-text fetch
+# where curl was bot-blocked). New official hosts (added to data/states/CA.yaml):
+# lacourt.ca.gov, saccourt.ca.gov, sjcourts.org.
+# Second-pass caveats:
+# - Amador: www.amador.courts.ca.gov redirects to canonical amador.courts.ca.gov;
+#   court also publishes matching coords on its own map listing.
+# - Placer: curl blocked; site verified live via page-text fetch. Traffic heard
+#   at Gibson Courthouse, 10820 Justice Center Drive, Roseville (Tahoe City
+#   branch hears traffic too).
+# - San Luis Obispo: traffic heard at the Grover Beach branch (214 S. 16th St),
+#   not the main SLO courthouse (1050 Monterey St).
+# - Los Angeles: Metropolitan Courthouse, 1945 S Hill St — the Central District
+#   downtown traffic hub. Traffic is multi-branch (~16 courthouses per the
+#   official directory); this pin is the central pick, not the only venue.
+# - Riverside: pinned at Moreno Valley (13800 Heacock St, Bldg D), an officially
+#   listed traffic venue. The Riverside Historic Courthouse (4050 Main St) handles
+#   civil/probate, NOT traffic — do not use it. Other official traffic venues:
+#   Banning, Blythe, Hemet, Indio (Larson Justice Center), Murrieta, Temecula.
+# - Sacramento: Carol Miller Justice Center, 301 Bicentennial Circle — the
+#   county's designated traffic courthouse (also small claims).
+# - San Bernardino: pinned at Fontana District (17780 Arrow Blvd), where traffic
+#   infractions are officially accepted. San Bernardino Justice Center
+#   (247 W 3rd St) handles civil/criminal, NOT traffic. Also Barstow, Joshua Tree.
+# - San Francisco: Civic Center Courthouse, Dept 218 (400 McAllister St) — all
+#   traffic hearings moved here 2024-10-07; citations may still say to schedule
+#   at Hall of Justice, 850 Bryant St.
+# - San Joaquin: Stockton Courthouse traffic dept, 180 E. Weber Ave (Manteca and
+#   Lodi branches also hear traffic).
+# - Solano: Fairfield Hall of Justice, 600 Union Ave (Vallejo branch also
+#   hears traffic).
+# - Moreno Valley (Riverside) geocode is address-level; courthouse building is
+#   not a distinct Nominatim POI — coordinates are approximate.
+# Earlier caveats:
+# - Siskiyou: current official court documents use 411 4th St, Yreka; the
+#   Judicial Council court map and older brochures show 311 Fourth St. Pin uses
+#   the current official address.
+# - Napa: pin is the Historic Courthouse (main branch); the Criminal Courthouse
+#   (1111 Third St, Napa) is separately listed and may hear traffic matters.
+# - San Mateo: pin is the Central Branch (800 N Humboldt St, San Mateo); the
+#   county seat is Redwood City (Southern Branch, 400 County Center).
+# - Lake: court relocates to 675 Lakeport Blvd, Lakeport on 2026-09-28; update
+#   this pin after the move (new ZIP not published on the court site).
+# - Plumas: official page gives no ZIP; 95971 corroborated by the geocoder's
+#   FULL_ADDRESS match.
+# - Mendocino: new Ukiah courthouse under construction (began 2025); pin may
+#   need updating when it opens.
+# - Santa Barbara: court lists PO Box ZIP 93121-1107; geocoder matched the same
+#   building at 1100 Anacapa St, 93101.
+# Coordinates are building-level, not survey-grade.
+pins:
+  - id: ca-alameda-courthouse
+    state: CA
+    county: Alameda
+    name: Superior Court of California, County of Alameda
+    address: 1225 Fallon Street, Oakland, CA 94612
+    lat: 37.79973
+    lng: -122.2628
+    url: https://www.alameda.courts.ca.gov/
+    kind: courthouse
+  - id: ca-alpine-courthouse
+    state: CA
+    county: Alpine
+    name: Superior Court of California, County of Alpine
+    address: 14777 State Route 89, Markleeville, CA 96120
+    lat: 38.69407
+    lng: -119.7793
+    url: https://www.alpine.courts.ca.gov/
+    kind: courthouse
+  - id: ca-amador-courthouse
+    state: CA
+    county: Amador
+    name: Superior Court of California, County of Amador
+    address: 500 Argonaut Lane, Jackson, CA 95642
+    lat: 38.3538027
+    lng: -120.7912369
+    url: https://amador.courts.ca.gov/
+    kind: courthouse
+  - id: ca-butte-courthouse
+    state: CA
+    county: Butte
+    name: Superior Court of California, County of Butte
+    address: One Court Street, Oroville, CA 95965
+    lat: 39.52867
+    lng: -121.57397
+    url: https://www.butte.courts.ca.gov/
+    kind: courthouse
+  - id: ca-calaveras-courthouse
+    state: CA
+    county: Calaveras
+    name: Superior Court of California, County of Calaveras
+    address: 400 Government Center Drive, San Andreas, CA 95249-9794
+    lat: 38.19336
+    lng: -120.6669
+    url: https://www.calaveras.courts.ca.gov/
+    kind: courthouse
+  - id: ca-colusa-courthouse
+    state: CA
+    county: Colusa
+    name: Superior Court of California, County of Colusa
+    address: 547 Market St, Colusa, CA 95932
+    lat: 39.21373
+    lng: -122.00909
+    url: https://www.colusa.courts.ca.gov/
+    kind: courthouse
+  - id: ca-contra-costa-courthouse
+    state: CA
+    county: Contra Costa
+    name: Superior Court of California, County of Contra Costa
+    address: 725 Court Street, Martinez, CA 94553
+    lat: 38.01838
+    lng: -122.1337
+    url: https://www.contracosta.courts.ca.gov/
+    link_check: manual
+    verification_note: "Human-verified live in a real browser on 2026-09-21 — the official court homepage loads. Automated checks are blocked (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ca-del-norte-courthouse
+    state: CA
+    county: Del Norte
+    name: Superior Court of California, County of Del Norte
+    address: 450 H St #209, Crescent City, CA 95531
+    lat: 41.75295
+    lng: -124.19922
+    url: https://www.delnorte.courts.ca.gov/
+    kind: courthouse
+  - id: ca-el-dorado-courthouse
+    state: CA
+    county: El Dorado
+    name: Superior Court of California, County of El Dorado
+    address: 495 Main Street, Placerville, CA 95667
+    lat: 38.72998
+    lng: -120.79941
+    url: https://www.eldorado.courts.ca.gov/
+    kind: courthouse
+  - id: ca-fresno-courthouse
+    state: CA
+    county: Fresno
+    name: Superior Court of California, County of Fresno
+    address: 2317 Tuolumne Street, Fresno, CA 93721-1220
+    lat: 36.74045
+    lng: -119.79157
+    url: https://www.fresno.courts.ca.gov/
+    kind: courthouse
+  - id: ca-glenn-courthouse
+    state: CA
+    county: Glenn
+    name: Superior Court of California, County of Glenn
+    address: 526 West Sycamore Street, Willows, CA 95988
+    lat: 39.51983
+    lng: -122.20022
+    url: https://www.glenn.courts.ca.gov/
+    kind: courthouse
+  - id: ca-humboldt-courthouse
+    state: CA
+    county: Humboldt
+    name: Superior Court of California, County of Humboldt
+    address: 421 I Street, Eureka, CA 95501
+    lat: 40.80305
+    lng: -124.16272
+    url: https://www.humboldt.courts.ca.gov/
+    kind: courthouse
+  - id: ca-imperial-courthouse
+    state: CA
+    county: Imperial
+    name: Superior Court of California, County of Imperial
+    address: 939 West Main Street, El Centro, CA 92243
+    lat: 32.79268
+    lng: -115.56333
+    url: https://www.imperial.courts.ca.gov/
+    kind: courthouse
+  - id: ca-inyo-courthouse
+    state: CA
+    county: Inyo
+    name: Superior Court of California, County of Inyo
+    address: 168 North Edwards Street, Independence, CA 93526
+    lat: 36.80335
+    lng: -118.19948
+    url: https://www.inyo.courts.ca.gov/
+    kind: courthouse
+  - id: ca-kern-courthouse
+    state: CA
+    county: Kern
+    name: Superior Court of California, County of Kern
+    address: 1215 Truxtun Avenue, Bakersfield, CA 93301
+    lat: 35.37297
+    lng: -119.01585
+    url: https://www.kern.courts.ca.gov/
+    kind: courthouse
+  - id: ca-kings-courthouse
+    state: CA
+    county: Kings
+    name: Superior Court of California, County of Kings
+    address: 1640 Kings County Drive, Hanford, CA 93230
+    lat: 36.33367
+    lng: -119.67157
+    url: https://www.kings.courts.ca.gov/
+    kind: courthouse
+  - id: ca-lake-courthouse
+    state: CA
+    county: Lake
+    name: Superior Court of California, County of Lake
+    address: 255 North Forbes Street, Lakeport, CA 95453
+    lat: 39.04352
+    lng: -122.91665
+    url: https://www.lake.courts.ca.gov/
+    kind: courthouse
+  - id: ca-lassen-courthouse
+    state: CA
+    county: Lassen
+    name: Superior Court of California, County of Lassen
+    address: 2610 Riverside Drive, Susanville, CA 96130
+    lat: 40.40928
+    lng: -120.64003
+    url: https://www.lassen.courts.ca.gov/
+    kind: courthouse
+  - id: ca-los-angeles-courthouse
+    state: CA
+    county: Los Angeles
+    name: Superior Court of California, County of Los Angeles
+    address: 1945 South Hill Street, Los Angeles, CA 90007
+    lat: 34.0311986
+    lng: -118.2678236
+    url: https://www.lacourt.ca.gov/
+    kind: courthouse
+  - id: ca-madera-courthouse
+    state: CA
+    county: Madera
+    name: Superior Court of California, County of Madera
+    address: 200 South G Street, Madera, CA 93637
+    lat: 36.9592
+    lng: -120.06075
+    url: https://www.madera.courts.ca.gov/
+    kind: courthouse
+  - id: ca-marin-courthouse
+    state: CA
+    county: Marin
+    name: Superior Court of California, County of Marin
+    address: 3501 Civic Center Drive, San Rafael, CA 94903
+    lat: 37.99842
+    lng: -122.53109
+    url: https://www.marin.courts.ca.gov/
+    kind: courthouse
+  - id: ca-mariposa-courthouse
+    state: CA
+    county: Mariposa
+    name: Superior Court of California, County of Mariposa
+    address: 5088 Bullion Street, Mariposa, CA 95338
+    lat: 37.48897
+    lng: -119.9672
+    url: https://www.mariposa.courts.ca.gov/
+    kind: courthouse
+  - id: ca-mendocino-courthouse
+    state: CA
+    county: Mendocino
+    name: Superior Court of California, County of Mendocino
+    address: 100 North State Street, Ukiah, CA 95482
+    lat: 39.15024
+    lng: -123.20818
+    url: https://www.mendocino.courts.ca.gov/
+    kind: courthouse
+  - id: ca-merced-courthouse
+    state: CA
+    county: Merced
+    name: Superior Court of California, County of Merced
+    address: 627 West 21st Street, Merced, CA 95340
+    lat: 37.30622
+    lng: -120.48306
+    url: https://www.merced.courts.ca.gov/
+    kind: courthouse
+  - id: ca-modoc-courthouse
+    state: CA
+    county: Modoc
+    name: Superior Court of California, County of Modoc
+    address: 205 South East Street, Alturas, CA 96101
+    lat: 41.48327
+    lng: -120.54018
+    url: https://www.modoc.courts.ca.gov/
+    kind: courthouse
+  - id: ca-mono-courthouse
+    state: CA
+    county: Mono
+    name: Superior Court of California, County of Mono
+    address: 278 Main Street, Bridgeport, CA 93517
+    lat: 38.25624
+    lng: -119.22852
+    url: https://www.mono.courts.ca.gov/
+    kind: courthouse
+  - id: ca-monterey-courthouse
+    state: CA
+    county: Monterey
+    name: Superior Court of California, County of Monterey
+    address: 240 Church St., Salinas, CA 93901
+    lat: 36.67402
+    lng: -121.65912
+    url: https://www.monterey.courts.ca.gov/
+    kind: courthouse
+  - id: ca-napa-courthouse
+    state: CA
+    county: Napa
+    name: Superior Court of California, County of Napa
+    address: 825 Brown Street, Napa, CA 94559
+    lat: 38.29765
+    lng: -122.28559
+    url: https://www.napa.courts.ca.gov/
+    kind: courthouse
+  - id: ca-nevada-courthouse
+    state: CA
+    county: Nevada
+    name: Superior Court of California, County of Nevada
+    address: 201 Church Street, Nevada City, CA 95959
+    lat: 39.2639
+    lng: -121.01834
+    url: https://www.nevada.courts.ca.gov/
+    kind: courthouse
+  - id: ca-orange-courthouse
+    state: CA
+    county: Orange
+    name: Superior Court of California, County of Orange
+    address: 700 Civic Center Drive West, Santa Ana, CA 92701
+    lat: 33.75076
+    lng: -117.87483
+    url: https://www.orange.courts.ca.gov/
+    kind: courthouse
+  - id: ca-placer-courthouse
+    state: CA
+    county: Placer
+    name: Superior Court of California, County of Placer
+    address: 10820 Justice Center Drive, Roseville, CA 95678
+    lat: 38.8080114
+    lng: -121.3046438
+    url: https://www.placer.courts.ca.gov/
+    link_check: manual
+    verification_note: "Human-verified live in a real browser on 2026-09-21 — the official court homepage loads. Automated checks are blocked (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ca-plumas-courthouse
+    state: CA
+    county: Plumas
+    name: Superior Court of California, County of Plumas
+    address: 520 Main Street, Quincy, CA 95971
+    lat: 39.93623
+    lng: -120.9481
+    url: https://www.plumas.courts.ca.gov/
+    link_check: manual
+    verification_note: "Human-verified live in a real browser on 2026-09-21 — the official court homepage loads. Automated checks are blocked (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ca-riverside-courthouse
+    state: CA
+    county: Riverside
+    name: Superior Court of California, County of Riverside
+    address: 13800 Heacock Street, Building D, #201, Moreno Valley, CA 92553
+    lat: 33.9201435
+    lng: -117.2429659
+    url: https://www.riverside.courts.ca.gov/
+    kind: courthouse
+  - id: ca-sacramento-courthouse
+    state: CA
+    county: Sacramento
+    name: Superior Court of California, County of Sacramento
+    address: 301 Bicentennial Circle, Sacramento, CA 95826
+    lat: 38.5505983
+    lng: -121.4066747
+    url: https://www.saccourt.ca.gov/
+    link_check: manual
+    verification_note: "Human-verified live in a real browser on 2026-09-21 — the official court homepage loads. Automated checks are blocked (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ca-san-benito-courthouse
+    state: CA
+    county: San Benito
+    name: Superior Court of California, County of San Benito
+    address: 450 Fourth Street, Hollister, CA 95023
+    lat: 36.85288
+    lng: -121.40485
+    url: https://www.sanbenito.courts.ca.gov/
+    kind: courthouse
+  - id: ca-san-bernardino-courthouse
+    state: CA
+    county: San Bernardino
+    name: Superior Court of California, County of San Bernardino
+    address: 17780 Arrow Boulevard, Fontana, CA 92335
+    lat: 34.1003705
+    lng: -117.4166054
+    url: https://sanbernardino.courts.ca.gov/
+    kind: courthouse
+  - id: ca-san-diego-courthouse
+    state: CA
+    county: San Diego
+    name: Superior Court of California, County of San Diego
+    address: 1100 Union Street, San Diego, CA 92101
+    lat: 32.7169
+    lng: -117.16589
+    url: https://www.sandiego.courts.ca.gov/
+    kind: courthouse
+  - id: ca-san-francisco-courthouse
+    state: CA
+    county: San Francisco
+    name: Superior Court of California, County of San Francisco
+    address: 400 McAllister Street, San Francisco, CA 94102
+    lat: 37.7804972
+    lng: -122.41926
+    url: https://sf.courts.ca.gov/
+    kind: courthouse
+  - id: ca-san-joaquin-courthouse
+    state: CA
+    county: San Joaquin
+    name: Superior Court of California, County of San Joaquin
+    address: 180 E. Weber Avenue, Stockton, CA 95202
+    lat: 37.954024
+    lng: -121.2889189
+    url: https://www.sjcourts.org/
+    kind: courthouse
+  - id: ca-san-luis-obispo-courthouse
+    state: CA
+    county: San Luis Obispo
+    name: Superior Court of California, County of San Luis Obispo
+    address: 214 S. 16th Street, Grover Beach, CA 93433
+    lat: 35.1197251
+    lng: -120.6118019
+    url: https://www.slo.courts.ca.gov/
+    kind: courthouse
+  - id: ca-san-mateo-courthouse
+    state: CA
+    county: San Mateo
+    name: Superior Court of California, County of San Mateo
+    address: 800 North Humboldt Street, San Mateo, CA 94401
+    lat: 37.58157
+    lng: -122.32847
+    url: https://www.sanmateo.courts.ca.gov/
+    kind: courthouse
+  - id: ca-santa-barbara-courthouse
+    state: CA
+    county: Santa Barbara
+    name: Superior Court of California, County of Santa Barbara
+    address: 1100 Anacapa Street, Santa Barbara, CA 93121-1107
+    lat: 34.42384
+    lng: -119.70203
+    url: https://www.santabarbara.courts.ca.gov/
+    kind: courthouse
+  - id: ca-santa-clara-courthouse
+    state: CA
+    county: Santa Clara
+    name: Superior Court of California, County of Santa Clara
+    address: 191 North First Street, San Jose, CA 95113
+    lat: 37.33829
+    lng: -121.8935
+    url: https://www.santaclara.courts.ca.gov/
+    kind: courthouse
+  - id: ca-santa-cruz-courthouse
+    state: CA
+    county: Santa Cruz
+    name: Superior Court of California, County of Santa Cruz
+    address: 701 Ocean Street, Santa Cruz, CA 95060
+    lat: 36.97811
+    lng: -122.02286
+    url: https://www.santacruz.courts.ca.gov/
+    kind: courthouse
+  - id: ca-shasta-courthouse
+    state: CA
+    county: Shasta
+    name: Superior Court of California, County of Shasta
+    address: 1515 Court Street, Redding, CA 96001
+    lat: 40.58276
+    lng: -122.39512
+    url: https://www.shasta.courts.ca.gov/
+    kind: courthouse
+  - id: ca-sierra-courthouse
+    state: CA
+    county: Sierra
+    name: Superior Court of California, County of Sierra
+    address: 100 Courthouse Square, Downieville, CA 95936
+    lat: 39.55887
+    lng: -120.83005
+    url: https://www.sierra.courts.ca.gov/
+    kind: courthouse
+  - id: ca-siskiyou-courthouse
+    state: CA
+    county: Siskiyou
+    name: Superior Court of California, County of Siskiyou
+    address: 411 4th Street, Yreka, CA 96097
+    lat: 41.72933
+    lng: -122.63861
+    url: https://www.siskiyou.courts.ca.gov/
+    kind: courthouse
+  - id: ca-solano-courthouse
+    state: CA
+    county: Solano
+    name: Superior Court of California, County of Solano
+    address: 600 Union Avenue, Fairfield, CA 94533
+    lat: 38.248246
+    lng: -122.040408
+    url: https://solano.courts.ca.gov/
+    kind: courthouse
+  - id: ca-sonoma-courthouse
+    state: CA
+    county: Sonoma
+    name: Superior Court of California, County of Sonoma
+    address: 625 Administration Drive, Santa Rosa, CA 95403
+    lat: 38.46575
+    lng: -122.72599
+    url: https://www.sonoma.courts.ca.gov/
+    kind: courthouse
+  - id: ca-stanislaus-courthouse
+    state: CA
+    county: Stanislaus
+    name: Superior Court of California, County of Stanislaus
+    address: 800 11th Street, Modesto, CA 95354
+    lat: 37.63963
+    lng: -120.9972
+    url: https://www.stanislaus.courts.ca.gov/
+    kind: courthouse
+  - id: ca-sutter-courthouse
+    state: CA
+    county: Sutter
+    name: Superior Court of California, County of Sutter
+    address: 1175 Civic Center Blvd, Yuba City, CA 95993
+    lat: 39.14421
+    lng: -121.63813
+    url: https://www.sutter.courts.ca.gov/
+    kind: courthouse
+  - id: ca-tehama-courthouse
+    state: CA
+    county: Tehama
+    name: Superior Court of California, County of Tehama
+    address: 1740 Walnut Street, Red Bluff, CA 96080
+    lat: 40.17012
+    lng: -122.25235
+    url: https://www.tehama.courts.ca.gov/
+    kind: courthouse
+  - id: ca-trinity-courthouse
+    state: CA
+    county: Trinity
+    name: Superior Court of California, County of Trinity
+    address: 11 Court Street, Weaverville, CA 96093
+    lat: 40.7344
+    lng: -122.94097
+    url: https://www.trinity.courts.ca.gov/
+    kind: courthouse
+  - id: ca-tulare-courthouse
+    state: CA
+    county: Tulare
+    name: Superior Court of California, County of Tulare
+    address: 221 S. Mooney Blvd., Visalia, CA 93291
+    lat: 36.32854
+    lng: -119.31543
+    url: https://www.tulare.courts.ca.gov/
+    kind: courthouse
+  - id: ca-tuolumne-courthouse
+    state: CA
+    county: Tuolumne
+    name: Superior Court of California, County of Tuolumne
+    address: 12855 Justice Center Drive, Sonora, CA 95370
+    lat: 37.9697
+    lng: -120.3644
+    url: https://www.tuolumne.courts.ca.gov/
+    kind: courthouse
+  - id: ca-ventura-courthouse
+    state: CA
+    county: Ventura
+    name: Superior Court of California, County of Ventura
+    address: 800 South Victoria Avenue, Ventura, CA 93009
+    lat: 34.26832
+    lng: -119.21004
+    url: https://www.ventura.courts.ca.gov/
+    kind: courthouse
+  - id: ca-yolo-courthouse
+    state: CA
+    county: Yolo
+    name: Superior Court of California, County of Yolo
+    address: 1000 Main Street, Woodland, CA 95695
+    lat: 38.67714
+    lng: -121.76798
+    url: https://www.yolo.courts.ca.gov/
+    kind: courthouse
+  - id: ca-yuba-courthouse
+    state: CA
+    county: Yuba
+    name: Superior Court of California, County of Yuba
+    address: 215 Fifth Street, Suite 200, Marysville, CA 95901
+    lat: 39.14082
+    lng: -121.58663
+    url: https://www.yuba.courts.ca.gov/
+    kind: courthouse

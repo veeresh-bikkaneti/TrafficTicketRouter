@@ -1,0 +1,234 @@
+# Wyoming courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/WY.yaml — never invented.
+pins:
+  - id: wy-albany-courthouse
+    state: WY
+    county: Albany
+    name: "Albany County Circuit Court"
+    address: "525 Grand Avenue, Room 400 Laramie, WY 82070"
+    lat: 41.3112921
+    lng: -105.5902730
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-2nd-judicial-district-albany-county-state-of-wyoming-laramie/"
+    kind: courthouse
+
+  - id: wy-big-horn-courthouse
+    state: WY
+    county: Big Horn
+    name: "Big Horn County Circuit Court"
+    address: "420 West C Street Basin, WY 82410"
+    lat: 44.3799560
+    lng: -108.0389890
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-big-horn-county-state-of-wyoming-basin/"
+    kind: courthouse
+
+  - id: wy-campbell-courthouse
+    state: WY
+    county: Campbell
+    name: "Campbell County Circuit Court"
+    address: "500 South Gillette Avenue, Suite 2200 Gillette, WY 82716"
+    lat: 44.2901209
+    lng: -105.5044516
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-campbell-county-state-of-wyoming-gillette/"
+    kind: courthouse
+
+  - id: wy-carbon-courthouse
+    state: WY
+    county: Carbon
+    name: "Carbon County Circuit Court"
+    address: "415 West Pine Street, Suite 235 Rawlins, WY 82301"
+    lat: 41.7898154
+    lng: -107.2399376
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-2nd-judicial-district-carbon-county-state-of-wyoming-rawlins/"
+    kind: courthouse
+
+  - id: wy-converse-courthouse
+    state: WY
+    county: Converse
+    name: "Converse County Circuit Court"
+    address: "1201 Mesa Drive Suite E Douglas, WY 82633"
+    lat: 42.7446371
+    lng: -105.3578167
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-converse-county-state-of-wyoming-douglas/"
+    kind: courthouse
+
+  - id: wy-crook-courthouse
+    state: WY
+    county: Crook
+    name: "Crook County Circuit Court"
+    address: "309 Cleveland Sundance, WY 82729"
+    lat: 44.4049570
+    lng: -104.3789172
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-crook-county-state-of-wyoming-sundance/"
+    kind: courthouse
+
+  - id: wy-fremont-courthouse
+    state: WY
+    county: Fremont
+    name: "Fremont County Circuit Court"
+    address: "450 North 2nd Street, Room 230 Lander, WY 82520"
+    lat: 42.8360516
+    lng: -108.7263229
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-fremont-county-state-of-wyoming-lander/"
+    kind: courthouse
+
+  - id: wy-goshen-courthouse
+    state: WY
+    county: Goshen
+    name: "Goshen County Circuit Court"
+    address: "2125 East A Street Torrington, WY 82240"
+    lat: 42.0682253
+    lng: -104.1830105
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-goshen-county-state-of-wyoming-torrington/"
+    kind: courthouse
+
+  - id: wy-hot-springs-courthouse
+    state: WY
+    county: Hot Springs
+    name: "Hot Springs County Circuit Court"
+    address: "417 Arapahoe Street Thermopolis, WY 82443"
+    lat: 43.6472878
+    lng: -108.2087276
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-hot-springs-county-state-of-wyoming-thermopolis/"
+    kind: courthouse
+
+  - id: wy-johnson-courthouse
+    state: WY
+    county: Johnson
+    name: "Johnson County Circuit Court"
+    address: "620 West Fetterman Street, Suite 108 Buffalo, WY 82834"
+    lat: 44.3465557
+    lng: -106.7102070
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-4th-judicial-district-johnson-county-state-of-wyoming-buffalo/"
+    kind: courthouse
+
+  - id: wy-laramie-courthouse
+    state: WY
+    county: Laramie
+    name: "Laramie County Circuit Court"
+    address: "309 West 20th Street, Room 2300 Cheyenne, WY 82001"
+    lat: 41.1353929
+    lng: -104.8191190
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-1st-judicial-district-laramie-county-state-of-wyoming-cheyenne/"
+    kind: courthouse
+
+  - id: wy-lincoln-courthouse
+    state: WY
+    county: Lincoln
+    name: "Lincoln County Circuit Court"
+    address: "1040 Justice Center Drive Kemmerer, WY 83101"
+    lat: 41.7924606
+    lng: -110.5377110
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-lincoln-county-state-of-wyoming-kemmerer/"
+    kind: courthouse
+
+  - id: wy-natrona-courthouse
+    state: WY
+    county: Natrona
+    name: "Natrona County Circuit Court"
+    address: "115 North Center, Suite 400 Casper, WY 82601"
+    lat: 42.8503219
+    lng: -106.3250433
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-7th-judicial-district-natrona-county-state-of-wyoming-casper/"
+    kind: courthouse
+
+  - id: wy-niobrara-courthouse
+    state: WY
+    county: Niobrara
+    name: "Niobrara County Circuit Court"
+    address: "424 South Elm Street Lusk, WY 82225"
+    lat: 42.7605920
+    lng: -104.4508920
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-niobrara-county-state-of-wyoming-lusk/"
+    kind: courthouse
+
+  - id: wy-park-courthouse
+    state: WY
+    county: Park
+    name: "Park County Circuit Court"
+    address: "1002 Sheridan Avenue, Room 206 Cody, WY 82414"
+    lat: 44.5259635
+    lng: -109.0676111
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-park-county-state-of-wyoming-cody/"
+    kind: courthouse
+
+  - id: wy-platte-courthouse
+    state: WY
+    county: Platte
+    name: "Platte County Circuit Court"
+    address: "800 9th Street Wheatland, WY 82201"
+    lat: 42.0557337
+    lng: -104.9531453
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-platte-county-state-of-wyoming-wheatland/"
+    kind: courthouse
+
+  - id: wy-sheridan-courthouse
+    state: WY
+    county: Sheridan
+    name: "Sheridan County Circuit Court"
+    address: "224 South Main Street, Suite B7 Sheridan, WY 82801"
+    lat: 44.7951494
+    lng: -106.9566958
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-4th-judicial-district-sheridan-county-state-of-wyoming-sheridan/"
+    kind: courthouse
+
+  - id: wy-sublette-courthouse
+    state: WY
+    county: Sublette
+    name: "Sublette County Circuit Court"
+    address: "40 South Fremont Pinedale, WY 82941"
+    lat: 42.8599670
+    lng: -109.8579294
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-sublette-county-state-of-wyoming-pinedale/"
+    kind: courthouse
+
+  - id: wy-sweetwater-courthouse
+    state: WY
+    county: Sweetwater
+    name: "Sweetwater County Circuit Court"
+    address: "50140C US Hwy 191 South, Suite 200 Rock Springs, WY 82901"
+    lat: 41.5855016
+    lng: -109.2221202
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-sweetwater-county-state-of-wyoming-rock-springs/"
+    kind: courthouse
+
+  - id: wy-teton-courthouse
+    state: WY
+    county: Teton
+    name: "Teton County Circuit Court"
+    address: "250 E. Simpson Ave. Jackson, WY 83001"
+    lat: 43.4773825
+    lng: -110.7578415
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-teton-county-state-of-wyoming-jackson/"
+    kind: courthouse
+
+  - id: wy-uinta-courthouse
+    state: WY
+    county: Uinta
+    name: "Uinta County Circuit Court"
+    address: "225 9th Street Evanston, WY 82930"
+    lat: 41.2668927
+    lng: -110.9649608
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-uinta-county-state-of-wyoming-evanston/"
+    kind: courthouse
+
+  - id: wy-washakie-courthouse
+    state: WY
+    county: Washakie
+    name: "Washakie County Circuit Court"
+    address: "1001 Big Horn Avenue Worland, WY 82401"
+    lat: 44.0172744
+    lng: -107.9552095
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-washakie-county-state-of-wyoming-worland/"
+    kind: courthouse
+
+  - id: wy-weston-courthouse
+    state: WY
+    county: Weston
+    name: "Weston County Circuit Court"
+    address: "1 West Main Street Newcastle, WY 82701"
+    lat: 43.8557310
+    lng: -104.2022640
+    url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-weston-county-state-of-wyoming-newcastle/"
+    kind: courthouse

@@ -1,0 +1,1201 @@
+# Kentucky courthouse pins. Coordinates from Nominatim/OSM, cross-checked against expected city. URLs match data/states/KY.yaml verbatim.
+pins:
+  - id: ky-adair-courthouse
+    state: KY
+    county: Adair
+    name: "Adair County District Court"
+    address: "201 Campbellsville St., Columbia, KY 42728"
+    lat: 37.103653
+    lng: -85.304978
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Adair.aspx
+    kind: courthouse
+
+  - id: ky-allen-courthouse
+    state: KY
+    county: Allen
+    name: "Allen County District Court"
+    address: "200 W. Main St., Scottsville, KY 42164"
+    lat: 36.753353
+    lng: -86.191759
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Allen.aspx
+    kind: courthouse
+
+  - id: ky-anderson-courthouse
+    state: KY
+    county: Anderson
+    name: "Anderson County District Court"
+    address: "151 S. Main St., Lawrenceburg, KY 40342"
+    lat: 38.035542
+    lng: -84.895688
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Anderson.aspx
+    kind: courthouse
+
+  - id: ky-ballard-courthouse
+    state: KY
+    county: Ballard
+    name: "Ballard County District Court"
+    address: "132 N. Fourth St., Wickliffe, KY 42087"
+    lat: 36.9647735
+    lng: -89.0892302
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Ballard.aspx
+    kind: courthouse
+
+  - id: ky-barren-courthouse
+    state: KY
+    county: Barren
+    name: "Barren County District Court"
+    address: "100 Courthouse Square, Glasgow, KY 42141"
+    lat: 36.995906
+    lng: -85.9124842
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Barren.aspx
+    kind: courthouse
+
+  - id: ky-bath-courthouse
+    state: KY
+    county: Bath
+    name: "Bath County District Court"
+    address: "65 Water St., Owingsville, KY 40360"
+    lat: 38.1459966
+    lng: -83.7630255
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Bath.aspx
+    kind: courthouse
+
+  - id: ky-bell-courthouse
+    state: KY
+    county: Bell
+    name: "Bell County District Court"
+    address: "101 W. Park Ave., Pineville, KY 40977"
+    lat: 36.7604652
+    lng: -83.6975437
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Bell.aspx
+    kind: courthouse
+
+  - id: ky-boone-courthouse
+    state: KY
+    county: Boone
+    name: "Boone County District Court"
+    address: "6025 Rogers Lane, Burlington, KY 41005"
+    lat: 39.0268548
+    lng: -84.7238902
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Boone.aspx
+    kind: courthouse
+
+  - id: ky-bourbon-courthouse
+    state: KY
+    county: Bourbon
+    name: "Bourbon County District Court"
+    address: "310 Main St., Paris, KY 40361"
+    lat: 38.2127306
+    lng: -84.2494145
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Bourbon.aspx
+    kind: courthouse
+
+  - id: ky-boyd-courthouse
+    state: KY
+    county: Boyd
+    name: "Boyd County District Court"
+    address: "2805 Louisa Street, Catlettsburg, KY 41129"
+    lat: 38.4156404
+    lng: -82.5978984
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Boyd.aspx
+    kind: courthouse
+
+  - id: ky-boyle-courthouse
+    state: KY
+    county: Boyle
+    name: "Boyle County District Court"
+    address: "321 W. Main St., Danville, KY 40422"
+    lat: 37.6459239
+    lng: -84.7728446
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Boyle.aspx
+    kind: courthouse
+
+  - id: ky-bracken-courthouse
+    state: KY
+    county: Bracken
+    name: "Bracken County District Court"
+    address: "132 W. Miami St., Brooksville, KY 41004"
+    lat: 38.6854973
+    lng: -84.0684807
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Bracken.aspx
+    kind: courthouse
+
+  - id: ky-breathitt-courthouse
+    state: KY
+    county: Breathitt
+    name: "Breathitt County District Court"
+    address: "1131 Main St., Jackson, KY 41339"
+    lat: 37.553409
+    lng: -83.3842963
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Breathitt.aspx
+    kind: courthouse
+
+  - id: ky-breckinridge-courthouse
+    state: KY
+    county: Breckinridge
+    name: "Breckinridge County District Court"
+    address: "111 W. 2nd St., Hardinsburg, KY 40143"
+    lat: 37.7800592
+    lng: -86.4605337
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Breckinridge.aspx
+    kind: courthouse
+
+  - id: ky-bullitt-courthouse
+    state: KY
+    county: Bullitt
+    name: "Bullitt County District Court"
+    address: "250 Frank E. Simon Ave., Shepherdsville, KY 40165"
+    lat: 37.9894087
+    lng: -85.7152305
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Bullitt.aspx
+    kind: courthouse
+
+  - id: ky-butler-courthouse
+    state: KY
+    county: Butler
+    name: "Butler County District Court"
+    address: "110 N. Main St., Morgantown, KY 42261"
+    lat: 37.225371
+    lng: -86.6828964
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Butler.aspx
+    kind: courthouse
+
+  - id: ky-caldwell-courthouse
+    state: KY
+    county: Caldwell
+    name: "Caldwell County District Court"
+    address: "105 W. Court Square, Princeton, KY 42445"
+    lat: 37.1090245
+    lng: -87.8824948
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Caldwell.aspx
+    kind: courthouse
+
+  - id: ky-calloway-courthouse
+    state: KY
+    county: Calloway
+    name: "Calloway County District Court"
+    address: "312 N. 4th St., Murray, KY 42071"
+    lat: 36.6106122
+    lng: -88.3021092
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Calloway.aspx
+    kind: courthouse
+
+  - id: ky-campbell-courthouse
+    state: KY
+    county: Campbell
+    name: "Campbell County District Court"
+    address: "330 York St., Newport, KY 41071"
+    lat: 39.0925818
+    lng: -84.4966331
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Campbell.aspx
+    kind: courthouse
+
+  - id: ky-carlisle-courthouse
+    state: KY
+    county: Carlisle
+    name: "Carlisle County District Court"
+    address: "985 U.S. Highway 62, Bardwell, KY 42023"
+    lat: 36.8706111
+    lng: -89.0097869
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Carlisle.aspx
+    kind: courthouse
+
+  - id: ky-carroll-courthouse
+    state: KY
+    county: Carroll
+    name: "Carroll County District Court"
+    address: "802 Clay St., Carrollton, KY 41008"
+    lat: 38.6774971
+    lng: -85.1732645
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Carroll.aspx
+    kind: courthouse
+
+  - id: ky-carter-courthouse
+    state: KY
+    county: Carter
+    name: "Carter County District Court"
+    address: "100 E. Main St., Grayson, KY 41143"
+    lat: 38.3314347
+    lng: -82.9452198
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Carter.aspx
+    kind: courthouse
+
+  - id: ky-casey-courthouse
+    state: KY
+    county: Casey
+    name: "Casey County District Court"
+    address: "231 Courthouse Square, Liberty, KY 42539"
+    lat: 37.3184064
+    lng: -84.9393979
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Casey.aspx
+    kind: courthouse
+
+  - id: ky-christian-courthouse
+    state: KY
+    county: Christian
+    name: "Christian County District Court"
+    address: "100 Justice Way, Hopkinsville, KY 42240"
+    lat: 36.8657852
+    lng: -87.489412
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Christian.aspx
+    kind: courthouse
+
+  - id: ky-clark-courthouse
+    state: KY
+    county: Clark
+    name: "Clark County District Court"
+    address: "17 Cleveland Ave., Winchester, KY 40392"
+    lat: 37.9931672
+    lng: -84.1773611
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Clark.aspx
+    kind: courthouse
+
+  - id: ky-clay-courthouse
+    state: KY
+    county: Clay
+    name: "Clay County District Court"
+    address: "316 Main St., Manchester, KY 40962"
+    lat: 37.1562288
+    lng: -83.7606556
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Clay.aspx
+    kind: courthouse
+
+  - id: ky-clinton-courthouse
+    state: KY
+    county: Clinton
+    name: "Clinton County District Court"
+    address: "100 S. Cross St., Albany, KY 42602"
+    lat: 36.690723
+    lng: -85.135759
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Clinton.aspx
+    kind: courthouse
+
+  - id: ky-crittenden-courthouse
+    state: KY
+    county: Crittenden
+    name: "Crittenden County District Court"
+    address: "217 S. Main St., Marion, KY 42064"
+    lat: 37.3313624
+    lng: -88.0820484
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Crittenden.aspx
+    kind: courthouse
+
+  - id: ky-cumberland-courthouse
+    state: KY
+    county: Cumberland
+    name: "Cumberland County District Court"
+    address: "112 Courthouse Square, Burkesville, KY 42717"
+    lat: 36.7903399
+    lng: -85.3705186
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Cumberland.aspx
+    kind: courthouse
+
+  - id: ky-daviess-courthouse
+    state: KY
+    county: Daviess
+    name: "Daviess County District Court"
+    address: "100 E. 2nd St., Owensboro, KY 42302"
+    lat: 37.7742152
+    lng: -87.1133304
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Daviess.aspx
+    kind: courthouse
+
+  - id: ky-edmonson-courthouse
+    state: KY
+    county: Edmonson
+    name: "Edmonson County District Court"
+    address: "110 E. Main Cross St., Brownsville, KY 42210"
+    lat: 37.1918755
+    lng: -86.2707469
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Edmonson.aspx
+    kind: courthouse
+
+  - id: ky-elliott-courthouse
+    state: KY
+    county: Elliott
+    name: "Elliott County District Court"
+    address: "100 Main and Jane Caudill Sts., Sandy Hook, KY 41171"
+    lat: 38.0864739
+    lng: -83.1262839
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Elliott.aspx
+    kind: courthouse
+
+  - id: ky-estill-courthouse
+    state: KY
+    county: Estill
+    name: "Estill County District Court"
+    address: "130 Main St., Irvine, KY 40336"
+    lat: 37.7003071
+    lng: -83.974798
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Estill.aspx
+    kind: courthouse
+
+  - id: ky-fayette-courthouse
+    state: KY
+    county: Fayette
+    name: "Fayette County District Court"
+    address: "150 N. Limestone, Lexington, KY 40507"
+    lat: 38.046642
+    lng: -84.495361
+    url: https://www.kycourts.gov/Courts/County-Information/Fayette/Pages/Fayette.aspx
+    kind: courthouse
+
+  - id: ky-fleming-courthouse
+    state: KY
+    county: Fleming
+    name: "Fleming County District Court"
+    address: "101 N. Main Cross St., Flemingsburg, KY 41041"
+    lat: 38.422252
+    lng: -83.733757
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Fleming.aspx
+    kind: courthouse
+
+  - id: ky-floyd-courthouse
+    state: KY
+    county: Floyd
+    name: "Floyd County District Court"
+    address: "127 S. Lake Drive, Prestonsburg, KY 41653"
+    lat: 37.6667653
+    lng: -82.7724198
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Floyd.aspx
+    kind: courthouse
+
+  - id: ky-franklin-courthouse
+    state: KY
+    county: Franklin
+    name: "Franklin County District Court"
+    address: "222 Saint Clair St., Frankfort, KY 40601"
+    lat: 38.1981025
+    lng: -84.8787097
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Franklin.aspx
+    kind: courthouse
+
+  - id: ky-fulton-courthouse
+    state: KY
+    county: Fulton
+    name: "Fulton County District Court"
+    address: "114 E. Wellington St., Hickman, KY 42050"
+    lat: 36.5710587
+    lng: -89.1952821
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Fulton.aspx
+    kind: courthouse
+
+  - id: ky-gallatin-courthouse
+    state: KY
+    county: Gallatin
+    name: "Gallatin County District Court"
+    address: "100 Main St., Warsaw, KY 41095"
+    lat: 38.7839127
+    lng: -84.9011976
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Gallatin.aspx
+    kind: courthouse
+
+  - id: ky-garrard-courthouse
+    state: KY
+    county: Garrard
+    name: "Garrard County District Court"
+    address: "54 Stanford Street, Lancaster, KY 40444"
+    lat: 37.6165325
+    lng: -84.579158
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Garrard.aspx
+    kind: courthouse
+
+  - id: ky-grant-courthouse
+    state: KY
+    county: Grant
+    name: "Grant County District Court"
+    address: "224 S. Main St., Williamstown, KY 41097"
+    lat: 38.6350234
+    lng: -84.5624589
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Grant.aspx
+    kind: courthouse
+
+  - id: ky-graves-courthouse
+    state: KY
+    county: Graves
+    name: "Graves County District Court"
+    address: "1102 Paris Road, Suite 21, Mayfield, KY 42066"
+    lat: 36.725749
+    lng: -88.6277555
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Graves.aspx
+    kind: courthouse
+
+  - id: ky-grayson-courthouse
+    state: KY
+    county: Grayson
+    name: "Grayson County District Court"
+    address: "500 Carroll Gibson Blvd., Leitchfield, KY 42754"
+    lat: 37.4801693
+    lng: -86.2936604
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Grayson.aspx
+    kind: courthouse
+
+  - id: ky-green-courthouse
+    state: KY
+    county: Green
+    name: "Green County District Court"
+    address: "200 W. Court St., Greensburg, KY 42743"
+    lat: 37.261506
+    lng: -85.503805
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Green.aspx
+    kind: courthouse
+
+  - id: ky-greenup-courthouse
+    state: KY
+    county: Greenup
+    name: "Greenup County District Court"
+    address: "101 Harrison St., Greenup, KY 41144"
+    lat: 38.7212699
+    lng: -82.9742908
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Greenup.aspx
+    kind: courthouse
+
+  - id: ky-hancock-courthouse
+    state: KY
+    county: Hancock
+    name: "Hancock County District Court"
+    address: "310 Hawesville School Drive, Hawesville, KY 42348"
+    lat: 37.9000554
+    lng: -86.754988
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Hancock.aspx
+    kind: courthouse
+
+  - id: ky-hardin-courthouse
+    state: KY
+    county: Hardin
+    name: "Hardin County District Court"
+    address: "120 E. Dixie Ave., Elizabethtown, KY 42701"
+    lat: 37.6823748
+    lng: -85.849791
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Hardin.aspx
+    kind: courthouse
+
+  - id: ky-harlan-courthouse
+    state: KY
+    county: Harlan
+    name: "Harlan County District Court"
+    address: "129 S. 1st St., Harlan, KY 40831"
+    lat: 36.8431441
+    lng: -83.321848
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Harlan.aspx
+    kind: courthouse
+
+  - id: ky-harrison-courthouse
+    state: KY
+    county: Harrison
+    name: "Harrison County District Court"
+    address: "115 Court St., Cynthiana, KY 41031"
+    lat: 38.390306
+    lng: -84.2982629
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Harrison.aspx
+    kind: courthouse
+
+  - id: ky-hart-courthouse
+    state: KY
+    county: Hart
+    name: "Hart County District Court"
+    address: "117 E. South St., Munfordville, KY 42765"
+    lat: 37.2715835
+    lng: -85.8895648
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Hart.aspx
+    kind: courthouse
+
+  - id: ky-henderson-courthouse
+    state: KY
+    county: Henderson
+    name: "Henderson County District Court"
+    address: "5 N. Main St., Henderson, KY 42419"
+    lat: 37.8391204
+    lng: -87.5934099
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Henderson.aspx
+    kind: courthouse
+
+  - id: ky-henry-courthouse
+    state: KY
+    county: Henry
+    name: "Henry County District Court"
+    address: "30 N. Main St.,, New Castle, KY 40050"
+    lat: 38.4329559
+    lng: -85.165721
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Henry.aspx
+    kind: courthouse
+
+  - id: ky-hickman-courthouse
+    state: KY
+    county: Hickman
+    name: "Hickman County District Court"
+    address: "109 S. Washington St., Clinton, KY 42031"
+    lat: 36.6668951
+    lng: -88.9935174
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Hickman.aspx
+    kind: courthouse
+
+  - id: ky-hopkins-courthouse
+    state: KY
+    county: Hopkins
+    name: "Hopkins County District Court"
+    address: "120 E. Center St., Madisonville, KY 42431"
+    lat: 37.3278518
+    lng: -87.4965458
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Hopkins.aspx
+    kind: courthouse
+
+  - id: ky-jackson-courthouse
+    state: KY
+    county: Jackson
+    name: "Jackson County District Court"
+    address: "100 First St., McKee, KY 40447"
+    lat: 37.430364
+    lng: -83.9979834
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Jackson.aspx
+    kind: courthouse
+
+  - id: ky-jefferson-courthouse
+    state: KY
+    county: Jefferson
+    name: "Jefferson County District Court"
+    address: "600 W. Jefferson St., Louisville, KY 40202"
+    lat: 38.2539185
+    lng: -85.7612901
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Jefferson.aspx
+    kind: courthouse
+
+  - id: ky-jessamine-courthouse
+    state: KY
+    county: Jessamine
+    name: "Jessamine County District Court"
+    address: "107 N. Main St., Nicholasville, KY 40356"
+    lat: 37.8811524
+    lng: -84.5729735
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Jessamine.aspx
+    kind: courthouse
+
+  - id: ky-johnson-courthouse
+    state: KY
+    county: Johnson
+    name: "Johnson County District Court"
+    address: "908 3rd St., Paintsville, KY 41240"
+    lat: 37.8175136
+    lng: -82.812248
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Johnson.aspx
+    kind: courthouse
+
+  - id: ky-kenton-courthouse
+    state: KY
+    county: Kenton
+    name: "Kenton County District Court"
+    address: "230 Madison Ave., Covington, KY 41011"
+    lat: 39.0885523
+    lng: -84.510905
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Kenton.aspx
+    kind: courthouse
+
+  - id: ky-knott-courthouse
+    state: KY
+    county: Knott
+    name: "Knott County District Court"
+    address: "53 W. Main St., Hindman, KY 41822"
+    lat: 37.335485
+    lng: -82.9812084
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Knott.aspx
+    kind: courthouse
+
+  - id: ky-knox-courthouse
+    state: KY
+    county: Knox
+    name: "Knox County District Court"
+    address: "401 Court Square, Barbourville, KY 40906"
+    lat: 36.8662619
+    lng: -83.8881228
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Knox.aspx
+    kind: courthouse
+
+  - id: ky-larue-courthouse
+    state: KY
+    county: Larue
+    name: "Larue County District Court"
+    address: "209 W. High St., Hodgenville, KY 42748"
+    lat: 37.5716451
+    lng: -85.7423895
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Larue.aspx
+    kind: courthouse
+
+  - id: ky-laurel-courthouse
+    state: KY
+    county: Laurel
+    name: "Laurel County District Court"
+    address: "305 S. Main St., London, KY 40741"
+    lat: 37.1280125
+    lng: -84.0830725
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Laurel.aspx
+    kind: courthouse
+
+  - id: ky-lawrence-courthouse
+    state: KY
+    county: Lawrence
+    name: "Lawrence County District Court"
+    address: "29 River Bend Road, Louisa, KY 41230"
+    lat: 38.1144867
+    lng: -82.6030988
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Lawrence.aspx
+    kind: courthouse
+
+  - id: ky-lee-courthouse
+    state: KY
+    county: Lee
+    name: "Lee County District Court"
+    address: "256 Main St., Beattyville, KY 41311"
+    lat: 37.573621
+    lng: -83.7107136
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Lee.aspx
+    kind: courthouse
+
+  - id: ky-leslie-courthouse
+    state: KY
+    county: Leslie
+    name: "Leslie County District Court"
+    address: "22010 Main St., Hyden, KY 41749"
+    lat: 37.1621955
+    lng: -83.3747343
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Leslie.aspx
+    kind: courthouse
+
+  - id: ky-letcher-courthouse
+    state: KY
+    county: Letcher
+    name: "Letcher County District Court"
+    address: "156 Main St., Whitesburg, KY 41858"
+    lat: 37.1179991
+    lng: -82.8267858
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Letcher.aspx
+    kind: courthouse
+
+  - id: ky-lewis-courthouse
+    state: KY
+    county: Lewis
+    name: "Lewis County District Court"
+    address: "94 Second St., Vanceburg, KY 41179"
+    lat: 38.599243
+    lng: -83.3187952
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Lewis.aspx
+    kind: courthouse
+
+  - id: ky-lincoln-courthouse
+    state: KY
+    county: Lincoln
+    name: "Lincoln County District Court"
+    address: "101 E. Main St., Stanford, KY 40484"
+    lat: 37.529142
+    lng: -84.661432
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Lincoln.aspx
+    kind: courthouse
+
+  - id: ky-livingston-courthouse
+    state: KY
+    county: Livingston
+    name: "Livingston County District Court"
+    address: "122 W. Adair Street, Smithland, KY 42081"
+    lat: 37.1389351
+    lng: -88.4055434
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Livingston.aspx
+    kind: courthouse
+
+  - id: ky-logan-courthouse
+    state: KY
+    county: Logan
+    name: "Logan County District Court"
+    address: "329 W. 4th St., Russellville, KY 42276"
+    lat: 36.8453199
+    lng: -86.887219
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Logan.aspx
+    kind: courthouse
+
+  - id: ky-lyon-courthouse
+    state: KY
+    county: Lyon
+    name: "Lyon County District Court"
+    address: "500 West Dale Ave., Eddyville, KY 42038"
+    lat: 37.0944971
+    lng: -88.080301
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Lyon.aspx
+    kind: courthouse
+
+  - id: ky-mccracken-courthouse
+    state: KY
+    county: McCracken
+    name: "McCracken County District Court"
+    address: "300 Clarence Gaines St., Paducah, KY 42003"
+    lat: 37.0833893
+    lng: -88.6000478
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/McCracken.aspx
+    kind: courthouse
+
+  - id: ky-mccreary-courthouse
+    state: KY
+    county: McCreary
+    name: "McCreary County District Court"
+    address: "1 N. Main St., Whitley City, KY 42653"
+    lat: 36.7270905
+    lng: -84.4702549
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/McCreary.aspx
+    kind: courthouse
+
+  - id: ky-mclean-courthouse
+    state: KY
+    county: McLean
+    name: "McLean County District Court"
+    address: "210 E. Main St., Calhoun, KY 42327"
+    lat: 37.5365541
+    lng: -87.2583091
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/McLean.aspx
+    kind: courthouse
+
+  - id: ky-madison-courthouse
+    state: KY
+    county: Madison
+    name: "Madison County District Court"
+    address: "Hall of Justice, 351 W. Main St., Richmond, KY 40475​​"
+    lat: 37.7478572
+    lng: -84.2946539
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Madison.aspx
+    kind: courthouse
+
+  - id: ky-magoffin-courthouse
+    state: KY
+    county: Magoffin
+    name: "Magoffin County District Court"
+    address: "100 E. Maple St., Salyersville, KY 41465"
+    lat: 37.7549748
+    lng: -83.0589999
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Magoffin.aspx
+    kind: courthouse
+
+  - id: ky-marion-courthouse
+    state: KY
+    county: Marion
+    name: "Marion County District Court"
+    address: "121 N. Spalding Ave., Lebanon, KY 40033"
+    lat: 37.5701808
+    lng: -85.2526228
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Marion.aspx
+    kind: courthouse
+
+  - id: ky-marshall-courthouse
+    state: KY
+    county: Marshall
+    name: "Marshall County District Court"
+    address: "80 Judicial Drive, Benton, KY 42025"
+    lat: 36.8572781
+    lng: -88.350315
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Marshall.aspx
+    kind: courthouse
+
+  - id: ky-martin-courthouse
+    state: KY
+    county: Martin
+    name: "Martin County District Court"
+    address: "14 Court St., Inez, KY 41224"
+    lat: 37.8659865
+    lng: -82.5390397
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Martin.aspx
+    kind: courthouse
+
+  - id: ky-mason-courthouse
+    state: KY
+    county: Mason
+    name: "Mason County District Court"
+    address: "100 W. 3rd St., Maysville, KY 41056"
+    lat: 38.6474569
+    lng: -83.7644793
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Mason.aspx
+    kind: courthouse
+
+  - id: ky-meade-courthouse
+    state: KY
+    county: Meade
+    name: "Meade County District Court"
+    address: "516 Hillcrest Drive, Brandenburg, KY 40108"
+    lat: 38.0008838
+    lng: -86.1730741
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Meade.aspx
+    kind: courthouse
+
+  - id: ky-menifee-courthouse
+    state: KY
+    county: Menifee
+    name: "Menifee County District Court"
+    address: "12 Main St., Frenchburg, KY 40322"
+    lat: 37.9491993
+    lng: -83.6353551
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Menifee.aspx
+    kind: courthouse
+
+  - id: ky-mercer-courthouse
+    state: KY
+    county: Mercer
+    name: "Mercer County District Court"
+    address: "224 S. Main St., Harrodsburg, KY 40330"
+    lat: 37.7610598
+    lng: -84.8435318
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Mercer.aspx
+    kind: courthouse
+
+  - id: ky-metcalfe-courthouse
+    state: KY
+    county: Metcalfe
+    name: "Metcalfe County District Court"
+    address: "201 E. Stockton St., Edmonton, KY 42129"
+    lat: 36.9799145
+    lng: -85.6103484
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Metcalfe.aspx
+    kind: courthouse
+
+  - id: ky-monroe-courthouse
+    state: KY
+    county: Monroe
+    name: "Monroe County District Court"
+    address: "300 N. Main St., Tompkinsville, KY 42167"
+    lat: 36.701396
+    lng: -85.692063
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Monroe.aspx
+    kind: courthouse
+
+  - id: ky-montgomery-courthouse
+    state: KY
+    county: Montgomery
+    name: "Montgomery County District Court"
+    address: "One Court St., Mt. Sterling, KY 40353"
+    lat: 38.0567809
+    lng: -83.9425622
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Montgomery.aspx
+    kind: courthouse
+
+  - id: ky-morgan-courthouse
+    state: KY
+    county: Morgan
+    name: "Morgan County District Court"
+    address: "261 Court St., West Liberty, KY 41472"
+    lat: 37.920052
+    lng: -83.259954
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Morgan.aspx
+    kind: courthouse
+
+  - id: ky-muhlenberg-courthouse
+    state: KY
+    county: Muhlenberg
+    name: "Muhlenberg County District Court"
+    address: "136 S. Main St., Greenville, KY 42345"
+    lat: 37.195696
+    lng: -87.176058
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Muhlenberg.aspx
+    kind: courthouse
+
+  - id: ky-nelson-courthouse
+    state: KY
+    county: Nelson
+    name: "Nelson County District Court"
+    address: "200 Nelson County Plaza, Bardstown, KY 40004"
+    lat: 37.8092463
+    lng: -85.4669015
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Nelson.aspx
+    kind: courthouse
+
+  - id: ky-nicholas-courthouse
+    state: KY
+    county: Nicholas
+    name: "Nicholas County District Court"
+    address: "217 N. Broadway St., Carlisle, KY 40311"
+    lat: 38.3123489
+    lng: -84.0274931
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Nicholas.aspx
+    kind: courthouse
+
+  - id: ky-ohio-courthouse
+    state: KY
+    county: Ohio
+    name: "Ohio County District Court"
+    address: "130 E. Washington St., Hartford, KY 42347"
+    lat: 37.4514058
+    lng: -86.9062112
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Ohio.aspx
+    kind: courthouse
+
+  - id: ky-oldham-courthouse
+    state: KY
+    county: Oldham
+    name: "Oldham County District Court"
+    address: "100 W. Main St., La Grange, KY 40031"
+    lat: 38.407579
+    lng: -85.378999
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Oldham.aspx
+    kind: courthouse
+
+  - id: ky-owen-courthouse
+    state: KY
+    county: Owen
+    name: "Owen County District Court"
+    address: "401 S. Main St., Owenton, KY 40359"
+    lat: 38.5321268
+    lng: -84.8341072
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Owen.aspx
+    kind: courthouse
+
+  - id: ky-owsley-courthouse
+    state: KY
+    county: Owsley
+    name: "Owsley County District Court"
+    address: "20 Main St., Booneville, KY 41314"
+    lat: 37.476051
+    lng: -83.6752093
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Owsley.aspx
+    kind: courthouse
+
+  - id: ky-pendleton-courthouse
+    state: KY
+    county: Pendleton
+    name: "Pendleton County District Court"
+    address: "120 Ridgeway Ave., Falmouth, KY 41040"
+    lat: 38.6661755
+    lng: -84.3328492
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Pendleton.aspx
+    kind: courthouse
+
+  - id: ky-perry-courthouse
+    state: KY
+    county: Perry
+    name: "Perry County District Court"
+    address: "545 Main St., Hazard, KY 41702"
+    lat: 37.2490028
+    lng: -83.1956949
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Perry.aspx
+    kind: courthouse
+
+  - id: ky-pike-courthouse
+    state: KY
+    county: Pike
+    name: "Pike County District Court"
+    address: "175 Main St., Pikeville, KY 41502"
+    lat: 37.4799459
+    lng: -82.5172409
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Pike.aspx
+    kind: courthouse
+
+  - id: ky-powell-courthouse
+    state: KY
+    county: Powell
+    name: "Powell County District Court"
+    address: "525 Washington St., Stanton, KY 40380"
+    lat: 37.8496605
+    lng: -83.8608123
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Powell.aspx
+    kind: courthouse
+
+  - id: ky-pulaski-courthouse
+    state: KY
+    county: Pulaski
+    name: "Pulaski County District Court"
+    address: "50 Public Square, Somerset, KY 42502"
+    lat: 37.0920222
+    lng: -84.6041084
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Pulaski.aspx
+    kind: courthouse
+
+  - id: ky-robertson-courthouse
+    state: KY
+    county: Robertson
+    name: "Robertson County District Court"
+    address: "127 E. Walnut St., Mt. Olivet, KY 41064"
+    lat: 38.5313254
+    lng: -84.0352614
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Robertson.aspx
+    kind: courthouse
+
+  - id: ky-rockcastle-courthouse
+    state: KY
+    county: Rockcastle
+    name: "Rockcastle County District Court"
+    address: "205 E. Main St., Mt. Vernon, KY 40456"
+    lat: 37.352518
+    lng: -84.3385412
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Rockcastle.aspx
+    kind: courthouse
+
+  - id: ky-rowan-courthouse
+    state: KY
+    county: Rowan
+    name: "Rowan County District Court"
+    address: "700 W. Main St., Morehead, KY 40351"
+    lat: 38.174562
+    lng: -83.439687
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Rowan.aspx
+    kind: courthouse
+
+  - id: ky-russell-courthouse
+    state: KY
+    county: Russell
+    name: "Russell County District Court"
+    address: "202 Monument Square, Jamestown, KY 42629"
+    lat: 36.984392
+    lng: -85.062818
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Russell.aspx
+    kind: courthouse
+
+  - id: ky-scott-courthouse
+    state: KY
+    county: Scott
+    name: "Scott County District Court"
+    address: "119 N. Hamilton St., Georgetown, KY 40324"
+    lat: 38.2107276
+    lng: -84.5582582
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Scott.aspx
+    kind: courthouse
+
+  - id: ky-shelby-courthouse
+    state: KY
+    county: Shelby
+    name: "Shelby County District Court"
+    address: "401 Main St., Shelbyville, KY 40065"
+    lat: 38.2112093
+    lng: -85.214555
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Shelby.aspx
+    kind: courthouse
+
+  - id: ky-simpson-courthouse
+    state: KY
+    county: Simpson
+    name: "Simpson County District Court"
+    address: "101 N. Court St., Franklin, KY 42134"
+    lat: 38.2520423
+    lng: -84.8633812
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Simpson.aspx
+    kind: courthouse
+
+  - id: ky-spencer-courthouse
+    state: KY
+    county: Spencer
+    name: "Spencer County District Court"
+    address: "27 E. Main St., Taylorsville, KY 40071"
+    lat: 38.0320607
+    lng: -85.3403209
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Spencer.aspx
+    kind: courthouse
+
+  - id: ky-taylor-courthouse
+    state: KY
+    county: Taylor
+    name: "Taylor County District Court"
+    address: "300 E. Main St., Campbellsville, KY 42718"
+    lat: 37.341422
+    lng: -85.343111
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Taylor.aspx
+    kind: courthouse
+
+  - id: ky-todd-courthouse
+    state: KY
+    county: Todd
+    name: "Todd County District Court"
+    address: "204 W. Main St., Elkton, KY 42220"
+    lat: 36.8098303
+    lng: -87.1553004
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Todd.aspx
+    kind: courthouse
+
+  - id: ky-trigg-courthouse
+    state: KY
+    county: Trigg
+    name: "Trigg County District Court"
+    address: "41 Main St., Cadiz, KY 42211"
+    lat: 36.8622896
+    lng: -87.8373445
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Trigg.aspx
+    kind: courthouse
+
+  - id: ky-trimble-courthouse
+    state: KY
+    county: Trimble
+    name: "Trimble County District Court"
+    address: "30 Highway 42 East, Bedford, KY 40006"
+    lat: 38.592563
+    lng: -85.3177344
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Trimble.aspx
+    kind: courthouse
+
+  - id: ky-union-courthouse
+    state: KY
+    county: Union
+    name: "Union County District Court"
+    address: "121 S. Morgan St., Morganfield, KY 42437"
+    lat: 37.6831778
+    lng: -87.9173084
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Union.aspx
+    kind: courthouse
+
+  - id: ky-warren-courthouse
+    state: KY
+    county: Warren
+    name: "Warren County District Court"
+    address: "1001 Center St., Bowling Green, KY 42101"
+    lat: 36.9944322
+    lng: -86.4441378
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Warren.aspx
+    kind: courthouse
+
+  - id: ky-washington-courthouse
+    state: KY
+    county: Washington
+    name: "Washington County District Court"
+    address: "100 E. Main St., Springfield, KY 40069"
+    lat: 37.685095
+    lng: -85.221872
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Washington.aspx
+    kind: courthouse
+
+  - id: ky-wayne-courthouse
+    state: KY
+    county: Wayne
+    name: "Wayne County District Court"
+    address: "100 W. Columbia Ave., Monticello, KY 42633"
+    lat: 36.831786
+    lng: -84.8519251
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Wayne.aspx
+    kind: courthouse
+
+  - id: ky-webster-courthouse
+    state: KY
+    county: Webster
+    name: "Webster County District Court"
+    address: "35 U.S. Highway 41A South, Dixon, KY 42409"
+    lat: 37.5178218
+    lng: -87.6902886
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Webster.aspx
+    kind: courthouse
+
+  - id: ky-whitley-courthouse
+    state: KY
+    county: Whitley
+    name: "Whitley County District Court"
+    address: "100 Main St., Williamsburg, KY 40769"
+    lat: 36.742731
+    lng: -84.159939
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Whitley.aspx
+    kind: courthouse
+
+  - id: ky-wolfe-courthouse
+    state: KY
+    county: Wolfe
+    name: "Wolfe County District Court"
+    address: "133 Main St., Campton, KY 41301"
+    lat: 37.7346618
+    lng: -83.5455487
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Wolfe.aspx
+    kind: courthouse
+
+  - id: ky-woodford-courthouse
+    state: KY
+    county: Woodford
+    name: "Woodford County District Court"
+    address: "130 Court St., Versailles, KY 40383"
+    lat: 38.0530179
+    lng: -84.7307432
+    url: https://www.kycourts.gov/Courts/County-Information/Pages/Woodford.aspx
+    kind: courthouse

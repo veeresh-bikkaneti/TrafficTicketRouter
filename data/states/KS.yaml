@@ -1,0 +1,2318 @@
+# Kansas — District Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: KS
+state_name: Kansas
+last_verified: "2026-09-21"
+official_hosts:
+  - kscourts.gov
+counties:
+  - name: Allen
+    note: "Traffic venue is the District Court."
+  - name: Anderson
+    note: "Traffic venue is the District Court."
+  - name: Atchison
+    note: "Traffic venue is the District Court."
+  - name: Barber
+    note: "Traffic venue is the District Court."
+  - name: Barton
+    note: "Traffic venue is the District Court."
+  - name: Bourbon
+    note: "Traffic venue is the District Court."
+  - name: Brown
+    note: "Traffic venue is the District Court."
+  - name: Butler
+    note: "Traffic venue is the District Court."
+  - name: Chase
+    note: "Traffic venue is the District Court."
+  - name: Chautauqua
+    note: "Traffic venue is the District Court."
+  - name: Cherokee
+    note: "Traffic venue is the District Court."
+  - name: Cheyenne
+    note: "Traffic venue is the District Court."
+  - name: Clark
+    note: "Traffic venue is the District Court."
+  - name: Clay
+    note: "Traffic venue is the District Court."
+  - name: Cloud
+    note: "Traffic venue is the District Court."
+  - name: Coffey
+    note: "Traffic venue is the District Court."
+  - name: Comanche
+    note: "Traffic venue is the District Court."
+  - name: Cowley
+    note: "Traffic venue is the District Court."
+  - name: Crawford
+    note: "Traffic venue is the District Court."
+  - name: Decatur
+    note: "Traffic venue is the District Court."
+  - name: Dickinson
+    note: "Traffic venue is the District Court."
+  - name: Doniphan
+    note: "Traffic venue is the District Court."
+  - name: Douglas
+    note: "Traffic venue is the District Court."
+  - name: Edwards
+    note: "Traffic venue is the District Court."
+  - name: Elk
+    note: "Traffic venue is the District Court."
+  - name: Ellis
+    note: "Traffic venue is the District Court."
+  - name: Ellsworth
+    note: "Traffic venue is the District Court."
+  - name: Finney
+    note: "Traffic venue is the District Court."
+  - name: Ford
+    note: "Traffic venue is the District Court."
+  - name: Franklin
+    note: "Traffic venue is the District Court."
+  - name: Geary
+    note: "Traffic venue is the District Court."
+  - name: Gove
+    note: "Traffic venue is the District Court."
+  - name: Graham
+    note: "Traffic venue is the District Court."
+  - name: Grant
+    note: "Traffic venue is the District Court."
+  - name: Gray
+    note: "Traffic venue is the District Court."
+  - name: Greeley
+    note: "Traffic venue is the District Court."
+  - name: Greenwood
+    note: "Traffic venue is the District Court."
+  - name: Hamilton
+    note: "Traffic venue is the District Court."
+  - name: Harper
+    note: "Traffic venue is the District Court."
+  - name: Harvey
+    note: "Traffic venue is the District Court."
+  - name: Haskell
+    note: "Traffic venue is the District Court."
+  - name: Hodgeman
+    note: "Traffic venue is the District Court."
+  - name: Jackson
+    note: "Traffic venue is the District Court."
+  - name: Jefferson
+    note: "Traffic venue is the District Court."
+  - name: Jewell
+    note: "Traffic venue is the District Court."
+  - name: Johnson
+    note: "Traffic venue is the District Court."
+  - name: Kearny
+    note: "Traffic venue is the District Court."
+  - name: Kingman
+    note: "Traffic venue is the District Court."
+  - name: Kiowa
+    note: "Traffic venue is the District Court."
+  - name: Labette
+    note: "Traffic venue is the District Court."
+  - name: Lane
+    note: "Traffic venue is the District Court."
+  - name: Leavenworth
+    note: "Traffic venue is the District Court."
+  - name: Lincoln
+    note: "Traffic venue is the District Court."
+  - name: Linn
+    note: "Traffic venue is the District Court."
+  - name: Logan
+    note: "Traffic venue is the District Court."
+  - name: Lyon
+    note: "Traffic venue is the District Court."
+  - name: Marion
+    note: "Traffic venue is the District Court."
+  - name: Marshall
+    note: "Traffic venue is the District Court."
+  - name: McPherson
+    note: "Traffic venue is the District Court."
+  - name: Meade
+    note: "Traffic venue is the District Court."
+  - name: Miami
+    note: "Traffic venue is the District Court."
+  - name: Mitchell
+    note: "Traffic venue is the District Court."
+  - name: Montgomery
+    note: "Traffic venue is the District Court."
+  - name: Morris
+    note: "Traffic venue is the District Court."
+  - name: Morton
+    note: "Traffic venue is the District Court."
+  - name: Nemaha
+    note: "Traffic venue is the District Court."
+  - name: Neosho
+    note: "Traffic venue is the District Court."
+  - name: Ness
+    note: "Traffic venue is the District Court."
+  - name: Norton
+    note: "Traffic venue is the District Court."
+  - name: Osage
+    note: "Traffic venue is the District Court."
+  - name: Osborne
+    note: "Traffic venue is the District Court."
+  - name: Ottawa
+    note: "Traffic venue is the District Court."
+  - name: Pawnee
+    note: "Traffic venue is the District Court."
+  - name: Phillips
+    note: "Traffic venue is the District Court."
+  - name: Pottawatomie
+    note: "Traffic venue is the District Court."
+  - name: Pratt
+    note: "Traffic venue is the District Court."
+  - name: Rawlins
+    note: "Traffic venue is the District Court."
+  - name: Reno
+    note: "Traffic venue is the District Court."
+  - name: Republic
+    note: "Traffic venue is the District Court."
+  - name: Rice
+    note: "Traffic venue is the District Court."
+  - name: Riley
+    note: "Traffic venue is the District Court."
+  - name: Rooks
+    note: "Traffic venue is the District Court."
+  - name: Rush
+    note: "Traffic venue is the District Court."
+  - name: Russell
+    note: "Traffic venue is the District Court."
+  - name: Saline
+    note: "Traffic venue is the District Court."
+  - name: Scott
+    note: "Traffic venue is the District Court."
+  - name: Sedgwick
+    note: "Traffic venue is the District Court."
+  - name: Seward
+    note: "Traffic venue is the District Court."
+  - name: Shawnee
+    note: "Traffic venue is the District Court."
+  - name: Sheridan
+    note: "Traffic venue is the District Court."
+  - name: Sherman
+    note: "Traffic venue is the District Court."
+  - name: Smith
+    note: "Traffic venue is the District Court."
+  - name: Stafford
+    note: "Traffic venue is the District Court."
+  - name: Stanton
+    note: "Traffic venue is the District Court."
+  - name: Stevens
+    note: "Traffic venue is the District Court."
+  - name: Sumner
+    note: "Traffic venue is the District Court."
+  - name: Thomas
+    note: "Traffic venue is the District Court."
+  - name: Trego
+    note: "Traffic venue is the District Court."
+  - name: Wabaunsee
+    note: "Traffic venue is the District Court."
+  - name: Wallace
+    note: "Traffic venue is the District Court."
+  - name: Washington
+    note: "Traffic venue is the District Court."
+  - name: Wichita
+    note: "Traffic venue is the District Court."
+  - name: Wilson
+    note: "Traffic venue is the District Court."
+  - name: Woodson
+    note: "Traffic venue is the District Court."
+  - name: Wyandotte
+    note: "Traffic venue is the District Court."
+cards:
+  - id: ks-allen-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allen County District Court"
+    contact: "Phone 620-365-1425."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allen
+    weight: 10
+
+  - id: ks-anderson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Anderson County District Court"
+    contact: "Phone 785-448-6886."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Anderson
+    weight: 10
+
+  - id: ks-atchison-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/1st-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Atchison County District Court"
+    contact: "Phone 913-804-6060."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Atchison
+    weight: 10
+
+  - id: ks-barber-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Barber County District Court"
+    contact: "Phone 620-886-5639."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barber
+    weight: 10
+
+  - id: ks-barton-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Barton County District Court"
+    contact: "Phone 620-793-1856."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barton
+    weight: 10
+
+  - id: ks-bourbon-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bourbon County District Court"
+    contact: "Phone 620-223-0780."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bourbon
+    weight: 10
+
+  - id: ks-brown-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Brown County District Court"
+    contact: "Phone 785-742-7481."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 10
+
+  - id: ks-butler-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Butler County District Court"
+    contact: "Phone 316-322-4370."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 10
+
+  - id: ks-chase-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/5th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chase County District Court"
+    contact: "Phone 620-273-6319."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chase
+    weight: 10
+
+  - id: ks-chautauqua-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/14th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chautauqua County District Court"
+    contact: "Phone 620-725-5870."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chautauqua
+    weight: 10
+
+  - id: ks-cherokee-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cherokee County District Court"
+    contact: "Phone 620-429-9500."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cherokee
+    weight: 10
+
+  - id: ks-cheyenne-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cheyenne County District Court"
+    contact: "Phone 785-332-8850."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cheyenne
+    weight: 10
+
+  - id: ks-clark-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County District Court"
+    contact: "Phone 620-635-2753."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: ks-clay-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/21st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County District Court"
+    contact: "Phone 785-632-3443."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: ks-cloud-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cloud County District Court"
+    contact: "Phone 785-243-8124."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cloud
+    weight: 10
+
+  - id: ks-coffey-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Coffey County District Court"
+    contact: "Phone 620-364-8628."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coffey
+    weight: 10
+
+  - id: ks-comanche-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Comanche County District Court"
+    contact: "Phone 620-582-2182."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Comanche
+    weight: 10
+
+  - id: ks-cowley-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/19th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cowley County District Court"
+    contact: "Phone 620-221-5470."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cowley
+    weight: 10
+
+  - id: ks-crawford-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crawford County District Court"
+    contact: "Phone 620-231-0380."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: ks-decatur-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Decatur County District Court"
+    contact: "Phone 785-475-8107."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Decatur
+    weight: 10
+
+  - id: ks-dickinson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dickinson County District Court"
+    contact: "Phone 785-263-3142."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickinson
+    weight: 10
+
+  - id: ks-doniphan-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Doniphan County District Court"
+    contact: "Phone 785-985-3582."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Doniphan
+    weight: 10
+
+  - id: ks-douglas-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/7th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Douglas County District Court"
+    contact: "Phone 785-832-5256."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: ks-edwards-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Edwards County District Court"
+    contact: "Phone 620-659-2442."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edwards
+    weight: 10
+
+  - id: ks-elk-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Elk County District Court"
+    contact: "Phone 620-374-2370."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elk
+    weight: 10
+
+  - id: ks-ellis-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ellis County District Court"
+    contact: "Phone 785-628-9415."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ellis
+    weight: 10
+
+  - id: ks-ellsworth-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ellsworth County District Court"
+    contact: "Phone 785-472-4052."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ellsworth
+    weight: 10
+
+  - id: ks-finney-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Finney County District Court"
+    contact: "Phone 620-271-6120."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Finney
+    weight: 10
+
+  - id: ks-ford-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ford County District Court"
+    contact: "Phone 620-227-4609."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ford
+    weight: 10
+
+  - id: ks-franklin-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County District Court"
+    contact: "Phone 785-242-6000."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ks-geary-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Geary County District Court"
+    contact: "Phone 785-762-5221."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Geary
+    weight: 10
+
+  - id: ks-gove-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gove County District Court"
+    contact: "Phone 785-938-2310."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gove
+    weight: 10
+
+  - id: ks-graham-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Graham County District Court"
+    contact: "Phone 785-421-3458."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Graham
+    weight: 10
+
+  - id: ks-grant-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    contact: "Phone 620-356-1526."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: ks-gray-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gray County District Court"
+    contact: "Phone 620-855-3812."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gray
+    weight: 10
+
+  - id: ks-greeley-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greeley County District Court"
+    contact: "Phone 620-272-3652."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greeley
+    weight: 10
+
+  - id: ks-greenwood-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greenwood County District Court"
+    contact: "Phone 620-583-8153."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greenwood
+    weight: 10
+
+  - id: ks-hamilton-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hamilton County District Court"
+    contact: "Phone 620-384-5159."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: ks-harper-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harper County District Court"
+    contact: "Phone 620-842-3721."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harper
+    weight: 10
+
+  - id: ks-harvey-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/9th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Harvey County District Court"
+    contact: "Phone 316-284-6824."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harvey
+    weight: 10
+
+  - id: ks-haskell-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Haskell County District Court"
+    contact: "Phone 620-675-2671."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Haskell
+    weight: 10
+
+  - id: ks-hodgeman-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hodgeman County District Court"
+    contact: "Phone 620-357-6522."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hodgeman
+    weight: 10
+
+  - id: ks-jackson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County District Court"
+    contact: "Phone 785-364-2191."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ks-jefferson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County District Court"
+    contact: "Phone 785-863-2461."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ks-jewell-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jewell County District Court"
+    contact: "Phone 785-378-4030."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jewell
+    weight: 10
+
+  - id: ks-johnson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/10th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnson County District Court"
+    contact: "Phone 913-715-3500."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: ks-kearny-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kearny County District Court"
+    contact: "Phone 620-271-6254."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kearny
+    weight: 10
+
+  - id: ks-kingman-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kingman County District Court"
+    contact: "Phone 620-532-5151."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kingman
+    weight: 10
+
+  - id: ks-kiowa-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kiowa County District Court"
+    contact: "Phone 620-723-3317."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kiowa
+    weight: 10
+
+  - id: ks-labette-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Labette County District Court"
+    contact: "Phone 620-421-4120."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Labette
+    weight: 10
+
+  - id: ks-lane-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lane County District Court"
+    contact: "Phone 620-397-2805."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lane
+    weight: 10
+
+  - id: ks-leavenworth-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/1st-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Leavenworth County District Court"
+    contact: "Phone 913-684-0700."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Leavenworth
+    weight: 10
+
+  - id: ks-lincoln-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County District Court"
+    contact: "Phone 785-524-4057."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: ks-linn-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Linn County District Court"
+    contact: "Phone 913-795-2660."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Linn
+    weight: 10
+
+  - id: ks-logan-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County District Court"
+    contact: "Phone 785-671-3654."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: ks-lyon-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/5th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lyon County District Court"
+    contact: "Phone 620-341-3280."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lyon
+    weight: 10
+
+  - id: ks-marion-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County District Court"
+    contact: "Phone 620-382-2104."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: ks-marshall-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marshall County District Court"
+    contact: "Phone 785-562-5301."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: ks-mcpherson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/9th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McPherson County District Court"
+    contact: "Phone 620-241-3422."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McPherson
+    weight: 10
+
+  - id: ks-meade-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Meade County District Court"
+    contact: "Phone 620-873-8750."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meade
+    weight: 10
+
+  - id: ks-miami-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Miami County District Court"
+    contact: "Phone 913-294-3326."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miami
+    weight: 10
+
+  - id: ks-mitchell-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mitchell County District Court"
+    contact: "Phone 785-738-3753."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mitchell
+    weight: 10
+
+  - id: ks-montgomery-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/14th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County District Court"
+    contact: "Phone 620-330-1070."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: ks-morris-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morris County District Court"
+    contact: "Phone 620-767-6838."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morris
+    weight: 10
+
+  - id: ks-morton-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morton County District Court"
+    contact: "Phone 620-697-2563."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morton
+    weight: 10
+
+  - id: ks-nemaha-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nemaha County District Court"
+    contact: "Phone 785-336-2170."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nemaha
+    weight: 10
+
+  - id: ks-neosho-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Neosho County District Court"
+    contact: "Phone 620-431-5700."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Neosho
+    weight: 10
+
+  - id: ks-ness-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ness County District Court"
+    contact: "Phone 785-798-3693."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ness
+    weight: 10
+
+  - id: ks-norton-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Norton County District Court"
+    contact: "Phone 785-877-5720."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Norton
+    weight: 10
+
+  - id: ks-osage-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Osage County District Court"
+    contact: "Phone 785-828-4713."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osage
+    weight: 10
+
+  - id: ks-osborne-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Osborne County District Court"
+    contact: "Phone 785-346-5911."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osborne
+    weight: 10
+
+  - id: ks-ottawa-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/28th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ottawa County District Court"
+    contact: "Phone 785-392-2917."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ottawa
+    weight: 10
+
+  - id: ks-pawnee-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pawnee County District Court"
+    contact: "Phone 620-285-6937."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pawnee
+    weight: 10
+
+  - id: ks-phillips-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Phillips County District Court"
+    contact: "Phone 785-543-6830."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Phillips
+    weight: 10
+
+  - id: ks-pottawatomie-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pottawatomie County District Court"
+    contact: "Phone 785-457-3392."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pottawatomie
+    weight: 10
+
+  - id: ks-pratt-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pratt County District Court"
+    contact: "Phone 620-672-4100."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pratt
+    weight: 10
+
+  - id: ks-rawlins-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rawlins County District Court"
+    contact: "Phone 785-626-3465."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rawlins
+    weight: 10
+
+  - id: ks-reno-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/27th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Reno County District Court"
+    contact: "Phone 620-694-2956."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Reno
+    weight: 10
+
+  - id: ks-republic-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Republic County District Court"
+    contact: "Phone 785-527-7234."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Republic
+    weight: 10
+
+  - id: ks-rice-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rice County District Court"
+    contact: "Phone 620-257-2383."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rice
+    weight: 10
+
+  - id: ks-riley-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/21st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Riley County District Court"
+    contact: "Phone 785-537-6364."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Riley
+    weight: 10
+
+  - id: ks-rooks-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rooks County District Court"
+    contact: "Phone 785-425-6718."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rooks
+    weight: 10
+
+  - id: ks-rush-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rush County District Court"
+    contact: "Phone 785-222-2718."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rush
+    weight: 10
+
+  - id: ks-russell-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Russell County District Court"
+    contact: "Phone 785-483-5641."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Russell
+    weight: 10
+
+  - id: ks-saline-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/28th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saline County District Court"
+    contact: "Phone 785-309-5831."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saline
+    weight: 10
+
+  - id: ks-scott-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Scott County District Court"
+    contact: "Phone 620-260-2552."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: ks-sedgwick-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/18th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sedgwick County District Court"
+    contact: "Phone 316-660-5801."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sedgwick
+    weight: 10
+
+  - id: ks-seward-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Seward County District Court"
+    contact: "Phone 620-626-3375."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Seward
+    weight: 10
+
+  - id: ks-shawnee-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/3rd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Shawnee County District Court"
+    contact: "Phone 785-251-6700."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shawnee
+    weight: 10
+
+  - id: ks-sheridan-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sheridan County District Court"
+    contact: "Phone 785-675-3451."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sheridan
+    weight: 10
+
+  - id: ks-sherman-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sherman County District Court"
+    contact: "Phone 785-890-4850."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sherman
+    weight: 10
+
+  - id: ks-smith-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Smith County District Court"
+    contact: "Phone 785-282-5140."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Smith
+    weight: 10
+
+  - id: ks-stafford-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stafford County District Court"
+    contact: "Phone 620-549-3295."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stafford
+    weight: 10
+
+  - id: ks-stanton-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stanton County District Court"
+    contact: "Phone 620-492-2180."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stanton
+    weight: 10
+
+  - id: ks-stevens-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stevens County District Court"
+    contact: "Phone 620-544-2484."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stevens
+    weight: 10
+
+  - id: ks-sumner-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sumner County District Court"
+    contact: "Phone 620-326-5936."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sumner
+    weight: 10
+
+  - id: ks-thomas-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Thomas County District Court"
+    contact: "Phone 785-460-4540."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Thomas
+    weight: 10
+
+  - id: ks-trego-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Trego County District Court"
+    contact: "Phone 785-743-2148."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trego
+    weight: 10
+
+  - id: ks-wabaunsee-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wabaunsee County District Court"
+    contact: "Phone 785-765-2406."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wabaunsee
+    weight: 10
+
+  - id: ks-wallace-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wallace County District Court"
+    contact: "Phone 785-995-4289."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wallace
+    weight: 10
+
+  - id: ks-washington-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County District Court"
+    contact: "Phone 785-325-2381."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ks-wichita-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wichita County District Court"
+    contact: "Phone 620-260-2560."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wichita
+    weight: 10
+
+  - id: ks-wilson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wilson County District Court"
+    contact: "Phone 620-378-4533."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wilson
+    weight: 10
+
+  - id: ks-woodson-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Woodson County District Court"
+    contact: "Phone 620-625-8610."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodson
+    weight: 10
+
+  - id: ks-wyandotte-court
+    verification: link_ok
+    source_url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/29th-Judicial-District"
+    verification_note: "Resolves with a 200; the site varies the case of 'Judicial' in the district path across districts — the URL used is the server's effective URL."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wyandotte County District Court"
+    contact: "Phone 913-573-2940."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on kscourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the District Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wyandotte
+    weight: 10

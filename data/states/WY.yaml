@@ -1,0 +1,491 @@
+# Wyoming — Circuit Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: WY
+state_name: Wyoming
+last_verified: "2026-09-21"
+official_hosts:
+  - wyocourts.gov
+counties:
+  - name: Albany
+    note: "Traffic venue is the Circuit Court."
+  - name: Big Horn
+    note: "Traffic venue is the Circuit Court."
+  - name: Campbell
+    note: "Traffic venue is the Circuit Court."
+  - name: Carbon
+    note: "Traffic venue is the Circuit Court."
+  - name: Converse
+    note: "Traffic venue is the Circuit Court."
+  - name: Crook
+    note: "Traffic venue is the Circuit Court."
+  - name: Fremont
+    note: "Traffic venue is the Circuit Court."
+  - name: Goshen
+    note: "Traffic venue is the Circuit Court."
+  - name: Hot Springs
+    note: "Traffic venue is the Circuit Court."
+  - name: Johnson
+    note: "Traffic venue is the Circuit Court."
+  - name: Laramie
+    note: "Traffic venue is the Circuit Court."
+  - name: Lincoln
+    note: "Traffic venue is the Circuit Court."
+  - name: Natrona
+    note: "Traffic venue is the Circuit Court."
+  - name: Niobrara
+    note: "Traffic venue is the Circuit Court."
+  - name: Park
+    note: "Traffic venue is the Circuit Court."
+  - name: Platte
+    note: "Traffic venue is the Circuit Court."
+  - name: Sheridan
+    note: "Traffic venue is the Circuit Court."
+  - name: Sublette
+    note: "Traffic venue is the Circuit Court."
+  - name: Sweetwater
+    note: "Traffic venue is the Circuit Court."
+  - name: Teton
+    note: "Traffic venue is the Circuit Court."
+  - name: Uinta
+    note: "Traffic venue is the Circuit Court."
+  - name: Washakie
+    note: "Traffic venue is the Circuit Court."
+  - name: Weston
+    note: "Traffic venue is the Circuit Court."
+cards:
+  - id: wy-albany-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-2nd-judicial-district-albany-county-state-of-wyoming-laramie/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Albany County Circuit Court"
+    contact: "Phone 307-742-5747."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Albany
+    weight: 10
+
+  - id: wy-big-horn-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-big-horn-county-state-of-wyoming-basin/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Big Horn County Circuit Court"
+    contact: "Phone 307-568-2367."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Big Horn
+    weight: 10
+
+  - id: wy-campbell-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-campbell-county-state-of-wyoming-gillette/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Campbell County Circuit Court"
+    contact: "Phone 307-682-2190."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Campbell
+    weight: 10
+
+  - id: wy-carbon-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-2nd-judicial-district-carbon-county-state-of-wyoming-rawlins/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carbon County Circuit Court"
+    contact: "Phone 307-324-6655."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carbon
+    weight: 10
+
+  - id: wy-converse-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-converse-county-state-of-wyoming-douglas/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Converse County Circuit Court"
+    contact: "Phone 307-358-2196."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Converse
+    weight: 10
+
+  - id: wy-crook-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-crook-county-state-of-wyoming-sundance/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crook County Circuit Court"
+    contact: "Phone 307-283-2929."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crook
+    weight: 10
+
+  - id: wy-fremont-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-fremont-county-state-of-wyoming-lander/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fremont County Circuit Court"
+    contact: "Phone 307-332-3239."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fremont
+    weight: 10
+
+  - id: wy-goshen-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-goshen-county-state-of-wyoming-torrington/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Goshen County Circuit Court"
+    contact: "Phone 307-532-2938."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Goshen
+    weight: 10
+
+  - id: wy-hot-springs-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-hot-springs-county-state-of-wyoming-thermopolis/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hot Springs County Circuit Court"
+    contact: "Phone 307-864-5161."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hot Springs
+    weight: 10
+
+  - id: wy-johnson-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-4th-judicial-district-johnson-county-state-of-wyoming-buffalo/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnson County Circuit Court"
+    contact: "Phone 307-684-5720."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: wy-laramie-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-1st-judicial-district-laramie-county-state-of-wyoming-cheyenne/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Laramie County Circuit Court"
+    contact: "Phone 307-633-4298."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Laramie
+    weight: 10
+
+  - id: wy-lincoln-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-lincoln-county-state-of-wyoming-kemmerer/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Circuit Court"
+    contact: "Phone 307-877-4431."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: wy-natrona-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-7th-judicial-district-natrona-county-state-of-wyoming-casper/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Natrona County Circuit Court"
+    contact: "Phone 307-235-9266."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Natrona
+    weight: 10
+
+  - id: wy-niobrara-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-niobrara-county-state-of-wyoming-lusk/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Niobrara County Circuit Court"
+    contact: "Phone 307-334-2049."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Niobrara
+    weight: 10
+
+  - id: wy-park-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-park-county-state-of-wyoming-cody/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Park County Circuit Court"
+    contact: "Phone 307-527-8590."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Park
+    weight: 10
+
+  - id: wy-platte-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-8th-judicial-district-platte-county-state-of-wyoming-wheatland/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Platte County Circuit Court"
+    contact: "Phone 307-322-3441."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Platte
+    weight: 10
+
+  - id: wy-sheridan-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-4th-judicial-district-sheridan-county-state-of-wyoming-sheridan/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sheridan County Circuit Court"
+    contact: "Phone 307-674-2940."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sheridan
+    weight: 10
+
+  - id: wy-sublette-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-sublette-county-state-of-wyoming-pinedale/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sublette County Circuit Court"
+    contact: "Phone 307-367-2556."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sublette
+    weight: 10
+
+  - id: wy-sweetwater-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-sweetwater-county-state-of-wyoming-rock-springs/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sweetwater County Circuit Court"
+    contact: "Phone 307-922-5220."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sweetwater
+    weight: 10
+
+  - id: wy-teton-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-9th-judicial-district-teton-county-state-of-wyoming-jackson/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Teton County Circuit Court"
+    contact: "Phone 307-733-7713."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Teton
+    weight: 10
+
+  - id: wy-uinta-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-uinta-county-state-of-wyoming-evanston/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Uinta County Circuit Court"
+    contact: "Phone 307-789-2471."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Uinta
+    weight: 10
+
+  - id: wy-washakie-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-5th-judicial-district-washakie-county-state-of-wyoming-worland/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washakie County Circuit Court"
+    contact: "Phone 307-347-2702."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washakie
+    weight: 10
+
+  - id: wy-weston-court
+    verification: link_ok
+    source_url: "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-weston-county-state-of-wyoming-newcastle/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Weston County Circuit Court"
+    contact: "Phone 307-746-3547."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on wyocourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Circuit Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Weston
+    weight: 10

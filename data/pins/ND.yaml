@@ -1,0 +1,534 @@
+# North Dakota courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/ND.yaml — never invented.
+pins:
+  - id: nd-adams-courthouse
+    state: ND
+    county: Adams
+    name: "Adams County District Court"
+    address: "602 Adams Avenue, Suite 202, Hettinger, ND 58639"
+    lat: 46.0015825
+    lng: -102.6348915
+    url: "https://www.ndcourts.gov/court-locations/adams-county"
+    kind: courthouse
+
+  - id: nd-barnes-courthouse
+    state: ND
+    county: Barnes
+    name: "Barnes County District Court"
+    address: "230 4th St. NW, Valley City, ND 58072"
+    lat: 46.9233130
+    lng: -98.0031550
+    url: "https://www.ndcourts.gov/court-locations/barnes-county"
+    kind: courthouse
+
+  - id: nd-benson-courthouse
+    state: ND
+    county: Benson
+    name: "Benson County District Court"
+    address: "311 B Ave. S., Minnewaukan, ND 58351"
+    lat: 48.0713880
+    lng: -99.2523570
+    url: "https://www.ndcourts.gov/court-locations/benson-county"
+    kind: courthouse
+
+  - id: nd-billings-courthouse
+    state: ND
+    county: Billings
+    name: "Billings County District Court"
+    address: "495 4th St., Medora, ND 58645"
+    lat: 46.9126584
+    lng: -103.5225707
+    url: "https://www.ndcourts.gov/court-locations/billings-county"
+    kind: courthouse
+
+  - id: nd-bottineau-courthouse
+    state: ND
+    county: Bottineau
+    name: "Bottineau County District Court"
+    address: "314 W. 5th St., Bottineau, ND 58318"
+    lat: 48.8272300
+    lng: -100.4456980
+    url: "https://www.ndcourts.gov/court-locations/bottineau-county"
+    kind: courthouse
+
+  - id: nd-bowman-courthouse
+    state: ND
+    county: Bowman
+    name: "Bowman County District Court"
+    address: "104 1st St. NW, Bowman, ND 58623"
+    lat: 46.1830618
+    lng: -103.3949061
+    url: "https://www.ndcourts.gov/court-locations/bowman-county"
+    kind: courthouse
+
+  - id: nd-burke-courthouse
+    state: ND
+    county: Burke
+    name: "Burke County District Court"
+    address: "103 Main St. NE, Bowbells, ND 58721"
+    lat: 48.8045304
+    lng: -102.2439272
+    url: "https://www.ndcourts.gov/court-locations/burke-county"
+    kind: courthouse
+
+  - id: nd-burleigh-courthouse
+    state: ND
+    county: Burleigh
+    name: "Burleigh County District Court"
+    address: "514 E. Thayer Ave., Bismarck, ND 58501"
+    lat: 46.8076153
+    lng: -100.7842566
+    url: "https://www.ndcourts.gov/court-locations/burleigh-county"
+    kind: courthouse
+
+  - id: nd-cass-courthouse
+    state: ND
+    county: Cass
+    name: "Cass County District Court"
+    address: "211 9th St. S., Fargo, ND 58103"
+    lat: 46.8772290
+    lng: -96.7898210
+    url: "https://www.ndcourts.gov/court-locations/cass-county"
+    kind: courthouse
+
+  - id: nd-cavalier-courthouse
+    state: ND
+    county: Cavalier
+    name: "Cavalier County District Court"
+    address: "901 3rd St.Suite 1, Langdon, ND 58249"
+    lat: 48.7613030
+    lng: -98.3681410
+    url: "https://www.ndcourts.gov/court-locations/cavalier-county"
+    kind: courthouse
+
+  - id: nd-dickey-courthouse
+    state: ND
+    county: Dickey
+    name: "Dickey County District Court"
+    address: "309 N 2nd St. , Ellendale, ND 58436"
+    lat: 46.0027500
+    lng: -98.5270460
+    url: "https://www.ndcourts.gov/court-locations/dickey-county"
+    kind: courthouse
+
+  - id: nd-divide-courthouse
+    state: ND
+    county: Divide
+    name: "Divide County District Court"
+    address: "200 N. Main St., Crosby, ND 58730"
+    lat: 48.9176738
+    lng: -103.2940078
+    url: "https://www.ndcourts.gov/court-locations/divide-county"
+    kind: courthouse
+
+  - id: nd-dunn-courthouse
+    state: ND
+    county: Dunn
+    name: "Dunn County District Court"
+    address: "205 Owens St., Manning, ND 58642"
+    lat: 47.2300150
+    lng: -102.7701850
+    url: "https://www.ndcourts.gov/court-locations/dunn-county"
+    kind: courthouse
+
+  - id: nd-eddy-courthouse
+    state: ND
+    county: Eddy
+    name: "Eddy County District Court"
+    address: "524 Central Ave., New Rockford, ND 58356"
+    lat: 47.6802268
+    lng: -99.1337284
+    url: "https://www.ndcourts.gov/court-locations/eddy-county"
+    kind: courthouse
+
+  - id: nd-emmons-courthouse
+    state: ND
+    county: Emmons
+    name: "Emmons County District Court"
+    address: "100 4th St. NW, Linton, ND 58552"
+    lat: 46.2666570
+    lng: -100.2328920
+    url: "https://www.ndcourts.gov/court-locations/emmons-county"
+    kind: courthouse
+
+  - id: nd-foster-courthouse
+    state: ND
+    county: Foster
+    name: "Foster County District Court"
+    address: "1000 N. Central Ave., Carrington, ND 58421"
+    lat: 47.4520592
+    lng: -99.1262851
+    url: "https://www.ndcourts.gov/court-locations/foster-county"
+    kind: courthouse
+
+  - id: nd-golden-valley-courthouse
+    state: ND
+    county: Golden Valley
+    name: "Golden Valley County District Court"
+    address: "150 1st Ave SE, Beach, ND 58621"
+    lat: 46.9119672
+    lng: -104.0049643
+    url: "https://www.ndcourts.gov/court-locations/golden-valley-county"
+    kind: courthouse
+
+  - id: nd-grand-forks-courthouse
+    state: ND
+    county: Grand Forks
+    name: "Grand Forks County District Court"
+    address: "124 South 4th St., Grand Forks, ND 58201"
+    lat: 47.9232368
+    lng: -97.0295653
+    url: "https://www.ndcourts.gov/court-locations/grand-forks-county"
+    kind: courthouse
+
+  - id: nd-grant-courthouse
+    state: ND
+    county: Grant
+    name: "Grant County District Court"
+    address: "106 2nd Ave, Carson, ND 58529"
+    lat: 46.4216521
+    lng: -101.5653445
+    url: "https://www.ndcourts.gov/court-locations/grant-county"
+    kind: courthouse
+
+  - id: nd-griggs-courthouse
+    state: ND
+    county: Griggs
+    name: "Griggs County District Court"
+    address: "805 Odegard Ave SW, Cooperstown, ND 58425"
+    lat: 47.4415582
+    lng: -98.1251453
+    url: "https://www.ndcourts.gov/court-locations/griggs-county"
+    kind: courthouse
+
+  - id: nd-hettinger-courthouse
+    state: ND
+    county: Hettinger
+    name: "Hettinger County District Court"
+    address: "336 Pacific Ave, Mott, ND 58646"
+    lat: 46.3748831
+    lng: -102.3284642
+    url: "https://www.ndcourts.gov/court-locations/hettinger-county"
+    kind: courthouse
+
+  - id: nd-kidder-courthouse
+    state: ND
+    county: Kidder
+    name: "Kidder County District Court"
+    address: "120 Broadway E, Steele, ND 58482"
+    lat: 46.8548640
+    lng: -99.9148969
+    url: "https://www.ndcourts.gov/court-locations/kidder-county"
+    kind: courthouse
+
+  - id: nd-lamoure-courthouse
+    state: ND
+    county: LaMoure
+    name: "LaMoure County District Court"
+    address: "204 4th Ave NE, Lamoure, ND 58458"
+    lat: 46.3617278
+    lng: -98.2874191
+    url: "https://www.ndcourts.gov/court-locations/lamoure-county"
+    kind: courthouse
+
+  - id: nd-logan-courthouse
+    state: ND
+    county: Logan
+    name: "Logan County District Court"
+    address: "301 Broadway, Napoleon, ND 58561"
+    lat: 46.5032280
+    lng: -99.7689110
+    url: "https://www.ndcourts.gov/court-locations/logan-county"
+    kind: courthouse
+
+  - id: nd-mchenry-courthouse
+    state: ND
+    county: McHenry
+    name: "McHenry County District Court"
+    address: "407 S Main St, Towner, ND 58788"
+    lat: 48.3434708
+    lng: -100.4050591
+    url: "https://www.ndcourts.gov/court-locations/mchenry-county"
+    kind: courthouse
+
+  - id: nd-mcintosh-courthouse
+    state: ND
+    county: McIntosh
+    name: "McIntosh County District Court"
+    address: "112 1st St NE, Ashley, ND 58413"
+    lat: 46.0355938
+    lng: -99.3700886
+    url: "https://www.ndcourts.gov/court-locations/mcintosh-county"
+    kind: courthouse
+
+  - id: nd-mckenzie-courthouse
+    state: ND
+    county: McKenzie
+    name: "McKenzie County District Court"
+    address: "201 5th St NW, Watford City, ND 58854"
+    lat: 47.8024310
+    lng: -103.2885550
+    url: "https://www.ndcourts.gov/court-locations/mckenzie-county"
+    kind: courthouse
+
+  - id: nd-mclean-courthouse
+    state: ND
+    county: McLean
+    name: "McLean County District Court"
+    address: "712 5th Ave, Washburn, ND 58577"
+    lat: 47.2910493
+    lng: -101.0265333
+    url: "https://www.ndcourts.gov/court-locations/mclean-county"
+    kind: courthouse
+
+  - id: nd-mercer-courthouse
+    state: ND
+    county: Mercer
+    name: "Mercer County District Court"
+    address: "410 Van Slyck Ave, Stanton, ND 58571"
+    lat: 47.3241036
+    lng: -101.3791975
+    url: "https://www.ndcourts.gov/court-locations/mercer-county"
+    kind: courthouse
+
+  - id: nd-morton-courthouse
+    state: ND
+    county: Morton
+    name: "Morton County District Court"
+    address: "210 2nd Ave NW, Mandan, ND 58554"
+    lat: 46.8272860
+    lng: -100.8929051
+    url: "https://www.ndcourts.gov/court-locations/morton-county"
+    kind: courthouse
+
+  - id: nd-mountrail-courthouse
+    state: ND
+    county: Mountrail
+    name: "Mountrail County District Court"
+    address: "101 N Main St, Stanley, ND 58784"
+    lat: 48.3211747
+    lng: -102.3917609
+    url: "https://www.ndcourts.gov/court-locations/mountrail-county"
+    kind: courthouse
+
+  - id: nd-nelson-courthouse
+    state: ND
+    county: Nelson
+    name: "Nelson County District Court"
+    address: "210 B Ave W, Suite 203, Lakota, ND 58344"
+    lat: 48.0416313
+    lng: -98.3457150
+    url: "https://www.ndcourts.gov/court-locations/nelson-county"
+    kind: courthouse
+
+  - id: nd-oliver-courthouse
+    state: ND
+    county: Oliver
+    name: "Oliver County District Court"
+    address: "115 W Main St, Center, ND 58530"
+    lat: 47.1153772
+    lng: -101.3019413
+    url: "https://www.ndcourts.gov/court-locations/oliver-county"
+    kind: courthouse
+
+  - id: nd-pembina-courthouse
+    state: ND
+    county: Pembina
+    name: "Pembina County District Court"
+    address: "301 Dakota St. W #10, Cavalier, ND 58220"
+    lat: 48.7917020
+    lng: -97.6256800
+    url: "https://www.ndcourts.gov/court-locations/pembina-county"
+    kind: courthouse
+
+  - id: nd-pierce-courthouse
+    state: ND
+    county: Pierce
+    name: "Pierce County District Court"
+    address: "240 2nd St SE, Suite 8, Rugby, ND 58368"
+    lat: 48.3682960
+    lng: -99.9912253
+    url: "https://www.ndcourts.gov/court-locations/pierce-county"
+    kind: courthouse
+
+  - id: nd-ramsey-courthouse
+    state: ND
+    county: Ramsey
+    name: "Ramsey County District Court"
+    address: "524 4th Ave NE, Unit 4, Devils Lake, ND 58301"
+    lat: 48.1135160
+    lng: -98.8602340
+    url: "https://www.ndcourts.gov/court-locations/ramsey-county"
+    kind: courthouse
+
+  - id: nd-ransom-courthouse
+    state: ND
+    county: Ransom
+    name: "Ransom County District Court"
+    address: "205 5th Ave W, Lisbon, ND 58054"
+    lat: 46.4421342
+    lng: -97.6848208
+    url: "https://www.ndcourts.gov/court-locations/ransom-county"
+    kind: courthouse
+
+  - id: nd-renville-courthouse
+    state: ND
+    county: Renville
+    name: "Renville County District Court"
+    address: "205 Main St E, Mohall, ND 58761"
+    lat: 48.7634970
+    lng: -101.5074961
+    url: "https://www.ndcourts.gov/court-locations/renville-county"
+    kind: courthouse
+
+  - id: nd-richland-courthouse
+    state: ND
+    county: Richland
+    name: "Richland County District Court"
+    address: "418 2nd Ave N, Wahpeton, ND 58075"
+    lat: 46.2650742
+    lng: -96.6058562
+    url: "https://www.ndcourts.gov/court-locations/richland-county"
+    kind: courthouse
+
+  - id: nd-rolette-courthouse
+    state: ND
+    county: Rolette
+    name: "Rolette County District Court"
+    address: "102 2nd St NE, Rolla, ND 58367"
+    lat: 48.8609980
+    lng: -99.6150630
+    url: "https://www.ndcourts.gov/court-locations/rolette-county"
+    kind: courthouse
+
+  - id: nd-sargent-courthouse
+    state: ND
+    county: Sargent
+    name: "Sargent County District Court"
+    address: "355 Main St.Suite 2 , Forman, ND 58032"
+    lat: 46.1061020
+    lng: -97.6362524
+    url: "https://www.ndcourts.gov/court-locations/sargent-county"
+    kind: courthouse
+
+  - id: nd-sheridan-courthouse
+    state: ND
+    county: Sheridan
+    name: "Sheridan County District Court"
+    address: "215 2nd St E, McClusky, ND 58463"
+    lat: 47.4846911
+    lng: -100.4410453
+    url: "https://www.ndcourts.gov/court-locations/sheridan-county"
+    kind: courthouse
+
+  - id: nd-sioux-courthouse
+    state: ND
+    county: Sioux
+    name: "Sioux County District Court"
+    address: "300 2nd Ave, Fort Yates, ND 58538"
+    lat: 46.0864633
+    lng: -100.6307720
+    url: "https://www.ndcourts.gov/court-locations/sioux-county"
+    kind: courthouse
+
+  - id: nd-slope-courthouse
+    state: ND
+    county: Slope
+    name: "Slope County District Court"
+    address: "206 Main St., Amidon, ND 58620"
+    lat: 46.4822738
+    lng: -103.3215036
+    url: "https://www.ndcourts.gov/court-locations/slope-county"
+    kind: courthouse
+
+  - id: nd-stark-courthouse
+    state: ND
+    county: Stark
+    name: "Stark County District Court"
+    address: "51 3rd St E, Dickinson, ND 58601"
+    lat: 46.8818571
+    lng: -102.7843767
+    url: "https://www.ndcourts.gov/court-locations/stark-county"
+    kind: courthouse
+
+  - id: nd-steele-courthouse
+    state: ND
+    county: Steele
+    name: "Steele County District Court"
+    address: "201 Washington Ave. W., Finley, ND 58230"
+    lat: 47.5141277
+    lng: -97.8406687
+    url: "https://www.ndcourts.gov/court-locations/steele-county"
+    kind: courthouse
+
+  - id: nd-stutsman-courthouse
+    state: ND
+    county: Stutsman
+    name: "Stutsman County District Court"
+    address: "511 2nd Ave SE, Jamestown, ND 58401"
+    lat: 46.9039618
+    lng: -98.7066650
+    url: "https://www.ndcourts.gov/court-locations/stutsman-county"
+    kind: courthouse
+
+  - id: nd-towner-courthouse
+    state: ND
+    county: Towner
+    name: "Towner County District Court"
+    address: "315 2nd St, Cando, ND 58324"
+    lat: 48.4929653
+    lng: -99.2062806
+    url: "https://www.ndcourts.gov/court-locations/towner-county"
+    kind: courthouse
+
+  - id: nd-traill-courthouse
+    state: ND
+    county: Traill
+    name: "Traill County District Court"
+    address: "114 W Caledonia Ave, Hillsboro, ND 58045"
+    lat: 47.4035845
+    lng: -97.0637789
+    url: "https://www.ndcourts.gov/court-locations/traill-county"
+    kind: courthouse
+
+  - id: nd-walsh-courthouse
+    state: ND
+    county: Walsh
+    name: "Walsh County District Court"
+    address: "600 Cooper Ave, Grafton, ND 58237"
+    lat: 48.4184000
+    lng: -97.4053880
+    url: "https://www.ndcourts.gov/court-locations/walsh-county"
+    kind: courthouse
+
+  - id: nd-ward-courthouse
+    state: ND
+    county: Ward
+    name: "Ward County District Court"
+    address: "315 3rd St SE, Minot, ND 58701"
+    lat: 48.2330111
+    lng: -101.2879575
+    url: "https://www.ndcourts.gov/court-locations/ward-county"
+    kind: courthouse
+
+  - id: nd-wells-courthouse
+    state: ND
+    county: Wells
+    name: "Wells County District Court"
+    address: "700 Railway St N, Fessenden, ND 58438"
+    lat: 47.6487120
+    lng: -99.6260850
+    url: "https://www.ndcourts.gov/court-locations/wells-county"
+    kind: courthouse
+
+  - id: nd-williams-courthouse
+    state: ND
+    county: Williams
+    name: "Williams County District Court"
+    address: "205 E Broadway, Williston, ND 58802-2047"
+    lat: 48.1469607
+    lng: -103.6183838
+    url: "https://www.ndcourts.gov/court-locations/williams-county"
+    kind: courthouse

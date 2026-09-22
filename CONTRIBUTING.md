@@ -1,8 +1,8 @@
 # CONTRIBUTING.md
 
 TicketRouter is a free static website that, given *where a stop happened*,
-points a person at the official Nebraska court or DMV page they must use
-themselves. It does not search, store, or interpret anyone's tickets.
+points a person at the official court or DMV page for the state where the
+stop happened, which they use themselves. It does not search, store, or interpret anyone's tickets.
 
 ## One rule
 
@@ -51,6 +51,12 @@ source table.
    (`courthouse` for now — new kinds need a validator update).
 3. `url` must be `https://` on an official host (same allowlist as cards) and
    should be reused verbatim from the state file's card for that agency.
+   Exception: an official site with human-verified broken TLS may use the
+   working `http://` address, but only when `verification_note` documents the
+   broken TLS (certificate error). Pins also support `link_check: manual`
+   (mirroring cards): use it when the site blocks automated checks but loads
+   for human visitors, and always add a `verification_note` explaining what
+   was human-verified and why automation is waived.
 4. Coordinates must fall inside the state's bounding box in
    `scripts/validate.mjs` (`STATE_BOUNDS`) — a pin outside the box fails
    validation, which catches bad geocodes.

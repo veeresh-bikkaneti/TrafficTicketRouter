@@ -1,0 +1,1210 @@
+# Montana — Justice Court / City Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: MT
+state_name: Montana
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.mt.gov
+counties:
+  - name: Beaverhead
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Big Horn
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Blaine
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Broadwater
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Carbon
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Carter
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Cascade
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Chouteau
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Custer
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Daniels
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Dawson
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Deer Lodge
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Fallon
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Fergus
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Flathead
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Gallatin
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Garfield
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Glacier
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Golden Valley
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Granite
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Hill
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Jefferson
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Judith Basin
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Lake
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Lewis and Clark
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Liberty
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Lincoln
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Madison
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: McCone
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Meagher
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Mineral
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Missoula
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Musselshell
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Park
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Petroleum
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Phillips
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Pondera
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Powder River
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Powell
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Prairie
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Ravalli
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Richland
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Roosevelt
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Rosebud
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Sanders
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Sheridan
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Silver Bow
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Stillwater
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Sweet Grass
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Teton
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Toole
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Treasure
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Valley
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Wheatland
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Wibaux
+    note: "Traffic venue is the Justice Court / City Court."
+  - name: Yellowstone
+    note: "Traffic venue is the Justice Court / City Court."
+cards:
+  - id: mt-beaverhead-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaverhead County Justice Court"
+    contact: "Phone (406) 683-3755."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaverhead
+    weight: 10
+
+  - id: mt-big-horn-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Big Horn County Justice Court"
+    contact: "Phone (406) 665-9761."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Big Horn
+    weight: 10
+
+  - id: mt-blaine-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blaine County Justice Court"
+    contact: "Phone (406) 357-2335."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blaine
+    weight: 10
+
+  - id: mt-broadwater-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/1stJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Broadwater County Justice Court"
+    contact: "Phone (406) 266-9230."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Broadwater
+    weight: 10
+
+  - id: mt-carbon-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carbon County Justice Court"
+    contact: "Phone (406) 446-1440."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carbon
+    weight: 10
+
+  - id: mt-carter-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carter County Justice Court"
+    contact: "Phone (406) 775-8754."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carter
+    weight: 10
+
+  - id: mt-cascade-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/8thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cascade County Justice Court"
+    contact: "Phone (406) 454-6871."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cascade
+    weight: 10
+
+  - id: mt-chouteau-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chouteau County Justice Court"
+    contact: "Phone (406) 622-5502."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chouteau
+    weight: 10
+
+  - id: mt-custer-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Custer County Justice Court"
+    contact: "Phone (406) 874-3408."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Custer
+    weight: 10
+
+  - id: mt-daniels-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Daniels County Justice Court"
+    contact: "Phone (406) 487-5432."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Daniels
+    weight: 10
+
+  - id: mt-dawson-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dawson County Justice Court"
+    contact: "Phone (406) 377-5425."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dawson
+    weight: 10
+
+  - id: mt-deer-lodge-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Deer Lodge County Justice Court"
+    contact: "Phone (406) 563-4025."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Deer Lodge
+    weight: 10
+
+  - id: mt-fallon-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fallon County Justice Court"
+    contact: "Phone (406) 778-7128."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fallon
+    weight: 10
+
+  - id: mt-fergus-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fergus County Justice Court"
+    contact: "Phone (406) 535-5418."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fergus
+    weight: 10
+
+  - id: mt-flathead-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/11thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Flathead County Justice Court"
+    contact: "Phone (406) 758-5643."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Flathead
+    weight: 10
+
+  - id: mt-gallatin-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/18thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gallatin County Justice Court"
+    contact: "Phone (406) 582-2191."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gallatin
+    weight: 10
+
+  - id: mt-garfield-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garfield County Justice Court"
+    contact: "Phone (406) 557-2733."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "No street address on the official courts.mt.gov page; pin omitted."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garfield
+    weight: 10
+
+  - id: mt-glacier-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Glacier County Justice Court"
+    contact: "Phone (406) 873-3631."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Glacier
+    weight: 10
+
+  - id: mt-golden-valley-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Golden Valley County Justice Court"
+    contact: "Phone (406) 568-2102."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Golden Valley
+    weight: 10
+
+  - id: mt-granite-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Granite County Justice Court"
+    contact: "Phone (406) 859-3006."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Granite
+    weight: 10
+
+  - id: mt-hill-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hill County Justice Court"
+    contact: "Phone (406) 400-2417."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hill
+    weight: 10
+
+  - id: mt-jefferson-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Justice Court"
+    contact: "Phone (406) 225-4055."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: mt-judith-basin-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Judith Basin County Justice Court"
+    contact: "Phone (406) 566-2277."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Judith Basin
+    weight: 10
+
+  - id: mt-lake-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/20thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lake County Justice Court"
+    contact: "Phone (406) 883-7259."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: mt-lewis-and-clark-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/1stJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis and Clark County Justice Court"
+    contact: "Phone (406) 447-8201."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis and Clark
+    weight: 10
+
+  - id: mt-liberty-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Liberty County Justice Court"
+    contact: "Phone (406) 759-5213."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Liberty
+    weight: 10
+
+  - id: mt-lincoln-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/19thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Justice Court"
+    contact: "Phone (406) 283-2411."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: mt-madison-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County Justice Court"
+    contact: "Phone (406) 500-8347."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: mt-mccone-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "McCone County Justice Court"
+    contact: "Phone (406) 485-3548."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McCone
+    weight: 10
+
+  - id: mt-meagher-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Meagher County Justice Court"
+    contact: "Phone (406) 547-3032."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meagher
+    weight: 10
+
+  - id: mt-mineral-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/4thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mineral County Justice Court"
+    contact: "Phone (406) 822-3550."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mineral
+    weight: 10
+
+  - id: mt-missoula-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/4thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Missoula County Justice Court"
+    contact: "Phone (406) 258-3470."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Missoula
+    weight: 10
+
+  - id: mt-musselshell-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Musselshell County Justice Court"
+    contact: "Phone (406) 323-1078."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Musselshell
+    weight: 10
+
+  - id: mt-park-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/6thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Park County Justice Court"
+    contact: "Phone (406) 222-4170."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Park
+    weight: 10
+
+  - id: mt-petroleum-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Petroleum County Justice Court"
+    contact: "Phone (406) 429-5104."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Petroleum
+    weight: 10
+
+  - id: mt-phillips-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Phillips County Justice Court"
+    contact: "Phone (406) 654-1118."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Phillips
+    weight: 10
+
+  - id: mt-pondera-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pondera County Justice Court"
+    contact: "Phone (406) 271-4030."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pondera
+    weight: 10
+
+  - id: mt-powder-river-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Powder River County Justice Court"
+    contact: "Phone (406) 436-2503."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Powder River
+    weight: 10
+
+  - id: mt-powell-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Powell County Justice Court"
+    contact: "Phone (406) 846-9737."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Powell
+    weight: 10
+
+  - id: mt-prairie-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Prairie County Justice Court"
+    contact: "Phone (406) 635-4466."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prairie
+    weight: 10
+
+  - id: mt-ravalli-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/21stJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ravalli County Justice Court"
+    contact: "Phone (406) 375-6765."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ravalli
+    weight: 10
+
+  - id: mt-richland-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Richland County Justice Court"
+    contact: "Phone (406) 433-2815."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 10
+
+  - id: mt-roosevelt-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Roosevelt County Justice Court"
+    contact: "Phone (406) 787-6607."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roosevelt
+    weight: 10
+
+  - id: mt-rosebud-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rosebud County Justice Court"
+    contact: "Phone (406) 346-2638."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rosebud
+    weight: 10
+
+  - id: mt-sanders-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/20thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sanders County Justice Court"
+    contact: "Phone (406) 827-6941."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sanders
+    weight: 10
+
+  - id: mt-sheridan-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sheridan County Justice Court"
+    contact: "Phone (406) 765-3409."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sheridan
+    weight: 10
+
+  - id: mt-silver-bow-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/2ndJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Silver Bow County Justice Court"
+    contact: "Phone (406) 497-6410."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Silver Bow
+    weight: 10
+
+  - id: mt-stillwater-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stillwater County Justice Court"
+    contact: "Phone (406) 332-8040."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stillwater
+    weight: 10
+
+  - id: mt-sweet-grass-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/6thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sweet Grass County Justice Court"
+    contact: "Phone (406) 932-5150."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sweet Grass
+    weight: 10
+
+  - id: mt-teton-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Teton County Justice Court"
+    contact: "Phone (406) 466-5611."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Teton
+    weight: 10
+
+  - id: mt-toole-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Toole County Justice Court"
+    contact: "Phone (406) 424-8315."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Toole
+    weight: 10
+
+  - id: mt-treasure-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Treasure County Justice Court"
+    contact: "Phone (406) 342-5532."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+      - "Pin uses the county courthouse (District Court) street address from the same official district page; the Justice Court lists only a PO box."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Treasure
+    weight: 10
+
+  - id: mt-valley-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Valley County Justice Court"
+    contact: "Phone (406) 228-6271."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Valley
+    weight: 10
+
+  - id: mt-wheatland-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wheatland County Justice Court"
+    contact: "Phone (406) 632-4821."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wheatland
+    weight: 10
+
+  - id: mt-wibaux-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wibaux County Justice Court"
+    contact: "Phone (406) 796-7671."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wibaux
+    weight: 10
+
+  - id: mt-yellowstone-court
+    verification: link_ok
+    source_url: "https://courts.mt.gov/CourtLocator/13thJudicialDistrict"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yellowstone County Justice Court"
+    contact: "Phone (406) 256-2998."
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.mt.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Justice Court / City Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yellowstone
+    weight: 10

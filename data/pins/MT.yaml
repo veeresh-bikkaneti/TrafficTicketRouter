@@ -1,0 +1,664 @@
+# Montana courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/MT.yaml — never invented.
+pins:
+  - id: mt-beaverhead-courthouse
+    state: MT
+    county: Beaverhead
+    name: "Beaverhead County Justice Court"
+    address: "2 South Pacific St., CL#16 Dillon, MT 59725"
+    lat: 45.2121321
+    lng: -112.6393317
+    url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-big-horn-courthouse
+    state: MT
+    county: Big Horn
+    name: "Big Horn County Justice Court"
+    address: "121 3rd St W. Hardin, MT 59034"
+    lat: 45.7314513
+    lng: -107.6077425
+    url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-blaine-courthouse
+    state: MT
+    county: Blaine
+    name: "Blaine County Justice Court"
+    address: "400 Ohio St, Chinook, MT 59523"
+    lat: 48.5916490
+    lng: -109.2293050
+    url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-broadwater-courthouse
+    state: MT
+    county: Broadwater
+    name: "Broadwater County Justice Court"
+    address: "515 Broadway Townsend, MT 59644"
+    lat: 46.3210633
+    lng: -111.5158475
+    url: "https://courts.mt.gov/CourtLocator/1stJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-carbon-courthouse
+    state: MT
+    county: Carbon
+    name: "Carbon County Justice Court"
+    address: "102 North Broadway Red Lodge, MT 59068"
+    lat: 45.1880987
+    lng: -109.2468949
+    url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-carter-courthouse
+    state: MT
+    county: Carter
+    name: "Carter County Justice Court"
+    address: "214 Park St. Ekalaka, MT 59324"
+    lat: 45.8887250
+    lng: -104.5531653
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-cascade-courthouse
+    state: MT
+    county: Cascade
+    name: "Cascade County Justice Court"
+    address: "415 2nd Ave N. Great Falls, MT 59403"
+    lat: 47.5076041
+    lng: -111.3003996
+    url: "https://courts.mt.gov/CourtLocator/8thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-chouteau-courthouse
+    state: MT
+    county: Chouteau
+    name: "Chouteau County Justice Court"
+    address: "1308 Franklin St, Fort Benton, MT 59442"
+    lat: 47.8176041
+    lng: -110.6715728
+    url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-custer-courthouse
+    state: MT
+    county: Custer
+    name: "Custer County Justice Court"
+    address: "1010 Main St. Miles City, MT 59301"
+    lat: 46.4076123
+    lng: -105.8454340
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-daniels-courthouse
+    state: MT
+    county: Daniels
+    name: "Daniels County Justice Court"
+    address: "213 Main St. Scobey, MT 59263"
+    lat: 48.7911936
+    lng: -105.4203923
+    url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-dawson-courthouse
+    state: MT
+    county: Dawson
+    name: "Dawson County Justice Court"
+    address: "207 W. Bell St. Glendive, MT 59330"
+    lat: 47.1054480
+    lng: -104.7158844
+    url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-deer-lodge-courthouse
+    state: MT
+    county: Deer Lodge
+    name: "Deer Lodge County Justice Court"
+    address: "800 South Main Anaconda, MT 59711"
+    lat: 46.1294685
+    lng: -112.9531310
+    url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-fallon-courthouse
+    state: MT
+    county: Fallon
+    name: "Fallon County Justice Court"
+    address: "10 West Fallon st. Baker, MT 59313"
+    lat: 46.3608863
+    lng: -104.2799190
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-fergus-courthouse
+    state: MT
+    county: Fergus
+    name: "Fergus County Justice Court"
+    address: "121 S. 8th Ave Lewiston, MT 59457"
+    lat: 47.0616031
+    lng: -109.4307187
+    url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-flathead-courthouse
+    state: MT
+    county: Flathead
+    name: "Flathead County Justice Court"
+    address: "935 1st Ave. West, Kalispell, MT 59901"
+    lat: 48.1891182
+    lng: -114.3115660
+    url: "https://courts.mt.gov/CourtLocator/11thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-gallatin-courthouse
+    state: MT
+    county: Gallatin
+    name: "Gallatin County Justice Court"
+    address: "515 S. 16th Ave Bozeman, MT 59715"
+    lat: 45.6762554
+    lng: -111.0586806
+    url: "https://courts.mt.gov/CourtLocator/18thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-glacier-courthouse
+    state: MT
+    county: Glacier
+    name: "Glacier County Justice Court"
+    address: "512 East Main St Cut Bank, MT 59427"
+    lat: 48.6328361
+    lng: -112.3263794
+    url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-golden-valley-courthouse
+    state: MT
+    county: Golden Valley
+    name: "Golden Valley County Justice Court"
+    address: "107 Kemp Street, Ryegate, MT 59074"
+    lat: 46.2981470
+    lng: -109.2579380
+    url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-granite-courthouse
+    state: MT
+    county: Granite
+    name: "Granite County Justice Court"
+    address: "220 North Sansome St. Philipsburg, MT 59858"
+    lat: 46.3331821
+    lng: -113.2941654
+    url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-hill-courthouse
+    state: MT
+    county: Hill
+    name: "Hill County Justice Court"
+    address: "315 4th Street Havre, MT 59501"
+    lat: 48.5504643
+    lng: -109.6786092
+    url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-jefferson-courthouse
+    state: MT
+    county: Jefferson
+    name: "Jefferson County Justice Court"
+    address: "108 S. Washington Street Boulder, MT 59632"
+    lat: 46.2335754
+    lng: -112.1221007
+    url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-judith-basin-courthouse
+    state: MT
+    county: Judith Basin
+    name: "Judith Basin County Justice Court"
+    address: "91 N. 3rd St. Stanford, MT 59479"
+    lat: 47.1544793
+    lng: -110.2216554
+    url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-lake-courthouse
+    state: MT
+    county: Lake
+    name: "Lake County Justice Court"
+    address: "106 E. 4th Ave Polson, MT 59860"
+    lat: 47.6922327
+    lng: -114.1615835
+    url: "https://courts.mt.gov/CourtLocator/20thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-lewis-and-clark-courthouse
+    state: MT
+    county: Lewis and Clark
+    name: "Lewis and Clark County Justice Court"
+    address: "228 East Broadway St. Helena, MT 59601"
+    lat: 46.5858928
+    lng: -112.0371660
+    url: "https://courts.mt.gov/CourtLocator/1stJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-liberty-courthouse
+    state: MT
+    county: Liberty
+    name: "Liberty County Justice Court"
+    address: "111 1st Street East, Chester, MT 59522"
+    lat: 48.5109497
+    lng: -110.9643159
+    url: "https://courts.mt.gov/CourtLocator/12thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-lincoln-courthouse
+    state: MT
+    county: Lincoln
+    name: "Lincoln County Justice Court"
+    address: "418 Mineral Ave. Libby, MT 59923"
+    lat: 48.3919328
+    lng: -115.5517960
+    url: "https://courts.mt.gov/CourtLocator/19thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-madison-courthouse
+    state: MT
+    county: Madison
+    name: "Madison County Justice Court"
+    address: "103 W Wallace St Virginia City, MT 59755"
+    lat: 45.2935505
+    lng: -111.9442329
+    url: "https://courts.mt.gov/CourtLocator/5thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-mccone-courthouse
+    state: MT
+    county: McCone
+    name: "McCone County Justice Court"
+    address: "1004 C. Ave Circle, MT 59215"
+    lat: 47.4175751
+    lng: -105.5891403
+    url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-meagher-courthouse
+    state: MT
+    county: Meagher
+    name: "Meagher County Justice Court"
+    address: "15 North Main Street White Sulphur Springs, MT 59645"
+    lat: 46.5480749
+    lng: -110.9034718
+    url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-mineral-courthouse
+    state: MT
+    county: Mineral
+    name: "Mineral County Justice Court"
+    address: "300 River St. Superior, MT 59872"
+    lat: 47.1994461
+    lng: -114.8907868
+    url: "https://courts.mt.gov/CourtLocator/4thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-missoula-courthouse
+    state: MT
+    county: Missoula
+    name: "Missoula County Justice Court"
+    address: "200 W. Broadway St. Missoula, MT 59802"
+    lat: 46.8726940
+    lng: -113.9956500
+    url: "https://courts.mt.gov/CourtLocator/4thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-musselshell-courthouse
+    state: MT
+    county: Musselshell
+    name: "Musselshell County Justice Court"
+    address: "34 3rd Ave. West Roundup, MT 59072"
+    lat: 46.4437411
+    lng: -108.5422576
+    url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-park-courthouse
+    state: MT
+    county: Park
+    name: "Park County Justice Court"
+    address: "414 East Callender St. Livingston, MT 59047"
+    lat: 45.6636121
+    lng: -110.5557626
+    url: "https://courts.mt.gov/CourtLocator/6thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-petroleum-courthouse
+    state: MT
+    county: Petroleum
+    name: "Petroleum County Justice Court"
+    address: "201 E. Main St. Winnett, MT 59087"
+    lat: 47.0039922
+    lng: -108.3411343
+    url: "https://courts.mt.gov/CourtLocator/10thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-phillips-courthouse
+    state: MT
+    county: Phillips
+    name: "Phillips County Justice Court"
+    address: "314 S 2nd Ave W, Malta, MT 59538"
+    lat: 48.3596948
+    lng: -107.8726879
+    url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-pondera-courthouse
+    state: MT
+    county: Pondera
+    name: "Pondera County Justice Court"
+    address: "20 4th Ave, SW Conrad, MT 59425"
+    lat: 48.1659522
+    lng: -111.9575695
+    url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-powder-river-courthouse
+    state: MT
+    county: Powder River
+    name: "Powder River County Justice Court"
+    address: "Courthouse Square, Broadus, MT 59317"
+    lat: 45.4438810
+    lng: -105.4074900
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-powell-courthouse
+    state: MT
+    county: Powell
+    name: "Powell County Justice Court"
+    address: "409 Missouri Ave. - Ste. 205 Deer Lodge, MT 59722"
+    lat: 46.3992660
+    lng: -112.7328560
+    url: "https://courts.mt.gov/CourtLocator/3rdJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-prairie-courthouse
+    state: MT
+    county: Prairie
+    name: "Prairie County Justice Court"
+    address: "217 W. Park St. Terry, MT 59349"
+    lat: 46.7917401
+    lng: -105.3099600
+    url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-ravalli-courthouse
+    state: MT
+    county: Ravalli
+    name: "Ravalli County Justice Court"
+    address: "205 Bedford Hamilton, MT 59840"
+    lat: 46.2441290
+    lng: -114.1578291
+    url: "https://courts.mt.gov/CourtLocator/21stJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-richland-courthouse
+    state: MT
+    county: Richland
+    name: "Richland County Justice Court"
+    address: "300 12th Ave NW, Ste. 6 Sidney, MT 59270"
+    lat: 47.7190578
+    lng: -104.1718753
+    url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-roosevelt-courthouse
+    state: MT
+    county: Roosevelt
+    name: "Roosevelt County Justice Court"
+    address: "400 2nd Ave S Suite 210, Wolf Point, MT 59201"
+    lat: 48.0876416
+    lng: -105.6383154
+    url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-rosebud-courthouse
+    state: MT
+    county: Rosebud
+    name: "Rosebud County Justice Court"
+    address: "1200 Main St, Forsyth, MT 59327"
+    lat: 46.2677703
+    lng: -106.6752130
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-sanders-courthouse
+    state: MT
+    county: Sanders
+    name: "Sanders County Justice Court"
+    address: "1111 W. Main St. Thompson Falls, MT 59873"
+    lat: 47.5950186
+    lng: -115.3496216
+    url: "https://courts.mt.gov/CourtLocator/20thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-sheridan-courthouse
+    state: MT
+    county: Sheridan
+    name: "Sheridan County Justice Court"
+    address: "100 W Laurel Ave Plentywood, MT 59254"
+    lat: 48.7784310
+    lng: -104.5564198
+    url: "https://courts.mt.gov/CourtLocator/15thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-silver-bow-courthouse
+    state: MT
+    county: Silver Bow
+    name: "Silver Bow County Justice Court"
+    address: "155 W. Granite St. Butte, MT 59701"
+    lat: 46.0146819
+    lng: -112.5388173
+    url: "https://courts.mt.gov/CourtLocator/2ndJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-stillwater-courthouse
+    state: MT
+    county: Stillwater
+    name: "Stillwater County Justice Court"
+    address: "400 E. 3rd Ave N. Columbus, MT 59019"
+    lat: 45.6411200
+    lng: -109.2535525
+    url: "https://courts.mt.gov/CourtLocator/22ndJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-sweet-grass-courthouse
+    state: MT
+    county: Sweet Grass
+    name: "Sweet Grass County Justice Court"
+    address: "200 West 1st Ave Big Timber, MT 59011"
+    lat: 45.8343207
+    lng: -109.9570682
+    url: "https://courts.mt.gov/CourtLocator/6thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-teton-courthouse
+    state: MT
+    county: Teton
+    name: "Teton County Justice Court"
+    address: "38 1st Ave NW Choteau, MT 59422"
+    lat: 47.8109153
+    lng: -112.1843719
+    url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-toole-courthouse
+    state: MT
+    county: Toole
+    name: "Toole County Justice Court"
+    address: "226 1st St. S Shelby, MT 59474"
+    lat: 48.5047801
+    lng: -111.8579361
+    url: "https://courts.mt.gov/CourtLocator/9thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-treasure-courthouse
+    state: MT
+    county: Treasure
+    name: "Treasure County Justice Court"
+    address: "307 Rapelje Ave, Hysham, MT 59038"
+    lat: 46.2917451
+    lng: -107.2333775
+    url: "https://courts.mt.gov/CourtLocator/16thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-valley-courthouse
+    state: MT
+    county: Valley
+    name: "Valley County Justice Court"
+    address: "501 Court Square, Glasgow, MT 59230"
+    lat: 48.1955915
+    lng: -106.6355560
+    url: "https://courts.mt.gov/CourtLocator/17thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-wheatland-courthouse
+    state: MT
+    county: Wheatland
+    name: "Wheatland County Justice Court"
+    address: "201 A Ave. North West Harlowton, MT 59036"
+    lat: 46.4349250
+    lng: -109.8354410
+    url: "https://courts.mt.gov/CourtLocator/14thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-wibaux-courthouse
+    state: MT
+    county: Wibaux
+    name: "Wibaux County Justice Court"
+    address: "203 Wibaux St. Wibaux, MT 59353"
+    lat: 46.9807888
+    lng: -104.1885535
+    url: "https://courts.mt.gov/CourtLocator/7thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: mt-yellowstone-courthouse
+    state: MT
+    county: Yellowstone
+    name: "Yellowstone County Justice Court"
+    address: "217 N. 27th St. Billings, MT 59107"
+    lat: 45.7838401
+    lng: -108.5054221
+    url: "https://courts.mt.gov/CourtLocator/13thJudicialDistrict"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

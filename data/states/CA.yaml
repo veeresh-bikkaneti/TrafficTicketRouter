@@ -1,0 +1,1003 @@
+# California — 58 counties. 48 verified superior-court cards.
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+# All 58 counties have map pins (10 added 2026-09-21, verified live; see
+# data/pins/CA.yaml header for venue caveats).
+state: CA
+state_name: California
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.ca.gov
+  - lacourt.ca.gov
+  - saccourt.ca.gov
+  - sjcourts.org
+counties:
+  - name: Alameda
+    note: "Traffic venue is superior court."
+  - name: Alpine
+    note: "Traffic venue is superior court."
+  - name: Amador
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: Butte
+    note: "Traffic venue is superior court."
+  - name: Calaveras
+    note: "Traffic venue is superior court."
+  - name: Colusa
+    note: "Traffic venue is superior court."
+  - name: Contra Costa
+    note: "Traffic venue is superior court."
+  - name: Del Norte
+    note: "Traffic venue is superior court."
+  - name: El Dorado
+    note: "Traffic venue is superior court."
+  - name: Fresno
+    note: "Traffic venue is superior court."
+  - name: Glenn
+    note: "Traffic venue is superior court."
+  - name: Humboldt
+    note: "Traffic venue is superior court."
+  - name: Imperial
+    note: "Traffic venue is superior court."
+  - name: Inyo
+    note: "Traffic venue is superior court."
+  - name: Kern
+    note: "Traffic venue is superior court."
+  - name: Kings
+    note: "Traffic venue is superior court."
+  - name: Lake
+    note: "Traffic venue is superior court."
+  - name: Lassen
+    note: "Traffic venue is superior court."
+  - name: Los Angeles
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: Madera
+    note: "Traffic venue is superior court."
+  - name: Marin
+    note: "Traffic venue is superior court."
+  - name: Mariposa
+    note: "Traffic venue is superior court."
+  - name: Mendocino
+    note: "Traffic venue is superior court."
+  - name: Merced
+    note: "Traffic venue is superior court."
+  - name: Modoc
+    note: "Traffic venue is superior court."
+  - name: Mono
+    note: "Traffic venue is superior court."
+  - name: Monterey
+    note: "Traffic venue is superior court."
+  - name: Napa
+    note: "Traffic venue is superior court."
+  - name: Nevada
+    note: "Traffic venue is superior court."
+  - name: Orange
+    note: "Traffic venue is superior court."
+  - name: Placer
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: Plumas
+    note: "Traffic venue is superior court."
+  - name: Riverside
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: Sacramento
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: San Benito
+    note: "Traffic venue is superior court."
+  - name: San Bernardino
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: San Diego
+    note: "Traffic venue is superior court."
+  - name: San Francisco
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: San Joaquin
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: San Luis Obispo
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: San Mateo
+    note: "Traffic venue is superior court."
+  - name: Santa Barbara
+    note: "Traffic venue is superior court."
+  - name: Santa Clara
+    note: "Traffic venue is superior court."
+  - name: Santa Cruz
+    note: "Traffic venue is superior court."
+  - name: Shasta
+    note: "Traffic venue is superior court."
+  - name: Sierra
+    note: "Traffic venue is superior court."
+  - name: Siskiyou
+    note: "Traffic venue is superior court."
+  - name: Solano
+    note: "Traffic venue is superior court. Map pin verified 2026-09-21; full court card pending."
+  - name: Sonoma
+    note: "Traffic venue is superior court."
+  - name: Stanislaus
+    note: "Traffic venue is superior court."
+  - name: Sutter
+    note: "Traffic venue is superior court."
+  - name: Tehama
+    note: "Traffic venue is superior court."
+  - name: Trinity
+    note: "Traffic venue is superior court."
+  - name: Tulare
+    note: "Traffic venue is superior court."
+  - name: Tuolumne
+    note: "Traffic venue is superior court."
+  - name: Ventura
+    note: "Traffic venue is superior court."
+  - name: Yolo
+    note: "Traffic venue is superior court."
+  - name: Yuba
+    note: "Traffic venue is superior court."
+cards:
+  - id: alameda-superior-card
+    verification: link_ok
+    source_url: "https://www.alameda.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Alameda"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alameda
+    weight: 10
+
+  - id: alpine-superior-card
+    verification: link_ok
+    source_url: "https://www.alpine.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Alpine"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alpine
+    weight: 10
+
+  - id: butte-superior-card
+    verification: link_ok
+    source_url: "https://www.butte.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Butte"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butte
+    weight: 10
+
+  - id: calaveras-superior-card
+    verification: link_ok
+    source_url: "https://www.calaveras.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Calaveras"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calaveras
+    weight: 10
+
+  - id: colusa-superior-card
+    verification: link_ok
+    source_url: "https://www.colusa.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Colusa"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Colusa
+    weight: 10
+
+  - id: contra-costa-superior-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.contracosta.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Contra Costa"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Contra Costa
+    weight: 10
+
+  - id: del-norte-superior-card
+    verification: link_ok
+    source_url: "https://www.delnorte.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Del Norte"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Del Norte
+    weight: 10
+
+  - id: el-dorado-superior-card
+    verification: link_ok
+    source_url: "https://www.eldorado.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of El Dorado"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - El Dorado
+    weight: 10
+
+  - id: fresno-superior-card
+    verification: link_ok
+    source_url: "https://www.fresno.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Fresno"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fresno
+    weight: 10
+
+  - id: glenn-superior-card
+    verification: link_ok
+    source_url: "https://www.glenn.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Glenn"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Glenn
+    weight: 10
+
+  - id: humboldt-superior-card
+    verification: link_ok
+    source_url: "https://www.humboldt.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Humboldt"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Humboldt
+    weight: 10
+
+  - id: imperial-superior-card
+    verification: link_ok
+    source_url: "https://www.imperial.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Imperial"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Imperial
+    weight: 10
+
+  - id: inyo-superior-card
+    verification: link_ok
+    source_url: "https://www.inyo.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Inyo"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Inyo
+    weight: 10
+
+  - id: kern-superior-card
+    verification: link_ok
+    source_url: "https://www.kern.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Kern"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kern
+    weight: 10
+
+  - id: kings-superior-card
+    verification: link_ok
+    source_url: "https://www.kings.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Kings"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kings
+    weight: 10
+
+  - id: lake-superior-card
+    verification: link_ok
+    source_url: "https://www.lake.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Lake"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: lassen-superior-card
+    verification: link_ok
+    source_url: "https://www.lassen.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Lassen"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lassen
+    weight: 10
+
+  - id: madera-superior-card
+    verification: link_ok
+    source_url: "https://www.madera.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Madera"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madera
+    weight: 10
+
+  - id: marin-superior-card
+    verification: link_ok
+    source_url: "https://www.marin.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Marin"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marin
+    weight: 10
+
+  - id: mariposa-superior-card
+    verification: link_ok
+    source_url: "https://www.mariposa.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Mariposa"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mariposa
+    weight: 10
+
+  - id: mendocino-superior-card
+    verification: link_ok
+    source_url: "https://www.mendocino.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Mendocino"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mendocino
+    weight: 10
+
+  - id: merced-superior-card
+    verification: link_ok
+    source_url: "https://www.merced.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Merced"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Merced
+    weight: 10
+
+  - id: modoc-superior-card
+    verification: link_ok
+    source_url: "https://www.modoc.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Modoc"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Modoc
+    weight: 10
+
+  - id: mono-superior-card
+    verification: link_ok
+    source_url: "https://www.mono.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Mono"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mono
+    weight: 10
+
+  - id: monterey-superior-card
+    verification: link_ok
+    source_url: "https://www.monterey.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Monterey"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monterey
+    weight: 10
+
+  - id: napa-superior-card
+    verification: link_ok
+    source_url: "https://www.napa.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Napa"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Napa
+    weight: 10
+
+  - id: nevada-superior-card
+    verification: link_ok
+    source_url: "https://www.nevada.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Nevada"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nevada
+    weight: 10
+
+  - id: orange-superior-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.orange.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Orange"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orange
+    weight: 10
+
+  - id: plumas-superior-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.plumas.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Plumas"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Plumas
+    weight: 10
+
+  - id: san-benito-superior-card
+    verification: link_ok
+    source_url: "https://www.sanbenito.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of San Benito"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Benito
+    weight: 10
+
+  - id: san-diego-superior-card
+    verification: link_ok
+    source_url: "https://www.sandiego.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of San Diego"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Diego
+    weight: 10
+
+  - id: san-mateo-superior-card
+    verification: link_ok
+    source_url: "https://www.sanmateo.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of San Mateo"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Mateo
+    weight: 10
+
+  - id: santa-barbara-superior-card
+    verification: link_ok
+    source_url: "https://www.santabarbara.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Santa Barbara"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Santa Barbara
+    weight: 10
+
+  - id: santa-clara-superior-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.santaclara.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Santa Clara"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Santa Clara
+    weight: 10
+
+  - id: santa-cruz-superior-card
+    verification: link_ok
+    source_url: "https://www.santacruz.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Santa Cruz"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Santa Cruz
+    weight: 10
+
+  - id: shasta-superior-card
+    verification: link_ok
+    source_url: "https://www.shasta.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Shasta"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shasta
+    weight: 10
+
+  - id: sierra-superior-card
+    verification: link_ok
+    source_url: "https://www.sierra.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Sierra"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sierra
+    weight: 10
+
+  - id: siskiyou-superior-card
+    verification: link_ok
+    source_url: "https://www.siskiyou.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Siskiyou"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Siskiyou
+    weight: 10
+
+  - id: sonoma-superior-card
+    verification: link_ok
+    source_url: "https://www.sonoma.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Sonoma"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sonoma
+    weight: 10
+
+  - id: stanislaus-superior-card
+    verification: link_ok
+    source_url: "https://www.stanislaus.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Stanislaus"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stanislaus
+    weight: 10
+
+  - id: sutter-superior-card
+    verification: link_ok
+    source_url: "https://www.sutter.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Sutter"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sutter
+    weight: 10
+
+  - id: tehama-superior-card
+    verification: link_ok
+    source_url: "https://www.tehama.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Tehama"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tehama
+    weight: 10
+
+  - id: trinity-superior-card
+    verification: link_ok
+    source_url: "https://www.trinity.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Trinity"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trinity
+    weight: 10
+
+  - id: tulare-superior-card
+    verification: link_ok
+    source_url: "https://www.tulare.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Tulare"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tulare
+    weight: 10
+
+  - id: tuolumne-superior-card
+    verification: link_ok
+    source_url: "https://www.tuolumne.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Tuolumne"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tuolumne
+    weight: 10
+
+  - id: ventura-superior-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.ventura.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Ventura"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ventura
+    weight: 10
+
+  - id: yolo-superior-card
+    verification: link_ok
+    source_url: "https://www.yolo.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Yolo"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yolo
+    weight: 10
+
+  - id: yuba-superior-card
+    verification: link_ok
+    source_url: "https://www.yuba.courts.ca.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Superior Court of California, County of Yuba"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.ca.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Superior courts handle traffic, criminal, and civil matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yuba
+    weight: 10

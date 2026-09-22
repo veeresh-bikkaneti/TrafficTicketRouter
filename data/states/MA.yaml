@@ -1,0 +1,339 @@
+# Massachusetts — Northeast expansion (2026-09-21).
+# Every source_url below returned a final HTTP 200 on 2026-09-21 (direct, no
+# redirects). The router emits only verification link_ok or better.
+# Traffic note: Massachusetts has no county courts; traffic matters are heard
+# in District Court. Each card below is a representative official court for
+# the county — the actual venue depends on the city or town where the matter
+# arose, so no card implies one court serves the entire county.
+state: MA
+state_name: Massachusetts
+last_verified: "2026-09-21"
+official_hosts:
+  - mass.gov
+counties:
+  - name: Barnstable
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Barnstable District Court — actual venue depends on the city or town."
+  - name: Berkshire
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Pittsfield District Court — actual venue depends on the city or town."
+  - name: Bristol
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Taunton District Court — actual venue depends on the city or town."
+  - name: Dukes
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Edgartown District Court — actual venue depends on the city or town."
+  - name: Essex
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Lawrence District Court — actual venue depends on the city or town."
+  - name: Franklin
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Greenfield District Court — actual venue depends on the city or town."
+  - name: Hampden
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Springfield District Court — actual venue depends on the city or town."
+  - name: Hampshire
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Northampton District Court — actual venue depends on the city or town."
+  - name: Middlesex
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Cambridge District Court — actual venue depends on the city or town."
+  - name: Nantucket
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Nantucket District Court — actual venue depends on the city or town."
+  - name: Norfolk
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Dedham District Court — actual venue depends on the city or town."
+  - name: Plymouth
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Brockton District Court — actual venue depends on the city or town."
+  - name: Suffolk
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court (Boston Municipal Court in Boston). Representative court: Central Division, Boston Municipal Court — actual venue depends on the city or town."
+  - name: Worcester
+    note: "Massachusetts has no county courts; traffic matters are heard in District Court. Representative court: Worcester District Court — actual venue depends on the city or town."
+cards:
+  - id: ma-barnstable-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/barnstable-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Barnstable District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Barnstable County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barnstable
+    weight: 10
+
+  - id: ma-berkshire-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/pittsfield-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Pittsfield District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Berkshire County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Berkshire
+    weight: 10
+
+  - id: ma-bristol-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.mass.gov/locations/taunton-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Taunton District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Bristol County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bristol
+    weight: 10
+
+  - id: ma-dukes-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.mass.gov/locations/edgartown-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Edgartown District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Dukes County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dukes
+    weight: 10
+
+  - id: ma-essex-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.mass.gov/locations/lawrence-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Lawrence District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Essex County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Essex
+    weight: 10
+
+  - id: ma-franklin-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/greenfield-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Greenfield District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Franklin County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ma-hampden-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.mass.gov/locations/springfield-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Springfield District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Hampden County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hampden
+    weight: 10
+
+  - id: ma-hampshire-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/northampton-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Northampton District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Hampshire County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hampshire
+    weight: 10
+
+  - id: ma-middlesex-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/cambridge-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Cambridge District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Middlesex County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Middlesex
+    weight: 10
+
+  - id: ma-nantucket-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/nantucket-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Nantucket District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Nantucket County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nantucket
+    weight: 10
+
+  - id: ma-norfolk-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/dedham-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Dedham District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Norfolk County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Norfolk
+    weight: 10
+
+  - id: ma-plymouth-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/brockton-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Brockton District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Plymouth County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Plymouth
+    weight: 10
+
+  - id: ma-suffolk-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/central-division-boston-municipal-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects. (A guessed slug boston-municipal-court-central-division returned 404 and is not used.)"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Boston Municipal Court, Central Division"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court (Boston Municipal Court in Boston)."
+      - "This is a representative official court for Suffolk County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Suffolk
+    weight: 10
+
+  - id: ma-worcester-court
+    verification: link_ok
+    source_url: "https://www.mass.gov/locations/worcester-district-court"
+    verification_note: "Direct HTTP 200 on 2026-09-21; no redirects."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Massachusetts Trial Court — Worcester District Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on www.mass.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Massachusetts has no county courts; traffic matters are heard in District Court."
+      - "This is a representative official court for Worcester County — the actual venue depends on the city or town where the matter arose."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Worcester
+    weight: 10

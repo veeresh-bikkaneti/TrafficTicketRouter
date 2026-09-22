@@ -1,0 +1,671 @@
+# Arkansas District Court pins. 8 counties omitted (official directory lists only PO boxes). Coordinates from Nominatim/OSM. URLs match data/states/AR.yaml verbatim.
+pins:
+  - id: ar-arkansas-courthouse
+    state: AR
+    county: Arkansas
+    name: "Arkansas County District Court"
+    address: "120 Court Square, DeWitt, AR 72042"
+    lat: 34.2958526
+    lng: -91.3347393
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1206
+    kind: courthouse
+
+  - id: ar-ashley-courthouse
+    state: AR
+    county: Ashley
+    name: "Ashley County District Court"
+    address: "705 Dr. Martin Luther King Drive, Crossett, AR 71635"
+    lat: 33.1267012
+    lng: -91.9666434
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1208
+    kind: courthouse
+
+  - id: ar-baxter-courthouse
+    state: AR
+    county: Baxter
+    name: "Baxter County District Court"
+    address: "301 East Sixth Street #130, Mountain Home, AR 72653"
+    lat: 36.3361391
+    lng: -92.3801187
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1209
+    kind: courthouse
+
+  - id: ar-benton-courthouse
+    state: AR
+    county: Benton
+    name: "Benton County District Court"
+    address: "1500 Little Flock Drive, Rogers, AR 72756"
+    lat: 36.3768798
+    lng: -94.1377767
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1210
+    kind: courthouse
+
+  - id: ar-boone-courthouse
+    state: AR
+    county: Boone
+    name: "Boone County District Court"
+    address: "201 N. Main, Suite 3, Harrison, AR 72601"
+    lat: 36.230971
+    lng: -93.10728
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1211
+    kind: courthouse
+
+  - id: ar-bradley-courthouse
+    state: AR
+    county: Bradley
+    name: "Bradley County District Court"
+    address: "101 E. Cedar Street, Suite B., Warren, AR 71671"
+    lat: 33.614795
+    lng: -92.0636807
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1212
+    kind: courthouse
+
+  - id: ar-carroll-courthouse
+    state: AR
+    county: Carroll
+    name: "Carroll County District Court"
+    address: "103 South Spring Street, Berryville, AR 72616"
+    lat: 36.3646251
+    lng: -93.5673187
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1215
+    kind: courthouse
+
+  - id: ar-chicot-courthouse
+    state: AR
+    county: Chicot
+    name: "Chicot County District Court"
+    address: "112 North Freeman Street, Dermott, AR 71638"
+    lat: 33.5265714
+    lng: -91.4347347
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1217
+    kind: courthouse
+
+  - id: ar-clark-courthouse
+    state: AR
+    county: Clark
+    name: "Clark County District Court"
+    address: "137 Malvern Road, Arkadelphia, AR 71923"
+    lat: 34.1209292
+    lng: -93.053784
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=631
+    kind: courthouse
+
+  - id: ar-clay-courthouse
+    state: AR
+    county: Clay
+    name: "Clay County District Court"
+    address: "320 West Court, Room 227, Paragould, AR 72450"
+    lat: 36.0561421
+    lng: -90.4896042
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=632
+    kind: courthouse
+
+  - id: ar-cleburne-courthouse
+    state: AR
+    county: Cleburne
+    name: "Cleburne County District Court"
+    address: "922 South 9th Street, Heber Springs, AR 72543"
+    lat: 35.4833283
+    lng: -92.0396022
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=633
+    kind: courthouse
+
+  - id: ar-columbia-courthouse
+    state: AR
+    county: Columbia
+    name: "Columbia County District Court"
+    address: "517 North Jackson, Magnolia, AR 71753"
+    lat: 33.2714754
+    lng: -93.2392551
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1222
+    kind: courthouse
+
+  - id: ar-conway-courthouse
+    state: AR
+    county: Conway
+    name: "Conway County District Court"
+    address: "67-2 West Main Street, Booneville, AR 72927"
+    lat: 35.1403944
+    lng: -93.9251831
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1223
+    kind: courthouse
+
+  - id: ar-craighead-courthouse
+    state: AR
+    county: Craighead
+    name: "Craighead County District Court"
+    address: "603 S. Madison, Jonesboro, AR 72401"
+    lat: 35.8376664
+    lng: -90.7068201
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1224
+    kind: courthouse
+
+  - id: ar-crawford-courthouse
+    state: AR
+    county: Crawford
+    name: "Crawford County District Court"
+    address: "301 Mt. Vista Blvd, Van Buren, AR 72956"
+    lat: 35.4459406
+    lng: -94.3558462
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1225
+    kind: courthouse
+
+  - id: ar-crittenden-courthouse
+    state: AR
+    county: Crittenden
+    name: "Crittenden County District Court"
+    address: "317 West Tyler Avenue, West Memphis, AR 72301"
+    lat: 35.144112
+    lng: -90.1913849
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1226
+    kind: courthouse
+
+  - id: ar-cross-courthouse
+    state: AR
+    county: Cross
+    name: "Cross County District Court"
+    address: "205 South Mississippi Street, Wynne, AR 72396"
+    lat: 35.2223939
+    lng: -90.78541
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1227
+    kind: courthouse
+
+  - id: ar-dallas-courthouse
+    state: AR
+    county: Dallas
+    name: "Dallas County District Court"
+    address: "110 East Main Street, Sparkman, AR 71763"
+    lat: 33.9165964
+    lng: -92.8449581
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1228
+    kind: courthouse
+
+  - id: ar-desha-courthouse
+    state: AR
+    county: Desha
+    name: "Desha County District Court"
+    address: "149 East Waterman, Dumas, AR 71639"
+    lat: 33.8873836
+    lng: -91.4910576
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1229
+    kind: courthouse
+
+  - id: ar-drew-courthouse
+    state: AR
+    county: Drew
+    name: "Drew County District Court"
+    address: "107 East Jackson Street, Monticello, AR 71655"
+    lat: 33.6293932
+    lng: -91.7913004
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1230
+    kind: courthouse
+
+  - id: ar-faulkner-courthouse
+    state: AR
+    county: Faulkner
+    name: "Faulkner County District Court"
+    address: "234 Moss St, Clinton, AR 72031"
+    lat: 35.5927385
+    lng: -92.4562422
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1232
+    kind: courthouse
+
+  - id: ar-franklin-courthouse
+    state: AR
+    county: Franklin
+    name: "Franklin County District Court"
+    address: "116 South 2nd, Ozark, AR 72949"
+    lat: 35.4865583
+    lng: -93.8261861
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1234
+    kind: courthouse
+
+  - id: ar-fulton-courthouse
+    state: AR
+    county: Fulton
+    name: "Fulton County District Court"
+    address: "549 West Main, Batesville, AR 72501"
+    lat: 35.7669777
+    lng: -91.6596515
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1235
+    kind: courthouse
+
+  - id: ar-garland-courthouse
+    state: AR
+    county: Garland
+    name: "Garland County District Court"
+    address: "607 Ouachita Ave #150, Hot Springs, AR 71901"
+    lat: 34.5040962
+    lng: -93.0603215
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1236
+    kind: courthouse
+
+  - id: ar-grant-courthouse
+    state: AR
+    county: Grant
+    name: "Grant County District Court"
+    address: "305 Locust, Room 201, Malvern, AR 72104"
+    lat: 34.3625283
+    lng: -92.8138902
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1237
+    kind: courthouse
+
+  - id: ar-greene-courthouse
+    state: AR
+    county: Greene
+    name: "Greene County District Court"
+    address: "320 West Court, Room 227, Paragould, AR 72450"
+    lat: 36.0561421
+    lng: -90.4896042
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=651
+    kind: courthouse
+
+  - id: ar-hot-spring-courthouse
+    state: AR
+    county: Hot Spring
+    name: "Hot Spring County District Court"
+    address: "305 Locust, Room 201, Malvern, AR 72104"
+    lat: 34.3625283
+    lng: -92.8138902
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1240
+    kind: courthouse
+
+  - id: ar-howard-courthouse
+    state: AR
+    county: Howard
+    name: "Howard County District Court"
+    address: "219 North Main Street, Nashville, AR 71852"
+    lat: 33.9447561
+    lng: -93.8471871
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1241
+    kind: courthouse
+
+  - id: ar-independence-courthouse
+    state: AR
+    county: Independence
+    name: "Independence County District Court"
+    address: "549 West Main, Batesville, AR 72501"
+    lat: 35.7669777
+    lng: -91.6596515
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1242
+    kind: courthouse
+
+  - id: ar-izard-courthouse
+    state: AR
+    county: Izard
+    name: "Izard County District Court"
+    address: "549 West Main, Batesville, AR 72501"
+    lat: 35.7669777
+    lng: -91.6596515
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1243
+    kind: courthouse
+
+  - id: ar-jackson-courthouse
+    state: AR
+    county: Jackson
+    name: "Jackson County District Court"
+    address: "615 Third Street, Newport, AR 72112"
+    lat: 35.6067154
+    lng: -91.2830334
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=657
+    kind: courthouse
+
+  - id: ar-jefferson-courthouse
+    state: AR
+    county: Jefferson
+    name: "Jefferson County District Court"
+    address: "223 East 3rd Ave, Pine Bluff, AR 71601"
+    lat: 34.2272601
+    lng: -92.0020774
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1245
+    kind: courthouse
+
+  - id: ar-johnson-courthouse
+    state: AR
+    county: Johnson
+    name: "Johnson County District Court"
+    address: "301 Porter Industrial Road, Clarksville, AR 72830"
+    lat: 35.4558936
+    lng: -93.4589327
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1246
+    kind: courthouse
+
+  - id: ar-lafayette-courthouse
+    state: AR
+    county: Lafayette
+    name: "Lafayette County District Court"
+    address: "100 North Stateline #2, Texarkana, AR 75501"
+    lat: 33.4254259
+    lng: -94.0430937
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1247
+    kind: courthouse
+
+  - id: ar-lawrence-courthouse
+    state: AR
+    county: Lawrence
+    name: "Lawrence County District Court"
+    address: "2423-A Hwy 62/412, Hardy, AR 72542"
+    lat: 36.3158994
+    lng: -91.4826388
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1248
+    kind: courthouse
+
+  - id: ar-lee-courthouse
+    state: AR
+    county: Lee
+    name: "Lee County District Court"
+    address: "15 East Chestnutt, Marianna, AR 72360"
+    lat: 34.7735741
+    lng: -90.7575059
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1249
+    kind: courthouse
+
+  - id: ar-lincoln-courthouse
+    state: AR
+    county: Lincoln
+    name: "Lincoln County District Court"
+    address: "223 East 3rd Ave, Pine Bluff, AR 71601"
+    lat: 34.2272601
+    lng: -92.0020774
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1250
+    kind: courthouse
+
+  - id: ar-little-river-courthouse
+    state: AR
+    county: Little River
+    name: "Little River County District Court"
+    address: "115 North 3rd Street, Room 215, DeQueen, AR 71832"
+    lat: 34.0983924
+    lng: -94.3809849
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1251
+    kind: courthouse
+
+  - id: ar-logan-courthouse
+    state: AR
+    county: Logan
+    name: "Logan County District Court"
+    address: "461 East 5th Street, Booneville, AR 72927"
+    lat: 35.1420446
+    lng: -93.9168387
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=667
+    kind: courthouse
+
+  - id: ar-lonoke-courthouse
+    state: AR
+    county: Lonoke
+    name: "Lonoke County District Court"
+    address: "805 W. Main St., Suite B, Cabot, AR 72023"
+    lat: 34.9758392
+    lng: -92.0228441
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1255
+    kind: courthouse
+
+  - id: ar-marion-courthouse
+    state: AR
+    county: Marion
+    name: "Marion County District Court"
+    address: "239 East Main, Flippin, AR 72634"
+    lat: 36.2778603
+    lng: -92.5981904
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1258
+    kind: courthouse
+
+  - id: ar-miller-courthouse
+    state: AR
+    county: Miller
+    name: "Miller County District Court"
+    address: "100 North Stateline #2, Texarkana, AR 75501"
+    lat: 33.4254259
+    lng: -94.0430937
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1260
+    kind: courthouse
+
+  - id: ar-mississippi-courthouse
+    state: AR
+    county: Mississippi
+    name: "Mississippi County District Court"
+    address: "1700 South Division, Blytheville, AR 72315"
+    lat: 35.9067759
+    lng: -89.9186962
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1261
+    kind: courthouse
+
+  - id: ar-monroe-courthouse
+    state: AR
+    county: Monroe
+    name: "Monroe County District Court"
+    address: "304 S Maple Street, Stuttgart, AR 72160"
+    lat: 34.5000995
+    lng: -91.5539263
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1263
+    kind: courthouse
+
+  - id: ar-montgomery-courthouse
+    state: AR
+    county: Montgomery
+    name: "Montgomery County District Court"
+    address: "225 Fairgrounds Rd., Mount Ida, AR 71957"
+    lat: 34.552347
+    lng: -93.6070295
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1264
+    kind: courthouse
+
+  - id: ar-nevada-courthouse
+    state: AR
+    county: Nevada
+    name: "Nevada County District Court"
+    address: "215 East 2nd Street, Ste 104, Prescott, AR 71857"
+    lat: 33.800457
+    lng: -93.3807034
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1265
+    kind: courthouse
+
+  - id: ar-newton-courthouse
+    state: AR
+    county: Newton
+    name: "Newton County District Court"
+    address: "201 N. Main, Suite 3, Jasper, AR 72601"
+    lat: 36.0080624
+    lng: -93.1868973
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1266
+    kind: courthouse
+
+  - id: ar-ouachita-courthouse
+    state: AR
+    county: Ouachita
+    name: "Ouachita County District Court"
+    address: "109A Goodgame, Camden, AR 71701"
+    lat: 33.5564866
+    lng: -92.8284634
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1268
+    kind: courthouse
+
+  - id: ar-pike-courthouse
+    state: AR
+    county: Pike
+    name: "Pike County District Court"
+    address: "114 North Washington, Ste A, Murfreesboro, AR 71958"
+    lat: 34.0631135
+    lng: -93.6899195
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1271
+    kind: courthouse
+
+  - id: ar-poinsett-courthouse
+    state: AR
+    county: Poinsett
+    name: "Poinsett County District Court"
+    address: "202 North East Street, Harrisburg, AR 72432"
+    lat: 35.5690917
+    lng: -90.7146927
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1273
+    kind: courthouse
+
+  - id: ar-polk-courthouse
+    state: AR
+    county: Polk
+    name: "Polk County District Court"
+    address: "507 Church Street Ave, Mena, AR 71953"
+    lat: 34.5837324
+    lng: -94.2376664
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1274
+    kind: courthouse
+
+  - id: ar-pope-courthouse
+    state: AR
+    county: Pope
+    name: "Pope County District Court"
+    address: "1506 East 2nd Street, Ste 2, Russellville, AR 72801"
+    lat: 35.2766191
+    lng: -93.1148404
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=687
+    kind: courthouse
+
+  - id: ar-prairie-courthouse
+    state: AR
+    county: Prairie
+    name: "Prairie County District Court"
+    address: "1600 East Booth Road, #600, Searcy, AR 72143"
+    lat: 35.2240591
+    lng: -91.7239446
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1276
+    kind: courthouse
+
+  - id: ar-pulaski-courthouse
+    state: AR
+    county: Pulaski
+    name: "Pulaski County District Court"
+    address: "3001 West Roosevelt, Little Rock, AR 72204"
+    lat: 34.725454
+    lng: -92.308812
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1278
+    kind: courthouse
+
+  - id: ar-randolph-courthouse
+    state: AR
+    county: Randolph
+    name: "Randolph County District Court"
+    address: "1510 Pace Road, Pocahontas, AR 72455"
+    lat: 36.2501664
+    lng: -90.9495028
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1279
+    kind: courthouse
+
+  - id: ar-saline-courthouse
+    state: AR
+    county: Saline
+    name: "Saline County District Court"
+    address: "1605 Edison Ave, Benton, AR 72015"
+    lat: 34.5570606
+    lng: -92.5685997
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1280
+    kind: courthouse
+
+  - id: ar-scott-courthouse
+    state: AR
+    county: Scott
+    name: "Scott County District Court"
+    address: "190 West First- Box 15, Waldron, AR 72958"
+    lat: 34.8984323
+    lng: -94.0907634
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1281
+    kind: courthouse
+
+  - id: ar-sebastian-courthouse
+    state: AR
+    county: Sebastian
+    name: "Sebastian County District Court"
+    address: "901 South &quot;B&quot; Street, Fort Smith, AR 72901"
+    lat: 35.3880338
+    lng: -94.4265011
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=695
+    kind: courthouse
+
+  - id: ar-sevier-courthouse
+    state: AR
+    county: Sevier
+    name: "Sevier County District Court"
+    address: "115 North 3rd Street, Room 215, DeQueen, AR 71832"
+    lat: 34.0983924
+    lng: -94.3809849
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1285
+    kind: courthouse
+
+  - id: ar-sharp-courthouse
+    state: AR
+    county: Sharp
+    name: "Sharp County District Court"
+    address: "#2 Santee Drive, Cherokee Village, AR 72529"
+    lat: 36.3086907
+    lng: -91.5283342
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1286
+    kind: courthouse
+
+  - id: ar-st-francis-courthouse
+    state: AR
+    county: St. Francis
+    name: "St. Francis County District Court"
+    address: "615 East Cross, Forrest City, AR 72335"
+    lat: 35.0072867
+    lng: -90.7830191
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1288
+    kind: courthouse
+
+  - id: ar-stone-courthouse
+    state: AR
+    county: Stone
+    name: "Stone County District Court"
+    address: "211 Blanchard Street #A, Mountain View, AR 72560"
+    lat: 35.8678308
+    lng: -92.1296802
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1289
+    kind: courthouse
+
+  - id: ar-union-courthouse
+    state: AR
+    county: Union
+    name: "Union County District Court"
+    address: "250 American Road #A, El Dorado, AR 71730"
+    lat: 33.209896
+    lng: -92.6336152
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1290
+    kind: courthouse
+
+  - id: ar-van-buren-courthouse
+    state: AR
+    county: Van Buren
+    name: "Van Buren County District Court"
+    address: "234 Moss St, Clinton, AR 72031"
+    lat: 35.5927385
+    lng: -92.4562422
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1291
+    kind: courthouse
+
+  - id: ar-washington-courthouse
+    state: AR
+    county: Washington
+    name: "Washington County District Court"
+    address: "201 Spring St, Springdale, AR 72764"
+    lat: 36.1869112
+    lng: -94.129202
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1292
+    kind: courthouse
+
+  - id: ar-white-courthouse
+    state: AR
+    county: White
+    name: "White County District Court"
+    address: "201 West Illinois Street, Beebe, AR 72012"
+    lat: 35.070296
+    lng: -91.881565
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1293
+    kind: courthouse
+
+  - id: ar-yell-courthouse
+    state: AR
+    county: Yell
+    name: "Yell County District Court"
+    address: "67-2 West Main Street, Booneville, AR 72927"
+    lat: 35.1403944
+    lng: -93.9251831
+    url: https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1296
+    kind: courthouse

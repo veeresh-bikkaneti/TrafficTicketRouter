@@ -1,0 +1,682 @@
+# Michigan courthouse pins.
+# Addresses from official court/county sites; coordinates via Nominatim/OSM.
+# URLs match data/states/MI.yaml exactly.
+pins:
+  - id: mi-alcona-courthouse
+    state: MI
+    county: Alcona
+    name: 81st District Court - Alcona
+    address: "106 Fifth Street, Harrisville, MI 48740"
+    lat: 44.6568068
+    lng: -83.297189
+    url: "https://alconacountymi.com/81st-district-court/"
+    kind: courthouse
+  - id: mi-alger-courthouse
+    state: MI
+    county: Alger
+    name: 93rd District Court - Alger
+    address: "101 Court Street, Munising, MI 49862"
+    lat: 46.4076375
+    lng: -86.6585242
+    url: "https://algercounty.gov/courts/district-court/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-alpena-courthouse
+    state: MI
+    county: Alpena
+    name: 88th District Court - Alpena
+    address: "719 Chisholm St., Alpena, MI 49707"
+    lat: 45.0687121
+    lng: -83.4404421
+    url: "https://www.alpenacounty.org/31/Courts"
+    kind: courthouse
+  - id: mi-antrim-courthouse
+    state: MI
+    county: Antrim
+    name: 86th District Court - Antrim
+    address: "205 Cayuga, Bellaire, MI 49615"
+    lat: 44.9755001
+    lng: -85.2077457
+    url: "https://www.gtcountymi.gov/2747/86th-District-Court"
+    kind: courthouse
+  - id: mi-arenac-courthouse
+    state: MI
+    county: Arenac
+    name: 81st District Court - Arenac
+    address: "129 Grove St., Standish, MI 48658"
+    lat: 43.9835289
+    lng: -83.9571411
+    url: "https://www.arenaccountymi.gov/Courts-Law/81st-District-Court/"
+    kind: courthouse
+  - id: mi-baraga-courthouse
+    state: MI
+    county: Baraga
+    name: 97th District Court - Baraga
+    address: "16 N. Third, L'Anse, MI 49946"
+    lat: 46.7732288
+    lng: -88.3699852
+    url: "https://micourt.courts.michigan.gov/case-search/court/D97~1"
+    kind: courthouse
+  - id: mi-barry-courthouse
+    state: MI
+    county: Barry
+    name: 56B District Court
+    address: "202 W. Court St., Hastings, MI 49058"
+    lat: 42.6476774
+    lng: -85.2893071
+    url: "https://www.barrycounty.org/courts_and_law_enforcement/district_court/index.php"
+    kind: courthouse
+  - id: mi-bay-courthouse
+    state: MI
+    county: Bay
+    name: 74th District Court
+    address: "1230 Washington Ave., Bay City, MI 48708"
+    lat: 43.6023841
+    lng: -83.8870458
+    url: "https://www.baycountymi.gov/courts_law/74th_district_court.php"
+    kind: courthouse
+  - id: mi-benzie-courthouse
+    state: MI
+    county: Benzie
+    name: 85th District Court - Benzie
+    address: "448 Court Place, Beulah, MI 49617"
+    lat: 44.625838
+    lng: -86.092688
+    url: "https://www.benzieco.net/government/85th_district_court.php"
+    kind: courthouse
+  - id: mi-branch-courthouse
+    state: MI
+    county: Branch
+    name: 3A District Court
+    address: "31 Division St., Coldwater, MI 49036"
+    lat: 41.939819
+    lng: -85.0004979
+    url: "https://www.countyofbranch.com/courts/3-a-district-court/"
+    link_check: manual
+    verification_note: "Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-calhoun-courthouse
+    state: MI
+    county: Calhoun
+    name: 10th District Court
+    address: "161 E. Michigan Ave., Battle Creek, MI 49014"
+    lat: 42.3162973
+    lng: -85.1768565
+    url: "https://www.calhouncountymi.gov/departments/courts/district_court/index.php"
+    kind: courthouse
+  - id: mi-cass-courthouse
+    state: MI
+    county: Cass
+    name: 4th District Court
+    address: "60296 M-62, Cassopolis, MI 49031"
+    lat: 41.9116667
+    lng: -86.0127778
+    url: "https://casscourtsmi.org/4th-district-court/"
+    link_check: manual
+    verification_note: "Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-charlevoix-courthouse
+    state: MI
+    county: Charlevoix
+    name: 90th District Court - Charlevoix
+    address: "301 State St., Charlevoix, MI 49720"
+    lat: 45.315838
+    lng: -85.260811
+    url: "https://www.charlevoixcounty.org/the_90th_district_court/index.php"
+    kind: courthouse
+  - id: mi-cheboygan-courthouse
+    state: MI
+    county: Cheboygan
+    name: 89th District Court - Cheboygan
+    address: "870 S. Main, Cheboygan, MI 49721"
+    lat: 45.6296538
+    lng: -84.4804539
+    url: "https://www.cheboygancounty.net/courts-law-enforcement/"
+    kind: courthouse
+  - id: mi-chippewa-courthouse
+    state: MI
+    county: Chippewa
+    name: 91st District Court
+    address: "325 Court Street, Sault, MI 49783"
+    lat: 46.4978274
+    lng: -84.3458916
+    url: "https://www.chippewacountymi.gov/91dc"
+    kind: courthouse
+  - id: mi-clare-courthouse
+    state: MI
+    county: Clare
+    name: 80th District Court - Clare
+    address: "225 W. Main St., Harrison, MI 48625"
+    lat: 44.0192607
+    lng: -84.8038556
+    url: "https://clareco.net/department/courts/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-clinton-courthouse
+    state: MI
+    county: Clinton
+    name: 65A District Court
+    address: "100 E. State Street, St. Johns, MI 48879"
+    lat: 43.001335
+    lng: -84.558319
+    url: "https://www.clinton-county.org/35/Law-Justice"
+    kind: courthouse
+  - id: mi-crawford-courthouse
+    state: MI
+    county: Crawford
+    name: 87C District Court
+    address: "200 W. Michigan Ave., Grayling, MI 49738"
+    lat: 44.6600107
+    lng: -84.7168776
+    url: "https://www.circuit46.org/crawford-county-courts/"
+    kind: courthouse
+  - id: mi-delta-courthouse
+    state: MI
+    county: Delta
+    name: 94th District Court
+    address: "310 Ludington St., Escanaba, MI 49829"
+    lat: 45.7460387
+    lng: -87.0513596
+    url: "https://deltacountymi.gov/"
+    kind: courthouse
+  - id: mi-dickinson-courthouse
+    state: MI
+    county: Dickinson
+    name: 95B District Court - Dickinson
+    address: "705 S. St., Iron Mountain, MI 49801"
+    lat: 45.820233
+    lng: -88.06596
+    url: "https://www.dickinsoncountymi.gov/?courts#95B_DISTRICT_COURT"
+    kind: courthouse
+  - id: mi-eaton-courthouse
+    state: MI
+    county: Eaton
+    name: 56A District Court
+    address: "1045 Independence Blvd., Charlotte, MI 48813"
+    lat: 42.5809145
+    lng: -84.845881
+    url: "https://www.eatoncounty.org"
+    kind: courthouse
+  - id: mi-emmet-courthouse
+    state: MI
+    county: Emmet
+    name: 90th District Court - Emmet
+    address: "200 Division Street, Petoskey, MI 49770"
+    lat: 45.3752287
+    lng: -84.9530217
+    url: "https://www.emmetcounty.org/government/courts/90th_district_court/index.php"
+    kind: courthouse
+  - id: mi-genesee-courthouse
+    state: MI
+    county: Genesee
+    name: 67th District Court - Division 1
+    address: "630 S. Saginaw St., MI 48502"
+    lat: 43.014622
+    lng: -83.6896748
+    url: "https://www.geneseecountymi.gov/courts_and_law_enforcement/index.php"
+    kind: courthouse
+  - id: mi-gladwin-courthouse
+    state: MI
+    county: Gladwin
+    name: 80th District Court - Gladwin
+    address: "401 W. Cedar, Gladwin, MI 48624"
+    lat: 43.9803195
+    lng: -84.4913685
+    url: "https://gladwincounty-mi.gov/departments/80th-district-court/"
+    kind: courthouse
+  - id: mi-gogebic-courthouse
+    state: MI
+    county: Gogebic
+    name: 98th District Court - Gogebic
+    address: "200 N. Moore St., Bessemer, MI 49911"
+    lat: 46.4824759
+    lng: -90.0531689
+    url: "https://www.gogebic.gov/district.html"
+    kind: courthouse
+  - id: mi-grand-traverse-courthouse
+    state: MI
+    county: Grand Traverse
+    name: 86th District Court - Grand Traverse
+    address: "280 Washington St., Traverse City, MI 49684"
+    lat: 44.7614136
+    lng: -85.6180971
+    url: "https://www.gtcountymi.gov/2747/86th-District-Court"
+    kind: courthouse
+  - id: mi-gratiot-courthouse
+    state: MI
+    county: Gratiot
+    name: 65B District Court
+    address: "245 E. Newark St., Ithaca, MI 48847"
+    lat: 43.2905886
+    lng: -84.6041924
+    url: "https://www.gratiotmi.com/386/65th-District-Court"
+    kind: courthouse
+  - id: mi-houghton-courthouse
+    state: MI
+    county: Houghton
+    name: 97th District Court - Houghton
+    address: "401 E. Houghton Ave., Houghton, MI 49931"
+    lat: 47.1201039
+    lng: -88.5690104
+    url: "https://www.houghtoncounty.net/directory-97th-district-court.php"
+    kind: courthouse
+  - id: mi-huron-courthouse
+    state: MI
+    county: Huron
+    name: 73B District Court
+    address: "250 E. Huron Ave., Bad Axe, MI 48413"
+    lat: 43.8020308
+    lng: -82.9979185
+    url: "https://www.co.huron.mi.us/district-court-magistrate-court"
+    kind: courthouse
+  - id: mi-ingham-courthouse
+    state: MI
+    county: Ingham
+    name: 54A District Court
+    address: "124 W. Michigan Ave., Lansing, MI 48933"
+    lat: 42.7340573
+    lng: -84.553437
+    url: "https://www.lansingmi.gov/54-a-district-court-0"
+    kind: courthouse
+  - id: mi-ionia-courthouse
+    state: MI
+    county: Ionia
+    name: 64A District Court
+    address: "100 W. Main St., Ionia, MI 48846"
+    lat: 42.982815
+    lng: -85.063386
+    url: "https://ioniacounty.org/courts/64dc/"
+    link_check: manual
+    verification_note: "Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-iosco-courthouse
+    state: MI
+    county: Iosco
+    name: 81st District Court - Iosco
+    address: "422 Lake, Tawas City, MI 48764"
+    lat: 44.2687322
+    lng: -83.5164875
+    url: "https://iosco.net/courts/district-court/"
+    kind: courthouse
+  - id: mi-iron-courthouse
+    state: MI
+    county: Iron
+    name: 95B District Court - Iron
+    address: "2 S. Sixth Street, Crystal Falls, MI 49920"
+    lat: 46.0967259
+    lng: -88.3354651
+    url: "https://ironmi.com/"
+    kind: courthouse
+  - id: mi-isabella-courthouse
+    state: MI
+    county: Isabella
+    name: 76th District Court
+    address: "300 N. Main St., Mt. Pleasant, MI 48858"
+    lat: 43.606371
+    lng: -84.776584
+    url: "https://www.isabellacounty.org/law-justice/trial-court/"
+    kind: courthouse
+  - id: mi-jackson-courthouse
+    state: MI
+    county: Jackson
+    name: 12th District Court
+    address: "312 S. Jackson St., Jackson, MI 49201"
+    lat: 42.245025
+    lng: -84.408919
+    url: "https://www.mijackson.org/3074/12th-Judicial-District-Court"
+    kind: courthouse
+  - id: mi-kalamazoo-courthouse
+    state: MI
+    county: Kalamazoo
+    name: 8th District Court
+    address: "330 Eleanor Street, Kalamazoo, MI 49007"
+    lat: 42.2935846
+    lng: -85.5865684
+    url: "https://www.kalcounty.gov/161/Courts"
+    kind: courthouse
+  - id: mi-kalkaska-courthouse
+    state: MI
+    county: Kalkaska
+    name: 87B District Court
+    address: "605 N. Birch Street, Kalkaska, MI 49646"
+    lat: 44.7402303
+    lng: -85.1846684
+    url: "https://www.circuit46.org/kalkaska-county-courts/"
+    kind: courthouse
+  - id: mi-keweenaw-courthouse
+    state: MI
+    county: Keweenaw
+    name: 97th District Court - Keweenaw
+    address: "5095 Fourth Street, Eagle River, MI 49950"
+    lat: 47.4132942
+    lng: -88.2945796
+    url: "https://keweenawcountyonline.org/department-court.php"
+    kind: courthouse
+  - id: mi-lapeer-courthouse
+    state: MI
+    county: Lapeer
+    name: 71A District Court
+    address: "255 Clay Street, Lapeer, MI 48446"
+    lat: 43.0535686
+    lng: -83.310478
+    url: "https://lapeercountyweb.org/"
+    kind: courthouse
+  - id: mi-lenawee-courthouse
+    state: MI
+    county: Lenawee
+    name: 2A District Court
+    address: "425 N. Main Street, Adrian, MI 49221"
+    lat: 41.9028537
+    lng: -84.0346285
+    url: "https://lenawee.mi.us/176/District-Court"
+    kind: courthouse
+  - id: mi-livingston-courthouse
+    state: MI
+    county: Livingston
+    name: 53rd District Court
+    address: "204 S. Highlander Way, Howell, MI 48843"
+    lat: 42.6123642
+    lng: -83.9540674
+    url: "https://milivcounty.gov/district/"
+    link_check: manual
+    verification_note: "Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: mi-luce-courthouse
+    state: MI
+    county: Luce
+    name: 92nd District Court - Luce
+    address: "407 W. Harrie St., Newberry, MI 49868"
+    lat: 46.3523127
+    lng: -85.5146069
+    url: "https://www.lucecountymi.com/92nd-district-court"
+    kind: courthouse
+  - id: mi-mackinac-courthouse
+    state: MI
+    county: Mackinac
+    name: 92nd District Court - Mackinac
+    address: "100 Marley St., St. Ignace, MI 49781"
+    lat: 45.8661952
+    lng: -84.7330074
+    url: "https://www.mackinaccounty.net/departments/courts/district-court/"
+    kind: courthouse
+  - id: mi-marquette-courthouse
+    state: MI
+    county: Marquette
+    name: 96th District Court
+    address: "234 W. Baraga Ave., Marquette, MI 49855"
+    lat: 46.5417473
+    lng: -87.397353
+    url: "https://www.co.marquette.mi.us/departments/courts/district_court/index.php#.WTWPImaGNPY"
+    kind: courthouse
+  - id: mi-mason-courthouse
+    state: MI
+    county: Mason
+    name: 79th District Court - Mason
+    address: "304 E. Ludington Avenue, Ludington, MI 49431"
+    lat: 43.9555264
+    lng: -86.4448151
+    url: "https://www.masoncounty.net/courts/79th_district_court.php"
+    kind: courthouse
+  - id: mi-mecosta-courthouse
+    state: MI
+    county: Mecosta
+    name: 77th District Court - Mecosta
+    address: "400 Elm Street, Big Rapids, MI 49307"
+    lat: 43.696977
+    lng: -85.478743
+    url: "https://www.77districtcourt.org/"
+    kind: courthouse
+  - id: mi-menominee-courthouse
+    state: MI
+    county: Menominee
+    name: 95A District Court
+    address: "839 10th Ave., Menominee, MI 49858"
+    lat: 45.1072052
+    lng: -87.6134309
+    url: "https://www.menomineecountymi.gov/departments/?department=24162d6823a2"
+    kind: courthouse
+  - id: mi-midland-courthouse
+    state: MI
+    county: Midland
+    name: 75th District Court
+    address: "301 W. Main Street, Midland, MI 48640"
+    lat: 43.6138604
+    lng: -84.2470645
+    url: "https://co.midland.mi.us/midland-courts"
+    kind: courthouse
+  - id: mi-missaukee-courthouse
+    state: MI
+    county: Missaukee
+    name: 84th District Court - Missaukee
+    address: "111 S. Canal St., Lake City, MI 49651"
+    lat: 44.3333212
+    lng: -85.213091
+    url: "https://wexfordcounty.org/?page_id=833"
+    kind: courthouse
+  - id: mi-monroe-courthouse
+    state: MI
+    county: Monroe
+    name: 1st District Court
+    address: "106 E. First St., Monroe, MI 48161"
+    lat: 41.9144319
+    lng: -83.3970185
+    url: "https://www.co.monroe.mi.us/402/1st-District-Court"
+    kind: courthouse
+  - id: mi-montcalm-courthouse
+    state: MI
+    county: Montcalm
+    name: 64B District Court
+    address: "617 N. State, Stanton, MI 48888"
+    lat: 43.3015891
+    lng: -85.0849059
+    url: "https://www.montcalm.us/347/Courts"
+    kind: courthouse
+  - id: mi-montmorency-courthouse
+    state: MI
+    county: Montmorency
+    name: 88th District Court - Montmorency
+    address: "Montmorency County Courthouse, Atlanta, MI 49709"
+    lat: 45.0051288
+    lng: -84.148668
+    url: "https://www.montmorencycourts.com/88thdistrictcourt"
+    kind: courthouse
+  - id: mi-muskegon-courthouse
+    state: MI
+    county: Muskegon
+    name: 60th District Court
+    address: "990 Terrace St., Muskegon, MI 49442"
+    lat: 43.2350246
+    lng: -86.245484
+    url: "https://co.muskegon.mi.us/601/60th-District-Court"
+    kind: courthouse
+  - id: mi-newaygo-courthouse
+    state: MI
+    county: Newaygo
+    name: 78th District Court - Newaygo
+    address: "1092 Newell, White Cloud, MI 49349"
+    lat: 43.5483498
+    lng: -85.7751881
+    url: "https://www.newaygocountymi.gov/departments/district-court/district-court/"
+    kind: courthouse
+  - id: mi-oakland-courthouse
+    state: MI
+    county: Oakland
+    name: 50th District Court
+    address: "70 N. Saginaw, Pontiac, MI 48342"
+    lat: 42.6313806
+    lng: -83.2902372
+    url: "https://www.oaklandcountymi.gov/government/courts/district-courts/50th-district-court"
+    kind: courthouse
+  - id: mi-oceana-courthouse
+    state: MI
+    county: Oceana
+    name: 79th District Court - Oceana
+    address: "100 State Street, Hart, MI 49420"
+    lat: 43.7106078
+    lng: -86.3596738
+    url: "https://oceana.mi.us/government/online-services-alt/courts-and-legal/"
+    kind: courthouse
+  - id: mi-ogemaw-courthouse
+    state: MI
+    county: Ogemaw
+    name: 82nd District Court - Ogemaw
+    address: "806 W. Houghton Ave., West Branch, MI 48661"
+    lat: 44.2758759
+    lng: -84.2458181
+    url: "https://www.ocmi.us/82nd-judicial-district-court/"
+    kind: courthouse
+  - id: mi-ontonagon-courthouse
+    state: MI
+    county: Ontonagon
+    name: 98th District Court - Ontonagon
+    address: "725 Greenland Rd., Ontonagon, MI 49953"
+    lat: 46.8635177
+    lng: -89.2994744
+    url: "https://ontonagoncounty.org/county-offices/district-court/"
+    kind: courthouse
+  - id: mi-osceola-courthouse
+    state: MI
+    county: Osceola
+    name: 77th District Court - Osceola
+    address: "301 W. Upton, Reed City, MI 49677"
+    lat: 43.8760319
+    lng: -85.5142779
+    url: "https://www.osceola-county.org/residents/county_departments/77th_district_court/index.php"
+    kind: courthouse
+  - id: mi-oscoda-courthouse
+    state: MI
+    county: Oscoda
+    name: 81st District Court - Oscoda
+    address: "105 S. Court Street, Mio, MI 48647"
+    lat: 44.6518402
+    lng: -84.1281452
+    url: "https://www.oscodacountymi.com/"
+    kind: courthouse
+  - id: mi-otsego-courthouse
+    state: MI
+    county: Otsego
+    name: 87A District Court
+    address: "800 Livingston Blvd., Gaylord, MI 49735"
+    lat: 45.0454811
+    lng: -84.6683296
+    url: "https://www.circuit46.org/otsego-county-courts/"
+    kind: courthouse
+  - id: mi-ottawa-courthouse
+    state: MI
+    county: Ottawa
+    name: 58th District Court
+    address: "85 West Eighth Street, Holland, MI 49423"
+    lat: 42.7905688
+    lng: -86.1106067
+    url: "https://miottawa.org/courts/58th-district/"
+    kind: courthouse
+  - id: mi-presque-isle-courthouse
+    state: MI
+    county: Presque Isle
+    name: 89th District Court - Presque Isle
+    address: "151 E. Huron, Rogers City, MI 49779"
+    lat: 45.4213901
+    lng: -83.8168525
+    url: "https://www.cheboygancounty.net/courts-law-enforcement/"
+    kind: courthouse
+  - id: mi-roscommon-courthouse
+    state: MI
+    county: Roscommon
+    name: 82nd District Court - Roscommon
+    address: "500 Lake St., Roscommon, MI 48653"
+    lat: 44.4960305
+    lng: -84.5928092
+    url: "https://www.roscommoncounty.net/154/82nd-District-Court"
+    kind: courthouse
+  - id: mi-saginaw-courthouse
+    state: MI
+    county: Saginaw
+    name: 70th District Court - Division 1
+    address: "111 S. Michigan Ave., Saginaw, MI 48602"
+    lat: 43.4167843
+    lng: -83.9655319
+    url: "https://www.saginawcountymi.gov/courts-public-safety/courts/70th-district-court/"
+    kind: courthouse
+  - id: mi-schoolcraft-courthouse
+    state: MI
+    county: Schoolcraft
+    name: 93rd District Court - Schoolcraft
+    address: "300 Walnut St., Manistique, MI 49854"
+    lat: 45.9570351
+    lng: -86.2437106
+    url: "https://www.schoolcraftcounty.net/government/courts-of-schoolcraft-county/93rd-judicial-di"
+    kind: courthouse
+  - id: mi-shiawassee-courthouse
+    state: MI
+    county: Shiawassee
+    name: 66th District Court
+    address: "110 E. Mack St., Corunna, MI 48817"
+    lat: 42.9826021
+    lng: -84.116883
+    url: "https://shiawassee.net/district-court/"
+    kind: courthouse
+  - id: mi-st-clair-courthouse
+    state: MI
+    county: St. Clair
+    name: 72nd District Court
+    address: "201 McMorran Blvd., Port Huron, MI 48060"
+    lat: 42.979262
+    lng: -82.4212404
+    url: "https://www.stclaircounty.org/Offices/courts/district/"
+    kind: courthouse
+  - id: mi-st-joseph-courthouse
+    state: MI
+    county: St. Joseph
+    name: 3B District Court
+    address: "125 W. Main, Centreville, MI 49032"
+    lat: 41.9236002
+    lng: -85.5271838
+    url: "https://stjosephcountymi.gov/government/courts-law-enforcement/3b-district-court/"
+    kind: courthouse
+  - id: mi-tuscola-courthouse
+    state: MI
+    county: Tuscola
+    name: 71B District Court
+    address: "440 N. State St., Caro, MI 48723"
+    lat: 43.4909246
+    lng: -83.3928367
+    url: "https://www.tuscolacounty.org/courts/district.php"
+    kind: courthouse
+  - id: mi-van-buren-courthouse
+    state: MI
+    county: Van Buren
+    name: 7th District Court
+    address: "212 Paw Paw St., Paw Paw, MI 49079"
+    lat: 42.2178171
+    lng: -85.8911246
+    url: "https://vanburencountymi.gov/departments/county-courts/courts/7th-district-court/"
+    kind: courthouse
+  - id: mi-washtenaw-courthouse
+    state: MI
+    county: Washtenaw
+    name: 14A District Court
+    address: "4133 Washtenaw Road, Ann Arbor, MI 48107"
+    lat: 42.2799176
+    lng: -83.7523997
+    url: "https://www.washtenaw.org/14a-district-court"
+    kind: courthouse
+  - id: mi-wayne-courthouse
+    state: MI
+    county: Wayne
+    name: 19th District Court
+    address: "16077 Michigan Ave., Dearborn, MI 48126"
+    lat: 42.3150995
+    lng: -83.2006896
+    url: "https://dearborn.gov/"
+    kind: courthouse
+  - id: mi-wexford-courthouse
+    state: MI
+    county: Wexford
+    name: 84th District Court - Wexford
+    address: "437 E. Division St., Cadillac, MI 49601"
+    lat: 44.2527
+    lng: -85.39442
+    url: "https://wexfordcounty.org/?page_id=833"
+    kind: courthouse

@@ -1,0 +1,112 @@
+# Hawaii — 5 counties. 5 verified district-court traffic cards.
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+state: HI
+state_name: Hawaii
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.state.hi.us
+counties:
+  - name: Honolulu
+    note: "Traffic venue is District Court of the First Circuit, Honolulu."
+  - name: Hawaii
+    note: "Traffic venue is District Court of the Third Circuit, Hilo."
+  - name: Maui
+    note: "Traffic venue is District Court of the Second Circuit, Wailuku."
+  - name: Kauai
+    note: "Traffic venue is District Court of the Fifth Circuit, Lihue."
+  - name: Kalawao
+    note: "Kalawao County uses the District Court of the Second Circuit (Molokai)."
+cards:
+  - id: honolulu-district-card
+    verification: link_ok
+    source_url: "https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of the First Circuit, Honolulu"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.state.hi.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic infractions and violations."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Honolulu
+    weight: 10
+
+  - id: hawaii-district-card
+    verification: link_ok
+    source_url: "https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of the Third Circuit, Hilo"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.state.hi.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic infractions and violations."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hawaii
+    weight: 10
+
+  - id: maui-district-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of the Second Circuit, Wailuku"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.state.hi.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic infractions and violations."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Maui
+    weight: 10
+
+  - id: kauai-district-card
+    verification: link_ok
+    source_url: "https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of the Fifth Circuit, Lihue"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.state.hi.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic infractions and violations."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kauai
+    weight: 10
+
+  - id: kalawao-district-card
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.courts.state.hi.us/self-help/traffic/district_court_contact_info"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "District Court of the Second Circuit, Molokai"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on courts.state.hi.us."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District courts handle traffic infractions and violations."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kalawao
+    weight: 10

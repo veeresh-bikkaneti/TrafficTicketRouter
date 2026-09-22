@@ -1,0 +1,1433 @@
+# Virginia map pins — General District Court locations.
+# Addresses from official vacourts.gov pages 2026-09-21; coordinates from
+# Nominatim, cross-checked by reverse geocode. URLs reused verbatim from
+# data/states/VA.yaml — never invented. Omitted pins: Buchanan (official address
+# is a P.O. Box only), Henry (official address 3160 Kings Mountain Road has no
+# OSM record; name search returns 1 E Main St, not the card venue), Lunenburg
+# (card address 160 Courthouse Square, Lunenburg 23952 has no OSM record; OSM
+# courthouse is in Victoria 23974, not the card address). Do not commit without review.
+pins:
+  - id: va-accomack-county-courthouse
+    state: VA
+    county: Accomack
+    name: General District Court — Accomack
+    address: 23371 Front Street, Accomac, VA 23301-0276
+    lat: 37.7198449
+    lng: -75.6702036
+    url: https://www.vacourts.gov/courts/gd/accomack/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-albemarle-county-courthouse
+    state: VA
+    county: Albemarle
+    name: General District Court — Albemarle
+    address: 350 Park Street, Charlottesville, VA 22902-5113
+    lat: 38.0315990
+    lng: -78.4765380
+    url: https://www.vacourts.gov/courts/gd/albemarle/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-alexandria-city-courthouse
+    state: VA
+    county: Alexandria
+    name: General District Court — Alexandria
+    address: 520 King Street, Second Floor, Alexandria, VA 22320-4489
+    lat: 38.8044029
+    lng: -77.0450888
+    url: https://www.vacourts.gov/courts/gd/alexandria/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-alleghany-county-courthouse
+    state: VA
+    county: Alleghany
+    name: General District Court — Alleghany
+    address: 266 West Main Street, Covington, VA 24426-0139
+    lat: 37.7928848
+    lng: -79.9955784
+    url: https://www.vacourts.gov/courts/combined/alleghany/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-amelia-county-courthouse
+    state: VA
+    county: Amelia
+    name: General District Court — Amelia
+    address: 16441 Court Street, Amelia, VA 23002-0024
+    lat: 37.3416096
+    lng: -77.9809663
+    url: https://www.vacourts.gov/courts/combined/amelia/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-amherst-county-courthouse
+    state: VA
+    county: Amherst
+    name: General District Court — Amherst
+    address: 113 Taylor Street, Amherst, VA 24521
+    lat: 37.5850607
+    lng: -79.0505724
+    url: https://www.vacourts.gov/courts/gd/amherst/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-appomattox-county-courthouse
+    state: VA
+    county: Appomattox
+    name: General District Court — Appomattox
+    address: 297 Court Street, Second Floor, Appomattox, VA 24522-0187
+    lat: 37.3553680
+    lng: -78.8302209
+    url: https://www.vacourts.gov/courts/gd/appomattox/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-arlington-county-courthouse
+    state: VA
+    county: Arlington
+    name: General District Court — Arlington
+    address: 1425 North Courthouse Road, Suite 2400, Second Floor, Arlington, VA 22201-2622
+    lat: 38.8904190
+    lng: -77.0833227
+    url: https://www.vacourts.gov/courts/gd/arlington/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-augusta-county-courthouse
+    state: VA
+    county: Augusta
+    name: General District Court — Augusta
+    address: 100 Dick Huff Lane, Suite 1070, Verona, VA 24482
+    lat: 38.1948059
+    lng: -79.0145090
+    url: https://www.vacourts.gov/courts/gd/augusta/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-bath-county-courthouse
+    state: VA
+    county: Bath
+    name: General District Court — Bath
+    address: 65 Courthouse Hill Rd., Warm Springs, VA 24484
+    lat: 38.0456660
+    lng: -79.7876227
+    url: https://www.vacourts.gov/courts/combined/bath/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-bedford-county-courthouse
+    state: VA
+    county: Bedford
+    name: General District Court — Bedford
+    address: 123 East Main Street, Suite 202, Bedford, VA 24523-2034
+    lat: 37.3346063
+    lng: -79.5222076
+    url: https://www.vacourts.gov/courts/gd/bedford/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-bland-county-courthouse
+    state: VA
+    county: Bland
+    name: General District Court — Bland
+    address: 612 Main Street, Suite 106, Bland, VA 24315-0157
+    lat: 37.1000257
+    lng: -81.1154183
+    url: https://www.vacourts.gov/courts/combined/bland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-botetourt-county-courthouse
+    state: VA
+    county: Botetourt
+    name: General District Court — Botetourt
+    address: 20 E. Back Street, Suite A, Fincastle, VA 24090-4537
+    lat: 37.4999702
+    lng: -79.8773932
+    url: https://www.vacourts.gov/courts/gd/botetourt/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-bristol-city-courthouse
+    state: VA
+    county: Bristol
+    name: General District Court — Bristol
+    address: 497 Cumberland Street, RM 208, Bristol, VA 24201-4393
+    lat: 36.5963797
+    lng: -82.1815432
+    url: https://www.vacourts.gov/courts/gd/bristol/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-brunswick-county-courthouse
+    state: VA
+    county: Brunswick
+    name: General District Court — Brunswick
+    address: Albertis S. Harrison Jr. Courthouse, 202 North Main Street, Lawrenceville, VA 23868-1808
+    lat: 36.7580505
+    lng: -77.8466743
+    url: https://www.vacourts.gov/courts/combined/brunswick/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-buckingham-county-courthouse
+    state: VA
+    county: Buckingham
+    name: General District Court — Buckingham
+    address: 13049 W. James Anderson Hwy., Buckingham, VA 23921-0127
+    lat: 37.5505834
+    lng: -78.5563699
+    url: https://www.vacourts.gov/courts/combined/buckingham/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-buena-vista-city-courthouse
+    state: VA
+    county: Buena Vista
+    name: General District Court — Buena Vista
+    address: 2039 Sycamore Avenue, Buena Vista, VA 24416
+    lat: 37.7342991
+    lng: -79.3559533
+    url: https://www.vacourts.gov/courts/combined/buena_vista/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-campbell-county-courthouse
+    state: VA
+    county: Campbell
+    name: General District Court — Campbell
+    address: 732 Village Highway, Rustburg, VA 24588-0097
+    lat: 37.2767825
+    lng: -79.1023518
+    url: https://www.vacourts.gov/courts/gd/campbell/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-caroline-county-courthouse
+    state: VA
+    county: Caroline
+    name: General District Court — Caroline
+    address: Caroline General District Court, 111 Ennis Street, Bowling Green, VA 22427-0511
+    lat: 38.0508861
+    lng: -77.3458935
+    url: https://www.vacourts.gov/courts/gd/caroline/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-carroll-county-courthouse
+    state: VA
+    county: Carroll
+    name: General District Court — Carroll
+    address: 605 Pine Street, Hillsville, VA 24343-0698
+    lat: 36.7678335
+    lng: -80.7348406
+    url: https://www.vacourts.gov/courts/gd/carroll/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-charles-city-county-courthouse
+    state: VA
+    county: Charles City
+    name: General District Court — Charles City
+    address: 10780 Courthouse Road, Charles City, VA 23030-0057
+    lat: 37.3417373
+    lng: -77.0727281
+    url: https://www.vacourts.gov/courts/combined/charles_city/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-charlottesville-city-courthouse
+    state: VA
+    county: Charlottesville
+    name: General District Court — Charlottesville
+    address: 606 East Market Street, Charlottesville, VA 22902-2677
+    lat: 38.0300275
+    lng: -78.4773683
+    url: https://www.vacourts.gov/courts/gd/charlottesville/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-charlotte-county-courthouse
+    state: VA
+    county: Charlotte
+    name: General District Court — Charlotte
+    address: 115 David Bruce Ave, Charlotte Court House, VA 23923
+    lat: 37.0561848
+    lng: -78.6366582
+    url: https://www.vacourts.gov/courts/gd/charlotte/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-chesapeake-city-courthouse
+    state: VA
+    county: Chesapeake
+    name: General District Court — Chesapeake
+    address: 307 Albemarle Drive, Civic Center, Chesapeake, VA 23322-5571
+    lat: 36.7172881
+    lng: -76.2503780
+    url: https://www.vacourts.gov/courts/gd/chesapeake/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-chesterfield-county-courthouse
+    state: VA
+    county: Chesterfield
+    name: General District Court — Chesterfield
+    address: Chesterfield Courthouse, 9500 Courthouse Road, Chesterfield, VA 23832-0144
+    lat: 37.3848016
+    lng: -77.5134457
+    url: https://www.vacourts.gov/courts/gd/chesterfield/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-clarke-county-courthouse
+    state: VA
+    county: Clarke
+    name: General District Court — Clarke
+    address: 104 North Church Street, Berryville, VA 22611-0612
+    lat: 39.1519180
+    lng: -77.9805730
+    url: https://www.vacourts.gov/courts/gd/clarke/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-colonial-heights-city-courthouse
+    state: VA
+    county: Colonial Heights
+    name: General District Court — Colonial Heights
+    address: 550 Boulevard, Colonial Heights, VA 23834
+    lat: 37.2427475
+    lng: -77.4096744
+    url: https://www.vacourts.gov/courts/gd/colonial_heights/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-covington-city-courthouse
+    state: VA
+    county: Covington
+    name: General District Court — Covington
+    address: 266 West Main Street, Covington, VA 24426-0139
+    lat: 37.7928848
+    lng: -79.9955784
+    url: https://www.vacourts.gov/courts/combined/alleghany/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-craig-county-courthouse
+    state: VA
+    county: Craig
+    name: General District Court — Craig
+    address: 182 Main Street, Suite 5, New Castle, VA 24127-0232
+    lat: 37.5038677
+    lng: -80.1096291
+    url: https://www.vacourts.gov/courts/combined/craig/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-culpeper-county-courthouse
+    state: VA
+    county: Culpeper
+    name: General District Court — Culpeper
+    address: 135 West Cameron Street, Culpeper, VA 22701-3045
+    lat: 38.4741530
+    lng: -77.9969910
+    url: https://www.vacourts.gov/courts/gd/culpeper/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-cumberland-county-courthouse
+    state: VA
+    county: Cumberland
+    name: General District Court — Cumberland
+    address: 1 Courthouse Circle, Courthouse, Cumberland, VA 23040-0024
+    lat: 37.4973578
+    lng: -78.2440878
+    url: https://www.vacourts.gov/courts/combined/cumberland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-danville-city-courthouse
+    state: VA
+    county: Danville
+    name: General District Court — Danville
+    address: 401 Patton Street, Danville, VA 24543-3300
+    lat: 36.5863646
+    lng: -79.3910098
+    url: https://www.vacourts.gov/courts/gd/danville/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-dickenson-county-courthouse
+    state: VA
+    county: Dickenson
+    name: General District Court — Dickenson
+    address: 119 Courthouse Lane, Dickenson County Judicial Center, Clintwood, VA 24228-0128
+    lat: 37.1502432
+    lng: -82.4567607
+    url: https://www.vacourts.gov/courts/combined/dickenson/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-dinwiddie-county-courthouse
+    state: VA
+    county: Dinwiddie
+    name: General District Court — Dinwiddie
+    address: 14008 Boydton Plank Road, Dinwiddie, VA 23841
+    lat: 37.0806844
+    lng: -77.5870854
+    url: https://www.vacourts.gov/courts/combined/dinwiddie/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-emporia-city-courthouse
+    state: VA
+    county: Emporia
+    name: General District Court — Emporia
+    address: 315 South Main Street, Emporia, VA 23847
+    lat: 36.6868431
+    lng: -77.5422756
+    url: https://www.vacourts.gov/courts/combined/emporia/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-essex-county-courthouse
+    state: VA
+    county: Essex
+    name: General District Court — Essex
+    address: 300 Prince Street, Tappahannock, VA 22560
+    lat: 37.9282933
+    lng: -76.8596295
+    url: https://www.vacourts.gov/courts/combined/essex/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-fairfax-city-courthouse
+    state: VA
+    county: City of Fairfax
+    name: General District Court — City of Fairfax
+    address: City Hall, Room 101, 10455 Armstrong Street, Fairfax, VA 22030-3600
+    lat: 38.8412790
+    lng: -77.3071970
+    url: https://www.vacourts.gov/courts/gd/fairfax_city/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-fairfax-county-courthouse
+    state: VA
+    county: Fairfax
+    name: General District Court — Fairfax
+    address: 4110 Chain Bridge Road, Suite 210, Fairfax, VA 22030-0458
+    lat: 38.8438776
+    lng: -77.3090997
+    url: https://www.vacourts.gov/courts/gd/fairfax_county/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-falls-church-city-courthouse
+    state: VA
+    county: Falls Church
+    name: General District Court — Falls Church
+    address: 300 Park Avenue, Suite 151W, Falls Church, VA 22046-3301
+    lat: 38.8857290
+    lng: -77.1724008
+    url: https://www.vacourts.gov/courts/combined/falls_church/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-fauquier-county-courthouse
+    state: VA
+    county: Fauquier
+    name: General District Court — Fauquier
+    address: 6 Court Street, Warrenton, VA 20186-3299
+    lat: 38.7136238
+    lng: -77.7956939
+    url: https://www.vacourts.gov/courts/gd/fauquier/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-floyd-county-courthouse
+    state: VA
+    county: Floyd
+    name: General District Court — Floyd
+    address: 100 E. Main Street, Room 208, Floyd, VA 24091-2101
+    lat: 36.9117148
+    lng: -80.3198600
+    url: https://www.vacourts.gov/courts/combined/floyd/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-fluvanna-county-courthouse
+    state: VA
+    county: Fluvanna
+    name: General District Court — Fluvanna
+    address: 72 Main Street, Suite B, Palmyra, VA 22963-0417
+    lat: 37.8592292
+    lng: -78.2647156
+    url: https://www.vacourts.gov/courts/combined/fluvanna/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-franklin-city-courthouse
+    state: VA
+    county: City of Franklin
+    name: General District Court — City of Franklin
+    address: 1020 Pretlow Street, Franklin, VA 23851-2067
+    lat: 36.6644272
+    lng: -76.9204074
+    url: https://www.vacourts.gov/courts/combined/franklin_city/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-franklin-county-courthouse
+    state: VA
+    county: Franklin
+    name: General District Court — Franklin
+    address: 275 South Main Street, Suite 111, Rocky Mount, VA 24151-1758
+    lat: 36.9951603
+    lng: -79.8887799
+    url: https://www.vacourts.gov/courts/gd/franklin_county/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-fredericksburg-city-courthouse
+    state: VA
+    county: Fredericksburg
+    name: General District Court — Fredericksburg
+    address: 701 Princess Anne Street Suite 200, Fredericksburg, VA 22401
+    lat: 38.3007164
+    lng: -77.4586346
+    url: https://www.vacourts.gov/courts/gd/fredericksburg/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-frederick-county-courthouse
+    state: VA
+    county: Frederick
+    name: General District Court — Frederick
+    address: Judicial Center, 5 North Kent Street, Winchester, VA  22601
+    lat: 39.1837885
+    lng: -78.1630011
+    url: https://www.vacourts.gov/courts/gd/Winchester~Frederick/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-galax-city-courthouse
+    state: VA
+    county: Galax
+    name: General District Court — Galax
+    address: 353 North Main Street, Suite 204, Galax, VA 24333-2911
+    lat: 36.6645431
+    lng: -80.9253387
+    url: https://www.vacourts.gov/courts/combined/galax/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-giles-county-courthouse
+    state: VA
+    county: Giles
+    name: General District Court — Giles
+    address: 120 North Main Street, Suite 1, Pearisburg, VA 24134
+    lat: 37.3271896
+    lng: -80.7349197
+    url: https://www.vacourts.gov/courts/gd/giles/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-gloucester-county-courthouse
+    state: VA
+    county: Gloucester
+    name: General District Court — Gloucester
+    address: 7400 Justice Drive, Room 102, Gloucester, VA 23061-0873
+    lat: 37.4158450
+    lng: -76.5303700
+    url: https://www.vacourts.gov/courts/gd/gloucester/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-goochland-county-courthouse
+    state: VA
+    county: Goochland
+    name: General District Court — Goochland
+    address: 2938 River Road West, Building G, Goochland, VA 23063-0047
+    lat: 37.6825953
+    lng: -77.8838998
+    url: https://www.vacourts.gov/courts/combined/goochland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-grayson-county-courthouse
+    state: VA
+    county: Grayson
+    name: General District Court — Grayson
+    address: New Grayson Courthouse, 129 Davis St., Independence, VA 24348-0280
+    lat: 36.6237608
+    lng: -81.1515364
+    url: https://www.vacourts.gov/courts/combined/grayson/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-greene-county-courthouse
+    state: VA
+    county: Greene
+    name: General District Court — Greene
+    address: 85 Stanard Street, Stanardsville, VA 22973-0245
+    lat: 38.2962452
+    lng: -78.4396917
+    url: https://www.vacourts.gov/courts/combined/greene/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-greensville-county-courthouse
+    state: VA
+    county: Greensville
+    name: General District Court — Greensville
+    address: 315 South Main Street, Emporia, VA 23847-2027
+    lat: 36.6868431
+    lng: -77.5422756
+    url: https://www.vacourts.gov/courts/combined/greensville/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-halifax-county-courthouse
+    state: VA
+    county: Halifax
+    name: General District Court — Halifax
+    address: 8 South Main Street Suite 200, Halifax, VA 24558-2508
+    lat: 36.7658956
+    lng: -78.9288388
+    url: https://www.vacourts.gov/courts/gd/halifax/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-hampton-city-courthouse
+    state: VA
+    county: Hampton
+    name: General District Court — Hampton
+    address: 236 North King Street, 2nd Floor, Hampton, VA 23669-3518
+    lat: 37.0264414
+    lng: -76.3442846
+    url: https://www.vacourts.gov/courts/gd/hampton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-hanover-county-courthouse
+    state: VA
+    county: Hanover
+    name: General District Court — Hanover
+    address: District Courts Building, 7530 County Complex Rd 1st Floor, Hanover, VA 23069-0176
+    lat: 37.7663807
+    lng: -77.3665508
+    url: https://www.vacourts.gov/courts/gd/hanover/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-harrisonburg-city-courthouse
+    state: VA
+    county: Harrisonburg
+    name: General District Court — Harrisonburg
+    address: 53 Court Square, Room 132, Harrisonburg, VA 22801-3700
+    lat: 38.4493520
+    lng: -78.8696950
+    url: https://www.vacourts.gov/courts/gd/Harrisonburg~Rockingham/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-henrico-county-courthouse
+    state: VA
+    county: Henrico
+    name: General District Court — Henrico
+    address: 4309 East Parham Road, Henrico, VA 23273-0775
+    lat: 37.6299869
+    lng: -77.5150698
+    url: https://www.vacourts.gov/courts/gd/henrico/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-highland-county-courthouse
+    state: VA
+    county: Highland
+    name: General District Court — Highland
+    address: 165 West Main Street, Monterey, VA 24465-0088
+    lat: 38.4126147
+    lng: -79.5824774
+    url: https://www.vacourts.gov/courts/combined/highland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-hopewell-city-courthouse
+    state: VA
+    county: Hopewell
+    name: General District Court — Hopewell
+    address: 100 East Broadway, Hopewell, VA 23860-2715
+    lat: 37.3038170
+    lng: -77.2871950
+    url: https://www.vacourts.gov/courts/combined/hopewell/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-isle-of-wight-county-courthouse
+    state: VA
+    county: Isle of Wight
+    name: General District Court — Isle of Wight
+    address: 17000 Josiah Parker Circle, Isle Of Wight, VA 23397-0122
+    lat: 36.9101453
+    lng: -76.7061818
+    url: https://www.vacourts.gov/courts/gd/isle_of_wight/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-james-city-county-courthouse
+    state: VA
+    county: James City
+    name: General District Court — James City
+    address: 5201 Monticello Avenue, Suite 2, Williamsburg, VA 23188-8218
+    lat: 37.2755483
+    lng: -76.7413997
+    url: https://vacourts.gov/courts/gd/Williamsburg~James_City_County/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-king-george-county-courthouse
+    state: VA
+    county: King George
+    name: General District Court — King George
+    address: 10446 Government Center Blvd., Suite 105, King George, VA 22485
+    lat: 38.2533580
+    lng: -77.1613288
+    url: https://www.vacourts.gov/courts/gd/king_george/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-king-william-county-courthouse
+    state: VA
+    county: King William
+    name: General District Court — King William
+    address: 351 Courthouse Lane Ste 201, King William, VA 23086
+    lat: 37.6876426
+    lng: -77.0133025
+    url: https://www.vacourts.gov/courts/gd/king_william/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-king-and-queen-county-courthouse
+    state: VA
+    county: King and Queen
+    name: General District Court — King and Queen
+    address: 242 Allens Circle, Courthouse, King And Queen, VA 23085
+    lat: 37.6700021
+    lng: -76.8769193
+    url: https://www.vacourts.gov/courts/gd/king_and_queen/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-lancaster-county-courthouse
+    state: VA
+    county: Lancaster
+    name: General District Court — Lancaster
+    address: 8265 Mary Ball Road, Lancaster, VA 22503-0129
+    lat: 37.7698807
+    lng: -76.4670170
+    url: https://www.vacourts.gov/courts/gd/lancaster/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-lee-county-courthouse
+    state: VA
+    county: Lee
+    name: General District Court — Lee
+    address: 33640 Main St, Suite 209, Jonesville, VA 24263
+    lat: 36.6892408
+    lng: -83.1095846
+    url: https://www.vacourts.gov/courts/gd/lee/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-lexington-city-courthouse
+    state: VA
+    county: Lexington
+    name: General District Court — Lexington
+    address: 20 South Randolph Street, Suite 200, Lexington, VA 24450-2552
+    lat: 37.7842151
+    lng: -79.4413538
+    url: https://www.vacourts.gov/courts/gd/Lexington~Rockbridge/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-loudoun-county-courthouse
+    state: VA
+    county: Loudoun
+    name: General District Court — Loudoun
+    address: 2 Church Street NE, Leesburg, VA 20176-2828
+    lat: 39.1157420
+    lng: -77.5625510
+    url: https://www.vacourts.gov/courts/gd/loudoun/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-louisa-county-courthouse
+    state: VA
+    county: Louisa
+    name: General District Court — Louisa
+    address: Cunningham Bldg, 314 West Main Street, Louisa, VA 23093-0452
+    lat: 38.0261860
+    lng: -78.0044990
+    url: https://www.vacourts.gov/courts/gd/louisa/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-lynchburg-city-courthouse
+    state: VA
+    county: Lynchburg
+    name: General District Court — Lynchburg
+    address: 905 Court Street, Lynchburg, VA 24504-1603
+    lat: 37.4133314
+    lng: -79.1443603
+    url: https://www.vacourts.gov/courts/gd/lynchburg/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-madison-county-courthouse
+    state: VA
+    county: Madison
+    name: General District Court — Madison
+    address: 1 Main Street, Lower Level, Madison, VA 22727-0470
+    lat: 38.3756599
+    lng: -78.2619645
+    url: https://www.vacourts.gov/courts/combined/madison/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-manassas-park-city-courthouse
+    state: VA
+    county: Manassas Park
+    name: General District Court — Manassas Park
+    address: 9311 Lee Avenue, Manassas, VA 20110-5586
+    lat: 38.7517535
+    lng: -77.4775840
+    url: https://www.vacourts.gov/courts/gd/prince_william/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-manassas-city-courthouse
+    state: VA
+    county: Manassas
+    name: General District Court — Manassas
+    address: 9311 Lee Avenue, Manassas, VA 20110-5586
+    lat: 38.7517535
+    lng: -77.4775830
+    url: https://www.vacourts.gov/courts/gd/prince_william/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-martinsville-city-courthouse
+    state: VA
+    county: Martinsville
+    name: General District Court — Martinsville
+    address: Municipal Building, 55 West Church Street, Martinsville, VA 24114-1402
+    lat: 36.6910140
+    lng: -79.8749869
+    url: https://www.vacourts.gov/courts/gd/martinsville/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-mathews-county-courthouse
+    state: VA
+    county: Mathews
+    name: General District Court — Mathews
+    address: 10622 Buckley Hall Road, Liberty Square, Mathews, VA 23109
+    lat: 37.4403500
+    lng: -76.3238519
+    url: https://www.vacourts.gov/courts/gd/mathews/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-mecklenburg-county-courthouse
+    state: VA
+    county: Mecklenburg
+    name: General District Court — Mecklenburg
+    address: 911 Madison Street, Boydton, VA 23917-0306
+    lat: 36.6704989
+    lng: -78.3836956
+    url: https://www.vacourts.gov/courts/gd/mecklenburg/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-middlesex-county-courthouse
+    state: VA
+    county: Middlesex
+    name: General District Court — Middlesex
+    address: 73 Bowden Street, Saluda, VA 23149
+    lat: 37.6072083
+    lng: -76.5937152
+    url: https://www.vacourts.gov/courts/gd/middlesex/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-montgomery-county-courthouse
+    state: VA
+    county: Montgomery
+    name: General District Court — Montgomery
+    address: 55 East Main Street, Third Floor, Christiansburg, VA 24073-3073
+    lat: 37.1304770
+    lng: -80.4079111
+    url: https://www.vacourts.gov/courts/gd/montgomery/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-nelson-county-courthouse
+    state: VA
+    county: Nelson
+    name: General District Court — Nelson
+    address: 84 Courthouse Square, Lovingston, VA 22949-0514
+    lat: 37.7599942
+    lng: -78.8690712
+    url: https://www.vacourts.gov/courts/gd/nelson/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-new-kent-county-courthouse
+    state: VA
+    county: New Kent
+    name: General District Court — New Kent
+    address: 12001 Courthouse Circle, New Kent, VA 23124-0127
+    lat: 37.5163897
+    lng: -76.9783479
+    url: https://www.vacourts.gov/courts/gd/new_kent/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-newport-news-city-courthouse
+    state: VA
+    county: Newport News
+    name: General District Court — Newport News
+    address: 2500 Washington Avenue, 2nd Fl., Newport News, VA 23607-4307
+    lat: 36.9775016
+    lng: -76.4297700
+    url: https://www.courts.state.va.us/courts/gd/Newport_News-Traffic/home
+    kind: courthouse
+  - id: va-norfolk-city-courthouse
+    state: VA
+    county: Norfolk
+    name: General District Court — Norfolk
+    address: 150 Saint Paul's Blvd, Room 3202, Norfolk, VA 23510-2747
+    lat: 36.8458894
+    lng: -76.2847153
+    url: https://www.vacourts.gov/courts/gd/norfolk/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-northampton-county-courthouse
+    state: VA
+    county: Northampton
+    name: General District Court — Northampton
+    address: 5229 The Hornes, Eastville, VA 23347
+    lat: 37.3534885
+    lng: -75.9494661
+    url: https://www.vacourts.gov/courts/gd/northampton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-northumberland-county-courthouse
+    state: VA
+    county: Northumberland
+    name: General District Court — Northumberland
+    address: 220 Judicial Place, Heathsville, VA 22473-0114
+    lat: 37.9154945
+    lng: -76.4749014
+    url: https://www.vacourts.gov/courts/gd/northumberland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-norton-city-courthouse
+    state: VA
+    county: Norton
+    name: General District Court — Norton
+    address: 206 East Main Street, Wise, VA 24293-0829
+    lat: 36.9771612
+    lng: -82.5792309
+    url: https://www.vacourts.gov/courts/gd/Wise~Norton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-nottoway-county-courthouse
+    state: VA
+    county: Nottoway
+    name: General District Court — Nottoway
+    address: 328 West Courthouse Road, Nottoway, VA 23955
+    lat: 37.1194525
+    lng: -78.0810605
+    url: https://www.vacourts.gov/courts/combined/nottoway/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-orange-county-courthouse
+    state: VA
+    county: Orange
+    name: General District Court — Orange
+    address: 110 North Madison Road, Suite 100, Orange, VA 22960
+    lat: 38.2454927
+    lng: -78.1113845
+    url: https://www.vacourts.gov/courts/gd/orange/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-page-county-courthouse
+    state: VA
+    county: Page
+    name: General District Court — Page
+    address: 116 South Court Street, Suite B, Luray, VA 22835-1200
+    lat: 38.6642880
+    lng: -78.4649928
+    url: https://www.vacourts.gov/courts/gd/page/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-patrick-county-courthouse
+    state: VA
+    county: Patrick
+    name: General District Court — Patrick
+    address: 106 Rucker Street, Administration Bldg. Room 318, Stuart, VA 24171-0149
+    lat: 36.6425355
+    lng: -80.2710132
+    url: https://www.vacourts.gov/courts/gd/patrick/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-petersburg-city-courthouse
+    state: VA
+    county: Petersburg
+    name: General District Court — Petersburg
+    address: 35 East Tabb Street, Petersburg, VA 23803-4518
+    lat: 37.2304520
+    lng: -77.4028990
+    url: https://www.vacourts.gov/courts/gd/petersburg/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-pittsylvania-county-courthouse
+    state: VA
+    county: Pittsylvania
+    name: General District Court — Pittsylvania
+    address: 11 Bank Street, Suite 201, Chatham, VA 24531-0695
+    lat: 36.8264298
+    lng: -79.3980513
+    url: https://www.vacourts.gov/courts/gd/pittsylvania/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-poquoson-city-courthouse
+    state: VA
+    county: Poquoson
+    name: General District Court — Poquoson
+    address: 300 Ballard Street, Yorktown, VA 23690-0316
+    lat: 37.2326256
+    lng: -76.5116457
+    url: https://vacourts.gov/courts/gd/york/home
+    kind: courthouse
+  - id: va-portsmouth-city-courthouse
+    state: VA
+    county: Portsmouth
+    name: General District Court — Portsmouth
+    address: 1345 Court Street, Suite 104, Portsmouth, VA 23704-3666
+    lat: 36.8275994
+    lng: -76.2990082
+    url: https://www.vacourts.gov/courts/gd/portsmouth/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-powhatan-county-courthouse
+    state: VA
+    county: Powhatan
+    name: General District Court — Powhatan
+    address: 3880-D Old Buckingham Road, Courthouse, Powhatan, VA 23139-7052
+    lat: 37.5372690
+    lng: -77.9165855
+    url: https://www.vacourts.gov/courts/combined/powhatan/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-prince-edward-county-courthouse
+    state: VA
+    county: Prince Edward
+    name: General District Court — Prince Edward
+    address: 111 South Street, Courthouse Building, Farmville, VA 23901-1354
+    lat: 37.3008755
+    lng: -78.3921438
+    url: https://www.vacourts.gov/courts/gd/prince_edward/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-prince-george-county-courthouse
+    state: VA
+    county: Prince George
+    name: General District Court — Prince George
+    address: 6601 Courts Drive, Prince George, VA 23875-0187
+    lat: 37.2234356
+    lng: -77.2860023
+    url: https://www.vacourts.gov/courts/combined/prince_george/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-prince-william-county-courthouse
+    state: VA
+    county: Prince William
+    name: General District Court — Prince William
+    address: 9311 Lee Avenue, Manassas, VA 20110-5586
+    lat: 38.7517535
+    lng: -77.4775840
+    url: https://www.vacourts.gov/courts/gd/prince_william/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-pulaski-county-courthouse
+    state: VA
+    county: Pulaski
+    name: General District Court — Pulaski
+    address: 45 Third Street, N.W., Suite 102, Courthouse, Pulaski, VA 24301-5041
+    lat: 37.0484537
+    lng: -80.7814603
+    url: https://www.vacourts.gov/courts/gd/pulaski/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-radford-city-courthouse
+    state: VA
+    county: Radford
+    name: General District Court — Radford
+    address: 619 Second Street, Municipal Building, Radford, VA 24141-1456
+    lat: 37.1308379
+    lng: -80.5783006
+    url: https://www.vacourts.gov/courts/combined/radford/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-rappahannock-county-courthouse
+    state: VA
+    county: Rappahannock
+    name: General District Court — Rappahannock
+    address: 250 Gay Street, Courthouse, Washington, VA 22747-0206
+    lat: 38.7114084
+    lng: -78.1595608
+    url: https://www.vacourts.gov/courts/combined/rappahannock/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-richmond-city-courthouse
+    state: VA
+    county: City of Richmond
+    name: General District Court — City of Richmond
+    address: John Marshall Courts Building, 400 N. 9th Street, Richmond, VA 23219-1549
+    lat: 37.5423376
+    lng: -77.4333377
+    url: https://www.vacourts.gov/courts/gd/richmond_city/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-richmond-county-courthouse
+    state: VA
+    county: Richmond
+    name: General District Court — Richmond
+    address: 201 Court Circle, Warsaw, VA 22572
+    lat: 37.9578337
+    lng: -76.7573699
+    url: https://www.vacourts.gov/courts/combined/richmond_county/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-roanoke-city-courthouse
+    state: VA
+    county: City of Roanoke
+    name: General District Court — City of Roanoke
+    address: 315 W. Church Ave. S.W., 2nd Floor, Roanoke, VA 24016-5007
+    lat: 37.2709730
+    lng: -79.9414313
+    url: https://www.vacourts.gov/courts/gd/roanoke_city/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-roanoke-county-courthouse
+    state: VA
+    county: Roanoke
+    name: General District Court — Roanoke
+    address: Courthouse, 305 East Main St., Salem, VA 24153-0997
+    lat: 37.2934872
+    lng: -80.0545349
+    url: https://www.vacourts.gov/courts/gd/roanoke_county/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-rockbridge-county-courthouse
+    state: VA
+    county: Rockbridge
+    name: General District Court — Rockbridge
+    address: 20 South Randolph Street, Suite 200, Lexington, VA 24450-2552
+    lat: 37.7842151
+    lng: -79.4413538
+    url: https://www.vacourts.gov/courts/gd/Lexington~Rockbridge/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-rockingham-county-courthouse
+    state: VA
+    county: Rockingham
+    name: General District Court — Rockingham
+    address: 53 Court Square, Room 132, Harrisonburg, VA 22801-3700
+    lat: 38.4493520
+    lng: -78.8696950
+    url: https://www.vacourts.gov/courts/gd/Harrisonburg~Rockingham/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-russell-county-courthouse
+    state: VA
+    county: Russell
+    name: General District Court — Russell
+    address: 83 E. Main Street, Lebanon, VA 24266-0065
+    lat: 36.9010366
+    lng: -82.0797839
+    url: https://www.vacourts.gov/courts/combined/russell/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-salem-city-courthouse
+    state: VA
+    county: Salem
+    name: General District Court — Salem
+    address: 2 East Calhoun Street, Salem, VA 24153
+    lat: 37.2917500
+    lng: -80.0584060
+    url: https://www.vacourts.gov/courts/combined/salem/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-scott-county-courthouse
+    state: VA
+    county: Scott
+    name: General District Court — Scott
+    address: 202 West Jackson Street, Suite 203, Gate City, VA 24251-3417
+    lat: 36.6381948
+    lng: -82.5804617
+    url: https://www.vacourts.gov/courts/combined/scott/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-shenandoah-county-courthouse
+    state: VA
+    county: Shenandoah
+    name: General District Court — Shenandoah
+    address: 215 Mill Road, Suite 128, Woodstock, VA 22664-1409
+    lat: 38.8877117
+    lng: -78.4982540
+    url: https://www.vacourts.gov/courts/gd/shenandoah/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-smyth-county-courthouse
+    state: VA
+    county: Smyth
+    name: General District Court — Smyth
+    address: 109 West Main Street, Suite 1022, Marion, VA 24354-2534
+    lat: 36.8332040
+    lng: -81.5204037
+    url: https://www.vacourts.gov/courts/gd/smyth/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-southampton-county-courthouse
+    state: VA
+    county: Southampton
+    name: General District Court — Southampton
+    address: 22350 Main Street, Courtland, VA 23837
+    lat: 36.7137317
+    lng: -77.0672578
+    url: https://www.vacourts.gov/courts/combined/southampton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-spotsylvania-county-courthouse
+    state: VA
+    county: Spotsylvania
+    name: General District Court — Spotsylvania
+    address: 9111 Courthouse Road, Judicial Center, 1st Floor, Spotsylvania, VA 22553-0339
+    lat: 38.2022170
+    lng: -77.5867809
+    url: https://www.vacourts.gov/courts/gd/spotsylvania/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-stafford-county-courthouse
+    state: VA
+    county: Stafford
+    name: General District Court — Stafford
+    address: 1300 Courthouse Road, The Judicial Center, Stafford, VA 22555-0940
+    lat: 38.4229466
+    lng: -77.4087054
+    url: https://www.vacourts.gov/courts/gd/stafford/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-staunton-city-courthouse
+    state: VA
+    county: Staunton
+    name: General District Court — Staunton
+    address: 113 E. Beverley St., 1st Floor, Staunton, VA 24401-4390
+    lat: 38.1495947
+    lng: -79.0725570
+    url: https://www.vacourts.gov/courts/gd/staunton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-suffolk-city-courthouse
+    state: VA
+    county: Suffolk
+    name: General District Court — Suffolk
+    address: 150 North Main Street, Suffolk, VA 23434-4552
+    lat: 36.7291059
+    lng: -76.5822485
+    url: https://www.vacourts.gov/courts/gd/suffolk/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-surry-county-courthouse
+    state: VA
+    county: Surry
+    name: General District Court — Surry
+    address: Surry Government Center, 45 School Street, Surry, VA 23883-0332
+    lat: 37.1341868
+    lng: -76.8345271
+    url: https://www.vacourts.gov/courts/combined/surry/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-sussex-county-courthouse
+    state: VA
+    county: Sussex
+    name: General District Court — Sussex
+    address: 15098 Courthouse Road, State Route 735, Sussex, VA 23884
+    lat: 36.9151900
+    lng: -77.2795100
+    url: https://www.vacourts.gov/courts/combined/sussex/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-tazewell-county-courthouse
+    state: VA
+    county: Tazewell
+    name: General District Court — Tazewell
+    address: 135 Court Street, Suite 300, Tazewell, VA 24651-1081
+    lat: 37.1153667
+    lng: -81.5203469
+    url: https://www.vacourts.gov/courts/gd/tazewell/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-virginia-beach-city-courthouse
+    state: VA
+    county: Virginia Beach
+    name: General District Court — Virginia Beach
+    address: 2425 Nimmo Parkway, Virginia Beach, VA 23456-9057
+    lat: 36.7535623
+    lng: -76.0602135
+    url: https://www.vacourts.gov/courts/gd/virginia_beach/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-warren-county-courthouse
+    state: VA
+    county: Warren
+    name: General District Court — Warren
+    address: Courthouse Square, One East Main St., Front Royal, VA 22630
+    lat: 38.9179069
+    lng: -78.1918077
+    url: https://www.vacourts.gov/courts/gd/warren/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-washington-county-courthouse
+    state: VA
+    county: Washington
+    name: General District Court — Washington
+    address: 191 East Main Street, Abingdon, VA 24210-2858
+    lat: 36.7132672
+    lng: -81.9668797
+    url: https://www.vacourts.gov/courts/gd/washington/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-waynesboro-city-courthouse
+    state: VA
+    county: Waynesboro
+    name: General District Court — Waynesboro
+    address: 250 South Wayne Avenue, Suite 100, Waynesboro, VA 22980-4625
+    lat: 38.0673260
+    lng: -78.8898966
+    url: https://www.vacourts.gov/courts/gd/waynesboro/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-westmoreland-county-courthouse
+    state: VA
+    county: Westmoreland
+    name: General District Court — Westmoreland
+    address: 175 Polk Street, Montross, VA 22520
+    lat: 38.0968465
+    lng: -76.8311012
+    url: https://www.vacourts.gov/courts/gd/westmoreland/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-williamsburg-city-courthouse
+    state: VA
+    county: Williamsburg
+    name: General District Court — Williamsburg
+    address: 5201 Monticello Avenue, Suite 2, Williamsburg, VA 23188-8218
+    lat: 37.2755483
+    lng: -76.7413997
+    url: https://vacourts.gov/courts/gd/Williamsburg~James_City_County/home
+    kind: courthouse
+  - id: va-winchester-city-courthouse
+    state: VA
+    county: Winchester
+    name: General District Court — Winchester
+    address: Judicial Center, 5 North Kent Street, Winchester, VA  22601
+    lat: 39.1837885
+    lng: -78.1630011
+    url: https://www.vacourts.gov/courts/gd/Winchester~Frederick/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-wise-county-courthouse
+    state: VA
+    county: Wise
+    name: General District Court — Wise
+    address: 206 East Main Street, Wise, VA 24293-0829
+    lat: 36.9771612
+    lng: -82.5792309
+    url: https://www.vacourts.gov/courts/gd/Wise~Norton/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-wythe-county-courthouse
+    state: VA
+    county: Wythe
+    name: General District Court — Wythe
+    address: 245 South 4th Street, Suite 205, Wytheville, VA 24382-2548
+    lat: 36.9472067
+    lng: -81.0837136
+    url: https://www.vacourts.gov/courts/gd/wythe/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: va-york-county-courthouse
+    state: VA
+    county: York
+    name: General District Court — York
+    address: 300 Ballard Street, Yorktown, VA 23690-0316
+    lat: 37.2326256
+    lng: -76.5116457
+    url: https://www.vacourts.gov/courts/gd/york/home
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

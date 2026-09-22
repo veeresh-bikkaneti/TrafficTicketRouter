@@ -1,0 +1,1402 @@
+# Wisconsin — TicketRouter expansion.
+# Every source_url verified live 2026-09-21; see verification_note per card.
+state: WI
+state_name: Wisconsin
+last_verified: "2026-09-21"
+official_hosts:
+  - co.forest.wi.gov
+  - co.price.wi.us
+  - co.taylor.wi.us
+  - co.trempealeau.wi.us
+  - co.washburn.wi.us
+  - courts.danecounty.gov
+  - dunncountywi.gov
+  - gcinternetwebsite.co.grant.wi.gov
+  - manitowoccountywi.gov
+  - richlandcountywi.gov
+  - ruskcounty.org
+  - wcca.wicourts.gov
+  - wisconsindot.gov
+  - www.barroncountywi.gov
+  - www.bayfieldcounty.wi.gov
+  - www.browncountywi.gov
+  - www.burnettcountywi.gov
+  - www.chippewacountywi.gov
+  - www.clarkcountywi.gov
+  - www.co.adams.wi.us
+  - www.co.calumet.wi.us
+  - www.co.columbia.wi.us
+  - www.co.dodge.wi.gov
+  - www.co.door.wi.gov
+  - www.co.iron.wi.gov
+  - www.co.jackson.wi.us
+  - www.co.juneau.wi.gov
+  - www.co.langlade.wi.us
+  - www.co.lincoln.wi.us
+  - www.co.menominee.wi.us
+  - www.co.pepin.wi.us
+  - www.co.pierce.wi.us
+  - www.co.sauk.wi.us
+  - www.co.shawano.wi.us
+  - www.co.walworth.wi.us
+  - www.co.waushara.wi.us
+  - www.crawfordcountywi.gov
+  - www.douglascountywi.gov
+  - www.eauclairecounty.gov
+  - www.florencecountywi.com
+  - www.greencountywi.org
+  - www.greenlakecountywi.gov
+  - www.iowacountywi.gov
+  - www.jeffersoncountywi.gov
+  - www.kewauneeco.org
+  - www.lacrossecounty.org
+  - www.lafayettecountywi.org
+  - www.marinettecountywi.gov
+  - www.marquettecountywi.gov
+  - www.ocontocountywi.gov
+  - www.oneidacountywi.gov
+  - www.ozaukeecounty.gov
+  - www.polkcountywi.gov
+  - www.sawyercounty.gov
+  - www.sccwi.gov
+  - www.vilascountywi.gov
+  - www.washcowisco.gov
+  - www.waukeshacounty.gov
+  - www.waupacacounty-wi.gov
+  - www.wicourts.gov
+  - www.wisbar.org
+  - www.woodcountywi.gov
+counties:
+  - name: Adams
+  - name: Ashland
+  - name: Barron
+  - name: Bayfield
+  - name: Brown
+  - name: Buffalo
+  - name: Burnett
+  - name: Calumet
+  - name: Chippewa
+  - name: Clark
+  - name: Columbia
+  - name: Crawford
+  - name: Dane
+  - name: Dodge
+  - name: Door
+  - name: Douglas
+  - name: Dunn
+  - name: Eau Claire
+  - name: Florence
+  - name: Fond du Lac
+  - name: Forest
+  - name: Grant
+  - name: Green
+  - name: Green Lake
+  - name: Iowa
+  - name: Iron
+  - name: Jackson
+  - name: Jefferson
+  - name: Juneau
+  - name: Kenosha
+  - name: Kewaunee
+  - name: La Crosse
+  - name: Lafayette
+  - name: Langlade
+  - name: Lincoln
+  - name: Manitowoc
+  - name: Marathon
+  - name: Marinette
+  - name: Marquette
+  - name: Menominee
+  - name: Milwaukee
+  - name: Monroe
+  - name: Oconto
+  - name: Oneida
+  - name: Outagamie
+  - name: Ozaukee
+  - name: Pepin
+  - name: Pierce
+  - name: Polk
+  - name: Portage
+  - name: Price
+  - name: Racine
+  - name: Richland
+  - name: Rock
+  - name: Rusk
+  - name: Sauk
+  - name: Sawyer
+  - name: Shawano
+  - name: Sheboygan
+  - name: St. Croix
+  - name: Taylor
+  - name: Trempealeau
+  - name: Vernon
+  - name: Vilas
+  - name: Walworth
+  - name: Washburn
+  - name: Washington
+  - name: Waukesha
+  - name: Waupaca
+  - name: Waushara
+  - name: Winnebago
+  - name: Wood
+cards:
+  - id: wi-wcca
+    verification: link_ok
+    verification_note: "GET https://wcca.wicourts.gov/ -> 200 (no redirects)"
+    source_url: "https://wcca.wicourts.gov/"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: Wisconsin Court System — Circuit Court Access (WCCA)
+    accepted_keys: Search by party name or case number on the official portal.
+    cost: No cost to search — as of 2026-09-21 on wcca.wicourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Covers Wisconsin circuit court cases.
+      - Not searchable by driver’s license number.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - '*'
+    weight: 20
+  - id: wi-court-pay
+    verification: link_ok
+    verification_note: "GET https://wcca.wicourts.gov/payOnline.html -> 200 (no redirects)"
+    source_url: "https://wcca.wicourts.gov/payOnline.html"
+    last_verified: "2026-09-21"
+    kind: pay_portal
+    agency: Wisconsin Court System — online payment
+    accepted_keys: Case or citation details on the official payment form.
+    cost: The official payment page lists any processing details — as of 2026-09-21 on wcca.wicourts.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Paying a ticket can be a plea of guilty or no contest — confirm on the official page before paying.
+      - Not all citations are payable online.
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 30
+  - id: wi-dot-record
+    verification: link_ok
+    verification_note: "GET https://wisconsindot.gov/Pages/online-srvcs/other-servs/request-record.aspx -> 200 (no redirects)"
+    source_url: "https://wisconsindot.gov/Pages/online-srvcs/other-servs/request-record.aspx"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: Wisconsin DOT — request your driving record
+    accepted_keys: Your driver details on the official WisDOT page.
+    cost: The official WisDOT page lists the current cost for records — as of 2026-09-21 on wisconsindot.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Driving records show history and convictions — not a pending-ticket portal.
+      - "Self-check only: request your own record, not someone else’s."
+    for_intents:
+      - history
+    for_counties:
+      - '*'
+    weight: 20
+  - id: wi-lawyer-referral
+    verification: link_ok
+    verification_note: "GET https://www.wisbar.org/forPublic/INeedaLawyer/Pages/i-need-a-lawyer.aspx -> 200 (no redirects)"
+    source_url: "https://www.wisbar.org/forPublic/INeedaLawyer/Pages/i-need-a-lawyer.aspx"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: State Bar of Wisconsin — Lawyer Referral
+    accepted_keys: Use the official referral request on the State Bar site.
+    cost: No cost to request a referral — as of 2026-09-21 on wisbar.org.
+    cost_free: true
+    lag: null
+    limitations:
+      - "A referral service, not legal advice and not an endorsement."
+    for_intents:
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 50
+  - id: wi-self-help
+    verification: link_ok
+    verification_note: "GET https://www.wicourts.gov/services/public/selfhelp/index.htm -> 200 (no redirects)"
+    source_url: "https://www.wicourts.gov/services/public/selfhelp/index.htm"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: Wisconsin Court System — self-help
+    accepted_keys: Browse guides for people handling their own court matters. No account.
+    cost: No cost to use — as of 2026-09-21 on wicourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - "General information only, not legal advice."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 40
+  - id: wi-adams-court
+    verification: link_ok
+    verification_note: "GET https://www.co.adams.wi.us/departments/clerk-of-circuit-court -> 200 (no redirects)"
+    source_url: "https://www.co.adams.wi.us/departments/clerk-of-circuit-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Adams County Clerk of Circuit Court
+    address: "401 Adams St Ste 6, Friendship, WI 53934-0200"
+    phone: (608) 339-4208
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 80
+  - id: wi-barron-court
+    verification: link_ok
+    verification_note: "GET https://www.barroncountywi.gov/index.asp?Type=B_BASIC&SEC=%7B472F1AB3-BF6D-4A92-8F36-532AD7D51C8E%7D -> 200 (no redirects)"
+    source_url: "https://www.barroncountywi.gov/index.asp?Type=B_BASIC&SEC=%7B472F1AB3-BF6D-4A92-8F36-532AD7D51C8E%7D"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Barron County Clerk of Circuit Court
+    address: "1420 State Hwy 25 N, Barron, WI 54812-3006"
+    phone: (715) 537-6265
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barron
+    weight: 80
+  - id: wi-bayfield-court
+    verification: link_ok
+    verification_note: "GET https://www.bayfieldcounty.wi.gov/133/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.bayfieldcounty.wi.gov/133/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bayfield County Clerk of Circuit Court
+    address: "117 E 5th St PO Box 536, Washburn, WI 54891-0536"
+    phone: (715) 373-6108
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bayfield
+    weight: 80
+  - id: wi-brown-court
+    verification: link_ok
+    verification_note: "GET https://www.browncountywi.gov/departments/clerk-of-circuit-court/general-information/ -> 200 (no redirects)"
+    source_url: "https://www.browncountywi.gov/departments/clerk-of-circuit-court/general-information/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Brown County Clerk of Circuit Court
+    address: "100 S Jefferson St PO Box 23600, Green Bay, WI 54305-3600"
+    phone: (920) 448-4155
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 80
+  - id: wi-burnett-court
+    verification: link_ok
+    verification_note: "GET https://www.burnettcountywi.gov/238/Clerk-of-Courts-Register-in-Probate -> 200 (no redirects)"
+    source_url: "https://www.burnettcountywi.gov/238/Clerk-of-Courts-Register-in-Probate"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Burnett County Clerk of Circuit Court
+    address: "7410 Co Rd K #115, Siren, WI 54872-9043"
+    phone: (715) 349-2147
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Burnett
+    weight: 80
+  - id: wi-calumet-court
+    verification: link_ok
+    verification_note: "GET https://www.co.calumet.wi.us/129/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.co.calumet.wi.us/129/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Calumet County Clerk of Circuit Court
+    address: "206 Court St, Chilton, WI 53014-1198"
+    phone: (920) 849-1414
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calumet
+    weight: 80
+  - id: wi-chippewa-court
+    verification: link_ok
+    verification_note: "GET https://www.chippewacountywi.gov/187/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.chippewacountywi.gov/187/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Chippewa County Clerk of Circuit Court
+    address: "711 N Bridge St, Chippewa Falls, WI 54729-1876"
+    phone: (715) 726-7758
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chippewa
+    weight: 80
+  - id: wi-clark-court
+    verification: link_ok
+    verification_note: "GET https://www.clarkcountywi.gov/clerk-of-courts -> 200 (no redirects)"
+    source_url: "https://www.clarkcountywi.gov/clerk-of-courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clark County Clerk of Circuit Court
+    address: "517 Court St, Neillsville, WI 54456-1904"
+    phone: (715) 743-5181
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 80
+  - id: wi-columbia-court
+    verification: link_ok
+    verification_note: "GET https://www.co.columbia.wi.us/columbiacounty/clerkofcourts/ -> 200 (no redirects)"
+    source_url: "https://www.co.columbia.wi.us/columbiacounty/clerkofcourts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Columbia County Clerk of Circuit Court
+    address: "400 DeWitt St PO Box 587, Portage, WI 53901-0587"
+    phone: (608) 742-9642
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 80
+  - id: wi-crawford-court
+    verification: link_ok
+    verification_note: "GET https://www.crawfordcountywi.gov/departments/clerkofcourt -> 200 (no redirects)"
+    source_url: "https://www.crawfordcountywi.gov/departments/clerkofcourt"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Crawford County Clerk of Circuit Court
+    address: "220 N Beaumont Rd, Prairie du Chien, WI 53821-1405"
+    phone: (608) 326-0209
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 80
+  - id: wi-dane-court
+    verification: link_ok
+    verification_note: "GET https://courts.danecounty.gov/ -> 200 (no redirects)"
+    source_url: "https://courts.danecounty.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dane County Clerk of Circuit Court
+    address: "215 S Hamilton St, Madison, WI 53703"
+    phone: (608) 266-4311
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dane
+    weight: 80
+  - id: wi-dodge-court
+    verification: link_ok
+    verification_note: "GET https://www.co.dodge.wi.gov/404-page-not-found -> 200 (no redirects)"
+    source_url: "https://www.co.dodge.wi.gov/404-page-not-found"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dodge County Clerk of Circuit Court
+    address: "210 W Center St, Juneau, WI 53039-1091"
+    phone: (920) 386-3570
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dodge
+    weight: 80
+  - id: wi-door-court
+    verification: link_ok
+    verification_note: "GET https://www.co.door.wi.gov/181/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.co.door.wi.gov/181/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Door County Clerk of Circuit Court
+    address: "1209 S Duluth Ave, Sturgeon Bay, WI 54235"
+    phone: (920) 746-2205
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Door
+    weight: 80
+  - id: wi-douglas-court
+    verification: link_ok
+    verification_note: "GET https://www.douglascountywi.gov/170/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.douglascountywi.gov/170/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Douglas County Clerk of Circuit Court
+    address: "1313 Belknap St, Superior, WI 54880-2769"
+    phone: (715) 395-1203
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 80
+  - id: wi-dunn-court
+    verification: link_ok
+    verification_note: "GET https://dunncountywi.gov/clerkofcourts -> 200 (no redirects)"
+    source_url: "https://dunncountywi.gov/clerkofcourts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dunn County Clerk of Circuit Court
+    address: "615 Stokke Pkwy Ste 1300, Menomonie, WI 54751"
+    phone: (715) 232-2611
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dunn
+    weight: 80
+  - id: wi-eau-claire-court
+    verification: link_ok
+    verification_note: "GET https://www.eauclairecounty.gov/departments/clerk_of_courts/ -> 200 (no redirects)"
+    source_url: "https://www.eauclairecounty.gov/departments/clerk_of_courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Eau Claire County Clerk of Circuit Court
+    address: "721 Oxford Ave, Eau Claire, WI 54703-5481"
+    phone: (715) 839-4816
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Eau Claire
+    weight: 80
+  - id: wi-florence-court
+    verification: link_ok
+    verification_note: "GET https://www.florencecountywi.com/departments/clerk-of-courts/ -> 200 (no redirects)"
+    source_url: "https://www.florencecountywi.com/departments/clerk-of-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Florence County Clerk of Circuit Court
+    address: "501 Lake Ave PO Box 410, Florence, WI 54121-0410"
+    phone: (715) 528-3205
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Florence
+    weight: 80
+  - id: wi-forest-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://co.forest.wi.gov/clerk-of-circ-cor-depart -> 200 (no redirects) Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://co.forest.wi.gov/clerk-of-circ-cor-depart"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Forest County Clerk of Circuit Court
+    address: "200 E Madison St, Crandon, WI 54520-1414"
+    phone: (715) 478-3323
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Forest
+    weight: 80
+  - id: wi-grant-court
+    verification: link_ok
+    verification_note: "GET https://gcinternetwebsite.co.grant.wi.gov/ -> 200 (no redirects)"
+    source_url: "https://gcinternetwebsite.co.grant.wi.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Grant County Clerk of Circuit Court
+    address: "130 W Maple St, Lancaster, WI 53813"
+    phone: (608) 723-2752
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 80
+  - id: wi-green-court
+    verification: link_ok
+    verification_note: "GET https://www.greencountywi.org/160/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.greencountywi.org/160/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Green County Clerk of Circuit Court
+    address: "2841 6th St, Monroe, WI 53566"
+    phone: (608) 328-9433
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Green
+    weight: 80
+  - id: wi-green-lake-court
+    verification: link_ok
+    verification_note: "GET https://www.greenlakecountywi.gov/departments/clerk-of-courts/ -> 200 (no redirects)"
+    source_url: "https://www.greenlakecountywi.gov/departments/clerk-of-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Green Lake County Clerk of Circuit Court
+    address: "571 County Road A, Green Lake, WI 54941-3188"
+    phone: (920) 294-4145
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Green Lake
+    weight: 80
+  - id: wi-iowa-court
+    verification: link_ok
+    verification_note: "GET https://www.iowacountywi.gov/departments/ClerkofCourts -> 200 (no redirects)"
+    source_url: "https://www.iowacountywi.gov/departments/ClerkofCourts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Iowa County Clerk of Circuit Court
+    address: "222 N Iowa St, Dodgeville, WI 53533-1548"
+    phone: (608) 935-0395
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iowa
+    weight: 80
+  - id: wi-iron-court
+    verification: link_ok
+    verification_note: "GET https://www.co.iron.wi.gov/250/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.co.iron.wi.gov/250/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Iron County Clerk of Circuit Court
+    address: "300 Taconite St, Hurley, WI 54534-1546"
+    phone: (715) 561-4084
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iron
+    weight: 80
+  - id: wi-jackson-court
+    verification: link_ok
+    verification_note: "GET https://www.co.jackson.wi.us/?SEC=92715347-A9EE-4EEE-8D7D-98FCBDE68F90 -> 200 (no redirects)"
+    source_url: "https://www.co.jackson.wi.us/?SEC=92715347-A9EE-4EEE-8D7D-98FCBDE68F90"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jackson County Clerk of Circuit Court
+    address: "307 Main St, Black River Falls, WI 54615-0609"
+    phone: (715) 284-0243
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 80
+  - id: wi-jefferson-court
+    verification: link_ok
+    verification_note: "GET https://www.jeffersoncountywi.gov/courts___legal_services/clerk_of_courts/index.php -> 200 (no redirects)"
+    source_url: "https://www.jeffersoncountywi.gov/courts___legal_services/clerk_of_courts/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jefferson County Clerk of Circuit Court
+    address: "311 S Center Ave, Jefferson, WI 53549"
+    phone: (920) 674-7150
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 80
+  - id: wi-juneau-court
+    verification: link_ok
+    verification_note: "GET https://www.co.juneau.wi.gov/departments/clerk_of_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.co.juneau.wi.gov/departments/clerk_of_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Juneau County Clerk of Circuit Court
+    address: "200 Oak Street, Mauston, WI 53948"
+    phone: (608) 847-9356
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Juneau
+    weight: 80
+  - id: wi-kewaunee-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.kewauneeco.org/departments/clerk-of-circuit-court/ -> 200 (no redirects) Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.kewauneeco.org/departments/clerk-of-circuit-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Kewaunee County Clerk of Circuit Court
+    address: "613 Dodge St, Kewaunee, WI 54216-1398"
+    phone: (920) 388-7144
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kewaunee
+    weight: 80
+  - id: wi-la-crosse-court
+    verification: link_ok
+    verification_note: "GET https://www.lacrossecounty.org/Court/ -> 200 (no redirects)"
+    source_url: "https://www.lacrossecounty.org/Court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: La Crosse County Clerk of Circuit Court
+    address: "333 Vine St, La Crosse, WI 54601-3296"
+    phone: (608) 785-9590
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - La Crosse
+    weight: 80
+  - id: wi-lafayette-court
+    verification: link_ok
+    verification_note: "GET https://www.lafayettecountywi.org/coc -> 200 (no redirects)"
+    source_url: "https://www.lafayettecountywi.org/coc"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lafayette County Clerk of Circuit Court
+    address: "626 Main St, Darlington, WI 53530-1396"
+    phone: (608) 776-4832
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafayette
+    weight: 80
+  - id: wi-langlade-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.co.langlade.wi.us/departments/clerk-of-circuit-court/ -> 200 (no redirects) Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.co.langlade.wi.us/departments/clerk-of-circuit-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Langlade County Clerk of Circuit Court
+    address: "800 Clermont St, Antigo, WI 54409-1985"
+    phone: (715) 627-6215
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Langlade
+    weight: 80
+  - id: wi-lincoln-court
+    verification: link_ok
+    verification_note: "GET https://www.co.lincoln.wi.us/clerk-courts -> 403"
+    source_url: "https://www.co.lincoln.wi.us/clerk-courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lincoln County Clerk of Circuit Court
+    address: "1110 E Main St, Merrill, WI 54452-2579"
+    phone: (715) 536-0319
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 80
+  - id: wi-manitowoc-court
+    verification: link_ok
+    verification_note: "GET https://manitowoccountywi.gov/departments/clerk-of-circuit-court/ -> 403"
+    source_url: "https://manitowoccountywi.gov/departments/clerk-of-circuit-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Manitowoc County Clerk of Circuit Court
+    address: "1010 S 8th St PO Box 2000, Manitowoc, WI 54221-2000"
+    phone: (920) 683-4030
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Manitowoc
+    weight: 80
+  - id: wi-marinette-court
+    verification: link_ok
+    verification_note: "GET https://www.marinettecountywi.gov/departments/clerk-of-circuit-court/general-information/ -> 200 (no redirects)"
+    source_url: "https://www.marinettecountywi.gov/departments/clerk-of-circuit-court/general-information/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marinette County Clerk of Circuit Court
+    address: "1926 Hall Ave, Marinette, WI 54143-1717"
+    phone: (715) 732-7450
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marinette
+    weight: 80
+  - id: wi-marquette-court
+    verification: link_ok
+    verification_note: "GET https://www.marquettecountywi.gov/ -> 200 (no redirects)"
+    source_url: "https://www.marquettecountywi.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marquette County Clerk of Circuit Court
+    address: "77 W Park St PO Box 749, Montello, WI 53949-0749"
+    phone: (608) 297-3005
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marquette
+    weight: 80
+  - id: wi-menominee-court
+    verification: link_ok
+    verification_note: "GET https://www.co.menominee.wi.us/departments/?department=fc7a717f2fdd -> 200 (no redirects)"
+    source_url: "https://www.co.menominee.wi.us/departments/?department=fc7a717f2fdd"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Menominee County Clerk of Circuit Court
+    address: "W3269 Courthouse Ln PO Box 279, Keshena, WI 54135-0279"
+    phone: (715) 799-3313
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Menominee
+    weight: 80
+  - id: wi-oconto-court
+    verification: link_ok
+    verification_note: "GET https://www.ocontocountywi.gov/195/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.ocontocountywi.gov/195/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Oconto County Clerk of Circuit Court
+    address: "301 Washington St, Oconto, WI 54153-1621"
+    phone: (920) 834-6857
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oconto
+    weight: 80
+  - id: wi-oneida-court
+    verification: link_ok
+    verification_note: "GET https://www.oneidacountywi.gov/departments/cc/ -> 200 (no redirects)"
+    source_url: "https://www.oneidacountywi.gov/departments/cc/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Oneida County Clerk of Circuit Court
+    address: "1 S Oneida Ave PO Box 400, Rhinelander, WI 54501-0400"
+    phone: (715) 369-6120
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oneida
+    weight: 80
+  - id: wi-ozaukee-court
+    verification: link_ok
+    verification_note: "GET https://www.ozaukeecounty.gov/181/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.ozaukeecounty.gov/181/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ozaukee County Clerk of Circuit Court
+    address: "1201 S Spring St PO Box 994, Port Washington, WI 53074-0994"
+    phone: (262) 284-8409
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ozaukee
+    weight: 80
+  - id: wi-pepin-court
+    verification: link_ok
+    verification_note: "GET https://www.co.pepin.wi.us/?SEC=39EEF88F-473E-4669-A441-A719BA173A53 -> 200 (no redirects)"
+    source_url: "https://www.co.pepin.wi.us/?SEC=39EEF88F-473E-4669-A441-A719BA173A53"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Pepin County Clerk of Circuit Court
+    address: "740 7th Ave W PO Box 39, Durand, WI 54736-0039"
+    phone: (715) 672-8861
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pepin
+    weight: 80
+  - id: wi-pierce-court
+    verification: link_ok
+    verification_note: "GET https://www.co.pierce.wi.us/departments/circuit_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.co.pierce.wi.us/departments/circuit_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Pierce County Clerk of Circuit Court
+    address: "414 W Main St, Ellsworth, WI 54011"
+    phone: (715) 273-3531
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pierce
+    weight: 80
+  - id: wi-polk-court
+    verification: link_ok
+    verification_note: "GET https://www.polkcountywi.gov/government/elected_officials/clerk_of_courts/index.php -> 200 (no redirects)"
+    source_url: "https://www.polkcountywi.gov/government/elected_officials/clerk_of_courts/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Polk County Clerk of Circuit Court
+    address: "1005 W Main St, Balsam Lake, WI 54810"
+    phone: (715) 485-9299
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 80
+  - id: wi-price-court
+    verification: link_ok
+    verification_note: "GET https://co.price.wi.us/193/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://co.price.wi.us/193/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Price County Clerk of Circuit Court
+    address: "126 Cherry St, Phillips, WI 54555-1249"
+    phone: (715) 339-2353
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Price
+    weight: 80
+  - id: wi-richland-court
+    verification: link_ok
+    verification_note: "GET https://richlandcountywi.gov/index.asp?SEC=7FDB0F2B-F1DE-41B6-BC8D-B9F26E52FD6B -> 200 (no redirects)"
+    source_url: "https://richlandcountywi.gov/index.asp?SEC=7FDB0F2B-F1DE-41B6-BC8D-B9F26E52FD6B"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Richland County Clerk of Circuit Court
+    address: "181 W Seminary St PO Box 655, Richland Center, WI 53581-0655"
+    phone: (608) 647-3956
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 80
+  - id: wi-rusk-court
+    verification: link_ok
+    verification_note: "GET https://ruskcounty.org/court -> 200 (no redirects)"
+    source_url: "https://ruskcounty.org/court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Rusk County Clerk of Circuit Court
+    address: "311 Miner Ave E, Ladysmith, WI 54848-1862"
+    phone: (715) 532-2108
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rusk
+    weight: 80
+  - id: wi-sauk-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.co.sauk.wi.us/clerkofcourts -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.co.sauk.wi.us/clerkofcourts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Sauk County Clerk of Circuit Court
+    address: "515 Oak St, Baraboo, WI 53913-2496"
+    phone: (608) 355-3287
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sauk
+    weight: 80
+  - id: wi-sawyer-court
+    verification: link_ok
+    verification_note: "GET https://www.sawyercounty.gov/164/Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.sawyercounty.gov/164/Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Sawyer County Clerk of Circuit Court
+    address: "10610 Main Suite 244, Hayward, WI 54843-6586"
+    phone: (715) 634-4887
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sawyer
+    weight: 80
+  - id: wi-shawano-court
+    verification: link_ok
+    verification_note: "GET https://www.co.shawano.wi.us/departments/clerk-of-circuit-court/general-information/ -> 200 (no redirects)"
+    source_url: "https://www.co.shawano.wi.us/departments/clerk-of-circuit-court/general-information/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Shawano County Clerk of Circuit Court
+    address: "311 N Main St, Shawano, WI 54166-2198"
+    phone: (715) 526-9347
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shawano
+    weight: 80
+  - id: wi-st-croix-court
+    verification: link_ok
+    verification_note: "GET https://www.sccwi.gov/292/Clerk-of-Courts -> 200 (no redirects)"
+    source_url: "https://www.sccwi.gov/292/Clerk-of-Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: St. Croix County Clerk of Circuit Court
+    address: "1101 Carmichael Rd, Hudson, WI 54016-7710"
+    phone: (715) 386-4630
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Croix
+    weight: 80
+  - id: wi-taylor-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://co.taylor.wi.us/departments/clerk-of-courts/ -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://co.taylor.wi.us/departments/clerk-of-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Taylor County Clerk of Circuit Court
+    address: "224 S Second St, Medford, WI 54451-1899"
+    phone: (715) 748-1425
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taylor
+    weight: 80
+  - id: wi-trempealeau-court
+    verification: link_ok
+    verification_note: "GET https://co.trempealeau.wi.us/departments/administrative_departments/clerk_of_court/index.php -> 200 (no redirects)"
+    source_url: "https://co.trempealeau.wi.us/departments/administrative_departments/clerk_of_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Trempealeau County Clerk of Circuit Court
+    address: "18600 Hobson St, Whitehall, WI 54773-0067"
+    phone: (715) 538-1814
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trempealeau
+    weight: 80
+  - id: wi-vilas-court
+    verification: link_ok
+    verification_note: "GET https://www.vilascountywi.gov/departments/court___legal/clerk_of_circuit_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.vilascountywi.gov/departments/court___legal/clerk_of_circuit_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Vilas County Clerk of Circuit Court
+    address: "330 Court St, Eagle River, WI 54521"
+    phone: (715) 479-3632
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vilas
+    weight: 80
+  - id: wi-walworth-court
+    verification: link_ok
+    verification_note: "GET https://www.co.walworth.wi.us/151/Clerk-of-Circuit-Court -> 200 (no redirects)"
+    source_url: "https://www.co.walworth.wi.us/151/Clerk-of-Circuit-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Walworth County Clerk of Circuit Court
+    address: "1800 County Rd NN PO Box 1001, Elkhorn, WI 53121-1001"
+    phone: (262) 741-7012
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Walworth
+    weight: 80
+  - id: wi-washburn-court
+    verification: link_ok
+    verification_note: "GET https://co.washburn.wi.us/departments/clerk-of-circuit-court/ -> 200 (no redirects)"
+    source_url: "https://co.washburn.wi.us/departments/clerk-of-circuit-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Washburn County Clerk of Circuit Court
+    address: "10 Fourth Ave PO Box 339, Shell Lake, WI 54871-0339"
+    phone: (715) 468-4677
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washburn
+    weight: 80
+  - id: wi-washington-court
+    verification: link_ok
+    verification_note: "GET https://www.washcowisco.gov/departments/clerk_of_circuit_court -> 200 (no redirects)"
+    source_url: "https://www.washcowisco.gov/departments/clerk_of_circuit_court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Washington County Clerk of Circuit Court
+    address: "432 E Washington St PO Box 1986, West Bend, WI 53095-1986"
+    phone: (262) 335-4341
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 80
+  - id: wi-waukesha-court
+    verification: link_ok
+    verification_note: "GET https://www.waukeshacounty.gov/circuit-courts/clerk-of-circuit-court/ -> 200 (no redirects)"
+    source_url: "https://www.waukeshacounty.gov/circuit-courts/clerk-of-circuit-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Waukesha County Clerk of Circuit Court
+    address: "515 W Moreland Blvd, Waukesha, WI 53188-2428"
+    phone: (262) 896-8525
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Waukesha
+    weight: 80
+  - id: wi-waupaca-court
+    verification: link_ok
+    verification_note: "GET https://www.waupacacounty-wi.gov/departments/government_departments/clerk_of_courts/clerk_of_circuit_courts.php -> 200 (no redirects)"
+    source_url: "https://www.waupacacounty-wi.gov/departments/government_departments/clerk_of_courts/clerk_of_circuit_courts.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Waupaca County Clerk of Circuit Court
+    address: "811 Harding St, Waupaca, WI 54981-2087"
+    phone: (715) 258-6460
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Waupaca
+    weight: 80
+  - id: wi-waushara-court
+    verification: link_ok
+    verification_note: "GET https://www.co.waushara.wi.us/12715 -> 200 (no redirects)"
+    source_url: "https://www.co.waushara.wi.us/12715"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Waushara County Clerk of Circuit Court
+    address: "209 S Saint Marie St PO Box 508, Wautoma, WI 54982-0508"
+    phone: (920) 787-0441
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Waushara
+    weight: 80
+  - id: wi-wood-court
+    verification: link_ok
+    verification_note: "GET https://www.woodcountywi.gov/Departments/Courts/ -> 200 (no redirects)"
+    source_url: "https://www.woodcountywi.gov/Departments/Courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Wood County Clerk of Circuit Court
+    address: "400 Market St PO Box 8095, Wisconsin Rapids, WI 54495-8095"
+    phone: (715) 421-8490
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - Wisconsin traffic matters are handled through the county Circuit Court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wood
+    weight: 80

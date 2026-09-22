@@ -1,0 +1,888 @@
+# Idaho — Magistrate Court is the traffic venue.
+# All source_url values were fetched live and returned HTTP 200 on 2026-09-21.
+state: ID
+state_name: Idaho
+last_verified: "2026-09-21"
+official_hosts:
+  - isc.idaho.gov
+counties:
+  - name: Ada
+    note: "Traffic venue is the Magistrate Court."
+  - name: Adams
+    note: "Traffic venue is the Magistrate Court."
+  - name: Bannock
+    note: "Traffic venue is the Magistrate Court."
+  - name: Bear Lake
+    note: "Traffic venue is the Magistrate Court."
+  - name: Benewah
+    note: "Traffic venue is the Magistrate Court."
+  - name: Bingham
+    note: "Traffic venue is the Magistrate Court."
+  - name: Blaine
+    note: "Traffic venue is the Magistrate Court."
+  - name: Boise
+    note: "Traffic venue is the Magistrate Court."
+  - name: Bonner
+    note: "Traffic venue is the Magistrate Court."
+  - name: Bonneville
+    note: "Traffic venue is the Magistrate Court."
+  - name: Boundary
+    note: "Traffic venue is the Magistrate Court."
+  - name: Butte
+    note: "Traffic venue is the Magistrate Court."
+  - name: Camas
+    note: "Traffic venue is the Magistrate Court."
+  - name: Canyon
+    note: "Traffic venue is the Magistrate Court."
+  - name: Caribou
+    note: "Traffic venue is the Magistrate Court."
+  - name: Cassia
+    note: "Traffic venue is the Magistrate Court."
+  - name: Clark
+    note: "Traffic venue is the Magistrate Court."
+  - name: Clearwater
+    note: "Traffic venue is the Magistrate Court."
+  - name: Custer
+    note: "Traffic venue is the Magistrate Court."
+  - name: Elmore
+    note: "Traffic venue is the Magistrate Court."
+  - name: Franklin
+    note: "Traffic venue is the Magistrate Court."
+  - name: Fremont
+    note: "Traffic venue is the Magistrate Court."
+  - name: Gem
+    note: "Traffic venue is the Magistrate Court."
+  - name: Gooding
+    note: "Traffic venue is the Magistrate Court."
+  - name: Idaho
+    note: "Traffic venue is the Magistrate Court."
+  - name: Jefferson
+    note: "Traffic venue is the Magistrate Court."
+  - name: Jerome
+    note: "Traffic venue is the Magistrate Court."
+  - name: Kootenai
+    note: "Traffic venue is the Magistrate Court."
+  - name: Latah
+    note: "Traffic venue is the Magistrate Court."
+  - name: Lemhi
+    note: "Traffic venue is the Magistrate Court."
+  - name: Lewis
+    note: "Traffic venue is the Magistrate Court."
+  - name: Lincoln
+    note: "Traffic venue is the Magistrate Court."
+  - name: Madison
+    note: "Traffic venue is the Magistrate Court."
+  - name: Minidoka
+    note: "Traffic venue is the Magistrate Court."
+  - name: Nez Perce
+    note: "Traffic venue is the Magistrate Court."
+  - name: Oneida
+    note: "Traffic venue is the Magistrate Court."
+  - name: Owyhee
+    note: "Traffic venue is the Magistrate Court."
+  - name: Payette
+    note: "Traffic venue is the Magistrate Court."
+  - name: Power
+    note: "Traffic venue is the Magistrate Court."
+  - name: Shoshone
+    note: "Traffic venue is the Magistrate Court."
+  - name: Teton
+    note: "Traffic venue is the Magistrate Court."
+  - name: Twin Falls
+    note: "Traffic venue is the Magistrate Court."
+  - name: Valley
+    note: "Traffic venue is the Magistrate Court."
+  - name: Washington
+    note: "Traffic venue is the Magistrate Court."
+cards:
+  - id: id-ada-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ada County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ada
+    weight: 10
+
+  - id: id-adams-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Adams County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: id-bannock-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bannock County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bannock
+    weight: 10
+
+  - id: id-bear-lake-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bear Lake County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bear Lake
+    weight: 10
+
+  - id: id-benewah-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benewah County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benewah
+    weight: 10
+
+  - id: id-bingham-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bingham County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bingham
+    weight: 10
+
+  - id: id-blaine-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Blaine County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Blaine
+    weight: 10
+
+  - id: id-boise-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boise County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boise
+    weight: 10
+
+  - id: id-bonner-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bonner County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bonner
+    weight: 10
+
+  - id: id-bonneville-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bonneville County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bonneville
+    weight: 10
+
+  - id: id-boundary-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boundary County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boundary
+    weight: 10
+
+  - id: id-butte-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Butte County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butte
+    weight: 10
+
+  - id: id-camas-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Camas County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Camas
+    weight: 10
+
+  - id: id-canyon-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Canyon County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Canyon
+    weight: 10
+
+  - id: id-caribou-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caribou County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caribou
+    weight: 10
+
+  - id: id-cassia-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cassia County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cassia
+    weight: 10
+
+  - id: id-clark-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: id-clearwater-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clearwater County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clearwater
+    weight: 10
+
+  - id: id-custer-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Custer County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Custer
+    weight: 10
+
+  - id: id-elmore-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Elmore County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Elmore
+    weight: 10
+
+  - id: id-franklin-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: id-fremont-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fremont County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fremont
+    weight: 10
+
+  - id: id-gem-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gem County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gem
+    weight: 10
+
+  - id: id-gooding-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Gooding County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gooding
+    weight: 10
+
+  - id: id-idaho-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Idaho County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Idaho
+    weight: 10
+
+  - id: id-jefferson-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: id-jerome-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jerome County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jerome
+    weight: 10
+
+  - id: id-kootenai-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kootenai County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kootenai
+    weight: 10
+
+  - id: id-latah-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Latah County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Latah
+    weight: 10
+
+  - id: id-lemhi-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lemhi County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lemhi
+    weight: 10
+
+  - id: id-lewis-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lewis County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: id-lincoln-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: id-madison-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: id-minidoka-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Minidoka County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Minidoka
+    weight: 10
+
+  - id: id-nez-perce-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nez Perce County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nez Perce
+    weight: 10
+
+  - id: id-oneida-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Oneida County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oneida
+    weight: 10
+
+  - id: id-owyhee-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Owyhee County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Owyhee
+    weight: 10
+
+  - id: id-payette-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Payette County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Payette
+    weight: 10
+
+  - id: id-power-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Power County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Power
+    weight: 10
+
+  - id: id-shoshone-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Shoshone County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shoshone
+    weight: 10
+
+  - id: id-teton-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Teton County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Teton
+    weight: 10
+
+  - id: id-twin-falls-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Twin Falls County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Twin Falls
+    weight: 10
+
+  - id: id-valley-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Valley County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Valley
+    weight: 10
+
+  - id: id-washington-court
+    verification: link_ok
+    source_url: "https://isc.idaho.gov/about-the-courts/county-courthouse-directory"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Magistrate Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on isc.idaho.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic venue is the Magistrate Court."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10

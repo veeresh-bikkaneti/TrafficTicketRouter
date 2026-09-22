@@ -1,0 +1,906 @@
+# Indiana courthouse pins.
+# Addresses from official court/county sites; coordinates via Nominatim/OSM.
+# URLs match data/states/IN.yaml exactly.
+pins:
+  - id: in-adams-courthouse
+    state: IN
+    county: Adams
+    name: Adams County Courts
+    address: "112 S. 2nd Street, Decatur, IN 46733"
+    lat: 40.8297161
+    lng: -84.9245839
+    url: "https://www.in.gov/courts/local/adams-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-allen-courthouse
+    state: IN
+    county: Allen
+    name: Allen County Courts
+    address: "715 South Calhoun Street, Fort Wayne, IN 46802"
+    lat: 41.0798509
+    lng: -85.1393709
+    url: "https://www.in.gov/courts/local/allen-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-bartholomew-courthouse
+    state: IN
+    county: Bartholomew
+    name: Bartholomew County Courts
+    address: "P.O. Box 924, Columbus, IN 47202"
+    lat: 39.2014405
+    lng: -85.9213796
+    url: "https://www.in.gov/courts/local/bartholomew-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-benton-courthouse
+    state: IN
+    county: Benton
+    name: Benton County Courts
+    address: "706 E. 5th Street, Fowler, IN 47944"
+    lat: 40.617632
+    lng: -87.3162179
+    url: "https://www.in.gov/courts/local/benton-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-blackford-courthouse
+    state: IN
+    county: Blackford
+    name: Blackford County Courts
+    address: "110 W. Washington, Hartford City, IN 47348"
+    lat: 40.4517499
+    lng: -85.3679656
+    url: "https://www.in.gov/courts/local/blackford-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-boone-courthouse
+    state: IN
+    county: Boone
+    name: Boone County Courts
+    address: "212 Courthouse Square, Lebanon, IN 46052"
+    lat: 40.0480062
+    lng: -86.4686251
+    url: "https://www.in.gov/courts/local/boone-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-brown-courthouse
+    state: IN
+    county: Brown
+    name: Brown County Courts
+    address: "20 E. Main Street, Nashville, IN 47448"
+    lat: 39.207208
+    lng: -86.2497396
+    url: "https://www.in.gov/courts/local/brown-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-carroll-courthouse
+    state: IN
+    county: Carroll
+    name: Carroll County Courts
+    address: "101 W. Main Street, Delphi, IN 46923"
+    lat: 40.586375
+    lng: -86.6748529
+    url: "https://www.in.gov/courts/local/carroll-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-cass-courthouse
+    state: IN
+    county: Cass
+    name: Cass County Courts
+    address: "200 Court Park, Logansport, IN 46947"
+    lat: 40.754446
+    lng: -86.367393
+    url: "https://www.in.gov/courts/local/cass-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-clark-courthouse
+    state: IN
+    county: Clark
+    name: Clark County Courts
+    address: "501 E. Court Avenue, Jeffersonville, IN 47130"
+    lat: 38.277682
+    lng: -85.7375976
+    url: "https://www.in.gov/courts/local/clark-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-clay-courthouse
+    state: IN
+    county: Clay
+    name: Clay County Courts
+    address: "609 E. National Avenue, Brazil, IN 47834"
+    lat: 39.525068
+    lng: -87.1188507
+    url: "https://www.in.gov/courts/local/clay-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-clinton-courthouse
+    state: IN
+    county: Clinton
+    name: Clinton County Courts
+    address: "265 Courthouse Square, Frankfort, IN 46041"
+    lat: 40.2811407
+    lng: -86.5113237
+    url: "https://www.in.gov/courts/local/clinton-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-daviess-courthouse
+    state: IN
+    county: Daviess
+    name: Daviess County Courts
+    address: "200 E. Walnut Street, Washington, IN 47501"
+    lat: 38.6591265
+    lng: -87.1728906
+    url: "https://www.in.gov/courts/local/daviess-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-dekalb-courthouse
+    state: IN
+    county: DeKalb
+    name: DeKalb County Courts
+    address: "100 S. Main Street, Auburn, IN 46706"
+    lat: 41.391057
+    lng: -85.0490069
+    url: "https://www.in.gov/courts/local/dekalb-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-dearborn-courthouse
+    state: IN
+    county: Dearborn
+    name: Dearborn County Courts
+    address: "165 Mary Street, Lawrenceburg, IN 47025"
+    lat: 39.0914262
+    lng: -84.8497036
+    url: "https://www.in.gov/courts/local/dearborn-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-decatur-courthouse
+    state: IN
+    county: Decatur
+    name: Decatur County Courts
+    address: "150 Courthouse Square, Greensburg, IN 47240"
+    lat: 39.3372665
+    lng: -85.4835042
+    url: "https://www.in.gov/courts/local/decatur-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-delaware-courthouse
+    state: IN
+    county: Delaware
+    name: Delaware County Courts
+    address: "3100 S. Tillotson Avenue, Muncie, IN 47302"
+    lat: 40.163538
+    lng: -85.423932
+    url: "https://www.in.gov/courts/local/delaware-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-dubois-courthouse
+    state: IN
+    county: Dubois
+    name: Dubois County Courts
+    address: "1 Courthouse Square, Jasper, IN 47546"
+    lat: 38.3914286
+    lng: -86.9308259
+    url: "https://www.in.gov/courts/local/dubois-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-elkhart-courthouse
+    state: IN
+    county: Elkhart
+    name: Elkhart County Courts
+    address: "1905 Reliance Road, Goshen, IN 46526"
+    lat: 41.6113895
+    lng: -85.8887701
+    url: "https://www.in.gov/courts/local/elkhart-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-fayette-courthouse
+    state: IN
+    county: Fayette
+    name: Fayette County Courts
+    address: "401 N. Central Avenue, Connersville, IN 47331"
+    lat: 39.6411073
+    lng: -85.1401967
+    url: "https://www.in.gov/courts/local/fayette-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-fountain-courthouse
+    state: IN
+    county: Fountain
+    name: Fountain County Courts
+    address: "301 4th Street, Covington, IN 47932"
+    lat: 40.1370902
+    lng: -87.3970735
+    url: "https://www.in.gov/courts/local/fountain-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-franklin-courthouse
+    state: IN
+    county: Franklin
+    name: Franklin County Courts
+    address: "459 Main Street, Brookville, IN 47012"
+    lat: 39.4192264
+    lng: -85.0124821
+    url: "https://www.in.gov/courts/local/franklin-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-gibson-courthouse
+    state: IN
+    county: Gibson
+    name: Gibson County Courts
+    address: "101 N. Main Street, Princeton, IN 47670"
+    lat: 38.3557413
+    lng: -87.5681523
+    url: "https://www.in.gov/courts/local/gibson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-grant-courthouse
+    state: IN
+    county: Grant
+    name: Grant County Courts
+    address: "101 E. 4th Street, Marion, IN 46952"
+    lat: 40.5583379
+    lng: -85.6592062
+    url: "https://www.in.gov/courts/local/grant-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-greene-courthouse
+    state: IN
+    county: Greene
+    name: Greene County Courts
+    address: "Bloomfield, Bloomfield, IN 47424"
+    lat: 39.0269226
+    lng: -86.9380939
+    url: "https://www.in.gov/courts/local/greene-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-hamilton-courthouse
+    state: IN
+    county: Hamilton
+    name: Hamilton County Courts
+    address: "1 Hamilton Square, Noblesville, IN 46060"
+    lat: 40.0460947
+    lng: -86.0153849
+    url: "https://www.in.gov/courts/local/hamilton-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-hancock-courthouse
+    state: IN
+    county: Hancock
+    name: Hancock County Courts
+    address: "9 East Main Street, Greenfield, IN 46140"
+    lat: 39.7851443
+    lng: -85.7690998
+    url: "https://www.in.gov/courts/local/hancock-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-harrison-courthouse
+    state: IN
+    county: Harrison
+    name: Harrison County Courts
+    address: "300 N. Capitol Ave., Corydon, IN 47112"
+    lat: 38.2119135
+    lng: -86.1258518
+    url: "https://www.in.gov/courts/local/harrison-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-hendricks-courthouse
+    state: IN
+    county: Hendricks
+    name: Hendricks County Courts
+    address: "51 W. Main St., Danville, IN 46122"
+    lat: 39.7608405
+    lng: -86.5244917
+    url: "https://www.in.gov/courts/local/hendricks-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-henry-courthouse
+    state: IN
+    county: Henry
+    name: Henry County Courts
+    address: "1215 Race Street, New Castle, IN 47362"
+    lat: 39.9309562
+    lng: -85.3709595
+    url: "https://www.in.gov/courts/local/henry-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-howard-courthouse
+    state: IN
+    county: Howard
+    name: Howard County Courts
+    address: "104 N. Buckeye Street, Kokomo, IN 46901"
+    lat: 40.4866152
+    lng: -86.1323284
+    url: "https://www.in.gov/courts/local/howard-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-huntington-courthouse
+    state: IN
+    county: Huntington
+    name: Huntington County Courts
+    address: "201 N. Jefferson Street, Huntington, IN 46750"
+    lat: 40.88078
+    lng: -85.493731
+    url: "https://www.in.gov/courts/local/huntington-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-jackson-courthouse
+    state: IN
+    county: Jackson
+    name: Jackson County Courts
+    address: "109 S. Sugar Street, Brownstown, IN 47220"
+    lat: 38.878521
+    lng: -86.0405957
+    url: "https://www.in.gov/courts/local/jackson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-jasper-courthouse
+    state: IN
+    county: Jasper
+    name: Jasper County Courts
+    address: "115 W. Washington Street, Rensselaer, IN 47978"
+    lat: 40.9363412
+    lng: -87.1509093
+    url: "https://www.in.gov/courts/local/jasper-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-jay-courthouse
+    state: IN
+    county: Jay
+    name: Jay County Courts
+    address: "120 N. Court Street, Portland, IN 47371"
+    lat: 40.4336176
+    lng: -84.9785475
+    url: "https://www.in.gov/courts/local/jay-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-jefferson-courthouse
+    state: IN
+    county: Jefferson
+    name: Jefferson County Courts
+    address: "300 East Main Street, Madison, IN 47250"
+    lat: 38.736189
+    lng: -85.377091
+    url: "https://www.in.gov/courts/local/jefferson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-jennings-courthouse
+    state: IN
+    county: Jennings
+    name: Jennings County Courts
+    address: "mailing address-, Vernon, IN 47282"
+    lat: 38.9849394
+    lng: -85.6085394
+    url: "https://www.in.gov/courts/local/jennings-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-johnson-courthouse
+    state: IN
+    county: Johnson
+    name: Johnson County Courts
+    address: "5 East Jefferson Street, Franklin, IN 46131"
+    lat: 39.480068
+    lng: -86.055204
+    url: "https://www.in.gov/courts/local/johnson-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-knox-courthouse
+    state: IN
+    county: Knox
+    name: Knox County Courts
+    address: "111 North Seventh Street, Vincennes, IN 47591"
+    lat: 38.6763792
+    lng: -87.5268867
+    url: "https://www.in.gov/courts/local/knox-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-kosciusko-courthouse
+    state: IN
+    county: Kosciusko
+    name: Kosciusko County Courts
+    address: "121 N. Lake Street, Warsaw, IN 46580"
+    lat: 41.2383749
+    lng: -85.8580682
+    url: "https://www.in.gov/courts/local/kosciusko-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-lagrange-courthouse
+    state: IN
+    county: LaGrange
+    name: LaGrange County Courts
+    address: "105 North Detroit Street, LaGrange, IN 46761"
+    lat: 41.6441714
+    lng: -85.417889
+    url: "https://www.in.gov/courts/local/lagrange-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-laporte-courthouse
+    state: IN
+    county: LaPorte
+    name: LaPorte County Courts
+    address: "813 Lincolnway, LaPorte, IN 46350"
+    lat: 41.6113082
+    lng: -86.7222479
+    url: "https://www.in.gov/courts/local/laporte-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-lake-courthouse
+    state: IN
+    county: Lake
+    name: Lake County Courts
+    address: "2293 N. Main Street, Crown Point, IN 46307"
+    lat: 41.4477388
+    lng: -87.3699136
+    url: "https://www.in.gov/courts/local/lake-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-lawrence-courthouse
+    state: IN
+    county: Lawrence
+    name: Lawrence County Courts
+    address: "916 15th Street, Bedford, IN 47421"
+    lat: 38.8620755
+    lng: -86.4830791
+    url: "https://www.in.gov/courts/local/lawrence-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-madison-courthouse
+    state: IN
+    county: Madison
+    name: Madison County Courts
+    address: "16 E. Ninth Street, Anderson, IN 46016"
+    lat: 40.1074244
+    lng: -85.6787373
+    url: "https://www.in.gov/courts/local/madison-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-marion-courthouse
+    state: IN
+    county: Marion
+    name: Marion County Courts
+    address: "675 Justice Way, Indianapolis, IN 46203"
+    lat: 39.7550409
+    lng: -86.1144189
+    url: "https://www.in.gov/courts/local/marion-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-marshall-courthouse
+    state: IN
+    county: Marshall
+    name: Marshall County Courts
+    address: "211 W. Madison St., Plymouth, IN 46563"
+    lat: 41.3442462
+    lng: -86.3111352
+    url: "https://www.in.gov/courts/local/marshall-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-miami-courthouse
+    state: IN
+    county: Miami
+    name: Miami County Courts
+    address: "25 North Broadway, Peru, IN 46970"
+    lat: 40.7543932
+    lng: -86.0689348
+    url: "https://www.in.gov/courts/local/miami-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-monroe-courthouse
+    state: IN
+    county: Monroe
+    name: Monroe County Courts
+    address: " Bloomington, IN 47402"
+    lat: 39.1670396
+    lng: -86.5342881
+    url: "https://www.in.gov/courts/local/monroe-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-montgomery-courthouse
+    state: IN
+    county: Montgomery
+    name: Montgomery County Courts
+    address: "100 East Main Street, Crawfordsville, IN 47933"
+    lat: 40.041805
+    lng: -86.901246
+    url: "https://www.in.gov/courts/local/montgomery-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-morgan-courthouse
+    state: IN
+    county: Morgan
+    name: Morgan County Courts
+    address: "180 S. Main St., Martinsville, IN 46151"
+    lat: 39.4251593
+    lng: -86.4286559
+    url: "https://www.in.gov/courts/local/morgan-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-noble-courthouse
+    state: IN
+    county: Noble
+    name: Noble County Courts
+    address: "101 North Orange Street, Albion, IN 46701"
+    lat: 41.39571
+    lng: -85.42411
+    url: "https://www.in.gov/courts/local/noble-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-orange-courthouse
+    state: IN
+    county: Orange
+    name: Orange County Courts
+    address: "1 Court Street, Paoli, IN 47454"
+    lat: 38.556336
+    lng: -86.468107
+    url: "https://www.in.gov/courts/local/orange-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-owen-courthouse
+    state: IN
+    county: Owen
+    name: Owen County Courts
+    address: "mailing address, Spencer, IN 47460"
+    lat: 39.2856295
+    lng: -86.7619557
+    url: "https://www.in.gov/courts/local/owen-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-parke-courthouse
+    state: IN
+    county: Parke
+    name: Parke County Courts
+    address: "116 West High Street, Rockville, IN 47872"
+    lat: 39.7620432
+    lng: -87.2283428
+    url: "https://www.in.gov/courts/local/parke-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-perry-courthouse
+    state: IN
+    county: Perry
+    name: Perry County Courts
+    address: "2219 Payne Street, Tell City, IN 47586"
+    lat: 37.9628223
+    lng: -86.753851
+    url: "https://www.in.gov/courts/local/perry-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-pike-courthouse
+    state: IN
+    county: Pike
+    name: Pike County Courts
+    address: "mailing address, Petersburg, IN 47567"
+    lat: 38.4915512
+    lng: -87.2789124
+    url: "https://www.in.gov/courts/local/pike-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-porter-courthouse
+    state: IN
+    county: Porter
+    name: Porter County Courts
+    address: "16 Lincolnway, Valparaiso, IN 46383"
+    lat: 41.4677454
+    lng: -87.0606804
+    url: "https://www.in.gov/courts/local/porter-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-posey-courthouse
+    state: IN
+    county: Posey
+    name: Posey County Courts
+    address: "300 Main Street, Mount Vernon, IN 47620"
+    lat: 37.931388
+    lng: -87.895162
+    url: "https://www.in.gov/courts/local/posey-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-pulaski-courthouse
+    state: IN
+    county: Pulaski
+    name: Pulaski County Courts
+    address: "117 East Main Street, Winamac, IN 46996"
+    lat: 41.0511344
+    lng: -86.6037766
+    url: "https://www.in.gov/courts/local/pulaski-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-putnam-courthouse
+    state: IN
+    county: Putnam
+    name: Putnam County Courts
+    address: "1 Courthouse Square, Greencastle, IN 46135"
+    lat: 39.6443915
+    lng: -86.8649644
+    url: "https://www.in.gov/courts/local/putnam-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-rush-courthouse
+    state: IN
+    county: Rush
+    name: Rush County Courts
+    address: "101 E. 2nd Street, Rushville, IN 46173"
+    lat: 39.6081764
+    lng: -85.4462762
+    url: "https://www.in.gov/courts/local/rush-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-scott-courthouse
+    state: IN
+    county: Scott
+    name: Scott County Courts
+    address: "1 East McClain Avenue, Scottsburg, IN 47170"
+    lat: 38.6855794
+    lng: -85.7698015
+    url: "https://www.in.gov/courts/local/scott-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-shelby-courthouse
+    state: IN
+    county: Shelby
+    name: Shelby County Courts
+    address: "407 South Harrison Street, Shelbyville, IN 46176"
+    lat: 39.5214317
+    lng: -85.7771141
+    url: "https://www.in.gov/courts/local/shelby-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-spencer-courthouse
+    state: IN
+    county: Spencer
+    name: Spencer County Courts
+    address: "200 Main Street, Rockport, IN 47635"
+    lat: 37.883054
+    lng: -87.046283
+    url: "https://www.in.gov/courts/local/spencer-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-st-joseph-courthouse
+    state: IN
+    county: St. Joseph
+    name: St. Joseph County Courts
+    address: "101 South Main Street, South Bend, IN 46601"
+    lat: 41.6757815
+    lng: -86.2525163
+    url: "https://www.in.gov/courts/local/st-joseph-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-starke-courthouse
+    state: IN
+    county: Starke
+    name: Starke County Courts
+    address: "53 East Washington Street, Knox, IN 46534"
+    lat: 41.2988795
+    lng: -86.6226722
+    url: "https://www.in.gov/courts/local/starke-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-sullivan-courthouse
+    state: IN
+    county: Sullivan
+    name: Sullivan County Courts
+    address: "100 Courthouse Square, Sullivan, IN 47882"
+    lat: 39.0948906
+    lng: -87.407755
+    url: "https://www.in.gov/courts/local/sullivan-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-switzerland-courthouse
+    state: IN
+    county: Switzerland
+    name: Switzerland County Courts
+    address: "212 West Main Street, Vevay, IN 47043"
+    lat: 38.747141
+    lng: -85.0690555
+    url: "https://www.in.gov/courts/local/switzerland-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-tippecanoe-courthouse
+    state: IN
+    county: Tippecanoe
+    name: Tippecanoe County Courts
+    address: "mailing address, Lafayette, IN 47901"
+    lat: 40.4186625
+    lng: -86.8936603
+    url: "https://www.in.gov/courts/local/tippecanoe-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-tipton-courthouse
+    state: IN
+    county: Tipton
+    name: Tipton County Courts
+    address: "101 East Jefferson Street, Tipton, IN 46072"
+    lat: 40.282168
+    lng: -86.04105
+    url: "https://www.in.gov/courts/local/tipton-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-union-courthouse
+    state: IN
+    county: Union
+    name: Union County Courts
+    address: "26 West Union Street, Liberty, IN 47353"
+    lat: 39.6353402
+    lng: -84.9301007
+    url: "https://www.in.gov/courts/local/union-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-vermillion-courthouse
+    state: IN
+    county: Vermillion
+    name: Vermillion County Courts
+    address: "255 South Main, Newport, IN 47966"
+    lat: 39.8845681
+    lng: -87.4086429
+    url: "https://www.in.gov/courts/local/vermillion-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-vigo-courthouse
+    state: IN
+    county: Vigo
+    name: Vigo County Courts
+    address: "33 South Third Street, Terre Haute, IN 47807"
+    lat: 39.4659571
+    lng: -87.4147014
+    url: "https://www.in.gov/courts/local/vigo-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-wabash-courthouse
+    state: IN
+    county: Wabash
+    name: Wabash County Courts
+    address: "69 West Hill Street, Wabash, IN 46992"
+    lat: 40.7982487
+    lng: -85.822272
+    url: "https://www.in.gov/courts/local/wabash-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-warren-courthouse
+    state: IN
+    county: Warren
+    name: Warren County Courts
+    address: "125 North Monroe Street, Williamsport, IN 47993"
+    lat: 40.2874328
+    lng: -87.2939717
+    url: "https://www.in.gov/courts/local/warren-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-warrick-courthouse
+    state: IN
+    county: Warrick
+    name: Warrick County Courts
+    address: "1 County Square, Boonville, IN 47601"
+    lat: 38.0495603
+    lng: -87.2749448
+    url: "https://www.in.gov/courts/local/warrick-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-washington-courthouse
+    state: IN
+    county: Washington
+    name: Washington County Courts
+    address: "801 S. Jackson Street, Salem, IN 47167"
+    lat: 38.597013
+    lng: -86.0920244
+    url: "https://www.in.gov/courts/local/washington-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-wayne-courthouse
+    state: IN
+    county: Wayne
+    name: Wayne County Courts
+    address: "301 East Main Street, Richmond, IN 47374"
+    lat: 39.8283587
+    lng: -84.8969797
+    url: "https://www.in.gov/courts/local/wayne-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-wells-courthouse
+    state: IN
+    county: Wells
+    name: Wells County Courts
+    address: "102 Market Street, Bluffton, IN 46714"
+    lat: 40.7394017
+    lng: -85.1719264
+    url: "https://www.in.gov/courts/local/wells-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-white-courthouse
+    state: IN
+    county: White
+    name: White County Courts
+    address: "110 North Main Street, Monticello, IN 47960"
+    lat: 40.7451582
+    lng: -86.7620298
+    url: "https://www.in.gov/courts/local/white-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+  - id: in-whitley-courthouse
+    state: IN
+    county: Whitley
+    name: Whitley County Courts
+    address: "101 West Van Buren Street, Columbia City, IN 46725"
+    lat: 41.156945
+    lng: -85.488554
+    url: "https://www.in.gov/courts/local/whitley-county/"
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

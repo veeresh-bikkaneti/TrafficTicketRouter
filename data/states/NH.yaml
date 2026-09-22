@@ -1,0 +1,60 @@
+# New Hampshire — Northeast expansion (2026-09-21).
+# GAP: per-county Circuit Court District Division pages on courts.nh.gov
+# returned Akamai 403 to automated checks on 2026-09-21 (all paths tested,
+# including the legacy courts.state.nh.us host which redirects into the same
+# block). No per-county card or pin is included — every URL below the bar of
+# live-verified final HTTP 200 was omitted. A follow-up with interactive
+# browser verification can add the ten per-county cards and pins.
+# Traffic note: New Hampshire has 31 Circuit Court District Divisions;
+# traffic matters are heard in the District Division for the county where the
+# matter arose. (NH LUCIE, launched 2026-08-26, covers civil/small
+# claims/name-change/estate — not traffic — and is not presented as
+# ticket access.)
+state: NH
+state_name: New Hampshire
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.nh.gov
+counties:
+  - name: Belknap
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Laconia). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Carroll
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Ossipee). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Cheshire
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Keene). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Coos
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Lancaster). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Grafton
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Haverhill). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Hillsborough
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venues: Manchester, Nashua). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Merrimack
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Concord). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Rockingham
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Brentwood). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Strafford
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Dover). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+  - name: Sullivan
+    note: "Traffic matters are heard in the Circuit Court District Division (representative venue: Newport). Per-county court page links were bot-blocked for automated verification on 2026-09-21; no per-county card is included."
+cards:
+  - id: nh-circuit-court-guidance
+    verification: link_ok
+    source_url: null
+    verification_note: "Guidance only — no link to verify. Per-county Circuit Court pages on courts.nh.gov returned Akamai 403 to automated checks on 2026-09-21, so no per-county URLs are listed."
+    last_verified: "2026-09-21"
+    kind: guidance
+    agency: "New Hampshire Circuit Court — District Division"
+    accepted_keys: "Use the official court site's Find a Court page to locate the District Division for your county."
+    cost: "No cost to look up — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Traffic matters in New Hampshire are heard in the Circuit Court District Division for the county where the matter arose."
+      - "Per-county court page links were bot-blocked for automated verification on 2026-09-21; use the official court site's Find a Court page to locate the right division."
+      - "TicketRouter links to official sources only; it does not search tickets."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 10

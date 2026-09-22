@@ -1,0 +1,537 @@
+# Utah — 29 counties. 26 verified justice-court cards; 3 counties omitted
+# (Daggett, Sanpete: no verifiable court detail page; Weber: county court
+# operated by Roy, no verifiable .gov detail page — see report).
+# Every source_url verified live to HTTP 200 on 2026-09-21.
+state: UT
+state_name: Utah
+last_verified: "2026-09-21"
+official_hosts:
+  - utcourts.gov
+counties:
+  - name: Beaver
+    note: "Traffic venue is justice court."
+  - name: Box Elder
+    note: "Traffic venue is justice court."
+  - name: Cache
+    note: "Traffic venue is justice court (Logan Justice Court serves Cache County)."
+  - name: Carbon
+    note: "Traffic venue is justice court."
+  - name: Daggett
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Davis
+    note: "Traffic venue is justice court."
+  - name: Duchesne
+    note: "Traffic venue is justice court."
+  - name: Emery
+    note: "Traffic venue is justice court."
+  - name: Garfield
+    note: "Traffic venue is justice court."
+  - name: Grand
+    note: "Traffic venue is justice court."
+  - name: Iron
+    note: "Traffic venue is justice court."
+  - name: Juab
+    note: "Traffic venue is justice court."
+  - name: Kane
+    note: "Traffic venue is justice court."
+  - name: Millard
+    note: "Traffic venue is justice court."
+  - name: Morgan
+    note: "Traffic venue is justice court."
+  - name: Piute
+    note: "Traffic venue is justice court."
+  - name: Rich
+    note: "Traffic venue is justice court."
+  - name: Salt Lake
+    note: "Traffic venue is justice court."
+  - name: San Juan
+    note: "Traffic venue is justice court."
+  - name: Sanpete
+    note: "Traffic venue is justice court. Official page not verifiable — see report."
+  - name: Sevier
+    note: "Traffic venue is justice court."
+  - name: Summit
+    note: "Traffic venue is justice court."
+  - name: Tooele
+    note: "Traffic venue is justice court."
+  - name: Uintah
+    note: "Traffic venue is justice court."
+  - name: Utah
+    note: "Traffic venue is justice court."
+  - name: Wasatch
+    note: "Traffic venue is justice court."
+  - name: Washington
+    note: "Traffic venue is justice court."
+  - name: Wayne
+    note: "Traffic venue is justice court."
+  - name: Weber
+    note: "Traffic venue is justice court (Roy/Weber). Official .gov page not verifiable — see report."
+cards:
+  - id: beaver-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=beaver-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beaver County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beaver
+    weight: 10
+
+  - id: box-elder-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=box-elder-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Box Elder County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Box Elder
+    weight: 10
+
+  - id: cache-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=logan-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+      - "Logan Justice Court serves Cache County."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cache
+    weight: 10
+
+  - id: carbon-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=carbon-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carbon County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carbon
+    weight: 10
+
+  - id: davis-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=davis-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Davis County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Davis
+    weight: 10
+
+  - id: duchesne-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=duchesne-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Duchesne County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Duchesne
+    weight: 10
+
+  - id: emery-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=emery-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Emery County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Emery
+    weight: 10
+
+  - id: garfield-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=garfield-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garfield County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garfield
+    weight: 10
+
+  - id: grand-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=grand-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grand County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grand
+    weight: 10
+
+  - id: iron-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=iron-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Iron County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iron
+    weight: 10
+
+  - id: juab-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=juab-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Juab County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Juab
+    weight: 10
+
+  - id: kane-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=kane-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Kane County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kane
+    weight: 10
+
+  - id: millard-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=millard-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Millard County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Millard
+    weight: 10
+
+  - id: morgan-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=morgan-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morgan County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: piute-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=piute-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Piute County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Piute
+    weight: 10
+
+  - id: rich-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=rich-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rich County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rich
+    weight: 10
+
+  - id: salt-lake-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=salt-lake-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Salt Lake County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Salt Lake
+    weight: 10
+
+  - id: san-juan-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=san-juan-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "San Juan County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - San Juan
+    weight: 10
+
+  - id: sevier-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=sevier-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sevier County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sevier
+    weight: 10
+
+  - id: summit-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=summit-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Summit County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Summit
+    weight: 10
+
+  - id: tooele-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=tooele-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tooele County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tooele
+    weight: 10
+
+  - id: uintah-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=uintah-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Uintah County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Uintah
+    weight: 10
+
+  - id: utah-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=utah-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Utah County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Utah
+    weight: 10
+
+  - id: wasatch-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=wasatch-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wasatch County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wasatch
+    weight: 10
+
+  - id: washington-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=washington-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: wayne-county-card
+    verification: link_ok
+    source_url: "https://www.utcourts.gov/content/utcourts/us/en/about/miscellaneous/directory/court-details.html?id=wayne-county-justice-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Wayne County Justice Court"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21 on utcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Justice courts handle traffic, misdemeanor, and small-claims matters."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10

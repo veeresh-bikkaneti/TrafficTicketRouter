@@ -1,0 +1,1793 @@
+# Michigan — TicketRouter expansion.
+# Every source_url verified live 2026-09-21; see verification_note per card.
+state: MI
+state_name: Michigan
+last_verified: "2026-09-21"
+official_hosts:
+  - 37thdistrictcourt.org
+  - alconacountymi.com
+  - algercounty.gov
+  - casscourtsmi.org
+  - clareco.net
+  - co.midland.mi.us
+  - co.muskegon.mi.us
+  - dearborn.gov
+  - deltacountymi.gov
+  - gladwincounty-mi.gov
+  - ioniacounty.org
+  - iosco.net
+  - ironmi.com
+  - keweenawbay.org
+  - keweenawcountyonline.org
+  - lapeercountyweb.org
+  - lenawee.mi.us
+  - lrs.michbar.org
+  - micourt.courts.michigan.gov
+  - milivcounty.gov
+  - miottawa.org
+  - oceana.mi.us
+  - ontonagoncounty.org
+  - shiawassee.net
+  - stjosephcountymi.gov
+  - vanburencountymi.gov
+  - wexfordcounty.org
+  - www.77districtcourt.org
+  - www.alpenacounty.org
+  - www.arenaccountymi.gov
+  - www.barrycounty.org
+  - www.baycountymi.gov
+  - www.benzieco.net
+  - www.calhouncountymi.gov
+  - www.charlevoixcounty.org
+  - www.cheboygancounty.net
+  - www.chippewacountymi.gov
+  - www.circuit46.org
+  - www.clinton-county.org
+  - www.co.huron.mi.us
+  - www.co.marquette.mi.us
+  - www.co.monroe.mi.us
+  - www.countyofbranch.com
+  - www.dickinsoncountymi.gov
+  - www.eatoncounty.org
+  - www.emmetcounty.org
+  - www.geneseecountymi.gov
+  - www.gogebic.gov
+  - www.gratiotmi.com
+  - www.gtcountymi.gov
+  - www.houghtoncounty.net
+  - www.isabellacounty.org
+  - www.kalcounty.gov
+  - www.lansingmi.gov
+  - www.lucecountymi.com
+  - www.mackinaccounty.net
+  - www.manisteecountymi.gov
+  - www.masoncounty.net
+  - www.menomineecountymi.gov
+  - www.michigan.gov
+  - www.mijackson.org
+  - www.montcalm.us
+  - www.montmorencycourts.com
+  - www.newaygocountymi.gov
+  - www.oaklandcountymi.gov
+  - www.ocmi.us
+  - www.osceola-county.org
+  - www.oscodacountymi.com
+  - www.roscommoncounty.net
+  - www.saginawcountymi.gov
+  - www.schoolcraftcounty.net
+  - www.stclaircounty.org
+  - www.tuscolacounty.org
+  - www.washtenaw.org
+  - www.wyomingmi.gov
+counties:
+  - name: Alcona
+  - name: Alger
+  - name: Allegan
+  - name: Alpena
+  - name: Antrim
+  - name: Arenac
+  - name: Baraga
+  - name: Barry
+  - name: Bay
+  - name: Benzie
+  - name: Berrien
+  - name: Branch
+  - name: Calhoun
+  - name: Cass
+  - name: Charlevoix
+  - name: Cheboygan
+  - name: Chippewa
+  - name: Clare
+  - name: Clinton
+  - name: Crawford
+  - name: Delta
+  - name: Dickinson
+  - name: Eaton
+  - name: Emmet
+  - name: Genesee
+  - name: Gladwin
+  - name: Gogebic
+  - name: Grand Traverse
+  - name: Gratiot
+  - name: Hillsdale
+  - name: Houghton
+  - name: Huron
+  - name: Ingham
+  - name: Ionia
+  - name: Iosco
+  - name: Iron
+  - name: Isabella
+  - name: Jackson
+  - name: Kalamazoo
+  - name: Kalkaska
+  - name: Kent
+  - name: Keweenaw
+  - name: Lake
+  - name: Lapeer
+  - name: Leelanau
+  - name: Lenawee
+  - name: Livingston
+  - name: Luce
+  - name: Mackinac
+  - name: Macomb
+  - name: Manistee
+  - name: Marquette
+  - name: Mason
+  - name: Mecosta
+  - name: Menominee
+  - name: Midland
+  - name: Missaukee
+  - name: Monroe
+  - name: Montcalm
+  - name: Montmorency
+  - name: Muskegon
+  - name: Newaygo
+  - name: Oakland
+  - name: Oceana
+  - name: Ogemaw
+  - name: Ontonagon
+  - name: Osceola
+  - name: Oscoda
+  - name: Otsego
+  - name: Ottawa
+  - name: Presque Isle
+  - name: Roscommon
+  - name: Saginaw
+  - name: Sanilac
+  - name: Schoolcraft
+  - name: Shiawassee
+  - name: St. Clair
+  - name: St. Joseph
+  - name: Tuscola
+  - name: Van Buren
+  - name: Washtenaw
+  - name: Wayne
+  - name: Wexford
+cards:
+  - id: mi-micourt-search
+    verification: link_ok
+    verification_note: "GET https://micourt.courts.michigan.gov/ -> 200 (no redirects)"
+    source_url: "https://micourt.courts.michigan.gov/"
+    last_verified: "2026-09-21"
+    kind: statewide_cms
+    agency: Michigan Courts — MiCOURT case search
+    accepted_keys: Search by party name or case number on the official portal.
+    cost: No cost to search — as of 2026-09-21 on micourt.courts.michigan.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Coverage depends on the court reporting to the portal.
+      - Not searchable by driver’s license number.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - '*'
+    weight: 20
+  - id: mi-sos-driving-record
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.michigan.gov/sos/all-services/driving-record -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.michigan.gov/sos/all-services/driving-record"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: Michigan Secretary of State — driving record
+    accepted_keys: Your driver’s license details on the official SOS page.
+    cost: The official SOS page lists the current cost for records — as of 2026-09-21 on michigan.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Driving records show history and convictions — not a pending-ticket portal.
+      - "Self-check only: request your own record, not someone else’s."
+    for_intents:
+      - history
+    for_counties:
+      - '*'
+    weight: 20
+  - id: mi-lawyer-referral
+    verification: link_ok
+    verification_note: "GET https://lrs.michbar.org/LRS-Info/Lawyer-Referral-Service -> 200 (no redirects)"
+    source_url: "https://lrs.michbar.org/LRS-Info/Lawyer-Referral-Service"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: State Bar of Michigan — Lawyer Referral Service
+    accepted_keys: Use the official referral service form or contact details.
+    cost: No cost to use the referral service — as of 2026-09-21 on michbar.org.
+    cost_free: true
+    lag: null
+    limitations:
+      - "A referral service, not legal advice and not an endorsement."
+    for_intents:
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 50
+  - id: mi-alcona-court
+    verification: link_ok
+    verification_note: "GET https://alconacountymi.com/81st-district-court/ -> 200 (no redirects)"
+    source_url: "https://alconacountymi.com/81st-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 81st District Court - Alcona
+    address: "106 Fifth Street, Harrisville, MI 48740"
+    phone: (989) 724-9500
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alcona
+    weight: 80
+  - id: mi-alger-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://algercounty.gov/courts/district-court/ -> 200 (no redirects) Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://algercounty.gov/courts/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 93rd District Court - Alger
+    address: "101 Court Street, Munising, MI 49862"
+    phone: (906) 387-3879
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alger
+    weight: 80
+  - id: mi-alpena-court
+    verification: link_ok
+    verification_note: "GET https://www.alpenacounty.org/31/Courts -> 200 (no redirects)"
+    source_url: "https://www.alpenacounty.org/31/Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 88th District Court - Alpena
+    address: "719 Chisholm St., Alpena, MI 49707"
+    phone: (989) 354-9678
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alpena
+    weight: 80
+  - id: mi-antrim-court
+    verification: link_ok
+    verification_note: "GET https://www.gtcountymi.gov/2747/86th-District-Court -> 200 (no redirects)"
+    source_url: "https://www.gtcountymi.gov/2747/86th-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 86th District Court - Antrim
+    address: "205 Cayuga, Bellaire, MI 49615"
+    phone: (231) 533-6441
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Antrim
+    weight: 80
+  - id: mi-arenac-court
+    verification: link_ok
+    verification_note: "GET https://www.arenaccountymi.gov/Courts-Law/81st-District-Court/ -> 200 (no redirects)"
+    source_url: "https://www.arenaccountymi.gov/Courts-Law/81st-District-Court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 81st District Court - Arenac
+    address: "129 Grove St., Standish, MI 48658"
+    phone: (989) 846-9538
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Arenac
+    weight: 80
+  - id: mi-baraga-court
+    verification: link_ok
+    verification_note: "GET https://micourt.courts.michigan.gov/case-search/court/D97~1 -> 200 (no redirects). Official Michigan MiCOURT case search scoped to the 97th District Court (Baraga County). Replaces a Keweenaw Bay tribal-government informational page."
+    source_url: "https://micourt.courts.michigan.gov/case-search/court/D97~1"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 97th District Court - Baraga
+    address: "16 N. Third, L'Anse, MI 49946"
+    phone: (906) 524-6100
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baraga
+    weight: 80
+  - id: mi-barry-court
+    verification: link_ok
+    verification_note: "GET https://www.barrycounty.org/courts_and_law_enforcement/district_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.barrycounty.org/courts_and_law_enforcement/district_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 56B District Court
+    address: "202 W. Court St., Hastings, MI 49058"
+    phone: (269) 945-1404
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barry
+    weight: 80
+  - id: mi-bay-court
+    verification: link_ok
+    verification_note: "GET https://www.baycountymi.gov/courts_law/74th_district_court.php -> 200 (no redirects)"
+    source_url: "https://www.baycountymi.gov/courts_law/74th_district_court.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 74th District Court
+    address: "1230 Washington Ave., Bay City, MI 48708"
+    phone: (989) 895-4232
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bay
+    weight: 80
+  - id: mi-benzie-court
+    verification: link_ok
+    verification_note: "GET https://www.benzieco.net/government/85th_district_court.php -> 200 (no redirects)"
+    source_url: "https://www.benzieco.net/government/85th_district_court.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 85th District Court - Benzie
+    address: "448 Court Place, Beulah, MI 49617"
+    phone: (231) 882-0019
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benzie
+    weight: 80
+  - id: mi-branch-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.countyofbranch.com/courts/3-a-district-court/ -> 200 (no redirects) Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.countyofbranch.com/courts/3-a-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 3A District Court
+    address: "31 Division St., Coldwater, MI 49036"
+    phone: (517) 279-4308
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Branch
+    weight: 80
+  - id: mi-calhoun-court
+    verification: link_ok
+    verification_note: "GET https://www.calhouncountymi.gov/departments/courts/district_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.calhouncountymi.gov/departments/courts/district_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 10th District Court
+    address: "161 E. Michigan Ave., Battle Creek, MI 49014"
+    phone: (269) 969-6726
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 80
+  - id: mi-cass-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://casscourtsmi.org/4th-district-court/ -> 200 (no redirects) Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://casscourtsmi.org/4th-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 4th District Court
+    address: "60296 M-62, Cassopolis, MI 49031"
+    phone: (269) 445-4424
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 80
+  - id: mi-charlevoix-court
+    verification: link_ok
+    verification_note: "GET https://www.charlevoixcounty.org/the_90th_district_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.charlevoixcounty.org/the_90th_district_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 90th District Court - Charlevoix
+    address: "301 State St., Charlevoix, MI 49720"
+    phone: (231) 547-7227
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Charlevoix
+    weight: 80
+  - id: mi-cheboygan-court
+    verification: link_ok
+    verification_note: "GET https://www.cheboygancounty.net/courts-law-enforcement/ -> 200 (no redirects)"
+    source_url: "https://www.cheboygancounty.net/courts-law-enforcement/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 89th District Court - Cheboygan
+    address: "870 S. Main, Cheboygan, MI 49721"
+    phone: (231) 627-8809
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cheboygan
+    weight: 80
+  - id: mi-chippewa-court
+    verification: link_ok
+    verification_note: "GET https://www.chippewacountymi.gov/91dc -> 200 (no redirects)"
+    source_url: "https://www.chippewacountymi.gov/91dc"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 91st District Court
+    address: "325 Court Street, Sault Ste. Marie, MI 49783"
+    phone: (906) 635-6320
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chippewa
+    weight: 80
+  - id: mi-clare-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://clareco.net/department/courts/ -> 200 (no redirects) Automated checks are blocked by the site’s bot defenses, so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://clareco.net/department/courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 80th District Court - Clare
+    address: "225 W. Main St., Harrison, MI 48625"
+    phone: (989) 539-7173
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clare
+    weight: 80
+  - id: mi-clinton-court
+    verification: link_ok
+    verification_note: "GET https://www.clinton-county.org/35/Law-Justice -> 200 (no redirects)"
+    source_url: "https://www.clinton-county.org/35/Law-Justice"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 65A District Court
+    address: "100 E. State Street, St. Johns, MI 48879"
+    phone: (989) 224-5150
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 80
+  - id: mi-crawford-court
+    verification: link_ok
+    verification_note: "GET https://www.circuit46.org/crawford-county-courts/ -> 200 (no redirects)"
+    source_url: "https://www.circuit46.org/crawford-county-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 87C District Court
+    address: "200 W. Michigan Ave., Grayling, MI 49738"
+    phone: (989) 348-2841
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 80
+  - id: mi-delta-court
+    verification: link_ok
+    verification_note: "GET https://deltacountymi.gov/ -> 200 (no redirects)"
+    source_url: "https://deltacountymi.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 94th District Court
+    address: "310 Ludington St., Escanaba, MI 49829"
+    phone: (906) 789-5106
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Delta
+    weight: 80
+  - id: mi-dickinson-court
+    verification: link_ok
+    verification_note: "GET https://www.dickinsoncountymi.gov/?courts#95B_DISTRICT_COURT -> 200 (no redirects)"
+    source_url: "https://www.dickinsoncountymi.gov/?courts#95B_DISTRICT_COURT"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 95B District Court - Dickinson
+    address: "705 S. Stephenson St., Iron Mountain, MI 49801"
+    phone: (906) 774-0506
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dickinson
+    weight: 80
+  - id: mi-eaton-court
+    verification: link_ok
+    verification_note: "GET https://www.eatoncounty.org -> 200 (no redirects)"
+    source_url: "https://www.eatoncounty.org"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 56A District Court
+    address: "1045 Independence Blvd., Charlotte, MI 48813"
+    phone: (517) 543-7500
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Eaton
+    weight: 80
+  - id: mi-emmet-court
+    verification: link_ok
+    verification_note: "GET https://www.emmetcounty.org/government/courts/90th_district_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.emmetcounty.org/government/courts/90th_district_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 90th District Court - Emmet
+    address: "200 Division Street, Petoskey, MI 49770"
+    phone: (231) 348-1750
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Emmet
+    weight: 80
+  - id: mi-genesee-court
+    verification: link_ok
+    verification_note: "GET https://www.geneseecountymi.gov/courts_and_law_enforcement/index.php -> 200 (no redirects)"
+    source_url: "https://www.geneseecountymi.gov/courts_and_law_enforcement/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 67th District Court - Division 1
+    address: "630 S. Saginaw St., Flint, MI 48502"
+    phone: (810) 257-3181
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Genesee
+    weight: 80
+  - id: mi-gladwin-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://gladwincounty-mi.gov/departments/80th-district-court/ -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://gladwincounty-mi.gov/departments/80th-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 80th District Court - Gladwin
+    address: "401 W. Cedar, Gladwin, MI 48624"
+    phone: (989) 426-9207
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gladwin
+    weight: 80
+  - id: mi-gogebic-court
+    verification: link_ok
+    verification_note: "GET https://www.gogebic.gov/district.html -> 200 (no redirects)"
+    source_url: "https://www.gogebic.gov/district.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 98th District Court - Gogebic
+    address: "200 N. Moore St., Bessemer, MI 49911"
+    phone: (906) 663-4611
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gogebic
+    weight: 80
+  - id: mi-grand-traverse-court
+    verification: link_ok
+    verification_note: "GET https://www.gtcountymi.gov/2747/86th-District-Court -> 200 (no redirects)"
+    source_url: "https://www.gtcountymi.gov/2747/86th-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 86th District Court - Grand Traverse
+    address: "280 Washington St., Traverse City, MI 49684"
+    phone: (231) 922-4580
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grand Traverse
+    weight: 80
+  - id: mi-gratiot-court
+    verification: link_ok
+    verification_note: "GET https://www.gratiotmi.com/386/65th-District-Court -> 200 (no redirects)"
+    source_url: "https://www.gratiotmi.com/386/65th-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 65B District Court
+    address: "245 E. Newark St., Ithaca, MI 48847"
+    phone: (989) 875-5240
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gratiot
+    weight: 80
+  - id: mi-houghton-court
+    verification: link_ok
+    verification_note: "GET https://www.houghtoncounty.net/directory-97th-district-court.php -> 200 (no redirects)"
+    source_url: "https://www.houghtoncounty.net/directory-97th-district-court.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 97th District Court - Houghton
+    address: "401 E. Houghton Ave., Houghton, MI 49931"
+    phone: (906) 482-4980
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Houghton
+    weight: 80
+  - id: mi-huron-court
+    verification: link_ok
+    verification_note: "GET https://www.co.huron.mi.us/district-court-magistrate-court -> 200 (no redirects)"
+    source_url: "https://www.co.huron.mi.us/district-court-magistrate-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 73B District Court
+    address: "250 E. Huron Ave., Bad Axe, MI 48413"
+    phone: (989) 269-9987
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Huron
+    weight: 80
+  - id: mi-ingham-court
+    verification: link_ok
+    verification_note: "GET https://www.lansingmi.gov/54-a-district-court-0 -> 200 (no redirects)"
+    source_url: "https://www.lansingmi.gov/54-a-district-court-0"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 54A District Court
+    address: "124 W. Michigan Ave., Lansing, MI 48933"
+    phone: (517) 483-4433
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ingham
+    weight: 80
+  - id: mi-ionia-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://ioniacounty.org/courts/64dc/ -> 200 (no redirects) Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://ioniacounty.org/courts/64dc/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 64A District Court
+    address: "100 W. Main St., Ionia, MI 48846"
+    phone: (616) 527-5344
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ionia
+    weight: 80
+  - id: mi-iosco-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://iosco.net/courts/district-court/ -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://iosco.net/courts/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 81st District Court - Iosco
+    address: "422 Lake, Tawas City, MI 48764"
+    phone: (989) 362-4441
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iosco
+    weight: 80
+  - id: mi-iron-court
+    verification: link_ok
+    verification_note: "GET https://ironmi.com/ -> 200 (no redirects)"
+    source_url: "https://ironmi.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 95B District Court - Iron
+    address: "2 S. Sixth Street, Crystal Falls, MI 49920"
+    phone: (906) 875-0659
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iron
+    weight: 80
+  - id: mi-isabella-court
+    verification: link_ok
+    verification_note: "GET https://www.isabellacounty.org/law-justice/trial-court/ -> 200 (no redirects)"
+    source_url: "https://www.isabellacounty.org/law-justice/trial-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 76th District Court
+    address: "300 N. Main St., Mt. Pleasant, MI 48858"
+    phone: (989) 772-0911
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Isabella
+    weight: 80
+  - id: mi-jackson-court
+    verification: link_ok
+    verification_note: "GET https://www.mijackson.org/3074/12th-Judicial-District-Court -> 200 (no redirects)"
+    source_url: "https://www.mijackson.org/3074/12th-Judicial-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 12th District Court
+    address: "312 S. Jackson St., Jackson, MI 49201"
+    phone: (517) 788-4260
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 80
+  - id: mi-kalamazoo-court
+    verification: link_ok
+    verification_note: "GET https://www.kalcounty.gov/161/Courts -> 403"
+    source_url: "https://www.kalcounty.gov/161/Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 8th District Court
+    address: "330 Eleanor Street, Kalamazoo, MI 49007"
+    phone: (269) 384-8171
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kalamazoo
+    weight: 80
+  - id: mi-kalkaska-court
+    verification: link_ok
+    verification_note: "GET https://www.circuit46.org/kalkaska-county-courts/ -> 200 (no redirects)"
+    source_url: "https://www.circuit46.org/kalkaska-county-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 87B District Court
+    address: "605 N. Birch Street, Kalkaska, MI 49646"
+    phone: (231) 258-9031
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kalkaska
+    weight: 80
+  - id: mi-kent-court
+    verification: link_ok
+    verification_note: "GET https://www.wyomingmi.gov/About-Wyoming/City-Departments/62A-District-Court -> 200 (no redirects)"
+    source_url: "https://www.wyomingmi.gov/About-Wyoming/City-Departments/62A-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 62A District Court
+    address: "2650 DeHoop Ave., S.W., Wyoming, MI 49509"
+    phone: (616) 632-5700
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kent
+    weight: 80
+  - id: mi-keweenaw-court
+    verification: link_ok
+    verification_note: "GET https://keweenawcountyonline.org/department-court.php -> 200 (no redirects)"
+    source_url: "https://keweenawcountyonline.org/department-court.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 97th District Court - Keweenaw
+    address: "5095 Fourth Street, Eagle River, MI 49950"
+    phone: (906) 337-2229
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Keweenaw
+    weight: 80
+  - id: mi-lapeer-court
+    verification: link_ok
+    verification_note: "GET https://lapeercountyweb.org/ -> 200 (no redirects)"
+    source_url: "https://lapeercountyweb.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 71A District Court
+    address: "255 Clay Street, Lapeer, MI 48446"
+    phone: (810) 667-0314
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lapeer
+    weight: 80
+  - id: mi-leelanau-court
+    verification: link_ok
+    verification_note: "GET https://www.gtcountymi.gov/2747/86th-District-Court -> 200 (no redirects)"
+    source_url: "https://www.gtcountymi.gov/2747/86th-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 86th District Court - Leelanau
+    address: "8527 E. Government Center Dr., Suttons Bay, MI 49682"
+    phone: (231) 256-8250
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Leelanau
+    weight: 80
+  - id: mi-lenawee-court
+    verification: link_ok
+    verification_note: "GET https://lenawee.mi.us/176/District-Court -> 200 (no redirects)"
+    source_url: "https://lenawee.mi.us/176/District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 2A District Court
+    address: "425 N. Main Street, Adrian, MI 49221"
+    phone: (517) 264-4673
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lenawee
+    weight: 80
+  - id: mi-livingston-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://milivcounty.gov/district/ -> 200 (no redirects) Official district court page; verified to load for human visitors in a real browser on 2026-09-21. The site’s bot defenses block automated checks (HTTP 403), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://milivcounty.gov/district/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 53rd District Court
+    address: "204 S. Highlander Way, Howell, MI 48843"
+    phone: (517) 548-1000
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 80
+  - id: mi-luce-court
+    verification: link_ok
+    verification_note: "GET https://www.lucecountymi.com/92nd-district-court -> 200 (no redirects)"
+    source_url: "https://www.lucecountymi.com/92nd-district-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 92nd District Court - Luce
+    address: "407 W. Harrie St., Newberry, MI 49868"
+    phone: (906) 293-5531
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Luce
+    weight: 80
+  - id: mi-mackinac-court
+    verification: link_ok
+    verification_note: "GET https://www.mackinaccounty.net/departments/courts/district-court/ -> 200 (no redirects)"
+    source_url: "https://www.mackinaccounty.net/departments/courts/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 92nd District Court - Mackinac
+    address: "100 Marley St., St. Ignace, MI 49781"
+    phone: (906) 643-7321
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mackinac
+    weight: 80
+  - id: mi-macomb-court
+    verification: link_ok
+    verification_note: "GET https://37thdistrictcourt.org/ -> 200 (no redirects)"
+    source_url: "https://37thdistrictcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 37th District Court
+    address: "7070 E. Ten Mile Rd., Center Line, MI 48015"
+    phone: (586) 757-8333
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macomb
+    weight: 80
+  - id: mi-manistee-court
+    verification: link_ok
+    verification_note: "GET https://www.manisteecountymi.gov/228/Courts -> 200 (no redirects)"
+    source_url: "https://www.manisteecountymi.gov/228/Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 85th District Court - Manistee
+    address: "415 Third St., Manistee, MI 49660"
+    phone: (231) 723-5010
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Manistee
+    weight: 80
+  - id: mi-marquette-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.co.marquette.mi.us/departments/courts/district_court/index.php#.WTWPImaGNPY -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.co.marquette.mi.us/departments/courts/district_court/index.php#.WTWPImaGNPY"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 96th District Court
+    address: "234 W. Baraga Ave., Marquette, MI 49855"
+    phone: (906) 225-8235
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marquette
+    weight: 80
+  - id: mi-mason-court
+    verification: link_ok
+    verification_note: "GET https://www.masoncounty.net/courts/79th_district_court.php -> 200 (no redirects)"
+    source_url: "https://www.masoncounty.net/courts/79th_district_court.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 79th District Court - Mason
+    address: "304 E. Ludington Avenue, Ludington, MI 49431"
+    phone: (231) 843-4130
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mason
+    weight: 80
+  - id: mi-mecosta-court
+    verification: link_ok
+    verification_note: "GET https://www.77districtcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.77districtcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 77th District Court - Mecosta
+    address: "400 Elm Street, Big Rapids, MI 49307"
+    phone: (231) 592-0799
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mecosta
+    weight: 80
+  - id: mi-menominee-court
+    verification: link_ok
+    verification_note: "GET https://www.menomineecountymi.gov/departments/?department=24162d6823a2 -> 200 (no redirects)"
+    source_url: "https://www.menomineecountymi.gov/departments/?department=24162d6823a2"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 95A District Court
+    address: "839 10th Ave., Menominee, MI 49858"
+    phone: (906) 863-8532
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Menominee
+    weight: 80
+  - id: mi-midland-court
+    verification: link_ok
+    verification_note: "GET https://co.midland.mi.us/midland-courts -> 403"
+    source_url: "https://co.midland.mi.us/midland-courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 75th District Court
+    address: "301 W. Main Street, Midland, MI 48640"
+    phone: (989) 832-6709
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Midland
+    weight: 80
+  - id: mi-missaukee-court
+    verification: link_ok
+    verification_note: "GET https://wexfordcounty.org/?page_id=833 -> 200 (no redirects)"
+    source_url: "https://wexfordcounty.org/?page_id=833"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 84th District Court - Missaukee
+    address: "111 S. Canal St., Lake City, MI 49651"
+    phone: (231) 839-4590
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Missaukee
+    weight: 80
+  - id: mi-monroe-court
+    verification: link_ok
+    verification_note: "GET https://www.co.monroe.mi.us/402/1st-District-Court -> 200 (no redirects)"
+    source_url: "https://www.co.monroe.mi.us/402/1st-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 1st District Court
+    address: "106 E. First St., Monroe, MI 48161"
+    phone: (734) 240-7075
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 80
+  - id: mi-montcalm-court
+    verification: link_ok
+    verification_note: "GET https://www.montcalm.us/347/Courts -> 200 (no redirects)"
+    source_url: "https://www.montcalm.us/347/Courts"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 64B District Court
+    address: "617 N. State, Stanton, MI 48888"
+    phone: (989) 831-7450
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montcalm
+    weight: 80
+  - id: mi-montmorency-court
+    verification: link_ok
+    verification_note: "GET https://www.montmorencycourts.com/88thdistrictcourt -> 200 (no redirects)"
+    source_url: "https://www.montmorencycourts.com/88thdistrictcourt"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 88th District Court - Montmorency
+    address: "Montmorency County Courthouse, Atlanta, MI 49709"
+    phone: (989) 785-8035
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montmorency
+    weight: 80
+  - id: mi-muskegon-court
+    verification: link_ok
+    verification_note: "GET https://co.muskegon.mi.us/601/60th-District-Court -> 200 (no redirects)"
+    source_url: "https://co.muskegon.mi.us/601/60th-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 60th District Court
+    address: "990 Terrace St., Muskegon, MI 49442"
+    phone: (231) 724-6283
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Muskegon
+    weight: 80
+  - id: mi-newaygo-court
+    verification: link_ok
+    verification_note: "GET https://www.newaygocountymi.gov/departments/district-court/district-court/ -> 200 (no redirects)"
+    source_url: "https://www.newaygocountymi.gov/departments/district-court/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 78th District Court - Newaygo
+    address: "1092 Newell, White Cloud, MI 49349"
+    phone: (231) 689-7257
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newaygo
+    weight: 80
+  - id: mi-oakland-court
+    verification: link_ok
+    verification_note: "GET https://www.oaklandcountymi.gov/government/courts/district-courts/50th-district-court -> 200 (no redirects)"
+    source_url: "https://www.oaklandcountymi.gov/government/courts/district-courts/50th-district-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 50th District Court
+    address: "70 N. Saginaw, Pontiac, MI 48342"
+    phone: (248) 758-3800
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oakland
+    weight: 80
+  - id: mi-oceana-court
+    verification: link_ok
+    verification_note: "GET https://oceana.mi.us/government/online-services-alt/courts-and-legal/ -> 200 (no redirects)"
+    source_url: "https://oceana.mi.us/government/online-services-alt/courts-and-legal/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 79th District Court - Oceana
+    address: "100 State Street, Hart, MI 49420"
+    phone: (231) 873-4530
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oceana
+    weight: 80
+  - id: mi-ogemaw-court
+    verification: link_ok
+    verification_note: "GET https://www.ocmi.us/82nd-judicial-district-court/ -> 406"
+    source_url: "https://www.ocmi.us/82nd-judicial-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 82nd District Court - Ogemaw
+    address: "806 W. Houghton Ave., West Branch, MI 48661"
+    phone: (989) 345-5040
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ogemaw
+    weight: 80
+  - id: mi-ontonagon-court
+    verification: link_ok
+    verification_note: "GET https://ontonagoncounty.org/county-offices/district-court/ -> 200 (no redirects)"
+    source_url: "https://ontonagoncounty.org/county-offices/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 98th District Court - Ontonagon
+    address: "725 Greenland Rd., Ontonagon, MI 49953"
+    phone: (906) 884-2865
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ontonagon
+    weight: 80
+  - id: mi-osceola-court
+    verification: link_ok
+    verification_note: "GET https://www.osceola-county.org/residents/county_departments/77th_district_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.osceola-county.org/residents/county_departments/77th_district_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 77th District Court - Osceola
+    address: "301 W. Upton, Reed City, MI 49677"
+    phone: (231) 832-6155
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osceola
+    weight: 80
+  - id: mi-oscoda-court
+    verification: link_ok
+    verification_note: "GET https://www.oscodacountymi.com/ -> 200 (no redirects)"
+    source_url: "https://www.oscodacountymi.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 81st District Court - Oscoda
+    address: "105 S. Court Street, Mio, MI 48647"
+    phone: (989) 826-1105
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oscoda
+    weight: 80
+  - id: mi-otsego-court
+    verification: link_ok
+    verification_note: "GET https://www.circuit46.org/otsego-county-courts/ -> 200 (no redirects)"
+    source_url: "https://www.circuit46.org/otsego-county-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 87A District Court
+    address: "800 Livingston Blvd., Gaylord, MI 49735"
+    phone: (989) 731-0201
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Otsego
+    weight: 80
+  - id: mi-ottawa-court
+    verification: link_ok
+    verification_note: "GET https://miottawa.org/courts/58th-district/ -> 200 (no redirects)"
+    source_url: "https://miottawa.org/courts/58th-district/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 58th District Court
+    address: "85 West Eighth Street, Holland, MI 49423"
+    phone: (616) 392-6991
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ottawa
+    weight: 80
+  - id: mi-presque-isle-court
+    verification: link_ok
+    verification_note: "GET https://www.cheboygancounty.net/courts-law-enforcement/ -> 200 (no redirects)"
+    source_url: "https://www.cheboygancounty.net/courts-law-enforcement/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 89th District Court - Presque Isle
+    address: "151 E. Huron, Rogers City, MI 49779"
+    phone: (989) 734-2411
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Presque Isle
+    weight: 80
+  - id: mi-roscommon-court
+    verification: link_ok
+    verification_note: "GET https://www.roscommoncounty.net/154/82nd-District-Court -> 200 (no redirects)"
+    source_url: "https://www.roscommoncounty.net/154/82nd-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 82nd District Court - Roscommon
+    address: "500 Lake St., Roscommon, MI 48653"
+    phone: (989) 275-5312
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Roscommon
+    weight: 80
+  - id: mi-saginaw-court
+    verification: link_ok
+    verification_note: "GET https://www.saginawcountymi.gov/courts-public-safety/courts/70th-district-court/ -> 200 (no redirects)"
+    source_url: "https://www.saginawcountymi.gov/courts-public-safety/courts/70th-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 70th District Court - Division 1
+    address: "111 S. Michigan Ave., Saginaw, MI 48602"
+    phone: (989) 790-5363
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saginaw
+    weight: 80
+  - id: mi-schoolcraft-court
+    verification: link_ok
+    verification_note: "GET https://www.schoolcraftcounty.net/government/courts-of-schoolcraft-county/93rd-judicial-di -> 200 (no redirects)"
+    source_url: "https://www.schoolcraftcounty.net/government/courts-of-schoolcraft-county/93rd-judicial-di"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 93rd District Court - Schoolcraft
+    address: "300 Walnut St., Manistique, MI 49854"
+    phone: (906) 341-3630
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schoolcraft
+    weight: 80
+  - id: mi-shiawassee-court
+    verification: link_ok
+    verification_note: "GET https://shiawassee.net/district-court/ -> 200 (no redirects)"
+    source_url: "https://shiawassee.net/district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 66th District Court
+    address: "110 E. Mack St., Corunna, MI 48817"
+    phone: (989) 743-2395
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shiawassee
+    weight: 80
+  - id: mi-st-clair-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The automated checker received a 404 for this URL, but the official county courts page loads for human visitors (verified live in a real browser on 2026-09-21 — the 404 was bot filtering, not a dead page). Automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.stclaircounty.org/Offices/courts/district/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 72nd District Court
+    address: "201 McMorran Blvd., Port Huron, MI 48060"
+    phone: (810) 985-2072
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Clair
+    weight: 80
+  - id: mi-st-joseph-court
+    verification: link_ok
+    verification_note: "GET https://stjosephcountymi.gov/government/courts-law-enforcement/3b-district-court/ -> 200 (no redirects)"
+    source_url: "https://stjosephcountymi.gov/government/courts-law-enforcement/3b-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 3B District Court
+    address: "125 W. Main, Centreville, MI 49032"
+    phone: (269) 467-5500
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Joseph
+    weight: 80
+  - id: mi-tuscola-court
+    verification: link_ok
+    verification_note: "GET https://www.tuscolacounty.org/courts/district.php -> 200 (no redirects)"
+    source_url: "https://www.tuscolacounty.org/courts/district.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 71B District Court
+    address: "440 N. State St., Caro, MI 48723"
+    phone: (989) 672-3800
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tuscola
+    weight: 80
+  - id: mi-van-buren-court
+    verification: link_ok
+    verification_note: "GET https://vanburencountymi.gov/departments/county-courts/courts/7th-district-court/ -> 200 (no redirects)"
+    source_url: "https://vanburencountymi.gov/departments/county-courts/courts/7th-district-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 7th District Court
+    address: "212 Paw Paw St., Paw Paw, MI 49079"
+    phone: (269) 657-8222
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Van Buren
+    weight: 80
+  - id: mi-washtenaw-court
+    verification: link_ok
+    verification_note: "GET https://www.washtenaw.org/14a-district-court -> 200 (no redirects)"
+    source_url: "https://www.washtenaw.org/14a-district-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 14A District Court
+    address: "4133 Washtenaw Road, Ann Arbor, MI 48107"
+    phone: (734) 973-4545
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washtenaw
+    weight: 80
+  - id: mi-wayne-court
+    verification: link_ok
+    verification_note: "GET https://dearborn.gov/ -> 200 (no redirects)"
+    source_url: "https://dearborn.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 19th District Court
+    address: "16077 Michigan Ave., Dearborn, MI 48126"
+    phone: (313) 943-2060
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 80
+  - id: mi-wexford-court
+    verification: link_ok
+    verification_note: "GET https://wexfordcounty.org/?page_id=833 -> 200 (no redirects)"
+    source_url: "https://wexfordcounty.org/?page_id=833"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: 84th District Court - Wexford
+    address: "437 E. Division St., Cadillac, MI 49601"
+    phone: (231) 779-9515
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "In Michigan counties with more than one district court, the correct venue depends on the locality of the stop. This card names a representative principal venue."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wexford
+    weight: 80

@@ -1,0 +1,2314 @@
+# Missouri — county circuit court cards.
+# Every card links the official Missouri Courts "Find a Court" directory
+# (getCountyCourtData.htm), fetched live (curl HEAD) ending at HTTP 200 on 2026-09-21;
+# the directory’s interactive map documents each county’s circuit court.
+# Courthouse addresses are the official "Missouri Courthouses and Locations"
+# spreadsheet (courts.mo.gov/file.jsp?id=83113); coordinates via Nominatim,
+# cross-checked against the OSM place record. Howell/Miller/Ozark pins use
+# county-published coordinates cross-checked via Nominatim reverse geocode.
+state: MO
+state_name: Missouri
+last_verified: "2026-09-21"
+official_hosts:
+  - courts.mo.gov
+counties:
+  - name: Adair
+    note: "Traffic venue is the circuit court."
+  - name: Andrew
+    note: "Traffic venue is the circuit court."
+  - name: Atchison
+    note: "Traffic venue is the circuit court."
+  - name: Audrain
+    note: "Traffic venue is the circuit court."
+  - name: Barry
+    note: "Traffic venue is the circuit court."
+  - name: Barton
+    note: "Traffic venue is the circuit court."
+  - name: Bates
+    note: "Traffic venue is the circuit court."
+  - name: Benton
+    note: "Traffic venue is the circuit court."
+  - name: Bollinger
+    note: "Traffic venue is the circuit court."
+  - name: Boone
+    note: "Traffic venue is the circuit court."
+  - name: Buchanan
+    note: "Traffic venue is the circuit court."
+  - name: Butler
+    note: "Traffic venue is the circuit court."
+  - name: Caldwell
+    note: "Traffic venue is the circuit court."
+  - name: Callaway
+    note: "Traffic venue is the circuit court."
+  - name: Camden
+    note: "Traffic venue is the circuit court."
+  - name: Cape Girardeau
+    note: "Traffic venue is the circuit court."
+  - name: Carroll
+    note: "Traffic venue is the circuit court."
+  - name: Carter
+    note: "Traffic venue is the circuit court."
+  - name: Cass
+    note: "Traffic venue is the circuit court."
+  - name: Cedar
+    note: "Traffic venue is the circuit court."
+  - name: Chariton
+    note: "Traffic venue is the circuit court."
+  - name: Christian
+    note: "Traffic venue is the circuit court."
+  - name: Clark
+    note: "Traffic venue is the circuit court."
+  - name: Clay
+    note: "Traffic venue is the circuit court."
+  - name: Clinton
+    note: "Traffic venue is the circuit court."
+  - name: Cole
+    note: "Traffic venue is the circuit court."
+  - name: Cooper
+    note: "Traffic venue is the circuit court."
+  - name: Crawford
+    note: "Traffic venue is the circuit court."
+  - name: Dade
+    note: "Traffic venue is the circuit court."
+  - name: Dallas
+    note: "Traffic venue is the circuit court."
+  - name: Daviess
+    note: "Traffic venue is the circuit court."
+  - name: DeKalb
+    note: "Traffic venue is the circuit court."
+  - name: Dent
+    note: "Traffic venue is the circuit court."
+  - name: Douglas
+    note: "Traffic venue is the circuit court."
+  - name: Dunklin
+    note: "Traffic venue is the circuit court."
+  - name: Franklin
+    note: "Traffic venue is the circuit court."
+  - name: Gasconade
+    note: "Traffic venue is the circuit court."
+  - name: Gentry
+    note: "Traffic venue is the circuit court."
+  - name: Greene
+    note: "Traffic venue is the circuit court."
+  - name: Grundy
+    note: "Traffic venue is the circuit court."
+  - name: Harrison
+    note: "Traffic venue is the circuit court."
+  - name: Henry
+    note: "Traffic venue is the circuit court."
+  - name: Hickory
+    note: "Traffic venue is the circuit court."
+  - name: Holt
+    note: "Traffic venue is the circuit court."
+  - name: Howard
+    note: "Traffic venue is the circuit court."
+  - name: Howell
+    note: "Traffic venue is the circuit court."
+  - name: Iron
+    note: "Traffic venue is the circuit court."
+  - name: Jackson
+    note: "Traffic venue is the circuit court."
+  - name: Jasper
+    note: "Traffic venue is the circuit court."
+  - name: Jefferson
+    note: "Traffic venue is the circuit court."
+  - name: Johnson
+    note: "Traffic venue is the circuit court."
+  - name: Knox
+    note: "Traffic venue is the circuit court."
+  - name: Laclede
+    note: "Traffic venue is the circuit court."
+  - name: Lafayette
+    note: "Traffic venue is the circuit court."
+  - name: Lawrence
+    note: "Traffic venue is the circuit court."
+  - name: Lewis
+    note: "Traffic venue is the circuit court."
+  - name: Lincoln
+    note: "Traffic venue is the circuit court."
+  - name: Linn
+    note: "Traffic venue is the circuit court."
+  - name: Livingston
+    note: "Traffic venue is the circuit court."
+  - name: McDonald
+    note: "Traffic venue is the circuit court."
+  - name: Macon
+    note: "Traffic venue is the circuit court."
+  - name: Madison
+    note: "Traffic venue is the circuit court."
+  - name: Maries
+    note: "Traffic venue is the circuit court."
+  - name: Marion
+    note: "Traffic venue is the circuit court."
+  - name: Mercer
+    note: "Traffic venue is the circuit court."
+  - name: Miller
+    note: "Traffic venue is the circuit court."
+  - name: Mississippi
+    note: "Traffic venue is the circuit court."
+  - name: Moniteau
+    note: "Traffic venue is the circuit court."
+  - name: Monroe
+    note: "Traffic venue is the circuit court."
+  - name: Montgomery
+    note: "Traffic venue is the circuit court."
+  - name: Morgan
+    note: "Traffic venue is the circuit court."
+  - name: New Madrid
+    note: "Traffic venue is the circuit court."
+  - name: Newton
+    note: "Traffic venue is the circuit court."
+  - name: Nodaway
+    note: "Traffic venue is the circuit court."
+  - name: Oregon
+    note: "Traffic venue is the circuit court."
+  - name: Osage
+    note: "Traffic venue is the circuit court."
+  - name: Ozark
+    note: "Traffic venue is the circuit court."
+  - name: Pemiscot
+    note: "Traffic venue is the circuit court."
+  - name: Perry
+    note: "Traffic venue is the circuit court."
+  - name: Pettis
+    note: "Traffic venue is the circuit court."
+  - name: Phelps
+    note: "Traffic venue is the circuit court."
+  - name: Pike
+    note: "Traffic venue is the circuit court."
+  - name: Platte
+    note: "Traffic venue is the circuit court."
+  - name: Polk
+    note: "Traffic venue is the circuit court."
+  - name: Pulaski
+    note: "Traffic venue is the circuit court."
+  - name: Putnam
+    note: "Traffic venue is the circuit court."
+  - name: Ralls
+    note: "Traffic venue is the circuit court."
+  - name: Randolph
+    note: "Traffic venue is the circuit court."
+  - name: Ray
+    note: "Traffic venue is the circuit court."
+  - name: Reynolds
+    note: "Traffic venue is the circuit court."
+  - name: Ripley
+    note: "Traffic venue is the circuit court."
+  - name: Saline
+    note: "Traffic venue is the circuit court."
+  - name: Schuyler
+    note: "Traffic venue is the circuit court."
+  - name: Scotland
+    note: "Traffic venue is the circuit court."
+  - name: Scott
+    note: "Traffic venue is the circuit court."
+  - name: Shannon
+    note: "Traffic venue is the circuit court."
+  - name: Shelby
+    note: "Traffic venue is the circuit court."
+  - name: St. Charles
+    note: "Traffic venue is the circuit court."
+  - name: St. Clair
+    note: "Traffic venue is the circuit court."
+  - name: St. Francois
+    note: "Traffic venue is the circuit court."
+  - name: St. Louis
+    note: "Traffic venue is the circuit court."
+  - name: Ste. Genevieve
+    note: "Traffic venue is the circuit court."
+  - name: Stoddard
+    note: "Traffic venue is the circuit court."
+  - name: Stone
+    note: "Traffic venue is the circuit court."
+  - name: Sullivan
+    note: "Traffic venue is the circuit court."
+  - name: Taney
+    note: "Traffic venue is the circuit court."
+  - name: Texas
+    note: "Traffic venue is the circuit court."
+  - name: Vernon
+    note: "Traffic venue is the circuit court."
+  - name: Warren
+    note: "Traffic venue is the circuit court."
+  - name: Washington
+    note: "Traffic venue is the circuit court."
+  - name: Wayne
+    note: "Traffic venue is the circuit court."
+  - name: Webster
+    note: "Traffic venue is the circuit court."
+  - name: Worth
+    note: "Traffic venue is the circuit court."
+  - name: Wright
+    note: "Traffic venue is the circuit court."
+  - name: St. Louis city
+    note: "Traffic venue is the circuit court."
+cards:
+  - id: mo-adair-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Adair County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adair
+    weight: 10
+
+  - id: mo-andrew-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Andrew County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Andrew
+    weight: 10
+
+  - id: mo-atchison-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Atchison County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Atchison
+    weight: 10
+
+  - id: mo-audrain-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Audrain County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Audrain
+    weight: 10
+
+  - id: mo-barry-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Barry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barry
+    weight: 10
+
+  - id: mo-barton-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Barton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Barton
+    weight: 10
+
+  - id: mo-bates-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Bates County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bates
+    weight: 10
+
+  - id: mo-benton-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Benton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: mo-bollinger-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Bollinger County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bollinger
+    weight: 10
+
+  - id: mo-boone-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Boone County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: mo-buchanan-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Buchanan County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Buchanan
+    weight: 10
+
+  - id: mo-butler-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Butler County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 10
+
+  - id: mo-caldwell-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Caldwell County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caldwell
+    weight: 10
+
+  - id: mo-callaway-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Callaway County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Callaway
+    weight: 10
+
+  - id: mo-camden-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Camden County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Camden
+    weight: 10
+
+  - id: mo-cape-girardeau-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cape Girardeau County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cape Girardeau
+    weight: 10
+
+  - id: mo-carroll-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Carroll County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: mo-carter-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Carter County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carter
+    weight: 10
+
+  - id: mo-cass-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cass County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 10
+
+  - id: mo-cedar-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cedar County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cedar
+    weight: 10
+
+  - id: mo-chariton-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Chariton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chariton
+    weight: 10
+
+  - id: mo-christian-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Christian County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Christian
+    weight: 10
+
+  - id: mo-clark-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clark County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: mo-clay-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clay County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: mo-clinton-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clinton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: mo-cole-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cole County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cole
+    weight: 10
+
+  - id: mo-cooper-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cooper County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cooper
+    weight: 10
+
+  - id: mo-crawford-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Crawford County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: mo-dade-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dade County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dade
+    weight: 10
+
+  - id: mo-dallas-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dallas County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dallas
+    weight: 10
+
+  - id: mo-daviess-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Daviess County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Daviess
+    weight: 10
+
+  - id: mo-dekalb-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: DeKalb County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeKalb
+    weight: 10
+
+  - id: mo-dent-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dent County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dent
+    weight: 10
+
+  - id: mo-douglas-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Douglas County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: mo-dunklin-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Dunklin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dunklin
+    weight: 10
+
+  - id: mo-franklin-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Franklin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: mo-gasconade-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Gasconade County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gasconade
+    weight: 10
+
+  - id: mo-gentry-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Gentry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gentry
+    weight: 10
+
+  - id: mo-greene-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Greene County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: mo-grundy-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Grundy County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grundy
+    weight: 10
+
+  - id: mo-harrison-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Harrison County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 10
+
+  - id: mo-henry-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Henry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: mo-hickory-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hickory County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hickory
+    weight: 10
+
+  - id: mo-holt-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Holt County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Holt
+    weight: 10
+
+  - id: mo-howard-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Howard County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howard
+    weight: 10
+
+  - id: mo-howell-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Howell County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howell
+    weight: 10
+
+  - id: mo-iron-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Iron County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iron
+    weight: 10
+
+  - id: mo-jackson-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jackson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: mo-jasper-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jasper County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jasper
+    weight: 10
+
+  - id: mo-jefferson-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jefferson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: mo-johnson-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Johnson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: mo-knox-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Knox County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 10
+
+  - id: mo-laclede-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Laclede County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Laclede
+    weight: 10
+
+  - id: mo-lafayette-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lafayette County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafayette
+    weight: 10
+
+  - id: mo-lawrence-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lawrence County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: mo-lewis-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lewis County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lewis
+    weight: 10
+
+  - id: mo-lincoln-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lincoln County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: mo-linn-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Linn County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Linn
+    weight: 10
+
+  - id: mo-livingston-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Livingston County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 10
+
+  - id: mo-mcdonald-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: McDonald County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McDonald
+    weight: 10
+
+  - id: mo-macon-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Macon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macon
+    weight: 10
+
+  - id: mo-madison-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Madison County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: mo-maries-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Maries County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Maries
+    weight: 10
+
+  - id: mo-marion-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Marion County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: mo-mercer-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mercer County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: mo-miller-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Miller County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miller
+    weight: 10
+
+  - id: mo-mississippi-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mississippi County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mississippi
+    weight: 10
+
+  - id: mo-moniteau-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Moniteau County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moniteau
+    weight: 10
+
+  - id: mo-monroe-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Monroe County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: mo-montgomery-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Montgomery County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: mo-morgan-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Morgan County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: mo-new-madrid-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: New Madrid County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - New Madrid
+    weight: 10
+
+  - id: mo-newton-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Newton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newton
+    weight: 10
+
+  - id: mo-nodaway-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Nodaway County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nodaway
+    weight: 10
+
+  - id: mo-oregon-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Oregon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Oregon
+    weight: 10
+
+  - id: mo-osage-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Osage County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Osage
+    weight: 10
+
+  - id: mo-ozark-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ozark County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ozark
+    weight: 10
+
+  - id: mo-pemiscot-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pemiscot County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pemiscot
+    weight: 10
+
+  - id: mo-perry-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Perry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: mo-pettis-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pettis County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pettis
+    weight: 10
+
+  - id: mo-phelps-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Phelps County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Phelps
+    weight: 10
+
+  - id: mo-pike-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pike County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 10
+
+  - id: mo-platte-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Platte County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Platte
+    weight: 10
+
+  - id: mo-polk-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Polk County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: mo-pulaski-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pulaski County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 10
+
+  - id: mo-putnam-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Putnam County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: mo-ralls-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ralls County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ralls
+    weight: 10
+
+  - id: mo-randolph-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Randolph County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 10
+
+  - id: mo-ray-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ray County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ray
+    weight: 10
+
+  - id: mo-reynolds-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Reynolds County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Reynolds
+    weight: 10
+
+  - id: mo-ripley-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ripley County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ripley
+    weight: 10
+
+  - id: mo-saline-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Saline County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saline
+    weight: 10
+
+  - id: mo-schuyler-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Schuyler County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schuyler
+    weight: 10
+
+  - id: mo-scotland-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Scotland County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scotland
+    weight: 10
+
+  - id: mo-scott-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Scott County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: mo-shannon-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Shannon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shannon
+    weight: 10
+
+  - id: mo-shelby-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Shelby County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 10
+
+  - id: mo-st-charles-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Charles County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Charles
+    weight: 10
+
+  - id: mo-st-clair-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Clair County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Clair
+    weight: 10
+
+  - id: mo-st-francois-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Francois County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Francois
+    weight: 10
+
+  - id: mo-st-louis-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Louis County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Louis
+    weight: 10
+
+  - id: mo-ste-genevieve-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ste. Genevieve County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ste. Genevieve
+    weight: 10
+
+  - id: mo-stoddard-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Stoddard County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stoddard
+    weight: 10
+
+  - id: mo-stone-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Stone County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stone
+    weight: 10
+
+  - id: mo-sullivan-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Sullivan County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sullivan
+    weight: 10
+
+  - id: mo-taney-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Taney County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Taney
+    weight: 10
+
+  - id: mo-texas-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Texas County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Texas
+    weight: 10
+
+  - id: mo-vernon-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Vernon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vernon
+    weight: 10
+
+  - id: mo-warren-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Warren County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: mo-washington-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Washington County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: mo-wayne-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wayne County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: mo-webster-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Webster County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: mo-worth-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Worth County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Worth
+    weight: 10
+
+  - id: mo-wright-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wright County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wright
+    weight: 10
+
+  - id: mo-st-louis-city-court
+    verification: link_ok
+    source_url: https://www.courts.mo.gov/mcw/findacourt/getCountyCourtData.htm
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Louis City Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on courts.mo.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Louis city
+    weight: 10

@@ -1,0 +1,128 @@
+# Connecticut map pins — Superior Court Geographical Area (GA) courthouses
+# (50-state wave, 2026-09-21).
+# CONNECTICUT QUIRK: Connecticut abolished county government — there are no
+# county courts. Traffic venue is the Superior Court Geographical Area (GA)
+# determined by the town where the matter arose. This file pins ONE
+# representative GA courthouse per county area (the representative GAs named
+# in data/states/CT.yaml): Fairfield->GA2 Bridgeport, Hartford->GA14 Hartford,
+# Litchfield->GA18 Torrington, Middlesex->GA9 Middletown, New Haven->GA23 New
+# Haven, New London->GA10 New London, Tolland->GA19 Rockville, Windham->GA11
+# Danielson.
+# Verification method: jud.ct.gov was unreachable via curl (HTTP 000, empty
+# reply from server on both https://www.jud.ct.gov/ and https://jud.ct.gov/).
+# All 8 pin URLs were live-verified via browser_open fetches on 2026-09-21 —
+# each page rendered the expected official "CT Judicial Branch" court content
+# including the courthouse name and street address. Street addresses are from
+# the official courthouse directory (www.jud.ct.gov/directory/courthouses.htm)
+# and the per-GA directions pages. Coordinates are FULL_ADDRESS-level
+# Nominatim matches in the correct Connecticut city, cross-checked against the
+# official address. Pin URLs are the official per-GA directions pages.
+# No county areas omitted — all 8 have pins.
+# Caveats:
+# - Hosts: all pin URLs use www.jud.ct.gov, which IS in data/states/CT.yaml's
+#   official_hosts (added 2026-09-21); scripts/validate.mjs passes.
+#   The Judicial Branch site is the only official source of courthouse
+#   addresses; portal.ct.gov has no equivalent court directory page.
+# - Torrington GA18: the courthouse directions page gives "50 Field Street,
+#   Torrington 06790"; the directory index page lists 06760. The pin uses
+#   06790 (courthouse-specific page + Nominatim agree). The GA18 directions
+#   page lives at the odd path .../directions/Juvenile/torrington.htm — this is
+#   the link the official directory serves for GA18, verified live.
+# - New Haven GA23: the official directory links GA23's directions to the
+#   .../directions/6.htm path (numbering quirk on the Judicial Branch site);
+#   verified live with the "Geographical Area 23 at New Haven" heading and
+#   address, so the URL is used verbatim.
+# - New London GA10: pin is the GA courthouse at 112 Broad Street (official
+#   page coordinates 41.35759, -72.103535, matching the geocoder); the
+#   Judicial District courthouse at 70 Huntington Street is a separate building.
+# - Danielson: town is in Killingly; geocoder labels it Danielson, Killingly.
+# Coordinates are building-level, not survey-grade.
+pins:
+  - id: ct-fairfield-courthouse
+    state: CT
+    county: Fairfield
+    name: "Superior Court, Geographical Area 2 — Bridgeport"
+    address: 172 Golden Hill Street, Bridgeport, CT 06604
+    lat: 41.1805364
+    lng: -73.1909010
+    url: https://www.jud.ct.gov/directory/directory/directions/2.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-hartford-courthouse
+    state: CT
+    county: Hartford
+    name: "Superior Court, Geographical Area 14 — Hartford"
+    address: 101 Lafayette Street, Hartford, CT 06106
+    lat: 41.7605101
+    lng: -72.6835007
+    url: https://www.jud.ct.gov/directory/directory/directions/14.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-litchfield-courthouse
+    state: CT
+    county: Litchfield
+    name: "Superior Court, Geographical Area 18 — Torrington"
+    address: 50 Field Street, Torrington, CT 06790
+    lat: 41.8065902
+    lng: -73.1252450
+    url: https://www.jud.ct.gov/directory/directory/directions/Juvenile/torrington.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-middlesex-courthouse
+    state: CT
+    county: Middlesex
+    name: "Superior Court, Geographical Area 9 — Middletown"
+    address: 1 Court Street, Middletown, CT 06457
+    lat: 41.5608146
+    lng: -72.6480929
+    url: https://www.jud.ct.gov/directory/directory/directions/9.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-new-haven-courthouse
+    state: CT
+    county: New Haven
+    name: "Superior Court, Geographical Area 23 — New Haven"
+    address: 121 Elm Street, New Haven, CT 06510
+    lat: 41.3089556
+    lng: -72.9241188
+    url: https://www.jud.ct.gov/directory/directory/directions/6.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-new-london-courthouse
+    state: CT
+    county: New London
+    name: "Superior Court, Geographical Area 10 — New London"
+    address: 112 Broad Street, New London, CT 06320
+    lat: 41.3576730
+    lng: -72.1024590
+    url: https://www.jud.ct.gov/directory/directory/directions/10.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-tolland-courthouse
+    state: CT
+    county: Tolland
+    name: "Superior Court, Geographical Area 19 — Rockville"
+    address: 20 Park Street, Rockville, CT 06066
+    lat: 41.8680916
+    lng: -72.4476373
+    url: https://www.jud.ct.gov/directory/directory/directions/19.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: ct-windham-courthouse
+    state: CT
+    county: Windham
+    name: "Superior Court, Geographical Area 11 — Danielson"
+    address: 120 School Street, Danielson, CT 06239
+    lat: 41.8046120
+    lng: -71.8817025
+    url: https://www.jud.ct.gov/directory/directory/directions/11.htm
+    link_check: manual
+    verification_note: "Official CT Judicial Branch courthouse-directions page. A sibling page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse

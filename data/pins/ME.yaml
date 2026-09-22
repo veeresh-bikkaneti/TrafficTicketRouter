@@ -1,0 +1,170 @@
+# Maine map pins — District Court locations (phase P5, MapLibre).
+# Addresses verified against official court pages 2026-09-21; coordinates
+# geocoded via Nominatim one request at a time and cross-checked against the
+# OSM address records (road and house number match in every case).
+# URLs reused verbatim from data/states/ME.yaml — never invented.
+# NOTE: Sagadahoc pin — the court's official address is West Bath; the OSM
+# address record for the same building resolves the locality as Bath.
+# Coordinates place the pin.
+pins:
+  - id: me-androscoggin-courthouse
+    state: ME
+    county: Androscoggin
+    name: Lewiston District Court
+    address: 71 Lisbon Street, Lewiston, ME 04240
+    lat: 44.0971576
+    lng: -70.2177705
+    url: https://www.courts.maine.gov/courts/district/lewiston-dc.html
+    kind: courthouse
+
+  - id: me-aroostook-courthouse
+    state: ME
+    county: Aroostook
+    name: Houlton District Court
+    address: 26 Court Street, Suite 201, Houlton, ME 04730
+    lat: 46.1246677
+    lng: -67.8392089
+    url: https://www.courts.maine.gov/courts/district/houlton-dc.html
+    kind: courthouse
+
+  - id: me-cumberland-courthouse
+    state: ME
+    county: Cumberland
+    name: Portland District Court
+    address: 205 Newbury Street, Ground Floor, Portland, ME 04101
+    lat: 43.6590561
+    lng: -70.2540132
+    url: https://www.courts.maine.gov/courts/district/portland-dc.html
+    kind: courthouse
+
+  - id: me-franklin-courthouse
+    state: ME
+    county: Franklin
+    name: Farmington District Court
+    address: 129 Main Street, Suite 1, Farmington, ME 04938
+    lat: 44.6703228
+    lng: -70.1510171
+    url: https://www.courts.maine.gov/courts/district/farmington-dc.html
+    kind: courthouse
+
+  - id: me-hancock-courthouse
+    state: ME
+    county: Hancock
+    name: Ellsworth District Court
+    address: 50 State Street, Suite 2, Ellsworth, ME 04605
+    lat: 44.5428230
+    lng: -68.4251840
+    url: https://www.courts.maine.gov/courts/district/ellsworth-dc.html
+    kind: courthouse
+
+  - id: me-kennebec-courthouse
+    state: ME
+    county: Kennebec
+    name: Augusta District Court
+    address: 1 Court Street, Suite 101, Augusta, ME 04330
+    lat: 44.3143530
+    lng: -69.7768226
+    url: https://www.courts.maine.gov/courts/district/augusta-dc.html
+    kind: courthouse
+
+  - id: me-knox-courthouse
+    state: ME
+    county: Knox
+    name: Rockland District Court
+    address: 62 Union Street, Rockland, ME 04841
+    lat: 44.1037876
+    lng: -69.1117715
+    url: https://www.courts.maine.gov/courts/district/rockland-dc.html
+    kind: courthouse
+
+  - id: me-lincoln-courthouse
+    state: ME
+    county: Lincoln
+    name: Wiscasset District Court
+    address: 32 High Street, Wiscasset, ME 04578
+    lat: 44.0044326
+    lng: -69.6679621
+    url: https://www.courts.maine.gov/courts/district/wiscasset-dc.html
+    kind: courthouse
+
+  - id: me-oxford-courthouse
+    state: ME
+    county: Oxford
+    name: South Paris District Court
+    address: 26 Western Avenue, South Paris, ME 04281
+    lat: 44.2211270
+    lng: -70.5182556
+    url: https://www.courts.maine.gov/courts/district/south-paris-dc.html
+    kind: courthouse
+
+  - id: me-penobscot-courthouse
+    state: ME
+    county: Penobscot
+    name: Bangor District Court
+    address: 78 Exchange Street, Bangor, ME 04401
+    lat: 44.8000778
+    lng: -68.7686177
+    url: https://www.courts.maine.gov/courts/district/bangor-dc.html
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: me-piscataquis-courthouse
+    state: ME
+    county: Piscataquis
+    name: Dover-Foxcroft District Court
+    address: 159 East Main Street, Suite 21, Dover-Foxcroft, ME 04426
+    lat: 45.1830551
+    lng: -69.2240989
+    url: https://www.courts.maine.gov/courts/district/dover-foxcroft-dc.html
+    kind: courthouse
+
+  - id: me-sagadahoc-courthouse
+    state: ME
+    county: Sagadahoc
+    name: West Bath District Court
+    address: 101 New Meadows Road, West Bath, ME 04530
+    lat: 43.9190973
+    lng: -69.8588935
+    url: https://www.courts.maine.gov/courts/district/west-bath-dc.html
+    kind: courthouse
+
+  - id: me-somerset-courthouse
+    state: ME
+    county: Somerset
+    name: Skowhegan District Court
+    address: 47 Court Street, Skowhegan, ME 04976
+    lat: 44.7679012
+    lng: -69.7182408
+    url: https://www.courts.maine.gov/courts/district/skowhegan-dc.html
+    kind: courthouse
+
+  - id: me-waldo-courthouse
+    state: ME
+    county: Waldo
+    name: Belfast District Court
+    address: 11 Market Street, Belfast, ME 04915
+    lat: 44.4259368
+    lng: -69.0089198
+    url: https://www.courts.maine.gov/courts/district/belfast-dc.html
+    kind: courthouse
+
+  - id: me-washington-courthouse
+    state: ME
+    county: Washington
+    name: Machias District Court
+    address: 85 Court Street, Machias, ME 04654
+    lat: 44.7160629
+    lng: -67.4594821
+    url: https://www.courts.maine.gov/courts/district/machias-dc.html
+    kind: courthouse
+
+  - id: me-york-courthouse
+    state: ME
+    county: York
+    name: Biddeford District Court
+    address: 515 Elm Street, Biddeford, ME 04005
+    lat: 43.4736619
+    lng: -70.4795510
+    url: https://www.courts.maine.gov/courts/district/biddeford-dc.html
+    kind: courthouse

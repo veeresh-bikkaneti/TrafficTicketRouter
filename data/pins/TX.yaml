@@ -1,0 +1,428 @@
+# Texas map pins — county JP courts and verified municipal courts (MapLibre).
+# Addresses from official county/court pages; coordinates via Nominatim,
+# cross-checked against OpenStreetMap place data. URLs match county-card URLs verbatim.
+# Do not commit without review.
+pins:
+  - id: tx-austin-courthouse
+    state: TX
+    county: "Austin"
+    name: "Austin County Justice of the Peace"
+    address: "265 N. Chesley Street, Suite 2, Bellville, TX 77418"
+    lat: 29.9565652
+    lng: -96.2640418
+    url: https://www.austincounty.com/page/austin.Justice
+    kind: courthouse
+  - id: tx-bexar-courthouse
+    state: TX
+    county: "Bexar"
+    name: "Bexar County Justice of the Peace"
+    address: "3505 Pleasanton Rd, San Antonio, TX 78221"
+    lat: 29.3439697
+    lng: -98.5051422
+    url: https://www.bexar.org/3145/Justice-of-the-Peace-Courts
+    kind: courthouse
+  - id: tx-cameron-courthouse
+    state: TX
+    county: "Cameron"
+    name: "Cameron County Justice of the Peace"
+    address: "835 E Levee St, Brownsville, TX 78520"
+    lat: 25.9029420
+    lng: -97.5013226
+    url: https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/
+    kind: courthouse
+  - id: tx-delta-courthouse
+    state: TX
+    county: "Delta"
+    name: "Delta County Justice of the Peace"
+    address: "200 W. Dallas Ave, Cooper, TX 75432"
+    lat: 33.3741729
+    lng: -95.6898425
+    url: https://www.deltacountytx.com/justice-peace/page/options-pay-fines
+    kind: courthouse
+  - id: tx-ellis-courthouse
+    state: TX
+    county: "Ellis"
+    name: "Ellis County Justice of the Peace"
+    address: "207 S Sonoma Trail, Ennis, TX 75119"
+    lat: 32.3339424
+    lng: -96.6121547
+    url: https://www.elliscountytx.gov/139/Precinct-One
+    kind: courthouse
+  - id: tx-floyd-courthouse
+    state: TX
+    county: "Floyd"
+    name: "Floyd County Justice of the Peace"
+    address: "114 West Virginia Street, Floydada, TX 79235"
+    lat: 33.9869067
+    lng: -101.3359593
+    url: https://www.co.floyd.tx.us/page/floyd.Justice
+    kind: courthouse
+  - id: tx-gregg-courthouse
+    state: TX
+    county: "Gregg"
+    name: "Gregg County Justice of the Peace"
+    address: "101 E. Methvin, Suite 512, Longview, TX 75601"
+    lat: 32.4969194
+    lng: -94.7386299
+    url: https://greggcounty.texas.gov/government/precinct-1/justices-of-the-peace-precinct-1
+    kind: courthouse
+  - id: tx-guadalupe-courthouse
+    state: TX
+    county: "Guadalupe"
+    name: "Guadalupe County Justice of the Peace"
+    address: "11144 FM 725, Seguin, TX 78155"
+    lat: 29.5723650
+    lng: -98.0387974
+    url: https://www.guadalupetx.gov/page/jp4.home
+    kind: courthouse
+  - id: tx-harris-courthouse
+    state: TX
+    county: "Harris"
+    name: "Harris County Justice of the Peace"
+    address: "7300 North Shepherd, Houston, TX 77091"
+    lat: 29.8675461
+    lng: -95.4118967
+    url: https://www.jp.hctx.net/
+    kind: courthouse
+  - id: tx-harrison-courthouse
+    state: TX
+    county: "Harrison"
+    name: "Harrison County Justice of the Peace"
+    address: "200 W. Houston Street, Marshall, TX 75670"
+    lat: 32.5444445
+    lng: -94.3688905
+    url: https://www.harrisoncountytexas.gov/page/JP
+    kind: courthouse
+  - id: tx-hockley-courthouse
+    state: TX
+    county: "Hockley"
+    name: "Hockley County Justice of the Peace"
+    address: "624 Avenue H, Ste 205, Levelland, TX 79336"
+    lat: 33.5869967
+    lng: -102.3780063
+    url: https://www.co.hockley.tx.us/page/Justice
+    kind: courthouse
+  - id: tx-hudspeth-courthouse
+    state: TX
+    county: "Hudspeth"
+    name: "Hudspeth County Justice of the Peace"
+    address: "19900 US Highway 62/180, El Paso, TX 79938"
+    lat: 31.8353704
+    lng: -106.0276459
+    url: https://www.co.hudspeth.tx.us/page/JP
+    kind: courthouse
+  - id: tx-hunt-courthouse
+    state: TX
+    county: "Hunt"
+    name: "Hunt County Justice of the Peace"
+    address: "2801 Stuart St, Ste 409, Greenville, TX 75401"
+    lat: 33.1377126
+    lng: -96.1047043
+    url: https://www.huntcounty.net/page/justice
+    kind: courthouse
+  - id: tx-jim-hogg-courthouse
+    state: TX
+    county: "Jim Hogg"
+    name: "Jim Hogg County Justice of the Peace"
+    address: "133 East David Street, Hebbronville, TX 78361"
+    lat: 27.2989662
+    lng: -98.6783606
+    url: https://www.co.jim-hogg.tx.us/page/jim-hogg.Justice
+    kind: courthouse
+  - id: tx-kendall-courthouse
+    state: TX
+    county: "Kendall"
+    name: "Kendall County Justice of the Peace"
+    address: "221 Fawn Valley Dr, Suite 200, Boerne, TX 78006"
+    lat: 29.7993372
+    lng: -98.7159717
+    url: https://co.kendall.tx.us/201/Justice-of-the-Peace-Precinct-3
+    kind: courthouse
+  - id: tx-kimble-courthouse
+    state: TX
+    county: "Kimble"
+    name: "Kimble County Justice of the Peace"
+    address: "415 Main Street, Junction, TX 76849"
+    lat: 30.4890466
+    lng: -99.7648693
+    url: https://www.co.kimble.tx.us/page/Justice
+    kind: courthouse
+  - id: tx-lampasas-courthouse
+    state: TX
+    county: "Lampasas"
+    name: "Lampasas County Justice of the Peace"
+    address: "501 E. Fourth St, Lampasas, TX 76550"
+    lat: 31.2134018
+    lng: -98.3920748
+    url: https://www.co.lampasas.tx.us/page/lampasas.Justice
+    kind: courthouse
+  - id: tx-lavaca-courthouse
+    state: TX
+    county: "Lavaca"
+    name: "Lavaca County Justice of the Peace"
+    address: "116 W. 6th Street, Ste A-3, Shiner, TX 77984"
+    lat: 29.4269070
+    lng: -97.1748751
+    url: https://www.co.lavaca.tx.us/page/Justice
+    kind: courthouse
+  - id: tx-lubbock-courthouse
+    state: TX
+    county: "Lubbock"
+    name: "Lubbock County Justice of the Peace"
+    address: "904 Broadway, Suite 110, Lubbock, TX 79401"
+    lat: 33.5850418
+    lng: -101.8448324
+    url: https://www.lubbockcounty.gov/department/?fDD=18-0
+    kind: courthouse
+  - id: tx-marion-courthouse
+    state: TX
+    county: "Marion"
+    name: "Marion County Justice of the Peace"
+    address: "114 W Austin, Room 204, Jefferson, TX 75657"
+    lat: 32.7561997
+    lng: -94.3446413
+    url: https://www.co.marion.tx.us/page/marion.Justice
+    kind: courthouse
+  - id: tx-menard-courthouse
+    state: TX
+    county: "Menard"
+    name: "Menard County Justice of the Peace"
+    address: "206 E San Saba Ave, Menard, TX 76859"
+    lat: 30.9152128
+    lng: -99.7837837
+    url: https://www.co.menard.tx.us/page/menard.Justice
+    kind: courthouse
+  - id: tx-midland-courthouse
+    state: TX
+    county: "Midland"
+    name: "Midland County Justice of the Peace"
+    address: "400 S. Main St, Midland, TX 79701"
+    lat: 31.9942520
+    lng: -102.0743720
+    url: https://www.co.midland.tx.us/446/Precinct-1
+    kind: courthouse
+  - id: tx-milam-courthouse
+    state: TX
+    county: "Milam"
+    name: "Milam County Justice of the Peace"
+    address: "204 N. Central Ave, Ste A, Cameron, TX 76520"
+    lat: 30.8515190
+    lng: -96.9761606
+    url: https://milamcounty.net/courts/justice_of_the_peace.php
+    kind: courthouse
+  - id: tx-mitchell-courthouse
+    state: TX
+    county: "Mitchell"
+    name: "Mitchell County Justice of the Peace"
+    address: "349 Oak Street, Colorado City, TX 79512"
+    lat: 32.3903549
+    lng: -100.8688383
+    url: https://www.co.mitchell.tx.us/page/JP
+    kind: courthouse
+  - id: tx-montague-courthouse
+    state: TX
+    county: "Montague"
+    name: "Montague County Justice of the Peace"
+    address: "101 East Franklin Street, Montague, TX 76251"
+    lat: 33.6642020
+    lng: -97.7196960
+    url: https://newtools.cira.state.tx.us/page/montague.JP1
+    kind: courthouse
+  - id: tx-moore-courthouse
+    state: TX
+    county: "Moore"
+    name: "Moore County Justice of the Peace"
+    address: "119 W. 5th Street, Dumas, TX 79029"
+    lat: 35.8608731
+    lng: -101.9736113
+    url: https://www.co.moore.tx.us/page/moore.jp1
+    kind: courthouse
+  - id: tx-morris-courthouse
+    state: TX
+    county: "Morris"
+    name: "Morris County Justice of the Peace"
+    address: "502 Union Street, Daingerfield, TX 75638"
+    lat: 33.0364771
+    lng: -94.7270277
+    url: https://www.co.morris.tx.us/page/morris.Justice
+    kind: courthouse
+  - id: tx-orange-courthouse
+    state: TX
+    county: "Orange"
+    name: "Orange County Justice of the Peace"
+    address: "801 West Division, Room 102, Orange, TX 77630"
+    lat: 30.0900445
+    lng: -93.7369289
+    url: https://www.co.orange.tx.us/JudgeHershelStagnerJr
+    kind: courthouse
+  - id: tx-potter-courthouse
+    state: TX
+    county: "Potter"
+    name: "Potter County Justice of the Peace"
+    address: "900 S. Polk, Suite 418, Amarillo, TX 79101"
+    lat: 35.2045060
+    lng: -101.8382236
+    url: https://www.co.potter.tx.us/page/JP1
+    kind: courthouse
+  - id: tx-runnels-courthouse
+    state: TX
+    county: "Runnels"
+    name: "Runnels County Justice of the Peace"
+    address: "613 Hutchings Avenue, Room 303, Ballinger, TX 76821"
+    lat: 31.7384354
+    lng: -99.9459779
+    url: https://www.runnelscounty.org/page/runnels.Justice
+    kind: courthouse
+  - id: tx-sabine-courthouse
+    state: TX
+    county: "Sabine"
+    name: "Sabine County Justice of the Peace"
+    address: "201 Main Street, Hemphill, TX 75948"
+    lat: 31.3422338
+    lng: -93.8451643
+    url: https://www.co.sabine.tx.us/page/sabine.Justice
+    kind: courthouse
+  - id: tx-san-patricio-courthouse
+    state: TX
+    county: "San Patricio"
+    name: "San Patricio County Justice of the Peace"
+    address: "300 North Rachal, Sinton, TX 78387"
+    lat: 28.0395367
+    lng: -97.5098826
+    url: https://www.sanpatriciocountytx.gov/page/jp1
+    kind: courthouse
+  - id: tx-taylor-courthouse
+    state: TX
+    county: "Taylor"
+    name: "Taylor County Justice of the Peace"
+    address: "442 Graham St, Tuscola, TX 79562"
+    lat: 32.2097097
+    lng: -99.7957703
+    url: https://www.taylorcounty.texas.gov/162/Precinct-3
+    kind: courthouse
+  - id: tx-titus-courthouse
+    state: TX
+    county: "Titus"
+    name: "Titus County Justice of the Peace"
+    address: "100 South Madison, Mt Pleasant, TX 75455"
+    lat: 33.1565800
+    lng: -94.9695960
+    url: https://www.co.titus.tx.us/page/co.jp
+    kind: courthouse
+  - id: tx-travis-courthouse
+    state: TX
+    county: "Travis"
+    name: "Travis County Justice of the Peace"
+    address: "4717 Heflin Lane, Suite 107, Austin, TX 78721"
+    lat: 30.2852645
+    lng: -97.6815282
+    url: https://www.traviscountytx.gov/justices-of-peace/jp1
+    kind: courthouse
+  - id: tx-trinity-courthouse
+    state: TX
+    county: "Trinity"
+    name: "Trinity County Justice of the Peace"
+    address: "126 W. 1st St., Groveton, TX 75845"
+    lat: 31.0549071
+    lng: -95.1257691
+    url: https://newtools.cira.state.tx.us/page/trinity.Justice
+    kind: courthouse
+  - id: tx-upshur-courthouse
+    state: TX
+    county: "Upshur"
+    name: "Upshur County Justice of the Peace"
+    address: "301 East Butler Street, Gilmer, TX 75644"
+    lat: 32.7266530
+    lng: -94.9425660
+    url: https://www.countyofupshur.com/page/justice_1
+    kind: courthouse
+  - id: tx-victoria-courthouse
+    state: TX
+    county: "Victoria"
+    name: "Victoria County Justice of the Peace"
+    address: "704 N. Goldman St., Victoria, TX 77901"
+    lat: 28.8096672
+    lng: -96.9955016
+    url: https://www.vctx.org/page/justice.of.the.peace
+    kind: courthouse
+  - id: tx-wharton-courthouse
+    state: TX
+    county: "Wharton"
+    name: "Wharton County Justice of the Peace"
+    address: "1017 N. Alabama Road, Wharton, TX 77488"
+    lat: 29.3160779
+    lng: -96.0870023
+    url: https://www.co.wharton.tx.us/page/wharton.Justice
+    kind: courthouse
+  - id: tx-wheeler-courthouse
+    state: TX
+    county: "Wheeler"
+    name: "Wheeler County Justice of the Peace"
+    address: "122 W 2nd Street, Shamrock, TX 79079"
+    lat: 35.2154081
+    lng: -100.2495153
+    url: https://www.wheelercounty.texas.gov/page/JP2-Main
+    kind: courthouse
+  - id: tx-wichita-courthouse
+    state: TX
+    county: "Wichita"
+    name: "Wichita County Justice of the Peace"
+    address: "900 7th Street, Room 281, Wichita Falls, TX 76301"
+    lat: 33.9124747
+    lng: -98.4951819
+    url: https://wichitacountytx.com/locations/justice-of-the-peace-precinct-1-place-1/
+    kind: courthouse
+  - id: tx-wilson-courthouse
+    state: TX
+    county: "Wilson"
+    name: "Wilson County Justice of the Peace"
+    address: "800 10th Street, Floresville, TX 78114"
+    lat: 29.1481438
+    lng: -98.1578000
+    url: https://www.co.wilson.tx.us/page/wilson.JusticeofthePeacePrecinct1
+    kind: courthouse
+  - id: tx-wood-courthouse
+    state: TX
+    county: "Wood"
+    name: "Wood County Justice of the Peace"
+    address: "402 S. Stephens St., Quitman, TX 75783"
+    lat: 32.7943523
+    lng: -95.4527743
+    url: https://www.mywoodcounty.com/page/jp1
+    kind: courthouse
+  - id: tx-houston-municipal-court
+    state: TX
+    county: "Harris"
+    name: "Houston Municipal Court"
+    address: "1400 Lubbock Street, Houston, TX 77002"
+    lat: 29.7652640
+    lng: -95.3714540
+    url: https://www.houstontx.gov/courts/
+    kind: courthouse
+  - id: tx-dallas-municipal-court
+    state: TX
+    county: "Dallas"
+    name: "Dallas Municipal Court"
+    address: "2014 Main Street, Dallas, TX 75201"
+    lat: 32.7814341
+    lng: -96.7933423
+    url: https://dallascityhall.com/departments/courtdetentionservices/Pages/default.aspx
+    kind: courthouse
+  - id: tx-austin-municipal-court
+    state: TX
+    county: "Travis"
+    name: "Austin Municipal Court"
+    address: "6800 Burleson Road, Building 310, Suite 175, Austin, TX 78744"
+    lat: 30.2019980
+    lng: -97.7101360
+    url: https://www.austintexas.gov/services/handle-citation
+    kind: courthouse
+  - id: tx-el-paso-municipal-court
+    state: TX
+    county: "El Paso"
+    name: "El Paso Municipal Court"
+    address: "810 E Overland, El Paso, TX 79901"
+    lat: 31.7585850
+    lng: -106.4812891
+    url: https://www.elpasotexas.gov/municipal-courts
+    kind: courthouse

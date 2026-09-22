@@ -1,0 +1,59 @@
+# Rhode Island map pins — RI Traffic Tribunal (phase P5, MapLibre).
+# Rhode Island has no county courts; the single statewide Traffic Tribunal in
+# Cranston handles civil traffic offenses, so all five pins mark that one
+# building — one pin per county for map filtering. The pin name is the
+# tribunal's, never a "county courthouse": nothing here implies a county
+# courthouse exists or that one building serves only one county.
+# Address verified against the official tribunal page 2026-09-21; coordinates
+# geocoded via Nominatim and cross-checked against the OSM address record.
+# URL reused verbatim from data/states/RI.yaml — never invented.
+pins:
+  - id: ri-bristol-courthouse
+    state: RI
+    county: Bristol
+    name: Rhode Island Traffic Tribunal
+    address: 670 New London Avenue, Cranston, RI 02920
+    lat: 41.7477875
+    lng: -71.4675170
+    url: https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx
+    kind: courthouse
+
+  - id: ri-kent-courthouse
+    state: RI
+    county: Kent
+    name: Rhode Island Traffic Tribunal
+    address: 670 New London Avenue, Cranston, RI 02920
+    lat: 41.7477875
+    lng: -71.4675170
+    url: https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx
+    kind: courthouse
+
+  - id: ri-newport-courthouse
+    state: RI
+    county: Newport
+    name: Rhode Island Traffic Tribunal
+    address: 670 New London Avenue, Cranston, RI 02920
+    lat: 41.7477875
+    lng: -71.4675170
+    url: https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx
+    kind: courthouse
+
+  - id: ri-providence-courthouse
+    state: RI
+    county: Providence
+    name: Rhode Island Traffic Tribunal
+    address: 670 New London Avenue, Cranston, RI 02920
+    lat: 41.7477875
+    lng: -71.4675170
+    url: https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx
+    kind: courthouse
+
+  - id: ri-washington-courthouse
+    state: RI
+    county: Washington
+    name: Rhode Island Traffic Tribunal
+    address: 670 New London Avenue, Cranston, RI 02920
+    lat: 41.7477875
+    lng: -71.4675170
+    url: https://www.courts.ri.gov/Courts/TrafficTribunal/Pages/default.aspx
+    kind: courthouse

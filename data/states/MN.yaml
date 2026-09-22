@@ -1,0 +1,208 @@
+# Minnesota — statewide card only in this pass.
+# NOTE (2026-09-21): the official county court pages at mncourts.gov/Find-Courts/
+# could not be verified — every curl HEAD/GET ends at HTTP 403 (Cloudflare) or
+# connection failure, never 200. Per policy, no county card or pin is written
+# without a live-verified URL; all 87 counties remain listed below.
+# The single statewide URL below returned HTTP 200 via curl HEAD on 2026-09-21.
+state: MN
+state_name: Minnesota
+last_verified: "2026-09-21"
+official_hosts:
+  - publicaccess.courts.state.mn.us
+  - mncourts.gov
+  - co.mower.mn.us
+counties:
+  - name: Aitkin
+    note: "Traffic venue is the district court."
+  - name: Anoka
+    note: "Traffic venue is the district court."
+  - name: Becker
+    note: "Traffic venue is the district court."
+  - name: Beltrami
+    note: "Traffic venue is the district court."
+  - name: Benton
+    note: "Traffic venue is the district court."
+  - name: Big Stone
+    note: "Traffic venue is the district court."
+  - name: Blue Earth
+    note: "Traffic venue is the district court."
+  - name: Brown
+    note: "Traffic venue is the district court."
+  - name: Carlton
+    note: "Traffic venue is the district court."
+  - name: Carver
+    note: "Traffic venue is the district court."
+  - name: Cass
+    note: "Traffic venue is the district court."
+  - name: Chippewa
+    note: "Traffic venue is the district court."
+  - name: Chisago
+    note: "Traffic venue is the district court."
+  - name: Clay
+    note: "Traffic venue is the district court."
+  - name: Clearwater
+    note: "Traffic venue is the district court."
+  - name: Cook
+    note: "Traffic venue is the district court."
+  - name: Cottonwood
+    note: "Traffic venue is the district court."
+  - name: Crow Wing
+    note: "Traffic venue is the district court."
+  - name: Dakota
+    note: "Traffic venue is the district court."
+  - name: Dodge
+    note: "Traffic venue is the district court."
+  - name: Douglas
+    note: "Traffic venue is the district court."
+  - name: Faribault
+    note: "Traffic venue is the district court."
+  - name: Fillmore
+    note: "Traffic venue is the district court."
+  - name: Freeborn
+    note: "Traffic venue is the district court."
+  - name: Goodhue
+    note: "Traffic venue is the district court."
+  - name: Grant
+    note: "Traffic venue is the district court."
+  - name: Hennepin
+    note: "Traffic venue is the district court."
+  - name: Houston
+    note: "Traffic venue is the district court."
+  - name: Hubbard
+    note: "Traffic venue is the district court."
+  - name: Isanti
+    note: "Traffic venue is the district court."
+  - name: Itasca
+    note: "Traffic venue is the district court."
+  - name: Jackson
+    note: "Traffic venue is the district court."
+  - name: Kanabec
+    note: "Traffic venue is the district court."
+  - name: Kandiyohi
+    note: "Traffic venue is the district court."
+  - name: Kittson
+    note: "Traffic venue is the district court."
+  - name: Koochiching
+    note: "Traffic venue is the district court."
+  - name: Lac qui Parle
+    note: "Traffic venue is the district court."
+  - name: Lake
+    note: "Traffic venue is the district court."
+  - name: Lake of the Woods
+    note: "Traffic venue is the district court."
+  - name: Le Sueur
+    note: "Traffic venue is the district court."
+  - name: Lincoln
+    note: "Traffic venue is the district court."
+  - name: Lyon
+    note: "Traffic venue is the district court."
+  - name: McLeod
+    note: "Traffic venue is the district court."
+  - name: Mahnomen
+    note: "Traffic venue is the district court."
+  - name: Marshall
+    note: "Traffic venue is the district court."
+  - name: Martin
+    note: "Traffic venue is the district court."
+  - name: Meeker
+    note: "Traffic venue is the district court."
+  - name: Mille Lacs
+    note: "Traffic venue is the district court."
+  - name: Morrison
+    note: "Traffic venue is the district court."
+  - name: Mower
+    note: "Traffic venue is the district court."
+  - name: Murray
+    note: "Traffic venue is the district court."
+  - name: Nicollet
+    note: "Traffic venue is the district court."
+  - name: Nobles
+    note: "Traffic venue is the district court."
+  - name: Norman
+    note: "Traffic venue is the district court."
+  - name: Olmsted
+    note: "Traffic venue is the district court."
+  - name: Otter Tail
+    note: "Traffic venue is the district court."
+  - name: Pennington
+    note: "Traffic venue is the district court."
+  - name: Pine
+    note: "Traffic venue is the district court."
+  - name: Pipestone
+    note: "Traffic venue is the district court."
+  - name: Polk
+    note: "Traffic venue is the district court."
+  - name: Pope
+    note: "Traffic venue is the district court."
+  - name: Ramsey
+    note: "Traffic venue is the district court."
+  - name: Red Lake
+    note: "Traffic venue is the district court."
+  - name: Redwood
+    note: "Traffic venue is the district court."
+  - name: Renville
+    note: "Traffic venue is the district court."
+  - name: Rice
+    note: "Traffic venue is the district court."
+  - name: Rock
+    note: "Traffic venue is the district court."
+  - name: Roseau
+    note: "Traffic venue is the district court."
+  - name: Scott
+    note: "Traffic venue is the district court."
+  - name: Sherburne
+    note: "Traffic venue is the district court."
+  - name: Sibley
+    note: "Traffic venue is the district court."
+  - name: St. Louis
+    note: "Traffic venue is the district court."
+  - name: Stearns
+    note: "Traffic venue is the district court."
+  - name: Steele
+    note: "Traffic venue is the district court."
+  - name: Stevens
+    note: "Traffic venue is the district court."
+  - name: Swift
+    note: "Traffic venue is the district court."
+  - name: Todd
+    note: "Traffic venue is the district court."
+  - name: Traverse
+    note: "Traffic venue is the district court."
+  - name: Wabasha
+    note: "Traffic venue is the district court."
+  - name: Wadena
+    note: "Traffic venue is the district court."
+  - name: Waseca
+    note: "Traffic venue is the district court."
+  - name: Washington
+    note: "Traffic venue is the district court."
+  - name: Watonwan
+    note: "Traffic venue is the district court."
+  - name: Wilkin
+    note: "Traffic venue is the district court."
+  - name: Winona
+    note: "Traffic venue is the district court."
+  - name: Wright
+    note: "Traffic venue is the district court."
+  - name: Yellow Medicine
+    note: "Traffic venue is the district court."
+cards:
+  - id: mn-court-records
+    verification: link_ok
+    source_url: https://publicaccess.courts.state.mn.us/CaseSearch
+    verification_note: Returned HTTP 200 via curl HEAD on 2026-09-21 with no redirect.
+    last_verified: 2026-09-21
+    kind: statewide_cms
+    agency: Minnesota Judicial Branch — Minnesota Court Records Online (MCRO)
+    accepted_keys: Name, case number, citation number, or attorney name on the official search page.
+    cost: No cost to look up — as of 2026-09-21 on publicaccess.courts.state.mn.us.
+    cost_free: true
+    lag: null
+    limitations:
+      - Search by citation number if you still have the paper ticket; by name if you lost it.
+      - Not every case type is publicly viewable.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 20

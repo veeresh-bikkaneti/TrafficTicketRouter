@@ -1,0 +1,1444 @@
+# Louisiana — parish Clerk of Court per parish (traffic venue varies). Winn Parish omitted: no qualifying official parish court/clerk site found. Orleans has an additional Municipal and Traffic Court card/pin.
+state: LA
+state_name: Louisiana
+last_verified: "2026-09-21"
+official_hosts:
+  - acadiaparishclerk.com
+  - allenparishclerk.org
+  - ascensionclerk.com
+  - assumptionclerk.com
+  - avoyellesparishclerkofcourt.com
+  - beauregardclerk.org
+  - bossierclerk.com
+  - caddoclerk.com
+  - calcasieuclerk.gov
+  - caldwellclerk.org
+  - cameronparishcoc2.com
+  - catahoulaclerk.com
+  - claiborneclerk.org
+  - clerk.bienvilleparish.org
+  - clerk25th.com
+  - concordiaclerkofcourt.com
+  - desotoparishclerk.org
+  - eastcarrollclerk.com
+  - eastfelicianaclerk.org
+  - ebrclerk.com
+  - evangelineparishclerkofcourt.com
+  - franklinparishclerkofcourt.com
+  - grantparishclerkofcourt.com
+  - iberiaclerk.com
+  - ibervilleclerk.com
+  - jacksonparishclerk.org
+  - jeffdavisclerk.com
+  - jpclerkofcourt.us
+  - lafourcheclerk.com
+  - lasalleclerk.com
+  - lincolnparish.org
+  - livclerk.org
+  - lpclerk.com
+  - madisonparishclerk.com
+  - morehouseclerkofcourt.com
+  - npclerkofcourt.org
+  - opclerkofcourt.com
+  - orleanscivilclerk.com
+  - pcclerk.org
+  - rapidesclerk.org
+  - redriverclerk.com
+  - richlandparishclerk.com
+  - sabineparishclerk.com
+  - scpclerkofcourt.com
+  - sjbparishclerk.gov
+  - smpcoc2.com
+  - stbclerk.com
+  - sthelenaclerk.org
+  - stjamesclerk.com
+  - stlandry.org
+  - stmaryparishclerkofcourt.com
+  - sttammanyclerk.org
+  - tangiclerk.org
+  - tensasclerk.org
+  - terrebonneclerk.org
+  - upclerk.com
+  - vermilionclerk.com
+  - vernonparishcoc.com
+  - washingtonparishclerk.org
+  - wbrclerk.org
+  - websterclerk.org
+  - westcarrollclerk.org
+  - westfelicianaclerkofcourt.org
+  - nola.gov
+counties:
+  - name: Acadia
+  - name: Allen
+  - name: Ascension
+  - name: Assumption
+  - name: Avoyelles
+  - name: Beauregard
+  - name: Bienville
+  - name: Bossier
+  - name: Caddo
+  - name: Calcasieu
+  - name: Caldwell
+  - name: Cameron
+  - name: Catahoula
+  - name: Claiborne
+  - name: Concordia
+  - name: De Soto
+  - name: East Baton Rouge
+  - name: East Carroll
+  - name: East Feliciana
+  - name: Evangeline
+  - name: Franklin
+  - name: Grant
+  - name: Iberia
+  - name: Iberville
+  - name: Jackson
+  - name: Jefferson
+  - name: Jefferson Davis
+  - name: Lafayette
+  - name: Lafourche
+  - name: La Salle
+  - name: Lincoln
+  - name: Livingston
+  - name: Madison
+  - name: Morehouse
+  - name: Natchitoches
+  - name: Orleans
+  - name: Ouachita
+  - name: Plaquemines
+  - name: Pointe Coupee
+  - name: Rapides
+  - name: Red River
+  - name: Richland
+  - name: Sabine
+  - name: St. Bernard
+  - name: St. Charles
+  - name: St. Helena
+  - name: St. James
+  - name: St. John the Baptist
+  - name: St. Landry
+  - name: St. Martin
+  - name: St. Mary
+  - name: St. Tammany
+  - name: Tangipahoa
+  - name: Tensas
+  - name: Terrebonne
+  - name: Union
+  - name: Vermilion
+  - name: Vernon
+  - name: Washington
+  - name: Webster
+  - name: West Baton Rouge
+  - name: West Carroll
+  - name: West Feliciana
+  - name: Winn
+cards:
+  - id: la-acadia-court
+    verification: link_ok
+    source_url: "https://www.acadiaparishclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Acadia Parish Clerk of Court"
+    contact: "500 NE Court Circle Crowley, LA 70526. Phone 337-788-8881."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Acadia
+    weight: 10
+
+  - id: la-allen-court
+    verification: link_ok
+    source_url: "https://www.allenparishclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Allen Parish Clerk of Court"
+    contact: "400 West Sixth Avenue Oberlin, LA 70655. Phone 337-639-4351."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allen
+    weight: 10
+
+  - id: la-ascension-court
+    verification: link_ok
+    source_url: "https://www.ascensionclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ascension Parish Clerk of Court"
+    contact: "607 E. Worthey St. 1st Floor, Gonzales, LA 70737. Phone 225-621-8400."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ascension
+    weight: 10
+
+  - id: la-assumption-court
+    verification: link_ok
+    source_url: "https://www.assumptionclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Assumption Parish Clerk of Court"
+    contact: "4809 Hwy 1 Napoleonville, LA 70390. Phone 985-369-6653."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Assumption
+    weight: 10
+
+  - id: la-avoyelles-court
+    verification: link_ok
+    source_url: "https://www.avoyellesparishclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Avoyelles Parish Clerk of Court"
+    contact: "312 North Main Street Marksville, LA 71351. Phone 318-253-7523."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Avoyelles
+    weight: 10
+
+  - id: la-beauregard-court
+    verification: link_ok
+    source_url: "https://beauregardclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Beauregard Parish Clerk of Court"
+    contact: "201 West First Street, DeRidder, LA 70634. Phone 337-463-8595."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Beauregard
+    weight: 10
+
+  - id: la-bienville-court
+    verification: link_ok
+    source_url: "https://clerk.bienvilleparish.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bienville Parish Clerk of Court"
+    contact: "100 Courthouse Drive Suite 1100 Arcadia, LA 71001. Phone 318-263-2123."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bienville
+    weight: 10
+
+  - id: la-bossier-court
+    verification: link_ok
+    source_url: "https://www.bossierclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bossier Parish Clerk of Court"
+    contact: "204 Burt Boulevard Third Floor Benton, LA 71006. Phone 318-965-2336."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bossier
+    weight: 10
+
+  - id: la-caddo-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.caddoclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caddo Parish Clerk of Court"
+    contact: "501 Texas Street Room 103 Shreveport, LA 71101. Phone 318-226-6776."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caddo
+    weight: 10
+
+  - id: la-calcasieu-court
+    verification: link_ok
+    source_url: "https://calcasieuclerk.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Calcasieu Parish Clerk of Court"
+    contact: "1000 Ryan Street Suite 5 Lake Charles, LA 70601. Phone 337-437-3550."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calcasieu
+    weight: 10
+
+  - id: la-caldwell-court
+    verification: link_ok
+    source_url: "https://www.caldwellclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Caldwell Parish Clerk of Court"
+    contact: "201 Main Street Suite 1 Columbia, LA 71418. Phone 318-649-2272."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Caldwell
+    weight: 10
+
+  - id: la-cameron-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.cameronparishcoc2.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cameron Parish Clerk of Court"
+    contact: "119 Smith Circle Room 21 Cameron, LA  70631. Phone 337-775-5316."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cameron
+    weight: 10
+
+  - id: la-catahoula-court
+    verification: link_ok
+    source_url: "https://www.catahoulaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Catahoula Parish Clerk of Court"
+    contact: "301 Bushley Street Room 101 Harrisonburg, LA 71340. Phone 318-744-5497."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Catahoula
+    weight: 10
+
+  - id: la-claiborne-court
+    verification: link_ok
+    source_url: "https://www.claiborneclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Claiborne Parish Clerk of Court"
+    contact: "512 East Main Street Homer, LA 71040. Phone 318-927-9601."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Claiborne
+    weight: 10
+
+  - id: la-concordia-court
+    verification: link_ok
+    source_url: "https://concordiaclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Concordia Parish Clerk of Court"
+    contact: "4001 Carter Street Room 5 Vidalia, LA 71373. Phone 318-336-4204."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Concordia
+    weight: 10
+
+  - id: la-de-soto-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://desotoparishclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "De Soto Parish Clerk of Court"
+    contact: "101 Texas Street, Mansfield, LA 71052. Phone 318-872-3110."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - De Soto
+    weight: 10
+
+  - id: la-east-baton-rouge-court
+    verification: link_ok
+    source_url: "https://ebrclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "East Baton Rouge Parish Clerk of Court"
+    contact: "222 St. Louis Street Baton Rouge, LA 70802. Phone 225-389-7642."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - East Baton Rouge
+    weight: 10
+
+  - id: la-east-carroll-court
+    verification: link_ok
+    source_url: "http://www.eastcarrollclerk.com/"
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "East Carroll Parish Clerk of Court"
+    contact: "400 First Street, Lake Providence, LA 71254. Phone 318-559-2399."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - East Carroll
+    weight: 10
+
+  - id: la-east-feliciana-court
+    verification: link_ok
+    source_url: "https://www.eastfelicianaclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "East Feliciana Parish Clerk of Court"
+    contact: "12305 St. Helena Street Clinton, LA 70722. Phone 225-683-5145."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - East Feliciana
+    weight: 10
+
+  - id: la-evangeline-court
+    verification: link_ok
+    source_url: "https://www.evangelineparishclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Evangeline Parish Clerk of Court"
+    contact: "200 Court Street Suite 104 Ville Platte, LA 70586. Phone 337-363-5671."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Evangeline
+    weight: 10
+
+  - id: la-franklin-court
+    verification: link_ok
+    source_url: "https://www.franklinparishclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin Parish Clerk of Court"
+    contact: "6550 Main Street Winnsboro, LA 71295. Phone 318-435-5133."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: la-grant-court
+    verification: link_ok
+    source_url: "https://www.grantparishclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant Parish Clerk of Court"
+    contact: "200 Main Street Colfax, LA 71417. Phone 318-627-3246."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: la-iberia-court
+    verification: link_ok
+    source_url: "https://www.iberiaclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Iberia Parish Clerk of Court"
+    contact: "300 Iberia Street New Iberia, LA 70560. Phone 337-365-7282."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iberia
+    weight: 10
+
+  - id: la-iberville-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.ibervilleclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Iberville Parish Clerk of Court"
+    contact: "58050 Meriam Street Plaquemine, LA 70764. Phone 225-687-5160."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iberville
+    weight: 10
+
+  - id: la-jackson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://jacksonparishclerk.org/"
+    verification_note: "HTTPS verified via browser fetch (HTTP 200); curl blocked by site. The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson Parish Clerk of Court"
+    contact: "500 East Court Street, Jonesboro, LA 71251. Phone 318-259-2424."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: la-jefferson-court
+    verification: link_ok
+    source_url: "https://www.jpclerkofcourt.us/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson Parish Clerk of Court"
+    contact: "General Government Building 200 Derbigny Street, Suite 5600 Gretna, LA 70053. Phone 504-364-2914."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: la-jefferson-davis-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.jeffdavisclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson Davis Parish Clerk of Court"
+    contact: "300 N. State Street Room 106 Jennings, LA 70546. Phone 337-824-1160."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson Davis
+    weight: 10
+
+  - id: la-lafayette-court
+    verification: link_ok
+    source_url: "https://www.lpclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lafayette Parish Clerk of Court"
+    contact: "800 South Buchanan Street Lafayette, LA 70501. Phone 337-291-6400."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafayette
+    weight: 10
+
+  - id: la-lafourche-court
+    verification: link_ok
+    source_url: "https://www.lafourcheclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lafourche Parish Clerk of Court"
+    contact: "303 W. 3rd Street  Thibodaux, LA 70301. Phone 985-447-4841."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafourche
+    weight: 10
+
+  - id: la-la-salle-court
+    verification: link_ok
+    source_url: "http://lasalleclerk.com/"
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "La Salle Parish Clerk of Court"
+    contact: "1050 Courthouse Street, Jena, LA 71342. Phone 318-992-2158."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - La Salle
+    weight: 10
+
+  - id: la-lincoln-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.lincolnparish.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln Parish Clerk of Court"
+    contact: "100 West Texas Avenue Ruston, LA 71270. Phone 318-251-5130."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: la-livingston-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.livclerk.org/"
+    verification_note: "Site returned 403 to automated fetch (bot protection) but loaded successfully via browser with HTTP 200 on 2026-09-21; address and phone confirmed on the official site."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Livingston Parish Clerk of Court"
+    contact: "20300 Government Boulevard, Livingston, LA 70754. Phone 225-686-2216."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 10
+
+  - id: la-madison-court
+    verification: link_ok
+    source_url: "https://www.madisonparishclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison Parish Clerk of Court"
+    contact: "100 North Cedar Street Tallulah, LA 71282. Phone 318-574-0655."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: la-morehouse-court
+    verification: link_ok
+    source_url: "https://morehouseclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Morehouse Parish Clerk of Court"
+    contact: "100 East Madison Street Bastrop, LA 71220. Phone 318-281-3343."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morehouse
+    weight: 10
+
+  - id: la-natchitoches-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.npclerkofcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Natchitoches Parish Clerk of Court"
+    contact: "200 Church Street Room 104 Natchitoches, LA 71457. Phone 318-352-8152."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Natchitoches
+    weight: 10
+
+  - id: la-orleans-court
+    verification: link_ok
+    source_url: "https://www.orleanscivilclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Orleans Parish Clerk of Court"
+    contact: "421 Loyola Avenue Room 402 New Orleans, LA 70112. Phone 504-407-0000."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Orleans
+    weight: 10
+
+  - id: la-ouachita-court
+    verification: link_ok
+    source_url: "https://www.opclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ouachita Parish Clerk of Court"
+    contact: "301 South Grand Street Room 104 Monroe, LA 71201. Phone 318-327-1444."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ouachita
+    weight: 10
+
+  - id: la-plaquemines-court
+    verification: link_ok
+    source_url: "https://www.clerk25th.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Plaquemines Parish Clerk of Court"
+    contact: "301 Main Street Suite 108 Belle Chasse, LA 70037. Phone 504-934-6610."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Plaquemines
+    weight: 10
+
+  - id: la-pointe-coupee-court
+    verification: link_ok
+    source_url: "https://pcclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pointe Coupee Parish Clerk of Court"
+    contact: "201 East Main Street New Roads, LA 70760. Phone 225-638-9596."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pointe Coupee
+    weight: 10
+
+  - id: la-rapides-court
+    verification: link_ok
+    source_url: "https://www.rapidesclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Rapides Parish Clerk of Court"
+    contact: "701 Murray Street Suite 102 Alexandria, LA 71301. Phone 318-473-8153."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rapides
+    weight: 10
+
+  - id: la-red-river-court
+    verification: link_ok
+    source_url: "https://redriverclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Red River Parish Clerk of Court"
+    contact: "615 East Carroll Street, Coushatta, LA 71019. Phone 318-932-6741."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Red River
+    weight: 10
+
+  - id: la-richland-court
+    verification: link_ok
+    source_url: "https://www.richlandparishclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Richland Parish Clerk of Court"
+    contact: "708 Julia Street Suite 103 Rayville, LA 71269. Phone 318-728-7000."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 10
+
+  - id: la-sabine-court
+    verification: link_ok
+    source_url: "https://www.sabineparishclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sabine Parish Clerk of Court"
+    contact: "400 South Capitol Street Room 102  Many, LA 71449. Phone 318-256-6223."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sabine
+    weight: 10
+
+  - id: la-st-bernard-court
+    verification: link_ok
+    source_url: "http://stbclerk.com/"
+    verification_note: "The official parish clerk site's HTTPS certificate is broken (certificate error confirmed 2026-09-21), so the working HTTP address is used — verified live on 2026-09-21 with official clerk content."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Bernard Parish Clerk of Court"
+    contact: "1101 W St. Bernard Highway, Chalmette, LA 70043. Phone 504-271-3434."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Bernard
+    weight: 10
+
+  - id: la-st-charles-court
+    verification: link_ok
+    source_url: "https://www.scpclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Charles Parish Clerk of Court"
+    contact: "15045 River Road Hahnville, LA 70057. Phone 985-783-6632."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Charles
+    weight: 10
+
+  - id: la-st-helena-court
+    verification: link_ok
+    source_url: "https://www.sthelenaclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Helena Parish Clerk of Court"
+    contact: "369 Sitman Street Greensburg, LA 70441. Phone 225-222-4514."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Helena
+    weight: 10
+
+  - id: la-st-james-court
+    verification: link_ok
+    source_url: "https://stjamesclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. James Parish Clerk of Court"
+    contact: "5800 La. Hwy. 44 Convent, LA 70723. Phone 225-562-2270."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. James
+    weight: 10
+
+  - id: la-st-john-the-baptist-court
+    verification: link_ok
+    source_url: "https://www.sjbparishclerk.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. John the Baptist Parish Clerk of Court"
+    contact: "2393 Highway 18, Edgard, LA 70049. Phone 985-497-3331."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. John the Baptist
+    weight: 10
+
+  - id: la-st-landry-court
+    verification: link_ok
+    source_url: "https://www.stlandry.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Landry Parish Clerk of Court"
+    contact: "118 South Court Street Suite 207 Opelousas, LA 70570. Phone 337-942-5606."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Landry
+    weight: 10
+
+  - id: la-st-martin-court
+    verification: link_ok
+    source_url: "https://www.smpcoc2.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Martin Parish Clerk of Court"
+    contact: "415 St. Martin Street St. Martinville, LA 70582. Phone 337-394-2210."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Martin
+    weight: 10
+
+  - id: la-st-mary-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.stmaryparishclerkofcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Mary Parish Clerk of Court"
+    contact: "500 Main Street, 2nd Floor Franklin, LA 70538. Phone 337-828-4100."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Mary
+    weight: 10
+
+  - id: la-st-tammany-court
+    verification: link_ok
+    source_url: "https://www.sttammanyclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Tammany Parish Clerk of Court"
+    contact: "701 North Columbia Street Covington, LA 70433. Phone 985-809-8700."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Tammany
+    weight: 10
+
+  - id: la-tangipahoa-court
+    verification: link_ok
+    source_url: "https://www.tangiclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tangipahoa Parish Clerk of Court"
+    contact: "110 North Bay Street Suite 100 Amite, LA 70422. Phone 985-748-4146."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tangipahoa
+    weight: 10
+
+  - id: la-tensas-court
+    verification: link_ok
+    source_url: "https://www.tensasclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Tensas Parish Clerk of Court"
+    contact: "201 Hancock Street St. Joseph, LA 71366. Phone 318-766-3921."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tensas
+    weight: 10
+
+  - id: la-terrebonne-court
+    verification: link_ok
+    source_url: "https://www.terrebonneclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Terrebonne Parish Clerk of Court"
+    contact: "7856 Main Street Houma, LA 70360. Phone 985-868-5660."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Terrebonne
+    weight: 10
+
+  - id: la-union-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.upclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union Parish Clerk of Court"
+    contact: "100 East Bayou Street Suite 105 Farmerville, LA 71241. Phone 318-368-3055."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: la-vermilion-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.vermilionclerk.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vermilion Parish Clerk of Court"
+    contact: "100 N. State Street Suite 101 Abbeville, LA 70510. Phone 337-898-1992."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vermilion
+    weight: 10
+
+  - id: la-vernon-court
+    verification: link_ok
+    source_url: "https://www.vernonparishcoc.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Vernon Parish Clerk of Court"
+    contact: "215 South 4th Street Leesville, LA 71446. Phone 337-238-1384."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vernon
+    weight: 10
+
+  - id: la-washington-court
+    verification: link_ok
+    source_url: "https://www.washingtonparishclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington Parish Clerk of Court"
+    contact: "Courthouse Building Corner of Washington &amp; Main St. Franklinton, LA 70438. Phone 985-839-4663."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: la-webster-court
+    verification: link_ok
+    source_url: "https://www.websterclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Webster Parish Clerk of Court"
+    contact: "410 Main Street Minden, LA 71055. Phone 318-371-0366."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Webster
+    weight: 10
+
+  - id: la-west-baton-rouge-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://www.wbrclerk.org/"
+    verification_note: "Site returned 403 to automated fetch (bot protection) but loaded successfully via browser with HTTP 200 on 2026-09-21; address and phone confirmed on the official site."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "West Baton Rouge Parish Clerk of Court"
+    contact: "850 8th Street, Port Allen, LA 70767. Phone 225-383-0378."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - West Baton Rouge
+    weight: 10
+
+  - id: la-west-carroll-court
+    verification: link_ok
+    source_url: "https://www.westcarrollclerk.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "West Carroll Parish Clerk of Court"
+    contact: "305 East Main Street Room 101 Oak Grove, LA 71263. Phone 318-428-3281."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - West Carroll
+    weight: 10
+
+  - id: la-west-feliciana-court
+    verification: link_ok
+    source_url: "https://westfelicianaclerkofcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "West Feliciana Parish Clerk of Court"
+    contact: "4785 Prosperity Street St. Francisville, LA 70775. Phone 225-635-3794."
+    accepted_keys: "See the official clerk page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on the official parish clerk site."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Louisiana traffic venue varies by parish; the Clerk of Court is the official starting point."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - West Feliciana
+    weight: 10
+
+  - id: la-orleans-municipal-traffic-court
+    verification: link_ok
+    source_url: "https://mtcourt.nola.gov/tickets/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "New Orleans Municipal and Traffic Court"
+    contact: "727 S. Broad St., New Orleans, LA 70119."
+    accepted_keys: "See the official court page for ticket options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on mtcourt.nola.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Separate municipal court handling New Orleans traffic and municipal cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+      - handle_it
+    for_counties:
+      - Orleans
+    weight: 5

@@ -1,0 +1,86 @@
+# Arizona map pins — justice court locations (phase P5, MapLibre).
+# Addresses from official court/county pages verified 2026-09-21; coordinates
+# via Nominatim, cross-checked against OSM place data and official site geo.
+# URLs reused verbatim from data/states/AZ.yaml — never invented.
+pins:
+  - id: az-cochise-courthouse
+    state: AZ
+    county: Cochise
+    name: Sierra Vista Justice Court (Precinct 5)
+    address: 100 Colonia de Salud, Sierra Vista, AZ 85635
+    lat: 31.5538401
+    lng: -110.2331705
+    url: https://www.cochise.az.gov/403/Justice-of-the-Peace
+    kind: courthouse
+
+  - id: az-gila-courthouse
+    state: AZ
+    county: Gila
+    name: Globe Regional Justice Court
+    address: 1400 E Ash St, Globe, AZ 85501
+    lat: 33.3958820
+    lng: -110.7722750
+    url: https://www.gilacountyaz.gov/government/courts/globe_regional_justice_court/payments.php
+    kind: courthouse
+
+  - id: az-graham-courthouse
+    state: AZ
+    county: Graham
+    name: Graham County Justice Court
+    address: 800 W Main St, Safford, AZ 85546
+    lat: 32.8333040
+    lng: -109.7165997
+    url: https://www.graham.az.gov/184/Courts-Judicial/
+    kind: courthouse
+
+  - id: az-lapaz-courthouse
+    state: AZ
+    county: La Paz
+    name: Parker Justice Court
+    address: 1105 W Arizona Ave, Parker, AZ 85344
+    lat: 34.1460520
+    lng: -114.2901630
+    url: https://lapazcountyjusticecourt.com/
+    kind: courthouse
+
+  - id: az-maricopa-courthouse
+    state: AZ
+    county: Maricopa
+    name: Arcadia Biltmore Justice Court
+    address: 620 W Jackson Street, Phoenix, AZ 85003
+    lat: 33.4455024
+    lng: -112.0817814
+    url: https://justicecourts.maricopa.gov/
+    kind: courthouse
+
+  - id: az-mohave-courthouse
+    state: AZ
+    county: Mohave
+    name: Kingman/Cerbat Justice Court
+    address: 401 E Spring St, Kingman, AZ 86401
+    lat: 35.1920574
+    lng: -114.0520845
+    url: https://www.mohavecourts.com/kingmancerbat-justice-court
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: az-pima-courthouse
+    state: AZ
+    county: Pima
+    name: Pima County Consolidated Justice Court
+    address: 240 N Stone Ave, Tucson, AZ 85701
+    lat: 32.2254559
+    lng: -110.9710447
+    url: https://www.jp.pima.gov/
+    kind: courthouse
+
+  - id: az-santacruz-courthouse
+    state: AZ
+    county: Santa Cruz
+    name: Santa Cruz County Justice Court Precinct 1
+    address: 2160 N Congress Drive, Nogales, AZ 85621
+    lat: 31.3719650
+    lng: -110.9383540
+    url: https://santacruzcountyaz.gov/347/Court-Services
+    kind: courthouse

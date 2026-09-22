@@ -14,6 +14,7 @@ if (files.length === 0) {
   console.error('build-pins: no pin files found');
   process.exit(1);
 }
+const manifest = [];
 for (const f of files) {
   let data;
   try {
@@ -28,4 +29,11 @@ for (const f of files) {
   const out = join(outDir, `pins-${code}.json`);
   writeFileSync(out, JSON.stringify(data, null, 2) + '\n');
   console.log(`build-pins: ${f} -> site/data/pins-${code}.json (${data.pins.length} pins)`);
+  manifest.push(code);
 }
+// pins-manifest.json lists which states have a pin file. Some states
+// legitimately lack one (unverifiable courthouse data); map.js skips those
+// gracefully instead of breaking.
+manifest.sort();
+writeFileSync(join(outDir, 'pins-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+console.log(`build-pins: pins-manifest.json (${manifest.length} states)`);

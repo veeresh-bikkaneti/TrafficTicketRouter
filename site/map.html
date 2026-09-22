@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Court map — TicketRouter</title>
-<meta name="description" content="A map of Nebraska county courthouses, each pin pointing at the official court page.">
+<meta name="description" content="A map of US county courthouses across all 50 states, each pin pointing at the official court page.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css" integrity="sha384-cy72LeqRhBcptH+f75cB3vrpLw/jxRh/JFcONF8ojDGHnPbPW8ms9mFfeRcjatlf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css" integrity="sha384-+yaCg0e7ycPGPQXb75FA+X65pLlc36UEZiIaA8ph5o9epSIlfAq9gNVjLkSyyLta" crossorigin="anonymous">
@@ -32,20 +32,22 @@
   <div class="wrap">
     <p class="kicker">County courthouses, on a map. No accounts. Nothing typed here leaves your browser.</p>
     <h1>Court map</h1>
-    <p>Pins mark the county courthouse buildings for the counties we cover.
+    <p>Pins mark the county courthouse buildings for the counties we cover,
+    across all 50 states.
     A pin is a location, not a lookup — to pay, appear, or look up a case,
     open the official court page. You will type your information on the
     official site, never here.</p>
 
     <div class="map-wrap">
-      <div id="map" role="region" aria-label="Map of Nebraska county courthouses"></div>
+      <div id="map" role="region" aria-label="Map of US county courthouses"></div>
+      <div id="map-count" class="hint" role="status"></div>
       <div id="map-fallback" class="notice" hidden></div>
       <noscript>
         <div class="notice">The map needs JavaScript.
         <a href="check.html">Start a check</a> instead — it lists the same official pages.</div>
       </noscript>
     </div>
-    <p class="hint">Map data: OpenStreetMap contributors, CARTO. Pins verified 2026-09-20.</p>
+    <p class="hint">Map data: OpenStreetMap contributors, CARTO. Pins verified against official sources in 2026.</p>
   </div>
 </main>
 

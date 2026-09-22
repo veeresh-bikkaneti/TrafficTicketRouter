@@ -1,0 +1,1286 @@
+# Illinois map pins — county courthouses (phase P5, MapLibre).
+# URLs reused verbatim from data/states/IL.yaml — never invented.
+pins:
+  - id: il-adams-courthouse
+    state: IL
+    county: Adams
+    name: Adams County Circuit Court
+    address: 521 Vermont Street, Quincy, IL 62301
+    lat: 39.9345858
+    lng: -91.4079417
+    url: https://www.illinoiscourts.gov/courts-directory/66/Adams-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-alexander-courthouse
+    state: IL
+    county: Alexander
+    name: Alexander County Circuit Court
+    address: 2000 Washington Ave., Cairo, IL 62914
+    lat: 37.0050140
+    lng: -89.1760340
+    url: https://www.illinoiscourts.gov/courts-directory/139/Alexander-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-bond-courthouse
+    state: IL
+    county: Bond
+    name: Bond County Circuit Court
+    address: 200 West College Ave., Greenville, IL 62246
+    lat: 38.8926440
+    lng: -89.4126890
+    url: https://www.illinoiscourts.gov/courts-directory/141/Bond-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-boone-courthouse
+    state: IL
+    county: Boone
+    name: Boone County Circuit Court
+    address: 601 North Main Street, Belvidere, IL 61008
+    lat: 42.2649122
+    lng: -88.8447545
+    url: https://www.illinoiscourts.gov/courts-directory/1/Boone-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-brown-courthouse
+    state: IL
+    county: Brown
+    name: Brown County Circuit Court
+    address: 200 Court Street, Mt. Sterling, IL 62353
+    lat: 39.9870384
+    lng: -90.7643339
+    url: https://www.illinoiscourts.gov/courts-directory/67/Brown-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-bureau-courthouse
+    state: IL
+    county: Bureau
+    name: Bureau County Circuit Court
+    address: 700 South Main St, Princeton, IL 61356
+    lat: 41.3671043
+    lng: -89.4660479
+    url: https://www.illinoiscourts.gov/courts-directory/68/Bureau-County-Circuit-Court/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-calhoun-courthouse
+    state: IL
+    county: Calhoun
+    name: Calhoun County Circuit Court
+    address: 101 N. County Road, Hardin, IL 62047
+    lat: 39.1569961
+    lng: -90.6193344
+    url: https://www.illinoiscourts.gov/courts-directory/69/Calhoun-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-carroll-courthouse
+    state: IL
+    county: Carroll
+    name: Carroll County Circuit Court
+    address: 301 N. Main St., Mt. Carroll, IL 61053
+    lat: 42.1006470
+    lng: -89.9782724
+    url: https://www.illinoiscourts.gov/courts-directory/2/Carroll-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cass-courthouse
+    state: IL
+    county: Cass
+    name: Cass County Circuit Court
+    address: 100 E. Springfield Street, Virginia, IL 62691
+    lat: 39.9510080
+    lng: -90.2107690
+    url: https://www.illinoiscourts.gov/courts-directory/70/Cass-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-champaign-courthouse
+    state: IL
+    county: Champaign
+    name: Champaign County Circuit Court
+    address: 101 E. Main St., Urbana, IL 61801
+    lat: 40.1120265
+    lng: -88.2064946
+    url: https://www.illinoiscourts.gov/courts-directory/3/Champaign-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-christian-courthouse
+    state: IL
+    county: Christian
+    name: Christian County Circuit Court
+    address: 101 S. Main Street, Taylorville, IL 62568
+    lat: 39.5488330
+    lng: -89.2955637
+    url: https://www.illinoiscourts.gov/courts-directory/71/Christian-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-clark-courthouse
+    state: IL
+    county: Clark
+    name: Clark County Circuit Court
+    address: 501 Archer Avenue, Marshall, IL 62441
+    lat: 39.3901280
+    lng: -87.6967370
+    url: https://www.illinoiscourts.gov/courts-directory/72/Clark-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-clay-courthouse
+    state: IL
+    county: Clay
+    name: Clay County Circuit Court
+    address: 111 Chestnut Street, Louisville, IL 62858
+    lat: 38.7723197
+    lng: -88.5016684
+    url: https://www.illinoiscourts.gov/courts-directory/73/Clay-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-clinton-courthouse
+    state: IL
+    county: Clinton
+    name: Clinton County Circuit Court
+    address: 850 Fairfax Street, Carlyle, IL 62231
+    lat: 38.6110915
+    lng: -89.3683358
+    url: https://www.illinoiscourts.gov/courts-directory/4/Clinton-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-coles-courthouse
+    state: IL
+    county: Coles
+    name: Coles County Circuit Court
+    address: 651 Jackson Avenue, Charleston, IL 61920
+    lat: 39.4946117
+    lng: -88.1750463
+    url: https://www.illinoiscourts.gov/courts-directory/74/Coles-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court
+    address: 50 W. Washington Street, Chicago, IL 60602
+    lat: 41.8840869
+    lng: -87.6302049
+    url: https://www.illinoiscourts.gov/courts-directory/76/Cook-County-Richard-J-Daley-Center/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-crawford-courthouse
+    state: IL
+    county: Crawford
+    name: Crawford County Circuit Court
+    address: P.O. Box 655, Robinson, IL 62454
+    lat: 39.0053460
+    lng: -87.7393653
+    url: https://www.illinoiscourts.gov/courts-directory/84/Crawford-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cumberland-courthouse
+    state: IL
+    county: Cumberland
+    name: Cumberland County Circuit Court
+    address: 1 Courthouse Square, Toledo, IL 62468
+    lat: 39.2728158
+    lng: -88.2450412
+    url: https://www.illinoiscourts.gov/courts-directory/85/Cumberland-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-dekalb-courthouse
+    state: IL
+    county: DeKalb
+    name: DeKalb County Circuit Court
+    address: 133 W State Street, Sycamore, IL 60178
+    lat: 41.9886536
+    lng: -88.6850334
+    url: https://www.illinoiscourts.gov/courts-directory/86/DeKalb-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-dewitt-courthouse
+    state: IL
+    county: DeWitt
+    name: DeWitt County Circuit Court
+    address: 201 West Washington Street, Clinton, IL 61727
+    lat: 40.1536585
+    lng: -88.9623689
+    url: https://www.illinoiscourts.gov/courts-directory/143/Dewitt-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-douglas-courthouse
+    state: IL
+    county: Douglas
+    name: Douglas County Circuit Court
+    address: 401 S. Center, Tuscola, IL 61953
+    lat: 39.7955600
+    lng: -88.2859200
+    url: https://www.illinoiscourts.gov/courts-directory/6/Douglas-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-dupage-courthouse
+    state: IL
+    county: DuPage
+    name: DuPage County Circuit Court
+    address: 505 North County Farm Road, #2015, Wheaton, IL 60187
+    lat: 41.8683035
+    lng: -88.1387004
+    url: https://www.illinoiscourts.gov/courts-directory/7/DuPage-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-edgar-courthouse
+    state: IL
+    county: Edgar
+    name: Edgar County Circuit Court
+    address: 115 W. Court Street, Paris, IL 61944
+    lat: 39.6112931
+    lng: -87.6951597
+    url: https://www.illinoiscourts.gov/courts-directory/8/Edgar-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-edwards-courthouse
+    state: IL
+    county: Edwards
+    name: Edwards County Circuit Court
+    address: 50 E. Main, Albion, IL 62806
+    lat: 38.3770720
+    lng: -88.0567160
+    url: https://www.illinoiscourts.gov/courts-directory/9/Edwards-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-effingham-courthouse
+    state: IL
+    county: Effingham
+    name: Effingham County Circuit Court
+    address: 120 W Jefferson, Suite 101, Effingham, IL 62401
+    lat: 39.1217821
+    lng: -88.5414188
+    url: https://www.illinoiscourts.gov/courts-directory/10/Effingham-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-fayette-courthouse
+    state: IL
+    county: Fayette
+    name: Fayette County Circuit Court
+    address: 221 S. 7th Street, Vandalia, IL 62471
+    lat: 38.9600811
+    lng: -89.0994119
+    url: https://www.illinoiscourts.gov/courts-directory/11/Fayette-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-ford-courthouse
+    state: IL
+    county: Ford
+    name: Ford County Circuit Court
+    address: 200 West State, Paxton, IL 60957
+    lat: 40.4623650
+    lng: -88.0987490
+    url: https://www.illinoiscourts.gov/courts-directory/12/Ford-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-franklin-courthouse
+    state: IL
+    county: Franklin
+    name: Franklin County Circuit Court
+    address: 1 Public Square, Benton, IL 62812
+    lat: 37.9968205
+    lng: -88.9200992
+    url: https://www.illinoiscourts.gov/courts-directory/89/Franklin-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-fulton-courthouse
+    state: IL
+    county: Fulton
+    name: Fulton County Circuit Court
+    address: 100 N. Main St., Lewistown, IL 61542
+    lat: 40.3967130
+    lng: -90.1553010
+    url: https://www.illinoiscourts.gov/courts-directory/13/Fulton-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-gallatin-courthouse
+    state: IL
+    county: Gallatin
+    name: Gallatin County Circuit Court
+    address: 484 Lincoln Blvd. E., Shawneetown, IL 62984
+    lat: 37.7156515
+    lng: -88.1864602
+    url: https://www.illinoiscourts.gov/courts-directory/144/Gallatin-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-greene-courthouse
+    state: IL
+    county: Greene
+    name: Greene County Circuit Court
+    address: 519 North Main Street, Carrollton, IL 62016
+    lat: 39.3022324
+    lng: -90.4085787
+    url: https://www.illinoiscourts.gov/courts-directory/14/Greene-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-grundy-courthouse
+    state: IL
+    county: Grundy
+    name: Grundy County Circuit Court
+    address: 111 East Washington Street, Morris, IL 60450
+    lat: 41.3572690
+    lng: -88.4235178
+    url: https://www.illinoiscourts.gov/courts-directory/90/Grundy-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-hamilton-courthouse
+    state: IL
+    county: Hamilton
+    name: Hamilton County Circuit Court
+    address: 100 South Jackson Street, McLeansboro, IL 62859
+    lat: 38.0939680
+    lng: -88.5351680
+    url: https://www.illinoiscourts.gov/courts-directory/149/Hamilton-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-hancock-courthouse
+    state: IL
+    county: Hancock
+    name: Hancock County Circuit Court
+    address: 500 Main St., Carthage, IL 62321
+    lat: 40.4136040
+    lng: -91.1361500
+    url: https://www.illinoiscourts.gov/courts-directory/15/Hancock-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-hardin-courthouse
+    state: IL
+    county: Hardin
+    name: Hardin County Circuit Court
+    address: 102 E. Market St., Elizabeth, IL 62931
+    lat: 37.4472137
+    lng: -88.3049619
+    url: https://www.illinoiscourts.gov/courts-directory/17/Hardin-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-henderson-courthouse
+    state: IL
+    county: Henderson
+    name: Henderson County Circuit Court
+    address: 307 Warren St., Oquawka, IL 61469
+    lat: 40.9354669
+    lng: -90.9541941
+    url: https://www.illinoiscourts.gov/courts-directory/150/Henderson-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-henry-courthouse
+    state: IL
+    county: Henry
+    name: Henry County Circuit Court
+    address: 307 W. Center Street, Cambridge, IL 61238
+    lat: 41.3021367
+    lng: -90.1970655
+    url: https://www.illinoiscourts.gov/courts-directory/18/Henry-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-iroquois-courthouse
+    state: IL
+    county: Iroquois
+    name: Iroquois County Circuit Court
+    address: 550 South 10th Street, Watseka, IL 60970
+    lat: 40.7717330
+    lng: -87.7195850
+    url: https://www.illinoiscourts.gov/courts-directory/151/Iroquois-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-jackson-courthouse
+    state: IL
+    county: Jackson
+    name: Jackson County Circuit Court
+    address: 1001 Walnut Street, Murphysboro, IL 62966
+    lat: 37.7642300
+    lng: -89.3346750
+    url: https://www.illinoiscourts.gov/courts-directory/91/Jackson-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-jasper-courthouse
+    state: IL
+    county: Jasper
+    name: Jasper County Circuit Court
+    address: 100 W. Jourdan St., Newton, IL 62448
+    lat: 38.9903865
+    lng: -88.1618852
+    url: https://www.illinoiscourts.gov/courts-directory/19/Jasper-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-jefferson-courthouse
+    state: IL
+    county: Jefferson
+    name: Jefferson County Circuit Court
+    address: 100 S 10th St, Mount Vernon, IL 62864
+    lat: 38.3175760
+    lng: -88.9035860
+    url: https://www.illinoiscourts.gov/courts-directory/92/Jefferson-County-Courthouse-/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-jersey-courthouse
+    state: IL
+    county: Jersey
+    name: Jersey County Circuit Court
+    address: 201 West Pearl Street, Jerseyville, IL 62052
+    lat: 39.1190260
+    lng: -90.3287180
+    url: https://www.illinoiscourts.gov/courts-directory/20/Jersey-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-jo-daviess-courthouse
+    state: IL
+    county: Jo Daviess
+    name: Jo Daviess County Circuit Court
+    address: 330 North Bench Street, Galena, IL 61036
+    lat: 42.4185103
+    lng: -90.4259091
+    url: https://www.illinoiscourts.gov/courts-directory/21/Jo-Daviess-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-johnson-courthouse
+    state: IL
+    county: Johnson
+    name: Johnson County Circuit Court
+    address: 105 North 6th Street, P.O. Box 517, Vienna, IL 62995
+    lat: 37.4154446
+    lng: -88.8979239
+    url: https://www.illinoiscourts.gov/courts-directory/93/Johnson-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-kane-courthouse
+    state: IL
+    county: Kane
+    name: Kane County Circuit Court
+    address: 100 S. 3rd Street, Geneva, IL 60134
+    lat: 41.8864514
+    lng: -88.3088889
+    url: https://www.illinoiscourts.gov/courts-directory/23/Kane-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-kankakee-courthouse
+    state: IL
+    county: Kankakee
+    name: Kankakee County Circuit Court
+    address: 450 East Court Street, Kankakee, IL 60901
+    lat: 41.1192628
+    lng: -87.8605445
+    url: https://www.illinoiscourts.gov/courts-directory/24/Kankakee-County-Courthouse-/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-kendall-courthouse
+    state: IL
+    county: Kendall
+    name: Kendall County Circuit Court
+    address: 807 W. John St., Yorkville, IL 60560
+    lat: 41.6581270
+    lng: -88.4578785
+    url: https://www.illinoiscourts.gov/courts-directory/95/Kendall-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-knox-courthouse
+    state: IL
+    county: Knox
+    name: Knox County Circuit Court
+    address: 200 South Cherry Street, Galesburg, IL 61401
+    lat: 40.9444898
+    lng: -90.3704655
+    url: https://www.illinoiscourts.gov/courts-directory/25/Knox-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-lasalle-courthouse
+    state: IL
+    county: LaSalle
+    name: LaSalle County Circuit Court
+    address: 119 West Madison St., Ottawa, IL 61350
+    lat: 41.3469237
+    lng: -88.8414897
+    url: https://www.illinoiscourts.gov/courts-directory/98/LaSalle-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-lake-courthouse
+    state: IL
+    county: Lake
+    name: Lake County Circuit Court
+    address: 18 N County St., Waukegan, IL 60085
+    lat: 42.3603647
+    lng: -87.8330853
+    url: https://www.illinoiscourts.gov/courts-directory/96/Lake-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-lawrence-courthouse
+    state: IL
+    county: Lawrence
+    name: Lawrence County Circuit Court
+    address: 1100 State Street, Lawrenceville, IL 62439
+    lat: 38.7293810
+    lng: -87.6822300
+    url: https://www.illinoiscourts.gov/courts-directory/26/Lawrence-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-lee-courthouse
+    state: IL
+    county: Lee
+    name: Lee County Circuit Court
+    address: 309 South Galena Avenue, Dixon, IL 61021
+    lat: 41.8415756
+    lng: -89.4816130
+    url: https://www.illinoiscourts.gov/courts-directory/27/Lee-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-livingston-courthouse
+    state: IL
+    county: Livingston
+    name: Livingston County Circuit Court
+    address: 110 N. Main Street, Pontiac, IL 61764
+    lat: 40.8789422
+    lng: -88.6285248
+    url: https://www.illinoiscourts.gov/courts-directory/28/Livingston-County-Law-and-Justice-Center/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-logan-courthouse
+    state: IL
+    county: Logan
+    name: Logan County Circuit Court
+    address: 601 Broadway Street, Lincoln, IL 62656
+    lat: 40.1460139
+    lng: -89.3624646
+    url: https://www.illinoiscourts.gov/courts-directory/29/Logan-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-macon-courthouse
+    state: IL
+    county: Macon
+    name: Macon County Circuit Court
+    address: 253 E. Wood Street, Decatur, IL 62523
+    lat: 39.8398907
+    lng: -88.9537347
+    url: https://www.illinoiscourts.gov/courts-directory/99/Macon-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-macoupin-courthouse
+    state: IL
+    county: Macoupin
+    name: Macoupin County Circuit Court
+    address: 201 East Main Street, Carlinville, IL 62626
+    lat: 39.2796950
+    lng: -89.8800110
+    url: https://www.illinoiscourts.gov/courts-directory/30/Macoupin-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-madison-courthouse
+    state: IL
+    county: Madison
+    name: Madison County Circuit Court
+    address: 155 N. Main Street, Edwardsville, IL 62025
+    lat: 38.8125143
+    lng: -89.9576873
+    url: https://www.illinoiscourts.gov/courts-directory/100/Madison-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-marion-courthouse
+    state: IL
+    county: Marion
+    name: Marion County Circuit Court
+    address: 100 East Main Street, Salem, IL 62881
+    lat: 38.6271620
+    lng: -88.9455070
+    url: https://www.illinoiscourts.gov/courts-directory/31/Marion-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-marshall-courthouse
+    state: IL
+    county: Marshall
+    name: Marshall County Circuit Court
+    address: 122 N. Prairie St., Lacon, IL 61540
+    lat: 41.0247520
+    lng: -89.4081186
+    url: https://www.illinoiscourts.gov/courts-directory/32/Marshall-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-mason-courthouse
+    state: IL
+    county: Mason
+    name: Mason County Circuit Court
+    address: 125 N. Plum Street, Havana, IL 62644
+    lat: 40.3004477
+    lng: -90.0621519
+    url: https://www.illinoiscourts.gov/courts-directory/101/Mason-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-massac-courthouse
+    state: IL
+    county: Massac
+    name: Massac County Circuit Court
+    address: 101 West 8th Street, Room 2D, Metropolis, IL 62960
+    lat: 37.1520360
+    lng: -88.7329528
+    url: https://www.illinoiscourts.gov/courts-directory/134/Massac-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-mcdonough-courthouse
+    state: IL
+    county: McDonough
+    name: McDonough County Circuit Court
+    address: "#1 Courthouse Square, Macomb, IL 61455"
+    lat: 40.4586983
+    lng: -90.6709773
+    url: https://www.illinoiscourts.gov/courts-directory/33/McDonough-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-mchenry-courthouse
+    state: IL
+    county: McHenry
+    name: McHenry County Circuit Court
+    address: 2200 N. Seminary Ave., Woodstock, IL 60098
+    lat: 42.3409678
+    lng: -88.4405239
+    url: https://www.illinoiscourts.gov/courts-directory/102/McHenry-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-mclean-courthouse
+    state: IL
+    county: McLean
+    name: McLean County Circuit Court
+    address: 104 W. Front Street, Bloomington, IL 61701
+    lat: 40.4776096
+    lng: -88.9940458
+    url: https://www.illinoiscourts.gov/courts-directory/34/McLean-County-Law-and-Justice-Center/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-menard-courthouse
+    state: IL
+    county: Menard
+    name: Menard County Circuit Court
+    address: 102 South 7th Street, Petersburg, IL 62675
+    lat: 40.0110477
+    lng: -89.8494656
+    url: https://www.illinoiscourts.gov/courts-directory/103/Menard-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-mercer-courthouse
+    state: IL
+    county: Mercer
+    name: Mercer County Circuit Court
+    address: 100 SE 3rd Street, Aledo, IL 61231
+    lat: 41.1995144
+    lng: -90.7486588
+    url: https://www.illinoiscourts.gov/courts-directory/104/Mercer-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-monroe-courthouse
+    state: IL
+    county: Monroe
+    name: Monroe County Circuit Court
+    address: 100 S. Main St., Waterloo, IL 62298
+    lat: 38.3316250
+    lng: -90.1493896
+    url: https://www.illinoiscourts.gov/courts-directory/35/Monroe-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-montgomery-courthouse
+    state: IL
+    county: Montgomery
+    name: Montgomery County Circuit Court
+    address: 120 North Main Street, Hillsboro, IL 62049
+    lat: 39.1622510
+    lng: -89.4935010
+    url: https://www.illinoiscourts.gov/courts-directory/153/Montgomery-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-morgan-courthouse
+    state: IL
+    county: Morgan
+    name: Morgan County Circuit Court
+    address: 300 W. State Street, Jacksonville, IL 62650
+    lat: 39.7343820
+    lng: -90.2324500
+    url: https://www.illinoiscourts.gov/courts-directory/36/Morgan-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-moultrie-courthouse
+    state: IL
+    county: Moultrie
+    name: Moultrie County Circuit Court
+    address: 10 South Main Street Suite 12, Sullivan, IL 61951
+    lat: 39.5989235
+    lng: -88.6070058
+    url: https://www.illinoiscourts.gov/courts-directory/154/Moultrie-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-ogle-courthouse
+    state: IL
+    county: Ogle
+    name: Ogle County Circuit Court
+    address: 106 S. 5th St., Oregon, IL 61061
+    lat: 42.0147513
+    lng: -89.3323279
+    url: https://www.illinoiscourts.gov/courts-directory/37/Ogle-County-Judicial-Center/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-peoria-courthouse
+    state: IL
+    county: Peoria
+    name: Peoria County Circuit Court
+    address: 324 Main St., Ste. 215, Peoria, IL 61602
+    lat: 40.6928235
+    lng: -89.5899749
+    url: https://www.illinoiscourts.gov/courts-directory/38/Peoria-County-Court-Administration/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-perry-courthouse
+    state: IL
+    county: Perry
+    name: Perry County Circuit Court
+    address: 1 Public Square Floor 2, Pinckneyville, IL 62274
+    lat: 38.0804877
+    lng: -89.3820210
+    url: https://www.illinoiscourts.gov/courts-directory/155/Perry-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-piatt-courthouse
+    state: IL
+    county: Piatt
+    name: Piatt County Circuit Court
+    address: 101 W. Washington Street, Monticello, IL 61856
+    lat: 40.0253130
+    lng: -88.5720800
+    url: https://www.illinoiscourts.gov/courts-directory/39/Piatt-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-pike-courthouse
+    state: IL
+    county: Pike
+    name: Pike County Circuit Court
+    address: 100 E. Washington St., Pittsfield, IL 62363
+    lat: 39.6073594
+    lng: -90.8053423
+    url: https://www.illinoiscourts.gov/courts-directory/105/Pike-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-pope-courthouse
+    state: IL
+    county: Pope
+    name: Pope County Circuit Court
+    address: 310 E. Main Street, Golconda, IL 62938
+    lat: 37.3672948
+    lng: -88.4858034
+    url: https://www.illinoiscourts.gov/courts-directory/40/Pope-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-pulaski-courthouse
+    state: IL
+    county: Pulaski
+    name: Pulaski County Circuit Court
+    address: 500 Illinois Avenue, Mound City, IL 62963
+    lat: 37.0890360
+    lng: -89.1622710
+    url: https://www.illinoiscourts.gov/courts-directory/156/Pulaski-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-putnam-courthouse
+    state: IL
+    county: Putnam
+    name: Putnam County Circuit Court
+    address: 120 N. 4th Street, Hennepin, IL 61327
+    lat: 41.2555762
+    lng: -89.3416605
+    url: https://www.illinoiscourts.gov/courts-directory/41/Putnam-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-randolph-courthouse
+    state: IL
+    county: Randolph
+    name: Randolph County Circuit Court
+    address: One Taylor Street, Chester, IL 62233
+    lat: 37.9063722
+    lng: -89.8297265
+    url: https://www.illinoiscourts.gov/courts-directory/42/Randolph-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-richland-courthouse
+    state: IL
+    county: Richland
+    name: Richland County Circuit Court
+    address: 103 W. Main street, Olney, IL 62450
+    lat: 38.7310286
+    lng: -88.0854311
+    url: https://www.illinoiscourts.gov/courts-directory/106/Richland-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-rock-island-courthouse
+    state: IL
+    county: Rock Island
+    name: Rock Island County Circuit Court
+    address: 1317 3rd Avenue, Rock Island, IL 61201
+    lat: 41.5090928
+    lng: -90.5810083
+    url: https://www.illinoiscourts.gov/courts-directory/142/Rock-Island-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-saline-courthouse
+    state: IL
+    county: Saline
+    name: Saline County Circuit Court
+    address: 10 East Poplar, Harrisburg, IL 62946
+    lat: 37.7386863
+    lng: -88.5398208
+    url: https://www.illinoiscourts.gov/courts-directory/145/Saline-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-sangamon-courthouse
+    state: IL
+    county: Sangamon
+    name: Sangamon County Circuit Court
+    address: 200 South 9th Street, Springfield, IL 62701
+    lat: 39.8003720
+    lng: -89.6435080
+    url: https://www.illinoiscourts.gov/courts-directory/43/Sangamon-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-schuyler-courthouse
+    state: IL
+    county: Schuyler
+    name: Schuyler County Circuit Court
+    address: 102 S. Congress Street, Suite 103, Rushville, IL 62681
+    lat: 40.1203245
+    lng: -90.5640162
+    url: https://www.illinoiscourts.gov/courts-directory/108/Schuyler-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-scott-courthouse
+    state: IL
+    county: Scott
+    name: Scott County Circuit Court
+    address: 35 E Market St, Winchester, IL 62694
+    lat: 39.6286414
+    lng: -90.4560271
+    url: https://www.illinoiscourts.gov/courts-directory/44/Scott-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-shelby-courthouse
+    state: IL
+    county: Shelby
+    name: Shelby County Circuit Court
+    address: 301 E. Main St., Shelbyville, IL 62565
+    lat: 39.4067920
+    lng: -88.7902190
+    url: https://www.illinoiscourts.gov/courts-directory/45/Shelby-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-st-clair-courthouse
+    state: IL
+    county: St. Clair
+    name: St. Clair County Circuit Court
+    address: 10 Public Square, Belleville, IL 62220
+    lat: 38.5131765
+    lng: -89.9852695
+    url: https://www.illinoiscourts.gov/courts-directory/109/St-Clair-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-stark-courthouse
+    state: IL
+    county: Stark
+    name: Stark County Circuit Court
+    address: 130 West Main Street, Toulon, IL 61483
+    lat: 41.0934558
+    lng: -89.8659289
+    url: https://www.illinoiscourts.gov/courts-directory/46/Stark-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-stephenson-courthouse
+    state: IL
+    county: Stephenson
+    name: Stephenson County Circuit Court
+    address: 15 North Galena Avenue, Freeport, IL 61032
+    lat: 42.2981330
+    lng: -89.6218124
+    url: https://www.illinoiscourts.gov/courts-directory/47/Stephenson-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-tazewell-courthouse
+    state: IL
+    county: Tazewell
+    name: Tazewell County Circuit Court
+    address: 342 Court Street, Pekin, IL 61554
+    lat: 40.5692796
+    lng: -89.6478029
+    url: https://www.illinoiscourts.gov/courts-directory/48/Tazewell-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-union-courthouse
+    state: IL
+    county: Union
+    name: Union County Circuit Court
+    address: 309 West Market Street, Jonesboro, IL 62952
+    lat: 37.4523906
+    lng: -89.2719589
+    url: https://www.illinoiscourts.gov/courts-directory/146/Union-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-vermilion-courthouse
+    state: IL
+    county: Vermilion
+    name: Vermilion County Circuit Court
+    address: 7 North Vermilion Street, Danville, IL 61832
+    lat: 40.1247551
+    lng: -87.6294526
+    url: https://www.illinoiscourts.gov/courts-directory/49/Vermilion-County-Courthouse-Rita-B-Garman-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-wabash-courthouse
+    state: IL
+    county: Wabash
+    name: Wabash County Circuit Court
+    address: 401 N. Market Street, Mt. Carmel, IL 62863
+    lat: 38.4095981
+    lng: -87.7611674
+    url: https://www.illinoiscourts.gov/courts-directory/50/Wabash-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-warren-courthouse
+    state: IL
+    county: Warren
+    name: Warren County Circuit Court
+    address: 100 West Broadway, Monmouth, IL 61462
+    lat: 40.9119950
+    lng: -90.6485330
+    url: https://www.illinoiscourts.gov/courts-directory/51/Warren-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-washington-courthouse
+    state: IL
+    county: Washington
+    name: Washington County Circuit Court
+    address: 125 E. Elm Street, Nashville, IL 62263
+    lat: 38.3445963
+    lng: -89.3826860
+    url: https://www.illinoiscourts.gov/courts-directory/52/Washington-County-Judicial-Center/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-wayne-courthouse
+    state: IL
+    county: Wayne
+    name: Wayne County Circuit Court
+    address: 301 E. Main Street, Fairfield, IL 62837
+    lat: 38.3796770
+    lng: -88.3577020
+    url: https://www.illinoiscourts.gov/courts-directory/53/Wayne-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-white-courthouse
+    state: IL
+    county: White
+    name: White County Circuit Court
+    address: 301 E Main, Carmi, IL 62821
+    lat: 38.0911089
+    lng: -88.1586960
+    url: https://www.illinoiscourts.gov/courts-directory/54/White-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-whiteside-courthouse
+    state: IL
+    county: Whiteside
+    name: Whiteside County Circuit Court
+    address: 200 East Knox Street, Morrison, IL 61270
+    lat: 41.8102307
+    lng: -89.9638884
+    url: https://www.illinoiscourts.gov/courts-directory/147/Whiteside-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-will-courthouse
+    state: IL
+    county: Will
+    name: Will County Circuit Court
+    address: 100 W. Jefferson St., Joliet, IL 60432
+    lat: 41.5244983
+    lng: -88.0837246
+    url: https://www.illinoiscourts.gov/courts-directory/110/Will-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-williamson-courthouse
+    state: IL
+    county: Williamson
+    name: Williamson County Circuit Court
+    address: 200 West Jefferson Street, Suite 260, Marion, IL 62959
+    lat: 37.7325371
+    lng: -88.9291644
+    url: https://www.illinoiscourts.gov/courts-directory/148/Williamson-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-winnebago-courthouse
+    state: IL
+    county: Winnebago
+    name: Winnebago County Circuit Court
+    address: 400 West State Street, Rockford, IL 61101
+    lat: 42.2717540
+    lng: -89.0959970
+    url: https://www.illinoiscourts.gov/courts-directory/57/Winnebago-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-woodford-courthouse
+    state: IL
+    county: Woodford
+    name: Woodford County Circuit Court
+    address: 117 E. Court Street, Eureka, IL 61530
+    lat: 40.7223313
+    lng: -89.2724801
+    url: https://www.illinoiscourts.gov/courts-directory/58/Woodford-County-Courthouse/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-bridgeview-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court — Fifth Municipal District (Bridgeview)
+    address: 10220 S. 76th Avenue, Bridgeview, IL 60455
+    lat: 41.7054679
+    lng: -87.8101919
+    url: https://www.illinoiscourts.gov/courts-directory/75/Cook-County-Fifth-Municipal-District--Bridgeview/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-markham-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court — Sixth Municipal District (Markham)
+    address: 16501 South Kedzie Parkway, Markham, IL 60428
+    lat: 41.5902333
+    lng: -87.6931122
+    url: https://www.illinoiscourts.gov/courts-directory/80/Cook-County-Sixth-Municipal-District--Markham/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-maywood-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court — Fourth Municipal District (Maywood)
+    address: 1500 Maybrook Drive, Maywood, IL 60153
+    lat: 41.8751060
+    lng: -87.8277200
+    url: https://www.illinoiscourts.gov/courts-directory/81/Cook-County-Fourth-Municipal-District--Maywood/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-rolling-meadows-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court — Third Municipal District (Rolling Meadows)
+    address: 2121 Euclid Avenue, Rolling Meadows, IL 60008
+    lat: 42.0873572
+    lng: -88.0063383
+    url: https://www.illinoiscourts.gov/courts-directory/82/Cook-County-Third-Municipal-District--Rolling-Meadows/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse
+
+  - id: il-cook-skokie-courthouse
+    state: IL
+    county: Cook
+    name: Cook County Circuit Court — Second Municipal District (Skokie)
+    address: 5600 Old Orchard Road, Skokie, IL 60077
+    lat: 42.0631513
+    lng: -87.7659785
+    url: https://www.illinoiscourts.gov/courts-directory/83/Cook-County-Second-Municipal-District--Skokie/court/
+    link_check: manual
+    verification_note: "The official site was verified to load for human visitors in a real browser on 2026-09-22. This site’s bot defenses block automated bulk link checks, so automated checking is waived for this record (link_check: manual)."
+    kind: courthouse

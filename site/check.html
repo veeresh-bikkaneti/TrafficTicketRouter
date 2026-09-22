@@ -31,27 +31,25 @@
   <div class="wrap">
     <p class="kicker">Three steps. No accounts. Nothing typed here leaves your browser.</p>
     <h1>Start a check</h1>
+    <noscript><div class="notice"><p>The check needs JavaScript to load the state and county lists. The <a href="map.html">map</a> and the state pages linked from the <a href="index.html">home page</a> also list the official court and DMV pages.</p></div></noscript>
 
     <section class="step" id="step-1" aria-labelledby="step-1-h">
       <div class="step-head"><span class="step-num" aria-hidden="true">1</span>
         <h2 id="step-1-h">Where did it happen?</h2></div>
       <div class="field">
         <label for="state">State</label>
-        <select id="state">
-          <option value="NE" selected>Nebraska</option>
+        <select id="state" aria-describedby="state-hint">
+          <option value="" selected>Choose a state…</option>
         </select>
-        <p class="hint">Nebraska only in v1. More states come one verified file at a time.</p>
+        <p class="hint" id="state-hint">All 50 states. Pick a state, then a county.</p>
       </div>
       <div class="field">
         <label for="county">County</label>
-        <select id="county">
-          <option value="" selected>Choose a county…</option>
-          <option value="Lancaster">Lancaster</option>
-          <option value="Douglas">Douglas</option>
-          <option value="Sarpy">Sarpy</option>
+        <select id="county" aria-describedby="county-hint">
+          <option value="" selected>Choose a state first…</option>
           <option value="other">Not sure / another county</option>
         </select>
-        <p class="hint">Traffic cases live in the county court where the stop happened.</p>
+        <p class="hint" id="county-hint">Traffic cases live in the county court where the stop happened.</p>
       </div>
       <div class="btn-row">
         <button class="btn" id="to-step-2" type="button">Continue</button>
@@ -88,7 +86,7 @@
         <div>
           <input type="radio" name="have" id="have-handle" value="handle_it">
           <label class="intent-card" for="have-handle">
-            <strong>General how-to-handle-it info</strong>
+            <strong>General how-to-handle-it info (Nebraska guide)</strong>
             <span>Paying, appearing, traffic school, official help. General information only.</span>
           </label>
         </div>
@@ -117,7 +115,7 @@
       <h2 id="step-empty-h">We can't route this yet</h2>
       <div class="notice" id="empty-notice"></div>
       <div class="btn-row">
-        <a class="btn btn-secondary" href="learn.html">General how-to-handle-it info</a>
+        <a class="btn btn-secondary" href="learn.html">General how-to-handle-it info (Nebraska guide)</a>
       </div>
       <a class="back-link" href="#step-1" id="back-to-1b">← Start over</a>
     </section>

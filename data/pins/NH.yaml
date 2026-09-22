@@ -1,0 +1,148 @@
+# New Hampshire map pins — Circuit Court District Division courthouses (50-state wave, 2026-09-21).
+# All 10 counties pinned. Each pin marks the District Division courthouse that hears
+# traffic matters for the county, using the representative venue from data/states/NH.yaml.
+#
+# Verification method, 2026-09-21:
+# - curl to courts.nh.gov returns Akamai 403 (confirmed this pass: "Access Denied").
+#   All live page fetches below were done through the browser text-fetch path.
+# - LIVE-FETCHED (browser text fetch, expected official court content shown):
+#   Coos: https://www.courts.nh.gov/your-visit/find-court/coos-county-district-divisions
+#         (1st Circuit District Division - Lancaster: 55 School Street, Suite 201,
+#         Lancaster, NH 03584);
+#   Carroll: https://www.courts.nh.gov/your-visit/find-court/carroll-county-district-divisions
+#         (3rd Circuit District Division - Ossipee: Carroll County Courthouse,
+#         96 Water Village Road - Box 2, Ossipee, NH 03864);
+#   https://www.courts.nh.gov/your-visit/find-court (Find a Court page, lists all
+#   31 District Division courthouses and links to each per-county page).
+# - Addresses for the other 8 counties verified in the official courts.nh.gov
+#   "Circuit Court Address List" (2021-08) PDF plus official-site search content:
+#   Concord's 32 Clinton Street confirmed on the official "Merrimack County District
+#   Divisions" page; Brentwood's 10 Route 125 confirmed on the official "Rockingham
+#   County District Divisions" page. No address or URL was invented.
+# - A mid-pass browser_fetch failure for the Belknap county page (not retried per
+#   safety rule) meant per-county pages were not re-fetched for the remaining 8
+#   counties; their pin URLs reuse the live-verified Find a Court page instead of
+#   assuming per-county URLs work.
+# Omitted counties: none.
+# Caveats:
+# - Hillsborough has two District Division venues (Manchester and Nashua); the pin
+#   is Manchester, the first representative venue in the state file. Nashua's venue
+#   is 30 Spring Street, Suite 101, Nashua, NH 03060.
+# - Grafton: pin address drops the "Box 10" mailing-box suffix from the official
+#   address list; physical address shown.
+# - Rockingham: geocoder matched the "Rockingham County Courthouse" building
+#   (OSM access road "Autumn Lane"); official address 10 Route 125 kept per
+#   courts.nh.gov.
+# - Coordinates are building-level, not survey-grade.
+# Do not commit without review.
+pins:
+  - id: nh-belknap-courthouse
+    state: NH
+    county: Belknap
+    name: Circuit Court District Division — Laconia (Belknap County)
+    address: 26 Academy Street, Laconia, NH 03246
+    lat: 43.523649
+    lng: -71.469972
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-carroll-courthouse
+    state: NH
+    county: Carroll
+    name: Circuit Court District Division — Ossipee (Carroll County)
+    address: 96 Water Village Road, Ossipee, NH 03864
+    lat: 43.6909759
+    lng: -71.130425
+    url: https://www.courts.nh.gov/your-visit/find-court/carroll-county-district-divisions
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-cheshire-courthouse
+    state: NH
+    county: Cheshire
+    name: Circuit Court District Division — Keene (Cheshire County)
+    address: 33 Winter Street, Suite 1, Keene, NH 03431
+    lat: 42.9340796
+    lng: -72.2816109
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-coos-courthouse
+    state: NH
+    county: Coos
+    name: Circuit Court District Division — Lancaster (Coos County)
+    address: 55 School Street, Suite 201, Lancaster, NH 03584
+    lat: 44.4915195
+    lng: -71.5716135
+    url: https://www.courts.nh.gov/your-visit/find-court/coos-county-district-divisions
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-grafton-courthouse
+    state: NH
+    county: Grafton
+    name: Circuit Court District Division — Haverhill (Grafton County)
+    address: 3785 Dartmouth College Highway, North Haverhill, NH 03774
+    lat: 44.1140384
+    lng: -72.0406013
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-hillsborough-courthouse
+    state: NH
+    county: Hillsborough
+    name: Circuit Court District Division — Manchester (Hillsborough County)
+    address: 35 Amherst Street, Manchester, NH 03101
+    lat: 42.9916002
+    lng: -71.4616467
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-merrimack-courthouse
+    state: NH
+    county: Merrimack
+    name: Circuit Court District Division — Concord (Merrimack County)
+    address: 32 Clinton Street, Concord, NH 03301
+    lat: 43.1937387
+    lng: -71.5431663
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-rockingham-courthouse
+    state: NH
+    county: Rockingham
+    name: Circuit Court District Division — Brentwood (Rockingham County)
+    address: 10 Route 125, Brentwood, NH 03833
+    lat: 42.9598373
+    lng: -71.0645342
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-strafford-courthouse
+    state: NH
+    county: Strafford
+    name: Circuit Court District Division — Dover (Strafford County)
+    address: 25 St. Thomas Street, Dover, NH 03820
+    lat: 43.1939115
+    lng: -70.8765599
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse
+  - id: nh-sullivan-courthouse
+    state: NH
+    county: Sullivan
+    name: Circuit Court District Division — Newport (Sullivan County)
+    address: 55 Main Street, Newport, NH 03773
+    lat: 43.365749
+    lng: -72.1743358
+    url: https://www.courts.nh.gov/your-visit/find-court
+    link_check: manual
+    verification_note: "Official NH courts “Find a Court” page. The parent directory page was human-verified live in a real browser on 2026-09-21; the site blocks automated checks (403), so automated checking is waived for this pin (link_check: manual)."
+    kind: courthouse

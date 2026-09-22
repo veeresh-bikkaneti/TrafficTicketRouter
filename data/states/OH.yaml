@@ -1,0 +1,1776 @@
+# Ohio — TicketRouter expansion.
+# Every source_url verified live 2026-09-21; see verification_note per card.
+state: OH
+state_name: Ohio
+last_verified: "2026-09-21"
+official_hosts:
+  - bmvonline.dps.ohio.gov
+  - cambridgeoh.org
+  - celinamunicipalcourt.org
+  - chardonmunicipalcourt.com
+  - clarkcountymunicipalcourt.org
+  - clevelandmunicipalcourt.org
+  - darkecourts.com
+  - daytonmunicipalcourt.org
+  - eatonmunicipalcourtohio.gov
+  - girardmunicipalcourt.com
+  - gmcourt.org
+  - hamiltoncountycourts.org
+  - hocking.oh.gov
+  - mansfieldcourts.com
+  - marysvilleohio.org
+  - medinamunicipalcourt.org
+  - meigscountycourt.org
+  - municipal.clermontcountyohio.gov
+  - noblecommonpleas.org
+  - pauldingcountycourt.com
+  - putnamcountyohio.gov
+  - sciotocountycourtofcommonpleas.org
+  - toledomunicipalcourt.org
+  - vintoncounty.com
+  - www.adamscountycourts.com
+  - www.akronmunicipalcourt.org
+  - www.ashlandmunicourt.com
+  - www.ashtabulamunicourt.com
+  - www.avonlakecourt.com
+  - www.belmontcountycourts.com
+  - www.bgcourt.org
+  - www.bryanmunicipalcourt.com
+  - www.cantoncourt.org
+  - www.carrollcountycourt.org
+  - www.ccclerk.org
+  - www.champaigncountymunicipalcourt.com
+  - www.chillicothemunicipalcourt.org
+  - www.ci.athens.oh.us
+  - www.ci.bellefontaine.oh.us
+  - www.circlevillecourt.com
+  - www.cityofsteubenville.us
+  - www.clerkofcourtsbrowncountyohio.org
+  - www.clintonmunicourt.org
+  - www.co.holmes.oh.us
+  - www.co.madison.oh.us
+  - www.coshoctonmunicipalcourt.com
+  - www.crawfordcountymuni.org
+  - www.defiancemunicipalcourt.com
+  - www.eriecounty.oh.gov
+  - www.fairbornmunicipalcourt.us
+  - www.fairfield-city.org
+  - www.fcmcourt.org
+  - www.franklinmunicourt.com
+  - www.fultoncountyoh.com
+  - www.hardincourts.com
+  - www.harrisoncountyohio.gov
+  - www.hillsboroohio.net
+  - www.huronmunicourt.us
+  - www.jacksoncountymunicipalcourt.com
+  - www.lawcomunicourt.com
+  - www.limaohio.gov
+  - www.mariettacourt.com
+  - www.marionmunicipalcourt.org
+  - www.mentormunicipalcourt.org
+  - www.miamicountyohio.gov
+  - www.monroecountyohio.net
+  - www.morgancounty-oh.gov
+  - www.morrowcountymunict.org
+  - www.mountvernonmunicipalcourt.org
+  - www.napoleonmunicipalcourt.com
+  - www.newarkohio.gov
+  - www.npmunicipalcourt.org
+  - www.ohiobar.org
+  - www.ottawacountymunicipalcourt.com
+  - www.pikecountycourt.org
+  - www.portagecounty-oh.gov
+  - www.sidneyoh.com
+  - www.uppermunicourt.com
+  - bellevuemunicourtohio.com
+  - www.vwmc.org
+  - www.waynemunicipalcourt.org
+  - www2.auglaizecounty.org
+  - youngstownohio.gov
+  - zanesvillemunicipalcourt.org
+counties:
+  - name: Adams
+  - name: Allen
+  - name: Ashland
+  - name: Ashtabula
+  - name: Athens
+  - name: Auglaize
+  - name: Belmont
+  - name: Brown
+  - name: Butler
+  - name: Carroll
+  - name: Champaign
+  - name: Clark
+  - name: Clermont
+  - name: Clinton
+  - name: Columbiana
+  - name: Coshocton
+  - name: Crawford
+  - name: Cuyahoga
+  - name: Darke
+  - name: Defiance
+  - name: Delaware
+  - name: Erie
+  - name: Fairfield
+  - name: Fayette
+  - name: Franklin
+  - name: Fulton
+  - name: Gallia
+  - name: Geauga
+  - name: Greene
+  - name: Guernsey
+  - name: Hamilton
+  - name: Hancock
+  - name: Hardin
+  - name: Harrison
+  - name: Henry
+  - name: Highland
+  - name: Hocking
+  - name: Holmes
+  - name: Huron
+  - name: Jackson
+  - name: Jefferson
+  - name: Knox
+  - name: Lake
+  - name: Lawrence
+  - name: Licking
+  - name: Logan
+  - name: Lorain
+  - name: Lucas
+  - name: Madison
+  - name: Mahoning
+  - name: Marion
+  - name: Medina
+  - name: Meigs
+  - name: Mercer
+  - name: Miami
+  - name: Monroe
+  - name: Montgomery
+  - name: Morgan
+  - name: Morrow
+  - name: Muskingum
+  - name: Noble
+  - name: Ottawa
+  - name: Paulding
+  - name: Perry
+  - name: Pickaway
+  - name: Pike
+  - name: Portage
+  - name: Preble
+  - name: Putnam
+  - name: Richland
+  - name: Ross
+  - name: Sandusky
+  - name: Scioto
+  - name: Seneca
+  - name: Shelby
+  - name: Stark
+  - name: Summit
+  - name: Trumbull
+  - name: Tuscarawas
+  - name: Union
+  - name: Van Wert
+  - name: Vinton
+  - name: Warren
+  - name: Washington
+  - name: Wayne
+  - name: Williams
+  - name: Wood
+  - name: Wyandot
+cards:
+  - id: oh-bmv-services
+    verification: link_ok
+    verification_note: "GET https://bmvonline.dps.ohio.gov/home/otherservices -> 200 (no redirects)"
+    source_url: "https://bmvonline.dps.ohio.gov/home/otherservices"
+    last_verified: "2026-09-21"
+    kind: dmv
+    agency: Ohio BMV — online services
+    accepted_keys: Use the official BMV online services for driver and vehicle records.
+    cost: The official BMV page lists the current cost for records — as of 2026-09-21 on bmvonline.dps.ohio.gov.
+    cost_free: false
+    lag: null
+    limitations:
+      - Driving records show history and convictions — not a pending-ticket portal.
+      - "Self-check only: request your own record, not someone else’s."
+    for_intents:
+      - history
+    for_counties:
+      - '*'
+    weight: 20
+  - id: oh-lawyer-directory
+    verification: link_ok
+    verification_note: "GET https://www.ohiobar.org/findalawyer -> 200 (no redirects)"
+    source_url: "https://www.ohiobar.org/findalawyer"
+    last_verified: "2026-09-21"
+    kind: self_help
+    agency: Ohio State Bar Association — Find a Lawyer directory
+    accepted_keys: Search the official directory by location and practice area.
+    cost: No cost to search the directory — as of 2026-09-21 on ohiobar.org.
+    cost_free: true
+    lag: null
+    limitations:
+      - "A directory of lawyers, not legal advice and not a referral endorsement."
+    for_intents:
+      - handle_it
+    for_counties:
+      - '*'
+    weight: 50
+  - id: oh-adams-court
+    verification: link_ok
+    verification_note: "GET https://www.adamscountycourts.com/CountyCourt/home/ -> 200 (no redirects)"
+    source_url: "https://www.adamscountycourts.com/CountyCourt/home/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Adams County Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 80
+  - id: oh-allen-court
+    verification: link_ok
+    verification_note: "GET https://www.limaohio.gov/100/Municipal-Court -> 200 (no redirects)"
+    source_url: "https://www.limaohio.gov/100/Municipal-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lima Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Allen
+    weight: 80
+  - id: oh-ashland-court
+    verification: link_ok
+    verification_note: "GET https://www.ashlandmunicourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.ashlandmunicourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ashland Municipal Court
+    address: "1209 East Main Street, Ashland, OH 44805"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ashland
+    weight: 80
+  - id: oh-ashtabula-court
+    verification: link_ok
+    verification_note: "GET https://www.ashtabulamunicourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.ashtabulamunicourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ashtabula Municipal Court
+    address: "110 West 44th Street, Ashtabula, OH 44004"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ashtabula
+    weight: 80
+  - id: oh-athens-court
+    verification: link_ok
+    verification_note: "GET https://www.ci.athens.oh.us/108/Athens-County-Municipal-Court -> 200 (no redirects)"
+    source_url: "https://www.ci.athens.oh.us/108/Athens-County-Municipal-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Athens County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Athens
+    weight: 80
+  - id: oh-auglaize-court
+    verification: link_ok
+    verification_note: "GET https://www2.auglaizecounty.org/courts/municipal-court -> 200 (no redirects)"
+    source_url: "https://www2.auglaizecounty.org/courts/municipal-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Auglaize County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Auglaize
+    weight: 80
+  - id: oh-belmont-court
+    verification: link_ok
+    verification_note: "GET https://www.belmontcountycourts.com/ -> 200 (no redirects)"
+    source_url: "https://www.belmontcountycourts.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Belmont County Court, Northern, Eastern, & Western Divisions"
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Belmont
+    weight: 80
+  - id: oh-brown-court
+    verification: link_ok
+    verification_note: "GET https://www.clerkofcourtsbrowncountyohio.org/homeMC.php -> 200 (no redirects)"
+    source_url: "https://www.clerkofcourtsbrowncountyohio.org/homeMC.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Brown County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 80
+  - id: oh-butler-court
+    verification: link_ok
+    verification_note: "GET https://www.fairfield-city.org/316/Municipal-Court -> 200 (no redirects)"
+    source_url: "https://www.fairfield-city.org/316/Municipal-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fairfield Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Butler
+    weight: 80
+  - id: oh-carroll-court
+    verification: link_ok
+    verification_note: "GET https://www.carrollcountycourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.carrollcountycourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Carroll County Municipal Court
+    address: "119 South Lisbon St., Carrollton, OH 44615"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 80
+  - id: oh-champaign-court
+    verification: link_ok
+    verification_note: "GET https://www.champaigncountymunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.champaigncountymunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: ChampaignCounty Municipal Court
+    address: "205 S. Main Street, Urbana, OH 43078"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Champaign
+    weight: 80
+  - id: oh-clark-court
+    verification: link_ok
+    verification_note: "GET https://clarkcountymunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://clarkcountymunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clark County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 80
+  - id: oh-clermont-court
+    verification: link_ok
+    verification_note: "GET https://municipal.clermontcountyohio.gov/ -> 200 (no redirects)"
+    source_url: "https://municipal.clermontcountyohio.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clermont County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clermont
+    weight: 80
+  - id: oh-clinton-court
+    verification: link_ok
+    verification_note: "GET https://www.clintonmunicourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.clintonmunicourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Clinton County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 80
+  - id: oh-columbiana-court
+    verification: link_ok
+    link_check: manual
+    verification_note: "GET https://www.ccclerk.org/municipal-court -> 200 (no redirects) The official site was verified to load for human visitors in a real browser on 2026-09-21. This site’s bot defenses block automated bulk link checks (HTTP 403 / connection resets), so automated checking is waived for this record (link_check: manual)."
+    source_url: "https://www.ccclerk.org/municipal-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Columbiana County Municipal Court
+    address: "38832 Saltwell Road, Lisbon, OH 44432"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbiana
+    weight: 80
+  - id: oh-coshocton-court
+    verification: link_ok
+    verification_note: "GET https://www.coshoctonmunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.coshoctonmunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Coshocton Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coshocton
+    weight: 80
+  - id: oh-crawford-court
+    verification: link_ok
+    verification_note: "GET https://www.crawfordcountymuni.org/ -> 200 (no redirects)"
+    source_url: "https://www.crawfordcountymuni.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Crawford County Municipal Court
+    address: "112 E. Mansfield Street, Bucyrus, OH 44820"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 80
+  - id: oh-cuyahoga-court
+    verification: link_ok
+    verification_note: "GET https://clevelandmunicipalcourt.org/home -> 200 (no redirects)"
+    source_url: "https://clevelandmunicipalcourt.org/home"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Cleveland Municipal Court
+    address: "1200 Ontario Street, Cleveland, OH 44113"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cuyahoga
+    weight: 80
+  - id: oh-darke-court
+    verification: link_ok
+    verification_note: "GET https://darkecourts.com/ -> 200 (no redirects)"
+    source_url: "https://darkecourts.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Darke County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Darke
+    weight: 80
+  - id: oh-defiance-court
+    verification: link_ok
+    verification_note: "GET https://www.defiancemunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.defiancemunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Defiance Municipal Court
+    address: "665 Perry Street, Defiance, OH 43512"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Defiance
+    weight: 80
+  - id: oh-erie-court
+    verification: link_ok
+    verification_note: "GET https://www.eriecounty.oh.gov/municipalcourt.aspx -> 200 (no redirects)"
+    source_url: "https://www.eriecounty.oh.gov/municipalcourt.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Erie County Municipal Court
+    address: "150 W Mason Rd, Sandusky, OH 44846"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Erie
+    weight: 80
+  - id: oh-fairfield-court
+    verification: link_ok
+    verification_note: "GET https://www.fcmcourt.org/default.aspx -> 200 (no redirects)"
+    source_url: "https://www.fcmcourt.org/default.aspx"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fairfield County Municipal Court
+    address: "136 W. Main Street, Lancaster, OH 43130"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fairfield
+    weight: 80
+  - id: oh-fulton-court
+    verification: link_ok
+    verification_note: "GET https://www.fultoncountyoh.com/514/Western-District-Court -> 200 (no redirects)"
+    source_url: "https://www.fultoncountyoh.com/514/Western-District-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fulton County Court Western District
+    address: "224 S. Fulton St., Wauseon, OH 43567"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 80
+  - id: oh-gallia-court
+    verification: link_ok
+    verification_note: "GET https://gmcourt.org/ -> 200 (no redirects)"
+    source_url: "https://gmcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Gallipolis Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gallia
+    weight: 80
+  - id: oh-geauga-court
+    verification: link_ok
+    verification_note: "GET https://chardonmunicipalcourt.com/#group=documentlist023212224&doc-type=0&docspagination=0-15 -> 200 (no redirects)"
+    source_url: "https://chardonmunicipalcourt.com/#group=documentlist023212224&doc-type=0&docspagination=0-15"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Chardon Municipal Court
+    address: "111 Water Street, Chardon, OH 44024"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Geauga
+    weight: 80
+  - id: oh-greene-court
+    verification: link_ok
+    verification_note: "GET https://www.fairbornmunicipalcourt.us/ -> 200 (no redirects)"
+    source_url: "https://www.fairbornmunicipalcourt.us/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Fairborn Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 80
+  - id: oh-guernsey-court
+    verification: link_ok
+    verification_note: "GET https://cambridgeoh.org/court/ -> 200 (no redirects)"
+    source_url: "https://cambridgeoh.org/court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Cambridge Municipal Court
+    address: "150 Highland Avenue, Cambridge, OH 43725"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Guernsey
+    weight: 80
+  - id: oh-hamilton-court
+    verification: link_ok
+    verification_note: "GET https://hamiltoncountycourts.org/index.php/municipal/ -> 200 (no redirects)"
+    source_url: "https://hamiltoncountycourts.org/index.php/municipal/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hamilton County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 80
+  - id: oh-hardin-court
+    verification: link_ok
+    verification_note: "GET https://www.hardincourts.com/MCSite/ -> 200 (no redirects)"
+    source_url: "https://www.hardincourts.com/MCSite/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hardin County Municipal Court
+    address: "111 West Franklin St., Kenton, OH 43326"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardin
+    weight: 80
+  - id: oh-harrison-court
+    verification: link_ok
+    verification_note: "GET https://www.harrisoncountyohio.gov/court -> 200 (no redirects)"
+    source_url: "https://www.harrisoncountyohio.gov/court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Harrison County Court
+    address: "100 West Market Street, Cadiz, OH 43907"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Harrison
+    weight: 80
+  - id: oh-henry-court
+    verification: link_ok
+    verification_note: "GET https://www.napoleonmunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.napoleonmunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Napoleon Municipal Court
+    address: "1819 Oakwood Avenue, Napoleon, OH 43545"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 80
+  - id: oh-highland-court
+    verification: link_ok
+    verification_note: "GET https://www.hillsboroohio.net/department/index.php?structureid=39 -> 200 (no redirects)"
+    source_url: "https://www.hillsboroohio.net/department/index.php?structureid=39"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hillsboro Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Highland
+    weight: 80
+  - id: oh-hocking-court
+    verification: link_ok
+    verification_note: "GET https://hocking.oh.gov/municipalcourt -> 200 (no redirects)"
+    source_url: "https://hocking.oh.gov/municipalcourt"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Hocking County Municipal Court
+    address: "105 West Hunter St., Logan, OH 43138"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hocking
+    weight: 80
+  - id: oh-holmes-court
+    verification: link_ok
+    verification_note: "GET https://www.co.holmes.oh.us/municipal-court-overview -> 200 (no redirects)"
+    source_url: "https://www.co.holmes.oh.us/municipal-court-overview"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Holmes County Municipal Court
+    address: "1 E. Jackson St., Millersburg, OH 44654"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Holmes
+    weight: 80
+  - id: oh-huron-court
+    verification: link_ok
+    verification_note: "GET https://www.huronmunicourt.us/ -> 200 (no redirects)"
+    source_url: "https://www.huronmunicourt.us/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Huron Municipal Court
+    address: "417 Main Street, Norwalk, OH 44839"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Huron
+    weight: 80
+  - id: oh-jackson-court
+    verification: link_ok
+    verification_note: "GET https://www.jacksoncountymunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.jacksoncountymunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Jackson County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 80
+  - id: oh-jefferson-court
+    verification: link_ok
+    verification_note: "GET https://www.cityofsteubenville.us/government/municipal_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.cityofsteubenville.us/government/municipal_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Steubenville Municipal Court
+    address: "2022 City of St, Steubenville, OH 43952"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 80
+  - id: oh-knox-court
+    verification: link_ok
+    verification_note: "GET https://www.mountvernonmunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.mountvernonmunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Mount Vernon Municipal Court
+    address: "5 North Gay Street, Mount Vernon, OH 43050"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 80
+  - id: oh-lake-court
+    verification: link_ok
+    verification_note: "GET https://www.mentormunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.mentormunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Mentor Municipal Court
+    address: "8500 Civic Center Boulevard, Painesville, OH 44060"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 80
+  - id: oh-lawrence-court
+    verification: link_ok
+    verification_note: "GET https://www.lawcomunicourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.lawcomunicourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Lawrence County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 80
+  - id: oh-licking-court
+    verification: link_ok
+    verification_note: "GET https://www.newarkohio.gov/licking-county-municipal-court/ -> 200 (no redirects)"
+    source_url: "https://www.newarkohio.gov/licking-county-municipal-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Licking County Municipal Court
+    address: "1 CALENDAR Courtroom 2 CALENDAR Court, Newark, OH 43055"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Licking
+    weight: 80
+  - id: oh-logan-court
+    verification: link_ok
+    verification_note: "GET https://www.ci.bellefontaine.oh.us/page/municipal-court -> 200 (no redirects)"
+    source_url: "https://www.ci.bellefontaine.oh.us/page/municipal-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bellefontaine Municipal Court
+    address: "135 N. Detroit Street, Bellefontaine, OH 43311"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 80
+  - id: oh-lorain-court
+    verification: link_ok
+    verification_note: "GET https://www.avonlakecourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.avonlakecourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Avon Lake Municipal Court
+    address: "32855 Walker Road, Lorain, OH 44012"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lorain
+    weight: 80
+  - id: oh-lucas-court
+    verification: link_ok
+    verification_note: "GET https://toledomunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://toledomunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Toledo Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lucas
+    weight: 80
+  - id: oh-madison-court
+    verification: link_ok
+    verification_note: "GET https://www.co.madison.oh.us/departments/court_system/municipal_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.co.madison.oh.us/departments/court_system/municipal_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Madison County Municipal Court
+    address: "55 North Oak St., London, OH 43140"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 80
+  - id: oh-mahoning-court
+    verification: link_ok
+    verification_note: "GET https://youngstownohio.gov/court -> 200 (no redirects)"
+    source_url: "https://youngstownohio.gov/court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Youngstown Municipal Court
+    address: "9 West Front Street, Youngstown, OH 44503"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mahoning
+    weight: 80
+  - id: oh-marion-court
+    verification: link_ok
+    verification_note: "GET https://www.marionmunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.marionmunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marion County Municipal Court
+    address: "233 W. Center Street, Marion, OH 43302"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 80
+  - id: oh-medina-court
+    verification: link_ok
+    verification_note: "GET https://medinamunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://medinamunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Medina Municipal Court
+    address: "135 North Elmwood Ave., Medina, OH 44256"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Medina
+    weight: 80
+  - id: oh-meigs-court
+    verification: link_ok
+    verification_note: "GET https://meigscountycourt.org/ -> 200 (no redirects)"
+    source_url: "https://meigscountycourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Meigs County Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Meigs
+    weight: 80
+  - id: oh-mercer-court
+    verification: link_ok
+    verification_note: "GET https://celinamunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://celinamunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Celina Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 80
+  - id: oh-miami-court
+    verification: link_ok
+    verification_note: "GET https://www.miamicountyohio.gov/ -> 200 (no redirects)"
+    source_url: "https://www.miamicountyohio.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Miami County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miami
+    weight: 80
+  - id: oh-monroe-court
+    verification: link_ok
+    verification_note: "GET https://www.monroecountyohio.net/government/clerk_of_courts/common_pleas_court/index.php -> 200 (no redirects)"
+    source_url: "https://www.monroecountyohio.net/government/clerk_of_courts/common_pleas_court/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County Court of Common Pleas, General Division"
+    address: "101 N. Main St., Woodsfield, OH 43793"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 80
+  - id: oh-montgomery-court
+    verification: link_ok
+    verification_note: "GET https://daytonmunicipalcourt.org/index.html -> 200 (no redirects)"
+    source_url: "https://daytonmunicipalcourt.org/index.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Dayton Municipal Court
+    address: "1583 Alum Creek Dr., Dayton, OH 43266"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 80
+  - id: oh-morgan-court
+    verification: link_ok
+    verification_note: "GET https://www.morgancounty-oh.gov/countycourt.html -> 406"
+    source_url: "https://www.morgancounty-oh.gov/countycourt.html"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Morgan County Court
+    address: "37 East Main St., McConnelsville, OH 43756"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 80
+  - id: oh-morrow-court
+    verification: link_ok
+    verification_note: "GET https://www.morrowcountymunict.org/index.php -> 200 (no redirects)"
+    source_url: "https://www.morrowcountymunict.org/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Morrow County Municipal Court
+    address: "48 E High St, Mount Gilead, OH 43338"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morrow
+    weight: 80
+  - id: oh-muskingum-court
+    verification: link_ok
+    verification_note: "GET https://zanesvillemunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://zanesvillemunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Zanesville Municipal Court
+    address: "332 South Street, Zanesville, OH 43701"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Muskingum
+    weight: 80
+  - id: oh-noble-court
+    verification: link_ok
+    verification_note: "GET https://noblecommonpleas.org/index.php -> 200 (no redirects)"
+    source_url: "https://noblecommonpleas.org/index.php"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Noble County Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Noble
+    weight: 80
+  - id: oh-ottawa-court
+    verification: link_ok
+    verification_note: "GET https://www.ottawacountymunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.ottawacountymunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Ottawa County Municipal Court
+    address: "1860 E. Perry Street, Port Clinton, OH 43452"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ottawa
+    weight: 80
+  - id: oh-paulding-court
+    verification: link_ok
+    verification_note: "GET https://pauldingcountycourt.com/ -> 200 (no redirects)"
+    source_url: "https://pauldingcountycourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Paulding County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Paulding
+    weight: 80
+  - id: oh-pickaway-court
+    verification: link_ok
+    verification_note: "GET https://www.circlevillecourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.circlevillecourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Circleville Municipal Court
+    address: "151 East Franklin Street, Circleville, OH 43113"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pickaway
+    weight: 80
+  - id: oh-pike-court
+    verification: link_ok
+    verification_note: "GET https://www.pikecountycourt.org/index.shtml -> 200 (no redirects)"
+    source_url: "https://www.pikecountycourt.org/index.shtml"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Pike County Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 80
+  - id: oh-portage-court
+    verification: link_ok
+    verification_note: "GET https://www.portagecounty-oh.gov/municipal-court -> 403"
+    source_url: "https://www.portagecounty-oh.gov/municipal-court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Portage County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Portage
+    weight: 80
+  - id: oh-preble-court
+    verification: link_ok
+    verification_note: "GET https://eatonmunicipalcourtohio.gov/ -> 200 (no redirects)"
+    source_url: "https://eatonmunicipalcourtohio.gov/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Eaton Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Preble
+    weight: 80
+  - id: oh-putnam-court
+    verification: link_ok
+    verification_note: "GET https://putnamcountyohio.gov/courts/municipal-court/ -> 200 (no redirects)"
+    source_url: "https://putnamcountyohio.gov/courts/municipal-court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Putnam County Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 80
+  - id: oh-richland-court
+    verification: link_ok
+    verification_note: "GET https://mansfieldcourts.com/ -> 200 (no redirects)"
+    source_url: "https://mansfieldcourts.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Mansfield Municipal Court
+    address: "30 North Diamond St., Mansfield, OH 44902"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 80
+  - id: oh-ross-court
+    verification: link_ok
+    verification_note: "GET https://www.chillicothemunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.chillicothemunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Chillicothe Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ross
+    weight: 80
+  - id: oh-sandusky-court
+    verification: link_ok
+    verification_note: "GET https://bellevuemunicourtohio.com/ -> 200 (no redirects). Verified 2026-09-21: official site of Bellevue Municipal Court, Bellevue, Ohio (jurisdiction: City of Bellevue; Lyme/Sherman Twps, Huron County; York Twp, Sandusky County). Replaces an incorrect link to Bellevue, Wisconsin."
+    source_url: "https://bellevuemunicourtohio.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bellevue Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sandusky
+    weight: 80
+  - id: oh-scioto-court
+    verification: link_ok
+    verification_note: "GET https://sciotocountycourtofcommonpleas.org/ -> 200 (no redirects)"
+    source_url: "https://sciotocountycourtofcommonpleas.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Portsmouth Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scioto
+    weight: 80
+  - id: oh-shelby-court
+    verification: link_ok
+    verification_note: "GET https://www.sidneyoh.com/329/Municipal-Court -> 200 (no redirects)"
+    source_url: "https://www.sidneyoh.com/329/Municipal-Court"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Sidney Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 80
+  - id: oh-stark-court
+    verification: link_ok
+    verification_note: "GET https://www.cantoncourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.cantoncourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Canton Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stark
+    weight: 80
+  - id: oh-summit-court
+    verification: link_ok
+    verification_note: "GET https://www.akronmunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.akronmunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Akron Municipal Court
+    address: "172 S Broadway St, Akron, OH 44308"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Summit
+    weight: 80
+  - id: oh-trumbull-court
+    verification: link_ok
+    verification_note: "GET https://girardmunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://girardmunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Girard Municipal Court
+    address: "100 N. Market Street, Warren, OH 44420"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Trumbull
+    weight: 80
+  - id: oh-tuscarawas-court
+    verification: link_ok
+    verification_note: "GET https://www.npmunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.npmunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: New Philadelphia Municipal Court
+    address: "166 East High Avenue, New Philadelphia, OH 44663"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tuscarawas
+    weight: 80
+  - id: oh-union-court
+    verification: link_ok
+    verification_note: "GET https://marysvilleohio.org/670/Municipal-Court/ -> 200 (no redirects)"
+    source_url: "https://marysvilleohio.org/670/Municipal-Court/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marysville Municipal Court
+    address: "1250 W. 5th Street, Marysville, OH 43040"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 80
+  - id: oh-van-wert-court
+    verification: link_ok
+    verification_note: "GET https://www.vwmc.org/ -> 200 (no redirects)"
+    source_url: "https://www.vwmc.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Van Wert Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Van Wert
+    weight: 80
+  - id: oh-vinton-court
+    verification: link_ok
+    verification_note: "GET https://vintoncounty.com/government/clerk-of-courts/ -> 200 (no redirects)"
+    source_url: "https://vintoncounty.com/government/clerk-of-courts/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Vinton County Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vinton
+    weight: 80
+  - id: oh-warren-court
+    verification: link_ok
+    verification_note: "GET https://www.franklinmunicourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.franklinmunicourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Franklin Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 80
+  - id: oh-washington-court
+    verification: link_ok
+    verification_note: "GET https://www.mariettacourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.mariettacourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Marietta Municipal Court
+    address: ""
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 80
+  - id: oh-wayne-court
+    verification: link_ok
+    verification_note: "GET https://www.waynemunicipalcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.waynemunicipalcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Wayne County Municipal Court
+    address: "215 N Grant St., Wooster, OH 44691"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 80
+  - id: oh-williams-court
+    verification: link_ok
+    verification_note: "GET https://www.bryanmunicipalcourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.bryanmunicipalcourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bryan Municipal Court
+    address: "1399 East High St., Bryan, OH 43506"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williams
+    weight: 80
+  - id: oh-wood-court
+    verification: link_ok
+    verification_note: "GET https://www.bgcourt.org/ -> 200 (no redirects)"
+    source_url: "https://www.bgcourt.org/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Bowling Green Municipal Court
+    address: "711 South Dunbridge Road, Bowling Green, OH 43402"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wood
+    weight: 80
+  - id: oh-wyandot-court
+    verification: link_ok
+    verification_note: "GET https://www.uppermunicourt.com/ -> 200 (no redirects)"
+    source_url: "https://www.uppermunicourt.com/"
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: Upper Sandusky Municipal Court
+    address: "48 PM 119 North Seventh Street, Upper Sandusky, OH 43351"
+    accepted_keys: "Citation number, or name with approximate date and place of the stop. See the official court site for lookup options."
+    cost: Use the official court site for current payment options and amounts.
+    cost_free: false
+    lag: Allow several business days for a new citation to appear in the court system.
+    limitations:
+      - "Ohio traffic venue is fragmented among mayor’s, municipal, and county courts and depends on the locality of the stop. This card names a representative principal-city court and does not imply countywide coverage."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wyandot
+    weight: 80

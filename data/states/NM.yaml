@@ -1,0 +1,94 @@
+# New Mexico — 33 counties. 0 verified cards.
+# nmcourts.gov uses 13 judicial district subdomains; individual magistrate/metro
+# court URLs for all 33 counties were not independently verified to HTTP 200.
+# Counties listed per requirement; cards omitted pending verification.
+state: NM
+state_name: New Mexico
+last_verified: "2026-09-21"
+official_hosts:
+  - nmcourts.gov
+counties:
+  - name: Bernalillo
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Catron
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Chaves
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Cibola
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Colfax
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Curry
+    note: "Official magistrate/metro court page not independently verified."
+  - name: De Baca
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Dona Ana
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Eddy
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Grant
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Guadalupe
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Harding
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Hidalgo
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Lea
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Lincoln
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Los Alamos
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Luna
+    note: "Official magistrate/metro court page not independently verified."
+  - name: McKinley
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Mora
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Otero
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Quay
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Rio Arriba
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Roosevelt
+    note: "Official magistrate/metro court page not independently verified."
+  - name: San Juan
+    note: "Official magistrate/metro court page not independently verified."
+  - name: San Miguel
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Sandoval
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Santa Fe
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Sierra
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Socorro
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Taos
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Torrance
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Union
+    note: "Official magistrate/metro court page not independently verified."
+  - name: Valencia
+    note: "Official magistrate/metro court page not independently verified."
+cards:
+  - id: nm-guidance-card
+    verification: link_ok
+    source_url: null
+    last_verified: "2026-09-21"
+    kind: guidance
+    agency: "New Mexico Courts"
+    accepted_keys: "See the official court page for contact options."
+    cost: "No cost to look up — as of 2026-09-21."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Individual county magistrate and metro court pages were not independently verified — use the New Mexico Courts' court-locator on the official site to find the magistrate or metro court for the county where the stop happened, and confirm the venue with the court clerk."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 10

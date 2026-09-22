@@ -1,0 +1,1054 @@
+# Kansas courthouse map pins.
+# Addresses verified against official sources 2026-09-21; coordinates via
+# Nominatim/OpenStreetMap (second source). URLs reused verbatim from
+# data/states/KS.yaml — never invented.
+pins:
+  - id: ks-allen-courthouse
+    state: KS
+    county: Allen
+    name: "Allen County District Court"
+    address: "1 N Washington Iola, KS 66749"
+    lat: 37.9225917
+    lng: -95.4043955
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    kind: courthouse
+
+  - id: ks-anderson-courthouse
+    state: KS
+    county: Anderson
+    name: "Anderson County District Court"
+    address: "100 E 4th Ave., Garnett, KS 66032"
+    lat: 38.2805772
+    lng: -95.2419192
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-atchison-courthouse
+    state: KS
+    county: Atchison
+    name: "Atchison County District Court"
+    address: "423 N 5th St., Atchison, KS 66002"
+    lat: 39.5632392
+    lng: -95.1199452
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/1st-Judicial-District"
+    kind: courthouse
+
+  - id: ks-barber-courthouse
+    state: KS
+    county: Barber
+    name: "Barber County District Court"
+    address: "118 E Washington Medicine Lodge, KS 67104"
+    lat: 37.2795690
+    lng: -98.5783570
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-barton-courthouse
+    state: KS
+    county: Barton
+    name: "Barton County District Court"
+    address: "1400 Main St., Room 306 Great Bend, KS 67530-4098"
+    lat: 38.3572572
+    lng: -98.7650845
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    kind: courthouse
+
+  - id: ks-bourbon-courthouse
+    state: KS
+    county: Bourbon
+    name: "Bourbon County District Court"
+    address: "210 S National Ave., Fort Scott, KS 66701"
+    lat: 37.8396625
+    lng: -94.7074478
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-brown-courthouse
+    state: KS
+    county: Brown
+    name: "Brown County District Court"
+    address: "601 Oregon St., Hiawatha, KS 66434-0417"
+    lat: 39.8523691
+    lng: -95.5364627
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    kind: courthouse
+
+  - id: ks-butler-courthouse
+    state: KS
+    county: Butler
+    name: "Butler County District Court"
+    address: "201 W Pine Suite 101 El Dorado, KS 67042-2947"
+    lat: 37.8164575
+    lng: -96.8567545
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    kind: courthouse
+
+  - id: ks-chase-courthouse
+    state: KS
+    county: Chase
+    name: "Chase County District Court"
+    address: "300 Pearl St., Cottonwood Falls, KS 66845"
+    lat: 38.3706170
+    lng: -96.5417600
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/5th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-chautauqua-courthouse
+    state: KS
+    county: Chautauqua
+    name: "Chautauqua County District Court"
+    address: "215 N Chautauqua St., 3rd floor Sedan, KS 67361"
+    lat: 37.1298952
+    lng: -96.1868033
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/14th-judicial-District"
+    kind: courthouse
+
+  - id: ks-cherokee-courthouse
+    state: KS
+    county: Cherokee
+    name: "Cherokee County District Court"
+    address: "110 W Maple Columbus, KS 66725"
+    lat: 37.1704046
+    lng: -94.8431853
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    kind: courthouse
+
+  - id: ks-cheyenne-courthouse
+    state: KS
+    county: Cheyenne
+    name: "Cheyenne County District Court"
+    address: "212 E Washington St., St Francis, KS 67756"
+    lat: 39.7745955
+    lng: -101.7995325
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-clark-courthouse
+    state: KS
+    county: Clark
+    name: "Clark County District Court"
+    address: "913 Highland Ashland, KS 67831"
+    lat: 37.1868803
+    lng: -99.7671091
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-clay-courthouse
+    state: KS
+    county: Clay
+    name: "Clay County District Court"
+    address: "712 5th St., Suite 204 Clay Center, KS 67432"
+    lat: 39.3767603
+    lng: -97.1255647
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/21st-judicial-District"
+    kind: courthouse
+
+  - id: ks-cloud-courthouse
+    state: KS
+    county: Cloud
+    name: "Cloud County District Court"
+    address: "811 Washington Suite P Concordia, KS 66901"
+    lat: 39.5715102
+    lng: -97.6610863
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-coffey-courthouse
+    state: KS
+    county: Coffey
+    name: "Coffey County District Court"
+    address: "110 S 6th St., Suite 102 Burlington, KS 66839-1798"
+    lat: 38.1944667
+    lng: -95.7427641
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-comanche-courthouse
+    state: KS
+    county: Comanche
+    name: "Comanche County District Court"
+    address: "201 S New York Ave., Coldwater, KS 67029"
+    lat: 37.2684021
+    lng: -99.3260293
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-cowley-courthouse
+    state: KS
+    county: Cowley
+    name: "Cowley County District Court"
+    address: "311 E 9th Ave., Winfield, KS 67156"
+    lat: 37.2397486
+    lng: -96.9955919
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/19th-judicial-District"
+    kind: courthouse
+
+  - id: ks-crawford-courthouse
+    state: KS
+    county: Crawford
+    name: "Crawford County District Court"
+    address: "602 N Locust St. Pittsburg, KS 66762"
+    lat: 37.4134033
+    lng: -94.7025637
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    kind: courthouse
+
+  - id: ks-decatur-courthouse
+    state: KS
+    county: Decatur
+    name: "Decatur County District Court"
+    address: "120 E Hall St., Oberlin, KS 67749"
+    lat: 39.8192562
+    lng: -100.5284258
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-dickinson-courthouse
+    state: KS
+    county: Dickinson
+    name: "Dickinson County District Court"
+    address: "109 E 1st St., Abilene, KS 67410"
+    lat: 38.9172520
+    lng: -97.2137700
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-doniphan-courthouse
+    state: KS
+    county: Doniphan
+    name: "Doniphan County District Court"
+    address: "120 E Chestnut St., Troy, KS 66087"
+    lat: 39.7855963
+    lng: -95.0893334
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    kind: courthouse
+
+  - id: ks-douglas-courthouse
+    state: KS
+    county: Douglas
+    name: "Douglas County District Court"
+    address: "111 E 11th St. Lawrence, KS 66044-2966"
+    lat: 38.9632257
+    lng: -95.2343444
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/7th-judicial-District"
+    kind: courthouse
+
+  - id: ks-edwards-courthouse
+    state: KS
+    county: Edwards
+    name: "Edwards County District Court"
+    address: "312 Massachusetts Kinsley, KS 67547"
+    lat: 37.9254042
+    lng: -99.4146388
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-elk-courthouse
+    state: KS
+    county: Elk
+    name: "Elk County District Court"
+    address: "127 N Pine Howard, KS 67349"
+    lat: 37.4693410
+    lng: -96.2623658
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    kind: courthouse
+
+  - id: ks-ellis-courthouse
+    state: KS
+    county: Ellis
+    name: "Ellis County District Court"
+    address: "107 W 12th St. Hays, KS 67601"
+    lat: 38.8729082
+    lng: -99.3301870
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-ellsworth-courthouse
+    state: KS
+    county: Ellsworth
+    name: "Ellsworth County District Court"
+    address: "210 N Kansas Ave. Ellsworth, KS 67439-3118"
+    lat: 38.7322602
+    lng: -98.2297369
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    kind: courthouse
+
+  - id: ks-finney-courthouse
+    state: KS
+    county: Finney
+    name: "Finney County District Court"
+    address: "425 N 8th St Garden City, KS 67846-0798"
+    lat: 37.9690279
+    lng: -100.8751981
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-ford-courthouse
+    state: KS
+    county: Ford
+    name: "Ford County District Court"
+    address: "101 W Spruce St., Dodge City, KS 67801"
+    lat: 37.7541538
+    lng: -100.0174559
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-franklin-courthouse
+    state: KS
+    county: Franklin
+    name: "Franklin County District Court"
+    address: "301 S Main St. Ottawa, KS 66067-0637"
+    lat: 38.6134696
+    lng: -95.2679007
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-geary-courthouse
+    state: KS
+    county: Geary
+    name: "Geary County District Court"
+    address: "138 E 8th St. Junction City, KS 66441"
+    lat: 39.0304358
+    lng: -96.8289382
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-gove-courthouse
+    state: KS
+    county: Gove
+    name: "Gove County District Court"
+    address: "420 Broad St., Gove, KS 67736"
+    lat: 38.9586871
+    lng: -100.4879698
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-graham-courthouse
+    state: KS
+    county: Graham
+    name: "Graham County District Court"
+    address: "410 N Pomeroy Ave., Suite 9 Hill City, KS 67642"
+    lat: 39.3682519
+    lng: -99.8414978
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-grant-courthouse
+    state: KS
+    county: Grant
+    name: "Grant County District Court"
+    address: "108 S Glenn Ulysses, KS 67880"
+    lat: 37.5805762
+    lng: -101.3565786
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-gray-courthouse
+    state: KS
+    county: Gray
+    name: "Gray County District Court"
+    address: "300 S Main St., Cimarron, KS 67835"
+    lat: 37.8083646
+    lng: -100.3479966
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-greeley-courthouse
+    state: KS
+    county: Greeley
+    name: "Greeley County District Court"
+    address: "616 2nd St., Tribune, KS 67879"
+    lat: 38.4715469
+    lng: -101.7507775
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-greenwood-courthouse
+    state: KS
+    county: Greenwood
+    name: "Greenwood County District Court"
+    address: "311 N Main Eureka, KS 67045"
+    lat: 37.8216188
+    lng: -96.2949019
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/13th-judicial-District"
+    kind: courthouse
+
+  - id: ks-hamilton-courthouse
+    state: KS
+    county: Hamilton
+    name: "Hamilton County District Court"
+    address: "219 N Main Syracuse, KS 67878"
+    lat: 37.9805686
+    lng: -101.7526710
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-harper-courthouse
+    state: KS
+    county: Harper
+    name: "Harper County District Court"
+    address: "201 N Jennings Anthony, KS 67003"
+    lat: 37.1594639
+    lng: -98.0301902
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-harvey-courthouse
+    state: KS
+    county: Harvey
+    name: "Harvey County District Court"
+    address: "800 N Main St., Newton, KS 67114"
+    lat: 38.0516882
+    lng: -97.3435198
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/9th-judicial-District"
+    kind: courthouse
+
+  - id: ks-haskell-courthouse
+    state: KS
+    county: Haskell
+    name: "Haskell County District Court"
+    address: "300 S Inman Sublette, KS 67877"
+    lat: 37.4785391
+    lng: -100.8437377
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-hodgeman-courthouse
+    state: KS
+    county: Hodgeman
+    name: "Hodgeman County District Court"
+    address: "500 Main Jetmore, KS 67854-0187"
+    lat: 38.0845040
+    lng: -99.8936960
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-jackson-courthouse
+    state: KS
+    county: Jackson
+    name: "Jackson County District Court"
+    address: "400 New York Ave., Room 311 Holton, KS 66436"
+    lat: 39.4635300
+    lng: -95.7361280
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-jefferson-courthouse
+    state: KS
+    county: Jefferson
+    name: "Jefferson County District Court"
+    address: "300 Jefferson St., Oskaloosa, KS 66066"
+    lat: 39.2149104
+    lng: -95.3196888
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-jewell-courthouse
+    state: KS
+    county: Jewell
+    name: "Jewell County District Court"
+    address: "307 N Commercial, Ste. 9 Mankato, KS 66956"
+    lat: 39.7883990
+    lng: -98.2103553
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-johnson-courthouse
+    state: KS
+    county: Johnson
+    name: "Johnson County District Court"
+    address: "150 W Santa Fe St. Olathe, KS 66061-3273"
+    lat: 38.8837864
+    lng: -94.8436389
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/10th-judicial-District"
+    kind: courthouse
+
+  - id: ks-kearny-courthouse
+    state: KS
+    county: Kearny
+    name: "Kearny County District Court"
+    address: "304 N Main Lakin, KS 67860"
+    lat: 37.9423112
+    lng: -101.2561432
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-kingman-courthouse
+    state: KS
+    county: Kingman
+    name: "Kingman County District Court"
+    address: "130 N Spruce Kingman, KS 67068"
+    lat: 37.6447931
+    lng: -98.1117766
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-kiowa-courthouse
+    state: KS
+    county: Kiowa
+    name: "Kiowa County District Court"
+    address: "211 E Florida Ave. Greensburg, KS 67054"
+    lat: 37.6072070
+    lng: -99.2912521
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-labette-courthouse
+    state: KS
+    county: Labette
+    name: "Labette County District Court"
+    address: "201 S Central Parsons, KS 67357"
+    lat: 37.3394610
+    lng: -95.2639670
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/11th-judicial-District"
+    kind: courthouse
+
+  - id: ks-lane-courthouse
+    state: KS
+    county: Lane
+    name: "Lane County District Court"
+    address: "144 S Lane Dighton, KS 67839"
+    lat: 38.4813415
+    lng: -100.4651981
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-leavenworth-courthouse
+    state: KS
+    county: Leavenworth
+    name: "Leavenworth County District Court"
+    address: "601 S 3rd St., Suite 3051 Leavenworth, KS 66048-2868"
+    lat: 39.3070397
+    lng: -94.9091572
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/1st-Judicial-District"
+    kind: courthouse
+
+  - id: ks-lincoln-courthouse
+    state: KS
+    county: Lincoln
+    name: "Lincoln County District Court"
+    address: "216 E Lincoln Avenue Lincoln, KS 67455"
+    lat: 39.0406668
+    lng: -98.1452109
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-linn-courthouse
+    state: KS
+    county: Linn
+    name: "Linn County District Court"
+    address: "308 Main Street Mound City, KS 66056"
+    lat: 38.1426799
+    lng: -94.8109417
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-logan-courthouse
+    state: KS
+    county: Logan
+    name: "Logan County District Court"
+    address: "710 W 2nd St. Oakley, KS 67748"
+    lat: 39.1265369
+    lng: -100.8601770
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-lyon-courthouse
+    state: KS
+    county: Lyon
+    name: "Lyon County District Court"
+    address: "430 Commercial St. Emporia, KS 66801"
+    lat: 38.4032862
+    lng: -96.1798177
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/5th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-marion-courthouse
+    state: KS
+    county: Marion
+    name: "Marion County District Court"
+    address: "200 S 3rd St. Marion, KS 66861"
+    lat: 38.3463050
+    lng: -97.0199680
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-marshall-courthouse
+    state: KS
+    county: Marshall
+    name: "Marshall County District Court"
+    address: "1201 Broadway Marysville, KS 66508-0149"
+    lat: 39.8416010
+    lng: -96.6430050
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    kind: courthouse
+
+  - id: ks-mcpherson-courthouse
+    state: KS
+    county: McPherson
+    name: "McPherson County District Court"
+    address: "117 N Maple St., McPherson, KS 67460"
+    lat: 38.3699010
+    lng: -97.6689489
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/9th-judicial-District"
+    kind: courthouse
+
+  - id: ks-meade-courthouse
+    state: KS
+    county: Meade
+    name: "Meade County District Court"
+    address: "200 N Fowler St., Meade, KS 67864"
+    lat: 37.2870912
+    lng: -100.3395391
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/16th-judicial-District"
+    kind: courthouse
+
+  - id: ks-miami-courthouse
+    state: KS
+    county: Miami
+    name: "Miami County District Court"
+    address: "120 S Pearl St. Paola, KS 66071"
+    lat: 38.5715807
+    lng: -94.8781238
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/6th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-mitchell-courthouse
+    state: KS
+    county: Mitchell
+    name: "Mitchell County District Court"
+    address: "115 S Hersey Beloit, KS 67420"
+    lat: 39.4586301
+    lng: -98.1079172
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-montgomery-courthouse
+    state: KS
+    county: Montgomery
+    name: "Montgomery County District Court"
+    address: "300 E Main St., Suite 201 Independence, KS 67301"
+    lat: 37.2231650
+    lng: -95.6926789
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/14th-judicial-District"
+    kind: courthouse
+
+  - id: ks-morris-courthouse
+    state: KS
+    county: Morris
+    name: "Morris County District Court"
+    address: "501 W Main St., Suite 201 Council Grove, KS 66846"
+    lat: 38.6593708
+    lng: -96.4952733
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/8th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-morton-courthouse
+    state: KS
+    county: Morton
+    name: "Morton County District Court"
+    address: "1025 Morton Elkhart, KS 67950"
+    lat: 36.9984914
+    lng: -101.8915819
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-nemaha-courthouse
+    state: KS
+    county: Nemaha
+    name: "Nemaha County District Court"
+    address: "607 Nemaha St., Ste. 1 Seneca, KS 66538-0213"
+    lat: 39.8363816
+    lng: -96.0642657
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/22nd-judicial-District"
+    kind: courthouse
+
+  - id: ks-neosho-courthouse
+    state: KS
+    county: Neosho
+    name: "Neosho County District Court"
+    address: "102 S Lincoln Chanute, KS 66720"
+    lat: 37.6807541
+    lng: -95.4516190
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    kind: courthouse
+
+  - id: ks-ness-courthouse
+    state: KS
+    county: Ness
+    name: "Ness County District Court"
+    address: "100 S Kansas Ness City, KS 67560"
+    lat: 38.4467750
+    lng: -99.9050228
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-norton-courthouse
+    state: KS
+    county: Norton
+    name: "Norton County District Court"
+    address: "101 S Kansas Ave., Norton, KS 67654"
+    lat: 39.8289810
+    lng: -99.8881380
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-osage-courthouse
+    state: KS
+    county: Osage
+    name: "Osage County District Court"
+    address: "717 Topeka Ave., Lyndon, KS 66451"
+    lat: 38.6101190
+    lng: -95.6843605
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/4th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-osborne-courthouse
+    state: KS
+    county: Osborne
+    name: "Osborne County District Court"
+    address: "423 W Main Osborne, KS 67473-0160"
+    lat: 39.4382343
+    lng: -98.7015105
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-ottawa-courthouse
+    state: KS
+    county: Ottawa
+    name: "Ottawa County District Court"
+    address: "307 N Concord Minneapolis, KS 67467"
+    lat: 39.1236204
+    lng: -97.7086263
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/28th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-pawnee-courthouse
+    state: KS
+    county: Pawnee
+    name: "Pawnee County District Court"
+    address: "715 Broadway Larned, KS 67550-0270"
+    lat: 38.1808934
+    lng: -99.0984643
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-phillips-courthouse
+    state: KS
+    county: Phillips
+    name: "Phillips County District Court"
+    address: "301 State St., Suite E Phillipsburg, KS 67661-0564"
+    lat: 39.7564718
+    lng: -99.3238931
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-pottawatomie-courthouse
+    state: KS
+    county: Pottawatomie
+    name: "Pottawatomie County District Court"
+    address: "108 N 1st St., Westmoreland, KS 66549"
+    lat: 39.3929910
+    lng: -96.4129930
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-pratt-courthouse
+    state: KS
+    county: Pratt
+    name: "Pratt County District Court"
+    address: "300 S Ninnescah Pratt, KS 67124"
+    lat: 37.6413707
+    lng: -98.7381939
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-rawlins-courthouse
+    state: KS
+    county: Rawlins
+    name: "Rawlins County District Court"
+    address: "607 Main St., Suite F Atwood, KS 67730"
+    lat: 39.8081234
+    lng: -101.0396271
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-reno-courthouse
+    state: KS
+    county: Reno
+    name: "Reno County District Court"
+    address: "206 W First St. Hutchinson, KS 67501"
+    lat: 38.0608444
+    lng: -97.9297743
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/27th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-republic-courthouse
+    state: KS
+    county: Republic
+    name: "Republic County District Court"
+    address: "1815 M Street Belleville, KS 66935"
+    lat: 39.8237011
+    lng: -97.6308778
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-rice-courthouse
+    state: KS
+    county: Rice
+    name: "Rice County District Court"
+    address: "101 W Commercial St., 3rd Floor Lyons, KS 67554-2797"
+    lat: 38.3549545
+    lng: -98.2017947
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    kind: courthouse
+
+  - id: ks-riley-courthouse
+    state: KS
+    county: Riley
+    name: "Riley County District Court"
+    address: "100 Courthouse Plaza Manhattan, KS 66502-0158"
+    lat: 39.1797622
+    lng: -96.5630341
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/21st-judicial-District"
+    kind: courthouse
+
+  - id: ks-rooks-courthouse
+    state: KS
+    county: Rooks
+    name: "Rooks County District Court"
+    address: "115 N Walnut St. Stockton, KS 67669"
+    lat: 39.4368390
+    lng: -99.2737900
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-rush-courthouse
+    state: KS
+    county: Rush
+    name: "Rush County District Court"
+    address: "715 Elm LaCrosse, KS 67548"
+    lat: 38.5302223
+    lng: -99.3114160
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/24th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-russell-courthouse
+    state: KS
+    county: Russell
+    name: "Russell County District Court"
+    address: "401 N Main St., Russell, KS 67665-0876"
+    lat: 38.8893520
+    lng: -98.8597370
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    kind: courthouse
+
+  - id: ks-saline-courthouse
+    state: KS
+    county: Saline
+    name: "Saline County District Court"
+    address: "300 W Ash Salina, KS 67402-1760"
+    lat: 38.8428814
+    lng: -97.6186087
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/28th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-scott-courthouse
+    state: KS
+    county: Scott
+    name: "Scott County District Court"
+    address: "303 Court St Scott City, KS 67871"
+    lat: 38.4843489
+    lng: -100.9083272
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-sedgwick-courthouse
+    state: KS
+    county: Sedgwick
+    name: "Sedgwick County District Court"
+    address: "525 N Main Wichita, KS 67203-3773"
+    lat: 37.6989031
+    lng: -97.3381693
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/18th-judicial-District"
+    kind: courthouse
+
+  - id: ks-seward-courthouse
+    state: KS
+    county: Seward
+    name: "Seward County District Court"
+    address: "415 N Washington Ste 103 Liberal, KS 67901"
+    lat: 37.0421870
+    lng: -100.9204089
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-shawnee-courthouse
+    state: KS
+    county: Shawnee
+    name: "Shawnee County District Court"
+    address: "200 SE 7th St., Suite 209 Topeka, KS 66603"
+    lat: 39.0502583
+    lng: -95.6717658
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/3rd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-sheridan-courthouse
+    state: KS
+    county: Sheridan
+    name: "Sheridan County District Court"
+    address: "925 9th St., Hoxie, KS 67740"
+    lat: 39.3546640
+    lng: -100.4433701
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-sherman-courthouse
+    state: KS
+    county: Sherman
+    name: "Sherman County District Court"
+    address: "813 Broadway Ave., Room 201 Goodland, KS 67735"
+    lat: 39.3509959
+    lng: -101.7102461
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-smith-courthouse
+    state: KS
+    county: Smith
+    name: "Smith County District Court"
+    address: "218 S Grant St., Smith Center, KS 66967-0273"
+    lat: 39.7759132
+    lng: -98.7825255
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/17th-judicial-District"
+    kind: courthouse
+
+  - id: ks-stafford-courthouse
+    state: KS
+    county: Stafford
+    name: "Stafford County District Court"
+    address: "209 N Broadway St., 3rd Floor St John, KS 67576-2050"
+    lat: 38.0010982
+    lng: -98.7600118
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/20th-judicial-District"
+    kind: courthouse
+
+  - id: ks-stanton-courthouse
+    state: KS
+    county: Stanton
+    name: "Stanton County District Court"
+    address: "201 N Main Johnson, KS 67855-0913"
+    lat: 37.5718937
+    lng: -101.7502318
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-stevens-courthouse
+    state: KS
+    county: Stevens
+    name: "Stevens County District Court"
+    address: "200 E 6th Hugoton, KS 67951"
+    lat: 37.1772710
+    lng: -101.3462720
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/26th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-sumner-courthouse
+    state: KS
+    county: Sumner
+    name: "Sumner County District Court"
+    address: "501 N Washington Wellington, KS 67152"
+    lat: 37.2793661
+    lng: -97.3984960
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/30th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-thomas-courthouse
+    state: KS
+    county: Thomas
+    name: "Thomas County District Court"
+    address: "275 N Court Ave. Colby, KS 67701"
+    lat: 39.3954842
+    lng: -101.0422617
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-trego-courthouse
+    state: KS
+    county: Trego
+    name: "Trego County District Court"
+    address: "216 N Main St. WaKeeney, KS 67672"
+    lat: 39.0257985
+    lng: -99.8838434
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/23rd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-wabaunsee-courthouse
+    state: KS
+    county: Wabaunsee
+    name: "Wabaunsee County District Court"
+    address: "215 Kansas Ave., Alma, KS 66401"
+    lat: 39.0122821
+    lng: -96.2918751
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/2nd-Judicial-District"
+    kind: courthouse
+
+  - id: ks-wallace-courthouse
+    state: KS
+    county: Wallace
+    name: "Wallace County District Court"
+    address: "313 N Main St., Sharon Springs, KS 67758"
+    lat: 38.8973023
+    lng: -101.7516940
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/15th-judicial-District"
+    kind: courthouse
+
+  - id: ks-washington-courthouse
+    state: KS
+    county: Washington
+    name: "Washington County District Court"
+    address: "214 C Street Washington, KS 66968"
+    lat: 39.8183171
+    lng: -97.0511790
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/12th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-wichita-courthouse
+    state: KS
+    county: Wichita
+    name: "Wichita County District Court"
+    address: "206 S 4th Leoti, KS 67861-0968"
+    lat: 38.4829085
+    lng: -101.3582475
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/25th-Judicial-District"
+    kind: courthouse
+
+  - id: ks-wilson-courthouse
+    state: KS
+    county: Wilson
+    name: "Wilson County District Court"
+    address: "615 Madison Rm 214 Fredonia, KS 66736"
+    lat: 37.5338483
+    lng: -95.8276516
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    kind: courthouse
+
+  - id: ks-woodson-courthouse
+    state: KS
+    county: Woodson
+    name: "Woodson County District Court"
+    address: "105 W Rutledge Yates Center, KS 66783"
+    lat: 37.8813693
+    lng: -95.7298536
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/31st-judicial-District"
+    kind: courthouse
+
+  - id: ks-wyandotte-courthouse
+    state: KS
+    county: Wyandotte
+    name: "Wyandotte County District Court"
+    address: "710 N 7th St Kansas City, KS 66101"
+    lat: 39.1360663
+    lng: -94.6270196
+    url: "https://kscourts.gov/About-the-Courts/District-Courts/Districts/29th-Judicial-District"
+    kind: courthouse

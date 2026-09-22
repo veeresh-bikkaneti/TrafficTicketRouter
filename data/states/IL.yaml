@@ -1,0 +1,2146 @@
+# Illinois — county circuit court cards.
+# County court URLs are the official illinoiscourts.gov court-directory entries,
+# each fetched live (curl HEAD) and ending at HTTP 200 on 2026-09-21.
+# Courthouse addresses are the official directory addresses; coordinates via
+# Nominatim, cross-checked against the official directory coordinates.
+state: IL
+state_name: Illinois
+last_verified: "2026-09-21"
+official_hosts:
+  - illinoiscourts.gov
+counties:
+  - name: Adams
+    note: "Traffic venue is the circuit court."
+  - name: Alexander
+    note: "Traffic venue is the circuit court."
+  - name: Bond
+    note: "Traffic venue is the circuit court."
+  - name: Boone
+    note: "Traffic venue is the circuit court."
+  - name: Brown
+    note: "Traffic venue is the circuit court."
+  - name: Bureau
+    note: "Traffic venue is the circuit court."
+  - name: Calhoun
+    note: "Traffic venue is the circuit court."
+  - name: Carroll
+    note: "Traffic venue is the circuit court."
+  - name: Cass
+    note: "Traffic venue is the circuit court."
+  - name: Champaign
+    note: "Traffic venue is the circuit court."
+  - name: Christian
+    note: "Traffic venue is the circuit court."
+  - name: Clark
+    note: "Traffic venue is the circuit court."
+  - name: Clay
+    note: "Traffic venue is the circuit court."
+  - name: Clinton
+    note: "Traffic venue is the circuit court."
+  - name: Coles
+    note: "Traffic venue is the circuit court."
+  - name: Cook
+    note: "Traffic venue is the circuit court."
+  - name: Crawford
+    note: "Traffic venue is the circuit court."
+  - name: Cumberland
+    note: "Traffic venue is the circuit court."
+  - name: DeKalb
+    note: "Traffic venue is the circuit court."
+  - name: DeWitt
+    note: "Traffic venue is the circuit court."
+  - name: Douglas
+    note: "Traffic venue is the circuit court."
+  - name: DuPage
+    note: "Traffic venue is the circuit court."
+  - name: Edgar
+    note: "Traffic venue is the circuit court."
+  - name: Edwards
+    note: "Traffic venue is the circuit court."
+  - name: Effingham
+    note: "Traffic venue is the circuit court."
+  - name: Fayette
+    note: "Traffic venue is the circuit court."
+  - name: Ford
+    note: "Traffic venue is the circuit court."
+  - name: Franklin
+    note: "Traffic venue is the circuit court."
+  - name: Fulton
+    note: "Traffic venue is the circuit court."
+  - name: Gallatin
+    note: "Traffic venue is the circuit court."
+  - name: Greene
+    note: "Traffic venue is the circuit court."
+  - name: Grundy
+    note: "Traffic venue is the circuit court."
+  - name: Hamilton
+    note: "Traffic venue is the circuit court."
+  - name: Hancock
+    note: "Traffic venue is the circuit court."
+  - name: Hardin
+    note: "Traffic venue is the circuit court."
+  - name: Henderson
+    note: "Traffic venue is the circuit court."
+  - name: Henry
+    note: "Traffic venue is the circuit court."
+  - name: Iroquois
+    note: "Traffic venue is the circuit court."
+  - name: Jackson
+    note: "Traffic venue is the circuit court."
+  - name: Jasper
+    note: "Traffic venue is the circuit court."
+  - name: Jefferson
+    note: "Traffic venue is the circuit court."
+  - name: Jersey
+    note: "Traffic venue is the circuit court."
+  - name: Jo Daviess
+    note: "Traffic venue is the circuit court."
+  - name: Johnson
+    note: "Traffic venue is the circuit court."
+  - name: Kane
+    note: "Traffic venue is the circuit court."
+  - name: Kankakee
+    note: "Traffic venue is the circuit court."
+  - name: Kendall
+    note: "Traffic venue is the circuit court."
+  - name: Knox
+    note: "Traffic venue is the circuit court."
+  - name: LaSalle
+    note: "Traffic venue is the circuit court."
+  - name: Lake
+    note: "Traffic venue is the circuit court."
+  - name: Lawrence
+    note: "Traffic venue is the circuit court."
+  - name: Lee
+    note: "Traffic venue is the circuit court."
+  - name: Livingston
+    note: "Traffic venue is the circuit court."
+  - name: Logan
+    note: "Traffic venue is the circuit court."
+  - name: Macon
+    note: "Traffic venue is the circuit court."
+  - name: Macoupin
+    note: "Traffic venue is the circuit court."
+  - name: Madison
+    note: "Traffic venue is the circuit court."
+  - name: Marion
+    note: "Traffic venue is the circuit court."
+  - name: Marshall
+    note: "Traffic venue is the circuit court."
+  - name: Mason
+    note: "Traffic venue is the circuit court."
+  - name: Massac
+    note: "Traffic venue is the circuit court."
+  - name: McDonough
+    note: "Traffic venue is the circuit court."
+  - name: McHenry
+    note: "Traffic venue is the circuit court."
+  - name: McLean
+    note: "Traffic venue is the circuit court."
+  - name: Menard
+    note: "Traffic venue is the circuit court."
+  - name: Mercer
+    note: "Traffic venue is the circuit court."
+  - name: Monroe
+    note: "Traffic venue is the circuit court."
+  - name: Montgomery
+    note: "Traffic venue is the circuit court."
+  - name: Morgan
+    note: "Traffic venue is the circuit court."
+  - name: Moultrie
+    note: "Traffic venue is the circuit court."
+  - name: Ogle
+    note: "Traffic venue is the circuit court."
+  - name: Peoria
+    note: "Traffic venue is the circuit court."
+  - name: Perry
+    note: "Traffic venue is the circuit court."
+  - name: Piatt
+    note: "Traffic venue is the circuit court."
+  - name: Pike
+    note: "Traffic venue is the circuit court."
+  - name: Pope
+    note: "Traffic venue is the circuit court."
+  - name: Pulaski
+    note: "Traffic venue is the circuit court."
+  - name: Putnam
+    note: "Traffic venue is the circuit court."
+  - name: Randolph
+    note: "Traffic venue is the circuit court."
+  - name: Richland
+    note: "Traffic venue is the circuit court."
+  - name: Rock Island
+    note: "Traffic venue is the circuit court."
+  - name: Saline
+    note: "Traffic venue is the circuit court."
+  - name: Sangamon
+    note: "Traffic venue is the circuit court."
+  - name: Schuyler
+    note: "Traffic venue is the circuit court."
+  - name: Scott
+    note: "Traffic venue is the circuit court."
+  - name: Shelby
+    note: "Traffic venue is the circuit court."
+  - name: St. Clair
+    note: "Traffic venue is the circuit court."
+  - name: Stark
+    note: "Traffic venue is the circuit court."
+  - name: Stephenson
+    note: "Traffic venue is the circuit court."
+  - name: Tazewell
+    note: "Traffic venue is the circuit court."
+  - name: Union
+    note: "Traffic venue is the circuit court."
+  - name: Vermilion
+    note: "Traffic venue is the circuit court."
+  - name: Wabash
+    note: "Traffic venue is the circuit court."
+  - name: Warren
+    note: "Traffic venue is the circuit court."
+  - name: Washington
+    note: "Traffic venue is the circuit court."
+  - name: Wayne
+    note: "Traffic venue is the circuit court."
+  - name: White
+    note: "Traffic venue is the circuit court."
+  - name: Whiteside
+    note: "Traffic venue is the circuit court."
+  - name: Will
+    note: "Traffic venue is the circuit court."
+  - name: Williamson
+    note: "Traffic venue is the circuit court."
+  - name: Winnebago
+    note: "Traffic venue is the circuit court."
+  - name: Woodford
+    note: "Traffic venue is the circuit court."
+cards:
+  - id: il-adams-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/66/Adams-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Adams County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Adams
+    weight: 10
+
+  - id: il-alexander-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/139/Alexander-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Alexander County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Alexander
+    weight: 10
+
+  - id: il-bond-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/141/Bond-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Bond County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bond
+    weight: 10
+
+  - id: il-boone-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/1/Boone-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Boone County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: il-brown-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/67/Brown-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Brown County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Brown
+    weight: 10
+
+  - id: il-bureau-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/68/Bureau-County-Circuit-Court/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Bureau County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bureau
+    weight: 10
+
+  - id: il-calhoun-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/69/Calhoun-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Calhoun County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: il-carroll-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/2/Carroll-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Carroll County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: il-cass-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/70/Cass-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cass County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cass
+    weight: 10
+
+  - id: il-champaign-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/3/Champaign-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Champaign County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Champaign
+    weight: 10
+
+  - id: il-christian-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/71/Christian-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Christian County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Christian
+    weight: 10
+
+  - id: il-clark-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/72/Clark-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clark County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: il-clay-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/73/Clay-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clay County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: il-clinton-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/4/Clinton-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Clinton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clinton
+    weight: 10
+
+  - id: il-coles-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/74/Coles-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Coles County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Coles
+    weight: 10
+
+  - id: il-cook-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/76/Cook-County-Richard-J-Daley-Center/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10
+
+  - id: il-crawford-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/84/Crawford-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Crawford County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: il-cumberland-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/85/Cumberland-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cumberland County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cumberland
+    weight: 10
+
+  - id: il-dekalb-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/86/DeKalb-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: DeKalb County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeKalb
+    weight: 10
+
+  - id: il-dewitt-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/143/Dewitt-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: DeWitt County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DeWitt
+    weight: 10
+
+  - id: il-douglas-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/6/Douglas-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Douglas County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Douglas
+    weight: 10
+
+  - id: il-dupage-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/7/DuPage-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: DuPage County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - DuPage
+    weight: 10
+
+  - id: il-edgar-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/8/Edgar-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Edgar County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edgar
+    weight: 10
+
+  - id: il-edwards-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/9/Edwards-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Edwards County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Edwards
+    weight: 10
+
+  - id: il-effingham-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/10/Effingham-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Effingham County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Effingham
+    weight: 10
+
+  - id: il-fayette-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/11/Fayette-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Fayette County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fayette
+    weight: 10
+
+  - id: il-ford-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/12/Ford-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ford County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ford
+    weight: 10
+
+  - id: il-franklin-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/89/Franklin-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Franklin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: il-fulton-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/13/Fulton-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Fulton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 10
+
+  - id: il-gallatin-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/144/Gallatin-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Gallatin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Gallatin
+    weight: 10
+
+  - id: il-greene-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/14/Greene-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Greene County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: il-grundy-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/90/Grundy-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Grundy County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grundy
+    weight: 10
+
+  - id: il-hamilton-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/149/Hamilton-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hamilton County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hamilton
+    weight: 10
+
+  - id: il-hancock-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/15/Hancock-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hancock County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hancock
+    weight: 10
+
+  - id: il-hardin-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/17/Hardin-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Hardin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hardin
+    weight: 10
+
+  - id: il-henderson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/150/Henderson-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Henderson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henderson
+    weight: 10
+
+  - id: il-henry-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/18/Henry-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Henry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Henry
+    weight: 10
+
+  - id: il-iroquois-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/151/Iroquois-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Iroquois County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Iroquois
+    weight: 10
+
+  - id: il-jackson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/91/Jackson-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jackson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: il-jasper-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/19/Jasper-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jasper County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jasper
+    weight: 10
+
+  - id: il-jefferson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/92/Jefferson-County-Courthouse-/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jefferson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: il-jersey-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/20/Jersey-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jersey County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jersey
+    weight: 10
+
+  - id: il-jo-daviess-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/21/Jo-Daviess-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Jo Daviess County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jo Daviess
+    weight: 10
+
+  - id: il-johnson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/93/Johnson-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Johnson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: il-kane-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/23/Kane-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Kane County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kane
+    weight: 10
+
+  - id: il-kankakee-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/24/Kankakee-County-Courthouse-/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Kankakee County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kankakee
+    weight: 10
+
+  - id: il-kendall-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/95/Kendall-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Kendall County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Kendall
+    weight: 10
+
+  - id: il-knox-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/25/Knox-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Knox County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Knox
+    weight: 10
+
+  - id: il-lasalle-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/98/LaSalle-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: LaSalle County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - LaSalle
+    weight: 10
+
+  - id: il-lake-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/96/Lake-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lake County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lake
+    weight: 10
+
+  - id: il-lawrence-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/26/Lawrence-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lawrence County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: il-lee-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/27/Lee-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Lee County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: il-livingston-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/28/Livingston-County-Law-and-Justice-Center/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Livingston County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Livingston
+    weight: 10
+
+  - id: il-logan-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/29/Logan-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Logan County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: il-macon-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/99/Macon-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Macon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macon
+    weight: 10
+
+  - id: il-macoupin-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/30/Macoupin-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Macoupin County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Macoupin
+    weight: 10
+
+  - id: il-madison-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/100/Madison-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Madison County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: il-marion-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/31/Marion-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Marion County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: il-marshall-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/32/Marshall-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Marshall County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marshall
+    weight: 10
+
+  - id: il-mason-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/101/Mason-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mason County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mason
+    weight: 10
+
+  - id: il-massac-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/134/Massac-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Massac County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Massac
+    weight: 10
+
+  - id: il-mcdonough-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/33/McDonough-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: McDonough County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McDonough
+    weight: 10
+
+  - id: il-mchenry-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/102/McHenry-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: McHenry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McHenry
+    weight: 10
+
+  - id: il-mclean-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/34/McLean-County-Law-and-Justice-Center/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: McLean County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - McLean
+    weight: 10
+
+  - id: il-menard-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/103/Menard-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Menard County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Menard
+    weight: 10
+
+  - id: il-mercer-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/104/Mercer-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Mercer County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mercer
+    weight: 10
+
+  - id: il-monroe-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/35/Monroe-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Monroe County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: il-montgomery-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/153/Montgomery-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Montgomery County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: il-morgan-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/36/Morgan-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Morgan County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Morgan
+    weight: 10
+
+  - id: il-moultrie-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/154/Moultrie-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Moultrie County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Moultrie
+    weight: 10
+
+  - id: il-ogle-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/37/Ogle-County-Judicial-Center/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Ogle County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ogle
+    weight: 10
+
+  - id: il-peoria-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/38/Peoria-County-Court-Administration/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Peoria County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Peoria
+    weight: 10
+
+  - id: il-perry-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/155/Perry-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Perry County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: il-piatt-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/39/Piatt-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Piatt County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Piatt
+    weight: 10
+
+  - id: il-pike-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/105/Pike-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pike County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 10
+
+  - id: il-pope-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/40/Pope-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pope County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pope
+    weight: 10
+
+  - id: il-pulaski-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/156/Pulaski-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Pulaski County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 10
+
+  - id: il-putnam-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/41/Putnam-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Putnam County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Putnam
+    weight: 10
+
+  - id: il-randolph-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/42/Randolph-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Randolph County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 10
+
+  - id: il-richland-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/106/Richland-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Richland County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Richland
+    weight: 10
+
+  - id: il-rock-island-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/142/Rock-Island-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Rock Island County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Rock Island
+    weight: 10
+
+  - id: il-saline-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/145/Saline-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Saline County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saline
+    weight: 10
+
+  - id: il-sangamon-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/43/Sangamon-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Sangamon County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sangamon
+    weight: 10
+
+  - id: il-schuyler-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/108/Schuyler-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Schuyler County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Schuyler
+    weight: 10
+
+  - id: il-scott-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/44/Scott-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Scott County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: il-shelby-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/45/Shelby-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Shelby County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Shelby
+    weight: 10
+
+  - id: il-st-clair-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/109/St-Clair-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: St. Clair County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Clair
+    weight: 10
+
+  - id: il-stark-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/46/Stark-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Stark County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stark
+    weight: 10
+
+  - id: il-stephenson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/47/Stephenson-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Stephenson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stephenson
+    weight: 10
+
+  - id: il-tazewell-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/48/Tazewell-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Tazewell County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Tazewell
+    weight: 10
+
+  - id: il-union-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/146/Union-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Union County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: il-vermilion-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/49/Vermilion-County-Courthouse-Rita-B-Garman-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Vermilion County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Vermilion
+    weight: 10
+
+  - id: il-wabash-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/50/Wabash-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wabash County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wabash
+    weight: 10
+
+  - id: il-warren-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/51/Warren-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Warren County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Warren
+    weight: 10
+
+  - id: il-washington-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/52/Washington-County-Judicial-Center/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Washington County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: il-wayne-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/53/Wayne-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Wayne County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Wayne
+    weight: 10
+
+  - id: il-white-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/54/White-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: White County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - White
+    weight: 10
+
+  - id: il-whiteside-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/147/Whiteside-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Whiteside County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Whiteside
+    weight: 10
+
+  - id: il-will-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/110/Will-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Will County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Will
+    weight: 10
+
+  - id: il-williamson-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/148/Williamson-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Williamson County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Williamson
+    weight: 10
+
+  - id: il-winnebago-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/57/Winnebago-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Winnebago County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Winnebago
+    weight: 10
+
+  - id: il-woodford-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/58/Woodford-County-Courthouse/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Woodford County Circuit Court
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodford
+    weight: 10
+
+  - id: il-cook-bridgeview-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/75/Cook-County-Fifth-Municipal-District--Bridgeview/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court — Fifth Municipal District (Bridgeview)
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+      - Municipal districts hear traffic, misdemeanor, and small civil cases for suburban Cook County.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10
+
+  - id: il-cook-markham-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/80/Cook-County-Sixth-Municipal-District--Markham/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court — Sixth Municipal District (Markham)
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+      - Municipal districts hear traffic, misdemeanor, and small civil cases for suburban Cook County.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10
+
+  - id: il-cook-maywood-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/81/Cook-County-Fourth-Municipal-District--Maywood/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court — Fourth Municipal District (Maywood)
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+      - Municipal districts hear traffic, misdemeanor, and small civil cases for suburban Cook County.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10
+
+  - id: il-cook-rolling-meadows-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/82/Cook-County-Third-Municipal-District--Rolling-Meadows/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court — Third Municipal District (Rolling Meadows)
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+      - Municipal districts hear traffic, misdemeanor, and small civil cases for suburban Cook County.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10
+
+  - id: il-cook-skokie-court
+    verification: link_ok
+    source_url: https://www.illinoiscourts.gov/courts-directory/83/Cook-County-Second-Municipal-District--Skokie/court/
+    last_verified: 2026-09-21
+    kind: county_court
+    agency: Cook County Circuit Court — Second Municipal District (Skokie)
+    accepted_keys: See the official court page for contact options.
+    cost: No cost to look up — as of 2026-09-21 on illinoiscourts.gov.
+    cost_free: true
+    lag: null
+    limitations:
+      - Traffic cases are heard in the county circuit court.
+      - Municipal districts hear traffic, misdemeanor, and small civil cases for suburban Cook County.
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cook
+    weight: 10

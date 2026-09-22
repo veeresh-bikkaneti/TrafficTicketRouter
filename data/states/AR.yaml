@@ -1,0 +1,1732 @@
+# Arkansas — District Court per county. Directory pages from the AR Judiciary (arcourts.gov), all live-fetched HTTP 200 on 2026-09-21. 8 counties list only PO boxes in the official directory and have no map pin.
+state: AR
+state_name: Arkansas
+last_verified: "2026-09-21"
+official_hosts:
+  - arcourts.gov
+counties:
+  - name: Arkansas
+  - name: Ashley
+  - name: Baxter
+  - name: Benton
+  - name: Boone
+  - name: Bradley
+  - name: Calhoun
+  - name: Carroll
+  - name: Chicot
+  - name: Clark
+  - name: Clay
+  - name: Cleburne
+  - name: Cleveland
+  - name: Columbia
+  - name: Conway
+  - name: Craighead
+  - name: Crawford
+  - name: Crittenden
+  - name: Cross
+  - name: Dallas
+  - name: Desha
+  - name: Drew
+  - name: Faulkner
+  - name: Franklin
+  - name: Fulton
+  - name: Garland
+  - name: Grant
+  - name: Greene
+  - name: Hempstead
+  - name: Hot Spring
+  - name: Howard
+  - name: Independence
+  - name: Izard
+  - name: Jackson
+  - name: Jefferson
+  - name: Johnson
+  - name: Lafayette
+  - name: Lawrence
+  - name: Lee
+  - name: Lincoln
+  - name: Little River
+  - name: Logan
+  - name: Lonoke
+  - name: Madison
+  - name: Marion
+  - name: Miller
+  - name: Mississippi
+  - name: Monroe
+  - name: Montgomery
+  - name: Nevada
+  - name: Newton
+  - name: Ouachita
+  - name: Perry
+  - name: Phillips
+  - name: Pike
+  - name: Poinsett
+  - name: Polk
+  - name: Pope
+  - name: Prairie
+  - name: Pulaski
+  - name: Randolph
+  - name: Saline
+  - name: Scott
+  - name: Searcy
+  - name: Sebastian
+  - name: Sevier
+  - name: Sharp
+  - name: St. Francis
+  - name: Stone
+  - name: Union
+  - name: Van Buren
+  - name: Washington
+  - name: White
+  - name: Woodruff
+  - name: Yell
+cards:
+  - id: ar-arkansas-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1206"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Arkansas County District Court"
+    contact: "120 Court Square, DeWitt, AR 72042. Phone 870-548-2672."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Arkansas
+    weight: 10
+
+  - id: ar-ashley-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1208"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ashley County District Court"
+    contact: "705 Dr. Martin Luther King Drive, Crossett, AR 71635. Phone 870-364-7620."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ashley
+    weight: 10
+
+  - id: ar-baxter-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1209"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Baxter County District Court"
+    contact: "301 East Sixth Street #130, Mountain Home, AR 72653. Phone 870-425-3140."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Baxter
+    weight: 10
+
+  - id: ar-benton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1210"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Benton County District Court"
+    contact: "1500 Little Flock Drive, Rogers, AR 72756. Phone 479-372-4581."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Benton
+    weight: 10
+
+  - id: ar-boone-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1211"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Boone County District Court"
+    contact: "201 N. Main, Suite 3, Harrison, AR 72601. Phone 870-741-2788."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Boone
+    weight: 10
+
+  - id: ar-bradley-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1212"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Bradley County District Court"
+    contact: "101 E. Cedar Street, Suite B., Warren, AR 71671. Phone 870-226-2567."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Bradley
+    weight: 10
+
+  - id: ar-calhoun-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1214"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Calhoun County District Court"
+    contact: "PO Box 864, Hampton, AR 71744. Phone 870-798-2165."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Calhoun
+    weight: 10
+
+  - id: ar-carroll-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1215"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Carroll County District Court"
+    contact: "103 South Spring Street, Berryville, AR 72616. Phone 870-423-6247."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Carroll
+    weight: 10
+
+  - id: ar-chicot-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1217"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Chicot County District Court"
+    contact: "112 North Freeman Street, Dermott, AR 71638. Phone 870-538-3476."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Chicot
+    weight: 10
+
+  - id: ar-clark-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=631"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clark County District Court"
+    contact: "137 Malvern Road, Arkadelphia, AR 71923. Phone 870-246-8283."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clark
+    weight: 10
+
+  - id: ar-clay-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=632"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Clay County District Court"
+    contact: "320 West Court, Room 227, Paragould, AR 72450. Phone 870-565-1779."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Clay
+    weight: 10
+
+  - id: ar-cleburne-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=633"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cleburne County District Court"
+    contact: "922 South 9th Street, Heber Springs, AR 72543. Phone 501-362-6585."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cleburne
+    weight: 10
+
+  - id: ar-cleveland-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=634"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cleveland County District Court"
+    contact: "PO Box 606, Rison, AR 71665. Phone 870-325-7382."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cleveland
+    weight: 10
+
+  - id: ar-columbia-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1222"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Columbia County District Court"
+    contact: "517 North Jackson, Magnolia, AR 71753. Phone 870-234-4727."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Columbia
+    weight: 10
+
+  - id: ar-conway-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1223"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Conway County District Court"
+    contact: "67-2 West Main Street, Booneville, AR 72927. Phone 501-354-9615."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Conway
+    weight: 10
+
+  - id: ar-craighead-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1224"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Craighead County District Court"
+    contact: "603 S. Madison, Jonesboro, AR 72401. Phone 870-933-4508."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Craighead
+    weight: 10
+
+  - id: ar-crawford-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1225"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crawford County District Court"
+    contact: "301 Mt. Vista Blvd, Van Buren, AR 72956. Phone 479-262-6992."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crawford
+    weight: 10
+
+  - id: ar-crittenden-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1226"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Crittenden County District Court"
+    contact: "317 West Tyler Avenue, West Memphis, AR 72301. Phone 870-732-7560."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Crittenden
+    weight: 10
+
+  - id: ar-cross-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1227"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Cross County District Court"
+    contact: "205 South Mississippi Street, Wynne, AR 72396. Phone 870-238-9171."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Cross
+    weight: 10
+
+  - id: ar-dallas-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1228"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Dallas County District Court"
+    contact: "110 East Main Street, Sparkman, AR 71763. Phone 870-678-2255."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Dallas
+    weight: 10
+
+  - id: ar-desha-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1229"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Desha County District Court"
+    contact: "149 East Waterman, Dumas, AR 71639. Phone 870-382-6972."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Desha
+    weight: 10
+
+  - id: ar-drew-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1230"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Drew County District Court"
+    contact: "107 East Jackson Street, Monticello, AR 71655. Phone 870-367-4420."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Drew
+    weight: 10
+
+  - id: ar-faulkner-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1232"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Faulkner County District Court"
+    contact: "234 Moss St, Clinton, AR 72031. Phone 501-450-6112."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Faulkner
+    weight: 10
+
+  - id: ar-franklin-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1234"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Franklin County District Court"
+    contact: "116 South 2nd, Ozark, AR 72949. Phone 479-965-7577."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Franklin
+    weight: 10
+
+  - id: ar-fulton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1235"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Fulton County District Court"
+    contact: "549 West Main, Batesville, AR 72501. Phone 870-793-8819."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Fulton
+    weight: 10
+
+  - id: ar-garland-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1236"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Garland County District Court"
+    contact: "607 Ouachita Ave #150, Hot Springs, AR 71901. Phone 501-321-6765."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Garland
+    weight: 10
+
+  - id: ar-grant-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1237"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Grant County District Court"
+    contact: "305 Locust, Room 201, Malvern, AR 72104. Phone 870-942-3464."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Grant
+    weight: 10
+
+  - id: ar-greene-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=651"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Greene County District Court"
+    contact: "320 West Court, Room 227, Paragould, AR 72450. Phone 870-565-1779."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Greene
+    weight: 10
+
+  - id: ar-hempstead-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1239"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hempstead County District Court"
+    contact: "PO Box 1420, Hope, AR 71802. Phone (870) 777-2525."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hempstead
+    weight: 10
+
+  - id: ar-hot-spring-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1240"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Hot Spring County District Court"
+    contact: "305 Locust, Room 201, Malvern, AR 72104. Phone 501-332-7604."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Hot Spring
+    weight: 10
+
+  - id: ar-howard-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1241"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Howard County District Court"
+    contact: "219 North Main Street, Nashville, AR 71852. Phone 870-451-4602."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Howard
+    weight: 10
+
+  - id: ar-independence-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1242"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Independence County District Court"
+    contact: "549 West Main, Batesville, AR 72501. Phone 870-793-8819."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Independence
+    weight: 10
+
+  - id: ar-izard-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1243"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Izard County District Court"
+    contact: "549 West Main, Batesville, AR 72501. Phone 870-793-8819."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Izard
+    weight: 10
+
+  - id: ar-jackson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=657"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jackson County District Court"
+    contact: "615 Third Street, Newport, AR 72112. Phone 870-523-6568 ext. 4."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jackson
+    weight: 10
+
+  - id: ar-jefferson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1245"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Jefferson County District Court"
+    contact: "223 East 3rd Ave, Pine Bluff, AR 71601. Phone 870-850-7584."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Jefferson
+    weight: 10
+
+  - id: ar-johnson-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1246"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Johnson County District Court"
+    contact: "301 Porter Industrial Road, Clarksville, AR 72830. Phone 479-754-8533."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Johnson
+    weight: 10
+
+  - id: ar-lafayette-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1247"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lafayette County District Court"
+    contact: "100 North Stateline #2, Texarkana, AR 75501. Phone 903-798-3017."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lafayette
+    weight: 10
+
+  - id: ar-lawrence-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1248"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lawrence County District Court"
+    contact: "2423-A Hwy 62/412, Hardy, AR 72542. Phone 870-257-5522."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lawrence
+    weight: 10
+
+  - id: ar-lee-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1249"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lee County District Court"
+    contact: "15 East Chestnutt, Marianna, AR 72360. Phone 870-295-7730."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lee
+    weight: 10
+
+  - id: ar-lincoln-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1250"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lincoln County District Court"
+    contact: "223 East 3rd Ave, Pine Bluff, AR 71601. Phone 870-850-7584."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lincoln
+    weight: 10
+
+  - id: ar-little-river-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1251"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Little River County District Court"
+    contact: "115 North 3rd Street, Room 215, DeQueen, AR 71832. Phone 870-642-3002."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Little River
+    weight: 10
+
+  - id: ar-logan-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=667"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Logan County District Court"
+    contact: "461 East 5th Street, Booneville, AR 72927. Phone 479-675-4929."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Logan
+    weight: 10
+
+  - id: ar-lonoke-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1255"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Lonoke County District Court"
+    contact: "805 W. Main St., Suite B, Cabot, AR 72023. Phone 501-843-8909."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Lonoke
+    weight: 10
+
+  - id: ar-madison-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1257"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Madison County District Court"
+    contact: "PO Box 549, Huntsville, AR 72740. Phone 479-738-2911."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Madison
+    weight: 10
+
+  - id: ar-marion-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1258"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Marion County District Court"
+    contact: "239 East Main, Flippin, AR 72634. Phone 870-453-8300."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Marion
+    weight: 10
+
+  - id: ar-miller-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1260"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Miller County District Court"
+    contact: "100 North Stateline #2, Texarkana, AR 75501. Phone 903-798-3017."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Miller
+    weight: 10
+
+  - id: ar-mississippi-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1261"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Mississippi County District Court"
+    contact: "1700 South Division, Blytheville, AR 72315. Phone 870-763-7513."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Mississippi
+    weight: 10
+
+  - id: ar-monroe-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1263"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Monroe County District Court"
+    contact: "304 S Maple Street, Stuttgart, AR 72160. Phone 870-673-0500."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Monroe
+    weight: 10
+
+  - id: ar-montgomery-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1264"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Montgomery County District Court"
+    contact: "225 Fairgrounds Rd., Mount Ida, AR 71957. Phone 870-867-2221."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Montgomery
+    weight: 10
+
+  - id: ar-nevada-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1265"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Nevada County District Court"
+    contact: "215 East 2nd Street, Ste 104, Prescott, AR 71857. Phone 870-887-6016."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Nevada
+    weight: 10
+
+  - id: ar-newton-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1266"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Newton County District Court"
+    contact: "201 N. Main, Suite 3, Jasper, AR 72601. Phone 870-449-5346."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Newton
+    weight: 10
+
+  - id: ar-ouachita-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1268"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Ouachita County District Court"
+    contact: "109A Goodgame, Camden, AR 71701. Phone 870-836-0331."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Ouachita
+    weight: 10
+
+  - id: ar-perry-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1269"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Perry County District Court"
+    contact: "PO Box 186, Perryville, AR 72126. Phone 501-889-5296."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Perry
+    weight: 10
+
+  - id: ar-phillips-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1270"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Phillips County District Court"
+    contact: "PO Box 248, Helena, AR 72342. Phone 870-817-7450."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Phillips
+    weight: 10
+
+  - id: ar-pike-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1271"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pike County District Court"
+    contact: "114 North Washington, Ste A, Murfreesboro, AR 71958. Phone 870-451-4602."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pike
+    weight: 10
+
+  - id: ar-poinsett-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1273"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Poinsett County District Court"
+    contact: "202 North East Street, Harrisburg, AR 72432. Phone 870-578-4110."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Poinsett
+    weight: 10
+
+  - id: ar-polk-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1274"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Polk County District Court"
+    contact: "507 Church Street Ave, Mena, AR 71953. Phone 479-394-8140."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Polk
+    weight: 10
+
+  - id: ar-pope-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=687"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pope County District Court"
+    contact: "1506 East 2nd Street, Ste 2, Russellville, AR 72801. Phone 479-968-1393."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pope
+    weight: 10
+
+  - id: ar-prairie-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1276"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Prairie County District Court"
+    contact: "1600 East Booth Road, #600, Searcy, AR 72143. Phone 501-268-7622."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Prairie
+    weight: 10
+
+  - id: ar-pulaski-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1278"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Pulaski County District Court"
+    contact: "3001 West Roosevelt, Little Rock, AR 72204. Phone 501-340-6832."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Pulaski
+    weight: 10
+
+  - id: ar-randolph-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1279"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Randolph County District Court"
+    contact: "1510 Pace Road, Pocahontas, AR 72455. Phone 870-892-4033."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Randolph
+    weight: 10
+
+  - id: ar-saline-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1280"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Saline County District Court"
+    contact: "1605 Edison Ave, Benton, AR 72015. Phone 501-303-5670."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Saline
+    weight: 10
+
+  - id: ar-scott-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1281"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Scott County District Court"
+    contact: "190 West First- Box 15, Waldron, AR 72958. Phone 479-637-4694."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Scott
+    weight: 10
+
+  - id: ar-searcy-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1282"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Searcy County District Court"
+    contact: "P.O. Box 885, Marshall, AR 72650. Phone 870-448-5411."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Searcy
+    weight: 10
+
+  - id: ar-sebastian-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=695"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sebastian County District Court"
+    contact: "901 South &quot;B&quot; Street, Fort Smith, AR 72901. Phone 479-784-2429."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sebastian
+    weight: 10
+
+  - id: ar-sevier-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1285"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sevier County District Court"
+    contact: "115 North 3rd Street, Room 215, DeQueen, AR 71832. Phone 870-642-3002."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sevier
+    weight: 10
+
+  - id: ar-sharp-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1286"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Sharp County District Court"
+    contact: "#2 Santee Drive, Cherokee Village, AR 72529. Phone 870-257-5522."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Sharp
+    weight: 10
+
+  - id: ar-st-francis-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1288"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "St. Francis County District Court"
+    contact: "615 East Cross, Forrest City, AR 72335. Phone 870-261-1410."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - St. Francis
+    weight: 10
+
+  - id: ar-stone-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1289"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Stone County District Court"
+    contact: "211 Blanchard Street #A, Mountain View, AR 72560. Phone 870-269-3465."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Stone
+    weight: 10
+
+  - id: ar-union-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1290"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Union County District Court"
+    contact: "250 American Road #A, El Dorado, AR 71730. Phone 870-864-1950."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Union
+    weight: 10
+
+  - id: ar-van-buren-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1291"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Van Buren County District Court"
+    contact: "234 Moss St, Clinton, AR 72031. Phone 501-745-8894."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Van Buren
+    weight: 10
+
+  - id: ar-washington-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1292"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Washington County District Court"
+    contact: "201 Spring St, Springdale, AR 72764. Phone 479-750-8150."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Washington
+    weight: 10
+
+  - id: ar-white-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1293"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "White County District Court"
+    contact: "201 West Illinois Street, Beebe, AR 72012. Phone (501) 882-8110."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - White
+    weight: 10
+
+  - id: ar-woodruff-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1294"
+    verification_note: "No map pin: Official AR Judiciary directory lists only a PO Box; no verified physical street address from an official source. arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Woodruff County District Court"
+    contact: "PO Box 381, Augusta, AR 72006. Phone 870-347-2790."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Woodruff
+    weight: 10
+
+  - id: ar-yell-court
+    verification: link_ok
+    link_check: manual
+    source_url: "https://arcourts.gov/directories/district-courts?&field_district_court_target_id=1296"
+    verification_note: "arcourts.gov bot defense tarpits automated bulk link checks from this environment (observed 2026-09-21); URL returned HTTP 200 with page data extracted during live research on 2026-09-21."
+    last_verified: "2026-09-21"
+    kind: county_court
+    agency: "Yell County District Court"
+    contact: "67-2 West Main Street, Booneville, AR 72927. Phone 479-675-4929."
+    accepted_keys: "See the official court directory page for contact options."
+    cost: "No cost to look up on the official court site — as of 2026-09-21 on arcourts.gov."
+    cost_free: true
+    lag: null
+    limitations:
+      - "District Courts hear misdemeanor and traffic cases."
+      - "This router does not search, submit, store, or interpret tickets. Visit the official page yourself."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - Yell
+    weight: 10

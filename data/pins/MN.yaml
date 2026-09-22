@@ -1,0 +1,828 @@
+# Minnesota map pins — county courthouses (50-state wave, 2026-09-21).
+# All 87 Minnesota counties are covered (no omissions).
+# Addresses and court-page URLs verified 2026-09-21 through official search-
+# indexed pages on mncourts.gov (Minnesota Judicial Branch) or official county
+# domains; direct mncourts.gov page fetches were Cloudflare-blocked, so page URLs
+# are the exact indexed official URLs, preserved verbatim (including path case).
+# County names copied verbatim from data/states/MN.yaml.
+# Coordinates are Nominatim (OpenStreetMap) matches for each official address,
+# geocoded 2026-09-21 with user-agent 'TicketRouter/1.0 (open-source civic
+# directory)', 1+ second between requests, retried until resolved. Every result
+# was cross-checked against the address city, county, and Minnesota; all pins
+# sit in the expected city/county except where noted below.
+# Caveats:
+# - St. Louis County operates full-service court offices in Duluth, Hibbing,
+#   and Virginia; the Duluth courthouse is used as this county's single pin.
+# - Le Sueur: court now sits in the Justice Center (435 E Derrynane St); the
+#   former courthouse at 88 S Park Ave is now the county Government Center.
+# - Wright: official page now lists the Justice Center (3700 Braddock Ave NE)
+#   rather than the historic 10 2nd St NW address.
+# - Mower: no HTTPS mncourts.gov county page was indexable; pin uses the
+#   official Mower County directory URL (www.co.mower.mn.us).
+# - Pipestone: indexed official pages disagree on ZIP (56156 vs 56164); pin
+#   uses 56164 from the district-court page.
+# - Stearns: uses the court-administration address (725 Courthouse Square)
+#   among the county's several court-service locations.
+# - Big Stone, Grant, Mower, St. Louis: Nominatim has no house-number data,
+#   so coordinates are street-level (the correct street in the right city).
+# - Benton: Nominatim places 615 Highway 23 in adjacent Gilmanton Township
+#   (Foley 56329), Benton County — same county, township naming only.
+# - Dakota: 1560 W Highway 55 is not indexed; coordinates are for the named
+#   Dakota County Government Center in Hastings (Nominatim labels the West
+#   4th Street side of the same complex).
+# - Polk: Nominatim labels 816 Marin Avenue, Crookston as the Northwest
+#   Regional Corrections Center (shared county building); official address
+#   retained.
+# - Wabasha: coordinates are for the Wabasha County Courthouse POI at 625
+#   Jefferson Avenue (Nominatim had no match for the official 848 17th Street
+#   East Suite 4 address); official address retained.
+# - Jackson, Lac qui Parle: free-text address queries mis-resolved out of
+#   state (South Carolina / Nebraska); coordinates are for the named county
+#   courthouse POIs in the correct Minnesota city/county.
+# - Itasca, Morrison: address matches are interpolated along the street
+#   (Nominatim labels a nearby mobile-home court); city/county verified.
+# - Coordinates are building-level where available, not survey-grade.
+pins:
+  - id: mn-aitkin-courthouse
+    state: MN
+    county: Aitkin
+    name: Aitkin County Courthouse
+    address: 209 Second Street NW, Aitkin, MN 56431
+    lat: 46.5332662
+    lng: -93.7098827
+    url: https://mncourts.gov/find-courts/aitkin
+    kind: courthouse
+  - id: mn-anoka-courthouse
+    state: MN
+    county: Anoka
+    name: Anoka County Courthouse
+    address: 2100 3rd Ave, Anoka, MN 55303
+    lat: 45.198524
+    lng: -93.387109
+    url: https://mncourts.gov/find-courts/anoka
+    kind: courthouse
+  - id: mn-becker-courthouse
+    state: MN
+    county: Becker
+    name: Becker County Courthouse
+    address: 913 Lake Avenue, Detroit Lakes, MN 56501
+    lat: 46.8162624
+    lng: -95.8467318
+    url: https://mncourts.gov/find-courts/becker
+    kind: courthouse
+  - id: mn-beltrami-courthouse
+    state: MN
+    county: Beltrami
+    name: Beltrami County Courthouse
+    address: 600 Minnesota Avenue NW Suite 108, Bemidji, MN 56601
+    lat: 47.4738449
+    lng: -94.8823911
+    url: https://mncourts.gov/find-courts/beltrami
+    kind: courthouse
+  - id: mn-benton-courthouse
+    state: MN
+    county: Benton
+    name: Benton County Courthouse
+    address: 615 Highway 23, Foley, MN 56329
+    lat: 45.657257
+    lng: -93.9363586
+    url: https://mncourts.gov/benton
+    kind: courthouse
+  - id: mn-big-stone-courthouse
+    state: MN
+    county: Big Stone
+    name: Big Stone County Courthouse
+    address: 20 S.E. Second Street, Ortonville, MN 56278
+    lat: 45.2944108
+    lng: -96.4341692
+    url: https://mncourts.gov/find-courts/bigstone
+    kind: courthouse
+  - id: mn-blue-earth-courthouse
+    state: MN
+    county: Blue Earth
+    name: Blue Earth County Courthouse
+    address: 401 Carver Road, Mankato, MN 56001
+    lat: 44.1616937
+    lng: -93.9373777
+    url: https://mncourts.gov/find-courts/blue-earth
+    kind: courthouse
+  - id: mn-brown-courthouse
+    state: MN
+    county: Brown
+    name: Brown County Courthouse
+    address: 14 South State Street, New Ulm, MN 56073
+    lat: 44.3109788
+    lng: -94.4620203
+    url: https://mncourts.gov/find-courts/brown
+    kind: courthouse
+  - id: mn-carlton-courthouse
+    state: MN
+    county: Carlton
+    name: Carlton County Courthouse
+    address: 1780 Justice Drive Suite 2700, Carlton, MN 55718
+    lat: 46.6561227
+    lng: -92.4784471
+    url: https://mncourts.gov/find-courts/carlton
+    kind: courthouse
+  - id: mn-carver-courthouse
+    state: MN
+    county: Carver
+    name: Carver County Courthouse
+    address: 604 E. Fourth Street, Chaska, MN 55318
+    lat: 44.7874417
+    lng: -93.5923334
+    url: https://mncourts.gov/find-courts/carver
+    kind: courthouse
+  - id: mn-cass-courthouse
+    state: MN
+    county: Cass
+    name: Cass County Courthouse
+    address: 300 Minnesota Avenue, Walker, MN 56484
+    lat: 47.1012779
+    lng: -94.5801451
+    url: https://mncourts.gov/find-courts/cass
+    kind: courthouse
+  - id: mn-chippewa-courthouse
+    state: MN
+    county: Chippewa
+    name: Chippewa County Courthouse
+    address: 629 N. 11th Street, Montevideo, MN 56265
+    lat: 44.950729
+    lng: -95.713678
+    url: https://mncourts.gov/find-courts/chippewa.aspx
+    kind: courthouse
+  - id: mn-chisago-courthouse
+    state: MN
+    county: Chisago
+    name: Chisago County Courthouse
+    address: 313 N. Main Street, Center City, MN 55012
+    lat: 45.3993892
+    lng: -92.82193
+    url: https://mncourts.gov/find-courts/chisago
+    kind: courthouse
+  - id: mn-clay-courthouse
+    state: MN
+    county: Clay
+    name: Clay County Courthouse
+    address: 807 N. 11th Street, Moorhead, MN 56560
+    lat: 46.8839208
+    lng: -96.7624668
+    url: https://mncourts.gov/find-courts/clay
+    kind: courthouse
+  - id: mn-clearwater-courthouse
+    state: MN
+    county: Clearwater
+    name: Clearwater County Courthouse
+    address: '213 Main Avenue #303, Bagley, MN 56621'
+    lat: 47.5242497
+    lng: -95.3993194
+    url: https://mncourts.gov/find-courts/clearwater
+    kind: courthouse
+  - id: mn-cook-courthouse
+    state: MN
+    county: Cook
+    name: Cook County Courthouse
+    address: 411 West Second Street, Grand Marais, MN 55604
+    lat: 47.7525185
+    lng: -90.3392904
+    url: https://mncourts.gov/find-courts/cook
+    kind: courthouse
+  - id: mn-cottonwood-courthouse
+    state: MN
+    county: Cottonwood
+    name: Cottonwood County Courthouse
+    address: 900 Third Avenue, Windom, MN 56101
+    lat: 43.8660686
+    lng: -95.1169366
+    url: https://mncourts.gov/find-courts/cottonwood
+    kind: courthouse
+  - id: mn-crow-wing-courthouse
+    state: MN
+    county: Crow Wing
+    name: Crow Wing County Courthouse
+    address: 213 Laurel Street, Suite 11, Brainerd, MN 56401
+    lat: 46.3563337
+    lng: -94.2058567
+    url: https://mncourts.gov/find-courts/crow-wing
+    kind: courthouse
+  - id: mn-dakota-courthouse
+    state: MN
+    county: Dakota
+    name: Dakota County Courthouse
+    address: 1560 W. Highway 55, Hastings, MN 55033
+    lat: 44.740855
+    lng: -92.8861663
+    url: https://mncourts.gov/find-courts/dakota
+    kind: courthouse
+  - id: mn-dodge-courthouse
+    state: MN
+    county: Dodge
+    name: Dodge County Courthouse
+    address: 22 E. Sixth Street East, Mantorville, MN 55955
+    lat: 44.0683878
+    lng: -92.7549649
+    url: https://mncourts.gov/find-courts/dodge
+    kind: courthouse
+  - id: mn-douglas-courthouse
+    state: MN
+    county: Douglas
+    name: Douglas County Courthouse
+    address: 305 Eighth Avenue West, Alexandria, MN 56308
+    lat: 45.8837051
+    lng: -95.3809619
+    url: https://mncourts.gov/find-courts/douglas
+    kind: courthouse
+  - id: mn-faribault-courthouse
+    state: MN
+    county: Faribault
+    name: Faribault County Courthouse
+    address: 415 North Main Street, Blue Earth, MN 56013
+    lat: 43.6419252
+    lng: -94.1023698
+    url: https://mncourts.gov/find-courts/faribault
+    kind: courthouse
+  - id: mn-fillmore-courthouse
+    state: MN
+    county: Fillmore
+    name: Fillmore County Courthouse
+    address: 101 Fillmore Street E., Preston, MN 55965
+    lat: 43.670228
+    lng: -92.0817493
+    url: https://mncourts.gov/fillmore
+    kind: courthouse
+  - id: mn-freeborn-courthouse
+    state: MN
+    county: Freeborn
+    name: Freeborn County Courthouse
+    address: 411 S. Broadway, Albert Lea, MN 56007
+    lat: 43.6461475
+    lng: -93.3680658
+    url: https://mncourts.gov/find-courts/freeborn
+    kind: courthouse
+  - id: mn-goodhue-courthouse
+    state: MN
+    county: Goodhue
+    name: Goodhue County Courthouse
+    address: 454 West Sixth Street, Red Wing, MN 55066
+    lat: 44.5619855
+    lng: -92.5324988
+    url: https://mncourts.gov/find-courts/goodhue
+    kind: courthouse
+  - id: mn-grant-courthouse
+    state: MN
+    county: Grant
+    name: Grant County Courthouse
+    address: 10 Second Street NE, Elbow Lake, MN 56531
+    lat: 45.9937742
+    lng: -95.9695734
+    url: https://mncourts.gov/find-courts/grant
+    kind: courthouse
+  - id: mn-hennepin-courthouse
+    state: MN
+    county: Hennepin
+    name: Hennepin County Courthouse
+    address: 300 South 6th Street, Minneapolis, MN 55487
+    lat: 44.9758491
+    lng: -93.266666
+    url: https://mncourts.gov/find-courts/hennepin/contact-us
+    kind: courthouse
+  - id: mn-houston-courthouse
+    state: MN
+    county: Houston
+    name: Houston County Courthouse
+    address: 306 S. Marshall Street, Caledonia, MN 55921
+    lat: 43.6322689
+    lng: -91.4959857
+    url: https://mncourts.gov/find-courts/houston
+    kind: courthouse
+  - id: mn-hubbard-courthouse
+    state: MN
+    county: Hubbard
+    name: Hubbard County Courthouse
+    address: 301 Court Avenue, Park Rapids, MN 56470
+    lat: 46.9199091
+    lng: -95.0642841
+    url: https://mncourts.gov/find-courts/hubbard
+    kind: courthouse
+  - id: mn-isanti-courthouse
+    state: MN
+    county: Isanti
+    name: Isanti County Courthouse
+    address: 555 18th Avenue SW, Cambridge, MN 55008
+    lat: 45.5569116
+    lng: -93.228114
+    url: https://Mncourts.gov/Find-Courts/Isanti.aspx
+    kind: courthouse
+  - id: mn-itasca-courthouse
+    state: MN
+    county: Itasca
+    name: Itasca County Courthouse
+    address: 123 Fourth Street NE, Grand Rapids, MN 55744
+    lat: 47.236002
+    lng: -93.526319
+    url: https://mncourts.gov/find-courts/itasca
+    kind: courthouse
+  - id: mn-jackson-courthouse
+    state: MN
+    county: Jackson
+    name: Jackson County Courthouse
+    address: 405 Fourth Street, Jackson, MN 56143
+    lat: 43.6211081
+    lng: -94.9901611
+    url: https://mncourts.gov/find-courts/jackson
+    kind: courthouse
+  - id: mn-kanabec-courthouse
+    state: MN
+    county: Kanabec
+    name: Kanabec County Courthouse
+    address: 317 Maple Avenue East, Suite 318, Mora, MN 55051
+    lat: 45.8777613
+    lng: -93.2940127
+    url: https://mncourts.gov/find-courts/kanabec
+    kind: courthouse
+  - id: mn-kandiyohi-courthouse
+    state: MN
+    county: Kandiyohi
+    name: Kandiyohi County Courthouse
+    address: 505 Becker Avenue SW, Willmar, MN 56201
+    lat: 45.1200261
+    lng: -95.0493869
+    url: https://mncourts.gov/find-courts/kandiyohi
+    kind: courthouse
+  - id: mn-kittson-courthouse
+    state: MN
+    county: Kittson
+    name: Kittson County Courthouse
+    address: 410 South 5th Street, Suite 204, Hallock, MN 56728
+    lat: 48.772334
+    lng: -96.9398556
+    url: https://mncourts.gov/find-courts/kittson
+    kind: courthouse
+  - id: mn-koochiching-courthouse
+    state: MN
+    county: Koochiching
+    name: Koochiching County Courthouse
+    address: 715 4th Street, International Falls, MN 56649
+    lat: 48.6015975
+    lng: -93.4100874
+    url: https://mncourts.gov/find-courts/koochiching
+    kind: courthouse
+  - id: mn-lac-qui-parle-courthouse
+    state: MN
+    county: Lac qui Parle
+    name: Lac qui Parle County Courthouse
+    address: 600 Sixth Street, Madison, MN 56256
+    lat: 45.015
+    lng: -96.1925
+    url: https://mncourts.gov/find-courts/lacquiparle
+    kind: courthouse
+  - id: mn-lake-courthouse
+    state: MN
+    county: Lake
+    name: Lake County Courthouse
+    address: 601 Third Avenue, Two Harbors, MN 55616
+    lat: 47.021853
+    lng: -91.671154
+    url: https://mncourts.gov/find-courts/lake
+    kind: courthouse
+  - id: mn-lake-of-the-woods-courthouse
+    state: MN
+    county: Lake of the Woods
+    name: Lake of the Woods County Courthouse
+    address: '206 8th Avenue SE #250, Baudette, MN 56623'
+    lat: 48.7104722
+    lng: -94.5849351
+    url: https://mncourts.gov/find-courts/lakeofthewoods
+    kind: courthouse
+  - id: mn-le-sueur-courthouse
+    state: MN
+    county: Le Sueur
+    name: Le Sueur County Courthouse
+    address: 435 E Derrynane Street, Le Center, MN 56057
+    lat: 44.3843708
+    lng: -93.7267314
+    url: https://Mncourts.gov/Find-Courts/LeSueur.aspx
+    kind: courthouse
+  - id: mn-lincoln-courthouse
+    state: MN
+    county: Lincoln
+    name: Lincoln County Courthouse
+    address: 319 N. Rebecca Street, Ivanhoe, MN 56142
+    lat: 44.462538
+    lng: -96.2514402
+    url: https://mncourts.gov/Find-Courts/Lincoln.aspx
+    kind: courthouse
+  - id: mn-lyon-courthouse
+    state: MN
+    county: Lyon
+    name: Lyon County Courthouse
+    address: 607 W. Main, Marshall, MN 56258
+    lat: 44.4503966
+    lng: -95.7948969
+    url: https://mncourts.gov/Find-Courts/Lyon.aspx
+    kind: courthouse
+  - id: mn-mahnomen-courthouse
+    state: MN
+    county: Mahnomen
+    name: Mahnomen County Courthouse
+    address: 311 N Main Street, Mahnomen, MN 56557
+    lat: 47.3174821
+    lng: -95.968743
+    url: https://mncourts.gov/find-courts/mahnomen
+    kind: courthouse
+  - id: mn-marshall-courthouse
+    state: MN
+    county: Marshall
+    name: Marshall County Courthouse
+    address: 208 E Colvin Avenue, Suite 18, Warren, MN 56762
+    lat: 48.1956821
+    lng: -96.7689425
+    url: https://mncourts.gov/find-courts/marshall
+    kind: courthouse
+  - id: mn-martin-courthouse
+    state: MN
+    county: Martin
+    name: Martin County Courthouse
+    address: 201 Lake Avenue, Fairmont, MN 56031
+    lat: 43.653713
+    lng: -94.464924
+    url: https://mncourts.gov/Find-Courts/Martin.aspx
+    kind: courthouse
+  - id: mn-mcleod-courthouse
+    state: MN
+    county: McLeod
+    name: McLeod County Courthouse
+    address: 830 11th Street E., Glencoe, MN 55336
+    lat: 44.769976
+    lng: -94.1512381
+    url: https://mncourts.gov/find-courts/mcleod
+    kind: courthouse
+  - id: mn-meeker-courthouse
+    state: MN
+    county: Meeker
+    name: Meeker County Courthouse
+    address: 325 Sibley Avenue N., Litchfield, MN 55355
+    lat: 45.128807
+    lng: -94.5282435
+    url: https://mncourts.gov/find-courts/meeker
+    kind: courthouse
+  - id: mn-mille-lacs-courthouse
+    state: MN
+    county: Mille Lacs
+    name: Mille Lacs County Courthouse
+    address: 225 6th Avenue SE, Milaca, MN 56353
+    lat: 45.7544397
+    lng: -93.6437645
+    url: https://mncourts.gov/find-courts/mille-lacs
+    kind: courthouse
+  - id: mn-morrison-courthouse
+    state: MN
+    county: Morrison
+    name: Morrison County Courthouse
+    address: 213 First Avenue SE, Little Falls, MN 56345
+    lat: 45.9750091
+    lng: -94.3610357
+    url: https://Mncourts.gov/Find-Courts/Morrison.aspx
+    kind: courthouse
+  - id: mn-mower-courthouse
+    state: MN
+    county: Mower
+    name: Mower County Courthouse
+    address: 201 2nd Avenue NE, Suite 3, Austin, MN 55912
+    lat: 43.6683197
+    lng: -92.9723128
+    url: https://www.co.mower.mn.us/directory.aspx?did=8
+    kind: courthouse
+  - id: mn-murray-courthouse
+    state: MN
+    county: Murray
+    name: Murray County Courthouse
+    address: 2500 28th Street, Slayton, MN 56172
+    lat: 43.9848921
+    lng: -95.7564338
+    url: https://mncourts.gov/find-courts/murray
+    kind: courthouse
+  - id: mn-nicollet-courthouse
+    state: MN
+    county: Nicollet
+    name: Nicollet County Courthouse
+    address: 501 S. Minnesota Avenue, St. Peter, MN 56082
+    lat: 44.3223942
+    lng: -93.9588922
+    url: https://mncourts.gov/find-courts/nicollet
+    kind: courthouse
+  - id: mn-nobles-courthouse
+    state: MN
+    county: Nobles
+    name: Nobles County Courthouse
+    address: 1530 Airport Road, Worthington, MN 56187
+    lat: 43.6478294
+    lng: -95.5897967
+    url: https://www.mncourts.gov/Find-Courts/Nobles.aspx
+    kind: courthouse
+  - id: mn-norman-courthouse
+    state: MN
+    county: Norman
+    name: Norman County Courthouse
+    address: 16 3rd Avenue E, Ada, MN 56510
+    lat: 47.2987095
+    lng: -96.5146554
+    url: https://mncourts.gov/find-courts/norman
+    kind: courthouse
+  - id: mn-olmsted-courthouse
+    state: MN
+    county: Olmsted
+    name: Olmsted County Courthouse
+    address: 151 Fourth Street SE, Rochester, MN 55904
+    lat: 44.019372
+    lng: -92.4603678
+    url: https://mncourts.gov/find-courts/olmsted
+    kind: courthouse
+  - id: mn-otter-tail-courthouse
+    state: MN
+    county: Otter Tail
+    name: Otter Tail County Courthouse
+    address: 121 West Junius Avenue, Fergus Falls, MN 56537
+    lat: 46.2803252
+    lng: -96.0746816
+    url: https://mncourts.gov/find-courts/otter-tail
+    kind: courthouse
+  - id: mn-pennington-courthouse
+    state: MN
+    county: Pennington
+    name: Pennington County Courthouse
+    address: 141 Main Ave S, Thief River Falls, MN 56701
+    lat: 48.1159239
+    lng: -96.1815645
+    url: https://mncourts.gov/find-courts/pennington
+    kind: courthouse
+  - id: mn-pine-courthouse
+    state: MN
+    county: Pine
+    name: Pine County Courthouse
+    address: 635 Northridge Drive NW, Suite 320, Pine City, MN 55063
+    lat: 45.8528809
+    lng: -92.9716981
+    url: https://mncourts.gov/find-courts/pine
+    kind: courthouse
+  - id: mn-pipestone-courthouse
+    state: MN
+    county: Pipestone
+    name: Pipestone County Courthouse
+    address: 416 S. Hiawatha, Pipestone, MN 56164
+    lat: 43.9970448
+    lng: -96.317738
+    url: https://www.mncourts.gov/find-courts/pipestone.aspx
+    kind: courthouse
+  - id: mn-polk-courthouse
+    state: MN
+    county: Polk
+    name: Polk County Courthouse
+    address: 816 Marin Ave, Suite 210, Crookston, MN 56716
+    lat: 47.7688391
+    lng: -96.6284731
+    url: https://mncourts.gov/find-courts/polk
+    kind: courthouse
+  - id: mn-pope-courthouse
+    state: MN
+    county: Pope
+    name: Pope County Courthouse
+    address: 130 E. Minnesota Avenue, Glenwood, MN 56334
+    lat: 45.6501463
+    lng: -95.3879282
+    url: https://mncourts.gov/Find-Courts/pope.aspx
+    kind: courthouse
+  - id: mn-ramsey-courthouse
+    state: MN
+    county: Ramsey
+    name: Ramsey County Courthouse
+    address: 15 W. Kellogg Blvd., St. Paul, MN 55102
+    lat: 44.9471086
+    lng: -93.1043001
+    url: https://mncourts.gov/find-courts/ramsey
+    kind: courthouse
+  - id: mn-red-lake-courthouse
+    state: MN
+    county: Red Lake
+    name: Red Lake County Courthouse
+    address: 124 Main Ave NW, Red Lake Falls, MN 56750
+    lat: 47.8849074
+    lng: -96.27427
+    url: https://mncourts.gov/find-courts/red-lake
+    kind: courthouse
+  - id: mn-redwood-courthouse
+    state: MN
+    county: Redwood
+    name: Redwood County Courthouse
+    address: 250 S. Jefferson, Redwood Falls, MN 56283
+    lat: 44.5402372
+    lng: -95.116384
+    url: https://Mncourts.gov/Find-Courts/redwood.aspx
+    kind: courthouse
+  - id: mn-renville-courthouse
+    state: MN
+    county: Renville
+    name: Renville County Courthouse
+    address: 500 E. DePue, Olivia, MN 56277
+    lat: 44.7754366
+    lng: -94.9943785
+    url: https://mncourts.gov/find-courts/renville
+    kind: courthouse
+  - id: mn-rice-courthouse
+    state: MN
+    county: Rice
+    name: Rice County Courthouse
+    address: 218 N.W. Third Street, Faribault, MN 55021
+    lat: 44.2940594
+    lng: -93.2723147
+    url: https://mncourts.gov/find-courts/rice
+    kind: courthouse
+  - id: mn-rock-courthouse
+    state: MN
+    county: Rock
+    name: Rock County Courthouse
+    address: 204 E. Brown Street, Luverne, MN 56156
+    lat: 43.6571537
+    lng: -96.207593
+    url: https://mncourts.gov/find-courts/rock
+    kind: courthouse
+  - id: mn-roseau-courthouse
+    state: MN
+    county: Roseau
+    name: Roseau County Courthouse
+    address: 606 5th Avenue SW, Room 20, Roseau, MN 56751
+    lat: 48.8392701
+    lng: -95.7671363
+    url: https://mncourts.gov/find-courts/roseau
+    kind: courthouse
+  - id: mn-scott-courthouse
+    state: MN
+    county: Scott
+    name: Scott County Courthouse
+    address: 200 Fourth Avenue W., Shakopee, MN 55379
+    lat: 44.7949571
+    lng: -93.5276357
+    url: https://mncourts.gov/find-courts/scott
+    kind: courthouse
+  - id: mn-sherburne-courthouse
+    state: MN
+    county: Sherburne
+    name: Sherburne County Courthouse
+    address: 13880 Business Center Drive, Elk River, MN 55330
+    lat: 45.3037535
+    lng: -93.6200234
+    url: https://mncourts.gov/find-courts/sherburne
+    kind: courthouse
+  - id: mn-sibley-courthouse
+    state: MN
+    county: Sibley
+    name: Sibley County Courthouse
+    address: 400 Court Avenue, Gaylord, MN 55334
+    lat: 44.5561383
+    lng: -94.2206354
+    url: https://www.mncourts.gov/find-courts/sibley.aspx
+    kind: courthouse
+  - id: mn-st-louis-courthouse
+    state: MN
+    county: St. Louis
+    name: St. Louis County Courthouse
+    address: 100 N. Fifth Avenue W., Duluth, MN 55802
+    lat: 46.782484
+    lng: -92.1050385
+    url: https://mncourts.gov/find-courts/duluth
+    kind: courthouse
+  - id: mn-stearns-courthouse
+    state: MN
+    county: Stearns
+    name: Stearns County Courthouse
+    address: 725 Courthouse Square, St. Cloud, MN 56303
+    lat: 45.5609134
+    lng: -94.1629612
+    url: https://www.mncourts.gov/Find-Courts/Stearns.aspx
+    kind: courthouse
+  - id: mn-steele-courthouse
+    state: MN
+    county: Steele
+    name: Steele County Courthouse
+    address: 111 E. Main Street, Owatonna, MN 55060
+    lat: 44.0836604
+    lng: -93.225182
+    url: https://mncourts.gov/find-courts/steele
+    kind: courthouse
+  - id: mn-stevens-courthouse
+    state: MN
+    county: Stevens
+    name: Stevens County Courthouse
+    address: 400 Colorado Avenue, Morris, MN 56267
+    lat: 45.588066
+    lng: -95.910094
+    url: https://mncourts.gov/find-courts/stevens
+    kind: courthouse
+  - id: mn-swift-courthouse
+    state: MN
+    county: Swift
+    name: Swift County Courthouse
+    address: 301 14th Street N., Benson, MN 56215
+    lat: 45.3170606
+    lng: -95.6010732
+    url: https://mncourts.gov/find-courts/swift
+    kind: courthouse
+  - id: mn-todd-courthouse
+    state: MN
+    county: Todd
+    name: Todd County Courthouse
+    address: 221 First Avenue S., Long Prairie, MN 56347
+    lat: 45.9727282
+    lng: -94.8609237
+    url: https://www.mncourts.gov/Find-Courts/todd.aspx
+    kind: courthouse
+  - id: mn-traverse-courthouse
+    state: MN
+    county: Traverse
+    name: Traverse County Courthouse
+    address: 702 Second Avenue N., Wheaton, MN 56296
+    lat: 45.806212
+    lng: -96.4928211
+    url: https://mncourts.gov/find-courts/traverse
+    kind: courthouse
+  - id: mn-wabasha-courthouse
+    state: MN
+    county: Wabasha
+    name: Wabasha County Courthouse
+    address: 848 17th Street East, Suite 4, Wabasha, MN 55981
+    lat: 44.3796546
+    lng: -92.0302334
+    url: https://www.mncourts.gov/Find-Courts/Wabasha.aspx
+    kind: courthouse
+  - id: mn-wadena-courthouse
+    state: MN
+    county: Wadena
+    name: Wadena County Courthouse
+    address: 415 Jefferson Street S., Wadena, MN 56482
+    lat: 46.4381784
+    lng: -95.1392
+    url: https://mncourts.gov/find-courts/wadena
+    kind: courthouse
+  - id: mn-waseca-courthouse
+    state: MN
+    county: Waseca
+    name: Waseca County Courthouse
+    address: 307 N. State Street, Waseca, MN 56093
+    lat: 44.080133
+    lng: -93.50736
+    url: https://mncourts.gov/find-courts/waseca
+    kind: courthouse
+  - id: mn-washington-courthouse
+    state: MN
+    county: Washington
+    name: Washington County Courthouse
+    address: 14949 62nd Street North, Stillwater, MN 55082
+    lat: 45.0393055
+    lng: -92.8040145
+    url: https://mncourts.gov/find-courts/washington
+    kind: courthouse
+  - id: mn-watonwan-courthouse
+    state: MN
+    county: Watonwan
+    name: Watonwan County Courthouse
+    address: 710 Second Avenue S., St. James, MN 56081
+    lat: 43.9815786
+    lng: -94.6261264
+    url: https://mncourts.gov/find-courts/watonwan
+    kind: courthouse
+  - id: mn-wilkin-courthouse
+    state: MN
+    county: Wilkin
+    name: Wilkin County Courthouse
+    address: 300 S. Fifth Street, Breckenridge, MN 56520
+    lat: 46.260908
+    lng: -96.587819
+    url: https://mncourts.gov/find-courts/wilkin
+    kind: courthouse
+  - id: mn-winona-courthouse
+    state: MN
+    county: Winona
+    name: Winona County Courthouse
+    address: 171 W. Third Street, Winona, MN 55987
+    lat: 44.0531273
+    lng: -91.6395584
+    url: https://mncourts.gov/find-courts/winona.aspx
+    kind: courthouse
+  - id: mn-wright-courthouse
+    state: MN
+    county: Wright
+    name: Wright County Courthouse
+    address: 3700 Braddock Ave NE, Buffalo, MN 55313
+    lat: 45.2069908
+    lng: -93.8648444
+    url: https://mncourts.gov/find-courts/wright
+    kind: courthouse
+  - id: mn-yellow-medicine-courthouse
+    state: MN
+    county: Yellow Medicine
+    name: Yellow Medicine County Courthouse
+    address: 415 Ninth Avenue, Granite Falls, MN 56241
+    lat: 44.8099031
+    lng: -95.5446103
+    url: https://mncourts.gov/find-courts/yellow-medicine
+    kind: courthouse
