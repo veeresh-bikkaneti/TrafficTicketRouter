@@ -53,11 +53,13 @@ async function initQuickstart() {
 }
 
 // ---------- ambient backdrop ----------
-// A faint road with drifting lane dashes and passing traffic, plus a dashed
-// route that draws from the roadside to a destination pin with a breathing
-// halo. Static markup parsed with DOMParser so CSS can animate its parts.
-// The root MUST carry xmlns, or the XML-parsed node is not an SVG element and
-// renders at zero size.
+// A faint road with drifting lane dashes and passing traffic (two cars each
+// way, staggered so they never bunch up), a traffic light cycling at the
+// roadside stop, and a dashed route that draws from that stop to a
+// destination pin with a breathing halo — the stop, then the route to the
+// official door. Static markup parsed with DOMParser so CSS can animate its
+// parts. The root MUST carry xmlns, or the XML-parsed node is not an SVG
+// element and renders at zero size.
 //
 // No viewBox: user units are CSS px, so nothing scales with the hero's
 // height. Two nested viewports pin the parts to the hero's edges:
@@ -65,7 +67,8 @@ async function initQuickstart() {
 //     and runs full width, in the open lane below the buttons;
 //   - the route + pin hang off the bottom-right corner (x=y=100%, drawn at
 //     negative x/y), so the pin sits in the right gutter beside the headline
-//     and the route rises from the road to the right of the controls.
+//     and the route rises from the road to the right of the controls. The
+//     signal sits in this same viewport, just left of the route's origin.
 
 const ROUTE = 'M-330 -60 C-330 -150 -236 -170 -204 -260 S-150 -420 -150 -492';
 
@@ -81,9 +84,18 @@ const BACKDROP_SVG = `<svg xmlns="http://www.w3.org/2000/svg" class="hb" width="
     <line class="hb-road-edge" x1="0" y1="-14" x2="100%" y2="-14"/>
     <g class="hb-lane"><path d="M-100 -37 H3000" stroke-dasharray="28 52"/></g>
     <rect class="hb-car hb-car-a" x="-40" y="-30" width="30" height="9" rx="4.5"/>
+    <rect class="hb-car hb-car-c" x="-20" y="-31" width="16" height="8" rx="4"/>
   </svg>
   <svg x="100%" y="100%" overflow="visible">
     <rect class="hb-car hb-car-b" x="10" y="-53" width="26" height="9" rx="4.5"/>
+    <rect class="hb-car hb-car-d" x="60" y="-54" width="36" height="10" rx="3"/>
+    <g class="hb-signal" transform="translate(-352,-60)">
+      <rect class="hb-signal-pole" x="-1.5" y="-34" width="3" height="34"/>
+      <rect class="hb-signal-box" x="-7.5" y="-47" width="15" height="19" rx="3"/>
+      <circle class="hb-signal-light hb-signal-red" cx="0" cy="-40.5" r="2.6"/>
+      <circle class="hb-signal-light hb-signal-yellow" cx="0" cy="-35.5" r="2.6"/>
+      <circle class="hb-signal-light hb-signal-green" cx="0" cy="-30.5" r="2.6"/>
+    </g>
     <g class="hb-dest">
       <g class="hb-route-wrap"><path class="hb-route" d="${ROUTE}" mask="url(#hb-route-mask)"/></g>
       <circle class="hb-origin-ring" cx="-330" cy="-60" r="9"/>

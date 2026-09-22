@@ -38,7 +38,19 @@ const STATES_MANIFEST_URL = 'data/states-manifest.json';
 const MAX_MARKERS = 500;
 const FALLBACK_LIST_CAP = 100;
 const CLUSTER_ZOOM = 10.5;
-const CLUSTER_CELL_PX = 64;
+const CLUSTER_MIN_ZOOM = 3;
+// Screen-space grid cell size for clustering, in px — scales with zoom so a
+// broad view (national, or a whole state just fitBounds'd to) merges pins
+// into fewer, bigger bubbles, while a closer view keeps the finer grouping
+// needed to tell nearby counties apart. Flat 64px at every zoom left a
+// state-wide view scattered with dozens of small "2" bubbles: real, but
+// visually indistinguishable from noise.
+const CLUSTER_CELL_MAX_PX = 160;
+const CLUSTER_CELL_MIN_PX = 64;
+function clusterCellPx(zoom) {
+  const t = Math.min(1, Math.max(0, (zoom - CLUSTER_MIN_ZOOM) / (CLUSTER_ZOOM - CLUSTER_MIN_ZOOM)));
+  return CLUSTER_CELL_MAX_PX - t * (CLUSTER_CELL_MAX_PX - CLUSTER_CELL_MIN_PX);
+}
 
 // US envelope including Alaska and Hawaii — panning/zooming is clamped here.
 const US_MAX_BOUNDS = [[-180, 15], [-50, 55]];
@@ -625,14 +637,18 @@ async function init() {
       closeOpen();
     }
 
-    if (map.getZoom() < CLUSTER_ZOOM && inView.length > 1) {
+    const zoom = map.getZoom();
+    if (zoom < CLUSTER_ZOOM && inView.length > 1) {
       // Screen-space grid clustering: bucket by projected pixel cell so
-      // bubbles never collide, independent of geographic distance.
+      // bubbles never collide, independent of geographic distance. Cell size
+      // scales with zoom (see clusterCellPx) so a broad view merges more
+      // aggressively than a closer one.
+      const cellPx = clusterCellPx(zoom);
       const cells = new Map();
       for (const p of inView) {
         const px = map.project([p.lng, p.lat]);
-        const cx = Math.floor(px.x / CLUSTER_CELL_PX);
-        const cy = Math.floor(px.y / CLUSTER_CELL_PX);
+        const cx = Math.floor(px.x / cellPx);
+        const cy = Math.floor(px.y / cellPx);
         const key = `${cx},${cy}`;
         if (!cells.has(key)) cells.set(key, { sumX: 0, sumY: 0, points: [] });
         const cell = cells.get(key);
