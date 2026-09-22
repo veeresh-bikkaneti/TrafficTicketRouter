@@ -424,10 +424,13 @@ img, svg { max-width: 100%; }
 .hb-lane { animation: hb-lane-drift 3.2s linear infinite; }
 @keyframes hb-lane-drift { to { transform: translateX(-80px); } } /* one dash period: seamless */
 
-/* passing traffic: one car each way, never both at once in the same spot */
+/* passing traffic: two cars each way, each its own speed/size/delay so they
+   never move in lockstep or pass at the same moment. */
 .hb-car { fill: var(--ink-faint); opacity: 0; }
 .hb-car-a { animation: hb-car-east 14s linear infinite; }
+.hb-car-c { animation: hb-car-east 11s linear -3s infinite; }     /* quicker, trails car-a */
 .hb-car-b { animation: hb-car-west 19s linear -8s infinite; }
+.hb-car-d { animation: hb-car-west 23s linear -14s infinite; }    /* slower, wider — a truck */
 @keyframes hb-car-east {
   0% { transform: translateX(0); opacity: 0; }
   5%, 95% { opacity: 0.32; }
@@ -437,6 +440,29 @@ img, svg { max-width: 100%; }
   0% { transform: translateX(0); opacity: 0; }
   5%, 95% { opacity: 0.32; }
   100% { transform: translateX(-1500px); opacity: 0; }
+}
+
+/* traffic light at the roadside stop — thematically the moment of the stop,
+   right where the route begins its climb to the official door. A hard
+   steps(1) switch, like a real signal, not a cross-fade. */
+.hb-signal-pole { fill: var(--ink-faint); opacity: 0.35; }
+.hb-signal-box { fill: var(--paper-sunken); stroke: var(--hairline); stroke-width: 1.5; opacity: 0.55; }
+.hb-signal-light { opacity: 0.15; }
+.hb-signal-red { fill: #b3483f; animation: hb-sig-red 9s steps(1) infinite; }
+.hb-signal-yellow { fill: var(--warn); animation: hb-sig-yellow 9s steps(1) infinite; }
+.hb-signal-green { fill: #4a8a5c; animation: hb-sig-green 9s steps(1) infinite; }
+@keyframes hb-sig-green {
+  0%, 55% { opacity: 0.85; }
+  55.1%, 100% { opacity: 0.15; }
+}
+@keyframes hb-sig-yellow {
+  0%, 55% { opacity: 0.15; }
+  55.1%, 64% { opacity: 0.85; }
+  64.1%, 100% { opacity: 0.15; }
+}
+@keyframes hb-sig-red {
+  0%, 64% { opacity: 0.15; }
+  64.1%, 100% { opacity: 0.85; }
 }
 
 .hb-route {
@@ -488,7 +514,7 @@ img, svg { max-width: 100%; }
 /* Narrow screens have no gutter beside the text: the route and pin would sit
    behind the headline, so keep only the road and its traffic. */
 @media (max-width: 52rem) {
-  .hb-dest { display: none; }
+  .hb-dest, .hb-signal { display: none; }
 }
 
 /* ---------- ticket-stub perforation divider ---------- */
