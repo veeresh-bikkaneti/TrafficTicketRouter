@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: blob: https://server.arcgisonline.com https://a.basemaps.cartocdn.com; font-src https://cdn.jsdelivr.net; connect-src 'self' https://server.arcgisonline.com https://a.basemaps.cartocdn.com; worker-src blob:; object-src 'none'; base-uri 'self'; form-action 'self';">
 <meta name="referrer" content="no-referrer">
 <title>Start a check — TicketRouter</title>
-<meta name="description" content="Three steps: where it happened, what you still have, then the official pages.">
+<meta name="description" content="One screen: where it happened and what you still have, then the official court and DMV pages for that county.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
@@ -30,105 +30,103 @@
 <main id="main">
   <div class="wrap">
     <div class="page-head">
-      <p class="kicker hero-el" style="--d:0ms">Three steps. No accounts. Nothing typed here leaves your browser.</p>
+      <p class="kicker hero-el" style="--d:0ms">One screen. No accounts. Nothing typed here leaves your browser.</p>
       <h1 class="display hero-el" style="--d:90ms">Start a check</h1>
     </div>
     <noscript><div class="notice"><p>The check needs JavaScript to load the state and county lists. The <a href="map.html">map</a> and the state pages linked from the <a href="index.html">home page</a> also list the official court and DMV pages.</p></div></noscript>
 
-    <ol class="progress-rail" aria-hidden="true" data-reveal>
-      <li class="current"><span class="rail-dot">1</span><span class="rail-label">Where</span></li>
-      <li><span class="rail-dot">2</span><span class="rail-label">What you have</span></li>
-      <li><span class="rail-dot">3</span><span class="rail-label">Official pages</span></li>
-    </ol>
+    <!-- State 1 of 2: ask. Everything on one screen; one submit.
+         novalidate: validation is ours, shown inline under each field. -->
+    <form class="ask hero-el" id="ask" style="--d:160ms" novalidate>
+      <fieldset class="ask-group">
+        <legend class="ask-legend"><h2 id="where-h" tabindex="-1"><span class="step-num" aria-hidden="true">1</span>Where did it happen?</h2></legend>
+        <div class="ask-where">
+          <div class="field">
+            <label for="state">State</label>
+            <p class="field-error" id="state-error" hidden><span class="field-error-icon" aria-hidden="true"></span><span class="visually-hidden">Error: </span>Pick a state to continue</p>
+            <select id="state" aria-describedby="state-hint">
+              <option value="" selected>Choose a state…</option>
+            </select>
+            <p class="hint" id="state-hint">All 50 states.</p>
+          </div>
+          <div class="field">
+            <label for="county">County</label>
+            <p class="field-error" id="county-error" hidden><span class="field-error-icon" aria-hidden="true"></span><span class="visually-hidden">Error: </span>Pick a county to continue</p>
+            <select id="county" aria-describedby="county-hint">
+              <option value="" selected>Choose a state first…</option>
+              <option value="other">Not sure / another county</option>
+            </select>
+            <p class="hint" id="county-hint">The county where you were stopped — its court has the case.</p>
+          </div>
+        </div>
+      </fieldset>
 
-    <section class="step" id="step-1" aria-labelledby="step-1-h">
-      <div class="step-head"><span class="step-num" aria-hidden="true">1</span>
-        <h2 id="step-1-h">Where did it happen?</h2></div>
-      <div class="field">
-        <label for="state">State</label>
-        <select id="state" aria-describedby="state-hint">
-          <option value="" selected>Choose a state…</option>
-        </select>
-        <p class="hint" id="state-hint">All 50 states. Pick a state, then a county.</p>
-      </div>
-      <div class="field">
-        <label for="county">County</label>
-        <select id="county" aria-describedby="county-hint">
-          <option value="" selected>Choose a state first…</option>
-          <option value="other">Not sure / another county</option>
-        </select>
-        <p class="hint" id="county-hint">Traffic cases live in the county court where the stop happened.</p>
-      </div>
-      <div class="btn-row">
-        <button class="btn" id="to-step-2" type="button">Continue <span class="ext arr-right" aria-hidden="true">→</span></button>
-      </div>
-    </section>
+      <div class="stub ask-perf" aria-hidden="true" data-reveal><span class="stub-punch"></span><span class="stub-line"></span><span class="stub-punch"></span></div>
 
-    <section class="step" id="step-2" aria-labelledby="step-2-h" hidden>
-      <div class="step-head"><span class="step-num" aria-hidden="true">2</span>
-        <h2 id="step-2-h">What do you still have?</h2></div>
-      <p>Pick the closest match. These are labels only — you type nothing here,
-      and nothing is stored or sent anywhere. You'll type your information on the official site.</p>
-      <div class="intent-options" role="radiogroup" aria-label="What do you still have?">
-        <div>
-          <input type="radio" name="have" id="have-nothing" value="lost_paper">
-          <label class="intent-card" for="have-nothing">
-            <strong>Lost the paper — I have nothing</strong>
-            <span>The ticket is gone. Show me the official pages for my county.</span>
-          </label>
+      <fieldset class="ask-group" id="intent-group">
+        <legend class="ask-legend"><h2 id="intent-h"><span class="step-num" aria-hidden="true">2</span>What do you still have?</h2></legend>
+        <p class="hint ask-note" id="intent-hint">Pick the closest match. Labels only — you type nothing here, and nothing is stored or sent. You'll type your information on the official site.</p>
+        <p class="field-error" id="intent-error" hidden><span class="field-error-icon" aria-hidden="true"></span><span class="visually-hidden">Error: </span>Choose what you still have</p>
+        <div class="intent-options">
+          <div>
+            <input type="radio" name="have" id="have-nothing" value="lost_paper" data-chip="Lost the paper">
+            <label class="intent-card" for="have-nothing">
+              <strong>Lost the paper — I have nothing</strong>
+              <span>The ticket is gone. Show me the official pages for my county.</span>
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="have" id="have-fragment" value="lost_paper" data-chip="A citation number">
+            <label class="intent-card" for="have-fragment">
+              <strong>I have a citation number (or part of one)</strong>
+              <span>You don't type it here — you'll type it on the official payment or court site.</span>
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="have" id="have-history" value="history" data-chip="Driving history">
+            <label class="intent-card" for="have-history">
+              <strong>I want my driving history</strong>
+              <span>Have I ever had a moving violation on my record? (DMV abstract.)</span>
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="have" id="have-handle" value="handle_it" data-chip="How-to info">
+            <label class="intent-card" for="have-handle">
+              <strong>General how-to-handle-it info (Nebraska guide)</strong>
+              <span>Paying, appearing, traffic school, official help. General information only.</span>
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="have" id="have-vin" value="vin_only" data-chip="VIN, title, or plate">
+            <label class="intent-card" for="have-vin">
+              <strong>I only have a VIN, title, or plate</strong>
+              <span>What those identifiers can and cannot find. (Short answer: not a speeding ticket.)</span>
+            </label>
+          </div>
         </div>
-        <div>
-          <input type="radio" name="have" id="have-fragment" value="lost_paper">
-          <label class="intent-card" for="have-fragment">
-            <strong>I have a citation number (or part of one)</strong>
-            <span>You don't type it here — you'll type it on the official payment or court site.</span>
-          </label>
-        </div>
-        <div>
-          <input type="radio" name="have" id="have-history" value="history">
-          <label class="intent-card" for="have-history">
-            <strong>I want my driving history</strong>
-            <span>Have I ever had a moving violation on my record? (DMV abstract.)</span>
-          </label>
-        </div>
-        <div>
-          <input type="radio" name="have" id="have-handle" value="handle_it">
-          <label class="intent-card" for="have-handle">
-            <strong>General how-to-handle-it info (Nebraska guide)</strong>
-            <span>Paying, appearing, traffic school, official help. General information only.</span>
-          </label>
-        </div>
-        <div>
-          <input type="radio" name="have" id="have-vin" value="vin_only">
-          <label class="intent-card" for="have-vin">
-            <strong>I only have a VIN, title, or plate</strong>
-            <span>What those identifiers can and cannot find. (Short answer: not a speeding ticket.)</span>
-          </label>
-        </div>
-      </div>
-      <div class="btn-row">
-        <button class="btn" id="to-step-3" type="button">Show official pages <span class="ext arr-right" aria-hidden="true">→</span></button>
-      </div>
-      <a class="back-link" href="#step-1" id="back-to-1">← Back to step 1</a>
-    </section>
+      </fieldset>
 
-    <section class="step" id="step-empty" aria-labelledby="step-empty-h" hidden>
-      <h2 id="step-empty-h">We can't route this yet</h2>
-      <div class="notice" id="empty-notice"></div>
-      <div class="btn-row">
-        <a class="btn btn-secondary" href="learn.html">General how-to-handle-it info (Nebraska guide)</a>
+      <div class="ask-submit">
+        <button class="btn" id="submit" type="submit">Show official pages <span class="ext arr-right" aria-hidden="true">→</span></button>
       </div>
-      <a class="back-link" href="#step-1" id="back-to-1b">← Start over</a>
-    </section>
+    </form>
   </div>
-  <!-- Step 3 uses the wide measure: the results card grid needs the room.
-       The form steps above stay at the reading measure. -->
+
+  <!-- State 2 of 2: answer. Replaces the ask form; uses the wide measure
+       because the result card grid needs the room. -->
   <div class="wrap-wide">
-    <section class="step" id="step-3" aria-labelledby="step-3-h" hidden>
-      <div class="step-head"><span class="step-num" aria-hidden="true">3</span>
-        <h2 id="step-3-h">Official pages</h2></div>
+    <section class="answer" id="answer" aria-labelledby="answer-h" hidden>
+      <div class="answer-head">
+        <h2 id="answer-h" tabindex="-1">Your official pages</h2>
+        <span class="stamp" id="answer-stamp" aria-hidden="true">Routed</span>
+      </div>
+      <div class="answer-bar">
+        <h3 class="answer-bar-h">Your answers</h3>
+        <dl class="answer-chips" id="answer-chips"></dl>
+        <button class="link-btn" type="button" data-change>← Change your answers</button>
+      </div>
       <div id="results" aria-live="polite"></div>
-      <a class="back-link" href="#step-2" id="back-to-2">← Back to step 2</a>
+      <button class="link-btn answer-foot" type="button" data-change>← Change your answers</button>
     </section>
   </div>
 </main>
