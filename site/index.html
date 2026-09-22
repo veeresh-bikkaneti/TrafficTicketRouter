@@ -6,17 +6,15 @@
 <title>TicketRouter — the official page for your traffic ticket</title>
 <meta name="description" content="TicketRouter routes you to the official court and DMV pages for moving violations. We do not search tickets.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap-wide">
-    <a class="wordmark" href="index.html">TicketRouter</a>
+    <a class="wordmark" href="index.html" aria-current="page"><span class="brand-mark" aria-hidden="true"></span>TicketRouter</a>
     <nav class="site-nav" aria-label="Main">
       <a href="check.html">Start a check</a>
       <a href="map.html">Map</a>
@@ -29,55 +27,105 @@
 
 <main id="main">
   <div class="wrap">
-    <p class="kicker">Open source · Nebraska · v1</p>
-    <h1>We do not search tickets.<br>We show you the official page.</h1>
-    <p class="lede">There is no national ticket database. Every state keeps moving-violation
-    records in its own courts and DMV. TicketRouter is a maintained directory of the
-    <strong>official</strong> pages — court case search, citation payment, county courts,
-    driving records, self-help — so you knock on the right door.</p>
-    <div class="btn-row">
-      <a class="btn" href="check.html">Start a check</a>
-      <a class="btn btn-secondary" href="vin.html">I only have a VIN or plate</a>
-    </div>
+    <section class="hero">
+      <p class="kicker hero-el" style="--d:0ms">Open source · Nebraska · v1</p>
+      <h1 class="display">
+        <span class="line"><span class="line-in" style="--d:90ms">We do not search tickets.</span></span>
+        <span class="line"><span class="line-in" style="--d:180ms">We show you the official page.</span></span>
+      </h1>
+      <p class="lede hero-el" style="--d:270ms">There is no national ticket database. Every state keeps moving-violation
+      records in its own courts and DMV. TicketRouter is a maintained directory of the
+      <strong>official</strong> pages — court case search, citation payment, county courts,
+      driving records, self-help — so you knock on the right door.</p>
+      <div class="btn-row hero-el" style="--d:350ms">
+        <a class="btn" href="check.html">Start a check <span class="ext arr-right" aria-hidden="true">→</span></a>
+        <a class="btn btn-secondary" href="vin.html">I only have a VIN or plate</a>
+      </div>
+    </section>
 
-    <hr class="rule">
+    <div class="stub" aria-hidden="true"><span class="stub-punch"></span><span class="stub-line"></span><span class="stub-punch"></span></div>
 
-    <h2>What this is not</h2>
-    <ul>
-      <li><strong>Not a ticket search.</strong> We never query a court or DMV. You type your own information on the official site.</li>
-      <li><strong>Not a record warehouse.</strong> No scraping, no stored records, no database of people.</li>
-      <li><strong>Not legal advice.</strong> General information plus official links. Nothing here tells you what to do about your ticket.</li>
-      <li><strong>Not people-search.</strong> There is nowhere on this site to type someone else's name. Self-check only.</li>
-    </ul>
+    <section class="trust" data-reveal aria-label="Coverage facts">
+      <dl class="stats">
+        <div class="stat"><dt>official pages routed</dt><dd>14</dd></div>
+        <div class="stat"><dt>Nebraska counties covered</dt><dd>3</dd></div>
+        <div class="stat"><dt>every link re-verified within</dt><dd>90 days</dd></div>
+      </dl>
+    </section>
 
-    <h2>Can a VIN, plate, or title find a speeding ticket?</h2>
-    <table>
-      <thead><tr><th>What you have</th><th>Can it find a speeding ticket?</th></tr></thead>
-      <tbody>
-        <tr><td>Citation number</td><td>Yes — on the court's official site for that county.</td></tr>
-        <tr><td>Driver's license</td><td>Only on portals that explicitly offer DL search — Nebraska's JUSTICE searches by name, not DL.</td></tr>
-        <tr><td>Name</td><td>Sometimes — where the portal supports name search.</td></tr>
-        <tr><td>Plate number</td><td>Only camera, parking, or toll violations, in some cities.</td></tr>
-        <tr><td>VIN / title / registration</td><td><strong>No.</strong> These identify the vehicle, not the driver. A speeding ticket is issued to a person.</td></tr>
-      </tbody>
-    </table>
-    <p><a href="vin.html">Why tickets follow the driver, not the car →</a></p>
+    <section data-reveal>
+      <h2>What this is not</h2>
+      <ul class="nope-grid">
+        <li class="nope-card" style="--d:0ms">
+          <span class="nope-icon icon-search" aria-hidden="true"></span>
+          <h3>Not a ticket search.</h3>
+          <p>We never query a court or DMV. You type your own information on the official site.</p>
+        </li>
+        <li class="nope-card" style="--d:80ms">
+          <span class="nope-icon icon-db" aria-hidden="true"></span>
+          <h3>Not a record warehouse.</h3>
+          <p>No scraping, no stored records, no database of people.</p>
+        </li>
+        <li class="nope-card" style="--d:160ms">
+          <span class="nope-icon icon-doc" aria-hidden="true"></span>
+          <h3>Not legal advice.</h3>
+          <p>General information plus official links. Nothing here tells you what to do about your ticket.</p>
+        </li>
+        <li class="nope-card" style="--d:240ms">
+          <span class="nope-icon icon-person" aria-hidden="true"></span>
+          <h3>Not people-search.</h3>
+          <p>There is nowhere on this site to type someone else's name. Self-check only.</p>
+        </li>
+      </ul>
+    </section>
 
-    <h2>How it works</h2>
-    <ol>
-      <li><strong>Tell us what you need</strong> — lost paper, your driving history, general how-to-handle-it info, or VIN/plate questions.</li>
-      <li><strong>Tell us where</strong> — state, then county. (Nebraska only in v1.)</li>
-      <li><strong>Get destination cards</strong> — the official pages, with fees, lags, and limitations spelled out. You finish the lookup there.</li>
-    </ol>
+    <section data-reveal>
+      <h2>Can a VIN, plate, or title find a speeding ticket?</h2>
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead><tr><th scope="col">What you have</th><th scope="col">Can it find a speeding ticket?</th></tr></thead>
+          <tbody>
+            <tr><td data-label="What you have">Citation number</td><td data-label="Can it find a speeding ticket?">Yes — on the court's official site for that county.</td></tr>
+            <tr><td data-label="What you have">Driver's license</td><td data-label="Can it find a speeding ticket?">Only on portals that explicitly offer DL search — Nebraska's JUSTICE searches by name, not DL.</td></tr>
+            <tr><td data-label="What you have">Name</td><td data-label="Can it find a speeding ticket?">Sometimes — where the portal supports name search.</td></tr>
+            <tr><td data-label="What you have">Plate number</td><td data-label="Can it find a speeding ticket?">Only camera, parking, or toll violations, in some cities.</td></tr>
+            <tr><td data-label="What you have">VIN / title / registration</td><td data-label="Can it find a speeding ticket?"><strong>No.</strong> These identify the vehicle, not the driver. A speeding ticket is issued to a person.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a class="text-link" href="vin.html">Why tickets follow the driver, not the car <span class="ext" aria-hidden="true">→</span></a></p>
+    </section>
 
-    <h2>Coverage</h2>
-    <p>v1 covers <strong>Nebraska</strong>: statewide court case search, citation payment,
-    DMV driving records, and county cards for <strong>Lancaster</strong>,
-    <strong>Douglas</strong>, and <strong>Sarpy</strong> counties. Every routed URL is
-    verified against an official source. New states are added one verified file at a time.</p>
-    <div class="btn-row">
-      <a class="btn" href="check.html">Start a check</a>
-    </div>
+    <section data-reveal>
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <span class="step-n" aria-hidden="true">1</span>
+          <p><strong>Tell us what you need</strong> — lost paper, your driving history, general how-to-handle-it info, or VIN/plate questions.</p>
+        </li>
+        <li>
+          <span class="step-n" aria-hidden="true">2</span>
+          <p><strong>Tell us where</strong> — state, then county. (Nebraska only in v1.)</p>
+        </li>
+        <li>
+          <span class="step-n" aria-hidden="true">3</span>
+          <p><strong>Get destination cards</strong> — the official pages, with fees, lags, and limitations spelled out. You finish the lookup there.</p>
+        </li>
+      </ol>
+    </section>
+
+    <div class="stub" aria-hidden="true"><span class="stub-punch"></span><span class="stub-line"></span><span class="stub-punch"></span></div>
+
+    <section data-reveal>
+      <h2>Coverage</h2>
+      <p>v1 covers <strong>Nebraska</strong>: statewide court case search, citation payment,
+      DMV driving records, and county cards for <strong>Lancaster</strong>,
+      <strong>Douglas</strong>, and <strong>Sarpy</strong> counties. Every routed URL is
+      verified against an official source. New states are added one verified file at a time.</p>
+      <div class="btn-row">
+        <a class="btn" href="check.html">Start a check <span class="ext arr-right" aria-hidden="true">→</span></a>
+      </div>
+    </section>
   </div>
 </main>
 
@@ -87,7 +135,9 @@
     You will type your information on the official site. General information only —
     not legal advice. <a href="legal.html">Legal details</a>.</p>
     <p>Open source under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</p>
+    <p class="built-line">Built in the open · Apache-2.0.</p>
   </div>
 </footer>
+<script src="js/site.js" defer></script>
 </body>
 </html>

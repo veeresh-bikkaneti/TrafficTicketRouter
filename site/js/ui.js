@@ -20,35 +20,46 @@ function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
+const RAIL_STEPS = ['step-1', 'step-2', 'step-3'];
+
+function updateRail(id) {
+  const rail = document.querySelector('.progress-rail');
+  if (!rail) return;
+  const idx = RAIL_STEPS.indexOf(id);
+  rail.querySelectorAll('li').forEach((li, i) => {
+    li.classList.toggle('done', idx !== -1 && i < idx);
+    li.classList.toggle('current', i === idx);
+  });
+}
+
 function show(id) {
   for (const s of ['step-1', 'step-2', 'step-3', 'step-empty']) {
     $(s).hidden = s !== id;
   }
+  updateRail(id);
   $(id).scrollIntoView({ block: 'start' });
 }
 
-function cardHTML(card) {
+function cardHTML(card, i) {
   const kind = KIND_LABELS[card.kind] || card.kind;
   const extras = (card.extra_links || [])
     .map((l) => `<div><a href="${esc(l.source_url)}" target="_blank" rel="noopener">${esc(l.label)}</a></div>`)
     .join('');
-  return `<article class="card">
-    <p class="card-kind">${esc(kind)}</p>
+  return `<article class="card" style="--d:${(i || 0) * 70}ms">
+    <p class="card-kind"><span class="pill">${esc(kind)}</span></p>
     <h3>${esc(card.agency)}</h3>
-    ${card.contact ? `<p>${esc(card.contact)}</p>` : ''}
-    <dl>
-      <dt>What the official form asks for</dt>
-      <dd>${esc(card.accepted_keys)}</dd>
-      <dt>Fee</dt>
-      <dd>${esc(card.cost)}</dd>
-      ${card.lag ? `<dt>Lag</dt><dd>${esc(card.lag)}</dd>` : ''}
+    ${card.contact ? `<p class="card-contact">${esc(card.contact)}</p>` : ''}
+    <dl class="card-facts">
+      <div><dt>What the official form asks for</dt><dd>${esc(card.accepted_keys)}</dd></div>
+      <div><dt>Fee</dt><dd>${esc(card.cost)}</dd></div>
+      ${card.lag ? `<div><dt>Lag</dt><dd>${esc(card.lag)}</dd></div>` : ''}
     </dl>
     <ul class="limitations">
       ${(card.limitations || []).map((l) => `<li>${esc(l)}</li>`).join('')}
     </ul>
     <p class="verified">Last verified ${esc(card.last_verified)} · Source: official site</p>
     ${card.source_url
-      ? `<a class="btn" href="${esc(card.source_url)}" target="_blank" rel="noopener">Open official site</a>`
+      ? `<a class="btn btn-block" href="${esc(card.source_url)}" target="_blank" rel="noopener">Open official site <span class="ext" aria-hidden="true">↗</span></a>`
       : ''}
     ${extras ? `<div class="extra-links">${extras}</div>` : ''}
   </article>`;
@@ -74,7 +85,7 @@ function renderResults(result, countyLabel) {
        Traffic cases live in the county court of the county where the stop happened.</div>`
     : '';
   box.innerHTML = other +
-    `<div class="card-grid">${result.cards.map(cardHTML).join('')}</div>
+    `<div class="card-grid">${result.cards.map((c, i) => cardHTML(c, i)).join('')}</div>
      <div class="notice">We did not search any database.
      You will type your information on the official site.</div>`;
   show('step-3');
