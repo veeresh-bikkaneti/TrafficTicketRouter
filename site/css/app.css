@@ -30,6 +30,7 @@
 
   /* motion */
   --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --ease-entrance: cubic-bezier(0.16, 1, 0.3, 1);
   --motion: 240ms var(--ease);
 }
 
@@ -1146,42 +1147,181 @@ table.spec-table {
 .map-wrap { margin: 1.75rem 0 1rem; }
 
 #map {
-  height: min(70vh, 34rem);
-  min-height: 20rem;
+  height: min(78vh, 40rem);
+  min-height: 22rem;
   border: 1px solid var(--hairline);
   border-radius: calc(var(--radius) + 4px);
   background: var(--paper-raised);
   box-shadow: var(--shadow);
   overflow: hidden;
+  position: relative;
 }
 
+/* Teardrop courthouse pin: a 44x52 keyboard button (real touch target) whose
+   tip sits on the coordinate; the visible teardrop is the 20px mark inside. */
+/* Animates the standalone `translate`/`scale` CSS properties, not `transform`
+   — MapLibre positions each marker by setting `style.transform` directly on
+   this same element, and an animation targeting `transform` would permanently
+   overwrite that positioning once the animation's fill-mode holds its last
+   frame (every marker would render pinned to the map's origin corner). */
+@keyframes pin-drop {
+  0% { opacity: 0; translate: 0 -14px; scale: 0.7; }
+  60% { opacity: 1; translate: 0 2px; scale: 1.06; }
+  100% { opacity: 1; translate: 0 0; scale: 1; }
+}
 .map-pin {
   width: 44px;
-  height: 44px;
+  height: 52px;
   padding: 0;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background: var(--action);
-  box-shadow: var(--shadow);
+  border: 0;
+  background: none;
   cursor: pointer;
   position: relative;
-  transition: transform 200ms var(--ease), box-shadow 200ms var(--ease);
+  display: block;
+  transform-origin: bottom center;
+  animation: pin-drop 420ms var(--ease-entrance) both;
+  animation-delay: var(--d, 0ms);
+}
+.map-pin::before {
+  /* the teardrop: a rotated square, tip pointing down at the coordinate */
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  background: var(--action);
+  border: 3px solid var(--paper-raised);
+  border-radius: 50% 50% 50% 0;
+  box-shadow: var(--shadow);
+  transform: rotate(-45deg);
+  transition: transform 180ms var(--ease), box-shadow 180ms var(--ease), background 180ms var(--ease);
 }
 .map-pin::after {
   content: "";
   position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 12px;
-  height: 12px;
+  left: 50%;
+  bottom: 12px;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
   border-radius: 50%;
   background: #fff;
 }
-.map-pin:hover { transform: scale(1.12); box-shadow: var(--shadow-lift); }
+.map-pin-multi::after { background: var(--warn-soft); }
+.map-pin:hover::before { transform: rotate(-45deg) scale(1.14); box-shadow: var(--shadow-lift); }
+.map-pin:active::before { background: var(--action-deep); }
 .map-pin:focus-visible {
+  outline: none;
+}
+.map-pin:focus-visible::before {
   outline: 3px solid var(--ink);
   outline-offset: 3px;
 }
+
+/* Cluster count bubble: grid-clustered pins below zoom ~10.5. */
+/* Same reasoning as pin-drop above: animate the standalone `scale` property,
+   never `transform`, on a marker element MapLibre positions via `transform`. */
+@keyframes cluster-pop {
+  0% { opacity: 0; scale: 0.5; }
+  100% { opacity: 1; scale: 1; }
+}
+.map-cluster {
+  border-radius: 50%;
+  border: 3px solid var(--paper-raised);
+  background: var(--action-deep);
+  color: #fff;
+  font: 700 0.85rem/1 var(--font-ui);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: scale 180ms var(--ease), box-shadow 180ms var(--ease);
+  animation: cluster-pop 320ms var(--ease-entrance) both;
+  animation-delay: var(--d, 0ms);
+}
+.map-cluster:hover { scale: 1.1; box-shadow: var(--shadow-lift); }
+.map-cluster:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map-pin, .map-cluster { animation: none; }
+}
+
+/* Layer switcher: Street / Satellite / Terrain / Night. A real MapLibre
+   control (stacked in the top-right corner above the zoom control), not a
+   freely-positioned overlay, so it never collides with other controls. */
+.map-layers {
+  display: flex;
+  gap: 2px;
+  margin: 0 0 10px !important;
+  padding: 3px;
+  background: var(--paper-raised);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-family: var(--font-ui);
+}
+.map-layer-btn {
+  min-height: 36px;
+  padding: 0.35rem 0.6rem;
+  font: 600 0.78rem/1 var(--font-ui);
+  color: var(--ink-soft);
+  background: transparent;
+  border: 0;
+  border-radius: calc(var(--radius) - 4px);
+  cursor: pointer;
+  transition: background 160ms var(--ease), color 160ms var(--ease);
+}
+.map-layer-btn:hover { background: var(--paper-sunken); color: var(--ink); }
+.map-layer-btn[aria-checked="true"] { background: var(--action); color: var(--action-ink); }
+.map-layer-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+/* Courthouse search box, top-left. */
+.map-search {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  width: min(19rem, calc(100% - 24px));
+}
+.map-search-input {
+  width: 100%;
+  min-height: 44px;
+  font: 500 0.95rem/1.2 var(--font-ui);
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.85rem;
+  box-shadow: var(--shadow);
+}
+.map-search-input:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+.map-search-list {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 4px;
+  max-height: 15rem;
+  overflow-y: auto;
+  background: var(--paper-raised);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lift);
+}
+.map-search-option {
+  padding: 0.5rem 0.6rem;
+  border-radius: calc(var(--radius) - 4px);
+  font: 0.88rem/1.3 var(--font-ui);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.map-search-option strong { color: var(--ink); font-weight: 600; }
+.map-search-option.active, .map-search-option:hover { background: var(--paper-sunken); }
 
 .maplibregl-popup-content {
   font-family: var(--font-ui);

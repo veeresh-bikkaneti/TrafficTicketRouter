@@ -44,7 +44,7 @@ function show(id) {
 function cardHTML(card, i) {
   const kind = KIND_LABELS[card.kind] || card.kind;
   const extras = (card.extra_links || [])
-    .map((l) => `<div><a href="${esc(l.source_url)}" target="_blank" rel="noopener">${esc(l.label)}</a></div>`)
+    .map((l) => `<div><a href="${esc(l.source_url)}" target="_blank" rel="noopener noreferrer">${esc(l.label)}</a></div>`)
     .join('');
   return `<article class="card" style="--d:${(i || 0) * 70}ms">
     <p class="card-kind"><span class="pill">${esc(kind)}</span></p>
@@ -60,7 +60,7 @@ function cardHTML(card, i) {
     </ul>
     <p class="verified">Last verified ${esc(card.last_verified)} · Source: official site</p>
     ${card.source_url
-      ? `<a class="btn btn-block" href="${esc(card.source_url)}" target="_blank" rel="noopener">Open official site <span class="ext" aria-hidden="true">↗</span></a>`
+      ? `<a class="btn btn-block" href="${esc(card.source_url)}" target="_blank" rel="noopener noreferrer">Open official site <span class="ext" aria-hidden="true">↗</span></a>`
       : ''}
     ${extras ? `<div class="extra-links">${extras}</div>` : ''}
   </article>`;

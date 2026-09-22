@@ -102,10 +102,23 @@ test('map page + script contract', () => {
   const js = readFileSync(join(root, 'site', 'js', 'map.js'), 'utf8');
   assert.ok(html.includes('class="skip"'), 'map.html needs a skip link');
   assert.ok(html.includes('maplibre-gl@5.24.0'), 'map.html must pin the MapLibre CDN version');
-  assert.ok(!/<input/i.test(html), 'map.html must contain no identity inputs');
-  assert.ok(js.includes("target = '_blank'") && js.includes("rel = 'noopener'"),
-    'map.js must open official sites with target=_blank rel=noopener');
+  // The only <input> on this page is the client-side courthouse search box,
+  // built by map.js (never present in the static markup) — no identity field
+  // (name/DOB/DL/plate/VIN) is ever collected.
+  assert.ok(!/<input/i.test(html), 'map.html must contain no static identity inputs');
+  assert.ok(!/\b(ssn|driver.?s? licen[sc]e number|date of birth)\b/i.test(js),
+    'map.js must never reference identity fields');
+  assert.ok(js.includes("target = '_blank'") && js.includes("rel = 'noopener noreferrer'"),
+    'map.js must open official sites with target=_blank rel=noopener noreferrer');
   assert.ok(/we did not search any database/i.test(html), 'map.html keeps the no-search disclaimer');
   assert.ok(js.includes('setDOMContent'), 'map.js must build popups via setDOMContent (no innerHTML)');
   assert.ok(!/\.innerHTML\s*=/.test(js), 'map.js must not assign innerHTML on pin data');
+  assert.ok(js.includes('maxBounds') && js.includes('US_MAX_BOUNDS'),
+    'map.js must clamp panning/zooming to a US envelope (US-only view)');
+  assert.ok(js.includes('minZoom'), 'map.js must set a minZoom floor so users cannot zoom out to the world');
+  assert.ok(!/renderWorldCopies:\s*false/.test(js),
+    'renderWorldCopies:false must stay unset alongside maxBounds — verified to corrupt the camera center ' +
+    'on any zoom-changing call in maplibre-gl 5.24.0; maxBounds alone already keeps the map US-only');
+  assert.ok(js.includes('US_CONTINENTAL_BOUNDS') && js.includes('fitBounds'),
+    'map.js must open fit to the continental US');
 });
