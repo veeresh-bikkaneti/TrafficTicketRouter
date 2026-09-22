@@ -6,21 +6,19 @@
 <title>VIN, title, and plate — TicketRouter</title>
 <meta name="description" content="Why a VIN, title, or plate cannot find a speeding ticket.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap-wide">
-    <a class="wordmark" href="index.html">TicketRouter</a>
+    <a class="wordmark" href="index.html"><span class="brand-mark" aria-hidden="true"></span>TicketRouter</a>
     <nav class="site-nav" aria-label="Main">
       <a href="check.html">Start a check</a>
       <a href="map.html">Map</a>
-      <a href="vin.html">VIN &amp; plate</a>
+      <a href="vin.html" aria-current="page">VIN &amp; plate</a>
       <a href="learn.html">How to handle it</a>
       <a href="legal.html">Legal</a>
     </nav>
@@ -29,40 +27,60 @@
 
 <main id="main">
   <div class="wrap">
-    <p class="kicker">Dead end, explained honestly</p>
-    <h1>A VIN cannot find your speeding ticket</h1>
-    <p class="lede">A speeding ticket is issued to a <strong>person</strong> — the driver.
-    A VIN, a title, and a registration identify a <strong>vehicle</strong>.
-    No official court lookup we have found lets you look up moving violations by VIN, because
-    courts file cases by person and case number, not by car.</p>
+    <section class="hero">
+      <p class="kicker hero-el" style="--d:0ms">Dead end, explained honestly</p>
+      <h1 class="display">
+        <span class="line"><span class="line-in" style="--d:90ms">A VIN cannot find</span></span>
+        <span class="line"><span class="line-in" style="--d:180ms">your speeding ticket</span></span>
+      </h1>
+      <p class="lede hero-el" style="--d:270ms">A speeding ticket is issued to a <strong>person</strong> — the driver.
+      A VIN, a title, and a registration identify a <strong>vehicle</strong>.
+      No official court lookup we have found lets you look up moving violations by VIN, because
+      courts file cases by person and case number, not by car.</p>
+    </section>
 
-    <hr class="rule">
+    <div class="stub" aria-hidden="true"><span class="stub-punch"></span><span class="stub-line"></span><span class="stub-punch"></span></div>
 
-    <h2>What each identifier can find</h2>
-    <table>
-      <thead><tr><th>You have</th><th>What it finds</th></tr></thead>
-      <tbody>
-        <tr><td>Citation number</td><td>The case, on the court's official site for that county.</td></tr>
-        <tr><td>Driver's license number</td><td>Tickets issued to that driver — only on portals that explicitly offer DL search. For example, Nebraska's JUSTICE searches by name, not DL number — other states differ.</td></tr>
-        <tr><td>Name</td><td>Cases filed under that name — only where the portal supports name search (for example, Nebraska's JUSTICE portal supports name search, $17 per search — other states differ).</td></tr>
-        <tr><td>Plate number</td><td>Camera, parking, or toll violations in some cities. Not speeding tickets written to a driver.</td></tr>
-        <tr><td>VIN</td><td>Vehicle history: accidents, title brands, recalls. <strong>Not moving violations.</strong></td></tr>
-        <tr><td>Title / registration</td><td>Ownership and liens. <strong>Not tickets.</strong> A title inquiry is not a ticket search.</td></tr>
-      </tbody>
-    </table>
+    <section data-reveal>
+      <h2>What each identifier can find</h2>
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead><tr><th scope="col">You have</th><th scope="col">What it finds</th></tr></thead>
+          <tbody>
+            <tr><td data-label="You have">Citation number</td><td data-label="What it finds">The case, on the court's official site for that county.</td></tr>
+            <tr><td data-label="You have">Driver's license number</td><td data-label="What it finds">Tickets issued to that driver — only on portals that explicitly offer DL search. For example, Nebraska's JUSTICE searches by name, not DL number — other states differ.</td></tr>
+            <tr><td data-label="You have">Name</td><td data-label="What it finds">Cases filed under that name — only where the portal supports name search (for example, Nebraska's JUSTICE portal supports name search, $17 per search — other states differ).</td></tr>
+            <tr><td data-label="You have">Plate number</td><td data-label="What it finds">Camera, parking, or toll violations in some cities. Not speeding tickets written to a driver.</td></tr>
+            <tr><td data-label="You have">VIN</td><td data-label="What it finds">Vehicle history: accidents, title brands, recalls. <strong>Not moving violations.</strong></td></tr>
+            <tr><td data-label="You have">Title / registration</td><td data-label="What it finds">Ownership and liens. <strong>Not tickets.</strong> A title inquiry is not a ticket search.</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-    <div class="notice">
-      <strong>Beware of sites that promise "VIN ticket history."</strong>
-      There is no official source behind that claim. At best they are selling vehicle-history
-      data; at worst they are harvesting your identifiers. Use the official court and DMV
-      pages linked from this site instead.
-    </div>
+      <div class="notice notice-warn">
+        <span class="warn-icon" aria-hidden="true"></span>
+        <div>
+          <strong>Beware of sites that promise "VIN ticket history."</strong>
+          There is no official source behind that claim. At best they are selling vehicle-history
+          data; at worst they are harvesting your identifiers. Use the official court and DMV
+          pages linked from this site instead.
+        </div>
+      </div>
+    </section>
 
-    <h2>What to do instead</h2>
-    <ul>
-      <li><strong>Lost the paper?</strong> <a href="check.html">Start a check</a> — pick the county where the stop happened. You can also find the courthouse on the <a href="map.html">map</a>.</li>
-      <li><strong>Want your full history?</strong> Request <a href="check.html">your own DMV driving record</a> — fees vary by state; the check will find your state's DMV page.</li>
-    </ul>
+    <section data-reveal>
+      <h2>What to do instead</h2>
+      <ul class="do-grid">
+        <li class="do-card" style="--d:0ms">
+          <h3>Lost the paper?</h3>
+          <p><a href="check.html">Start a check</a> — pick the county where the stop happened. You can also find the courthouse on the <a href="map.html">map</a>.</p>
+        </li>
+        <li class="do-card" style="--d:90ms">
+          <h3>Want your full history?</h3>
+          <p>Request <a href="check.html">your own DMV driving record</a> — $15 in Nebraska, shows convictions and points.</p>
+        </li>
+      </ul>
+    </section>
   </div>
 </main>
 
@@ -70,7 +88,9 @@
   <div class="wrap">
     <p>We did not search any database. You will type your information on the official site.
     General information only — not legal advice. <a href="legal.html">Legal details</a>.</p>
+    <p class="built-line">Built in the open · Apache-2.0.</p>
   </div>
 </footer>
+<script src="js/site.js" defer></script>
 </body>
 </html>

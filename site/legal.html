@@ -6,70 +6,74 @@
 <title>Legal — TicketRouter</title>
 <meta name="description" content="What TicketRouter is and is not, in legal terms.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-serif-4@5/600.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/400.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap-wide">
-    <a class="wordmark" href="index.html">TicketRouter</a>
+    <a class="wordmark" href="index.html"><span class="brand-mark" aria-hidden="true"></span>TicketRouter</a>
     <nav class="site-nav" aria-label="Main">
       <a href="check.html">Start a check</a>
       <a href="map.html">Map</a>
       <a href="vin.html">VIN &amp; plate</a>
       <a href="learn.html">How to handle it</a>
-      <a href="legal.html">Legal</a>
+      <a href="legal.html" aria-current="page">Legal</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
   <div class="wrap">
-    <p class="kicker">The fine print, in plain English</p>
-    <h1>Legal</h1>
+    <div class="page-head">
+      <p class="kicker hero-el" style="--d:0ms">The fine print, in plain English</p>
+      <h1 class="display hero-el" style="--d:90ms">Legal</h1>
+    </div>
 
-    <h2>Not legal advice</h2>
-    <p>Everything on this site is general information. Nothing here tells you what
-    to do about your ticket, whether to contest it, or how it affects your
-    insurance. For your situation, contact the court clerk or a licensed attorney.</p>
+    <div class="doc" data-reveal>
+      <h2>Not legal advice</h2>
+      <p>Everything on this site is general information. Nothing here tells you what
+      to do about your ticket, whether to contest it, or how it affects your
+      insurance. For your situation, contact the court clerk or a licensed attorney.</p>
 
-    <h2>Not a consumer report</h2>
-    <p>This is not a consumer report and may not be used for employment, housing,
-    credit, or insurance. We assemble no files on any person and serve no third
-    parties — the site works the same for everyone and remembers no one.</p>
+      <h2>Not a consumer report</h2>
+      <p>This is not a consumer report and may not be used for employment, housing,
+      credit, or insurance. We assemble no files on any person and serve no third
+      parties — the site works the same for everyone and remembers no one.</p>
 
-    <h2>We do not pull driving records</h2>
-    <p>We link to each state's DMV official own-record request page. We never
-    request, receive, or store anyone's motor vehicle record. The federal
-    Driver's Privacy Protection Act and state motor-vehicle privacy laws (such
-    as Nebraska's Uniform Motor Vehicle Records Disclosure Act) restrict who
-    may obtain those records and why; requesting your own record is a permitted
-    use, and the official page explains the rules.</p>
+      <h2>We do not pull driving records</h2>
+      <p>We link to each state's DMV official own-record request page. We never
+      request, receive, or store anyone's motor vehicle record. The federal
+      Driver's Privacy Protection Act and state motor-vehicle privacy laws (such
+      as Nebraska's Uniform Motor Vehicle Records Disclosure Act) restrict who
+      may obtain those records and why; requesting your own record is a permitted
+      use, and the official page explains the rules.</p>
 
-    <h2>We hold no personal data</h2>
-    <p>There is nowhere on this site to type a driver's license number, name, date
-    of birth, plate, VIN, or title. We keep no accounts, no databases, and no
-    analytics of who looked up what. There is nothing to breach, subpoena, or delete.</p>
+      <h2>We hold no personal data</h2>
+      <p>There is nowhere on this site to type a driver's license number, name, date
+      of birth, plate, VIN, or title. We keep no accounts, no databases, and no
+      analytics of who looked up what. There is nothing to breach, subpoena, or delete.</p>
 
-    <h2>Self-check only</h2>
-    <p>This tool is designed for checking your own situation. It is not a
-    people-search product and must not be used to look into other people.</p>
+      <h2>Self-check only</h2>
+      <p>This tool is designed for checking your own situation. It is not a
+      people-search product and must not be used to look into other people.</p>
 
-    <h2>Official sources change</h2>
-    <p>Court and DMV pages move. Every routed link carries a last-verified date,
-    and automated checks run on every change. If a link is wrong, the entry is
-    flagged, then disabled — a wrong confident link is worse than no link.</p>
+      <h2>Official sources change</h2>
+      <p>Court and DMV pages move. Every routed link carries a last-verified date,
+      and automated checks run on every change. If a link is wrong, the entry is
+      flagged, then disabled — a wrong confident link is worse than no link.</p>
+    </div>
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
     <p>Open source under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</p>
+    <p class="built-line">Built in the open · Apache-2.0.</p>
   </div>
 </footer>
+<script src="js/site.js" defer></script>
 </body>
 </html>
