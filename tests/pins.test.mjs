@@ -121,4 +121,9 @@ test('map page + script contract', () => {
     'on any zoom-changing call in maplibre-gl 5.24.0; maxBounds alone already keeps the map US-only');
   assert.ok(js.includes('US_CONTINENTAL_BOUNDS') && js.includes('fitBounds'),
     'map.js must open fit to the continental US');
+  assert.ok(js.includes('skipNextMoveend'),
+    'map.js must skip rendering pins on the initial programmatic camera settle, ' +
+    'so the default view opens clean instead of wall-to-wall with cluster bubbles');
+  assert.ok(js.includes('buildJump') && js.includes('STATES_MANIFEST_URL'),
+    'map.js must offer a jump-to-state/county control as a guided way to narrow the view');
 });

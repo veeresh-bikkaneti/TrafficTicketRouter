@@ -25,8 +25,16 @@
 // are grouped into screen-space grid clusters (count bubbles) so the map never
 // mounts thousands of DOM markers at once; above that zoom, individual pins
 // render for whatever is in the current viewport, capped at MAX_MARKERS.
+//
+// Clean default view: the national overview otherwise tiles wall-to-wall with
+// cluster bubbles the moment the map opens, which reads as noise rather than
+// a starting point. So the very first camera settle (the programmatic
+// fitBounds to the continental US on load) renders nothing; a jump-to-state/
+// county control and the courthouse search box are the intended way in, and
+// any pan/zoom past that point (manual or programmatic) renders normally.
 
 const PINS_MANIFEST_URL = 'data/pins-manifest.json';
+const STATES_MANIFEST_URL = 'data/states-manifest.json';
 const MAX_MARKERS = 500;
 const FALLBACK_LIST_CAP = 100;
 const CLUSTER_ZOOM = 10.5;
@@ -363,6 +371,85 @@ function buildSearch(pins, onPick) {
   return wrap;
 }
 
+// Bounding box of a set of pins, as [[west, south], [east, north]] for
+// map.fitBounds. A single pin (or a tight cluster) collapses to a point —
+// callers pad/clamp the zoom rather than fitBounds a zero-size box.
+function boundsOf(pins) {
+  let minLat = Infinity, maxLat = -Infinity, minLng = Infinity, maxLng = -Infinity;
+  for (const p of pins) {
+    minLat = Math.min(minLat, p.lat); maxLat = Math.max(maxLat, p.lat);
+    minLng = Math.min(minLng, p.lng); maxLng = Math.max(maxLng, p.lng);
+  }
+  return [[minLng, minLat], [maxLng, maxLat]];
+}
+
+// ---------- jump to state / county ----------
+// A guided narrow-down for anyone who'd rather pick their state (then county)
+// than hunt through the national cluster view. Native <select>s: state lists
+// stay short, but a few states have 100+ counties with pins, and a native
+// select handles that (scrolling, type-ahead-to-jump) for free.
+function buildJump(pins, statesManifest, onZoomTo) {
+  const wrap = document.createElement('div');
+  wrap.className = 'map-jump';
+
+  const stateNames = new Map((statesManifest || []).map((s) => [s.code, s.name]));
+  const byState = new Map();
+  for (const p of pins) {
+    if (!byState.has(p.state)) byState.set(p.state, []);
+    byState.get(p.state).push(p);
+  }
+  const stateCodes = [...byState.keys()].sort((a, b) =>
+    (stateNames.get(a) || a).localeCompare(stateNames.get(b) || b));
+
+  const stateSel = document.createElement('select');
+  stateSel.className = 'map-jump-select';
+  stateSel.setAttribute('aria-label', 'Jump to a state');
+  stateSel.append(new Option('Jump to a state…', ''));
+  for (const code of stateCodes) {
+    stateSel.append(new Option(stateNames.get(code) || code, code));
+  }
+
+  const countySel = document.createElement('select');
+  countySel.className = 'map-jump-select';
+  countySel.setAttribute('aria-label', 'Jump to a county');
+  countySel.disabled = true;
+  countySel.append(new Option('Choose a state first…', ''));
+
+  function fillCounties(code) {
+    countySel.textContent = '';
+    if (!code) {
+      countySel.disabled = true;
+      countySel.append(new Option('Choose a state first…', ''));
+      return;
+    }
+    const statePins = byState.get(code) || [];
+    const counties = [...new Set(statePins.map((p) => p.county))].sort();
+    countySel.disabled = counties.length === 0;
+    countySel.append(new Option(`All of ${stateNames.get(code) || code}`, ''));
+    for (const county of counties) countySel.append(new Option(county, county));
+  }
+
+  stateSel.addEventListener('change', () => {
+    const code = stateSel.value;
+    fillCounties(code);
+    if (!code) return;
+    const statePins = byState.get(code) || [];
+    onZoomTo(statePins, `${stateNames.get(code) || code} (statewide)`);
+  });
+
+  countySel.addEventListener('change', () => {
+    const code = stateSel.value;
+    const county = countySel.value;
+    if (!code) return;
+    const statePins = byState.get(code) || [];
+    const target = county ? statePins.filter((p) => p.county === county) : statePins;
+    onZoomTo(target, county ? `${county}, ${code}` : `${stateNames.get(code) || code} (statewide)`);
+  });
+
+  wrap.append(stateSel, countySel);
+  return wrap;
+}
+
 async function loadPins() {
   const res = await fetch(PINS_MANIFEST_URL);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -415,6 +502,13 @@ async function init() {
     showFallback('No courthouse pins are available yet.');
     return;
   }
+  // Full state names for the jump-to control; non-fatal if this fails — the
+  // control still works, falling back to two-letter codes as labels.
+  let statesManifest = null;
+  try {
+    const r = await fetch(STATES_MANIFEST_URL);
+    if (r.ok) statesManifest = await r.json();
+  } catch { /* fall back to state codes as labels */ }
 
   const points = dedupe(rawPins);
   const reduceMotion = window.matchMedia &&
@@ -493,11 +587,7 @@ async function init() {
       .addTo(map);
     mounted.push(marker);
     el.addEventListener('click', () => {
-      let minLat = Infinity, maxLat = -Infinity, minLng = Infinity, maxLng = -Infinity;
-      for (const p of cellPoints) {
-        minLat = Math.min(minLat, p.lat); maxLat = Math.max(maxLat, p.lat);
-        minLng = Math.min(minLng, p.lng); maxLng = Math.max(maxLng, p.lng);
-      }
+      const [[minLng, minLat], [maxLng, maxLat]] = boundsOf(cellPoints);
       const spreadLat = maxLat - minLat, spreadLng = maxLng - minLng;
       // Tight group (all effectively at one screen point): step in with an
       // ease. Spread group: fit its bounds so every pin becomes reachable.
@@ -573,6 +663,9 @@ async function init() {
     }
   }
 
+  const panel = document.createElement('div');
+  panel.className = 'map-panel';
+
   const searchBox = buildSearch(rawPins, (pin) => {
     map.stop();
     map.flyTo({ center: [pin.lng, pin.lat], zoom: 14, essential: true });
@@ -580,13 +673,40 @@ async function init() {
       openPopupFor({ lat: pin.lat, lng: pin.lng, pins: [pin] }, `${pin.lat},${pin.lng}`, true);
     });
   });
-  mapEl.appendChild(searchBox);
 
+  // Zoom to a state's or a county's pins (from the jump-to control below).
+  // A single pin — or every pin sitting at effectively the same point —
+  // can't fitBounds a zero-size box, so it flies to a point instead.
+  function zoomToPins(targetPins, label) {
+    map.stop();
+    if (targetPins.length === 0) return;
+    countEl.textContent = `Zooming to ${label}…`;
+    const [[w, s], [e, n]] = boundsOf(targetPins);
+    if (targetPins.length === 1 || (Math.abs(e - w) < 0.001 && Math.abs(n - s) < 0.001)) {
+      map.flyTo({ center: [(w + e) / 2, (s + n) / 2], zoom: 13, essential: true });
+    } else {
+      map.fitBounds([[w, s], [e, n]], { padding: 60, maxZoom: 14 });
+    }
+  }
+  const jumpControl = buildJump(rawPins, statesManifest, zoomToPins);
+
+  panel.append(searchBox, jumpControl);
+  mapEl.appendChild(panel);
+
+  // The default view opens clean — no clusters covering the whole country —
+  // so the first thing anyone sees isn't a wall of numbers. Search, the
+  // jump-to control, or just panning/zooming manually all reveal pins from
+  // then on; only the very first (purely programmatic) camera settle after
+  // load is skipped.
+  let skipNextMoveend = true;
   map.on('load', () => {
     map.fitBounds(US_CONTINENTAL_BOUNDS, { padding: 24, duration: 0 });
+    countEl.textContent = 'Search a courthouse, or jump to a state below, to see pins — or pan and zoom in yourself.';
+  });
+  map.on('moveend', () => {
+    if (skipNextMoveend) { skipNextMoveend = false; return; }
     renderInView();
   });
-  map.on('moveend', renderInView);
   map.on('error', (e) => {
     // A single failed tile (edge coverage gap, one basemap host blocked by a
     // network filter, a transient 404) fires this per source/tile and must
