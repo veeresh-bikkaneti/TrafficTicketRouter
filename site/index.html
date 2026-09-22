@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/fraunces@5/index.css" integrity="sha384-UBknwUyCRagPAN9+nvtWtCb093nCPkOISFaGse71TTL3t2t0EqJ9O1m1TVvmH68a" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5/index.css" integrity="sha384-ZTIcl2CmY0wyM9ANOhomBco7rEUIlWztf6lGcLKCocKUrIgGCsfisuZyE+hadW8K" crossorigin="anonymous">
 <link rel="stylesheet" href="css/app.css">
+<!-- The quick-start needs JS to load the state list; without it, "Start a check" is the way in. -->
+<noscript><style>.quickstart { display: none; }</style></noscript>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -26,23 +28,39 @@
 </header>
 
 <main id="main">
-  <div class="wrap">
-    <section class="hero">
-      <p class="kicker hero-el" style="--d:0ms">Open source · All 50 states</p>
-      <h1 class="display">
-        <span class="line"><span class="line-in" style="--d:90ms">We do not search tickets.</span></span>
-        <span class="line"><span class="line-in" style="--d:180ms">We show you the official page.</span></span>
-      </h1>
-      <p class="lede hero-el" style="--d:270ms">There is no national ticket database. Every state keeps moving-violation
-      records in its own courts and DMV. TicketRouter is a maintained directory of the
-      <strong>official</strong> pages — court case search, citation payment, county courts,
-      driving records, self-help — so you knock on the right door.</p>
-      <div class="btn-row hero-el" style="--d:350ms">
-        <a class="btn" href="check.html">Start a check <span class="ext arr-right" aria-hidden="true">→</span></a>
-        <a class="btn btn-secondary" href="vin.html">I only have a VIN or plate</a>
-      </div>
-    </section>
+  <div class="hero-stage">
+    <!-- Decorative road + route backdrop; hero.js injects the SVG. -->
+    <div class="hero-backdrop" aria-hidden="true"></div>
+    <div class="wrap">
+      <section class="hero">
+        <p class="kicker hero-el" style="--d:0ms">Open source · All 50 states</p>
+        <h1 class="display">
+          <span class="line"><span class="line-in" style="--d:90ms">We do not search tickets.</span></span>
+          <span class="line"><span class="line-in" style="--d:180ms">We show you the official page.</span></span>
+        </h1>
+        <p class="lede hero-el" style="--d:270ms">There is no national ticket database. Every state keeps moving-violation
+        records in its own courts and DMV. TicketRouter is a maintained directory of the
+        <strong>official</strong> pages — court case search, citation payment, county courts,
+        driving records, self-help — so you knock on the right door.</p>
+        <form class="quickstart hero-el" style="--d:350ms" action="check.html" method="get" id="quickstart">
+          <label class="quickstart-label" for="qs-state">Where were you stopped?</label>
+          <div class="quickstart-row">
+            <select id="qs-state" name="state" required disabled aria-describedby="qs-hint">
+              <option value="">Loading states…</option>
+            </select>
+            <button class="btn quickstart-go" type="submit" disabled>Go <span class="ext arr-right" aria-hidden="true">→</span></button>
+          </div>
+          <p class="hint" id="qs-hint">Pick the state. Next you choose the county.</p>
+        </form>
+        <div class="btn-row hero-el" style="--d:420ms">
+          <a class="btn" id="hero-start" href="check.html">Start a check <span class="ext arr-right" aria-hidden="true">→</span></a>
+          <a class="btn btn-secondary" href="vin.html">I only have a VIN or plate</a>
+        </div>
+      </section>
+    </div>
+  </div>
 
+  <div class="wrap">
     <div class="stub" aria-hidden="true"><span class="stub-punch"></span><span class="stub-line"></span><span class="stub-punch"></span></div>
 
     <section class="trust" data-reveal aria-label="Coverage facts">
@@ -141,5 +159,6 @@
   </div>
 </footer>
 <script src="js/site.js" defer></script>
+<script type="module" src="js/hero.js"></script>
 </body>
 </html>
