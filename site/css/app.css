@@ -1750,6 +1750,30 @@ html.js [data-reveal].in {
   transform: none;
 }
 
+/* ---------- page transitions (cross-document) ---------- */
+/* A native browser feature, no JS: opting every same-origin navigation into
+   this via @view-transition makes the browser itself cross-fade the old and
+   new page, which we retheme into a brief directional slide-through — the
+   same left-to-right sense of travel as the hero's eastbound traffic.
+   Browsers that don't yet support cross-document view transitions (most,
+   as of writing) simply ignore this at-rule and navigate exactly as before:
+   nothing here can block a navigation or leave a page stuck mid-transition. */
+@view-transition {
+  navigation: auto;
+}
+::view-transition-old(root) {
+  animation: ttr-page-out 320ms var(--ease) both;
+}
+::view-transition-new(root) {
+  animation: ttr-page-in 320ms var(--ease) both;
+}
+@keyframes ttr-page-out {
+  to { opacity: 0; transform: translateX(-2.5%); }
+}
+@keyframes ttr-page-in {
+  from { opacity: 0; transform: translateX(2.5%); }
+}
+
 /* ---------- motion preferences ---------- */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1764,6 +1788,12 @@ html.js [data-reveal].in {
   .line-in, .hero-el { animation: none; }
   /* ambient backdrop: a still picture — road, fully drawn route, pin */
   .hero-backdrop, .hero-backdrop * { animation: none !important; }
+  /* view-transition pseudo-elements live outside the document tree, so the
+     universal *, *::before, *::after rule above never reaches them —
+     disable them explicitly instead. */
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
+    animation: none !important;
+  }
 }
 
 /* ---------- print ---------- */
