@@ -2448,3 +2448,24 @@ cards:
     for_counties:
       - "*"
     weight: 20
+
+  - id: nc-driver-improvement-clinic-dmv
+    verification: unverified
+    verification_note: "Candidate found via web search on 2026-09-23; not yet human-verified against the live official page in this build (no page-fetch access in this session). Treat as a research lead, not a confirmed link -- flip to link_ok only after loading the page and checking it live."
+    source_url: "https://www.ncdot.gov/dmv/license-id/license-suspension/Documents/2026-driver-clinics-schedule.pdf"
+    last_verified: "2026-09-23"
+    kind: driving_school
+    agency: "N.C. DMV -- Driver Improvement Clinics"
+    contact: "See the official page."
+    accepted_keys: "See the official page for eligibility and how to enroll."
+    cost: "Course fee varies by provider -- see the official page for current pricing."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Unverified: this is a research candidate, not yet confirmed live -- do not treat as checked."
+      - "Registration goes through the DMV's central School Bus & Traffic Safety Section, not the clinic location directly, per the official schedule document."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 35

@@ -4,6 +4,7 @@ state: WA
 state_name: Washington
 last_verified: "2026-09-21"
 official_hosts:
+  - dol.wa.gov # unverified candidate (driving_school/dmv_exam_prep card) -- pending human confirmation
   - courts.wa.gov
 counties:
   - name: Adams
@@ -786,3 +787,24 @@ cards:
     for_counties:
       - Yakima
     weight: 10
+
+  - id: wa-approved-driver-training-dol
+    verification: unverified
+    verification_note: "Candidate found via web search on 2026-09-23; not yet human-verified against the live official page in this build (no page-fetch access in this session). Treat as a research lead, not a confirmed link -- flip to link_ok only after loading the page and checking it live."
+    source_url: "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/approved-driver-training-schools"
+    last_verified: "2026-09-23"
+    kind: driving_school
+    agency: "Washington State Department of Licensing -- approved driver training schools"
+    contact: "See the official page."
+    accepted_keys: "See the official page for eligibility and how to enroll."
+    cost: "Course fee varies by provider -- see the official page for current pricing."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Unverified: this is a research candidate, not yet confirmed live -- do not treat as checked."
+      - "Washington does not dismiss tickets through this program -- you must contact the local court before your appearance date to ask about deferring a citation through a course."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 35
