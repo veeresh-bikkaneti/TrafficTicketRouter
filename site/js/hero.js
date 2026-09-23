@@ -85,10 +85,13 @@ const BACKDROP_SVG = `<svg xmlns="http://www.w3.org/2000/svg" class="hb" width="
     <g class="hb-lane"><path d="M-100 -37 H3000" stroke-dasharray="28 52"/></g>
     <rect class="hb-car hb-car-a" x="-40" y="-30" width="30" height="9" rx="4.5"/>
     <rect class="hb-car hb-car-c" x="-20" y="-31" width="16" height="8" rx="4"/>
+    <rect class="hb-car hb-car-e" x="-15" y="-29" width="11" height="5" rx="2.5"/>
+    <rect class="hb-car hb-car-f" x="-60" y="-32" width="34" height="13" rx="2"/>
   </svg>
   <svg x="100%" y="100%" overflow="visible">
     <rect class="hb-car hb-car-b" x="10" y="-53" width="26" height="9" rx="4.5"/>
     <rect class="hb-car hb-car-d" x="60" y="-54" width="36" height="10" rx="3"/>
+    <rect class="hb-car hb-car-g" x="35" y="-52" width="28" height="10" rx="2.5"/>
     <g class="hb-signal" transform="translate(-352,-60)">
       <rect class="hb-signal-pole" x="-1.5" y="-34" width="3" height="34"/>
       <rect class="hb-signal-box" x="-7.5" y="-47" width="15" height="19" rx="3"/>
