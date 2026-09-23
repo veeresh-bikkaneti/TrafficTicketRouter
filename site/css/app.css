@@ -418,39 +418,57 @@ img, svg { max-width: 100%; }
 .hero-backdrop .hb { display: block; width: 100%; height: 100%; max-width: none; }
 @keyframes hb-fade-in { from { opacity: 0; } to { opacity: 1; } }
 
-.hb-road-bed { fill: var(--paper-sunken); opacity: 0.35; }
-.hb-road-edge { fill: none; stroke: var(--hairline); stroke-width: 2; }
-.hb-lane path { fill: none; stroke: var(--ink-faint); stroke-width: 2.5; stroke-linecap: round; opacity: 0.4; }
+/* painted asphalt — a fixed dark tone in both themes (real pavement doesn't
+   turn pale in light mode), kept legible against dark-mode's near-black
+   paper the same way it reads against the light-mode cream. */
+.hb-road-bed { fill: #43494f; opacity: 0.6; }
+.hb-road-edge { fill: none; stroke: #e9e6dc; stroke-width: 2; opacity: 0.5; }
+.hb-lane path { fill: none; stroke: #e0b23a; stroke-width: 2.5; stroke-linecap: round; opacity: 0.55; }
 .hb-lane { animation: hb-lane-drift 3.2s linear infinite; }
 @keyframes hb-lane-drift { to { transform: translateX(-80px); } } /* one dash period: seamless */
 
-/* passing traffic: a mixed stream each way (sedans, a motorcycle, a pickup,
-   a delivery van), each its own speed/size/delay so they never move in
-   lockstep or pass at the same moment. */
-.hb-car { fill: var(--ink-faint); opacity: 0; }
+/* passing traffic: top-down sprites (a colored body, a lighter windshield,
+   a soft shadow) in a mixed stream each way — sedans, a motorcycle, a
+   pickup, a delivery van, and a cruiser — each its own speed/size/delay so
+   they never move in lockstep or pass at the same moment. */
+.hb-car { opacity: 0; }
+.hb-car-shadow { fill: #14120e; opacity: 0.2; }
+.hb-car-glass { fill: #bcd4e0; }
+.hb-body-red { fill: #d6483d; }
+.hb-body-blue { fill: #3a7cc4; }
+.hb-body-amber { fill: #d99a2b; }
+.hb-body-slate { fill: #6b7580; }
+.hb-body-cruiser { fill: #d7dde1; }
+.hb-lightbar { opacity: 0.85; }
+.hb-lightbar-red { fill: #d6483d; }
+.hb-lightbar-blue { fill: #3a7cc4; }
+.hb-indicator { fill: var(--warn); opacity: 0.2; }
 .hb-car-a { animation: hb-car-east 14s linear infinite; }
 .hb-car-c { animation: hb-car-east 11s linear -3s infinite; }     /* quicker, trails car-a */
 .hb-car-b { animation: hb-car-west 19s linear -8s infinite; }
-.hb-car-d { animation: hb-car-west 23s linear -14s infinite; }    /* slower, wider — a truck */
+.hb-car-d { animation: hb-car-west 23s linear -14s infinite; }    /* a cruiser, on patrol */
 .hb-car-e { animation: hb-car-east 7s linear -1s infinite; }      /* fast, narrow — a motorcycle */
 .hb-car-f { animation: hb-car-east 26s linear -18s infinite; }    /* slow, boxy — a delivery van */
 .hb-car-g { animation: hb-car-west 16s linear -5s infinite; }     /* a pickup */
 @keyframes hb-car-east {
   0% { transform: translateX(0); opacity: 0; }
-  5%, 95% { opacity: 0.32; }
+  5%, 95% { opacity: 0.55; }
   100% { transform: translateX(1500px); opacity: 0; }
 }
 @keyframes hb-car-west {
   0% { transform: translateX(0); opacity: 0; }
-  5%, 95% { opacity: 0.32; }
+  5%, 95% { opacity: 0.55; }
   100% { transform: translateX(-1500px); opacity: 0; }
 }
 
 /* traffic light at the roadside stop — thematically the moment of the stop,
    right where the route begins its climb to the official door. A hard
-   steps(1) switch, like a real signal, not a cross-fade. */
+   steps(1) switch, like a real signal, not a cross-fade. Mast-arm: the pole
+   plants at the curb, the arm reaches out over the lane, the head hangs
+   from the arm's end. */
 .hb-signal-pole { fill: var(--ink-faint); opacity: 0.35; }
-.hb-signal-box { fill: var(--paper-sunken); stroke: var(--hairline); stroke-width: 1.5; opacity: 0.55; }
+.hb-signal-arm { fill: var(--ink-faint); opacity: 0.35; }
+.hb-signal-box { fill: #2a2e33; stroke: var(--hairline); stroke-width: 1.5; opacity: 0.7; }
 .hb-signal-light { opacity: 0.15; }
 .hb-signal-red { fill: #b3483f; animation: hb-sig-red 9s steps(1) infinite; }
 .hb-signal-yellow { fill: var(--warn); animation: hb-sig-yellow 9s steps(1) infinite; }
@@ -494,8 +512,19 @@ img, svg { max-width: 100%; }
   96%, 100% { opacity: 0; }
 }
 
-.hb-origin { fill: var(--ink-soft); opacity: 0.5; }
-.hb-origin-ring { fill: none; stroke: var(--ink-faint); stroke-width: 1.5; opacity: 0.5; }
+/* the roundabout the route rises from — a small ring + grass island, its
+   four stub spokes standing in for the site's four routes without trying
+   to letter labels at this scale. */
+.hb-roundabout-ring { fill: none; stroke: var(--ink-faint); stroke-width: 6; opacity: 0.4; }
+.hb-roundabout-island { fill: #6fae4e; opacity: 0.4; }
+.hb-roundabout-spoke { stroke: var(--ink-faint); stroke-width: 2; opacity: 0.4; }
+
+.hb-crosswalk rect { fill: #e9e6dc; opacity: 0.35; }
+.hb-pedestrian-head, .hb-pedestrian-body { fill: var(--ink-soft); opacity: 0.4; }
+
+/* the painted line the traffic yields at — invisible until a click asks the
+   road to pause; see initYield() in hero.js. */
+.hb-yield-line { fill: #e0b23a; opacity: 0; }
 
 .hb-pin { fill: var(--ink-soft); opacity: 0.5; }
 .hb-pin-dot { fill: var(--paper); }
@@ -514,6 +543,16 @@ img, svg { max-width: 100%; }
 
 .hero-backdrop.is-paused,
 .hero-backdrop.is-paused * { animation-play-state: paused; }
+
+/* yield & flow: a click on the hero's own controls asks the road to pause
+   for a beat (see YIELD_DELAY_MS in hero.js) before the real navigation —
+   the yield line appears, the lead car's indicator blinks fast. */
+.hero-backdrop.is-yielding .hb-yield-line { opacity: 0.85; transition: opacity 120ms ease; }
+.hero-backdrop.is-yielding .hb-car-a .hb-indicator { animation: hb-indicator-blink 260ms steps(1) infinite; }
+@keyframes hb-indicator-blink {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
 
 /* Narrow screens have no gutter beside the text: the route and pin would sit
    behind the headline, so keep only the road and its traffic. */

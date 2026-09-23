@@ -10,7 +10,8 @@ import { STATE_BOUNDS } from './state-bounds.mjs';
 // than this list on purpose. See router.js for the router side.
 const INTENTS = ['lost_paper', 'history', 'handle_it'];
 const VERIFICATIONS = ['unverified', 'link_ok', 'keys_documented', 'handoff_tested', 'disabled'];
-const KINDS = ['statewide_cms', 'pay_portal', 'county_court', 'dmv', 'self_help', 'guidance'];
+const KINDS = ['statewide_cms', 'pay_portal', 'county_court', 'dmv', 'self_help', 'guidance',
+  'driving_school', 'dmv_exam_prep'];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const JUSTICE_COST_NOTES = 'confirm fee on the terms page; $17 as of 2026-09-20';
 

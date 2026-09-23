@@ -4,6 +4,7 @@ state: MI
 state_name: Michigan
 last_verified: "2026-09-21"
 official_hosts:
+  - michigan.gov # unverified candidate (driving_school/dmv_exam_prep card) -- pending human confirmation
   - 37thdistrictcourt.org
   - alconacountymi.com
   - algercounty.gov
@@ -1791,3 +1792,46 @@ cards:
     for_counties:
       - Wexford
     weight: 80
+
+  - id: mi-basic-driver-improvement-sos
+    verification: unverified
+    verification_note: "Candidate found via web search on 2026-09-23; not yet human-verified against the live official page in this build (no page-fetch access in this session). Treat as a research lead, not a confirmed link -- flip to link_ok only after loading the page and checking it live."
+    source_url: "https://www.michigan.gov/sos/license-id/bdic"
+    last_verified: "2026-09-23"
+    kind: driving_school
+    agency: "Michigan Secretary of State -- Basic Driver Improvement Course (BDIC)"
+    contact: "See the official page."
+    accepted_keys: "See the official page for eligibility and how to enroll."
+    cost: "Course fee varies by provider -- see the official page for current pricing."
+    cost_free: false
+    lag: null
+    limitations:
+      - "Unverified: this is a research candidate, not yet confirmed live -- do not treat as checked."
+      - "The Secretary of State determines and notifies who is eligible -- you cannot self-enroll without that notice, per the official program description."
+    for_intents:
+      - lost_paper
+    for_counties:
+      - "*"
+    weight: 35
+
+  - id: mi-new-drivers-knowledge-test-sos
+    verification: unverified
+    verification_note: "Candidate found via web search on 2026-09-23; not yet human-verified against the live official page in this build (no page-fetch access in this session). Treat as a research lead, not a confirmed link -- flip to link_ok only after loading the page and checking it live."
+    source_url: "https://www.michigan.gov/sos/license-id/new-drivers-18-older"
+    last_verified: "2026-09-23"
+    kind: dmv_exam_prep
+    agency: "Michigan Secretary of State -- new drivers 18 and older (knowledge test information)"
+    contact: "See the official page."
+    accepted_keys: "See the official page for eligibility and how to enroll."
+    cost: "No cost to access this official information page."
+    cost_free: true
+    lag: null
+    limitations:
+      - "Unverified: this is a research candidate, not yet confirmed live -- do not treat as checked."
+      - "Michigan's knowledge test can be taken online through the state's own testing platform or in person at an SOS office -- see the official page for current options."
+      - "A separate charge may apply for the actual knowledge test depending on how and where you take it -- this page is about test information, not a fee schedule."
+    for_intents:
+      - handle_it
+    for_counties:
+      - "*"
+    weight: 45

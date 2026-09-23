@@ -12,6 +12,8 @@ const KIND_LABELS = {
   dmv: 'DMV driving record',
   self_help: 'Self-help',
   guidance: 'Guidance',
+  driving_school: 'Defensive driving / traffic school',
+  dmv_exam_prep: 'DMV exam prep',
 };
 
 // Cards start their stagger just after the heading lands and the ROUTED
@@ -299,6 +301,12 @@ function gapBody(q, data, statewide) {
   } else {
     steps.push(`Call or visit the court for ${here}. Traffic cases live in the county court of the county ` +
       'where the stop happened, and the clerk can look up a citation for you.');
+    // Broadly true regardless of state or verified data: most courts offer
+    // some form of driver-safety-course option for eligible citations, and
+    // only the clerk can say whether yours qualifies. See driving_school
+    // cards for verified per-state programs where we have one.
+    steps.push('Many courts let you take a defensive-driving or driver-safety course to have an eligible ' +
+      'citation dismissed instead of paying it — ask the clerk whether that applies to yours.');
   }
   if (countyInfo && countyInfo.note && q.intent !== 'history') {
     steps.push(`Local note: ${countyInfo.note}`);
@@ -316,8 +324,13 @@ function gapBody(q, data, statewide) {
     });
     actions.append(btn);
   }
-  actions.append(h('a', { class: 'btn btn-secondary', href: 'learn.html' },
-    'General how-to-handle-it info (Nebraska guide)'));
+  // The general how-to-handle-it guide only covers Nebraska so far (see
+  // learn.html) — showing it for every other state would point people at
+  // guidance that isn't theirs, so it only appears when it actually applies.
+  if (q.state === 'NE') {
+    actions.append(h('a', { class: 'btn btn-secondary', href: 'learn.html' },
+      'General how-to-handle-it info (Nebraska guide)'));
+  }
 
   return [
     warnNotice(
