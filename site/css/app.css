@@ -424,13 +424,17 @@ img, svg { max-width: 100%; }
 .hb-lane { animation: hb-lane-drift 3.2s linear infinite; }
 @keyframes hb-lane-drift { to { transform: translateX(-80px); } } /* one dash period: seamless */
 
-/* passing traffic: two cars each way, each its own speed/size/delay so they
-   never move in lockstep or pass at the same moment. */
+/* passing traffic: a mixed stream each way (sedans, a motorcycle, a pickup,
+   a delivery van), each its own speed/size/delay so they never move in
+   lockstep or pass at the same moment. */
 .hb-car { fill: var(--ink-faint); opacity: 0; }
 .hb-car-a { animation: hb-car-east 14s linear infinite; }
 .hb-car-c { animation: hb-car-east 11s linear -3s infinite; }     /* quicker, trails car-a */
 .hb-car-b { animation: hb-car-west 19s linear -8s infinite; }
 .hb-car-d { animation: hb-car-west 23s linear -14s infinite; }    /* slower, wider — a truck */
+.hb-car-e { animation: hb-car-east 7s linear -1s infinite; }      /* fast, narrow — a motorcycle */
+.hb-car-f { animation: hb-car-east 26s linear -18s infinite; }    /* slow, boxy — a delivery van */
+.hb-car-g { animation: hb-car-west 16s linear -5s infinite; }     /* a pickup */
 @keyframes hb-car-east {
   0% { transform: translateX(0); opacity: 0; }
   5%, 95% { opacity: 0.32; }
